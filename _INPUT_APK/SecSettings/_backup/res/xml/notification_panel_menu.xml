@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_panel_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceScreen android:title="@string/notification_manager_panel_title" android:key="notification_manager" android:summary="@string/notification_manager_panel_summary" android:fragment="com.android.settings.applications.ManageNotification" />
+    <CheckBoxPreference android:title="@string/bright_adjustment_panel_title" android:key="brightness_adjustment" />
+    <SwitchPreferenceScreen android:title="@string/recommended_apps" android:key="recommended_apps" android:summary="@string/recommended_apps_summary" android:fragment="com.android.settings.RecommendedAppsMenu" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/recommended_apps" android:key="recommended_apps_phone" android:fragment="com.android.settings.RecommendedAppsMenu" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/toolbox" android:key="toolbox" android:summary="@string/toolbox_summary" android:fragment="com.android.settings.toolbox.ToolboxMenu" />
+</PreferenceScreen>

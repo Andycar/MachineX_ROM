@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:visibility="gone" android:title="@string/wifi_free_wifi_scan_keep_connected_title" android:key="wifi_free_wifi_scan_keep_connected_switch" android:summary="@string/wifi_free_wifi_scan_keep_connected_summary" />
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_free_wifi_scan_open_network" android:key="connectable_ap" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.mirrorlink.UsbCheckBoxPreference android:persistent="false" android:title="@string/mirror_link_ncm_usb_tethering_title" android:key="ncm_usb_tether_settings" />
+    <PreferenceCategory android:layout="@layout/mirror_link_help_text" android:title="@string/mirror_link_applications_title" android:key="mirror_link_applications" />
+</PreferenceScreen>

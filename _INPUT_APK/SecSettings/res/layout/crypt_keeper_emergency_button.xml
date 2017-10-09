@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" style="@style/SecurityPreferenceButtonContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/emergencyCallButton" android:layout_width="fill_parent" style="@style/SecurityPreferenceButton"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

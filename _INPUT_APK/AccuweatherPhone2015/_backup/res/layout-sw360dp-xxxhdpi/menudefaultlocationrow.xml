@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radiobutton" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="75.0dip" android:layout_toStartOf="@id/radiobutton" android:layout_alignParentStart="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/currentlocationicon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_ic_list_location" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/list_text_city" android:ellipsize="end" android:id="@id/rowcitylistname" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="18.0dip" android:textColor="@color/list_text_state" android:ellipsize="end" android:id="@id/rowstatelistname" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

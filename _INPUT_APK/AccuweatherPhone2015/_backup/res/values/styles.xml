@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="DeviceDefaultNoTitle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="DeviceDefaultTitle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorPrimaryDark">@color/weather_color_primary_dark</item>
+    </style>
+    <style name="CustomActionBar" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/customActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/customActionOverflowButtonStyle</item>
+    </style>
+    <style name="customActionBarStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:displayOptions">showCustom</item>
+        <item name="android:customNavigationLayout">@layout/actionbar_title</item>
+    </style>
+    <style name="customActionOverflowButtonStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="TwSoftkeyItemStyle">
+        <item name="android:textAppearance">@style/TwTextAppearanceSoftkey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="TwTextAppearanceSoftkey">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_softkey</item>
+    </style>
+    <style name="TwTextAppearanceListOneLine">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listoneline</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolineprimary</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolinesecondary</item>
+    </style>
+    <style name="AccountingDialogTitle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="ActionBarCityListAndDelete" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/NoCloseButton</item>
+        <item name="android:actionBarDivider">@drawable/tw_divider_ab_holo_light</item>
+    </style>
+    <style name="NoCloseButton" parent="@android:style/Widget.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="DeviceDefaultNoTitleNoIndicator" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@drawable/detail_bg_sunny_mostly_sunny</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/NoCloseButton</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back_icon_tint</item>
+        <item name="android:actionBarDivider">@drawable/tw_divider_ab_holo_light</item>
+    </style>
+    <style name="DeviceDetails" parent="@style/DeviceDefaultNoTitleNoIndicator">
+        <item name="android:actionMenuTextColor">@color/col_70_FAFAFA</item>
+        <item name="android:colorEdgeEffect">@color/col_15_FAFAFA</item>
+    </style>
+    <style name="DeviceEnteringDetails" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@drawable/detail_bg_sunny_mostly_sunny</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back_icon_tint</item>
+        <item name="android:actionMenuTextColor">@color/col_70_FAFAFA</item>
+    </style>
+    <style name="DropDownListViewStyle" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+    <style name="DeviceDefaultNoIndicator" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

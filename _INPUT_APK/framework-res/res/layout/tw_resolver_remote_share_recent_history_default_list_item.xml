@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/activity_picker_bg" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingTop="13.0dip" android:paddingRight="0.0dip" android:paddingBottom="7.0dip" android:layout_width="108.0dip" android:layout_height="130.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:gravity="center" android:id="@id/tw_resolver_remote_share_recent_history_default_item_icon" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="fitCenter" />
+        <TextView android:textAppearance="?textAppearance" android:textSize="15.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/text2" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="96.0dip" android:layout_height="36.0dip" android:maxLines="2" android:minLines="2" />
+    </LinearLayout>
+    <TextView android:textAppearance="?textAppearance" android:textSize="15.0dip" android:ellipsize="end" android:gravity="center|left" android:id="@id/text1" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="114.0dip" android:layout_marginLeft="6.0dip" android:maxLines="4" android:minLines="2" />
+</LinearLayout>

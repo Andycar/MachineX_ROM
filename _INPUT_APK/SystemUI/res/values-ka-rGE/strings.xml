@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">კვების ელემენტი სავსეა %d პროცენტით.</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">აკრიფეთ PIN კოდი</string>
+    <string name="keyguard_password_enter_puk_code">დაბეჭდეთ SIM-ის PUK კოდი და ახალი PIN კოდი</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK კოდი</string>
+    <string name="keyguard_password_enter_pin_prompt">SIM-ის ახალი PIN-ის კოდი</string>
+    <string name="keyguard_password_entry_touch_hint">შეეხეთ <font size="17">-ს პაროლის</font> დასაბეჭდად.</string>
+    <string name="keyguard_password_enter_password_code">განსაბლოკად აკრიფეთ პაროლი</string>
+    <string name="keyguard_password_enter_pin_password_code">განსაბლოკად აკრიფეთ PIN კოდი</string>
+    <string name="keyguard_password_wrong_pin_code">არასწორი PIN კოდი.</string>
+    <string name="keyguard_label_text">განბლოკვისათვის დააჭირეთ მენიუს და შემდეგ 0-ს.</string>
+    <string name="faceunlock_multiple_failures">სახის ამოცნობით განბლოკვის მცდელობამ დაშვებულ რაოდენობას გადააჭარბა</string>
+    <string name="keyguard_charged">დამუხტულია</string>
+    <string name="keyguard_plugged_in">მიმდინარეობს დატენვა</string>
+    <string name="keyguard_low_battery">შეაერთეთ დამტენი.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">განბლოკვისთვის დააჭირეთ მენიუს.</string>
+    <string name="keyguard_network_locked_message">ქსელი ჩაკეტილია</string>
+    <string name="keyguard_missing_sim_message_short">SIM ბარათი არ არის</string>
+    <string name="keyguard_missing_sim_message">არ არის SIM ბარათი ტელეფონში.</string>
+    <string name="keyguard_missing_sim_instructions">ჩადეთ SIM ბარათი.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM ბარათი არ არის ან არ იკითხება. ჩადეთ SIM ბარათი.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">არამოხმარებადი SIM ბარათი.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"თქვენი SIM ბარათი გამუდმებით გამორთული იყო.
+ დაუკავშირდით თქვენი უკაბელო სერვისის პროვაიდერს სხვა SIM ბარათისთვის."</string>
+    <string name="keyguard_sim_locked_message">SIM ბარათი დაბლოკილია.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM ბარათი დაბლოკილია PUK კოდით.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">მიმდინარეობს SIM ბარათის განბლოკვა…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. ვიჯეტი %2$d of %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">ვიჯეტის დამატება</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ცარიელი</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">განბლოკვის სივრცე გაშლილია.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">განბლოკვის სივრცე ჩაკეცილია.</string>
+    <string name="keyguard_accessibility_widget">%1$s ვიჯეტი.</string>
+    <string name="keyguard_accessibility_user_selector">მომხმარებლის ამომრჩეველი</string>
+    <string name="keyguard_accessibility_camera">კამერა</string>
+    <string name="keygaurd_accessibility_media_controls">მედიის მართვის ელემენტები</string>
+    <string name="keyguard_accessibility_widget_reorder_start">დაიწყო ვიჯეტის ხელახლა განლაგება.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">ვიჯეტების გადახარისხება დასრულებულია.</string>
+    <string name="keyguard_accessibility_widget_deleted">ვიჯეტი %1$s წაიშალა.</string>
+    <string name="keyguard_accessibility_expand_lock_area">განბლოკვის სივრცის გაშლა.</string>
+    <string name="keyguard_accessibility_slide_unlock">გასრიალებით განბლოკვა</string>
+    <string name="keyguard_accessibility_pattern_unlock">განბლოკვა ნიმუშით.</string>
+    <string name="keyguard_accessibility_face_unlock">განბლოკვა სახით</string>
+    <string name="keyguard_accessibility_pin_unlock">განბლოკვა Pin-ით.</string>
+    <string name="keyguard_accessibility_password_unlock">პაროლის განბლოკვა</string>
+    <string name="keyguard_accessibility_pattern_area">ნიმუშების სივრცე.</string>
+    <string name="keyguard_accessibility_slide_area">გადასრიალების სივრცე.</string>
+    <string name="keyguard_accessibility_transport_prev_description">წინა ჩანაწერის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_next_description">შემდეგი ჩანაწერის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_pause_description">პაუზის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_play_description">დაკვრის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_stop_description">Stop ღილაკი</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">ზევით აწეული ცერი</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">ქვევით დახრილი ცერი</string>
+    <string name="keyguard_accessibility_transport_heart_description">გული</string>
+    <string name="keyguard_accessibility_show_bouncer">განბლოკეთ გასაგრძელებლად</string>
+    <string name="keyguard_accessibility_hide_bouncer">გამოძახება გაუქმდა</string>
+    <string name="keyguard_accessibility_delete_widget_start">ჩააგდეთ %1$s წასაშლელად.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s არ წაიშლება.</string>
+    <string name="keyguard_accessibility_next_alarm">შემდეგი მაღვიძარა დაყენებულია %1$s-ზე</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">გაუქმება</string>
+    <string name="keyboardview_keycode_delete">წაშლა</string>
+    <string name="keyboardview_keycode_done">დასრულდა</string>
+    <string name="keyboardview_keycode_mode_change">რეჟიმის შეცვლა</string>
+    <string name="keyboardview_keycode_shift">Shift-</string>
+    <string name="keyboardview_keycode_enter">შეყვანა</string>
+    <string name="description_target_unlock">განბლოკვა</string>
+    <string name="description_target_camera">კამერა</string>
+    <string name="description_target_silent">უხმო</string>
+    <string name="description_target_soundon">ხმის ჩართვა</string>
+    <string name="description_target_search">ძიება</string>
+    <string name="description_direction_up">გაასრიალეთ ზემოთ %s-თვის.</string>
+    <string name="description_direction_down">გაასრიალეთ ქვემოთ %s-თვის.</string>
+    <string name="description_direction_left">გაასრიალეთ მარცხნივ %s-თვის.</string>
+    <string name="description_direction_right">გაასრიალეთ მარჯვნივ %s-თვის.</string>
+    <string name="user_switched">ამჟამინდელი მომხმარებელი %1$s.</string>
+    <string name="kg_emergency_call_label">გადაუდებელი დახმარების ზარი</string>
+    <string name="kg_forgot_pattern_button_text">დაგავიწყდათ ნიმუში</string>
+    <string name="kg_wrong_pattern">არასწორი ნიმუში</string>
+    <string name="kg_wrong_password">არასწორი პაროლი</string>
+    <string name="kg_wrong_pin">არასწორი PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">კიდევ სცადეთ %d წამში.</string>
+    <string name="kg_pattern_instructions">დახატეთ თქვენი ნიმუში.</string>
+    <string name="kg_sim_pin_instructions">SIM PIN-ის შეყვანა</string>
+    <string name="kg_pin_instructions">შეიყვანეთ PIN</string>
+    <string name="kg_password_instructions">პაროლის შეყვანა</string>
+    <string name="kg_puk_enter_puk_hint">SIM ამჟამად დეაქტივირებულია. გასაგრძელებლად შეიყვანეთ PUK კოდი. დეტალებისთვის მიმართეთ მობილურ ოპერატორს.</string>
+    <string name="kg_puk_enter_pin_hint">სასურველი PIN კოდის შეყვანა</string>
+    <string name="kg_enter_confirm_pin_hint">სასურველი PIN კოდის დადასტურება</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ბარათის განბლოკვა…</string>
+    <string name="kg_invalid_sim_pin_hint">აკრიფეთ 4–8 ციფრიანი PIN</string>
+    <string name="kg_invalid_sim_puk_hint">PUK კოდი უნდა იყოს რვა ან მეტი ციფრისგან შემდგარი.</string>
+    <string name="kg_invalid_puk">ხელახლა შეიყვანეთ სწორი PUK კოდი. რამდენიმე წარუმატებელი მცდელობა გამოიწვევს SIM ბარათის დაბლოკვას.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN კოდები არ ემთხვევა</string>
+    <string name="kg_login_too_many_attempts">ნახატი ნიმუშის ძალიან ბევრი მცდელობა</string>
+    <string name="kg_login_instructions">"განბლოკვისთვის გაიარეთ ავტორიზაცია თქვენი Google  ანგარიშით."</string>
+    <string name="kg_login_username_hint">მომხმარებლის სახელი (ელფოსტა)</string>
+    <string name="kg_login_password_hint">პაროლი</string>
+    <string name="kg_login_submit_button">შესვლა</string>
+    <string name="kg_login_invalid_input">არასწორი სახელი, ან პაროლი.</string>
+    <string name="kg_login_account_recovery_hint">"დაგავიწყდათ მომხმარებლის სახელი და პაროლი?
+ეწვიეთ "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">მიმდინარეობს ანგარიშის შემოწმება…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ არასწორად შეიყვანეთ PIN კოდი. 
+
+სცადეთ ხელახლა %d წამში."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ არასწორად დაბეჭდეთ თქვენი პაროლი. 
+
+ხელახლა სცადეთ %d წამში."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ დახატეთ განბლოკვის ნიმუში. 
+
+სცადეთ ხელახლა %d წამში."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">თქვენ არასწორად სცადეთ ტელეფონის განბლოკვა %d-ჯერ. კიდევ %d წარუმატებელი ცდის შემდეგ ტელეფონზე დაყენდება საწყისი, ქარხნული პარამეტრები და მომხმარებლის ყველა მონაცემი დაიკარგება.</string>
+    <string name="kg_failed_attempts_now_wiping">თქვენ %d-ჯერ არასწორად სცადეთ ტელეფონის განბლოკვა. ამიტომ ტელეფონზე დადგება საწყისი, ქარხნული პარამეტრები.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"თქვენ არასწორად დახატეთ თქვენი განბლოკვის ნიმუში %d-ჯერ. კიდევ %d წარუმატებელი ცდის შემდეგ, დაგჭირდებათ თქვენი ტელეფონის განბლოკვა ელფოსტის ანგარიშის გამოყენებით.
+
+ ხელახლა სცადეთ %d წამში."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">ამოშლა</string>
+    <string name="kg_password_wrong_pin_code_pukked">SIM-ის არასწორი PIN კოდი. თქვენ ახლა მოგიწევთ მოწყობილობის განსაბლოკად მიმართოთ ოპერატორს.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM გამოუსადეგარია. დაუკავშირდით ოპერატორს.</string>
+    <string name="kg_password_pin_failed">SIM PIN ოპერაცია ჩაიშალა!</string>
+    <string name="kg_password_puk_failed">SIM PUK ოპერაცია ჩაიშალა!</string>
+    <string name="kg_pin_accepted">კოდი მიღებულია!</string>
+    <string name="keyguard_transport_prev_description">წინა ჩანაწერზე გადასვლის ღილაკი</string>
+    <string name="keyguard_transport_next_description">შემდეგი ჩანაწერის ღილაკი</string>
+    <string name="keyguard_transport_pause_description">პაუზის ღილაკი</string>
+    <string name="keyguard_transport_play_description">დაკვრის ღილაკი</string>
+    <string name="keyguard_transport_stop_description">შეჩერების ღილაკი</string>
+    <string name="keyguard_carrier_default">არ არის სერვისი.</string>
+    <string name="app_label">სისტემის UI</string>
+    <string name="status_bar_clear_all_button">წაშლა</string>
+    <string name="status_bar_recent_remove_item_title">სიიდან ამოღება</string>
+    <string name="status_bar_recent_inspect_item_title">პროგრამის ინფორმაცია</string>
+    <string name="status_bar_no_recent_apps">ბოლოდროინდელი პროგრამები არ არის</string>
+    <string name="status_bar_no_notifications_title">შეტყობინებები არ არის</string>
+    <string name="status_bar_ongoing_events_title">მიმდინარე</string>
+    <string name="status_bar_latest_events_title">შეტყობინებები</string>
+    <string name="battery_low_title">კვების ელემენტი იცლება</string>
+    <string name="battery_low_percent_format">დარჩა %d%%</string>
+    <string name="invalid_charger">USB დამუხტვა არ არის გათვალისწინებული. გამოიყენეთ მოწოდებული დამტენი.</string>
+    <string name="battery_low_why">პარამეტრები</string>
+    <string name="status_bar_settings_settings_button">პარამეტრები</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">ფრენის რეჟიმი</string>
+    <string name="status_bar_settings_auto_rotation">ეკრანის ავტომატური ბრუნვა</string>
+    <string name="status_bar_settings_mute_label">უხმო</string>
+    <string name="status_bar_settings_auto_brightness_label">ავტომატური</string>
+    <string name="status_bar_settings_notifications">შეტყობინებები</string>
+    <string name="bluetooth_tethered">Bluetooth მობილური ინტერნეტი ნოუთბუქში</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">დააყენეთ ტესტის აკრეფის მეთოდები</string>
+    <string name="status_bar_use_physical_keyboard">ფიზიკური კლავიატურა</string>
+    <string name="usb_device_permission_prompt">%1$s პროგრამას ჰქონდეს წვდომა USB მოწყობილობაზე?</string>
+    <string name="usb_accessory_permission_prompt">%1$s პროგრამას ჰქონდეს წვდომა USB აქსესუარზე?</string>
+    <string name="usb_device_confirm_prompt">გაიხსნას %1$s, როდესაც ეს USB მოწყობილობა დაკავშირდება?</string>
+    <string name="usb_accessory_confirm_prompt">გაიხსნას %1$s, როდესაც ეს USB აქსესუარი დაკავშირდება?</string>
+    <string name="usb_accessory_uri_prompt">პროგრამების დასაინსტალირებლად გამოიყენეთ ეს USB აქსესუარი. ამ აქსესუარის შესახებ დამატებითი ინფორმაციისთვის იხილეთ %s.</string>
+    <string name="title_usb_accessory">USB აქსესუარი</string>
+    <string name="label_view">ნახვა</string>
+    <string name="always_use_device">ავტომატურად მოხდეს ამ USB მოწყობილობის გამოყენება</string>
+    <string name="always_use_accessory">ავტომატურად მოხდეს ამ USB აქსესუარის გამოყენება</string>
+    <string name="usb_debugging_title">დართავთ USB შეცდომების გასწორების ნებას?</string>
+    <string name="usb_debugging_message">"კომპიუტერის RSA-ს ძირითადი თითის ანაბეჭდია:
+%1$s"</string>
+    <string name="usb_debugging_always">მუდამ ჰქონდეს ნებართვა ამ კომპიუტერს</string>
+    <string name="compat_mode_on">მთელ ეკრანზე გაშლა</string>
+    <string name="compat_mode_off">მთელ ეკრანზე გაწელვა</string>
+    <string name="screenshot_saving_ticker">ეკრანის სურათი ინახება…</string>
+    <string name="screenshot_saving_title">ეკრანის სურათი ინახება…</string>
+    <string name="screenshot_saving_text">ეკრანის სურათი ინახება.</string>
+    <string name="screenshot_saved_title">ეკრანის სურათი გადაღებულ.</string>
+    <string name="screenshot_saved_text">დააკაკუნეთ და ნახეთ ეკრანის სურათი.</string>
+    <string name="screenshot_failed_title">ეკრანის სურათის გადაღება შეუძლებელია.</string>
+    <string name="usb_preference_title">USB ფაილის გადატანის ოფციები</string>
+    <string name="use_mtp_button_title">მიერთებულია, როგორც მედია პლეერი (MTP)</string>
+    <string name="use_ptp_button_title">მიერთებულია, როგორც კამერა (PTP)</string>
+    <string name="installer_cd_button_title">დააინსტალირეთ Android ფაილის გადამტანი პროგრამა Mac-ისთვის</string>
+    <string name="accessibility_back">უკან</string>
+    <string name="accessibility_home">საწყისი გვერდი</string>
+    <string name="accessibility_menu">მენიუ</string>
+    <string name="accessibility_search_light">ძიება</string>
+    <string name="accessibility_camera_button">კამერა</string>
+    <string name="accessibility_unlock_button">განბლოკვა</string>
+    <string name="accessibility_ime_switch_button">ტექსტის შედგენის მეთოდის გადართვის ღილაკი.</string>
+    <string name="accessibility_compatibility_zoom_button">ზომის შეთავსების ღილაკი</string>
+    <string name="accessibility_compatibility_zoom_example">ეკრანზე გადიდება</string>
+    <string name="accessibility_bluetooth_connected">დაკავშირებულია Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth გამორთულია.</string>
+    <string name="accessibility_no_battery">კვების ელემენტი არ არის</string>
+    <string name="accessibility_battery_one_bar">კვების ელემენტის შევსების დონე აჩვენებს ერთ ზოლს</string>
+    <string name="accessibility_battery_two_bars">კვების ელემენტის შევსების დონე აჩვენებს ორ ზოლს</string>
+    <string name="accessibility_battery_three_bars">კვების ელემენტის შევსების დონე აჩვენებს სამ ზოლს</string>
+    <string name="accessibility_battery_full">კვების ელემენტი სავსეა.</string>
+    <string name="accessibility_no_phone">სატელეფონო სიგნალი არ არის</string>
+    <string name="accessibility_phone_one_bar">ტელეფონის სიგნალის ერთი ზოლი</string>
+    <string name="accessibility_phone_two_bars">ტელეფონის სიგნალის ორი ზოლი</string>
+    <string name="accessibility_phone_three_bars">ტელეფონის სიგნალის სამი ზოლი</string>
+    <string name="accessibility_phone_signal_full">ტელეფონის სრული სიგნალი</string>
+    <string name="accessibility_no_data">მონაცემები არ არის</string>
+    <string name="accessibility_data_one_bar">მონაცემთა სიგნალის ერთი ზოლი</string>
+    <string name="accessibility_data_two_bars">მონაცემთა სიგნალის ორი ზოლი</string>
+    <string name="accessibility_data_three_bars">მონაცემთა სიგნალის სამი ზოლი</string>
+    <string name="accessibility_data_signal_full">მონაცემთა სრული სიგნალი</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi სიგნალი არ არის</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi სიგნალის ერთი ზოლი</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi სიგნალის ორი ზოლი</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi სიგნალის სამი ზოლი</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi სიგნალი გაივსო.</string>
+    <string name="accessibility_no_signal">სიგნალი არ არის</string>
+    <string name="accessibility_not_connected">კავშირი არ არის.</string>
+    <string name="accessibility_desc_on">ჩართ.</string>
+    <string name="accessibility_desc_off">გამორთ.</string>
+    <string name="accessibility_desc_connected">დაკავშირებულია.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">როუმინგი</string>
+    <string name="accessibility_data_connection_edge">კუთხე</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM არაა</string>
+    <string name="accessibility_bluetooth_tether">მობილური ინტერნეტის გაზიარება Bluetooth-ით</string>
+    <string name="accessibility_airplane_mode">ფრენის რეჟიმი</string>
+    <string name="accessibility_settings_button">სისტემის პარამეტრები</string>
+    <string name="accessibility_notifications_button">შეტყობინებები</string>
+    <string name="accessibility_remove_notification">შეტყობინებების წაშლა</string>
+    <string name="accessibility_gps_enabled">GPS ჩართულია</string>
+    <string name="accessibility_gps_acquiring">იღებთ GPS-ს…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter ჩართულია</string>
+    <string name="accessibility_ringer_vibrate">არის მელოდიის ვიბრაცია</string>
+    <string name="accessibility_ringer_silent">ზარის მელოდიის დადუმება</string>
+    <string name="accessibility_recents_item_will_be_dismissed">დახურვა</string>
+    <string name="accessibility_desc_quick_settings">სწრაფი პარამეტრები</string>
+    <string name="accessibility_quick_settings_alarm">დაყენებული სიგნალის დროა %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">მობილური მონაცემები გამორთულია</string>
+    <string name="data_usage_disabled_dialog_enable">მონაცემთა კავშირის გამეორება</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ინტერნეტ-კავშირი არ არის</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi დაკავშირებულია.</string>
+    <string name="gps_notification_searching_text">იძებნება GPS-ით…</string>
+    <string name="gps_notification_found_text">ლოკაციას ადგენს GPS</string>
+    <string name="accessibility_clear_all">ყველა შეტყობინების გასუფთავება</string>
+    <string name="status_bar_notification_inspect_item_title">შეტყობინების პარამეტრები</string>
+    <string name="accessibility_rotation_lock_off">ეკრანი ავტომატურად შემობრუნდება.</string>
+    <string name="start_dreams">ეკრანმზოგი</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">მობილური ცხელი წერტილი არ არის გათვალისწინებული.</string>
+    <string name="it_policy_not_allow_wifi">უსაფრთხოების პოლიტიკა ზღუდავს Wi-Fi-ის გამოყენებას.</string>
+    <string name="it_policy_not_allow_wifiap">უსაფრთხოების პოლიტიკა ზღუდავს ინტერნეტ-გაზიარების გამოყენებას.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">ფრენის რეჟიმი</string>
+    <string name="edm_policy_not_allow_open_wifiap">უსაფრთხოების პოლიტიკა ზღუდავს დაუცველი მობილური ინტერნეტის გამოყენებას კომპიუტერში, ცხელი წერილისთვის.</string>
+    <string name="wifi_authentication_succeed">ავტორიზებული.</string>
+    <string name="wifi_authentication_failed">ავტორიზაცია ვერ შესრულდა.</string>
+    <string name="wifi_authentication_invalid_value">იდენტიფიკაცია ვერ შეგდა.შეამოწმეთ ID და პაროლი.</string>
+    <string name="wifi_setup_title_connected_network">დაუკავშირდა Wi-Fi ქსელს %s.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">დამუხტულია.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth გამორთულია</string>
+    <string name="quick_settings_brightness_label">სიკაშკაშე</string>
+    <string name="quick_settings_ime_label">ჩანაწერის შეყვანის მეთოდი</string>
+    <string name="quick_settings_location_label">ადგილმდებ.</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">მხოლოდ გადაუდებელი ზარები.</string>
+    <string name="quick_settings_settings_label">პარამეტრები</string>
+    <string name="quick_settings_time_label">დრო</string>
+    <string name="quick_settings_user_label">მე</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">კავშირი არ არის.</string>
+    <string name="quick_settings_wifi_no_network">არაა ქსელი</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">სიკაშკაშე</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ავტომატური</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">ფანარი</string>
+    <string name="recents_empty_message">ბოლოდროინდელი პროგრამები არ არის</string>
+    <string name="zen_no_interruptions">შეწყვეტების გარეშე</string>
+    <string name="zen_important_interruptions">მხოლოდ პრიორიტეტული შეწყვეტები</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">არცერთი</string>
+    <string name="interruption_level_priority">"პრიორი-
+ტეტი"</string>
+    <string name="interruption_level_all">ყველა</string>
+    <string name="guest_wipe_session_dontwipe">დიახ, განაგრძეთ</string>
+    <string name="notification_hidden_text">მასალა დამალულია</string>
+    <string name="sanitized_content_text">შეეხეთ აქ და შეიყვანეთ %s.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">არა, გმადლობთ</string>
+    <string name="hidden_notifications_setup">დაყენება</string>
+    <string name="quickpanel_airplane_mode_text">"ფრენის
+რეჟიმი"</string>
+    <string name="quickpanel_airplane_mode_content_description">ფრენის რეჟიმი</string>
+    <string name="quickpanel_content_description_led_on">%s ჩართულია.</string>
+    <string name="quickpanel_content_description_led_off">%s გამორთულია.</string>
+    <string name="quickpanel_content_description_led_dim">%s ვერ აქტიურდება.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">სწრაფი კავშირი</string>
+    <string name="accessibility_qconnect_button_tts">სწრაფი კავშირი</string>
+    <string name="quickpanel_wifi_content_description">WI-FI</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">ლოკაცია</string>
+    <string name="quickpanel_silent_mode_content_description">უხმო რეჟიმი</string>
+    <string name="quickpanel_silent_mode_sound_content_description">ხმა</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">ვიბრაცია</string>
+    <string name="quickpanel_silent_mode_mute_content_description">უხმო</string>
+    <string name="quickpanel_rotation_content_description">ეკრანის ბრუნვა</string>
+    <string name="quickpanel_mobile_data_content_description">მობილური მონაცემები</string>
+    <string name="quickpanel_power_saving_content_description">ენერგიის დაზოგვის რეჟიმი</string>
+    <string name="quickpanel_ultra_power_saving_content_description">ენერგიის დაზოგვის ულტრა რეჟიმი</string>
+    <string name="quickpanel_wifi_display_content_description">ეკრანის არეკვლა</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">მულტი-ფანჯარა</string>
+    <string name="quickpanel_car_mode_content_description">მანქანის რეჟიმი</string>
+    <string name="quickpanel_dormant_mode_content_description">არ შემაწუხოთ</string>
+    <string name="quickpanel_wifi_hotspot_content_description">მობილური ცხელი წერტილი</string>
+    <string name="quickpanel_touch_sensitivity_content_description">სენსორის აღქმადობა</string>
+    <string name="quickpanel_smart_stay_content_description">ინტელექტუალური რეჟიმი</string>
+    <string name="quickpanel_smart_scroll_content_description">ინტელექტუალური გადახვევა</string>
+    <string name="quickpanel_sync_content_description">სინქრონიზაცია</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi ზარი</string>
+    <string name="quickpanel_toolbox_content_description">ხელსაწყოთა ყუთი</string>
+    <string name="quickpanel_adaptive_display_content_description">ადაპტირებადი ჩვენება</string>
+    <string name="quickpanel_airgesture_content_description">ჟესტი ჰაერში</string>
+    <string name="quickpanel_airview_content_description">ჰაერით დათვალიერება</string>
+    <string name="quickpanel_network_booster_content_description">გამაძლიერებელი</string>
+    <string name="quickpanel_personal_mode_content_description">პერსონალური რეჟიმი</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">კლავიშების გვერდითი დაფა</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">ლოკაცია</string>
+    <string name="quickpanel_silent_mode_text">"უხმო
+რეჟიმი"</string>
+    <string name="quickpanel_silent_mode_sound">ხმა</string>
+    <string name="quickpanel_silent_mode_vibrate">ვიბრაცია</string>
+    <string name="quickpanel_silent_mode_mute">უხმო რეჟიმი</string>
+    <string name="quickpanel_rotation_text">"ეკრანის
+ბრუნვა"</string>
+    <string name="quickpanel_mobile_data_text">"მობილ.
+მონაცემ."</string>
+    <string name="quickpanel_power_saving_text">"დაზოგეთ
+ენერგია"</string>
+    <string name="quickpanel_ultra_power_saving_text">"ენერგიის
+დაზოგვა"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"მრავალი
+ფანჯარა"</string>
+    <string name="quickpanel_car_mode_text">"საჭეს-
+თან"</string>
+    <string name="quickpanel_driving_mode_text">"უხელებო
+რეჟიმი"</string>
+    <string name="quickpanel_dormant_mode_text">"არ
+შემაწუხო"</string>
+    <string name="quickpanel_wifi_hotspot_text">"მობ.ცხელი
+წერტილი"</string>
+    <string name="quickpanel_touch_sensitivity_text">"სენსორის
+აღქმადობა"</string>
+    <string name="quickpanel_smart_stay_text">"სმართ-
+გაჩერება"</string>
+    <string name="quickpanel_smart_scroll_text">"სმარტ
+გადახვევა"</string>
+    <string name="quickpanel_sync_text">სინქ.</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"ხელსაწყო
+თა ყუთი"</string>
+    <string name="quickpanel_smart_pause_text">"სმარტ
+პაუზა"</string>
+    <string name="quickpanel_adaptive_mode_text">"Adapt
+Display"</string>
+    <string name="quickpanel_airgesture_text">"ჟესტებით
+მართვა"</string>
+    <string name="quickpanel_airview_text">"ჰაერით
+გადახედვა"</string>
+    <string name="quickpanel_network_booster_text">"გამაძლი-
+ერებელი"</string>
+    <string name="quickpanel_personal_mode_text">"პირადი
+რეჟიმი"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"სწრაფი
+კავშირი"</string>
+    <string name="quickpanel_side_key_text">"გვერდითი
+დაფა"</string>
+    <string name="accessibility_power_saving_mode">ენერგიის დაზოგვის რეჟიმის გასააქტიურებლად, ჩართეთ მინიმუმ ერთი ფუნქცია.</string>
+    <string name="accessibility_power_saving_mode_title">ენერგიის დაზოგვის რეჟიმი</string>
+    <string name="insert_sim_card">ჩადეთ SIM ბარათი</string>
+    <string name="insert_sim_card_message">ქსელის მომსახურების მისაღებად ჩასვით SIM ბარათი.</string>
+    <string name="insert_uim_or_sim_card">ჩადეთ UIM/SIM ბარათი</string>
+    <string name="status_bar_recent_launch_task_manager_title">დავალ. მართვა</string>
+    <string name="status_bar_recent_remove_all_button">ყველას დახურვა</string>
+    <string name="blocking_mode_enable">როდესაც ჩართულია ეს რეჟიმი, შერჩეული ფუნქციების დაგეგმილი შეტყობინებები გამოირთვება. მიიღებთ შეტყობინებებს, მხოლოდ მაშინ, როდესაც ნებადართულთა სიაში მყოფი ხალხი დაგირეკავთ.</string>
+    <string name="blocking_mode_enable_for_grid_settings">დაბლოკვის რეჟიმში გამორთულია შერჩეული ფუნქციების შეტყობინებები. როდესაც დაბლოკილია შემომავალი ზარები, მხოლოდ მაშინ იღებთ შეტყობინებებს, როდესაც თქვენ მიერ ნებადართული ხალხი გირეკავთ. დაბლოკვის რეჟიმის პარამეტრების შესაცვლელად, გახსენით პარამეტრები > პერსონალიზაცია > დაბლოკვის რეჟიმი.</string>
+    <string name="blocking_mode_enable_wifi">როდესაც ჩართულია ეს რეჟიმი, შერჩეული ფუნქციების დაგეგმილი შეტყობინებები გამოირთვება.</string>
+    <string name="blocking_mode_title">დაბლოკვის რეჟიმი</string>
+    <string name="magnification_text_for_air_view_button">გადიდების ჟესტები</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">ჩამოტვირთვის გამაძლიერებელს ვერ გამოიყენებთ, როდესაც გააქტიურებულია %1$s. გამორთეთ %2$s და ისევ სცადეთ.</string>
+    <string name="quickpanel_air_view_warning">ჰაერით გადახედვის ფუნქციის გასააქტიურებლად ჩართეთ მინიმუმ ერთი ფუნქცია.</string>
+    <string name="quickpanel_air_view_warning_pen_support">აერით დათვალიერების გასააქტიურებლად, გაააქტიურეთ ჰაერით დათვალიერების რეჟიმის ერთი ფუნქცია მაინც.</string>
+    <string name="quickpanel_air_gesture_warning">„ჟესტი ჰაერში“ ფუნქციის გასააქტიურებლად, ჩართეთ მინიმუმ ერთი შესაბამისი ფუნქცია.</string>
+    <string name="quickpanel_air_gesture_warning_continue">ხანგრძლივად შეეხეთ სწრაფი პარამეტრების ღილაკს და გადახვალთ შესაბამის პარამეტრებზე.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"თუ არ გამოიყენებთ Wi-Fi ქსელს, ვეღარ შეძლებთ გამოიყენოთ ინტერნეტი, ელფოსტა ან სხვა პროგრამები, რომელთათვისაც საჭიროა მონაცემთა კავშირი.
+
+მობილური მონაცემები გამოირთვება"</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">დაკვშ.</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">მობილურ ქსელებს ვერ დაუკავშირდებით, სანამ ჩართულია ფრენის რეჟიმი. გამორთეთ ფრენის რეჟიმი და ისევ ცადეთ.</string>
+    <string name="warning_alert_check">აღარ მაჩვენო</string>
+    <string name="data_usage_enable_mobile_warning">მონაცემთა პაკეტით კავშირისთვის შეიძლება დამატებითი გადასახადი იყოს. განაგრძობთ?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">VoLTE-ს ვერ გამოიყენებთ, როდესაც ჩართულია ფრენის რეჟიმი. გამორთეთ ფრენის რეჟიმი და ისევ სცადეთ.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE არ მუშაობს თქვენი ამჟამინდელი პროგრამის ვერსიაში. დამატებითი ინფორმაციისთვის მიმართეთ მომხმარებელთა დახმარების სერვისს.</string>
+    <string name="smart_pause_toast_text">ინტელექტუალური დაპაუზების გამოსაყენებლად, ჯერ გაააქტიურეთ დადუმება/დაპაუზება.</string>
+    <string name="smart_bonding_popup_msg_roaming">ჩამოტვირთვის გამაძლიერებელს ვერ გამოიყენებთ როუმინგში. გირჩევთ, ჩამოტვირთოთ Wi-Fi ქსელით.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi-ს ჩართვა</string>
+    <string name="smart_bonding_popup_msg_data_btn">მობილურ მონაცემთა ჩართვა</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">ჩართეთ Wi-Fi და მობილური ქსელი</string>
+    <string name="smart_bonding_popup_msg_wifi">ახლა Wi-Fi გამორთულია. ჩამოტვირთვის გამაძლიერებელი რომ გააქტიურდეს, ჩართული უნდა იყოს Wi-Fi და მობილურ მონაცემთა ქსელი. მობილურ ქსელებით ჩამოტვირთვისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად.</string>
+    <string name="smart_bonding_popup_msg_data">ახლა მობილურ მონაცემთა ქსელი გამორთულია. ჩამოტვირთვის გამაძლიერებელი რომ გააქტიურდეს, ჩართული უნდა იყოს Wi-Fi და მობილურ მონაცემთა ქსელი. მობილურ ქსელებით ჩამოტვირთვისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">ახლა Wi-Fi და მობილურ მონაცემთა ქსელი გამორთულია. ჩამოტვირთვის გამაძლიერებელი რომ გააქტიურდეს, ჩართული უნდა იყოს Wi-Fi და მობილურ მონაცემთა ქსელი. მობილურ ქსელებით ჩამოტვირთვისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად.</string>
+    <string name="smart_bonding_popup_msg">ჩამოტვირთვის გამაძლიერებელი ჩაირთვება. მობილურ ქსელებით ჩამოტვირთვისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად.</string>
+    <string name="smartbonding_dialog_title">ჩამოტვირთვის გამაძლიერებ.</string>
+    <string name="insert_a_sim_card_and_try_again">ჩადეთ SIM ბარათი და ისევ სცადეთ.</string>
+    <string name="unable_to_enable_Download_booster">ჩამოტვირთვის გამაძლიერებელი ვერ გააქტიურდება</string>
+    <string name="download_booster_dialog_title">ჩართეთ ჩამოტვირთვის გამაძლიერ.</string>
+    <string name="enable">გააქტიურება</string>
+    <string name="sd_card">SDბარათი</string>
+    <string name="sdcard_insert">SD ბარათი დევს</string>
+    <string name="sdcard_unmount">SD ბარათის მოცილება</string>
+    <string name="go_to_myfiles">ჩემს ფაილებში გადასვლა</string>
+    <string name="charging_interruption_title">დამუხტვა შეუძლებელია</string>
+    <string name="charging_interruption_by_terminal_open_text">თქვენი მოწყობილობის დამუხტვა შეუძლებელია. დარწმუნდით, რომ იყენებთ Samsung-თან თავსებად კვების ელემენტსა და დამტენს და აპარატზე სწორადაა მიერთებული დამტენი.</string>
+    <string name="full_battery_title">ინფო</string>
+    <string name="full_battery_text">"კვების ელემენტი დაიტენა.
+გამორთეთ დამტენი."</string>
+    <string name="reading_mode_title">წაკითხვის რეჟიმი</string>
+    <string name="reading_mode_alert">წაკითხვის რეჟიმი ჩაირთო. ახლა ეკრანი ოპტიმიზირებულია წაკითხვისთვის. ეს რეჟიმი მუშაობს მხოლოდ შერჩეულ პროგრამებში.</string>
+    <string name="reading_mode_settings">პარამეტრები</string>
+    <string name="quickpanel_ebook_text">"კითხვის
+რეჟ."</string>
+    <string name="quickpanel_ebook_content_description">წაკითხვის რეჟიმი</string>
+    <string name="driving_mode_title">თავისუფალი ხელების რეჟიმი</string>
+    <string name="driving_mode_on_dialog_msg_1">თავისუფალი ხელების რეჟიმი უნდა გამორთოთ პარამეტრებში, მას შემდეგ რაც დახურავთ S Voice თავისუფალი ხელების პროგრამას. თუ თავისუფალი ხელების რეჟიმი გააქტიურებული დარჩება, შეტყობინებებისა და შემოსული ზარების წარმოთქმა კვლავ ავტომატურად მოხდება</string>
+    <string name="driving_mode_on_dialog_msg_2">S Voice თავისუფალი ხელების პროგრამაში თავისუფალი ხელების რეჟიმი შეგიძლიათ გამორთოთ ბრძანებით: „თავისუფალი ხელების რეჟიმის გამორთვა“, ან გამოსართავად გადადით პარამეტრებში ამ შეტყობინებათა დაფაზე.</string>
+    <string name="quickpanel_driving_mode_content_description">თავისუფალი ხელების რეჟიმი</string>
+    <string name="critical_low_battery_title">კვების ელემენტი თითქმის დაიცალა</string>
+    <string name="critical_low_battery_text">მოწყობილობას მიუერთეთ დამტენი. თუ აპარატის გამოყენებას განაგრძობთ მისი დამუხტვის დროს, შეიძლება არ დაიმუხტოს ეფექტურად.</string>
+    <string name="critical_low_battery_text_charged_via_usb">უფრო სწრაფად რომ დამუხტოთ, ჩართეთ შტეფსელში და დახურეთ გამოუყენებელი პროგრამები %s-ში. თუ გამოყენებას განაგრძობთ დამუხტვის დროს, შეიძლება დამუხტვა არაეფექტურად შესრულდეს.</string>
+    <string name="critical_low_battery_text_charged_via_ta">დახურეთ გამოუყენებელი პროგრამები %s-ში. თუ გამოყენებას განაგრძობთ დამუხტვის დროს, შეიძლება დამუხტვა არაეფექტურად შესრულდეს.</string>
+    <string name="low_battery_text">მოწყობილობას მიუერთეთ დამტენი. თუ აპარატის გამოყენებას განაგრძობთ მისი დამუხტვის დროს, შეიძლება არ დაიმუხტოს ეფექტურად.</string>
+    <string name="low_battery_text_charged_via_usb">უფრო სწრაფად რომ დამუხტოთ, ჩართეთ შტეფსელში და დახურეთ გამოუყენებელი პროგრამები %s-ში. თუ გამოყენებას განაგრძობთ დამუხტვის დროს, შეიძლება დამუხტვა არაეფექტურად შესრულდეს.</string>
+    <string name="low_battery_text_charged_via_ta">დახურეთ გამოუყენებელი პროგრამები %s-ში. თუ გამოყენებას განაგრძობთ დამუხტვის დროს, შეიძლება დამუხტვა არაეფექტურად შესრულდეს.</string>
+    <string name="low_battery_power_saving_button_text">ენერგიის დაზოგვა</string>
+    <string name="wireless_charging_title">იმუხტება მობილური.</string>
+    <string name="cable_charging_title">იმუხტება სადენით</string>
+    <string name="wireless_charging_text">ნაპოვნია დამტენი. იმუხტება უსადენოდ…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">უსადენო დატენვიდან სადენით დატენვაზე გადართვა</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">სადენიანი დატენვიდან უსადენო დატენვაზე გადართვა</string>
+    <string name="wireless_charging_spen_warning_text">ახლა მოწყობილობა იმუხტება უსადენოდ. შესაძლოა, S Pen-ის მუშაობა შეფერხდეს, როდესაც მიმდინარეობს უსადენოდ დამუხტვა.</string>
+    <string name="incompatible_charger_title">არ იმუხტება.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">გამორთეთ მოწყობილობა</string>
+    <string name="overheat_poweroff_warning_text">თქვენი მოწყობილობა გადახურდება. ახლა ის გამოირთვება, რომ გაგრილდეს.</string>
+    <string name="overheat_poweroff_warning_button_text">არ გამორთოთ</string>
+    <string name="overheat_poweroff_notice_title">მოწყობილობა ავტომატურად გამოირთო</string>
+    <string name="overheat_poweroff_notice_text">"თქვენი მოწყობილობა გადახურდა. ის გამოირთო, რომ არ დაზიანებულიყო.
+
+გადახურების მიზეზი შეიძლება იყოს:
+გრაფიკულად დატვირთული ისეთი პროგრამების ხანგრძლივი გამოყენება, როგორიცაა თამაში და ნავიგაციის პროგრამები.
+დიდი ფაილების გადაცემა.
+აპარატის გამოყენება ცხელ გარემოში."</string>
+    <string name="power_sharing_warning_title">სიმძლავრის გაზიარება</string>
+    <string name="power_sharing_warning_text">თქვენი კვების ელემენტის სიმძლავრე სიმძლავრის გაზიარების ლიმიტზე ნაკლებია. სიმძლავრის გაზიარება რომ განაგრძოთ, გადაიყვანეთ სიმძლავრის გაზიარების ლიმიტი კვების ელემენტის ახლანდელ სიმძლავრეზე ნაკლებ მნიშვნელობაზე.</string>
+    <string name="power_sharing_start_toast_text">იწყება სიმძლავრის გაზიარება…</string>
+    <string name="power_sharing_end_notification_text">ენერგიის გაზიარება დასრულდა. გამოაძრეთ სადენი.</string>
+    <string name="power_sharing_unable_notification_text">გაზიარება შეუძლებელია.</string>
+    <string name="highvoltage_charger_notice_title">გამოიყენეთ სწრაფი დამუხტვა</string>
+    <string name="highvoltage_charger_notice_text">ეს უფრო სწრაფად დატენის კვების ელემენტს, განსაკუთრებით როდესაც ეკრანი ან აპარატი გამორთულია.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">გამორთეთ ეკრანი</string>
+    <string name="highvoltage_charger_notification_text">სწრაფი დამტენი შეერთებულია.</string>
+    <string name="face_detection_failure_text">ინტელექტუალური რეჟიმი ვერ ცნობს თქვენს თვალს.</string>
+    <string name="screenshot_failed_due_to_drm_text">ეკრანის სურათის გადაღება შეუძლებელია. გამოსახულება დაცულია DRM-თი.</string>
+    <string name="no_such_item">ელემენტი ვერ იძებნება.</string>
+    <string name="one_item_will_be_deleted">1 ელემენტი წაიშლება.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">თანხმობა</string>
+    <string name="disagree">არ ვეთანხმები</string>
+    <string name="location_masterswitch_dialogtitle">ლოკაციის შესახებ თანხმობა</string>
+    <string name="gps_donotshow">აღარ მაჩვენო</string>
+    <string name="tethering_attention_title">ყურადღება</string>
+    <string name="tethering_wifi_off_warning">მობილური ცხელი წერტილის ჩართვით გამოირთვება Wi-Fi.</string>
+    <string name="wifihotspot_detail">დეტალები</string>
+    <string name="tether_settings_title_wifi">პორტატული ცხელი წერტილი</string>
+    <string name="guest_launge_warning_toast_text">სტუმრის რეჟიმში %s–ის ჩართვა ან გამორთვა ვერ ხერხდება.</string>
+    <string name="personal_page_popup_msg_while_moving_item">პერსონალური რეჟიმი ვერ გააქტიურდება, ელემენტების პერსონალურში გადატანის დროს.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">პერსონალური რეჟიმი ვერ გამოირთვება, ელემენტების პერსონალურში გადატანის დროს.</string>
+    <string name="no_sim_notification_title">SIM არაა</string>
+    <string name="no_sim_notification_title_tmo">SIM ბარათი არ დევს.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">გთხოვთ, ჩადოთ SIM ბარათი.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">როუმინგი</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">შეტყობინებების დაფა</string>
+    <string name="guideline_empty_text">ამ პროგრამის გასახსნელად, გადაიტანეთ ღილაკი ლანგრიდან.</string>
+    <string name="drag_and_drop_content">მასალის გადატანა</string>
+    <string name="switch_window">ფანჯრების გადართვა</string>
+    <string name="close_application">პროგრამის დახურვა</string>
+    <string name="collapse_window">ფანჯრის აკეცვა</string>
+    <string name="change_to_poup_view">სარკმელში გახსნა</string>
+    <string name="select_contents">აიღეთ და გადაიტანეთ ტექსტის პარაგრაფი ან სურათის ანაბეჭდი სხვა ფანჯარაში.</string>
+    <string name="do_not_show_again">აღარ მაჩვენო</string>
+    <string name="help">დახმარება</string>
+    <string name="recent_multi_window">იხ. რამდენიმე ფანჯარაში</string>
+    <string name="recent_pen_window">სარკმელში გახსნა</string>
+    <string name="recent_delete">პროგრამის დახურვა</string>
+    <string name="disable_multi_window_popup_description">მულტი–ფანჯრის რეჟიმი გამოირთვება და დაიხურება სარკმლებში გახსნილი ყველა აპლიკაცია.</string>
+    <string name="disable_multi_window_popup_easymode_description">მრავალ ფანჯარას ვერ გამოიყენებთ, როდესაც გააქტიურებულია მარტივი რეჟიმი. გამორთეთ მარტივი რეჟიმი და ისევ სცადეთ.</string>
+    <string name="yes">კი</string>
+    <string name="no">გაუქმება</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">მაღალ ხმაზე დიდი ხნით მოსმენის შედეგად შეიძლება დაგიზიანდეთ სმენა. შეეხეთ OK-ს, თუ გსურთ ხმა გაზარდოთ უსაფრთხოების დონეებზე მეტად.</string>
+    <string name="tw_cover_volume_warning_message">მაღალ ხმაზე დიდი ხნით მოსმენის შედეგად შეიძლება დაგიზიანდეთ სმენა. ხმის ასაწევად გადახსენით სახურავი</string>
+    <string name="global_actions_toggle_airplane_mode_enable">ფრენის რეჟიმის გააქტიურება</string>
+    <string name="global_actions_toggle_airplane_mode">ფრენის რეჟიმი</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">ფრენის რეჟიმი საშუალებას გაძლევთ გამორთოთ ზარები, შეტყობინებები და მობილური ქსელების ფუნქციები.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">ფრენის რეჟიმი გამოირთვება.</string>
+    <string name="multi_window_use_popup_title">ჩართეთ მრავალი ფანჯრის ფუნქცია</string>
+    <string name="multi_window_use_popup_msg">მრავალი ფანჯრის ფუნქცია და TalkBack ერთად ვერ გააქტიურდება. TalkBack გამოირთვება</string>
+    <string name="air_gesture_use_popup_title">გაააქტიურეთ „ჟესტი ჰაერში“</string>
+    <string name="air_gesture_use_popup_msg">ჟესტებით მართვა და TalkBack ერთად ვერ გააქტიურდება. TalkBack გამოირთვება</string>
+    <string name="air_view_use_popup_title">ჰაერით გადახედვის ჩართვა</string>
+    <string name="air_view_use_popup_msg">ჰაერით დათვალიერება და ქვემოთ მოცემული ვარიანტები ერთდროულად ვერ გააქტიურდება. ქვემოთ მოცემული ვარიანტები გამოირთვება</string>
+    <string name="car_mode_enable_use_popup_title">მანქანის რეჟიმის ჩართვა</string>
+    <string name="car_mode_use_popup_msg">მანქანის რეჟიმი და TalkBack ერთდროულად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="smart_pause_use_popup_title">ინტელექტუალური დაპაუზების გააქტიურება</string>
+    <string name="smart_pause_use_popup_msg">ინტელექტუალური დაპაუზების ფუნქცია და TalkBack ერთად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="smart_scroll_use_popup_title">ინტელექტუალური გადახვევის გააქტიურება</string>
+    <string name="smart_scroll_use_popup_msg">ინტელექტუალური გადახვევის ფუნქცია და TalkBack ერთად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="smart_stay_use_popup_title">ინტელექტუალური რეჟიმის გააქტიურება</string>
+    <string name="smart_stay_use_popup_msg">ინტელექტუალური რეჟიმი და TalkBack ერთად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="toolbox_use_popup_title">ხელსაწყოთა ყუთის გააქტიურება</string>
+    <string name="toolbox_use_popup_msg">ხელსაწყოთა ყუთი და TalkBack ერთდროულად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="sidekey_use_popup_title">გაააქტიურეთ გვერდითი კლავიშების დაფა</string>
+    <string name="sidekey_use_popup_msg">გვერდითი ღილაკების დაფა და TalkBack ერთდროულად ვერ გააქტიურდება. TalkBack გამოირთვება.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">შენიშვნა</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">ბოლოდროინდელთა ღილაკი</string>
+    <string name="recent_menukey_press_description_vzw">მენიუს ღილაკი შეიცვალა ბოლოდროინდელთა ღილაკით, რომ შეძლოთ სწრაფად გადასვლა ყველზე ხშირად გამოყენებულ პროგრამებს შორის. ინფორმაციისთვის შეეხეთ „დახმარება“-ს.</string>
+    <string name="recent_menukey_press_description_no_help">მენიუს ღილაკი შეიცვალა ბოლოდროინდელთა ღილაკით, რომ შეძლოთ სწრაფად გადასვლა ყველზე ხშირად გამოყენებულ პროგრამებს შორის.</string>
+    <string name="recent_menukey_press_description_att">მენიუს ღილაკი შეიცვლება ბოლოდროინდელზე გადასვლის ღილაკით. პროგრამაში ხანგრძლივად შეეხეთ ბოლოდროინდელ გვერდზე გადასვლის ღილაკს და ნახეთ მენიუს ოფციები.</string>
+    <string name="recent_help_dialog_title_for_split_view">მულტი-ფანჯრის ახალი ფუნქციები</string>
+    <string name="recent_menukey_press_description_for_split_view_1">გაყოფილ ეკრანზე აპლიკაციების გასახსნელად, აპლიკაციის ფანჯრის სათაურის ზოლში შეეხეთ ნიშანს %s. ეს ნიშანი ჩანს, როდესაც პროგრამას აქვს ეკრანის გაყოფის ფუნქცია.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">გაყოფილ ეკრანზე აპლიკაციების გასახსნელად, აპლიკაციის ფანჯრის სათაურის ზოლში შეეხეთ ეკრანის გაყოფის ნიშანს. ეს ნიშანი ჩანს, როდესაც პროგრამას აქვს ეკრანის გაყოფის ფუნქცია.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">თუ გსურთ აპლიკაცია გახსნათ სარკმელში, ხანგრძლივად შეეხეთ აპლიკაციის ფანჯარას. თუ გსურთ სარკმელი შეცვალოთ გაყოფილი ეკრანით, თითით გადაიტანეთ აპლიკაციის სარკმელი ეკრანის ზემოთ ან ქვემოთ.</string>
+    <string name="recent_menukey_help_button">დახმრ.</string>
+    <string name="btn_text_yes">კი</string>
+    <string name="qs_edit_settings_title">შეტყობინებების დაფა</string>
+    <string name="qs_edit_settings_available_button">ხელმისაწვდომი ღილაკები</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">აირჩიეთ სწრაფი პარამეტრების რომელი ღილაკები გამოჩნდეს შეტყობინებათა დაფის თავში. ღილაკების დასამატებლად, დასამალად ან გადასალაგებლად ხანგრძლივად შეეხეთ მათ და გადააჩოჩეთ.</string>
+    <string name="notification_panel_unable_remove_minimum">ღილაკის მოშორება შეუძლებელია. მიღწეულია ღილაკების მინიმალური რაოდენობა (%d).</string>
+    <string name="qs_edit_setting_edit_button">გადალაგება</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">ფრენის რეჟიმი საშუალებას გაძლევთ გამორთოთ ზარების, მიმოწერისა და მონაცემთა ქსელის ფუნქციები. იგი ასევე გამორთავს დაკავშირების საშუალებებს, როგორიცაა Wi-Fi და Bluetooth. თუ გსურთ გამოიყენოთ Wi-Fi და Bluetooth, ჩართეთ ისინი პარამეტრებში ან შეტყობინებათა დაფაზე.</string>
+    <string name="pickup_tutorial_title">მოსინჯეთ ინტელექტუალური სიგნალი</string>
+    <string name="put_your_phone">როდესაც აპარატს დადებთ, ეკრანი გამოირთვება.</string>
+    <string name="phone_detect">სავარაუდოდ, თქვენ გაქვთ გამოტოვებული ზარები ან წერილები. დადეთ აპარატი და შემდეგ ისევ აიღეთ, როცა ეკრანი გამოირთვება.</string>
+    <string name="pick_up_your_phone">აიღეთ აპარატი</string>
+    <string name="tutorial_complete">სახელმძღვანელო დასრულდა.</string>
+    <string name="share_via">გაზიარების მეთოდია</string>
+    <string name="airmsg_warning_alert_check">აღარ მაჩვენო</string>
+    <string name="airmsg_check_data_title_WLAN">დაკავშირება WLAN-თან</string>
+    <string name="airmsg_check_data_title_Mobile">დაუკავშირდით მობილური ქსელებით</string>
+    <string name="cooling_title">მოწყობილობის გადახურება</string>
+    <string name="cooling_body">"მოწყობილობა გადახურდა. მის გასაგრილებლად შესრულდება ნაბიჯები.
+
+კვლავ შეძლებთ აპარატის გამოყენებას, მაგრამ
+- შეიძლება ეკრანის განათებულობა შემცირდეს.
+- შეიძლება აპარატის მუშაობა შენელდეს.
+- შეიძლება დამუხტვა დაპაუზდეს.
+
+მიმდინარე პროგრამის დახურვა ხელს შეუწყობს აპარატის გაგრილებას.
+
+აპარატის გაგრილების შემდეგ მისი ნორმალური მუშაობა ავტომატურად აღდგება."</string>
+    <string name="cooling_noti_text">შეეხეთ და ნახეთ დეტალები.</string>
+    <string name="cooling_popup_name">შეტყობინება</string>
+    <string name="cooling_noti_title">მოწყობილობის გადახურება</string>
+    <string name="btn_text_no">გაუქმ.</string>
+    <string name="device_overheating">მოწყობილობის გადახურება</string>
+    <string name="colling_noti_text_2">პროგრამები ვერ იხსნება. შეგიძლიათ გამოიყენოთ მხოლოდ ტელეფონისა და კონტაქტების პროგრამები.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">შეეხეთ აქ და შეიტყვეთ მეტი.</string>
+    <string name="cooling_popup_name_VZW">შეტყობინება</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">კი</string>
+    <string name="btn_text_no_VZW">გაუქმ.</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">უსაფრთხო რეჟიმის გამორთვა</string>
+    <string name="safe_mode_popup_body_global">უსაფრთხო რეჟიმი რომ გამოირთოს, აპარატი გადაიტვირთება. შემდეგ ხელმისაწვდომი იქნება ყველა თქვენი პროგრამა.</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">საგანგებო რეჟიმი ჩართულია</string>
+    <string name="safe_mode_noti_body_global">შეხებით გამორთეთ უსაფრთხო რეჟიმი.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">გაუქმ.</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">ხმის რეჟიმის შესაცვლელად, შეწყვეტის რეჟიმისთვის აირჩიეთ პრიორიტეტი ან ყველა.</string>
+    <string name="accessibility_driving_mode">თავისუფალი ხელების რეჟიმის გასააქტიურებლად, ჩართეთ მინიმუმ ერთი შესაბამისი ფუნქცია.</string>
+    <string name="qs_vibrate_on_in_priority">"ვიბრაცია
+(პრიორიტეტ.)"</string>
+    <string name="qs_sound_on_in_priority">"ხმა (პრიორი-
+ტეტული)"</string>
+    <string name="qs_silent_popup_title">ხმის რეჟიმი</string>
+    <string name="qs_silent_popup_sound">ხმა</string>
+    <string name="qs_silent_popup_vibrate">ვიბრაცია</string>
+    <string name="qs_rotate_popup_title">ეკრანის ბრუნვა</string>
+    <string name="qs_rotate_popup_all">ყველა</string>
+    <string name="qs_torch_popup_title">ფანარი</string>
+    <string name="qs_torch_popup_brightness">სიკაშკაშე</string>
+    <string name="qs_torch_popup_auto_turnoff_none">არცერთი</string>
+    <string name="disable_multi_window_dialog_title">მულტი-ფანჯრის გამორთვა</string>
+    <string name="disable_multi_window_dialog_text">მულტი–ფანჯრის რეჟიმი გამოირთვება და დაიხურება სარკმლებში გახსნილი ყველა აპლიკაცია.</string>
+    <string name="AirplaneNoti_title">ფრენის რეჟიმი ჩაირთო</string>
+    <string name="AirplaneNoti_text">გათიშვა</string>
+    <string name="quickpanel_interruption_always_interrupt">"მუდამ
+შეწყდეს"</string>
+    <string name="quickpanel_interruption_priority_only">"მხოლოდ
+პრიორიტ."</string>
+    <string name="tw_sound_priority_desciption">პრიორიტეტული შეწყვეტების ხმა</string>
+    <string name="tw_vibrate_priority_desciption">პრიორიტეტული შეწყვეტების ვიბრაცია</string>
+    <string name="tw_mute_priority_desciption">შეწყვეტის გარეშე (სიგნალებისთვისაც კი)</string>
+    <string name="tw_zen_off_interruptions">ზარებისა და შეტყობინების მიღებისას</string>
+    <string name="tw_interruption_level_priority">მხოლოდ პრიორიტეტული</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">მხოლოდ პრიორიტეტული შემწყვეტი მოქმედებების ნებართვა დართეთ</string>
+    <string name="tw_interruption_level_all_vzw">მუდამ შეწყდეს</string>
+    <string name="tw_mute_priority_toast_description">"შეწყვეტის გარეშე
+(სიგნალებისთვისაც კი)"</string>
+    <string name="dnd_noti_title">„არ შემაწუხო“ რეჟიმი ჩაირთო.</string>
+    <string name="dnd_noti_message">სიგნალების ხმა გამორთულია</string>
+    <string name="dnd_noti_action_disable">გამორთვა</string>
+    <string name="torch_light_notification_title">ფანარი ჩართულია</string>
+    <string name="torch_light_notification_message">ფანრის გამორთვა</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">გამოირთვება ქსელის შეზღუდვის რეჟიმი</string>
+    <string name="recent_help_dialog_title_for_popup_view">მრავალი ფანჯრის ხედის გამოყენება</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">გაყოფილ ეკრანზე აპლიკაციების გასახსნელად, აპლიკაციის ფანჯრის სათაურის ზოლში შეეხეთ ნიშანს %s. ეს ნიშანი ჩანს, როდესაც აპლიკაციას აქვს ეკრანის გაყოფის ფუნქცია.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">გაყოფილ ეკრანზე აპლიკაციების გასახსნელად, აპლიკაციის ფანჯრის სათაურის ზოლში შეეხეთ ეკრანის გაყოფის ნიშანს. ეს ნიშანი ჩანს, როდესაც აპლიკაციას აქვს ეკრანის გაყოფის ფუნქცია.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">ასევე შეგიძლიათ, ნებისმიერ ეკრანზე ხანგრძლივად დააჭიროთ ბოლოდროინდელთა ღილაკს და გახსნათ აპლიკაციები გაყოფილი ეკრანის ხედით.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">თუ გსურთ აპლიკაცია ნახოთ სარკმლით, ჩამოუსვით თითი დიაგონალურად ეკრანის რომელიმე ზედა კუთხიდან, როდესაც აპლიკაცია გახსნილია და ჩანს ეკრანზე.</string>
+    <string name="wallpaper_crop_button_done">შესრულდა</string>
+    <string name="accessibility_desc_notification_panel">შეტყობინებების დაფა</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/sview_cover_setting_list_margin_left" android:layout_marginEnd="6.0dip">
+        <TextView android:textSize="@dimen/sview_cover_setting_list_text_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/cover_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/sview_text_shadow" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/cover_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/cover_title" android:layout_alignStart="@id/cover_title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/sview_cover_setting_list_margin_right">
+        <CheckBox android:layout_gravity="center" android:id="@id/cover_checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:button="@drawable/cover_checbox" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Kiçi</item>
+        <item>Normal</item>
+        <item>Uly</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Ýok</item>
+        <item>Tolkunly täsir</item>
+        <item>Ýagtylyk täsiri</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Öçürmek</item>
+        <item>1 sagat</item>
+        <item>2 sagat</item>
+        <item>3 sagat</item>
+        <item>4 sagat</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Ýewropa</item>
+        <item>Afrika</item>
+        <item>Aziýa</item>
+        <item>Awstraliýa</item>
+        <item>Ýuwaş Okeany</item>
+        <item>Ähli</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>3 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Hiç haçan</item>
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Birdenkä işlediji açar bilen ýa-da ekranyň wagty dolsa</item>
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>3 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 sagat</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Häziriň özünde</item>
+        <item>5 sekunt</item>
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Ownuk</item>
+        <item>Kiçi</item>
+        <item>Normal</item>
+        <item>Uly</item>
+        <item>Ägirt uly</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Örän haýal</item>
+        <item>Ýuwaş</item>
+        <item>Ýönekeý</item>
+        <item>Tiz</item>
+        <item>Biraz tizräk</item>
+        <item>Has tiz</item>
+        <item>Örän tiz</item>
+        <item>Juda tiz</item>
+        <item>Iň tiz</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Örän pes</item>
+        <item>Pes</item>
+        <item>Ýönekeý</item>
+        <item>Beýik</item>
+        <item>Örän beýik</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skan edýär…</item>
+        <item>Birikdirilýär…</item>
+        <item>Şahsyýeti barlanylýar…</item>
+        <item>IP salgy alynýar…</item>
+        <item>Baglanan</item>
+        <item>Asylgy</item>
+        <item>Baglanyşyk kesilýär…</item>
+        <item>Aragatnaşyk kesildi</item>
+        <item>Şowsuz</item>
+        <item>Beklenildi</item>
+        <item>Internet baglanyşygyňyzyň hili barlanýar…</item>
+        <item>Baglanan</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skan edýär…</item>
+        <item>%s-e baglanyşýar…</item>
+        <item>%s bilen autentifikasiýa…</item>
+        <item>%s -den IP salgysy alynýar…</item>
+        <item>%1$s-e baglanyşyldy</item>
+        <item>Asylgy</item>
+        <item>%s-dan baglanyşygy kesilýär…</item>
+        <item>Aragatnaşyk kesildi</item>
+        <item>Şowsuz</item>
+        <item>Beklenildi</item>
+        <item>Internet baglanyşygyňyzyň hili barlanýar…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Açyk</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Düwmäni basyň</item>
+        <item>Deň enjamdan PIN</item>
+        <item>Bu enjamdan PIN</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Birikdi</item>
+        <item>Çagyryldy</item>
+        <item>Baglanyşygy kesildi</item>
+        <item>Birikmek üçin şu ýere degiň.</item>
+        <item>Ulgamdan daşarda</item>
+        <item>Başga bir enjam bilen baglanyş</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Hiç haçan kesme</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>60 minut</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Ähli enjamlar</item>
+        <item>Diňe ygtyýar berlen enjamlar üçin.</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Awto</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Standart</item>
+        <item>Beýik</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 sagat</item>
+        <item>12 sagat</item>
+        <item>24 sagat</item>
+        <item>Wagt çägi ýok</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>1 sagat</item>
+        <item>Hiç haçan kesme</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>1 sagat</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Gowşak</item>
+        <item>Açyk</item>
+        <item>Gowy</item>
+        <item>Güýçli</item>
+        <item>Örän berk</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Hemişe</item>
+        <item>Diňe dakylanda</item>
+        <item>Hiç haçan</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Hemişe</item>
+        <item>Diňe dakylanda</item>
+        <item>Hiç haçan</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Soňky 30 gün</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Elipbiýe görä</item>
+        <item>Signalyň kuwwatlylygy</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Awtomatiki</item>
+        <item>Diňe 5 GHz</item>
+        <item>Diňe 2.4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Awtomatiki</item>
+        <item>5 GHz lentany ulanyň</item>
+        <item>2.4 GHz lentany ulanyň</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Örän berk</item>
+        <item>Güýçli</item>
+        <item>Gowy</item>
+        <item>Ähli</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Ulanyş wagty</item>
+        <item>Last time used</item>
+        <item>Gollanma ady</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ýok</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ýok</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Ýapyk</item>
+        <item>Düwmäni basyň</item>
+        <item>Girme nokadyndan PIN</item>
+        <item>Bu enjamdan PIN</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statiki</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ýok</item>
+        <item>El arkaly</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Kadaly</item>
+        <item>Şäheriň iş merkezi</item>
+        <item>Öý</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>Bu iň adaty Wi-Fi baglanyşma sazlamasydyr</item>
+        <item>Eger-de siz birnäçe Wi-Fi internedi bolan zolakda bolsaňyz, Wi-Fi yzygiderli has oňat signal üçin täzeden birigip durar.</item>
+        <item>Eger-de siz az sanly Wi-Fi internedi bolan zolakda bolsaňyz, Wi-Fi-ýyň birikdirilmegi mümkin boldugyça köp wagta dowam eder.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ýok</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ýa-da CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Görkezilmedik</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Ýok</item>
+        <item>Sanksiýalaşdyrylmadyk Girişlerden Goranmak Ulgamy (SGGU) SPN</item>
+        <item>IMSI</item>
+        <item>Global IndekSFaýly (GIF)</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Içki enjam ýygnaýjysy</item>
+        <item>Çykarylýan SD kart</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Rugsat edilen</item>
+        <item>Ignored</item>
+        <item>Hemişe sora</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Ýerleşýän ýeri</item>
+        <item>Şahsy</item>
+        <item>Hat ýazyşma</item>
+        <item>Media</item>
+        <item>Enjamda</item>
+        <item>Awto-işlet</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Takmynan ýerleşişe gir</item>
+        <item>Takyk ýerleşişe gir</item>
+        <item>GPS</item>
+        <item>Wibrirle</item>
+        <item>Kontaktlaryny okaň.</item>
+        <item>Kontaktlary dolandyr</item>
+        <item>Jaň žurnalyny okaň</item>
+        <item>Jaň žurnalyny ýazyň</item>
+        <item>Senenamany okamak</item>
+        <item>Senenamany dolandyr</item>
+        <item>Wi-Fi torlaryny gözle</item>
+        <item>Duýduryş sesi</item>
+        <item>Öýjükleri gözle</item>
+        <item>Telefondan jaň et</item>
+        <item>Tekst hatlaryny oka</item>
+        <item>Tekst hatlary ýaz</item>
+        <item>Tekst hatlaryny al</item>
+        <item>Gyssagly tekst hatlaryny al</item>
+        <item>Multimedia hatlaryny al</item>
+        <item>WAP push hatlaryny al</item>
+        <item>Tekst hatlaryny iber</item>
+        <item>SIM kartadaky tekst hatlaryny oka</item>
+        <item>SIM karta tekst hatlary ýaz</item>
+        <item>Sazlamalary üýtget</item>
+        <item>Goýma interfeýsini düşe</item>
+        <item>Elýeterlik baradaky duýduryşlar</item>
+        <item>Kamera</item>
+        <item>Audio ýazdyrmak</item>
+        <item>Audio faýllary goýber</item>
+        <item>Çalşyk buferi maglumatyny oka</item>
+        <item>Çalşyk buferi maglumatyny dolandyr</item>
+        <item>Multimediany dolandyr</item>
+        <item>Audiofokusy dolandyr</item>
+        <item>Esasy sesi sazla</item>
+        <item>Jaň sesini sazla</item>
+        <item>Jaň sazynyň sesini sazla</item>
+        <item>Multimedia sesini sazla</item>
+        <item>Oýaryjy sesini sazla</item>
+        <item>Duýduryş sesini sazla</item>
+        <item>Bluetooth enjamlary arkaly goýberilýän sesiň güýjüni sazla</item>
+        <item>Ekrany açyk sakla</item>
+        <item>Ýerleşiş maglumatyna gözegçilik et</item>
+        <item>Ýokary takyklykdaky ýerleşiş maglumatyna gözegçilik et</item>
+        <item>Enjamyň ulanyş statistikasyny oka</item>
+        <item>Mikrofony aç we ýap</item>
+        <item>Multimediany düşür</item>
+        <item>Multimediany düşür</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Multimedia hatlaryny ugratmak</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Awto-işlet</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Ýerleşýän ýeri</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Wibrirle</item>
+        <item>Kontaktlaryny okaň.</item>
+        <item>Kontaktlary dolandyr</item>
+        <item>Jaň žurnalyny okaň</item>
+        <item>Jaň žurnalyny ýazyň</item>
+        <item>Senenamany okamak</item>
+        <item>Senenamany dolandyr</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Habarnamalary görkez</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Telefondan jaň et</item>
+        <item>Tekst hatlaryny oka</item>
+        <item>Tekst hatlary ýaz</item>
+        <item>Tekst hatlaryny al</item>
+        <item>Gyssagly tekst hatlaryny al</item>
+        <item>Multimedia hatlaryny al</item>
+        <item>WAP push hatlaryny al</item>
+        <item>Tekst hatlaryny iber</item>
+        <item>SIM kartadaky tekst hatlaryny oka</item>
+        <item>SIM karta tekst hatlary ýaz</item>
+        <item>Sazlamalary üýtget</item>
+        <item>Goýma interfeýsini düşe</item>
+        <item>Elýeterlik baradaky duýduryşlar</item>
+        <item>Kamera</item>
+        <item>Audio ýazdyrmak</item>
+        <item>Audio faýllary goýber</item>
+        <item>Çalşyk buferi maglumatyny oka</item>
+        <item>Çalşyk buferi maglumatyny dolandyr</item>
+        <item>Multimediany dolandyr</item>
+        <item>Audiofokusy dolandyr</item>
+        <item>Esasy sesi sazla</item>
+        <item>Jaň sesini sazla</item>
+        <item>Jaň sazynyň sesini sazla</item>
+        <item>Multimedia sesini sazla</item>
+        <item>Oýaryjy sesini sazla</item>
+        <item>Duýduryş sesini sazla</item>
+        <item>Bluetooth enjamlary arkaly goýberilýän sesiň güýjüni sazla</item>
+        <item>Ekrany açyk sakla</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Ýerleşýän ýeri</item>
+        <item>Enjamyň ulanyş statistikasyny oka</item>
+        <item>Mikrofony aç we ýap</item>
+        <item>Multimediany düşür</item>
+        <item>Multimediany düşür</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Multimedia hatlaryny ugratmak</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Awto-işlet</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Kontaktlary öçür</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Gysga (0.5 sek.)</item>
+        <item>Ortaça dowamlylyk (1.0 sek.)</item>
+        <item>Dowamlylygy (1.5 sek.)</item>
+        <item>Müşderi</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Gysga</item>
+        <item>Ortaça</item>
+        <item>Uzyn</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Standart</item>
+        <item>Sans serif</item>
+        <item>\"Sans serif condensed\" şrifti</item>
+        <item>Sans serif monospace</item>
+        <item>\"Serif\" şrifti</item>
+        <item>Serif monospace</item>
+        <item>Adaty</item>
+        <item>El ýazuw</item>
+        <item>Setir harp</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Aşa kiçi</item>
+        <item>Kiçi</item>
+        <item>Ýönekeý</item>
+        <item>Uly</item>
+        <item>Örän uly</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Standart</item>
+        <item>Ýok</item>
+        <item>Ulgamdan daşary</item>
+        <item>Kölege düşüriň</item>
+        <item>Galdyrylan</item>
+        <item>Gowşadylan</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Defolt</item>
+        <item>Garada ak</item>
+        <item>Akda gara</item>
+        <item>Garada sary</item>
+        <item>Gökde sary</item>
+        <item>Müşderi</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB / žurnal buferi</item>
+        <item>256 KB / žurnal buferi</item>
+        <item>1 MB / žurnal buferi</item>
+        <item>4 MB / žurnal buferi</item>
+        <item>16 MB / žurnal buferi</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Hiç wagt barlama</item>
+        <item>Diňe DRM düzümi barla</item>
+        <item>Hemişe barla</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP barlamany hiç haçan ulanma</item>
+        <item>DRM düzümi barlamak üçin diňe HDCP ulan</item>
+        <item>Hemişe HDCP barlagyny ulanyň</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasiýa öçürlen</item>
+        <item>Hereket gurşawy 0.5x</item>
+        <item>Hereket gurşawy 1x</item>
+        <item>Hereket gurşawy 1.5x</item>
+        <item>Hereket gurşawy 2x</item>
+        <item>Hereket gurşawy 5x</item>
+        <item>Hereket gurşawy 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasiýa öçürlen</item>
+        <item>Hereket gurşawy 0.5x</item>
+        <item>Hereket gurşawy 1x</item>
+        <item>Hereket gurşawy 1.5x</item>
+        <item>Hereket gurşawy 2x</item>
+        <item>Hereket gurşawy 5x</item>
+        <item>Hereket gurşawy 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasiýa öçürlen</item>
+        <item>Hereket gurşawy 0.5x</item>
+        <item>Hereket gurşawy 1x</item>
+        <item>Hereket gurşawy 1.5x</item>
+        <item>Hereket gurşawy 2x</item>
+        <item>Hereket gurşawy 5x</item>
+        <item>Hereket gurşawy 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ýok</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ýok</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>glGetError-da jaň stegi</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Ýapyk</item>
+        <item>Kesilip alynan, dört burç bolmadyk bölekleriň ýüzini gök reňkde tapawutlandyr</item>
+        <item>Barlanan çyzuw buýrugyny ýaşyl reňkde tapawutlandyr</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Gizle</item>
+        <item>Ekranda sütün görnüşinde görkez</item>
+        <item>Adb korpusynda dumpsys gfxinfo görkez</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Ýapyk</item>
+        <item>Çäkden artan ýerleri görkez</item>
+        <item>Ýaşyla duýgurlygy pes bolan ýerleri görkez</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standart çäklendirmesi</item>
+        <item>Hiç bir yzky fony ösüşde däl</item>
+        <item>köpünden 1 proses</item>
+        <item>Köpünden 2 proses</item>
+        <item>Köpünden 3 proses</item>
+        <item>Köpünden 4 proses</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>Deslapky paýlaşylan açarly L2TP/IPSec VPN</item>
+        <item>Sertifikatly L2TP/IPSec VPN</item>
+        <item>Deslapky paýlaşylan açarlar bilen IPSec VPN we XAuth tanama</item>
+        <item>Sertifikatlar bilen IPSec VPN we XAuth tanama</item>
+        <item>Sertifikatlar bilen IPSec VPN we gibrid tanama</item>
+        <item>IKEv2 we deslapdan paýlaşylan klawiş esasly şahsyýeti tanaýyşly IPSec VPN</item>
+        <item>IKEv2 we kepilnama esasly şahsyýeti tanaýyşly IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Aragatnaşyk kesildi</item>
+        <item>Başladylýar…</item>
+        <item>Birikdirilýär…</item>
+        <item>Birikdi</item>
+        <item>Taým-aut</item>
+        <item>Şowsuz</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Sora</item>
+        <item>Hiç-haçan rugsat berme</item>
+        <item>Hemişe rugsat bermek</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Ýönekeý</item>
+        <item>Orta</item>
+        <item>Aşak</item>
+        <item>gaty pes</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Ýapyk</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Kadaly</item>
+        <item>Orta</item>
+        <item>Aşak</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Hemişelik</item>
+        <item>Iň ýokary iş</item>
+        <item>Möhüm (öňki plan)</item>
+        <item>Möhüm (yzky plan)</item>
+        <item>Backup</item>
+        <item>Gaty agramly</item>
+        <item>Hyzmat (işlediş)</item>
+        <item>Hyzmat (açyp ýapyş)</item>
+        <item>Alyjy</item>
+        <item>Home</item>
+        <item>Soňky iş</item>
+        <item>Keşlenen (iş)</item>
+        <item>Keşlenen (iş müşderisi)</item>
+        <item>Keşlenen (boş)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Enjamda</item>
+        <item>SD kartasy</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Hemişe kabul et</item>
+        <item>Hemişe sora</item>
+        <item>Hemişe ret et</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Wideolar</item>
+        <item>Suratlar</item>
+        <item>Aýdym-saz</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Awtomatiki</item>
+        <item>El bilen</item>
+        <item>Hemişe sora</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Hemişe öçür</item>
+        <item>3 sekunt</item>
+        <item>5 sekunt</item>
+        <item>10 sekunt</item>
+        <item>15 sekunt</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Ýok</item>
+        <item>Ähli kontaktlar</item>
+        <item>Halanýanlar</item>
+        <item>Islendik</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Ýok</item>
+        <item>Ähli kontaktlar</item>
+        <item>Halanýanlar</item>
+        <item>Topar</item>
+        <item>Islendik</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Beýik</item>
+        <item>Ortaça</item>
+        <item>Pes</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Current network</item>
+        <item>Hemişe sora</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>Öý</item>
+        <item>Ofis</item>
+        <item>Aşyk</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>Jaň</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Internet</item>
+        <item>Öý</item>
+        <item>Ofis</item>
+        <item>Aşyk</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Gysga salgylanmany çalyş</item>
+        <item>Ýörite bellenen açary täzeden sazla</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Ses</item>
+        <item>Wibrirle</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>2 minut</item>
+        <item>10 minut</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Beýik</item>
+        <item>Ýönekeý</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+        <item>1 sagat</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 sekunt</item>
+        <item>30 sekunt</item>
+        <item>1 minut</item>
+        <item>3 minut</item>
+        <item>5 minut</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Elýeterlilik</item>
+        <item>Iki taraply aragatnaşyk</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Elýeterlilik</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Hemmesi</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Bir gezek</item>
+        <item>Her 10 minutdan</item>
+        <item>Her 20 minutdan</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>Hakyky wagt</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 sagat</item>
+        <item>2 sagat</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Klasyki</item>
+        <item>Ýarym öwüşgin</item>
+        <item>Morfing</item>
+        <item>Köpreňklilik</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekunt</item>
+        <item>6 sekunt</item>
+        <item>Hemişe öçür</item>
+        <item>Hemişe açyk</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Iň ýokary</item>
+        <item>Orta</item>
+        <item>Düýp</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Habarlar</item>
+        <item>Ammar</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Täzelikler</item>
+        <item>Ammar</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Haýal</item>
+        <item>Kadaly</item>
+        <item>Çalt</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Ýok</item>
+        <item>Her 30 minutda</item>
+        <item>Her 1 sagatdan</item>
+        <item>Her iki sagatdan</item>
+        <item>Her 4 sagatdan</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Nauşnikler</item>
+        <item>Şahsy kompýuter</item>
+        <item>Telefon</item>
+        <item>HID (klawiatura, syçanjyk, we ş.m.)</item>
+        <item>Ähli enjamlar</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Stereo</item>
+        <item>Gurşaw</item>
+    </string-array>
+</resources>

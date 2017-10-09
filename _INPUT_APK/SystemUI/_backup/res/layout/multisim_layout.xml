@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.MultiSIMView android:background="@drawable/quick_connect_layout_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/quickpanel_dualsim_layout" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <View android:layout_gravity="center_vertical" android:background="@color/notification_bottom_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="63.0dip">
+            <com.android.systemui.statusbar.policy.QuickSim1ButtonLayout android:gravity="center" android:layout_gravity="center" android:id="@id/QuickSim1ButtonLayout" android:focusable="true" android:clickable="true" android:layout_width="159.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/QuickSim1ButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quick_btn_g_1" />
+                        <TextView android:textSize="17.0dip" android:gravity="left" android:id="@id/QuickSim1ButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/multisim_carrier_label1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+                </LinearLayout>
+            </com.android.systemui.statusbar.policy.QuickSim1ButtonLayout>
+            <com.android.systemui.statusbar.policy.QuickSim2ButtonLayout android:gravity="center" android:layout_gravity="center" android:id="@id/QuickSim2ButtonLayout" android:focusable="true" android:clickable="true" android:layout_width="159.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/QuickSim2ButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quick_btn_w_2" />
+                        <TextView android:textSize="17.0dip" android:gravity="left" android:id="@id/QuickSim2ButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/multisim_carrier_label2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+                </LinearLayout>
+            </com.android.systemui.statusbar.policy.QuickSim2ButtonLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.MultiSIMView>

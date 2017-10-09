@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_permission_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:id="@id/setting_permission_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/allow_app_permission_message" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:id="@id/setting_permission_message_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="18.0dip" android:text="@string/allow_app_permission_message_item_location" />
+        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/setting_permission_do_not_show_again_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="18.0dip">
+            <CheckBox android:id="@id/setting_permission_do_not_show_again_check_box" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:id="@id/text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/do_not_show_again" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

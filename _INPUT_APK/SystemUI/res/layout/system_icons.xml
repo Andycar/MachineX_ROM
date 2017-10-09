@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/system_icons" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" android:alpha="0.74" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/signal_battery_cluster" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="2.0dip">
+        <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="@dimen/rssi_battery_gap" layout="@layout/signal_cluster_view" />
+        <TextView android:textSize="@dimen/battery_text_size" android:textColor="@color/battery_text_color" android:layout_gravity="center" android:id="@id/battery_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.74" android:importantForAccessibility="no" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/battery_text_marginStart" />
+        <com.android.systemui.BatteryMeterView android:id="@id/battery" android:layout_width="@dimen/battery_icon_width" android:layout_height="@dimen/battery_icon_height" android:layout_marginBottom="@dimen/battery_icon_bottom_margin" android:alpha="0.74" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

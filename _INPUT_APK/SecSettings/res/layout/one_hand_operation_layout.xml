@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@id/one_hand_operation_animation_view" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/one_handed_operation" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/one_haned_operation_textview1" android:paddingTop="25.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/one_haned_operation_msg1" android:paddingStart="@dimen/one_hand_operation_side_margin" android:paddingEnd="@dimen/one_hand_operation_side_margin" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/one_haned_operation_textview2" android:paddingTop="9.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/one_haned_operation_msg2" android:paddingStart="@dimen/one_hand_operation_side_margin" android:paddingEnd="@dimen/one_hand_operation_side_margin" />
+    </LinearLayout>
+</ScrollView>

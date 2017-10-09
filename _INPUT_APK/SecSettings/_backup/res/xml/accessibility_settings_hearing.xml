@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/audio_preference_title" android:key="audio_preference_key"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/flash_notification" android:key="flash_notification_key" android:summary="@string/flash_notification_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/all_sound_off" android:key="all_sound_off_key" />
+    <CheckBoxPreference android:title="@string/hac_mode_title" android:key="call_hearing_aid" android:summary="@string/hac_mode_summary" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_samsung_captioning_title" android:key="samsung_captioning_preference_screen" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_captioning_title" android:key="google_captioning_preference_screen" android:fragment="com.android.settings.accessibility.CaptionPropertiesFragment" />
+    <com.android.settings.accessibility.AudioBalancePreference android:title="@string/audio_balance" android:key="sound_balance" android:summary="@string/sound_balance_summary" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/audio_balance" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/mono_audio_title" android:key="mono_audio_key" android:summary="@string/mono_audio_summary" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/sound_detector_title" android:key="sound_detector_preference" android:summary="@string/sound_detector_summary" />
+    <PreferenceScreen android:title="@string/sound_detector_main_title" android:key="sound_detector_plus_preference" android:summary="@string/sound_detector_main_description" android:fragment="com.android.settings.accessibility.SoundDetector" />
+    <CheckBoxPreference android:title="@string/auto_haptic" android:key="auto_haptic_key" />
+</PreferenceScreen>

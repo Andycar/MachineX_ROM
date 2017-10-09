@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/sound_detector_title" android:key="baby_crying_detector" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/doorbell_detector_title" android:key="door_bell_detector" />
+</PreferenceScreen>

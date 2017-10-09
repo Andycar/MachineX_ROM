@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/s_view_cover_view" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_height" class="com.sec.android.sviewcover.SViewCoverView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/s_view_cover_background" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin" android:src="@android:drawable/mainbg_pattern_mainarea" />
+    <FrameLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/sview_cover_root" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin">
+        <FrameLayout android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_height">
+            <com.sec.android.sviewcover.SViewCoverPager android:layout_gravity="center" android:id="@id/s_view_cover_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.sec.android.sviewcover.SViewCoverPagerNavigation android:gravity="center" android:layout_gravity="bottom" android:id="@id/s_view_cover_page_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" />
+    </FrameLayout>
+    <view android:id="@id/s_view_cover_unlock_area" android:paddingTop="25.0dip" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin" android:layout_marginRight="@dimen/sview_cover_margin" class="com.sec.android.sviewcover.SViewCoverUnlockArea">
+        <LinearLayout android:id="@id/s_view_cover_unlock_two_level_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_gravity="bottom|center|left" android:id="@id/s_view_cover_noti_page_area" android:visibility="invisible" android:layout_width="173.32999dip" android:layout_height="173.32999dip" android:layout_marginLeft="-20.0dip" android:layout_marginBottom="-20.0dip">
+                <ImageView android:id="@id/s_view_cover_circle_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_accept_circle_03" />
+                <ImageView android:id="@id/s_view_cover_noti_page_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_noti" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_swipearrow_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/lock_swipearrow_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="bottom|center|right" android:layout_width="173.32999dip" android:layout_height="173.32999dip" android:layout_marginLeft="27.329987dip" android:layout_marginBottom="-20.0dip">
+                <ImageView android:id="@id/s_view_cover_circle_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_accept_circle_03" />
+                <ImageView android:id="@id/s_view_cover_shortcut_page_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_menu_list" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_swipearrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/lock_swipearrow_right" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/s_view_cover_unlock_thrid_level_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_gravity="bottom|center|left" android:id="@id/s_view_cover_noti_page_thrid_level_area" android:layout_width="173.32999dip" android:layout_height="173.32999dip" android:layout_marginLeft="-20.0dip" android:layout_marginBottom="-20.0dip">
+                <ImageView android:id="@id/s_view_cover_circle_thrid_level_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_accept_circle_03" />
+                <ImageView android:id="@id/s_view_cover_shortcut_noti_bg_pressed" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_circle_01_pressed" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_noti_page_thrid_level_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_noti" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_swipearrow_thrid_level_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/lock_swipearrow_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="bottom|center|right" android:layout_width="173.32999dip" android:layout_height="173.32999dip" android:layout_marginLeft="27.329987dip" android:layout_marginBottom="-20.0dip">
+                <ImageView android:id="@id/s_view_cover_circle_thrid_level_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_accept_circle_03" />
+                <ImageView android:id="@id/s_view_cover_shortcut_camera_bg_pressed" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_circle_01_pressed" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_shortcut_camera_bg_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_circle_01_default" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_shortcut_camera_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_circle_ic_camera" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/s_view_cover_swipearrow_thrid_level_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/lock_swipearrow_right" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </view>
+    <com.sec.android.sviewcover.SViewCoverColorSelector android:layout_gravity="left" android:id="@id/s_view_cover_color_selector" android:visibility="gone" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin" />
+</view>

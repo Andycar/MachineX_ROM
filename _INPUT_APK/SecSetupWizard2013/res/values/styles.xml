@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="SettingsTheme.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="title_area">
+        <item name="android:textSize">@dimen/main_title_font_size</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="eula_title_area">
+        <item name="android:textSize">@dimen/two_line_title_font_size</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="sub_title_area">
+        <item name="android:textSize">@dimen/sub_title_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="small_title_area">
+        <item name="android:textSize">@dimen/small_title_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="description_area">
+        <item name="android:textSize">@dimen/desc_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="learn_more_style">
+        <item name="android:textSize">@dimen/learn_more_font_size</item>
+        <item name="android:textColor">@color/learn_more</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="email_account_text">
+        <item name="android:textSize">@dimen/email_account_text_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="added_email_account_text">
+        <item name="android:textSize">@dimen/added_email_account_text_size</item>
+        <item name="android:textColor">@color/emailc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="list_item">
+        <item name="android:textSize">@dimen/list_item_font_size</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding_left</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="button_style">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:paddingLeft">@dimen/button_padding_side</item>
+        <item name="android:paddingRight">@dimen/button_padding_side</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+    <style name="divider" parent="@android:style/Theme.DeviceDefault" />
+    <style name="bottom_button_text">
+        <item name="android:textSize">@dimen/bottom_button_text_size</item>
+        <item name="android:textColor">@color/bottom_button_text</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="spinner_style">
+        <item name="android:gravity">left</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="bottom_button_disable_text">
+        <item name="android:textSize">@dimen/bottom_button_text_size</item>
+        <item name="android:textColor">@color/bottom_button_text</item>
+        <item name="android:alpha">0.4</item>
+    </style>
+    <style name="sub_title_area_spc">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMY_c4</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="description_area_spc">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMY_c5</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="bottom_button_text_spc">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMY_c6</item>
+        <item name="android:textColor">@color/bottom_button_text</item>
+    </style>
+    <style name="description_area_light_spc">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMY_c5</item>
+        <item name="android:textColor">@color/desc_text_light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="language_text_spc">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMY_cc</item>
+        <item name="android:textColor">@color/desc_text_light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="att_welcome_title_area">
+        <item name="android:textSize">@dimen/att_welcome_title_text</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="samsung_account_text">
+        <item name="android:textSize">@dimen/samsung_account_text_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="samsung_account_text_desc">
+        <item name="android:textSize">@dimen/samsung_account_text_desc_size</item>
+        <item name="android:textColor">@color/samsung_acct_desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="edit_text_item">
+        <item name="android:textSize">@dimen/list_item_font_size</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+</resources>

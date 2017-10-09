@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/cancel_tts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/actionbar_btn_selector" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@android:style/Widget.ActionButton">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/cancelBtnImg" android:visibility="gone" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/tw_action_bar_icon_cancel_02_holo_dark" android:layout_marginStart="-6.0dip" />
+            <TextView android:textSize="19.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dialog_cancel_button" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="@color/col_75_000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.5" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

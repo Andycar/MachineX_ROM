@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/actionbar_title_text_size" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:gravity="center" android:id="@id/actionbarTitleText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/action_bar_title" android:includeFontPadding="false" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flayout_sw_welcome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureAllChildren="true">
+        <VideoView android:layout_gravity="center" android:id="@id/video_intro_setupwizarad" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_setupwizard_welcome" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_area_top_margin" style="@style/title_area" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+                    <ImageView android:id="@id/setup_wizard_logo" android:paddingTop="@dimen/setup_wizard_logo_paddingTop" android:paddingBottom="@dimen/setup_wizard_logo_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                    <TextView android:gravity="center" android:id="@id/start_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_start_msg" style="@style/sub_title_area" />
+                    <TextView android:gravity="left" android:id="@id/language_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginTop="@dimen/edittext_top_margin" android:layout_marginRight="@dimen/edittext_side_margin" android:layout_marginBottom="4.0dip" android:text="@string/select_language" style="@style/small_title_area" />
+                    <Spinner android:id="@id/language_spinner" android:layout_width="fill_parent" android:layout_height="@dimen/spinner_height" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginRight="@dimen/edittext_side_margin" style="@style/spinner_style" />
+                </LinearLayout>
+                <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                        <TextView android:gravity="left" android:id="@id/accessibility_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/accessibility_notice_marginTop" android:text="@string/accessibility_description" style="@style/description_area" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <Button android:layout_gravity="center" android:id="@id/accessibility_btn" android:layout_width="@dimen/accessibility_btn_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/accessibility_btn_top_margin" android:minHeight="@dimen/accessibility_btn_height" android:text="@string/accessibility" style="@style/button_style" />
+                            <TextView android:gravity="left" android:id="@id/samsung_legal_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guide_samsung_legal_for_na" style="@style/description_area" />
+                            <TextView android:layout_gravity="center_horizontal" android:id="@id/samsung_legal_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/learn_more_top_margin_for_na" android:layout_marginBottom="@dimen/learn_more_top_margin_for_na" style="@style/learn_more_style" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/video_intro_button_area" android:background="@drawable/tw_ab_bottom_transparent_light_holo" android:paddingTop="@dimen/bottom_button_area_paddingTop" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <View android:background="@drawable/tw_divider_ab_holo_light" android:layout_width="@dimen/bottom_button_area_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area" android:background="@drawable/action_bar_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bottom_button_text" />
+                    <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:paddingLeft="@dimen/next_arrow_paddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

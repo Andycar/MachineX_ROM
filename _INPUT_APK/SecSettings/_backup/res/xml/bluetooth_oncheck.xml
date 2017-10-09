@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_label"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/ask_to_use_bluetooth" android:key="bt_enable_check" android:summary="@string/asks_your_permission_to_use" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

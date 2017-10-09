@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/share_accessibility_settings" android:key="shared_accessibility_menus"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/import_export" android:key="shared_accessibility_export_import" android:summary="@string/import_export_description" />
+    <Preference android:title="@string/export" android:key="shared_accessibility_export" android:summary="@string/export_description" />
+    <Preference android:title="@string/importandrestore" android:key="shared_accessibility_import" android:summary="@string/importandrestore_description" />
+    <Preference android:title="@string/share" android:key="shared_accessibility_share" android:summary="@string/share_description_listmenu" />
+    <Preference android:title="@string/use_android_beam" android:key="shared_accessibility_android_beam" android:summary="@string/use_android_beam_description" />
+</PreferenceScreen>

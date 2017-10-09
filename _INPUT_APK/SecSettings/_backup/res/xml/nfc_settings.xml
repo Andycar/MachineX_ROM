@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/nfc_quick_toggle_title" android:key="nfc_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/nfc_explain" android:selectable="false" android:key="nfc_android_beam_help" android:summary="@string/nfc_explained" />
+    <PreferenceCategory android:title="@string/nfc_settings_tag_title" android:key="cat_rw_p2p">
+        <com.android.settings.SwitchPreferenceScreen android:persistent="false" android:title="@string/nfc_settings_tag_title" android:key="toggle_rw_p2p" android:summary="@string/nfc_settings_rw_p2p_summary" android:fragment="com.android.settings.nfc.TagsConnectingDevices" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/nfc_data_exchange_title" android:key="android_beam_title">
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/android_beam_settings_title" android:key="toggle_android_beam" android:fragment="com.android.settings.nfc.AndroidBeam" />
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/s_beam_settings_title" android:key="toggle_sbeam" android:summary="@string/sbeam_menu_summary" android:fragment="com.android.settings.nfc.SBeam" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/nfc_payment_services_title" android:key="nfc_tap_pay">
+        <PreferenceScreen android:title="@string/nfc_payment_settings_title" android:key="click_tap_pay" android:fragment="com.android.settings.nfc.PaymentSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

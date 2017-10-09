@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="28.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/s_view_cover_photo_id" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/APKTOOL_DUMMY_77" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/s_view_cover_missed_name" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+            <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="19.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/s_view_cover_missed_icon" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:src="@drawable/noti_list_ic_missed_call" />
+                <TextView android:textSize="15.0dip" android:textColor="#b3ffffff" android:layout_gravity="center" android:id="@id/s_view_cover_missed_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/s_view_cover_missed_count" android:background="@drawable/noti_list_badge" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="#b3ffffff" android:layout_gravity="bottom" android:id="@id/s_view_cover_missed_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

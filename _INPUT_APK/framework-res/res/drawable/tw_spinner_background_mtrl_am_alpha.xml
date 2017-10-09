@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <nine-patch android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/tw_spinner_checked_material" />
+    </item>
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/tw_spinner_pressed_material" />
+    </item>
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/tw_spinner_disabled_material" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/tw_spinner_normal_material" />
+    </item>
+</selector>

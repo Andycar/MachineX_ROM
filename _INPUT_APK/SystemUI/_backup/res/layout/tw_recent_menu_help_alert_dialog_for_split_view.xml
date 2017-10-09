@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_dialog_recent_menu_help_image_margin_top" android:layout_marginBottom="@dimen/help_dialog_recent_menu_help_image_margin_bottom" android:src="@drawable/tw_recent_help_popup_image_for_split_view" android:scaleType="center" />
+        <LinearLayout android:orientation="vertical" android:id="@id/recents_help_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/help_dialog_recent_menu_help_content_margin" android:layout_marginStart="@dimen/help_dialog_recent_menu_help_content_margin" android:layout_marginEnd="@dimen/help_dialog_recent_menu_help_content_margin">
+            <com.android.systemui.HelpHubTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/help_popup_recent_menu_text_line_spacing_on_split_view_layout" android:contentDescription="@string/recent_menukey_press_description_for_split_view_1_talk" systemui:text_help="@string/recent_menukey_press_description_for_split_view_1" systemui:insideImg_yDiff="@dimen/helphub_help_list_item_big_image_y_diff" systemui:image="@drawable/help_icon_split" style="@style/HelpListItem.HelphubTextView" />
+            <TextView android:textAppearance="@style/TextAppearance.RecentPanelHelpPopUp" android:id="@id/recents_popup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_dialog_recent_menu_help_content_margin" android:text="@string/recent_menukey_press_description_for_split_view_2" android:lineSpacingExtra="@dimen/help_popup_recent_menu_text_line_spacing_on_split_view_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ctc_registration_page" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ctc_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <CheckBox android:textSize="@dimen/location_chk_size" android:id="@id/agree_ctc_registration" android:paddingLeft="@dimen/location_chk_paddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/location_chk_marginLeft" android:layout_marginTop="@dimen/location_chk_marginTop" android:layout_marginRight="@dimen/location_chk_marginRight" android:text="@string/ctc_registration_yes_agree" />
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/location_chk_marginBottom" android:layout_below="@id/agree_ctc_registration" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/location_msg_marginTop" android:layout_above="@id/ctc_checkbox">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/ctc_registration_msg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/location_msg_marginLeft" android:layout_marginRight="@dimen/location_msg_marginRight" android:text="@string/ctc_registration_message_1" style="@style/description_area" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="?android:twTextColorPrimary" android:id="@id/handwriting_language_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="?android:scrollbarSize" android:layout_marginBottom="9.0dip" android:text="@string/handwriting_language_desc_select_eng" />
+    <View android:background="@drawable/tw_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:textSize="18.0sp" android:id="@id/handwriting_language_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/more_button_layout" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/more_button" android:text="@string/more_languages" android:layout_weight="2.0" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

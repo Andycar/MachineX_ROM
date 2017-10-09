@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/button_layout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/list_selectall" android:paddingLeft="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="56.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_toLeftOf="@id/save_menu_item" android:layout_alignParentLeft="true" style="?android:attr/actionButtonStyle">
+            <CheckBox android:id="@id/selectall_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/wifi_ap_actionbar_check_box_animator" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title_wifi_ap" android:paddingLeft="12.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/item_selected" android:singleLine="true" android:layout_weight="0.9" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/save_menu_item" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" style="?android:attr/actionButtonStyle">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/save_menu_text" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

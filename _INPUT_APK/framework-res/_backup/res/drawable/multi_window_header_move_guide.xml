@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/multi_window_header_move_cue" android:tint="@color/multiwindow_centerbar_cue_tint_color" android:tintMode="multiply" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/multi_window_header_move_arrow" android:tint="@color/multiwindow_centerbar_cue_arrow_tint_color" />
+    </item>
+    <item android:right="47.0dip">
+        <bitmap android:gravity="right" android:src="@drawable/controller_btn_bg_left" android:tint="@color/multiwindow_centerbar_press_tint_color" android:tintMode="multiply" />
+    </item>
+    <item android:left="47.0dip">
+        <bitmap android:gravity="left" android:src="@drawable/controller_btn_bg_right" android:tint="@color/multiwindow_centerbar_press_tint_color" android:tintMode="multiply" />
+    </item>
+</layer-list>

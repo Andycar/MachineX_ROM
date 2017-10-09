@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/parentPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:background="#fffafafa" android:paddingTop="15.0dip" android:paddingBottom="16.0dip" android:layout_width="@dimen/s_view_cover_window_width" android:layout_height="@dimen/tw_global_actions_view_cover_dialog_height" android:paddingStart="34.0dip" android:paddingEnd="25.0dip">
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/alertTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:paddingTop="20.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:id="@id/messageContainer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="19.0sp" android:textColor="#ff000000" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:splitMotionEvents="false">
+            <Button android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff0094b0" android:gravity="center" android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="@string/cancel" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sec-roboto-light" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="?android:attr/borderlessButtonStyle" />
+            <Button android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff0094b0" android:gravity="center" android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="@string/ok" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sec-roboto-light" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="?android:attr/borderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

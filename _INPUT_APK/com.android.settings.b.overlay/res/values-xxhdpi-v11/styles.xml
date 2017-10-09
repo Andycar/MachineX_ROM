@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabTheme" parent="@android:style/ThemeOverlay.Material.Dark">
+        <item name="android:colorForeground">#ff99a9af</item>
+        <item name="android:colorBackground">#ff181818</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ff99a9af</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff99a9af</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+    </style>
+</resources>

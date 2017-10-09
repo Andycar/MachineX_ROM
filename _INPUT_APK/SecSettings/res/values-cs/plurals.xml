@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Nyní jste %d kroků od toho stát se vývojářem.</item>
+        <item quantity="one">Nyní jste 1 krok od toho stát se vývojářem.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Heslo musí obsahovat alespoň %d písmen.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň jedno písmeno.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Heslo musí obsahovat alespoň %d malých písmen.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň jedno malé písmeno.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Heslo musí obsahovat alespoň %d velkých písmen.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň jedno velké písmeno.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Heslo musí obsahovat alespoň %d číslic.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň jednu číslici.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Heslo musí obsahovat alespoň %d symbolů.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň 1 symbol.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Heslo musí obsahovat alespoň %d číslic nebo symbolů.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň 1 číslici nebo symbol.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Počet aplikací, které mohou číst oznámení: %d.</item>
+        <item quantity="one">Aplikace (%d) smí číst oznámení.</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">Je instalováno %d aplikací, které poskytují podmínky pro tuto funkci</item>
+        <item quantity="one">Je instalována 1 aplikace, která poskytuje podmínky pro tuto funkci</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">Počet minut: %d</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">Počet sekund: %d</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">1 hodina</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">Počet minut: %d</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">Počet minut: %d</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">Počet sekund: %d</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+</resources>

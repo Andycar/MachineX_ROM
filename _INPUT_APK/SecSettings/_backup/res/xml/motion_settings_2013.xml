@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/motion2013_pick_up_title" android:key="pick_up_category" />
+    <SwitchPreferenceScreen android:title="@string/pick_up_to_call_out_title" android:key="pick_up_to_call_out" android:summary="@string/pick_up_to_call_out_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="pick_up_to_call_out" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/pick_up_title" android:key="pick_up" android:summary="@string/pick_up_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="pick_up" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/double_tap_title" android:key="double_tap" android:summary="@string/double_tap_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="double_tap" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:title="@string/motion2013_tilt_title" android:key="tilt_category" />
+    <SwitchPreferenceScreen android:title="@string/arc_motion_ripple_effect_title" android:key="arc_motion_ripple_effect" android:summary="@string/arc_motion_ripple_effect_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="arc_motion_ripple_effect" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/arc_motion_quick_glance_title" android:key="arc_motion_quick_glance" android:summary="@string/arc_motion_quick_glance_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="arc_motion_quick_glance" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/arc_motion_music_playback_title" android:key="arc_motion_music_playback" android:summary="@string/arc_motion_music_playback_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="arc_motion_music_playback" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/peek_view_albums_list_title" android:key="peek_view_albums_list" android:summary="@string/peek_view_albums_list_msg" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="peek_view_albums_list" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/peek_chapter_preview_title" android:key="peek_chapter_preview" android:summary="@string/peek_chapter_preview_msg" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="peek_chapter_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/motion2013_zoom_title" android:key="tilt" android:summary="@string/tilt_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="tilt" />
+        <extra android:name="hasSensitivity" android:value="true" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/tilt_to_scroll_list_title" android:key="tilt_to_scroll_list" android:summary="@string/tilt_to_scroll_list_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="tilt_to_scroll_list" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:title="@string/motion2013_pan_title" android:key="pan_category" />
+    <SwitchPreferenceScreen android:title="@string/motion2013_move_icon_title" android:key="pan" android:summary="@string/pan_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="pan" />
+        <extra android:name="hasSensitivity" android:value="true" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/motion2013_browse_image_title" android:key="pan_to_browse_image" android:summary="@string/pan_to_browse_image_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="pan_to_browse_image" />
+        <extra android:name="hasSensitivity" android:value="true" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:title="@string/motion2013_shake_title" android:key="shake_category" />
+    <SwitchPreferenceScreen android:title="@string/motion2013_update_refresh_title" android:key="shake" android:summary="@string/shake_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="shake" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:title="@string/motion2013_turn_over_title" android:key="turn_over_category" />
+    <SwitchPreferenceScreen android:title="@string/motion2013_mute_pause_title" android:key="turn_over" android:summary="@string/turn_over_summary" android:fragment="com.android.settings.motion2013.SMotionGuideHub">
+        <extra android:name="type" android:value="turn_over" />
+    </SwitchPreferenceScreen>
+</PreferenceScreen>

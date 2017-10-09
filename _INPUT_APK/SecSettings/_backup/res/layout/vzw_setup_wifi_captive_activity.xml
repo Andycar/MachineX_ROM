@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/vzw_setupwizard_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/setupwizard_steps" layout="@layout/vzw_custom_title_heading" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progressDrawable="@drawable/browser_progress" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <WebView android:id="@id/wifi_captiveportal_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottomButtonPanel" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_button_height" android:layout_marginTop="@dimen/bottom_btn_layout_margin_top" android:layout_marginBottom="@dimen/bottom_btn_layout_margin_bottom" android:baselineAligned="false" style="@style/bottom_button_layout">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ActionBarBottomButtonLeftStyle" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/wifi_captiveportal_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ActionBarBottomButtonRightStyle">
+            <TextView android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_setup_back" style="@style/SoftKeyTextStyle" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:paddingLeft="@dimen/margin_between_button_and_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_btn_icon_next_mtrl" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

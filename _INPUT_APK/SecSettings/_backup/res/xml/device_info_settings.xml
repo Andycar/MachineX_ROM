@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings" android:key="about_device"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/help_title" android:key="help" android:summary="@string/help_title_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.HelpActivity" />
+    </PreferenceScreen>
+    <Preference android:title="@string/software_version" android:key="software_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/hardware_version" android:key="hardware_version_spr" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/software_update_settings_list_item_title" android:key="software_update_settings" android:fragment="com.android.settings.SoftwareUpdateSettings" />
+    <PreferenceScreen android:title="@string/software_update_settings_list_item_title" android:key="software_update_settings_no_subtree" />
+    <PreferenceScreen android:title="@string/software_update_settings_list_item_title" android:key="system_update_settings_na_gsm" />
+    <PreferenceScreen android:title="@string/software_update_settings_list_item_title" android:key="system_update_settings_vzw">
+        <intent android:action="android.intent.action.OMADM.UPDATE" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/diagnostics_and_usage_title" android:key="diagnostics_and_usage">
+        <intent android:action="android.intent.action.SAMSUNG_CRASHREPORT_SETTING" />
+    </PreferenceScreen>
+    <Preference android:title="@string/icon_glossary" android:key="icon_glossary" />
+    <PreferenceScreen android:title="@string/preload_app_update" android:key="preload_update" android:summary="@string/preload_app_update_summary" />
+    <PreferenceScreen android:title="@string/plmn_update_settings_list_item_title" android:key="plmn_update_settings" android:fragment="com.android.settings.PublicLandMobileNetwork" />
+    <PreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/epush_settings" android:key="ctc_epush">
+        <intent android:targetPackage="com.ctc.epush" android:action="android.intent.action.MAIN" android:targetClass="com.ctc.epush.IndexActivity" />
+    </PreferenceScreen>
+    <Preference android:title="@string/sprint_4g_settings" android:key="sprint_4g_settings" android:fragment="com.android.settings.deviceinfo.Sprint4GSettings" />
+    <PreferenceScreen android:title="@string/legal_information" android:key="container">
+        <PreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.COPYRIGHT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.LICENSE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/terms_and_condition" android:key="samsung_legal">
+            <intent android:action="com.sec.android.app.SecSetupWizard.SamsungLegal" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetyinfomation">
+            <intent android:action="com.samsung.safetyinformation.SAFETY_INFORMATION" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/privacy_alert" android:key="privacy_alert">
+            <intent android:action="android.settings.PRIVACY_ALERT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_settings" android:key="divx_license_settings">
+            <intent android:action="com.samsung.intent.action.DIVX_LICENSE_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="android.settings.SAFETY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/activate_this_device" android:key="telespree_activation">
+        <intent android:action="com.telespree.android.client.ssa" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/label_settings" android:key="key_label_settings" />
+    <CheckBoxPreference android:title="@string/label_diagnostics_info" android:key="key_diagnostics_info" />
+    <Preference android:title="@string/label_name" android:key="label_name" />
+    <Preference android:title="@string/device_name" android:key="device_name" android:summary="@string/device_info_default" android:widgetLayout="@layout/round_more_icon" />
+    <PreferenceScreen android:title="@string/regulatory_information" android:key="regulatory_info" />
+    <PreferenceScreen android:title="@string/device_feedback" android:key="device_feedback" />
+    <Preference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/security_patch" android:key="security_patch" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/installed_variant_version" android:key="installed_variant_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" style="?android:preferenceInformationStyle" />
+    <Preference android:title="Secure boot status" android:key="csb_value" android:summary="unknown" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/hardware_version" android:key="hardware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="United Arab Emirates" android:key="country_certification_info" android:summary="TRA ID : 0016333/08\nTA : 000000000/00" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/security_sw_version" android:key="security_sw_version" android:summary="@string/security_sw_version_default" style="?android:preferenceInformationStyle" />
+    <com.android.settings.PreferenceWithLongSummary android:title="@string/knox_version" android:key="knox_version" android:summary="@string/knox_version_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/sdm_config_version" android:key="sdm_config_version" android:summary="@string/device_info_not_available" />
+    <Preference android:title="@string/device_info_fcc_id" android:key="fcc_id" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/device_info_rated" android:key="rated_value" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/sdm_config_version" android:key="sdm_config_version" android:summary="@string/device_info_not_available" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

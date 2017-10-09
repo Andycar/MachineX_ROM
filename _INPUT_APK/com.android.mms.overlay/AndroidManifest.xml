@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.mms.overlay" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <overlay android:priority="100" android:targetPackage="com.android.mms"/>
+    <meta-data android:name="rom" android:value="MachineX ROM"/>
+    <meta-data android:name="infoShort" android:value="Black theme"/>
+    <meta-data android:name="infoLong" android:value="This will change systemui to a Black'n'Blue theme"/>
+    <meta-data android:name="author" android:value="Andycar"/>
+</manifest>

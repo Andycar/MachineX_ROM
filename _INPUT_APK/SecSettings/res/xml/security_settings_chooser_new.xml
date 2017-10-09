@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/lock_screen_security" android:key="lock_screen_security_category" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_launch_picker_title" android:key="unlock_set_or_change" android:summary="@string/unlock_set_unlock_mode_none" />
+    <PreferenceCategory android:title="@string/lock_screen_swipe_options" android:key="lock_screen_options_category" />
+    <PreferenceScreen android:title="@string/show_information" android:key="show_information" android:summary="@string/show_information_summary" android:fragment="com.android.settings.LockShowInfoSettings" />
+    <PreferenceScreen android:title="@string/magazine_card_title" android:key="lock_screen_magazine_card" android:summary="@string/magazine_card_summary" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/dualclock_settings_title" android:key="dualclock_settings" android:summary="@string/dualclock_settings_summary" android:fragment="com.android.settings.dualclock.DualClockSetting" />
+    <ListPreference android:persistent="false" android:entries="@array/clock_size_key" android:title="@string/clock_size" android:key="clock_size" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/clock_size_value" />
+    <PreferenceScreen android:persistent="false" android:title="@string/clock_size" android:key="clock_size_with_preview" android:fragment="com.android.settings.PreviewFragment">
+        <extra android:name="MenuName" android:value="ClockSize" />
+    </PreferenceScreen>
+    <ListPreference android:persistent="false" android:entries="@array/pattern_type_entries" android:title="@string/pattern_type" android:key="pattern_type" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/pattern_type_value" />
+    <PreferenceScreen android:persistent="false" android:title="@string/pattern_type" android:key="pattern_type_with_preview" android:fragment="com.android.settings.PreviewFragment">
+        <extra android:name="MenuName" android:value="PatternType" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/lock_screen_show_date_title" android:key="lock_screen_date_and_year" />
+    <PreferenceScreen android:title="@string/lock_screen_clock_widget_options" android:key="lock_screen_clock_settings" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/lock_screen_shortcut_title" android:key="lock_screen_shortcut_menu" android:summary="@string/lock_screen_shortcut_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.lockscreenshortcut.LockScreenShortcutSettings" />
+    </com.android.settings.SwitchPreferenceScreen>
+    <ListPreference android:persistent="false" android:entries="@array/set_shortcuts_entries" android:title="@string/lock_screen_set_shortcuts_title" android:key="set_shortcuts" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/set_shortcuts_values" />
+    <CheckBoxPreference android:title="@string/lock_screen_shortcut_camera" android:key="lock_screen_camera_shortcut" android:summary="" />
+    <PreferenceScreen android:title="@string/lock_screen_favorite_apps_title" android:key="lock_screen_favorite_apps" android:summary="@string/lock_screen_favorite_apps_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.lockscreenshortcut.LockScreenShortcutSettings" />
+    </PreferenceScreen>
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/my_profile_title" android:key="lock_screen_myprofile_settings" android:summary="@string/my_profile_summary" android:fragment="com.android.settings.myprofile.PersonalMessageSettings" />
+    <PreferenceScreen android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+    <CheckBoxPreference android:title="@string/quick_note_title" android:key="quick_note" android:summary="@string/quick_note_summary" android:defaultValue="false" />
+    <ListPreference android:persistent="false" android:entries="@array/lock_screen_unlock_effect_entries" android:title="@string/unlock_effect" android:key="unlock_effect" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/lock_screen_unlock_effect_values" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_effect" android:key="unlock_effect_with_preview" android:fragment="com.android.settings.PreviewFragment">
+        <extra android:name="MenuName" android:value="UnlockEffect" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/charging_effect" android:key="charging_effect_with_preview" android:fragment="com.android.settings.PreviewFragment">
+        <extra android:name="MenuName" android:value="ChargingEffect" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/ink_effect" android:key="ink_effect" />
+    <PreferenceScreen android:title="@string/additional_information" android:key="additional_information" android:summary="@string/accessibility_feature_state_on" android:fragment="com.android.settings.LockAddInfoSettings" />
+    <CheckBoxPreference android:title="@string/additional_information_for_weather" android:key="additional_information_for_weather" />
+    <PreferenceScreen android:title="@string/biometric_weak_improve_matching_title" android:key="biometric_weak_improve_matching" />
+    <CheckBoxPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title" android:key="visiblepattern" />
+    <CheckBoxPreference android:title="@string/haptic_feedback_intensity_title_for_camera" android:key="vibration_feedback" android:summary="@string/lockpattern_settings_vibration_feedback_summary" />
+    <CheckBoxPreference android:title="@string/signature_settings_enable_visible_title" android:key="visiblesignature" />
+    <ListPreference android:persistent="false" android:entries="@array/signature_settings_verification_level_entries" android:title="@string/signature_settings_verification_level_title" android:key="signature_verification_level" android:summary="@string/signature_settings_verification_level_summary" android:entryValues="@array/signature_settings_verification_level_values" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/samsung_unlock_option_say_your_wakeup_command_to_unlock_screen" android:key="lock_screen_wakeup_settings" android:summary="@string/wakeup_in_lockscreen_summary_nomotion" />
+    <ListPreference android:persistent="false" android:entries="@array/lock_after_timeout_entries" android:title="@string/lock_after_timeout" android:key="lock_after_timeout" android:summary="@string/lock_after_timeout_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/lock_after_timeout_values" />
+    <CheckBoxPreference android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" android:key="power_button_instantly_locks" />
+    <CheckBoxPreference android:title="@string/auto_swipe_title" android:key="auto_swipe" android:summary="@string/auto_swipe_summary" />
+    <CheckBoxPreference android:title="@string/help_text_title" android:key="help_text" android:summary="@string/help_text_summary" />
+    <PreferenceCategory android:title="@string/flip_cover" android:key="flip_cover" />
+    <PreferenceCategory android:title="@string/cover" android:key="cover" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/automatic_unlock" android:key="automatic_unlock" android:summary="@string/automatic_unlock_summary" />
+    <PreferenceScreen android:title="@string/sview_color" android:key="sview_color">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SViewColor" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/select_info_title" android:key="select_info" android:fragment="com.android.settings.SelectInfoCoverSettings" />
+</PreferenceScreen>

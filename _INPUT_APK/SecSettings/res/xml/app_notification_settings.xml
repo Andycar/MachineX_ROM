@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_notifications_title" android:key="app_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/app_notification_block_title" android:key="block" android:summary="@string/app_notification_block_summary" android:disableDependentsState="true" />
+    <SwitchPreference android:persistent="false" android:title="@string/app_notification_priority_title" android:key="priority" android:summary="@string/app_notification_priority_summary" android:dependency="block" />
+    <SwitchPreference android:persistent="false" android:title="@string/app_notification_sensitive_title" android:key="sensitive" android:summary="@string/app_notification_sensitive_summary" />
+</PreferenceScreen>

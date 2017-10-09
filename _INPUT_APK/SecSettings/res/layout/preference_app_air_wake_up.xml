@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/air_wake_up_image" android:layout_width="288.0dip" android:layout_height="224.0dip" android:layout_marginTop="69.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="left" android:id="@id/air_wake_up_explained" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="33.0dip" android:layout_marginRight="12.0dip" android:text="@string/motion2014_air_wake_up_guide_content" android:fontFamily="sec-roboto-light-regular" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.widgetapp.weather.libs.common.view.DispatchKeyRelativeLayout android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.widgetapp.ap.weather.common.MyMapView android:enabled="true" android:id="@id/mapView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" android:layout_alignParentBottom="true" android:apiKey="0sJIx36O_KDL6trhif_WuUT5uZyaFMY0Ao5CBvw" />
+    <LinearLayout android:id="@id/search_layout" android:background="@color/col_00A5C4" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+</com.sec.android.widgetapp.weather.libs.common.view.DispatchKeyRelativeLayout>

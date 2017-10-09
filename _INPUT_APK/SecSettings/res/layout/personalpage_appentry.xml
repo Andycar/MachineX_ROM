@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/private_mode_app_entry_menu_paddingTop" android:paddingBottom="@dimen/private_mode_app_entry_menu_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:paddingStart="@dimen/private_mode_app_entry_menu_paddingLeft"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/personalpage_pkg_image" android:layout_width="@dimen/private_mode_app_entry_menu_icon_size" android:layout_height="@dimen/private_mode_app_entry_menu_icon_size" android:alpha="0.6" />
+    <TextView android:textSize="@dimen/private_mode_app_entry_menu_icon_text_size" android:id="@id/personalpage_pkg_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/private_mode_app_entry_menu_icon_text_marginLeft" />
+</LinearLayout>

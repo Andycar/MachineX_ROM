@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="17.0dip" android:src="@drawable/personal_mode_popup" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#fff5f5f5" android:id="@id/text_personal_page_message" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="?android:scrollbarSize" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/personal_page_secretbox_message" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/checkbox_personal_page_never_show_again" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="12.0dip" android:text="@string/do_not_show_again" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="#ff959ba0" style="@style/SecurityPreferenceButtonContainer">
+            <Button android:textColor="@drawable/tw_popup_button_text_holo_dark" android:id="@id/button_personal_page_confirm" android:background="@drawable/tw_popup_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/message_Ok" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:background="@drawable/settings_color_select_bg" android:layout_width="fill_parent" android:layout_height="@dimen/previewarea_layoutHeight" android:layout_marginLeft="@dimen/previewarea_layout_marginLeft" android:layout_marginTop="@dimen/previewarea_layout_marginTop" android:layout_marginRight="@dimen/previewarea_layout_marginRight" android:layout_marginBottom="@dimen/previewarea_layout_marginBottom">
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tvPreviewText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_screen_clock_preview" android:singleLine="true" />
+            </LinearLayout>
+            <View android:background="@drawable/tw_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/tvEditmyprofile" android:paddingLeft="@dimen/screen_layout_paddingLeft" android:paddingRight="@dimen/screen_layout_paddingRight" android:layout_width="fill_parent" android:layout_height="@dimen/editprofile_layoutHeight" android:text="@string/my_profile_edit" />
+            <View android:background="@drawable/tw_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/screen_layout_paddingLeft" android:layout_width="fill_parent" android:layout_height="@dimen/fontsize_layoutHeight" android:layout_marginRight="@dimen/margin_from_right">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/tvFontSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font" android:layout_centerVertical="true" />
+                <Spinner android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/spinner_fontsize" android:layout_width="@dimen/fontsize_spinner_layoutWidht" android:layout_height="@dimen/fontsize_spinner_layoutHeight" android:layout_marginLeft="@dimen/fontsize_spinner_marginLeft" android:layout_toRightOf="@id/tvFontSize" android:layout_centerVertical="true" />
+                <Button android:id="@id/btn_alignRight" android:layout_width="@dimen/align_btn_layoutWidht" android:layout_height="@dimen/align_btn_layoutHeight" android:layout_marginRight="@dimen/previewarea_layout_marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/my_profile_right_align" />
+                <Button android:id="@id/btn_alignCenter" android:layout_width="@dimen/align_btn_layoutWidht" android:layout_height="@dimen/align_btn_layoutHeight" android:layout_marginRight="@dimen/align_btn_margin" android:layout_toLeftOf="@id/btn_alignRight" android:layout_centerVertical="true" android:contentDescription="@string/my_profile_center_align" />
+                <Button android:id="@id/btn_alignLeft" android:layout_width="@dimen/align_btn_layoutWidht" android:layout_height="@dimen/align_btn_layoutHeight" android:layout_marginRight="@dimen/align_btn_margin" android:layout_toLeftOf="@id/btn_alignCenter" android:layout_centerVertical="true" android:contentDescription="@string/my_profile_left_align" />
+            </RelativeLayout>
+            <View android:background="@drawable/tw_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/settings_color_select_bg" android:paddingLeft="7.0dip" android:paddingTop="5.0dip" android:paddingRight="7.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="@dimen/custom_colorview_parentlayout_marginTop" android:layout_marginRight="13.0dip" android:layout_marginBottom="@dimen/custom_colorview_parentlayout_marginTop">
+                <com.android.settings.myprofile.SpLitColorPickerView android:id="@id/splitColorView" android:layout_width="fill_parent" android:layout_height="32.0dip" />
+                <com.android.settings.myprofile.GradientColorPickerView android:id="@id/gradientColorView" android:layout_width="fill_parent" android:layout_height="@dimen/custom_gradientcolorview_layoutHeight" android:layout_marginTop="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

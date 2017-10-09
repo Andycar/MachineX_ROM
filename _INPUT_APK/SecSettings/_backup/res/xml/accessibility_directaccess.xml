@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="direct_access_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.UnclickablePreference android:title="@string/direct_access_summary" android:key="direct_access_guide" />
+    <PreferenceCategory android:title="@string/direct_access_category_title" android:key="direct_access_category">
+        <CheckBoxPreference android:title="@string/direct_access_actions_accessibility_title" android:key="direct_accessibility" />
+        <CheckBoxPreference android:title="@string/direct_access_actions_talkback_title" android:key="direct_talkback" />
+        <CheckBoxPreference android:title="@string/direct_access_actions_negative_title" android:key="direct_negative" />
+        <CheckBoxPreference android:title="@string/direct_access_actions_accesscontrol_title" android:key="direct_accesscontrol" />
+    </PreferenceCategory>
+</PreferenceScreen>

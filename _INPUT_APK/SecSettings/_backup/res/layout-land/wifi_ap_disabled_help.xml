@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wifi_ap_help_orient_layout_second_landscape" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/mobileap_help_image" android:visibility="visible" android:layout_width="252.0dip" android:layout_height="105.0dip" android:layout_marginTop="46.0dip" android:scaleType="fitCenter" android:layout_marginStart="23.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff1e1e1e" android:ellipsize="marquee" android:id="@id/help_instruction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/wifi_ap_instruction" android:layout_marginStart="24.0dip" android:layout_marginEnd="14.0dip" android:layout_toEndOf="@id/mobileap_help_image" />
+</RelativeLayout>

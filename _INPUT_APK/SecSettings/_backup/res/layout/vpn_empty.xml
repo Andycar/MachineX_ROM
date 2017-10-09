@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bottom_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <TextView android:gravity="center_horizontal" android:id="@id/empty_view_center_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vpn_count_zero" android:layout_centerInParent="true" style="@style/no_item_text_style" />
+    <TextView android:textSize="@dimen/vpn_empty_view_popup_textsize" android:textColor="@color/vpn_emptylist_hint" android:gravity="center" android:id="@id/empty_view_popup" android:background="@drawable/tw_no_item_popup_bg_holo_dark" android:paddingLeft="@dimen/vpn_empty_view_popup_padding_left" android:paddingRight="@dimen/vpn_empty_view_popup_padding_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vpn_empty_view_popup_margin_top" android:layout_marginRight="@dimen/vpn_empty_view_popup_margin_right" android:maxWidth="@dimen/vpn_empty_view_popup_maxwidth" android:text="@string/empty_template_string" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

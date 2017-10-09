@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/s_view_cover_view" android:background="#ff1b1e22" android:layout_width="fill_parent" android:layout_height="335.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/pattern_bg" android:background="@android:drawable/mainbg_pattern_mainarea" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="282.0dip">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="23.0dip" android:paddingTop="8.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="bottom|center|left" android:id="@id/clock_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+                    <TextView android:textSize="60.0dip" android:textColor="#ffffffff" android:id="@id/digital_clock_time" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sview_text_shadow" />
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/digital_clock_ampm" android:paddingBottom="7.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sview_text_shadow" />
+                </LinearLayout>
+                <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/digital_month_day" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#99000000" style="@style/sview_text_shadow" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.android.settings.SViewCoverPagerNavigation android:gravity="center" android:id="@id/s_view_cover_page_navigation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="26.0dip" />
+    </LinearLayout>
+</FrameLayout>

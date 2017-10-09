@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/wallpaper_widget_background" android:background="@drawable/wallpaper_widget_expending_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/queue_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip">
+        <ImageView android:layout_gravity="center|top" android:id="@id/menu_queue" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_1fb" android:scaleType="center" />
+    </LinearLayout>
+</FrameLayout>

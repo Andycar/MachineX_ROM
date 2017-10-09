@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/weatherAmPm_zone_kr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="6.0dip">
+        <ImageView android:id="@id/dst_icon_kr" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="11.0dip" android:src="@drawable/trans_widget_4x2_summertime" android:tint="@color/col_def_dst_font_color" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/col_def_time_ampm_font_color" android:id="@id/weather_AmPm_kr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.75dip" android:shadowColor="@color/col_50_000000" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_alignParentTop="true" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/weatherTime_zone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/weatherAmPm_zone_kr">
+        <TextView android:textSize="90.0dip" android:textStyle="bold" android:textColor="@color/col_def_time_font_color" android:id="@id/weather_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/col_50_000000" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_centerHorizontal="true" android:fontFamily="samsung-neo-num3T-cond" />
+        <RelativeLayout android:id="@id/weather_time_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/time_hour1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/col_def_widget_time_image_color" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/time_hour2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/col_def_widget_time_image_color" android:layout_toEndOf="@id/time_hour1" />
+            <ImageView android:textStyle="bold" android:id="@id/time_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/trans_widget_4x2_time_icon" android:scaleType="fitXY" android:tint="@color/col_def_widget_time_image_color" android:layout_centerVertical="true" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/time_hour2" />
+            <ImageView android:textStyle="bold" android:id="@id/time_min1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:tint="@color/col_def_widget_time_image_color" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/time_dot" />
+            <ImageView android:textStyle="bold" android:id="@id/time_min2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:tint="@color/col_def_widget_time_image_color" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/time_min1" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/weatherAmPm_zone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="0.0dip" android:layout_toEndOf="@id/weatherTime_zone">
+        <ImageView android:id="@id/dst_icon" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="11.0dip" android:src="@drawable/trans_widget_4x2_summertime" android:tint="@color/col_def_dst_font_color" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/col_def_time_ampm_font_color" android:id="@id/weather_AmPm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.75dip" android:shadowColor="@color/col_50_000000" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_alignParentTop="true" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</RelativeLayout>

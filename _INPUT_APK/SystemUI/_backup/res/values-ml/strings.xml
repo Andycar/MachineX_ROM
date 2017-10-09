@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time_set">സജ്ജമാക്കുക</string>
+    <string name="save">സേവ് ചെയ്യുക</string>
+    <string name="cancel">റദ്ദ്</string>
+    <string name="clearcover_exit_button">പുറത്തുകടക്കുക</string>
+    <string name="clearcover_music_widget_unkown">അജ്ഞാതം</string>
+    <string name="clearcover_no_missed_event">നിങ്ങള്‍ക്ക് നഷ്ടപ്പെട്ട ഇവന്‍റുകള്‍ ഒന്നും ഇല്ല.</string>
+    <string name="clearcover_1_missed_call">നിങ്ങള്‍ക്ക് 1 നഷ്ടപ്പെട്ട കോളുകള്‍ ഉണ്ട്.</string>
+    <string name="clearcover_1_unread_message">നിങ്ങള്‍ക്ക് 1 വായിക്കാത്ത മെസ്സേജ് ഉണ്ട്.</string>
+    <string name="clearcover_n_missed_calls">നിങ്ങള്‍ക്ക് %d നഷ്ടപ്പെട്ട കോളുകള്‍ ഉണ്ട്.</string>
+    <string name="clearcover_n_unread_messages">നിങ്ങള്‍ക്ക് %1$d വായിക്കാത്ത മെസ്സേജുകള്‍ ഉണ്ട്.</string>
+    <string name="clearcover_calls_and_messages">നിങ്ങള്‍ക്ക് %1$d മിസ്ഡ് കോളുകളും %2$d വായിക്കാത്ത മെസ്സേജുകളും ഉണ്ട്.</string>
+    <string name="zzz_tts_temp_celsius">സെല്‍ഷ്യസ്</string>
+    <string name="zzz_tts_temp_fahrenheit">ഫാരന്‍ഹീറ്റ്</string>
+    <string name="zzz_tts_temperature">ഡിഗ്രി</string>
+    <string name="volumepanel_ringtone">റിംഗ്‌ടോണ്‍‌</string>
+    <string name="volumepanel_media">മീഡിയ</string>
+    <string name="volumepanel_notification">അറിയിപ്പ്</string>
+    <string name="volumepanel_system">സിസ്റ്റം</string>
+    <string name="s_view_cover_shortcuts_camera_text">ക്യാമറ</string>
+    <string name="s_view_cover_shortcuts_quick_memo_text">ആക്ഷന്‍ മെമ്മോ</string>
+    <string name="s_view_cover_shortcuts_music_player_text">സംഗീതം</string>
+    <string name="cmas_presidential_alert">Presidential alert</string>
+    <string name="cmas_extreme_alert">Extreme alerts</string>
+    <string name="cmas_presidential_alerts">Presidential alerts</string>
+    <string name="cmas_extreme_alerts">Extreme alerts</string>
+    <string name="cmas_severe_alerts">Severe alerts</string>
+    <string name="cmas_amber_alerts">AMBER alerts</string>
+    <string name="cmas_emergency_alerts">എമര്‍ജന്‍സി അലേര്‍ട്ടുകള്‍</string>
+    <string name="sae_presidential_alert">Presidential alert</string>
+    <string name="new_message_title">പുതിയ സന്ദേശം</string>
+    <string name="message_count">%d പുതിയ സന്ദേശം</string>
+    <string name="new_message">പുതിയ message</string>
+    <string name="cb_msg_header">CB സന്ദേശങ്ങള്‍</string>
+    <string name="push_message_sender">പുഷ് സന്ദേശങ്ങള്‍</string>
+    <string name="select_background_color">S View വിൻഡോ ചുമര്‍ചിത്രം തിരഞ്ഞെടുക്കുക</string>
+    <string name="s_view_window_theme">S View വിൻഡോ വാൾപേപ്പർ</string>
+    <string name="s_view_info_cover">പ്രദർശിപ്പിക്കാനുള്ള ഇനങ്ങൾ തിരഞ്ഞെടുക്കുക</string>
+    <string name="s_view_screen_time_out">സ്ക്രീന്‍ ടൈംഔട്ട്</string>
+    <string name="s_view_screen_roaming">റോമിംഗ്</string>
+    <string name="s_view_screen_home">ഹോം</string>
+    <string name="missed_call_title">നഷ്ടപ്പെട്ട കോള്‍</string>
+    <string name="missed_calls_count">%d നഷ്ടപ്പെട്ട കോളുകള്‍</string>
+    <string name="battery_charging_percent">ചാര്‍ജ്ജ് ചെയ്യുന്നു: %d%%</string>
+    <string name="battery_wirelessly_charging_percent">വയർലെസായി ചാർജ്ജ് ചെയ്യുന്നു - %d%%</string>
+    <string name="battery_charged">ചാര്‍ജ്ജ് ചെയ്തു.</string>
+    <string name="unknown">അജ്ഞാതം</string>
+    <string name="private_num">സ്വകാര്യ നമ്പര്‍</string>
+    <string name="payphone">പേ ഫോണ്‍</string>
+    <string name="unknown_address">അജ്ഞാത വിലാസം</string>
+    <string name="s_view_cover_transport_prev_description">മുമ്പത്തെ</string>
+    <string name="s_view_cover_transport_next_description">അടുത്തത്</string>
+    <string name="s_view_cover_transport_pause_description">പോസ്</string>
+    <string name="s_view_cover_transport_play_description">പ്ലേ ചെയ്യുക</string>
+    <string name="s_view_cover_transport_stop_description">നിര്‍ത്തുക</string>
+    <string name="s_view_cover_transport_volume_description">വോളിയം</string>
+    <string name="s_view_cover_transport_playlist_description">പ്ലേലിസ്റ്റുകള്‍</string>
+    <string name="s_view_cover_missed_event_secured_popup">ഉപകരണം ലോക്ക് ചെയ്യപ്പെട്ടു. കൂടുതൽ വിശദാംശങ്ങൾ കാണുന്നതിന് കവർ തുറക്കുക.</string>
+    <string name="s_view_cover_open_cover_popup">വാൾപേപ്പർ ക്രമീകരിക്കുന്നതിനായി കവർ തുറക്കുക.</string>
+    <string name="s_view_cover_missed_event_button_accessibiliy">മിസ്സ്‌ഡ് ഇവന്റ് പേജിലേക്ക് നീങ്ങാൻ രണ്ട് വിരലുകളുപയോഗിച്ച് സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="s_view_cover_settings_button_accessibiliy">ക്രമീകരണങ്ങളിലേക്ക് പോകാൻ, രണ്ട് വിരലുകളുപയോഗിച്ച് സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="s_view_cover_camera_button_accessibiliy">ക്യാമറ തുറക്കാനായി രണ്ട് വിരലുകളുപയോഗിച്ച് സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="s_view_cover_emergency_timer_hrs">മണി.</string>
+    <string name="accessibility_battery_level">ബാറ്ററി %d ശതമാനത്തില്‍ ആകുന്നു.</string>
+    <string name="unsaved">സേവ് ചെയ്യാത്തവ</string>
+    <string name="clearcover_open_to_view_message">സന്ദേശ വിശദാംശങ്ങൾ കാണുന്നതിന് കവർ തുറക്കുക.</string>
+    <string name="clearcover_open_to_view_call">കോൾ വിശദാംശങ്ങൾ കാണുന്നതിന് കവർ തുറക്കുക</string>
+    <string name="ok">ശരി</string>
+    <string name="status_view_wday_month_day_no_year">E, MMMM d</string>
+    <string name="status_view_wday_day_month_no_year">E, d MMMM</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="keyguard_password_enter_pin_code">PIN കോഡ് ടൈപ്പുചെയ്യുക.</string>
+    <string name="keyguard_password_wrong_pin_code">തെറ്റായ PIN കോഡ്.</string>
+    <string name="keyguard_label_text">അണ്‍ലോക്ക് ചെയ്യുന്നതിന്, മെനു അമര്‍ത്തി 0 അമര്‍ത്തുക.</string>
+    <string name="faceunlock_multiple_failures">പരമാവധി മുഖം അണ്‍‌ലോക്ക് ചെയ്യല്‍ ശ്രമങ്ങള്‍ കവിഞ്ഞു.</string>
+    <string name="keyguard_charged">ചാര്‍ജ്ജ് ചെയ്തു.</string>
+    <string name="keyguard_plugged_in">ചാര്‍ജ്ജ് ചെയ്യുന്നു: %d%%</string>
+    <string name="keyguard_low_battery">ചാര്‍ജര്‍ കണക്ടുചെയ്യുക.</string>
+    <string name="keyguard_charging_in_wireless">വയർലസായി ചാർജ്ജുചെയ്യുന്നു: %d%%</string>
+    <string name="keyguard_instructions_when_pattern_disabled">അണ്‍ലോക്ക് ചെയ്യുന്നതിന് മെനു അമര്‍ത്തുക.</string>
+    <string name="keyguard_network_locked_message">നെറ്റ്‌വര്‍ക്ക് ലോക്ക് ചെയ്തു.</string>
+    <string name="keyguard_missing_sim_message_short">SIM കാർഡ് ഇല്ല</string>
+    <string name="keyguard_missing_sim_message">ഫോണില്‍ SIM കാര്‍ഡ് ഇല്ല</string>
+    <string name="keyguard_sim_locked_message">SIM കോര്‍ഡ് ലോക്ക് ചെയ്തതാണ്.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM കാർഡിനെ PUK-ലോക്ക് ചെയ്തു.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM കാര്‍ഡ് ലോക്ക് നീക്കുന്നു…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. വിജറ്റ് %3$d ൽ %2$d.</string>
+    <string name="keyguard_accessibility_add_widget">വിജറ്റ് ചേര്‍ക്കുക</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ശൂന്യം</string>
+    <string name="keyguard_accessibility_widget">%s വിജറ്റ്</string>
+    <string name="keyguard_accessibility_camera">ക്യാമറ</string>
+    <string name="keyguard_accessibility_pattern_unlock">പാറ്റേൺ അൺലോക്ക്</string>
+    <string name="keyguard_accessibility_face_unlock">ഫെയ്സ് അണ്‍ലോക്ക്</string>
+    <string name="keyguard_accessibility_transport_pause_description">താല്ക്കാലികമായി നിര്‍ത്താനുള്ള ബട്ടണ്‍</string>
+    <string name="keyguard_accessibility_transport_play_description">പ്ലേ ചെയ്യുക ബട്ടണ്‍</string>
+    <string name="keyguard_accessibility_transport_stop_description">അവസാനിപ്പിക്കുക ബട്ടണ്‍</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">തംപ്സ് അപ്</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">തംപ്സ് ഡൌണ്‍</string>
+    <string name="keyguard_accessibility_transport_heart_description">ഹൃദയം</string>
+    <string name="password_keyboard_label_alpha_key">കഖഗ</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">ALT</string>
+    <string name="keyboardview_keycode_cancel">റദ്ദാക്കുക</string>
+    <string name="keyboardview_keycode_delete">ഇല്ലാതാക്കുക</string>
+    <string name="keyboardview_keycode_done">ചെയ്‌തു</string>
+    <string name="keyboardview_keycode_shift">ഷിഫ്റ്റ്</string>
+    <string name="keyboardview_keycode_enter">നല്‍കൂ</string>
+    <string name="description_target_unlock">അൺലോക്ക് ചെയ്യുക</string>
+    <string name="description_target_camera">ക്യാമറ</string>
+    <string name="description_target_silent">നിശബ്‌ദം</string>
+    <string name="description_target_soundon">ശബ്ദം ഓണ്‍</string>
+    <string name="description_target_search">തിരയു.</string>
+    <string name="kg_emergency_call_label">എമര്‍ജന്‍സി കോൾ</string>
+    <string name="kg_forgot_pattern_button_text">പാറ്റേണ്‍ മറന്നുവോ?</string>
+    <string name="kg_wrong_pattern">തെറ്റായ മാതൃക</string>
+    <string name="kg_wrong_password">തെറ്റായ പാസ്‌വേഡ്</string>
+    <string name="kg_wrong_pin">തെറ്റായ PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d സെക്കന്‍റിനുശേഷം വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="kg_too_many_failed_attempt_countdown">1 സെക്കന്‍റില്‍ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="kg_pattern_instructions">നിങ്ങളുടെ അണ്‍ലോക്ക് പാറ്റേണ്‍ വരയ്ക്കുക.</string>
+    <string name="kg_sim_pin_instructions">SIM കാര്‍ഡ് അണ്‍ലോക്ക് ചെയ്യുന്നതിന് ‍PIN നല്‍കുക.</string>
+    <string name="kg_pin_instructions">PIN നല്‍കുക</string>
+    <string name="kg_password_instructions">പാസ്‌വേഡ് നൽകുക</string>
+    <string name="kg_puk_enter_puk_hint">നിങ്ങളുടെ SIM കാര്‍ഡ് ലോക്കുചെയ്തു. തുടരുന്നതിന് നിങ്ങളുടെ PUK നല്‍കുക. വിശദാംശങ്ങള്‍ക്ക് നിങ്ങളുടെ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</string>
+    <string name="kg_puk_enter_pin_hint">ഒരു പുതിയ PIN നല്‍കുക.</string>
+    <string name="kg_enter_confirm_pin_hint">നിങ്ങളുടെ പുതിയ PIN സ്ഥിരീകരിക്കുക.</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM കാര്‍ഡ് ലോക്ക് നീക്കുന്നു…</string>
+    <string name="kg_invalid_sim_puk_hint">നിങ്ങളുടെ PUK-ല്‍ 8 അക്ഷരങ്ങളോ അതില്‍ കൂടുതലോ അടങ്ങിയിരിക്കണം.</string>
+    <string name="kg_invalid_confirm_pin_hint">നിങ്ങള്‍ നല്‍കിയ PIN-കള്‍ പൊരുത്തപ്പെടുന്നില്ല.</string>
+    <string name="kg_login_instructions">അണ്‍ലോക്ക് ചെയ്യുന്നതിന്, നിങ്ങളുടെ Google അക്കൌണ്ട് ഉപയോഗിച്ച് സൈന്‍ ഇന്‍ ചെയ്യുക.</string>
+    <string name="kg_login_username_hint">ഉപയോക്തൃ നാമം (ഈമെയില്‍)</string>
+    <string name="kg_login_password_hint">പാസ്‌വേഡ്</string>
+    <string name="kg_login_submit_button">സൈനിന്‍ ചെയ്യുക</string>
+    <string name="kg_login_invalid_input">സാധുവല്ലാത്ത ഉപയോക്തൃനാമം അഥവാ പാസ്സ്‍വേര്‍ഡ്.</string>
+    <string name="no_network_connection">നെറ്റ്‌വർക്ക് കണക്ഷൻ ഒന്നുമില്ല</string>
+    <string name="kg_login_checking_password">അക്കൗണ്ട് പരിശോധിക്കുന്നു…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"നിങ്ങൾ %1$d തവണ തെറ്റായ ഒരു PIN നൽകി.
+
+%2$d സെക്കന്‍റിനുള്ളിൽ വീണ്ടും ശ്രമിക്കുക."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">തെറ്റായ ഒരു പാസ്‌വേഡ് നിങ്ങൾ %1$d തവണ നൽകിയിട്ടുണ്ട്. %2$d സെക്കൻഡിൽവീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">ഉപകരണത്തിന്‍റെ ലോക്കുമാറ്റുന്നതിന് %1$d പരാജയപ്പെട്ട ശ്രമങ്ങൾ നിങ്ങൾ നടത്തി. %2$d സെക്കൻഡിൽ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="kg_reordering_delete_drop_target_text">നീക്കംചെയ്യുക</string>
+    <string name="keyguard_transport_pause_description">താല്ക്കാലികമായി നിര്‍ത്താനുള്ള ബട്ടണ്‍</string>
+    <string name="keyguard_transport_play_description">പ്ലേ ചെയ്യുക ബട്ടണ്‍</string>
+    <string name="keyguard_transport_stop_description">അവസാനിപ്പിക്കുക ബട്ടണ്‍</string>
+    <string name="keyguard_carrier_default">സേവനമില്ല</string>
+    <string name="tts_temp_celsius">സെല്‍ഷ്യസ്</string>
+    <string name="tts_temp_fahrenheit">ഫാരന്‍ഹീറ്റ്</string>
+    <string name="tts_temperature">ഡിഗ്രി</string>
+    <string name="keyguard_dualclock_home">ഹോം</string>
+    <string name="keyguard_dualclock_roaming">റോമിംഗ്</string>
+    <string name="keyguard_dualclock_home_Seoul">സിയോള്‍</string>
+    <string name="keyguard_dualclock_roaming_Korea">റോമിംഗ്</string>
+    <string name="kg_spass_alternative_password">ഇതര പാസ്‌വേര്‍ഡ്‌</string>
+    <string name="kg_spass_backup_verification">ബാക്കപ്പ് പരിശോധിച്ചുറപ്പിക്കൽ തരം</string>
+    <string name="kg_spass_swipe">നിങ്ങളുടെ ഉപകരണം അണ്‍ലോക്ക് ചെയ്യുന്നതിന് ഹോം കീയ്ക്ക് മുകളില്‍ ഒരു വിരല്‍ സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="kg_spass_passed">തിരിച്ചറിഞ്ഞു.</string>
+    <string name="kg_forgot_spass_button_text">Google വഴി അൺലോക്കുചെയ്യുക</string>
+    <string name="kg_alternative_password_instructions">ഇതര പാസ്‌വേഡ് നൽകുക.</string>
+    <string name="kg_alternative_password_failed">ഇതര പാസ്‌വേഡ് തെറ്റാണ്.</string>
+    <string name="kg_spass_popup_guide_text">നിങ്ങൾ സ്വൈപ് ചെയ്യുമ്പോൾ നിങ്ങളുടെ വിരൽത്തുമ്പ് ഹോം കീയെ മുഴുവനായി മൂടുന്നുണ്ടെന്ന് ഉറപ്പാക്കുക.</string>
+    <string name="kg_spass_backup_password_button">ബാക്കപ്പ് പാസ്‌വേഡ് നൽകുക</string>
+    <string name="kg_spass_backup_password_introductions">നിങ്ങളുടെ ബാക്കപ്പ് പാസ്‌വേഡ് നൽകുക.</string>
+    <string name="kg_spass_backup_password_failed">തെറ്റായ ഒരു ബാക്കപ്പ് പാസ്‌വേഡ് നൽകപ്പെട്ടു.</string>
+    <string name="kg_spass_backup_pin_introductions">ബാക്കപ്പ് PIN നൽകുക</string>
+    <string name="kg_spass_backup_pin_failed">തെറ്റായ ബാക്കപ്പ് PIN.</string>
+    <string name="kg_spass_backup_pattern_introductions">ബാക്കപ്പ് മാതൃക വരയ്ക്കുക</string>
+    <string name="kg_spass_backup_pattern_failed">നിങ്ങൾ വരച്ചത് തെറ്റായ ഒരു മാതൃകയാണ്. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="keyguard_clock_with_battery">%s ബാറ്ററി പവര്‍</string>
+    <string name="default_profile_string">സ്വകാര്യ സന്ദേശം</string>
+    <string name="default_profile_string_life_companion">ജീവിത പങ്കാളി</string>
+    <string name="keyguard_progress_erasing_all">എല്ലാ ഡാറ്റയും ഡിലീറ്റ് ചെയ്യുന്നു…</string>
+    <string name="kg_lockscreen_backup_pin_button_text">ബാക്കപ്പ് PIN</string>
+    <string name="fail_attempt_unlock_popup_title">സ്ക്രീൻ ലോക്കുനീക്കാൻ ആകില്ല</string>
+    <string name="kg_failed_attempts_almost_at_pattern">ഉപകരണത്തിന്‍റെ ലോക്കുമാറ്റുന്നതിന് %1$d പരാജയപ്പെട്ട ശ്രമങ്ങൾ നിങ്ങൾ നടത്തി. %2$d തവണ കൂടി നിങ്ങൾ പരാജയപ്പെടുകയാണെങ്കിൽ, നിങ്ങളുടെ ഇതര PIN ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഉപകരണത്തിന്‍റെ ലോക്കുനീക്കാം. %3$d സെക്കൻഡിൽ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="kg_1_failed_attempt_almost_at_wipe">You have incorrectly attempted to unlock the phone 1 time. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+    <string name="lockscreen_voiceunlock_failed_to_recognise_voice_text">ശബ്ദം തിരിച്ചറിയുന്നതില്‍ പരാജയപ്പെട്ടു.</string>
+    <string name="lockscreen_unlock_guide_text">അണ്‍ലോക്ക് ചെയ്യാന്‍ സ്ക്രീന്‍ സ്വൈപ് ചെയ്യുക.</string>
+    <string name="kg_too_many_failed_spass_attempts_dialog_message">നിങ്ങളുടെ വിരലടയാളം %1$d തവണ പരിശോധിച്ചുറപ്പിക്കാനാവില്ല. %2$d സെക്കൻഡിനുള്ളിൽ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="keyguard_recovery_instructions">അണ്‍ബ്ലോക്ക് ചെയ്യുന്നതിന് വീണ്ടെടുക്കല്‍ പാസ്‍വേഡ് നല്‍കുക.</string>
+    <string name="device_disabled">ഉപകരണം അപ്രാപ്തമാക്കപ്പെട്ടു. IT അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക.</string>
+    <string name="keyguard_fmm_phone_locked_title">ഫോണ്‍ ലോക്കുചെയ്‌തിരിക്കുന്നു.</string>
+    <string name="keyguard_fmm_owner_phone">ഉടമയുടെ നമ്പർ</string>
+    <string name="keyguard_camera_shortcut_tts">ക്യാമറ തുറക്കുന്നതിന് രണ്ടുതവണ സ്പർശിച്ച് ഇഴയ്ക്കുക.</string>
+    <string name="keyguard_signature_guide">അൺലോക്ക് ചെയ്യുന്നതിന് പെൻ ഉപയോഗിച്ച് സ്ക്രീനിൽ നിങ്ങളുടെ കയ്യൊപ്പ് വരയ്ക്കുക.</string>
+    <string name="keyguard_signature_failed_guide">വീണ്ടും ശ്രമിക്കുക. അൺലോക്ക് ചെയ്യുന്നതിന് പെൻ ഉപയോഗിച്ച് സ്ക്രീനിൽ നിങ്ങളുടെ കയ്യൊപ്പ് വരയ്ക്കുക</string>
+    <string name="kg_too_many_failed_signature_attempts_dialog_message">നിങ്ങളുടെ അൺലോക്ക് കയ്യൊപ്പ് നിങ്ങൾ തെറ്റായി %1$d തവണ വരച്ചിട്ടുണ്ട്. %2$d സെക്കന്‍റിൽ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="zzz_keyguard_password_attempts_count_pin_code">%d ശ്രമങ്ങള്‍ ശേഷിക്കുന്നു.</string>
+    <string name="lockscreen_clock_dualclock_popup_title">ഇരട്ട ക്ലോക്ക്</string>
+    <string name="lockscreen_clock_dualclock_popup_message">ലോക്കുചെയ്ത സ്ക്രീനില്‍ ഇരട്ട ക്ലോക്ക് പ്രദര്‍ശിപ്പിക്കുന്നതിനായി സ്വന്തം നഗരം തിരഞ്ഞെടുക്കുക. ക്രമീകരണങ്ങളിലേയ്ക്ക് പോകണോ?</string>
+    <string name="kg_failed_attempts_almost_at_spass">നിങ്ങളുടെ വിരലടയാളം %1$d തവണ പരിശോധിച്ചുറപ്പിക്കാനാവില്ല. %2$d തവണ കൂടി നിങ്ങൾ വിജയിക്കാതിരിക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ ബാക്കപ്പ് അൺലോക്ക് രീതി ഉപയോഗിച്ച് ഉപകരണം അൺലോക്ക് ചെയ്യാവുന്നതാണ്. %3$d സെക്കൻഡിനുള്ളിൽ വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="lockscreen_unlock_guide_text_touch_exploration">സ്ക്രീന്‍ അണ്‍ലോക്കുചെയ്യുന്നതിന് രണ്ട് വിരലുകളുപയോഗിച്ച് സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="lockscreen_swipe_voice_unlock_guide_text">അണ്‍‌ലോക്കുചെയ്യുന്നതിനായി സ്ക്രീന്‍ സ്വൈപ്പുചെയ്യുക അല്ലെങ്കില്‍ ഉണര്‍ത്തല്‍ ആജ്ഞ പറയുക.</string>
+    <string name="zzz_tts_lockscreen_shortcut_swipe">ആപ്ലിക്കേഷനുകള്‍ തുറക്കുന്നതിനായി വീണ്ടും ടാപ്പുചെയ്ത് സ്ക്രീന്‍ സ്വൈപ്പുചെയ്യുക.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_pin_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup PIN is now required to unlock the screen.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_password_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup password is now required to unlock the screen.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe">You only have 1 attempt left to unlock your phone before it is reset to factory mode. This will delete all data, including files and downloaded apps.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe_subuser">You only have 1 attempt left to unlock your tablet before your account is removed. This will delete all data on your account, including files, and downloaded apps.</string>
+    <string name="kg_n_attempts_remaining">%d attempts remaining</string>
+    <string name="kg_1_attempt_remaining">1 attempt remaining</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_password_wrong_pin_code_maximum">നിങ്ങളുടെ SIM കാര്‍ഡ് ലോക്കുചെയ്തു. തുടരുന്നതിന് നിങ്ങളുടെ PUK നല്‍കുക. വിശദാംശങ്ങള്‍ക്ക് നിങ്ങളുടെ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</string>
+    <string name="lockscreen_sim_puk_tmo_help_pin_blocked">PIN തടഞ്ഞു.</string>
+    <string name="lockscreen_sim_puk_tmo_help_contact_service_provider">നിങ്ങളുടെ SIM കാര്‍ഡ് അണ്‍‌ലോക്കുചെയ്യുന്നതിനായി സേവന ദായകനെ സമീപിക്കുക.</string>
+    <string name="emergency_calls_only">എമര്‍ജന്‍സി കോളുകള്‍ മാത്രം</string>
+    <string name="kg_spass_help_overlay_guide_text">നിങ്ങളുടെ വിരൽത്തുമ്പ് ഹോം കീയുടെ മീതെ താഴേയ്ക്ക് സ്വൈപ് ചെയ്യുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഉപകരണത്തെ %d° തിരിക്കുക.</string>
+    <string name="checkbox_description">ഇന്ന് വീണ്ടും കാണിക്കരുത്</string>
+    <string name="keyguard_accessibility_change_input_method">ഇന്‍‌പുട്ട് രീതി മാറ്റുക</string>
+    <string name="status_bar_date_format_day_month">E, d MMMM</string>
+    <string name="status_bar_date_format_month_day">E, MMMM d</string>
+    <string name="app_label">സിസ്റ്റം UI</string>
+    <string name="status_bar_clear_all_button">മായ്ക്കുക</string>
+    <string name="status_bar_recent_remove_item_title">ലിസ്റ്റില്‍ നിന്നും നീക്കം ചെയ്യുക</string>
+    <string name="status_bar_recent_inspect_item_title">ആപ് വിവരം</string>
+    <string name="status_bar_no_recent_apps">സമീപകാല ആപ്ലിക്കേഷനുകളൊന്നുമില്ല</string>
+    <string name="status_bar_no_notifications_title">അറിയിപ്പുകളില്ല</string>
+    <string name="status_bar_ongoing_events_title">നടന്നുകൊണ്ടിരിക്കുന്നു</string>
+    <string name="status_bar_latest_events_title">അറിയിപ്പുകള്‍</string>
+    <string name="battery_low_title">ബാറ്ററി പവർ കുറവ്</string>
+    <string name="battery_low_percent_format">%d%% ശേഷിക്കുന്നു</string>
+    <string name="invalid_charger">USB ചാര്‍ജ്ജിംഗ് പിന്തുണയ്ക്കുന്നില്ല. നല്‍കിയിരിക്കുന്ന ചാര്‍ജ്ജര്‍ ഉപയോഗിക്കുക</string>
+    <string name="battery_low_why">ക്രമീകരണങ്ങള്‍</string>
+    <string name="status_bar_settings_settings_button">ക്രമീകരണങ്ങള്‍</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">ഫ്ലൈറ്റ് മോഡ്</string>
+    <string name="status_bar_settings_auto_rotation">ഓട്ടോ-റൊട്ടേറ്റ് സ്‌ക്രീന്‍</string>
+    <string name="status_bar_settings_mute_label">നിശബ്‌ദ‌മാക്കുക</string>
+    <string name="status_bar_settings_auto_brightness_label">യാന്ത്രികം</string>
+    <string name="status_bar_settings_notifications">അറിയിപ്പുകള്‍</string>
+    <string name="bluetooth_tethered">ബ്ലൂടൂത്ത് റ്റെതര്‍ ചെയ്തു</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ഇന്‍പുട്ട് രീതികള്‍ സെറ്റപ് ചെയ്യുക</string>
+    <string name="status_bar_use_physical_keyboard">ഫിസിക്കല്‍ കീബോര്‍ഡ്</string>
+    <string name="usb_device_permission_prompt">USB ഉപകരണം ആക്സസ്സ് ചെയ്യുന്നതിന് ആപ്ലിക്കേഷന്‍ %1$s-നെ അനുവദിക്കണമോ?</string>
+    <string name="usb_accessory_permission_prompt">USB ആക്സസ്സറി ആക്സസ്സ് ചെയ്യുന്നതിന് ആപ്ലിക്കേഷന്‍ %1$s-നെ അനുവദിക്കണമോ?</string>
+    <string name="usb_device_confirm_prompt">ഈ USB ഉപകരണം കണക്ട് ചെയ്തിരിക്കുമ്പോള്‍ %1$s തുറക്കണമോ?</string>
+    <string name="usb_accessory_confirm_prompt">ഈ USB ആക്സസ്സറി കണക്ട് ചെയ്തിരിക്കുമ്പോള്‍ %1$s തുറക്കണമോ?</string>
+    <string name="usb_accessory_uri_prompt">ഈ USB ആക്സസ്സറിയുമായി ഇന്‍സ്റ്റോള്‍ ചെയ്തിരിക്കുന്ന ആപ്ലിക്കേഷനുകള്‍ ഒന്നും പ്രവര്‍ത്തിക്കുന്നില്ല. ഈ ആക്സസ്സറിയെക്കുറിച്ച് കൂടുതല്‍ %s ല്‍ നിന്നും അറിയുക</string>
+    <string name="title_usb_accessory">USB ആക്സസ്സറി</string>
+    <string name="label_view">കാണുക</string>
+    <string name="always_use_device">ഈ USB ഉപകരണത്തിനായി ഡിഫോള്‍ട്ടായി ഉപയോഗിക്കുക</string>
+    <string name="always_use_accessory">ഈ USB ആക്സസ്സറിക്കായി ഡിഫോള്‍ട്ടായി ഉപയോഗിക്കുക</string>
+    <string name="usb_debugging_title">USB ഡീബഗ്ഗിംഗ് അനുവദിക്കണമോ?</string>
+    <string name="usb_debugging_message">"PC-യുടെ RSA കീ വിരലടയാളമാണ്:
+%1$s"</string>
+    <string name="usb_debugging_always">ഈ PC-യെ എപ്പോഴും അനുവദിക്കുക</string>
+    <string name="compat_mode_on">സ്ക്രീന്‍ നിറയ്ക്കുന്നതിന് സൂം ചെയ്യുക</string>
+    <string name="compat_mode_off">സ്ക്രീന്‍ നിറയ്ക്കുന്നതിന് സ്ട്രച്ച് ചെയ്യുക</string>
+    <string name="screenshot_saving_ticker">സ്ക്രീന്‍ഷോട്ട് സേവുചെയ്യുന്നു…</string>
+    <string name="screenshot_saving_title">സ്ക്രീന്‍ഷോട്ട് സേവുചെയ്യുന്നു…</string>
+    <string name="screenshot_saving_text">സ്ക്രീന്‍ഷോട്ട് സം‍രക്ഷിക്കപ്പെടുന്നു.</string>
+    <string name="screenshot_saved_title">സ്ക്രീൻഷോട്ട് എടുത്തു</string>
+    <string name="screenshot_saved_text">സ്ക്രീന്‍ഷോട്ട് കാണാന്‍ ടാപ്പുചെയ്യുക.</string>
+    <string name="screenshot_failed_title">സ്ക്രീന്‍ഷോട്ട് പിടിച്ചെടുക്കാനാകുന്നില്ല.</string>
+    <string name="usb_preference_title">USB ഫയല്‍ ട്രാന്‍സ്ഫര്‍ ഓപ്ഷനുകള്‍</string>
+    <string name="use_mtp_button_title">മീഡിയാ പ്ലേയര്‍ ആയി മൌണ്ട് ചെയ്യുക (MTP)</string>
+    <string name="use_ptp_button_title">ക്യാമറയായി മൌണ്ട് ചെയ്യുക (PTP)</string>
+    <string name="installer_cd_button_title">മാക്കിനായുള്ള ആന്‍ഡ്രോയ്ഡ് ഫയല്‍ ട്രാന്‍സ്ഫര്‍ ആപ്ലിക്കേഷന്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുക</string>
+    <string name="accessibility_back">പിന്നോട്ട്</string>
+    <string name="accessibility_home">ഹോം</string>
+    <string name="accessibility_menu">മെനു</string>
+    <string name="accessibility_search_light">തിരയുക</string>
+    <string name="accessibility_camera_button">ക്യാമറ</string>
+    <string name="accessibility_unlock_button">അണ്‍‌ലോക്ക് ചെയ്യുക</string>
+    <string name="accessibility_ime_switch_button">ഇന്‍പുട്ട് രീതി ബട്ടണ്‍ മാറുക.</string>
+    <string name="accessibility_compatibility_zoom_button">കംപാറ്റിബിളിറ്റി സൂം ബട്ടണ്‍</string>
+    <string name="accessibility_compatibility_zoom_example">വലിയ സ്ക്രീനിനായി സൂം ചെയ്യുക</string>
+    <string name="accessibility_bluetooth_connected">ബ്ലൂടൂത്തിലേക്ക് കണക്ട് ചെയ്തു</string>
+    <string name="accessibility_bluetooth_disconnected">ബ്ലൂടൂത്ത് വിച്ഛേദിച്ചു.</string>
+    <string name="accessibility_no_battery">ബാറ്ററിയില്ല</string>
+    <string name="accessibility_battery_one_bar">ബാറ്ററി പവറിന്‍റെ ഒരു ബാര്‍</string>
+    <string name="accessibility_battery_two_bars">ബാറ്ററി പവറിന്‍റെ രണ്ട് ബാറുകള്‍</string>
+    <string name="accessibility_battery_three_bars">ബാറ്ററി പവറിന്‍റെ മൂന്ന് ബാറുകള്‍</string>
+    <string name="accessibility_battery_full">ബാറ്ററി നിറഞ്ഞു.</string>
+    <string name="accessibility_no_phone">ഫോണ്‍ സിഗ്നല്‍ ഒന്നും ഇല്ല</string>
+    <string name="accessibility_phone_one_bar">ഫോണ്‍ സിഗ്നലിന്‍റെ ഒരു ബാര്‍</string>
+    <string name="accessibility_phone_two_bars">ഫോണ്‍ സിഗ്നലിന്‍റെ രണ്ട് ബാറുകള്‍</string>
+    <string name="accessibility_phone_three_bars">ഫോണ്‍ സിഗ്നലിന്‍റെ മൂന്ന് ബാറുകള്‍</string>
+    <string name="accessibility_phone_signal_full">പൂര്‍ണ്ണ ഫോണ്‍ സിഗ്നല്‍</string>
+    <string name="accessibility_no_data">ഡാറ്റ ഇല്ല</string>
+    <string name="accessibility_data_one_bar">ഡാറ്റാ സിഗ്നലിന്‍റെ ഒരു ബാര്‍</string>
+    <string name="accessibility_data_two_bars">ഡാറ്റാ സിഗ്നലിന്‍റെ രണ്ട് ബാറുകള്‍</string>
+    <string name="accessibility_data_three_bars">ഡാറ്റാ സിഗ്നലിന്‍റെ മൂന്ന് ബാറുകള്‍</string>
+    <string name="accessibility_data_signal_full">പൂര്‍ണ്ണ ഡാറ്റാ സിഗ്നല്‍</string>
+    <string name="accessibility_wifi_off">Wi-Fi ഓഫ്</string>
+    <string name="accessibility_no_wifi">Wi-Fi സിഗ്നല്‍ ഒന്നും ഇല്ല</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi സിഗ്നലിന്‍റെ ഒരു ബാര്‍</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi സിഗ്നലിന്‍റെ രണ്ട് ബാറുകള്‍</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi സിഗ്നലിന്‍റെ മൂന്ന് ബാറുകള്‍</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi സിഗ്നല്‍ നിറഞ്ഞു.</string>
+    <string name="accessibility_no_signal">സിഗ്‌നലില്ല</string>
+    <string name="accessibility_not_connected">ബന്ധിപ്പിച്ചിട്ടില്ല.</string>
+    <string name="accessibility_desc_on">ഓണ്‍‌</string>
+    <string name="accessibility_desc_off">ഓഫ്</string>
+    <string name="accessibility_desc_connected">ബന്ധിപ്പിച്ചു.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">റോമിംഗ്</string>
+    <string name="accessibility_data_connection_edge">എഡ്ജ്</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM ഇല്ല</string>
+    <string name="accessibility_bluetooth_tether">ബ്ലൂടൂത്ത് ടെതറിംഗ്</string>
+    <string name="accessibility_airplane_mode">ഫ്ലൈറ്റ് മോഡ്</string>
+    <string name="accessibility_settings_button">സിസ്റ്റം ക്രമീകരണങ്ങള്‍</string>
+    <string name="accessibility_notifications_button">അറിയിപ്പുകള്‍</string>
+    <string name="accessibility_remove_notification">അറിയിപ്പുകള്‍ മായ്ക്കുക</string>
+    <string name="accessibility_gps_enabled">GPS ഓണ്‍ ചെയ്തു</string>
+    <string name="accessibility_gps_acquiring">GPS അക്വയര്‍ ചെയ്യുന്നു…</string>
+    <string name="accessibility_tty_enabled">ടെലി ടൈപ്റൈറ്റര്‍ പ്രാപ്‌തമാക്കി</string>
+    <string name="accessibility_ringer_vibrate">റിംഗ്ടോണ്‍ വൈബ്രേഷന്‍</string>
+    <string name="accessibility_ringer_silent">റിംഗ്ടോണ്‍ മ്യൂട്ട് ചെയ്യുക</string>
+    <string name="accessibility_recents_item_will_be_dismissed">അടയ്ക്കുക</string>
+    <string name="accessibility_desc_quick_settings">ക്യുക്ക് ക്രമീകരണങ്ങള്‍</string>
+    <string name="accessibility_quick_settings_alarm">%s-നായി അലാറം സജ്ജീകരിച്ചിരിക്കുന്നു.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobile data is off</string>
+    <string name="data_usage_disabled_dialog_enable">ഡാറ്റാ കണക്ഷന്‍ വീണ്ടും പ്രാപ്തമാക്കുക</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ഇന്‍റര്‍നെറ്റ് കണക്ഷന്‍ ഒന്നും ഇല്ല</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi കണക്ട് ചെയ്തു.</string>
+    <string name="gps_notification_searching_text">GPS ഉപയോഗിച്ച് തിരയുന്നു…</string>
+    <string name="gps_notification_found_text">GPS സജ്ജീകരിച്ച സ്ഥാനം</string>
+    <string name="accessibility_clear_all">എല്ലാ അറിയിപ്പുകളും മായ്ക്കുക</string>
+    <string name="status_bar_notification_inspect_item_title">അറിയിപ്പു ക്രമീകരണങ്ങള്‍</string>
+    <string name="accessibility_rotation_lock_off">സ്ക്രീന്‍ യാന്ത്രികമായി തിരിയും.</string>
+    <string name="start_dreams">ഡേഡ്രീം</string>
+    <string name="ethernet_label">ഈതര്‍നെറ്റ്</string>
+    <string name="wifi_ap_not_supported">മൊബൈൽ ഹോട്ട്‌സ്പോട്ട് പിന്തുണയ്ക്കുന്നില്ല.</string>
+    <string name="it_policy_not_allow_wifi">സുരക്ഷാ പോളിസി Wi-Fi-യുടെ ഉപയോഗം നിയന്ത്രിക്കുന്നു.</string>
+    <string name="it_policy_not_allow_wifiap">സുരക്ഷാ പോളിസി ഇന്‍റര്‍നെറ്റ്‌ പങ്കിടലിന്‍റെ ഉപയോഗം നിയന്ത്രിക്കുന്നു.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">ഫ്ലൈറ്റ് മോഡില്‍.</string>
+    <string name="edm_policy_not_allow_open_wifiap">ഹോട്ട്സ്പോട്ടിനായി സുരക്ഷിതമല്ലാത്ത ടെതറിംഗിന്‍റെ ഉപയോഗം സുരക്ഷാ നയം പരിമിതപ്പെടുത്തുന്നു.</string>
+    <string name="wifi_authentication_succeed">ആധികാരികമാക്കി.</string>
+    <string name="wifi_authentication_failed">ആധാരീകരിക്കല്‍ പരാജയപ്പെട്ടു.</string>
+    <string name="wifi_setup_title_connected_network">Wi-Fi നെറ്റ്‌വര്‍ക്ക് %s-ലേക്ക് കണക്ട് ചെയ്തു.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">ചാര്‍ജ്ജ് ചെയ്തു.</string>
+    <string name="quick_settings_bluetooth_label">ബ്ലുടൂത്ത്</string>
+    <string name="quick_settings_bluetooth_off_label">ബ്ലൂടൂത്ത് ഓഫ്ചെയ്യുക.</string>
+    <string name="quick_settings_brightness_label">തെളിച്ചം</string>
+    <string name="quick_settings_ime_label">ഇന്‍‌പുട്ട് രീതി</string>
+    <string name="quick_settings_location_label">ലൊക്കേഷൻ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">എമര്‍ജന്‍സി കോളുകള്‍ മാത്രം.</string>
+    <string name="quick_settings_settings_label">ക്രമീകരണങ്ങള്‍</string>
+    <string name="quick_settings_time_label">സമയം</string>
+    <string name="quick_settings_user_label">ഞാന്‍</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">ബന്ധിപ്പിച്ചിട്ടില്ല.</string>
+    <string name="quick_settings_wifi_no_network">നെറ്റ്‌വര്‍ക്കില്ല</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi ഓഫ്</string>
+    <string name="quick_settings_brightness_dialog_title">തെളിച്ചം</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">യാന്ത്രികം</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">ടോര്‍ച്ച്</string>
+    <string name="recents_empty_message">സമീപകാല ആപ്ലിക്കേഷനുകള്‍ ഒന്നും ഇല്ല</string>
+    <string name="zen_no_interruptions">തടസപ്പെടുത്തലുകൾ ഒന്നുമില്ല</string>
+    <string name="zen_important_interruptions">മുൻഗണനാ തടസ്സപ്പെടുത്തലുകൾ മാത്രം</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">ഒന്നുമില്ല</string>
+    <string name="interruption_level_priority">മുന്‍‌ഗണന</string>
+    <string name="interruption_level_all">എല്ലാം</string>
+    <string name="guest_wipe_session_dontwipe">അതെ, തുടരുക</string>
+    <string name="notification_hidden_text">ഉള്ളടക്കം മറയ്ക്കപ്പെട്ടു</string>
+    <string name="sanitized_content_text">%s നൽകുന്നതിന് ഇവിടെ ടാപ്പുചെയ്യുക.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">വേണ്ട, നന്ദി</string>
+    <string name="hidden_notifications_setup">സെറ്റപ്പ്</string>
+    <string name="quickpanel_airplane_mode_text">"ഫ്ലൈറ്റ്
+മോഡ്"</string>
+    <string name="quickpanel_airplane_mode_content_description">ഫ്ലൈറ്റ് മോഡ്</string>
+    <string name="quickpanel_content_description_led_on">%s പ്രാപ്തമാണ്.</string>
+    <string name="quickpanel_content_description_led_off">%s അപ്രാപ്തമാണ്.</string>
+    <string name="quickpanel_content_description_led_dim">%s പ്രാപ്തമാക്കാനാവില്ല.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">ദ്രുത കണക്റ്റ്</string>
+    <string name="accessibility_qconnect_button_tts">ദ്രുത ബന്ധിപ്പിക്കൽ</string>
+    <string name="quickpanel_wifi_content_description">WI-FI</string>
+    <string name="quickpanel_bluetooth_content_description">ബ്ലൂടൂത്ത്</string>
+    <string name="quickpanel_gps_content_description">സ്ഥാനം</string>
+    <string name="quickpanel_silent_mode_content_description">നിശബ്‌ദതാ മോഡ്</string>
+    <string name="quickpanel_silent_mode_sound_content_description">ശബ്ദം</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">വൈബ്രേഷൻ</string>
+    <string name="quickpanel_silent_mode_mute_content_description">ശബ്ദരഹിതമാക്കുക</string>
+    <string name="quickpanel_rotation_content_description">സ്ക്രീൻ തിരിക്കൽ</string>
+    <string name="quickpanel_mobile_data_content_description">മൊബൈൽ ഡാറ്റ</string>
+    <string name="quickpanel_power_saving_content_description">പവർ സംരക്ഷണ മോഡ്</string>
+    <string name="quickpanel_ultra_power_saving_content_description">അൾട്രാ പവർ സേവിംഗ് മോഡ്</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">മള്‍ട്ടി വിന്‍ഡോ</string>
+    <string name="quickpanel_car_mode_content_description">കാർ മോഡ്</string>
+    <string name="quickpanel_dormant_mode_content_description">തടയൽ മോഡ്</string>
+    <string name="quickpanel_wifi_hotspot_content_description">മൊബൈൽ ഹോട്ട്സ്പോട്ട്</string>
+    <string name="quickpanel_touch_sensitivity_content_description">സ്പർശക സംവേദനക്ഷമത</string>
+    <string name="quickpanel_smart_stay_content_description">സ്മാര്‍ട്ട് സ്റ്റേ</string>
+    <string name="quickpanel_smart_scroll_content_description">സ്മാര്‍ട്ട് സ്ക്രോള്‍</string>
+    <string name="quickpanel_sync_content_description">സമന്വയിപ്പിക്കുക</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi കോൾ ചെയ്യൽ</string>
+    <string name="quickpanel_toolbox_content_description">ടൂൾബോക്സ്</string>
+    <string name="quickpanel_adaptive_display_content_description">അഡാപ്റ്റീവ് ഡിസ്‌പ്ലേ</string>
+    <string name="quickpanel_airgesture_content_description">എയര്‍ ഗെസ്ചര്‍</string>
+    <string name="quickpanel_airview_content_description">എയര്‍ വ്യൂ</string>
+    <string name="quickpanel_network_booster_content_description">ഡൗൺലോഡ് ബൂസ്റ്റർ</string>
+    <string name="quickpanel_personal_mode_content_description">സ്വകാര്യ മോഡ്</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">പാർശ്വ കീ പാനൽ</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">ബ്ലുടൂത്ത്</string>
+    <string name="quickpanel_gps_text">സ്ഥാനം</string>
+    <string name="quickpanel_silent_mode_text">"സൈലന്‍റ്
+മോഡ്"</string>
+    <string name="quickpanel_silent_mode_sound">ശബ്‌ദം</string>
+    <string name="quickpanel_silent_mode_vibrate">വൈബ്രേഷന്‍</string>
+    <string name="quickpanel_silent_mode_mute">നിശബ്‌ദ‌മാക്കുക</string>
+    <string name="quickpanel_rotation_text">"സ്‌ക്രീന്‍
+റൊട്ടേഷന്‍"</string>
+    <string name="quickpanel_mobile_data_text">"മൊബൈല്‍
+ഡാറ്റ"</string>
+    <string name="quickpanel_power_saving_text">"പവർ
+ലാഭിക്കൽ"</string>
+    <string name="quickpanel_ultra_power_saving_text">"U. പവർ
+ലാഭിക്കൽ"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"മള്‍ട്ടി
+വിന്‍‌ഡോ"</string>
+    <string name="quickpanel_car_mode_text">"കാർ
+മോഡ്"</string>
+    <string name="quickpanel_driving_mode_text">"ഹാൻഡ്സ്-ഫ്രീ
+മോഡ്"</string>
+    <string name="quickpanel_dormant_mode_text">"തടയല്‍
+മോഡ്"</string>
+    <string name="quickpanel_wifi_hotspot_text">"മൊബൈൽ
+ഹോട്‌സ്പോട്ട്"</string>
+    <string name="quickpanel_touch_sensitivity_text">"സ്പർശക
+സംവേദനക്ഷമത"</string>
+    <string name="quickpanel_smart_stay_text">"സ്മാര്‍ട്ട്
+സ്റ്റേ"</string>
+    <string name="quickpanel_smart_scroll_text">"സ്മാര്‍ട്ട്
+സ്ക്രോള്‍"</string>
+    <string name="quickpanel_sync_text">സമന്വയിപ്പിക്കുക</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"ടൂൾ-
+ബോക്സ്"</string>
+    <string name="quickpanel_smart_pause_text">"സ്മാര്‍ട്ട്
+പോസ്"</string>
+    <string name="quickpanel_adaptive_mode_text">"ഡിസ്പ്ലേ
+യുക്തമാക്കുക"</string>
+    <string name="quickpanel_airgesture_text">"എയര്‍
+ഗെസ്ചര്‍"</string>
+    <string name="quickpanel_airview_text">"എയര്‍
+വ്യൂ"</string>
+    <string name="quickpanel_network_booster_text">"ഡൗൺലോഡ്
+ബൂസ്റ്റർ"</string>
+    <string name="quickpanel_personal_mode_text">"സ്വകാര്യ
+മോഡ്"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"ദ്രുത
+കണക്റ്റ്"</string>
+    <string name="quickpanel_side_key_text">"പാർശ്വ കീ
+പാനൽ"</string>
+    <string name="accessibility_power_saving_mode">ഊര്‍ജ്ജ സംരക്ഷണ മോഡ് പ്രാപ്തമാക്കാന്‍ ഒരു ഫംഗ്ഷനെങ്കിലും പ്രാപ്തമാക്കുക.</string>
+    <string name="accessibility_power_saving_mode_title">പവര്‍ സേവിംഗ് മോഡ്</string>
+    <string name="insert_sim_card">SIM കാര്‍ഡ് ഘടിപ്പിക്കുക</string>
+    <string name="insert_sim_card_message">നെറ്റ്‌വര്‍ക്ക് സേവനങ്ങള്‍ ആക്സസുചെയ്യാന്‍ SIM കാര്‍ഡ് തിരുകുക</string>
+    <string name="insert_uim_or_sim_card">UIM/SIM കാർഡ് ഇടുക</string>
+    <string name="status_bar_recent_launch_task_manager_title">ടാസ്ക് മാനേജര്‍</string>
+    <string name="status_bar_recent_remove_all_button">എല്ലാം അടയ്ക്കുക</string>
+    <string name="blocking_mode_enable">ഈ മോഡ് പ്രാപ്തമാക്കിയിരിക്കുമ്പോള്‍, തിരഞ്ഞെടുത്ത സവിശേഷതകളുടെ അറിയിപ്പുകള്‍ അപ്രാപ്തമാക്കും. നിങ്ങളുടെ അനുവദനീയ പട്ടികയിലെ ആളുകളുടെ ഇന്‍‌കമിംഗ് കോളുകളുടെ അറിയിപ്പുകള്‍ മാത്രം നിങ്ങള്‍ക്ക് ലഭിക്കും.</string>
+    <string name="blocking_mode_enable_for_grid_settings">തിരഞ്ഞെടുത്ത സവിശേഷതകൾക്കായുള്ള അറിയിപ്പുകളെ ബ്ലോക്കിംഗ് മോഡ് അപ്രാപ്തമാക്കുന്നു. ഇൻകമിംഗ് കോളുകളെ തടയുമ്പോൾ, നിങ്ങളുടെ അനുവദനീയ കോൺടാക്ടുകളിലുള്ളവരുടെ ഇൻകമിംഗ് കോൾ അറിയിപ്പുകൾ മാത്രം നിങ്ങൾക്ക് ലഭിക്കും. നിങ്ങളുടെ തടയൽ മോഡ് ക്രമീകരണങ്ങൾ മാറ്റുന്നതിന്, ക്രമീകരണങ്ങൾ > വ്യക്തിഗതമാക്കൽ > തടയൽ മോഡ് എന്നിവയിലേക്ക് പോവുക.</string>
+    <string name="blocking_mode_enable_wifi">ഈ മോഡ് പ്രാപ്തമാക്കിയിരിക്കുമ്പോള്‍, തിരഞ്ഞെടുത്ത സവിശേഷതകള്‍ക്കായുള്ള അറിയിപ്പുകള്‍ അപ്രാപ്തമാക്കപ്പെടും.</string>
+    <string name="blocking_mode_title">ബ്ലോക്കിംഗ് മോഡ്</string>
+    <string name="magnification_text_for_air_view_button">വലുതാക്കൽ ആംഗ്യങ്ങൾ</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">%1$s പ്രാപ്തമാക്കിയിരിക്കുമ്പോൾ ഡൗൺലോഡ് ബൂസ്റ്റർ ഉപയോഗിക്കാനാവില്ല. %2$s അപ്രാപ്തമാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="quickpanel_air_view_warning">എയര്‍ വ്യൂ പ്രാപ്തമാക്കുന്നതിന്, ഒരു ഫംഗ്ഷനെങ്കിലും പ്രാപ്തമാക്കുക.</string>
+    <string name="quickpanel_air_view_warning_pen_support">എയര്‍ വ്യൂ പ്രാപ്തമാക്കുന്നതിന്, തിരഞ്ഞെടുത്ത എയര്‍ വ്യൂ മോഡില്‍ നിന്നും ഒരു ഫംഗ്ഷനെങ്കിലും പ്രാപ്തമാക്കുക.</string>
+    <string name="quickpanel_air_gesture_warning">എയര്‍ ഗെസ്ചര്‍ പ്രാപ്തമാക്കാന്‍, ഉചിതമായ ഒരു ഫംഗ്ഷനെങ്കിലും പ്രാപ്തമാക്കുക.</string>
+    <string name="quickpanel_air_gesture_warning_continue">ഉചിതമായ ക്രമീകരണങ്ങളിലേക്ക് പോകാന്‍ ദ്രുതക്രമീകരണ ബട്ടണ്‍ ടാപ്പുചെയ്ത് പിടിക്കുക.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"നിങ്ങള്‍ Wi-Fi ഉപയോഗിക്കുന്നില്ലെങ്കില്‍, നിങ്ങള്‍ക്ക് തുടര്‍ന്നങ്ങോട്ട് ഇന്‍റര്‍നെറ്റോ ഈമെയിലോ ഡാറ്റാ കണക്ഷന്‍ ആവശ്യമുള്ള മറ്റ് ആപ്ലിക്കേഷനുകളോ ഉപയോഗിക്കാനാകില്ല.
+
+മൊബൈല്‍ ഡാറ്റ പ്രവര്‍ത്തനരഹിതമാക്കപ്പെടും."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">കണക്ട്</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">ഫ്ലൈറ്റ് മോഡ് പ്രാപ്തമാക്കിയിരിക്കുമ്പോള്‍ മൊബൈല്‍ നെറ്റ്‌വര്‍ക്കുകളിലേയ്ക്ക് ബന്ധിപ്പിക്കാനാകില്ല. ഫ്ലൈറ്റ് മോഡ് അപ്രാപ്തമാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="warning_alert_check">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="data_usage_enable_mobile_warning">പാക്കറ്റ് ഡാറ്റ വഴി കണക്ട് ചെയ്യുന്നത് അധിക നിരക്കുകള്‍ക്ക് ഇടയാക്കും. തുടരണമോ?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">ഫ്ലൈറ്റ് മോഡ് പ്രാപ്തമാക്കിയിരിക്കുമ്പോൾ VoLTE ഉപയോഗിക്കാനാകില്ല. ഫ്ലൈറ്റ് മോഡ് നിഷ്ക്രിയമാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE-നെ നിങ്ങളുടെ നിലവിലെ സോഫ്റ്റ്‌വെയർ പതിപ്പ് പിന്തുണയ്ക്കുന്നില്ല. കൂടുതൽ വിവരങ്ങൾക്കായി കസ്റ്റമർ സേവനങ്ങളുമായി ബന്ധപ്പെടുക.</string>
+    <string name="smart_pause_toast_text">സ്മാര്‍ട്ട് പോസ് ഉപയോഗിക്കുന്നതിന്, ആദ്യം ശബ്ദരഹിതമാക്കുക/തൽക്കാലം നിർത്തുക എന്നത് പ്രാപ്തമാക്കുക.</string>
+    <string name="smart_bonding_popup_msg_roaming">റോമിംഗ് ചെയ്യുമ്പോൾ ഡൗൺലോഡ് ബൂസ്റ്റർ ഉപയോഗിക്കാനാവില്ല. ഒരു Wi-Fi നെറ്റ്‌വർക്ക് വഴി ഡൗൺലോഡ് ചെയ്യുന്നതിന് ഞങ്ങൾ ശുപാർശ ചെയ്യുന്നു.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi ഓണ്‍ ചെയ്യുക</string>
+    <string name="smart_bonding_popup_msg_data_btn">മൊബൈൽ ഡാറ്റ ഓൺ ചെയ്യുക</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi, മൊബൈൽ ഡാറ്റ എന്നിവ ഓൺ ചെയ്യുക</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi ഇപ്പോൾ ഓഫ് ആണ്. ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കുന്നതിന്, Wi-Fi, മൊബൈൽ ഡാറ്റ എന്നിവ രണ്ടും ഓൺ ചെയ്തിരിക്കണം. മൊബൈൽ നെറ്റ്‌വർക്കുകൾ വഴി ഡൗൺലോഡ് ചെയ്യുന്നത് നിങ്ങളുടെ പണമടയ്ക്കൽ പ്ലാനിന് അനുസൃതമായ അധിക നിരക്കുകൾക്ക് ഇടയാക്കിയേക്കാം.</string>
+    <string name="smart_bonding_popup_msg_data">മൊബൈൽ ഡാറ്റ ഇപ്പോൾ ഓഫ് ആണ്. ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കുന്നതിന്, Wi-Fi, മൊബൈൽ ഡാറ്റ എന്നിവ രണ്ടും ഓൺ ചെയ്തിരിക്കണം. മൊബൈൽ നെറ്റ്‌വർക്കുകൾ വഴി ഡൗൺലോഡ് ചെയ്യുന്നത് നിങ്ങളുടെ പണമടയ്ക്കൽ പ്ലാനിന് അനുസൃതമായ അധിക നിരക്കുകൾക്ക് ഇടയാക്കിയേക്കാം.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi, മൊബൈൽ ഡാറ്റ എന്നിവ ഇപ്പോൾ ഓഫ് ആണ്. ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കുന്നതിന്, Wi-Fi, മൊബൈൽ ഡാറ്റ എന്നിവ രണ്ടും ഓൺ ചെയ്തിരിക്കണം. മൊബൈൽ നെറ്റ്‌വർക്കുകൾ വഴി ഡൗൺലോഡ് ചെയ്യുന്നത് നിങ്ങളുടെ പണമടയ്ക്കൽ പ്ലാനിന് അനുസൃതമായ അധിക നിരക്കുകൾക്ക് ഇടയാക്കിയേക്കാം.</string>
+    <string name="smart_bonding_popup_msg">ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കപ്പെടും. മൊബൈൽ നെറ്റ്‌വർക്കുകൾ വഴി ഡൗൺലോഡ് ചെയ്യുന്നത് നിങ്ങളുടെ പണമടയ്ക്കൽ പ്ലാനിന് അനുസൃതമായ അധിക നിരക്കുകൾക്ക് ഇടയാക്കിയേക്കാം.</string>
+    <string name="smartbonding_dialog_title">ഡൗൺലോഡ് ബൂസ്റ്റർ</string>
+    <string name="insert_a_sim_card_and_try_again">ഒരു SIM കാര്‍ഡ് ഇട്ട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="unable_to_enable_Download_booster">ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കാനാവില്ല</string>
+    <string name="download_booster_dialog_title">ഡൗൺലോഡ് ബൂസ്റ്റർ പ്രാപ്തമാക്കുക</string>
+    <string name="enable">പ്രാപ്‌തമാക്കുക</string>
+    <string name="sd_card">SD കാര്‍‌ഡ്</string>
+    <string name="sdcard_insert">SD കാർഡ് തിരുകി</string>
+    <string name="sdcard_unmount">SD കാര്‍ഡ്‌ അണ്‍മൌണ്ട് ചെയ്യുക</string>
+    <string name="go_to_myfiles">എന്‍റെ ഫയലുകളിലേക്ക് പോകുക</string>
+    <string name="charging_interruption_title">ചാർജ്ജ് ചെയ്യാനാവില്ല</string>
+    <string name="charging_interruption_by_terminal_open_text">ഉപകരണം ചാർജുചെയ്യാൻ കഴിയുന്നില്ല. സാംസംഗ് അനുയോജ്യ ബാറ്ററിയും ചാർജറും ഉപയോഗിക്കുന്നതും നിങ്ങളുടെ ഉപകരണം ശരിയായി ചാർജറിൽ ബന്ധിപ്പിക്കുന്നതും ഉറപ്പാക്കുക.</string>
+    <string name="full_battery_title">വിവരങ്ങള്‍</string>
+    <string name="full_battery_text">"ബാറ്ററി മുഴുവന്‍ ചാര്‍ജ്ജായി.
+ ചാര്‍ജ്ജര്‍ വിച്ഛേദിക്കുക."</string>
+    <string name="reading_mode_title">വായന മോഡ്</string>
+    <string name="reading_mode_alert">വായന മോഡ് പ്രാപ്തമാക്കി. സ്ക്രീന്‍ ഇപ്പോള്‍ വായനയ്ക്കായി ഒപ്സ്റ്റിമൈസുചെയ്തു. തിരഞ്ഞെടുത്ത ആപ്ലിക്കേഷനുകളില്‍ മാത്രം ഈ മോഡ് ലഭ്യം</string>
+    <string name="reading_mode_settings">ക്രമീകരണങ്ങള്‍</string>
+    <string name="quickpanel_ebook_text">"വായന
+മോഡ്"</string>
+    <string name="quickpanel_ebook_content_description">വായന മോഡ്</string>
+    <string name="driving_mode_title">ഹാൻഡ്സ്-ഫ്രീ മോഡ്</string>
+    <string name="driving_mode_on_dialog_msg_1">നിങ്ങൾ S Voice ഹാൻഡ്സ് ഫ്രീ അടച്ചുകഴിഞ്ഞാൽ, ക്രമീകരണങ്ങൾ എന്നതിൽ ഹാൻഡ്സ് ഫ്രീ മോഡ് അപ്രാപ്തമാക്കിയിരിക്കണം. ഹാൻഡ്സ് ഫ്രീ മോഡ് പ്രാപ്തമാക്കിയ നിലയിലാണെങ്കിൽ‍, അറിയിപ്പുകളും ഇൻ‌കമിംഗ് കോൾ വിവരങ്ങളും അപ്പോഴും ഓട്ടോമാറ്റിക്കായി വായിക്കപ്പെടും.</string>
+    <string name="driving_mode_on_dialog_msg_2">S Voice ഹാൻഡ്സ് ഫ്രീയിൽ “ടേണ്‍ ഓഫ്‌ ഹാന്‍ഡ്‌സ് ഫ്രീ മോഡ്” എന്ന് പറഞ്ഞുകൊണ്ടോ, ക്രമീകരണങ്ങൾ അല്ലെങ്കിൽ അറിയിപ്പ് പാനൽ എന്നിവയിലേക്ക് പോയിക്കൊണ്ടൊ ഹാൻഡ്സ് ഫ്രീ മോഡ് നിങ്ങൾക്ക് ഓഫ് ചെയ്യാവുന്നതാണ്.</string>
+    <string name="quickpanel_driving_mode_content_description">ഹാൻഡ്സ്-ഫ്രീ മോഡ്</string>
+    <string name="critical_low_battery_title">ബാറ്ററി വളരെ കുറവ്</string>
+    <string name="critical_low_battery_text">നിങ്ങളുടെ ഉപകരണത്തെ ഒരു ചാർജ്ജറുമായി ബന്ധിപ്പിക്കുക. നിങ്ങളുടെ ഉപകരണത്തിന്‍റെ ഉപയോഗം ചാർജ്ജ് ചെയ്യുന്ന സമയത്തും തുടരുന്നത് കാര്യക്ഷമമായി ചാർജ്ജാകുന്നതിൽ നിന്ന് അതിനെ തടഞ്ഞേക്കാം.</string>
+    <string name="critical_low_battery_text_charged_via_usb">കൂടുതൽ വേഗത്തിൽ ചാർജ്ജ് ചെയ്യുന്നതിന്, ഒരു പ്ലഗ്ഗിലേക്ക് ബന്ധിപ്പിച്ച് %s-ലെ ഉപയോഗിക്കാത്ത ആപ്ലിക്കേഷനുകൾ അടയ്ക്കുക. ചാർജ്ജ് ചെയ്യുന്ന സമയത്തുള്ള തുടർച്ചയായ ഉപയോഗം കാര്യക്ഷമമായ ചാർജ്ജിംഗിനെ തടയും.</string>
+    <string name="critical_low_battery_text_charged_via_ta">%s-ലെ ഉപയോഗിക്കാത്ത ആപ്ലിക്കേഷനുകൾ അടയ്ക്കുക. ചാർജ്ജ് ചെയ്യുന്ന സമയത്തുള്ള തുടർച്ചയായ ഉപയോഗം കാര്യക്ഷമമായ ചാർജ്ജിംഗിനെ തടയും.</string>
+    <string name="low_battery_text">നിങ്ങളുടെ ഉപകരണത്തെ ഒരു ചാർജ്ജറുമായി ബന്ധിപ്പിക്കുക. നിങ്ങളുടെ ഉപകരണത്തിന്‍റെ ഉപയോഗം ചാർജ്ജ് ചെയ്യുന്ന സമയത്തും തുടരുന്നത് കാര്യക്ഷമമായി ചാർജ്ജാകുന്നതിൽ നിന്ന് അതിനെ തടഞ്ഞേക്കാം.</string>
+    <string name="low_battery_text_charged_via_usb">കൂടുതൽ വേഗത്തിൽ ചാർജ്ജ് ചെയ്യുന്നതിന്, ഒരു പ്ലഗ്ഗിലേക്ക് ബന്ധിപ്പിച്ച് %s-ലെ ഉപയോഗിക്കാത്ത ആപ്ലിക്കേഷനുകൾ അടയ്ക്കുക. ചാർജ്ജ് ചെയ്യുന്ന സമയത്തുള്ള തുടർച്ചയായ ഉപയോഗം കാര്യക്ഷമമായ ചാർജ്ജിംഗിനെ തടയും.</string>
+    <string name="low_battery_text_charged_via_ta">%s-ലെ ഉപയോഗിക്കാത്ത ആപ്ലിക്കേഷനുകൾ അടയ്ക്കുക. ചാർജ്ജ് ചെയ്യുന്ന സമയത്തുള്ള തുടർച്ചയായ ഉപയോഗം കാര്യക്ഷമമായ ചാർജ്ജിംഗിനെ തടയും.</string>
+    <string name="low_battery_power_saving_button_text">പവര്‍ സേവിംഗ്</string>
+    <string name="wireless_charging_title">വയര്‍ലസ് ചാര്‍ജിംഗ്.</string>
+    <string name="cable_charging_title">കേബിള്‍ ചാര്‍ജ്ജുചെയ്യുന്നു</string>
+    <string name="wireless_charging_text">ചാർജ്ജിംഗ് പാഡ് കണ്ടെത്തി. വയർലസ്സായി ചാർജ്ജ് ചെയ്യുന്നു…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">വയര്‍ലസ് ചാര്‍ജിംഗില്‍ നിന്നും കേബിള്‍ ചാര്‍ജിംഗിലേക്ക് സ്വിച്ചുചെയ്യുന്നു</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">കേബിള്‍ ചാര്‍ജിംഗില്‍ നിന്നും വയര്‍ലസ് ചാര്‍ജിംഗിലേക്ക് സ്വിച്ചുചെയ്യുന്നു</string>
+    <string name="wireless_charging_spen_warning_text">നിങ്ങളുടെ ഉപകരണം ഇപ്പോൾ വയർലെസായി ചാർജ്ജ് ചെയ്യുകയാണ്. വയർലെസ് ചാർജ്ജിംഗ് പുരോഗമിച്ചുകൊണ്ടിരിക്കുമ്പോൾ S Pen ശരിയായി പ്രവർത്തിക്കണമെന്നില്ല.</string>
+    <string name="incompatible_charger_title">ചാര്‍ജ്ജ് ചെയ്യുന്നില്ല.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">ഉപകരണ പവർ ഓഫ് ചെയ്യുക</string>
+    <string name="overheat_poweroff_warning_text">നിങ്ങളുടെ ഉപകരണം അമിതമായി ചൂടാവുന്നുണ്ട്. തണുപ്പിക്കുന്നതിനായി അതിന്‍റെ പവർ ഓഫാകും.</string>
+    <string name="overheat_poweroff_warning_button_text">പവർ ഓഫ് ചെയ്യരുത്</string>
+    <string name="overheat_poweroff_notice_title">ഉപകരണം ഓട്ടോമാറ്റിക്കായി ഓഫ് ചെയ്യപ്പെട്ടു</string>
+    <string name="overheat_poweroff_notice_text">"നിങ്ങളുടെ ഉപകരണം അമിതമായി ചൂടായി. കോട്ടം തട്ടുന്നത് തടയുന്നതിനായി അതിന്‍റെ പവർ ഓഫാകും.
+
+അമിത ചൂടിന് കാരണമാകാവുന്നവ:
+ദീർഘസമയം ഗെയിമുകൾ, നാവിഗേഷൻ ആപ്ലിക്കേഷനുകൾ പോലുള്ള തീവ്ര ഗ്രാഫിക്സ് ആപ്ലിക്കേഷനുകൾ ഉപയോഗിക്കൽ.
+വലിയ ഫയലുകളുടെ കൈമാറ്റം.
+ചൂടുള്ള പരിതസ്ഥിതിയിൽ നിങ്ങളുടെ ഉപകരണം ഉപയോഗിക്കൽ."</string>
+    <string name="power_sharing_warning_title">പവർ പങ്കിടൽ</string>
+    <string name="power_sharing_warning_text">നിങ്ങളുടെ ബാറ്ററി പവർ, പവർ പങ്കിടൽ പരിധിയിലും താഴെയാണ്. പവർ പങ്കിടുന്നത് തുടരുന്നതിന്, പവർ പങ്കിടൽ പരിധി നിലവിലെ ബാറ്ററി പവർ നിലയ്ക്ക് താഴെയായി ക്രമീകരിക്കുക.</string>
+    <string name="power_sharing_start_toast_text">പവർ പങ്കിടൽ ആരംഭിക്കുന്നു…</string>
+    <string name="power_sharing_end_notification_text">പവർ പങ്കിടൽ അവസാനിച്ചു. കേബിൾ വിച്ഛേദിക്കുക.</string>
+    <string name="power_sharing_unable_notification_text">പങ്കിടാനാവുന്നില്ല.</string>
+    <string name="highvoltage_charger_notice_title">ഫാസ്റ്റ് ചാർജ്ജിംഗ് ഉപയോഗിക്കുക</string>
+    <string name="highvoltage_charger_notice_text">ഇത് കൂടുതൽ വേഗത്തിൽ, സ്ക്രീൻ അല്ലെങ്കിൽ ഉപകരണം ഓഫ് ചെയ്തിരിക്കുന്ന സമയത്ത് പ്രത്യേകിച്ചും, നിങ്ങളുടെ ബാറ്ററിയെ ചാർജ്ജ് ചെയ്യും.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">സ്ക്രീന്‍ ഓഫ് ചെയ്യുക</string>
+    <string name="highvoltage_charger_notification_text">ഫാസ്റ്റ് ചാർജ്ജർ ബന്ധിപ്പിച്ചു.</string>
+    <string name="face_detection_failure_text">നിങ്ങളുടെ കണ്ണുകള്‍ കണ്ടെത്താന്‍ സ്മാര്‍ട്ട് സ്റ്റേയ്ക്കായില്ല.</string>
+    <string name="screenshot_failed_due_to_drm_text">സ്ക്രീന്‍ കാപ്ച്ചര്‍ ചെയ്യാനാവുന്നില്ല. DRM സംരക്ഷിത ഇമേജ്</string>
+    <string name="no_such_item">ഇനം കണ്ടെത്താനാവുന്നില്ല.</string>
+    <string name="one_item_will_be_deleted">1 ഇനം ഡിലീറ്റ് ചെയ്യപ്പെടും.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">സമ്മതിക്കുക</string>
+    <string name="disagree">വിയോജിപ്പ്</string>
+    <string name="location_masterswitch_dialogtitle">സ്ഥാന അനുമതി</string>
+    <string name="gps_donotshow">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="tethering_attention_title">ശ്രദ്ധിക്കുക</string>
+    <string name="tethering_wifi_off_warning">മൊബൈൽ ഹോട്ട്സ്പോട്ട് പ്രാപ്തമാക്കുന്നത് Wi-Fi-യെ ഓഫ് ചെയ്യും.</string>
+    <string name="wifihotspot_detail">വിശദാംശങ്ങള്‍</string>
+    <string name="tether_settings_title_wifi">പോര്‍ട്ടബിള്‍ ഹോട്ട് സ്പോട്ട്</string>
+    <string name="guest_launge_warning_toast_text">ഗസ്റ്റ് മോഡിലായിരിക്കുമ്പോൾ %s പ്രാപ്തമാക്കാനോ അപ്രാപ്തമാക്കാനോ ആവില്ല.</string>
+    <string name="personal_page_popup_msg_while_moving_item">ഇനങ്ങളെ സ്വകാര്യം എന്നതിലേക്ക് നീക്കുന്ന സമയത്ത് സ്വകാര്യ മോഡ് പ്രാപ്തമാക്കാനാവില്ല.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">ഇനങ്ങളെ സ്വകാര്യം എന്നതിലേക്ക് നീക്കുന്ന സമയത്ത് സ്വകാര്യ മോഡ് അപ്രാപ്തമാക്കാനാവില്ല.</string>
+    <string name="no_sim_notification_title">SIM ഇല്ല</string>
+    <string name="no_sim_notification_title_tmo">SIM കാര്‍ഡ് ഒന്നും ഘടിപ്പിച്ചിട്ടില്ല.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">SIM കാര്‍ഡ് തിരുകുക.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">റോമിംഗ്</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">അറിയിപ്പ് പാനല്‍</string>
+    <string name="guideline_empty_text">ഒരു ആപ്ലിക്കേഷൻ തുറക്കാനായി ട്രേയിൽ നിന്ന് ആ ആപ്ലിക്കേഷൻ ഇഴയ്ക്കുക.</string>
+    <string name="drag_and_drop_content">ഉള്ളടക്കം നീക്കുക</string>
+    <string name="switch_window">വിൻ‍ഡോകൾ പരസ്പരം മാറ്റുക</string>
+    <string name="close_application">ആപ്ലിക്കേഷന്‍ അടയ്‌ക്കുക</string>
+    <string name="collapse_window">വിൻഡോ ചുരുക്കുക</string>
+    <string name="change_to_poup_view">പോപ്-അപ്പ് വിൻഡോയിൽ തുറക്കുക</string>
+    <string name="select_contents">മറ്റൊരു ജാലകത്തിലേക്ക് ഒരു ഖണ്ഡിക ടെക്സ്റ്റോ ഒരു ഇമേജിന്‍റെ സ്ക്രീന്‍ഷോട്ടോ ഇഴച്ചിടുക.</string>
+    <string name="do_not_show_again">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="help">സഹായം</string>
+    <string name="recent_multi_window">മള്‍ട്ടി വിന്‍ഡോ കാഴ്ചയിൽ തുറക്കുക</string>
+    <string name="recent_pen_window">പോപ്-അപ്പ് വിൻഡോയിൽ തുറക്കുക</string>
+    <string name="recent_delete">ആപ്ലിക്കേഷൻ അടയ്ക്കുക</string>
+    <string name="disable_multi_window_popup_description">മൾട്ടി വിൻഡോ അപ്രാപ്തമാക്കപ്പെടുകയും പോപ്-അപ്പ് വിൻഡോകളിൽ തുറന്നിരിക്കുന്ന എല്ലാ ആപ്ലിക്കേഷനുകളും അടയ്ക്കുകയും ചെയ്യും.</string>
+    <string name="disable_multi_window_popup_easymode_description">ഈസി മോഡ് പ്രാപ്തമാക്കിയിരിക്കുന്ന സമയത്ത് മള്‍ട്ടി വിന്‍ഡോ ഉപയോഗിക്കാനാവില്ല. ഈസി മോഡ് അപ്രാപ്തമാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="yes">ശരി</string>
+    <string name="no">റദ്ദാക്കു.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">ഉയർന്ന വോളിയം ദീർഘനേരം ശ്രവിക്കുന്നത് നിങ്ങളുടെ കേൾവിശക്തിക്ക് ദോഷകരമായെന്നു വരാം. സുരക്ഷിത നിലകൾക്ക് മീതെ വോളിയം വർദ്ധിപ്പിക്കാൻ അനുവദിക്കുന്നതിന് ശരി എന്നതിൽ സ്പർശിക്കുക.</string>
+    <string name="tw_cover_volume_warning_message">ഉയർന്ന വോളിയത്തിൽ ദീർഘനേരം ശ്രവിക്കുന്നത് നിങ്ങളുടെ കേൾവിശക്തിയെ ഹനിച്ചേക്കാം. വോളിയിയം വർദ്ധിപ്പിക്കുന്നതിന്, കവർ തുറക്കുക.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">ഫ്ലൈറ്റ് മോ‍ഡ് പ്രാപ്തമാക്കുക</string>
+    <string name="global_actions_toggle_airplane_mode">ഫ്ലൈറ്റ് മോഡ്</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">കോള്‍ ചെയ്യല്‍, സന്ദേശമയയ്ക്കല്‍, മൊബൈല്‍ നെറ്റ്‌വര്‍ക്ക് പ്രവര്‍ത്തനങ്ങള്‍ എന്നിവ അപ്രാപ്തമാക്കാന്‍ ഫ്ലൈറ്റ് മോഡ് അനുവദിക്കുന്നു.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">ഫ്ലൈറ്റ് മോഡ് നിഷ്ക്രിയമാക്കപ്പെടും.</string>
+    <string name="multi_window_use_popup_title">മള്‍ട്ടി വിന്‍ഡോ പ്രാപ്തമാക്കുക</string>
+    <string name="multi_window_use_popup_msg">മള്‍ട്ടി വിന്‍ഡോയും TalkBack-ഉം പ്രാപ്തമാക്കാനാകില്ല. TalkBack അപ്രാപ്തമാക്കപ്പെടും.</string>
+    <string name="air_gesture_use_popup_title">എയര്‍ ഗെസ്ചര്‍ പ്രാപ്തമാക്കുക</string>
+    <string name="air_gesture_use_popup_msg">എയര്‍ ഗെസ്ച്വറും TalkBack-ഉം ഒരുമിച്ച് പ്രാപ്തമാക്കാന്‍ കഴിയില്ല. TalkBack അപ്രാപ്തമാക്കപ്പെടും</string>
+    <string name="air_view_use_popup_title">എയര്‍ വ്യൂ പ്രാപ്തമാക്കുക</string>
+    <string name="air_view_use_popup_msg">എയര്‍ വ്യൂവും താഴെയുള്ള ഓപ്ഷനുകളും രണ്ടും പ്രാപ്തമാക്കാന്‍ ആവില്ല. താഴെയുള്ള ഓപ്ഷനുകള്‍ അപ്രാപ്തമാക്കപ്പെടും</string>
+    <string name="car_mode_enable_use_popup_title">കാർ മോഡ് പ്രാപ്തമാക്കുക</string>
+    <string name="car_mode_use_popup_msg">കാർ മോഡ്, TalkBack എന്നിവ ഒരേ സമയം പ്രാപ്തമാക്കാനാവില്ല. TalkBack അപ്രാപ്തമാക്കപ്പെടും.</string>
+    <string name="smart_pause_use_popup_title">സ്മാര്‍ട്ട് പോസ് പ്രാപ്തമാക്കുക</string>
+    <string name="smart_pause_use_popup_msg">സ്മാര്‍ട്ട് കോളും TalkBack-ഉം ഒരുമിച്ച് പ്രാപ്തമാക്കാനാകില്ല. TalkBack നിഷ്ക്രിയമാക്കപ്പെടും.</string>
+    <string name="smart_scroll_use_popup_title">സ്മാര്‍ട്ട് കോള്‍ പ്രാപ്തമാക്കുക</string>
+    <string name="smart_scroll_use_popup_msg">സ്മാര്‍ട്ട് കോളും TalkBack-ഉം ഒരുമിച്ച് പ്രാപ്തമാക്കാനാകില്ല. TalkBack നിഷ്ക്രിയമാക്കപ്പെടും.</string>
+    <string name="smart_stay_use_popup_title">സ്മാര്‍ട്ട് സ്റ്റേ പ്രാപ്തമാക്കുക</string>
+    <string name="smart_stay_use_popup_msg">സ്മാര്‍ട്ട് കോളും TalkBack-ഉം ഒരുമിച്ച് പ്രാപ്തമാക്കാനാകില്ല. TalkBack നിഷ്ക്രിയമാക്കപ്പെടും.</string>
+    <string name="toolbox_use_popup_title">ടൂൾബോക്സ് പ്രാപ്തമാക്കുക</string>
+    <string name="toolbox_use_popup_msg">ടൂൾബോക്സ്, TalkBack എന്നിവ ഒരേ സമയം പ്രാപ്തമാക്കാനാവില്ല. TalkBack അപ്രാപ്തമാക്കപ്പെടും.</string>
+    <string name="sidekey_use_popup_title">പാർശ്വ കീ പാനൽ പ്രാപ്തമാക്കുക</string>
+    <string name="sidekey_use_popup_msg">പാർശ്വ കീ പാനൽ, TalkBack എന്നിവ ഒരേ സമയം പ്രാപ്തമാക്കാനാവില്ല. TalkBack അപ്രാപ്തമാക്കപ്പെടും.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">അറിയിപ്പ്</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">സമീപകാല കീ</string>
+    <string name="recent_menukey_press_description_vzw">നിങ്ങൾ ഏറ്റവും അടുത്ത സമയത്ത് ഉപയോഗിച്ച ആപ്ലിക്കേഷനുകൾ ദ്രുതഗതിയിൽ പരസ്പരം മാറുന്നതിനായി നിങ്ങളെ അനുവദിക്കുന്നതിന് മെനു കീയുടെ സ്ഥാനത്ത് സമീപകാല കീ സ്ഥാപിക്കപ്പെട്ടു. കൂടുതൽ വിവരങ്ങൾക്ക് സഹായം എന്നതിൽ സ്പർശിക്കുക.</string>
+    <string name="recent_menukey_press_description_no_help">നിങ്ങൾ ഏറ്റവും സമീപകാലത്ത് ഉപയോഗിച്ച ആപ്ലിക്കേഷനുകൾ ദ്രുതഗതിയിൽ പരസ്പരം മാറാൻ നിങ്ങളെ അനുവദിക്കുന്നതിന് മെനു കീയുടെ സ്ഥാനത്ത് സമീപകാല കീ സ്ഥാപിക്കപ്പെട്ടു.</string>
+    <string name="recent_menukey_press_description_att">മെനു കീയുടെ സ്ഥാനത്ത് സമീപകാല കീ സ്ഥാപിക്കപ്പെട്ടു. ഒരു ആപ്ലിക്കേഷനിൽ ആയിരിക്കുന്ന സമയത്ത്, മെനു ഐച്ഛികങ്ങൾ കാണുന്നതിന് സമീപകാല കീ അമർത്തിപ്പിടിക്കുക.</string>
+    <string name="recent_help_dialog_title_for_split_view">പുതിയ മൾട്ടി വിൻഡോ സവിശേഷതകൾ</string>
+    <string name="recent_menukey_press_description_for_split_view_1">സ്പ്ലിറ്റ് സ്ക്രീൻ കാഴ്ചയിൽ ആപ്ലിക്കേഷനുകൾ തുറക്കുന്നതിന്, ആപ്ലിക്കേഷൻ വിൻഡോയുടെ ശീർഷക ബാറിലെ %s-ൽ സ്പർശിക്കുക. സ്പ്ലിറ്റ് സ്ക്രീൻ കാഴ്ചയെ ആപ്ലിക്കേഷൻ പിന്തുണയ്ക്കുമ്പോൾ ഈ ഐക്കൺ കാണിക്കപ്പെടുന്നു.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">സ്പ്ലിറ്റ് സ്ക്രീൻ കാഴ്ചയിൽ ആപ്ലിക്കേഷനുകൾ തുറക്കുന്നതിന്, ആപ്ലിക്കേഷൻ വിൻഡോയുടെ ശീർഷക ബാറിലെ സ്പ്ലിറ്റ് സ്ക്രീൻ ഐക്കണിൽ സ്പർശിക്കുക. സ്പ്ലിറ്റ് സ്ക്രീൻ കാഴ്ചയെ ആപ്ലിക്കേഷൻ പിന്തുണയ്ക്കുമ്പോൾ ഈ ഐക്കൺ കാണിക്കപ്പെടുന്നു.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">ഒരു ആപ്ലിക്കേഷനെ ഒരു പോപ്-അപ്പായി തുറക്കുന്നതിന് ആപ്ലിക്കേഷൻ വിൻഡോയിൽ സ്പർശിച്ച് പിടിക്കുക. പോപ്-അപ്പ് കാഴ്ചയിൽ നിന്ന് സ്പ്ലിറ്റ് സ്ക്രീൻ കാഴ്ചയിലേക്ക് മാറുന്നതിന്, ആപ്ലിക്കേഷൻ പോപ്-അപ്പിനെ സ്ക്രീനിന്‍റെ മുകൾഭാഗത്തേയ്ക്കോ താഴ്ഭാഗത്തേയ്ക്കോ ഇഴയ്ക്കുക.</string>
+    <string name="recent_menukey_help_button">സഹായം</string>
+    <string name="btn_text_yes">ശരി</string>
+    <string name="qs_edit_settings_title">അറിയിപ്പ് പാനല്‍</string>
+    <string name="qs_edit_settings_available_button">ലഭ്യമായ ബട്ടണുകള്‍</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">അറിയിപ്പ് പാനലിന് മുകളിൽ ഏതെല്ലാം ദ്രുത ക്രമീകരണ ബട്ടണുകൾ ദൃശ്യമാകണമെന്നത് ഇച്ഛാനുസൃതമാക്കുക. ബട്ടണുകൾ ചേർക്കുന്നതിനും മറയ്ക്കുന്നതിനും അല്ലെങ്കിൽ അവയുടെ ക്രമം മാറ്റുന്നതിനും അവയെ സ്പർശിച്ചുപിടിച്ച ശേഷം ഇഴയ്ക്കുക.</string>
+    <string name="notification_panel_unable_remove_minimum">ബട്ടണ്‍ നീക്കംചെയ്യാനാകുന്നില്ല. ബട്ടണുകളുടെ ഏറ്റവും കുറഞ്ഞ എണ്ണത്തില്‍ (%d) എത്തി.</string>
+    <string name="qs_edit_setting_edit_button">വീണ്ടും ഓര്‍ഡര്‍ ചെയ്യുക</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">ഫ്ലൈറ്റ് മോഡ് നിങ്ങളെ കോൾ ചെയ്യുന്നതും സന്ദേശമയയ്‌ക്കലും ഡാറ്റ നെറ്റ്‌വർക്ക് സവിശേഷതകളും ഓഫുചെയ്യാൻ അനുവദിക്കുന്നു. Wi-Fi, ബ്ലൂടൂത്ത് പോലുള്ള കണക്ടിവിറ്റി ഫീച്ചറുകളും ഇത് ഓഫാക്കുന്നു. Wi-Fi, ബ്ലൂടൂത്ത് ഉപയോഗിക്കാന്‍ ക്രമീകരണത്തിലോ അറിയിപ്പ് പാനലിലോ ഇവ ഓണ്‍ ചെയ്യുക</string>
+    <string name="pickup_tutorial_title">സ്മാര്‍ട്ട് അലേര്‍ട്ട് പരീക്ഷിക്കുക</string>
+    <string name="put_your_phone">നിങ്ങളുടെ ഉപകരണം താഴെ വച്ചതിനുശേഷം, സ്ക്രീന്‍ ഓഫ് ആകും</string>
+    <string name="phone_detect">നിങ്ങള്‍ക്ക് മിസ്ഡ് കോളുകള്‍ അല്ലെങ്കില്‍ സന്ദേശങ്ങള്‍ ഉണ്ടെന്ന് കരുതുക. നിങ്ങളുടെ ഉപാധി താഴെ വയ്ക്കുക, തുടര്‍ന്ന് സ്ക്രീന്‍ ഓഫ് ആകുമ്പോള്‍ അത് വീണ്ടും എടുക്കുക.</string>
+    <string name="pick_up_your_phone">നിങ്ങളുടെ ഉപകരണം എടുക്കുക</string>
+    <string name="tutorial_complete">ട്യൂട്ടോറിയല്‍ പൂര്‍ത്തിയായി</string>
+    <string name="share_via">ഇതുവഴി പങ്കിടുക</string>
+    <string name="airmsg_warning_alert_check">ഇന്ന് വീണ്ടും കാണിക്കരുത്</string>
+    <string name="airmsg_check_data_title_WLAN">WLAN ലേക്ക് ബന്ധിപ്പിക്കുക</string>
+    <string name="airmsg_check_data_title_Mobile">മൊബൈല്‍ നെറ്റ്‌വര്‍ക്കുകള്‍ വഴി ബന്ധിപ്പിക്കുക</string>
+    <string name="cooling_title">ഉപകരണം അമിതമായി ചൂടാവുന്നു</string>
+    <string name="cooling_body">"നിങ്ങളുടെ ഉപകരണം അമിതമായി ചൂടാകുന്നുണ്ട്. അതിനെ തണുപ്പിക്കുന്നതിനുള്ള ചുവടുകൾ കൈക്കൊള്ളുന്നതാണ്.
+
+നിങ്ങൾക്ക് അപ്പോഴും ഉപകരണം ഉപയോഗിക്കാവുന്നതാണ്, പക്ഷേ
+- സ്ക്രീൻ മങ്ങിപ്പോയേക്കാം.
+- ഉപകരണ പ്രവർത്തനം മന്ദഗതിയിലായേക്കാം.
+- ചാർജ്ജ് ചെയ്യൽ തൽക്കാലത്തേക്ക് നിർത്തിയെന്നു വരാം.
+
+നിലവിലെ ആപ്ലിക്കേഷൻ അടയ്ക്കുന്നത് നിങ്ങളുടെ ഉപകരണം തണുക്കുന്നതിന് സഹായിക്കും.
+
+ഉപകരണം തണുത്തതിന് ശേഷം, പ്രകടനം ഓട്ടോമാറ്റിക്കായി സാധാരണ നിലയിലേക്ക് മടങ്ങും."</string>
+    <string name="cooling_noti_text">വിശദാംശങ്ങൾ കാണാൻ ഇവിടെ സ്പർശിക്കുക.</string>
+    <string name="cooling_popup_name">അറിയിപ്പ്</string>
+    <string name="cooling_noti_title">ഉപകരണം അമിതമായി ചൂടാവുന്നു</string>
+    <string name="btn_text_no">റദ്ദ്</string>
+    <string name="device_overheating">ഉപകരണം അമിതമായി ചൂടാവുന്നു</string>
+    <string name="colling_noti_text_2">ആപ്ലിക്കേഷനുകൾ തുറക്കാനാവില്ല. ഫോണും കോൺടാക്ടുകളും ആപ്ലിക്കേഷനുകള്‍ മാത്രമാണ് നിങ്ങൾക്കുപയോഗിക്കാനാവുക.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">കൂടുതൽ അറിയുന്നതിന് ഇവിടെ സ്പർശിക്കുക.</string>
+    <string name="cooling_popup_name_VZW">അറിയിപ്പ്</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">ശരി</string>
+    <string name="btn_text_no_VZW">റദ്ദ്</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">സുരക്ഷിത മോഡ് അപ്രാപ്തമാക്കുക</string>
+    <string name="safe_mode_popup_body_global">സുരക്ഷിത മോഡ് അപ്രാപ്തമാക്കാൻ, ഉപകരണം പുനരാരംഭിക്കപ്പെടും. നിങ്ങളുടെ എല്ലാ ആപ്ലിക്കേഷനുകളും തുടർന്ന് ലഭ്യമാകും.</string>
+    <string name="safe_mode_off_btn_global">ശരി</string>
+    <string name="safe_mode_noti_on_global">സുരക്ഷ മോഡ് പ്രാപ്തമാക്കി</string>
+    <string name="safe_mode_noti_body_global">സുരക്ഷിത മോഡ് അപ്രാപ്തമാക്കാൻ ഇവിടെ ടാപ്പുചെയ്യുക.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">റദ്ദ്</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">ശബ്ദ മോഡ് മാറ്റുന്നതിന്, തടസ മോഡിനെ മുൻഗണന അല്ലെങ്കിൽ എല്ലാം എന്നതായി ക്രമീകരിക്കുക.</string>
+    <string name="accessibility_driving_mode">ഹാൻഡ്സ് ഫ്രീ മോഡ് പ്രാപ്തമാക്കുന്നതിന്‍, ബന്ധപ്പെട്ട ഒരു പ്രവർത്തനമെങ്കിലും പ്രാപ്തമാക്കുക.</string>
+    <string name="qs_silent_popup_title">ശബ്ദ മോഡ്</string>
+    <string name="qs_silent_popup_sound">ശബ്‌ദം</string>
+    <string name="qs_silent_popup_vibrate">വൈബ്രേറ്റ് ചെയ്യുക</string>
+    <string name="qs_rotate_popup_title">സ്ക്രീൻ തിരിക്കൽ</string>
+    <string name="qs_rotate_popup_all">എല്ലാം</string>
+    <string name="qs_torch_popup_title">ടോർച്ച്</string>
+    <string name="qs_torch_popup_brightness">തെളിച്ചം</string>
+    <string name="qs_torch_popup_auto_turnoff_none">ഒന്നുമില്ല</string>
+    <string name="disable_multi_window_dialog_title">മൾട്ടി വിൻഡോ അപ്രാപ്തമാക്കുക</string>
+    <string name="disable_multi_window_dialog_text">മൾട്ടി വിൻഡോ അപ്രാപ്തമാക്കപ്പെടുകയും പോപ്-അപ്പ് വിൻഡോകളിൽ തുറന്നിരിക്കുന്ന എല്ലാ ആപ്ലിക്കേഷനുകളും അടയ്ക്കുകയും ചെയ്യും.</string>
+</resources>

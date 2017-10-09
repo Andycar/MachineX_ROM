@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_saving_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceScreen android:title="@string/power_saving_mode_title" android:key="powersaving" android:fragment="com.android.settings.powersavingmode.PowerSavingMode2014" />
+    <PreferenceScreen android:title="@string/powersaving_ultra" android:key="ultra_powersaving" android:fragment="com.android.settings.powersavingmode.PowerSavingModeUltra" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/power_saving_mode_title" android:key="powersaving_tablet" android:fragment="com.android.settings.powersavingmode.PowerSavingMode2014" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/powersaving_ultra" android:key="ultra_powersaving_tablet" android:fragment="com.android.settings.powersavingmode.PowerSavingModeUltra" />
+    <PreferenceScreen android:title="@string/sleepingmode_title" android:key="sleepingmode" android:fragment="com.android.settings.sleepingmode.SleepingModeSettings" />
+</PreferenceScreen>

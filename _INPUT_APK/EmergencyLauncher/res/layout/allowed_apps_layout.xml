@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/allappslistcontainer" android:background="@drawable/basic_ripple_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/apps_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:dividerHeight="@dimen/divider_height" android:footerDividersEnabled="true" />
+    <TextView android:textSize="@dimen/list_item_text_size" android:textColor="@color/allowed_app_list_item_text_color" android:gravity="start|center" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_text_height" android:text="@string/empty_view_no_apps" android:singleLine="true" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+</LinearLayout>

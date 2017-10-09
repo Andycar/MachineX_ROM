@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:paddingLeft="@dimen/preference_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/grid_preference_listui_height" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/listview_icon_size" android:layout_height="wrap_content" android:layout_marginStart="@dimen/grid_preference_listui_left_margin" android:layout_marginEnd="6.0dip">
+        <com.android.settings.ToggleImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/icon_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_btn_checkmark_enabled_default_holo_dark" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="6.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/check" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

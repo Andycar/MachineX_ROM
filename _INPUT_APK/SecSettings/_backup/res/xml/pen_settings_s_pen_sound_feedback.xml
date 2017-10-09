@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pen_feedback_pen_sound_title" android:key="pen_settings_sound_feedback_menu"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/air_button_title" android:key="sound_feedback_air_command" />
+    <CheckBoxPreference android:title="@string/hovering_title" android:key="sound_feedback_air_view" />
+    <CheckBoxPreference android:title="@string/pen_settings_handwriting_section_title" android:key="sound_feedback_handwriting" />
+</PreferenceScreen>

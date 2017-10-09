@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cover_wday_day">E</string>
+    <string name="clear_cover_month_day_no_year">MMM d</string>
+    <string name="clear_cover_day_month_no_year">d MMM</string>
+    <string name="date_time_set">Appliquer</string>
+    <string name="save">Enreg.</string>
+    <string name="cancel">Annuler</string>
+    <string name="clearcover_exit_button">Quitter</string>
+    <string name="clearcover_music_widget_unkown">Inconnu</string>
+    <string name="clearcover_no_missed_event">Aucun événement manqué</string>
+    <string name="clearcover_1_missed_call">Vous avez 1 appel manqué.</string>
+    <string name="clearcover_1_unread_message">Vous avez 1 message non lu.</string>
+    <string name="clearcover_n_missed_calls">Vous avez %d appels manqués.</string>
+    <string name="clearcover_n_unread_messages">Vous avez %1$d messages non lus.</string>
+    <string name="clearcover_calls_and_messages">Vous avez %1$d appels manqués et %2$d messages non lus.</string>
+    <string name="zzz_tts_temp_celsius">Celsius</string>
+    <string name="zzz_tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="zzz_tts_temperature">Degré</string>
+    <string name="volumepanel_ringtone">Sonnerie</string>
+    <string name="volumepanel_media">Média</string>
+    <string name="volumepanel_notification">Notification</string>
+    <string name="volumepanel_system">Système</string>
+    <string name="s_view_cover_shortcuts_camera_text">Appareil photo</string>
+    <string name="s_view_cover_shortcuts_quick_memo_text">Action Memo</string>
+    <string name="s_view_cover_shortcuts_music_player_text">Musique</string>
+    <string name="cmas_presidential_alert">Alerte présidentielle</string>
+    <string name="cmas_extreme_alert">"Alertes d'urgence"</string>
+    <string name="cmas_presidential_alerts">Alertes présidentielles</string>
+    <string name="cmas_extreme_alerts">"Alertes d'urgence"</string>
+    <string name="cmas_severe_alerts">Alertes graves</string>
+    <string name="cmas_amber_alerts">Alertes enlèvement</string>
+    <string name="cmas_emergency_alerts">"Alertes d'urgence"</string>
+    <string name="sae_presidential_alert">Alerte présidentielle</string>
+    <string name="new_message_title">Nouveau message</string>
+    <string name="message_count">%d nouveaux messages</string>
+    <string name="new_message">Nouveau message</string>
+    <string name="cb_msg_header">Messages de diffusion</string>
+    <string name="push_message_sender">Message Push</string>
+    <string name="select_background_color">Déf. fond écran fenêtre S View</string>
+    <string name="s_view_window_theme">Fond écran fenêtre S View</string>
+    <string name="s_view_info_cover">Sélect. élém. à afficher</string>
+    <string name="s_view_screen_time_out">Expiration écran</string>
+    <string name="s_view_screen_roaming">Itinérance</string>
+    <string name="s_view_screen_home">Domicile</string>
+    <string name="missed_call_title">Appel manqué</string>
+    <string name="missed_calls_count">%d appels manqués</string>
+    <string name="battery_charging_percent">Charge : %d %%</string>
+    <string name="battery_wirelessly_charging_percent">Chargement sans fil - %d %%</string>
+    <string name="battery_charged">Chargé</string>
+    <string name="unknown">Inconnu</string>
+    <string name="private_num">Numéro privé</string>
+    <string name="payphone">Téléphone public</string>
+    <string name="unknown_address">Adresse inconnue</string>
+    <string name="s_view_cover_transport_prev_description">Précédent</string>
+    <string name="s_view_cover_transport_next_description">Suivant</string>
+    <string name="s_view_cover_transport_pause_description">Pause</string>
+    <string name="s_view_cover_transport_play_description">Lire</string>
+    <string name="s_view_cover_transport_stop_description">Arrêter</string>
+    <string name="s_view_cover_transport_volume_description">Volume</string>
+    <string name="s_view_cover_transport_playlist_description">Listes de lecture</string>
+    <string name="s_view_cover_missed_event_secured_popup">Appareil verrouillé. Ouvrez le clapet pour afficher plus de détails.</string>
+    <string name="s_view_cover_open_cover_popup">"Ouvrez S View Cover pour définir le fond d'écran."</string>
+    <string name="s_view_cover_missed_event_button_accessibiliy">Faites glisser deux doigts pour accéder à la page des événements manqués.</string>
+    <string name="s_view_cover_settings_button_accessibiliy">Faites glisser deux doigts pour accéder à Paramètres.</string>
+    <string name="s_view_cover_camera_button_accessibiliy">"Faites glisser deux doigts pour ouvrir l'appareil photo."</string>
+    <string name="s_view_cover_emergency_timer_hrs">H</string>
+    <string name="accessibility_battery_level">Batterie à %d pourcent</string>
+    <string name="unsaved">Non enreg.</string>
+    <string name="clearcover_open_to_view_message">Ouvrir le clapet pour afficher les détails du message.</string>
+    <string name="clearcover_open_to_view_call">"Ouvrez le clapet pour afficher les détails de l'appel."</string>
+    <string name="ok">OK</string>
+    <string name="status_view_wday_month_day_no_year">E MMMM d</string>
+    <string name="status_view_wday_day_month_no_year">E d MMMM</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E d MMM</string>
+    <string name="app_name">Protection des touches</string>
+    <string name="keyguard_password_enter_pin_code">Saisir le code PIN.</string>
+    <string name="keyguard_password_enter_puk_code">Saisissez la clé PUK et le nouveau code PIN de la carte SIM.</string>
+    <string name="keyguard_password_enter_puk_prompt">Clé PUK de la carte SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">Nouveau code PIN de la carte SIM</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Appuyez pour saisir mot passe</font></string>
+    <string name="keyguard_password_enter_password_code">Saisissez le mot de passe pour déverrouiller le clavier.</string>
+    <string name="keyguard_password_enter_pin_password_code">Saisissez le code PIN pour déverrouiller le clavier.</string>
+    <string name="keyguard_password_wrong_pin_code">Code PIN incorrect</string>
+    <string name="keyguard_label_text">Pour déverrouiller, appuyez sur Menu, puis sur 0.</string>
+    <string name="faceunlock_multiple_failures">Nombre de tentatives maximum de déverrouillage visage dépassé</string>
+    <string name="keyguard_charged">Chargé</string>
+    <string name="keyguard_plugged_in">Charge : %d %%</string>
+    <string name="keyguard_low_battery">Branchez votre chargeur.</string>
+    <string name="keyguard_charging_in_wireless">Chargement sans fil : %d %%</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Appuyez sur Menu pour déverrouiller.</string>
+    <string name="keyguard_network_locked_message">Réseau bloqué</string>
+    <string name="keyguard_missing_sim_message_short">Aucune carte SIM</string>
+    <string name="keyguard_missing_sim_message">Aucune carte SIM dans le téléphone</string>
+    <string name="keyguard_missing_sim_instructions">Insérez une carte SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">Carte SIM absente ou illisible. Veuillez insérer une carte SIM.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Carte SIM inutilisable.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Votre carte SIM a été définitivement désactivée.
+ Veuillez contacter votre opérateur de téléphonie mobile pour en obtenir une autre."</string>
+    <string name="keyguard_sim_locked_message">Carte SIM verrouillée</string>
+    <string name="keyguard_sim_puk_locked_message">La carte SIM est verrouillée par le code PUK</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Déverrouillage de la carte SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d sur %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Ajouter widget</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Vide</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Zone de déverrouillage développée.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Zone de déverrouillage réduite.</string>
+    <string name="keyguard_accessibility_widget">Widget %s</string>
+    <string name="keyguard_accessibility_user_selector">"Sélecteur d'utilisateur"</string>
+    <string name="keyguard_accessibility_camera">Appareil photo</string>
+    <string name="keygaurd_accessibility_media_controls">Commandes multimédias</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Début de la réorganisation des widgets</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Réorganisation des widgets terminée.</string>
+    <string name="keyguard_accessibility_widget_deleted">Le widget %1$s a été supprimé.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Développer la zone de déverrouillage</string>
+    <string name="keyguard_accessibility_slide_unlock">"Déverrouillage en faisant glisser votre doigt sur l'écran"</string>
+    <string name="keyguard_accessibility_pattern_unlock">Déverrouillage de modèle</string>
+    <string name="keyguard_accessibility_face_unlock">Déverrouillage visage</string>
+    <string name="keyguard_accessibility_pin_unlock">Déverrouillage par code PIN</string>
+    <string name="keyguard_accessibility_password_unlock">Déverrouillage par mot de passe</string>
+    <string name="keyguard_accessibility_pattern_area">Zone du schéma</string>
+    <string name="keyguard_accessibility_slide_area">"Zone où faire glisser votre doigt sur l'écran"</string>
+    <string name="keyguard_accessibility_transport_prev_description">Bouton pour revenir au titre précédent</string>
+    <string name="keyguard_accessibility_transport_next_description">Bouton pour atteindre le titre suivant</string>
+    <string name="keyguard_accessibility_transport_pause_description">Bouton Pause</string>
+    <string name="keyguard_accessibility_transport_play_description">Bouton Lecture</string>
+    <string name="keyguard_accessibility_transport_stop_description">Bouton Arrêt</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Pouce levé</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Pouce baissé</string>
+    <string name="keyguard_accessibility_transport_heart_description">Cœur</string>
+    <string name="keyguard_accessibility_show_bouncer">"Déverrouillez l'appareil pour continuer."</string>
+    <string name="keyguard_accessibility_hide_bouncer">Lancement annulé.</string>
+    <string name="keyguard_accessibility_delete_widget_start">Relâchez le widget \"%1$s\" pour le supprimer.</string>
+    <string name="keyguard_accessibility_delete_widget_end">Le widget \"%1$s\" ne va pas être supprimé.</string>
+    <string name="keyguard_accessibility_next_alarm">Prochaine alarme définie à %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">ALT</string>
+    <string name="keyboardview_keycode_cancel">Annuler</string>
+    <string name="keyboardview_keycode_delete">SUPPRIMER</string>
+    <string name="keyboardview_keycode_done">Effectué</string>
+    <string name="keyboardview_keycode_mode_change">Changement de mode</string>
+    <string name="keyboardview_keycode_shift">Maj</string>
+    <string name="keyboardview_keycode_enter">Saisir</string>
+    <string name="description_target_unlock">Déverrouiller</string>
+    <string name="description_target_camera">Appareil photo</string>
+    <string name="description_target_silent">Discret</string>
+    <string name="description_target_soundon">Son activé</string>
+    <string name="description_target_search">Rechercher</string>
+    <string name="description_direction_up">Faites glisser vers le haut pour %s.</string>
+    <string name="description_direction_down">Faites glisser vers le bas pour %s.</string>
+    <string name="description_direction_left">Faites glisser vers la gauche pour %s.</string>
+    <string name="description_direction_right">Faites glisser vers la droite pour %s.</string>
+    <string name="user_switched">Utilisateur actuel : %1$s</string>
+    <string name="kg_emergency_call_label">"Appel d'urgence"</string>
+    <string name="kg_forgot_pattern_button_text">Modèle oublié ?</string>
+    <string name="kg_wrong_pattern">Modèle incorrect</string>
+    <string name="kg_wrong_password">Mot de passe incorrect</string>
+    <string name="kg_wrong_pin">Code PIN incorrect</string>
+    <string name="kg_too_many_failed_attempts_countdown">Réessayez dans %d secondes.</string>
+    <string name="kg_too_many_failed_attempt_countdown">Réessayer dans 1 secondes.</string>
+    <string name="kg_pattern_instructions">Dessiner votre modèle de déverrouillage.</string>
+    <string name="kg_sim_pin_instructions">Entrer le code PIN pour déverrouiller la carte SIM.</string>
+    <string name="kg_pin_instructions">Saisir le code PIN</string>
+    <string name="kg_password_instructions">Entrez le mot de passe</string>
+    <string name="kg_puk_enter_puk_hint">"Votre carte SIM est bloquée. Entrez votre code PUK pour poursuivre. Contactez votre opérateur pour plus d'informations."</string>
+    <string name="kg_puk_enter_pin_hint">Entrez un nouveau PIN.</string>
+    <string name="kg_enter_confirm_pin_hint">Confirmez le nouveau PIN.</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Déverrouillage de la carte SIM…</string>
+    <string name="kg_invalid_sim_pin_hint">Saisir un code PIN comptant entre 4 et 8 chiffres</string>
+    <string name="kg_invalid_sim_puk_hint">Votre code PUK doit contenir au moins 8 chiffres.</string>
+    <string name="kg_invalid_puk">Veuillez saisir de nouveau le code PUK correct. Des tentatives répétées désactivent définitivement la carte SIM.</string>
+    <string name="kg_invalid_confirm_pin_hint">Les codes PIN que vous avez saisis ne correspondent pas.</string>
+    <string name="kg_login_too_many_attempts">Trop de tentatives.</string>
+    <string name="kg_login_instructions">Pour déverrouiller, connectez-vous avec votre compte Google.</string>
+    <string name="kg_login_username_hint">"Nom d'utilisateur (adresse e-mail)"</string>
+    <string name="kg_login_password_hint">Mot de passe</string>
+    <string name="kg_login_submit_button">Connex.</string>
+    <string name="kg_login_invalid_input">"Nom d'utilisateur ou mot de passe non valide"</string>
+    <string name="kg_login_account_recovery_hint">"Vous avez oublié votre nom d'utilisateur ou votre mot de passe ?
+Rendez-vous sur la page "<b>google.com/accounts/recovery</b>.</string>
+    <string name="no_network_connection">Aucune connexion réseau</string>
+    <string name="kg_login_checking_password">Vérification du compte…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"Vous avez saisi un code PIN erroné à %1$d reprises.
+
+Réessayez dans %2$d secondes."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">Vous avez effectué %1$d tentatives erronées de saisie de votre mot de passe. Réessayez dans %2$d secondes</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Le déverrouillage de votre appareil a échoué à %1$d reprises. Réessayez dans %2$d secondes.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">"Vous avez tenté de déverrouiller le téléphone de façon incorrecte à %d reprises. Si vous échouez encore %d fois, sa configuration d'usine sera rétablie, et toutes les données utilisateur seront perdues."</string>
+    <string name="kg_failed_attempts_now_wiping">"Vous avez tenté de déverrouiller le téléphone de façon incorrecte à %d reprises. Sa configuration d'usine va être rétablie."</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Vous avez dessiné un schéma de déverrouillage incorrect à %d reprises. Si vous échouez encore %d fois, vous devrez déverrouiller votre téléphone à l'aide d'un compte de messagerie électronique.
+
+ Veuillez réessayer dans %d secondes."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">SUPPRIMER</string>
+    <string name="kg_password_wrong_pin_code_pukked">Code PIN de la carte SIM incorrect. Vous devez désormais contacter votre opérateur pour déverrouiller votre appareil.</string>
+    <string name="kg_password_wrong_puk_code_dead">La carte SIM est inutilisable. Veuillez contacter votre opérateur.</string>
+    <string name="kg_password_pin_failed">"Échec du déverrouillage à l'aide du code PIN de la carte SIM."</string>
+    <string name="kg_password_puk_failed">"Échec du déverrouillage à l'aide de la clé PUK de la carte SIM."</string>
+    <string name="kg_pin_accepted">Code accepté.</string>
+    <string name="keyguard_transport_prev_description">Bouton pour revenir au titre précédent</string>
+    <string name="keyguard_transport_next_description">Bouton pour atteindre le titre suivant</string>
+    <string name="keyguard_transport_pause_description">Bouton Pause</string>
+    <string name="keyguard_transport_play_description">Bouton Lecture</string>
+    <string name="keyguard_transport_stop_description">Bouton Arrêt</string>
+    <string name="keyguard_carrier_default">Aucun service</string>
+    <string name="tts_temp_celsius">Celsius</string>
+    <string name="tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="tts_temperature">Diplôme</string>
+    <string name="keyguard_dualclock_home">Domicile</string>
+    <string name="keyguard_dualclock_roaming">Itinérance</string>
+    <string name="keyguard_dualclock_home_Seoul">Séoul</string>
+    <string name="keyguard_dualclock_roaming_Korea">Itinérance</string>
+    <string name="kg_spass_alternative_password">MDP de secours</string>
+    <string name="kg_spass_backup_verification">Type de vérif. sauvegarde</string>
+    <string name="kg_spass_swipe">"Faites glisser votre doigt sur la touche d'accueil pour déverrouiller votre appareil."</string>
+    <string name="kg_spass_passed">Reconnu.</string>
+    <string name="kg_forgot_spass_button_text">Déver. via Google</string>
+    <string name="kg_alternative_password_instructions">Saisir votre mot de passe de secours.</string>
+    <string name="kg_alternative_password_failed">Mot de passe de secours erroné.</string>
+    <string name="kg_spass_popup_guide_text">"Lorsque vous faites glisser votre doigt, assurez-vous qu'il couvre toute la touche Accueil."</string>
+    <string name="kg_spass_backup_password_button">Saisir MDP de sauvegarde</string>
+    <string name="kg_spass_backup_password_introductions">Entrez votre mot de passe de sauvegarde.</string>
+    <string name="kg_spass_backup_password_failed">Un mot de passe de sauvegarde erroné a été saisi.</string>
+    <string name="kg_spass_backup_pin_introductions">Entrez le code PIN de secours</string>
+    <string name="kg_spass_backup_pin_failed">Code PIN de secours incorrect</string>
+    <string name="kg_spass_backup_pattern_introductions">Dessiner modèle sauveg.</string>
+    <string name="kg_spass_backup_pattern_failed">Vous avez dessiné un schéma erroné. Réessayez.</string>
+    <string name="keyguard_clock_with_battery">Alimentation batterie %s</string>
+    <string name="default_profile_string">Message personnel</string>
+    <string name="default_profile_string_life_companion">Life companion</string>
+    <string name="keyguard_progress_erasing_all">Suppression de toutes les données…</string>
+    <string name="kg_lockscreen_backup_pin_button_text">Code PIN de secours</string>
+    <string name="fail_attempt_unlock_popup_title">Impossible déverrouiller écran</string>
+    <string name="kg_failed_attempts_almost_at_pattern">"Le déverrouillage de votre appareil a échoué à %1$d reprises. S'il échoue à %2$d autres reprises, vous pourrez déverrouiller l'appareil avec votre code PIN alternatif. Réessayez dans %3$d secondes."</string>
+    <string name="kg_1_failed_attempt_almost_at_wipe">"Le déverrouillage du téléphone a échoué à 1 reprise. S'il échoue à %d autres reprises, les paramètres par défaut du téléphone seront rétablis et toutes les données utilisateur seront perdues."</string>
+    <string name="lockscreen_voiceunlock_failed_to_recognise_voice_text">"La voix n'a pas été reconnue."</string>
+    <string name="lockscreen_unlock_guide_text">"Faites glisser votre doigt sur l'écran pour déverrouiller."</string>
+    <string name="kg_too_many_failed_spass_attempts_dialog_message">La vérification de votre empreinte a échoué à %1$d reprises. Réessayez dans %2$d secondes.</string>
+    <string name="keyguard_recovery_instructions">Entrez le mot de passe de récupération pour déverrouiller.</string>
+    <string name="device_disabled">"Appareil désactivé. Contactez l'administrateur informatique."</string>
+    <string name="keyguard_fmm_phone_locked_title">Téléphone verrouillé</string>
+    <string name="keyguard_fmm_owner_phone">Numéro du propriétaire</string>
+    <string name="keyguard_camera_shortcut_tts">"Appuyez deux fois et faites glisser votre doigt pour ouvrir l'appareil photo."</string>
+    <string name="keyguard_signature_guide">"Dessinez votre signature sur l'écran avec le stylet pour déverrouiller l'appareil."</string>
+    <string name="keyguard_signature_failed_guide">"Réessayez. Dessinez votre signature sur l'écran avec le stylet pour déverrouiller l'appareil"</string>
+    <string name="kg_too_many_failed_signature_attempts_dialog_message">Vous avez dessiné une signature de déverrouillage incorrecte à %1$d reprises. Réessayez dans %2$d secondes.</string>
+    <string name="zzz_keyguard_password_attempts_count_pin_code">%d essais restants</string>
+    <string name="lockscreen_clock_dualclock_popup_title">Double horloge</string>
+    <string name="lockscreen_clock_dualclock_popup_message">"Sélectionnez votre ville domicile pour afficher une double horloge sur l'écran de verrouillage. Accéder aux paramètres ?"</string>
+    <string name="kg_failed_attempts_almost_at_spass">"La vérification de votre empreinte a échoué à %1$d reprises. Si elle échoue à %2$d autres reprises, vous pourrez déverrouiller l'appareil avec votre méthode de déverrouillage de secours. Réessayez dans %3$d secondes."</string>
+    <string name="lockscreen_unlock_guide_text_touch_exploration">"Faites glisser deux doigts sur l'écran pour le déverrouiller."</string>
+    <string name="lockscreen_swipe_voice_unlock_guide_text">"Pour déverrouiller, faites glisser votre doigt sur l'écran ou énoncez une commande de réveil."</string>
+    <string name="zzz_tts_lockscreen_shortcut_swipe">"Appuyez de nouveau et faites glisser votre doigt sur l'écran pour ouvrir des applications."</string>
+    <string name="kg_failed_5_attempts_to_show_backup_pin_with_auto_wipe">"Vous avez essayé de déverrouiller l'écran de façon incorrecte à %d reprises. Vous devez maintenant saisir votre code PIN de secours pour déverrouiller l'écran."</string>
+    <string name="kg_failed_5_attempts_to_show_backup_password_with_auto_wipe">"Vous avez essayé de déverrouiller l'écran de façon incorrecte à %d reprises. Vous devez maintenant saisir votre mot de passe de secours pour déverrouiller l'écran."</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe">"Il ne vous reste plus qu'un essai pour déverrouiller votre téléphone avant que les paramètres d'usine ne soient rétablis. Toutes les données seront supprimées, y compris les fichiers et les applications téléchargées."</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe_subuser">"Il ne vous reste plus qu'un essai pour déverrouiller votre tablette avant que votre compte ne soit supprimé. Toutes les données qu'il contient seront alors supprimées, y compris les fichiers et les applications téléchargées."</string>
+    <string name="kg_n_attempts_remaining">%d essais restants</string>
+    <string name="kg_1_attempt_remaining">1 essai restant</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message_with_auto_wipe">"Vous avez saisi un code PIN erroné à %1$d reprises. (%2$d essais restants)
+
+Réessayez dans %3$d secondes."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message_with_auto_wipe">"Vous avez saisi un mot de passe erroné à %1$d reprises. (%2$d essais restants)
+
+Réessayez dans %3$d secondes."</string>
+    <string name="kg_too_many_failed_backup_pin_attempts_dialog_message_with_auto_wipe">"Vous avez saisi un code PIN de secours erroné à %1$d reprises. (%2$d essais restants)
+
+Réessayez dans %3$d secondes."</string>
+    <string name="kg_too_many_failed_backup_password_attempts_dialog_message_with_auto_wipe">"Vous avez saisi un mot de passe de secours erroné à %1$d reprises. (%2$d essais restants)
+
+Réessayez dans %3$d secondes."</string>
+    <string name="kg_password_wrong_pin_code_maximum">"Votre carte SIM est bloquée. Entrez votre code PUK pour poursuivre. Contactez votre opérateur pour plus d'informations."</string>
+    <string name="lockscreen_sim_puk_tmo_help_pin_blocked">Code PIN bloqué</string>
+    <string name="lockscreen_sim_puk_tmo_help_contact_service_provider">Contactez votre opérateur pour débloquer votre carte SIM.</string>
+    <string name="emergency_calls_only">Appels urgence uniquement</string>
+    <string name="kg_spass_help_overlay_guide_text">Faites pivoter votre appareil à %d ° avant de faire glisser votre doigt vers le bas sur la touche Accueil.</string>
+    <string name="checkbox_description">Ne plus afficher</string>
+    <string name="keyguard_accessibility_change_input_method">Modifier le mode de saisie</string>
+    <string name="status_bar_date_format_day_month">E d MMMM</string>
+    <string name="status_bar_date_format_month_day">E MMMM d</string>
+    <string name="app_label">IU syst.</string>
+    <string name="status_bar_clear_all_button">Effacer</string>
+    <string name="status_bar_recent_remove_item_title">Supprimer de la liste</string>
+    <string name="status_bar_recent_inspect_item_title">Informations application</string>
+    <string name="status_bar_no_recent_apps">Aucune application récente</string>
+    <string name="status_bar_accessibility_dismiss_recents">Masquer les applications récentes</string>
+    <string name="status_bar_no_notifications_title">Pas de notification</string>
+    <string name="status_bar_ongoing_events_title">En cours</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Niveau de batterie faible</string>
+    <string name="battery_low_percent_format">%d %% restant</string>
+    <string name="battery_low_percent_format_saver_started">"Il reste %d%%. L'économiseur de batterie est activé."</string>
+    <string name="invalid_charger">Chargement USB non pris en charge. Utilisez le chargeur fourni.</string>
+    <string name="invalid_charger_title">Chargeur USB non compatible.</string>
+    <string name="invalid_charger_text">"Veuillez n'utiliser que le chargeur fourni."</string>
+    <string name="battery_low_why">Paramètres</string>
+    <string name="battery_saver_confirmation_title">"Activer l'économiseur de batterie ?"</string>
+    <string name="battery_saver_confirmation_ok">Activer</string>
+    <string name="battery_saver_start_action">"Activer l'économiseur de batterie"</string>
+    <string name="status_bar_settings_settings_button">Paramètres</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mode Hors-ligne</string>
+    <string name="status_bar_settings_auto_rotation">Rotation auto. écran</string>
+    <string name="status_bar_settings_mute_label">Muet</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto.</string>
+    <string name="status_bar_settings_notifications">Notifications</string>
+    <string name="bluetooth_tethered">Bluetooth connecté</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurer les modes de saisie</string>
+    <string name="status_bar_use_physical_keyboard">Clavier physique</string>
+    <string name="usb_device_permission_prompt">"Autoriser l'application %1$s à accéder au périphérique USB ?"</string>
+    <string name="usb_accessory_permission_prompt">"Autoriser l'application %1$s à accéder à l'accessoire USB ?"</string>
+    <string name="usb_device_confirm_prompt">Ouvrir %1$s lorsque le périphérique USB est connecté ?</string>
+    <string name="usb_accessory_confirm_prompt">"Ouvrir %1$s lorsque l'accessoire USB est connecté ?"</string>
+    <string name="usb_accessory_uri_prompt">"Aucune application installée ne fonctionne avec cet accessoire USB. En savoir plus sur cet accessoire à l'adresse %s."</string>
+    <string name="title_usb_accessory">Accessoire USB</string>
+    <string name="label_view">Afficher</string>
+    <string name="always_use_device">Utiliser par défaut pour ce périphérique USB</string>
+    <string name="always_use_accessory">Utiliser par défaut pour cet accessoire USB</string>
+    <string name="usb_debugging_title">Autoriser le débogage USB ?</string>
+    <string name="usb_debugging_message">"L'empreinte de la clé RSA du PC est la suivante :
+%1$s"</string>
+    <string name="usb_debugging_always">Toujours autoriser ce PC</string>
+    <string name="compat_mode_on">Zoomer pour remplir écran</string>
+    <string name="compat_mode_off">Etirer pour remplir écran</string>
+    <string name="screenshot_saving_ticker">"Enregistrement capture d'écran…"</string>
+    <string name="screenshot_saving_title">"Enregistrement capture d'écran…"</string>
+    <string name="screenshot_saving_text">"Capture d'écran en cours d'enregistrement."</string>
+    <string name="screenshot_saved_title">Écran capturé</string>
+    <string name="screenshot_saved_text">"Appuyer pour afficher la capture d'écran."</string>
+    <string name="screenshot_failed_title">"Impossible de réaliser une capture d'écran."</string>
+    <string name="screenshot_failed_text">"Capture d'écran imposs., car espace stockage limité, ou appli ou entreprise ne vous y autorise pas."</string>
+    <string name="usb_preference_title">Options transfert fichiers USB</string>
+    <string name="use_mtp_button_title">Monter en tant que lecteur multimédia (MTP)</string>
+    <string name="use_ptp_button_title">"Monter en tant qu'appareil photo (PTP)"</string>
+    <string name="installer_cd_button_title">"Installer l'application de transfert de fichiers Android pour Mac"</string>
+    <string name="accessibility_back">Retour</string>
+    <string name="accessibility_home">Domicile</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Écrans récents</string>
+    <string name="accessibility_search_light">Rechercher</string>
+    <string name="accessibility_camera_button">Appareil photo</string>
+    <string name="accessibility_phone_button">Téléphoner</string>
+    <string name="accessibility_unlock_button">Déverrouiller</string>
+    <string name="unlock_label">déverrouiller</string>
+    <string name="phone_label">ouvrir le téléphone</string>
+    <string name="camera_label">"ouvrir l'appareil photo"</string>
+    <string name="accessibility_ime_switch_button">Touche de basculement du mode de saisie.</string>
+    <string name="accessibility_compatibility_zoom_button">Touche de zoom de compatibilité</string>
+    <string name="accessibility_compatibility_zoom_example">" Zoomer pour agrandir l'écran"</string>
+    <string name="accessibility_bluetooth_connected">Connecté au Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth déconnecté</string>
+    <string name="accessibility_no_battery">Pas de batterie</string>
+    <string name="accessibility_battery_one_bar">Une barre de niveau de batterie</string>
+    <string name="accessibility_battery_two_bars">Deux barres de niveau de batterie</string>
+    <string name="accessibility_battery_three_bars">Trois barres de niveau de batterie</string>
+    <string name="accessibility_battery_full">Batterie rechargée</string>
+    <string name="accessibility_no_phone">Pas de signal téléphonique</string>
+    <string name="accessibility_phone_one_bar">Une barre de signal téléphonique</string>
+    <string name="accessibility_phone_two_bars">Deux barres de signal téléphonique</string>
+    <string name="accessibility_phone_three_bars">Trois barres de signal téléphonique</string>
+    <string name="accessibility_phone_signal_full">Signal téléphonique fort</string>
+    <string name="accessibility_no_data">Aucun résultat</string>
+    <string name="accessibility_data_one_bar">Une barre de signal de données</string>
+    <string name="accessibility_data_two_bars">Deux barres de signal de données</string>
+    <string name="accessibility_data_three_bars">Trois barres de signal de données</string>
+    <string name="accessibility_data_signal_full">Signal de données complet</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Pas de signal Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Une barre de signal Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Deux barres de signal Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Trois barres de signal Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Le signal Wi-Fi est fort.</string>
+    <string name="accessibility_wifi_name">Connecté à : %s</string>
+    <string name="accessibility_bluetooth_name">Connecté à : %s</string>
+    <string name="accessibility_no_wimax">Aucun signal WiMAX</string>
+    <string name="accessibility_wimax_one_bar">Signal WiMAX : faible</string>
+    <string name="accessibility_wimax_two_bars">Signal WiMAX : moyen</string>
+    <string name="accessibility_wimax_three_bars">Signal WiMAX : bon</string>
+    <string name="accessibility_wimax_signal_full">Signal WiMAX : excellent</string>
+    <string name="accessibility_no_signal">Aucun signal</string>
+    <string name="accessibility_not_connected">Non connecté</string>
+    <string name="accessibility_zero_bars">Aucun signal</string>
+    <string name="accessibility_one_bar">Signal faible</string>
+    <string name="accessibility_two_bars">Moyen</string>
+    <string name="accessibility_three_bars">Bon</string>
+    <string name="accessibility_signal_full">Signal excellent</string>
+    <string name="accessibility_desc_on">Activé</string>
+    <string name="accessibility_desc_off">Désactivé</string>
+    <string name="accessibility_desc_connected">Connecté</string>
+    <string name="accessibility_desc_connecting">Connexion en cours…</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3G+</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Itinérance</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Pas de carte SIM</string>
+    <string name="accessibility_bluetooth_tether">Modem Bluetooth</string>
+    <string name="accessibility_airplane_mode">Mode Hors-ligne</string>
+    <string name="accessibility_settings_button">Paramètres système</string>
+    <string name="accessibility_notifications_button">Notifications</string>
+    <string name="accessibility_remove_notification">Suppr. notifications</string>
+    <string name="accessibility_gps_enabled">GPS activé</string>
+    <string name="accessibility_gps_acquiring">Acquisition du GPS en cours…</string>
+    <string name="accessibility_tty_enabled">Téléscripteur activé</string>
+    <string name="accessibility_ringer_vibrate">Mode vibreur</string>
+    <string name="accessibility_ringer_silent">Désactiver la sonnerie</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Fermer</string>
+    <string name="accessibility_recents_item_dismissed">Application \"%s\" ignorée.</string>
+    <string name="accessibility_recents_item_launched">Lancement de %s</string>
+    <string name="accessibility_notification_dismissed">Notification masquée</string>
+    <string name="accessibility_desc_notification_shade">Volet des notifications</string>
+    <string name="accessibility_desc_quick_settings">Paramètres rapides</string>
+    <string name="accessibility_desc_lock_screen">Écran de verrouillage</string>
+    <string name="accessibility_desc_settings">Paramètres</string>
+    <string name="accessibility_desc_recent_apps">Écrans récents</string>
+    <string name="accessibility_quick_settings_user">Utilisateur %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi désactivé.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi activé.</string>
+    <string name="accessibility_quick_settings_mobile">Signal mobile : %1$s, %2$s, %3$s</string>
+    <string name="accessibility_quick_settings_battery">Batterie : %s</string>
+    <string name="accessibility_quick_settings_airplane_off">Mode Avion désactivé</string>
+    <string name="accessibility_quick_settings_airplane_on">Mode Avion activé</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Le mode Avion est désactivé.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Le mode Avion est activé.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth désactivé.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth activé.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Connexion Bluetooth en cours…</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth connecté.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth désactivé.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth activé.</string>
+    <string name="accessibility_quick_settings_location_off">Mise à jour de la position désactivée.</string>
+    <string name="accessibility_quick_settings_location_on">Mise à jour de la position activée.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Mise à jour de la position désactivée.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Mise à jour de la position activée.</string>
+    <string name="accessibility_quick_settings_alarm">Alarme prévue à %s</string>
+    <string name="accessibility_quick_settings_close">Fermer le panneau</string>
+    <string name="accessibility_quick_settings_more_time">Plus longtemps</string>
+    <string name="accessibility_quick_settings_less_time">Moins longtemps</string>
+    <string name="accessibility_quick_settings_flashlight_off">Lampe de poche désactivée.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Lampe de poche activée.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Lampe de poche désactivée.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Lampe de poche activée.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Inversion des couleurs désactivée.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Inversion des couleurs activée.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">"Point d'accès mobile désactivé."</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">"Point d'accès mobile activé."</string>
+    <string name="accessibility_casting_turned_off">"Diffusion d'écran interrompue."</string>
+    <string name="accessibility_brightness">"Luminosité de l'affichage"</string>
+    <string name="data_usage_disabled_dialog_3g_title">Données 2G-3G désactivées</string>
+    <string name="data_usage_disabled_dialog_4g_title">Données 4G désactivées</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Données mobiles désactivées</string>
+    <string name="data_usage_disabled_dialog_title">Données désactivées</string>
+    <string name="data_usage_disabled_dialog">"Votre appareil a désactivé les données, car il a atteint la limite que vous avez définie.
+
+Si vous les réactivez, votre opérateur risque de vous facturer des frais supplémentaires."</string>
+    <string name="data_usage_disabled_dialog_enable">Réact. connex. des données</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Pas de connexion Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connecté</string>
+    <string name="gps_notification_searching_text">"Recherche à l'aide du GPS en cours…"</string>
+    <string name="gps_notification_found_text">Position définie par GPS</string>
+    <string name="accessibility_location_active">Demandes de localisation actives</string>
+    <string name="accessibility_clear_all">Supprimer toutes les notifications</string>
+    <string name="status_bar_notification_inspect_item_title">Paramètres de notification</string>
+    <string name="accessibility_rotation_lock_off">"L'écran pivotera automatiquement."</string>
+    <string name="accessibility_rotation_lock_on_landscape">"L'écran est verrouillé en mode paysage."</string>
+    <string name="accessibility_rotation_lock_on_portrait">"L'écran est verrouillé en mode portrait."</string>
+    <string name="accessibility_rotation_lock_off_changed">"L'écran pivote désormais automatiquement."</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">"L'écran est désormais verrouillé en format paysage."</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">"L'écran est maintenant verrouillé en format portrait."</string>
+    <string name="dessert_case">Vitrine des desserts</string>
+    <string name="start_dreams">Écran de veille</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">"Point d'accès mobile non pris en charge."</string>
+    <string name="it_policy_not_allow_wifi">"La politique de sécurité limite l'utilisation du Wi-Fi."</string>
+    <string name="it_policy_not_allow_wifiap">"La politique de sécurité limite l'utilisation du partage Internet."</string>
+    <string name="egn_during_usb_tethering">"Le réseau Easy Group n'a pas été activé. Le modem USB est toujours actif."</string>
+    <string name="wifi_in_airplane_mode">En mode Hors-ligne</string>
+    <string name="edm_policy_not_allow_open_wifiap">"La politique de sécurité empêche l'utilisation de modems non sécurisés comme points d'accès."</string>
+    <string name="wifi_authentication_succeed">Authentifié</string>
+    <string name="wifi_authentication_failed">"Échec d'authentification."</string>
+    <string name="wifi_authentication_invalid_value">"Échec de l'authentification. Vérifiez l'identifiant et le mot de passe."</string>
+    <string name="wifi_setup_title_connected_network">Connecté au réseau Wi-Fi %s</string>
+    <string name="quick_settings_airplane_mode_label">Mode Hors-ligne</string>
+    <string name="quick_settings_battery_charging_label">En charge (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">Chargé</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d appareils)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth désactivé</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Aucun appareil associé disponible.</string>
+    <string name="quick_settings_brightness_label">Luminosité</string>
+    <string name="quick_settings_rotation_unlocked_label">Rotation automatique</string>
+    <string name="quick_settings_rotation_locked_label">Rotation verrouillée</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Portrait</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Paysage</string>
+    <string name="quick_settings_ime_label">Mode de saisie</string>
+    <string name="quick_settings_location_label">Localisation</string>
+    <string name="quick_settings_location_off_label">Localisation désactivée</string>
+    <string name="quick_settings_media_device_label">Appareil multimédia</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">"Appels d'urgence uniquement"</string>
+    <string name="quick_settings_settings_label">Paramètres</string>
+    <string name="quick_settings_time_label">Heure</string>
+    <string name="quick_settings_user_label">Moi</string>
+    <string name="quick_settings_user_title">Utilisateur</string>
+    <string name="quick_settings_user_new_user">Nouvel utilisateur</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Non connecté</string>
+    <string name="quick_settings_wifi_no_network">Aucun réseau</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_detail_empty_text">Aucun réseau enregistré disponible.</string>
+    <string name="quick_settings_cast_title">"Caster l'écran"</string>
+    <string name="quick_settings_casting">Diffusion</string>
+    <string name="quick_settings_cast_device_default_name">Appareil sans nom</string>
+    <string name="quick_settings_cast_device_default_description">Prêt à caster</string>
+    <string name="quick_settings_cast_detail_empty_text">Aucun appareil disponible.</string>
+    <string name="quick_settings_brightness_dialog_title">Luminosité</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto.</string>
+    <string name="quick_settings_inversion_label">Inverser les couleurs</string>
+    <string name="quick_settings_color_space_label">Mode de correction des couleurs</string>
+    <string name="quick_settings_more_settings">Plus de paramètres</string>
+    <string name="quick_settings_done">OK</string>
+    <string name="quick_settings_connected">Connecté</string>
+    <string name="quick_settings_connecting">Connexion en cours…</string>
+    <string name="quick_settings_tethering_label">Partage de connexion</string>
+    <string name="quick_settings_hotspot_label">"Point d'accès"</string>
+    <string name="quick_settings_notifications_label">Notifications</string>
+    <string name="quick_settings_flashlight_label">Lampe de poche</string>
+    <string name="quick_settings_cellular_detail_title">Données mobiles</string>
+    <string name="quick_settings_cellular_detail_data_usage">Consommation des données</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Données restantes</string>
+    <string name="quick_settings_cellular_detail_over_limit">Limite atteinte : utilisation des données suspendue</string>
+    <string name="quick_settings_cellular_detail_data_used">%s utilisés</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s au maximum</string>
+    <string name="quick_settings_cellular_detail_data_warning">Avertissement : %s</string>
+    <string name="quick_settings_torch_label">Lampe</string>
+    <string name="recents_empty_message">Aucune application récente</string>
+    <string name="recents_app_info_button_label">"Informations sur l'application"</string>
+    <string name="recents_lock_to_app_button_label">"verrouiller sur l'application"</string>
+    <string name="recents_search_bar_label">rechercher</string>
+    <string name="expanded_header_battery_charged">Chargé</string>
+    <string name="expanded_header_battery_charging">En charge</string>
+    <string name="expanded_header_battery_charging_with_time">Chargé dans %s</string>
+    <string name="expanded_header_battery_not_charging">"N'est pas en charge"</string>
+    <string name="ssl_ca_cert_warning">"Le réseau peut
+être surveillé."</string>
+    <string name="zen_no_interruptions_with_warning">Aucune interruption, pas même pour les alarmes</string>
+    <string name="zen_no_interruptions">Aucune interruption</string>
+    <string name="zen_important_interruptions">Interruptions prioritaires uniquement</string>
+    <string name="zen_alarm_information_time">Prochaine alarme : %s</string>
+    <string name="zen_alarm_information_day_time">Prochaine alarme : %s</string>
+    <string name="zen_alarm_warning">"Vous n'entendrez pas votre alarme à %s."</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">"A moins que vous n'utilisiez le Wi-Fi, vous ne pourrez plus utiliser Internet, la messagerie électronique ou d'autres applications nécessitant une connexion de données."</string>
+    <string name="notification_tap_again">Appuyer à nouveau pour ouvrir</string>
+    <string name="keyguard_unlock">Faire glisser pour déverrouiller</string>
+    <string name="phone_hint">"Balayer l'écran vers la droite pour accéder au téléphone"</string>
+    <string name="camera_hint">"Balayer l'écran vers la gauche pour accéder à l'appareil photo"</string>
+    <string name="interruption_level_none">Aucune</string>
+    <string name="interruption_level_priority">Priorité</string>
+    <string name="interruption_level_all">Toutes</string>
+    <string name="keyguard_indication_charging_time">Charge en cours… (chargé à 100 %% dans %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">"Changer d'utilisateur"</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Afficher le profil</string>
+    <string name="user_add_user">Ajouter un utilisateur</string>
+    <string name="user_new_user_name">Nouvel utilisateur</string>
+    <string name="guest_nickname">Invité</string>
+    <string name="guest_new_guest">Ajouter un invité</string>
+    <string name="guest_exit_guest">"Supprimer l'invité"</string>
+    <string name="guest_exit_guest_dialog_title">"Supprimer l'invité ?"</string>
+    <string name="guest_exit_guest_dialog_message">Toutes les applications et les données de cette session seront supprimées.</string>
+    <string name="guest_exit_guest_dialog_remove">Supprimer</string>
+    <string name="guest_wipe_session_title">Bienvenue à nouveau dans la session Invité</string>
+    <string name="guest_wipe_session_message">Voulez-vous poursuivre la session ?</string>
+    <string name="guest_wipe_session_wipe">Démarrer</string>
+    <string name="guest_wipe_session_dontwipe">Oui, continuer</string>
+    <string name="battery_saver_notification_title">"L'économiseur de batterie est activé"</string>
+    <string name="battery_saver_notification_text">Limite les performances et les données en arrière-plan.</string>
+    <string name="battery_saver_notification_action_text">"Désactiver l'économiseur de batterie"</string>
+    <string name="battery_level_template">%d %%</string>
+    <string name="notification_hidden_text">Contenu masqué</string>
+    <string name="sanitized_content_text">Appuyez ici pour accéder à %s.</string>
+    <string name="media_projection_dialog_text">"%s va commencer à capturer tous les contenus affichés à l'écran."</string>
+    <string name="media_projection_remember_text">Ne plus afficher</string>
+    <string name="clear_all_notifications_text">Tout effacer</string>
+    <string name="media_projection_action_text">Commencer</string>
+    <string name="empty_shade_text">Aucune notification</string>
+    <string name="device_owned_footer">Il est possible que cet appareil soit surveillé.</string>
+    <string name="profile_owned_footer">Le profil peut être contrôlé.</string>
+    <string name="vpn_footer">Il est possible que le réseau soit surveillé.</string>
+    <string name="monitoring_title_device_owned">Contrôle des appareils</string>
+    <string name="monitoring_title_profile_owned">Contrôle du profil</string>
+    <string name="monitoring_title">Contrôle du réseau</string>
+    <string name="disable_vpn">Désactiver le VPN</string>
+    <string name="disconnect_vpn">Déconnecter le VPN</string>
+    <string name="monitoring_description_device_owned">"Cet appareil est géré par :
+%1$s
+
+Votre administrateur peut surveiller votre activité réseau, y compris les e-mails, les applications et les sites Web sécurisés.
+
+Pour en savoir plus, contactez votre administrateur."</string>
+    <string name="monitoring_description_vpn">"Vous avez autorisé l'application \"%1$s\" à configurer une connexion VPN.
+
+Cette application peut surveiller votre activité réseau, y compris les e-mails, les applications et les sites Web sécurisés."</string>
+    <string name="monitoring_description_legacy_vpn">"Vous êtes connecté à un VPN (\"%1$s\").
+
+Votre fournisseur de services VPN peut surveiller votre activité réseau, y compris les e-mails, les applications et les sites Web sécurisés."</string>
+    <string name="monitoring_description_vpn_device_owned">"Cet appareil est géré par :
+%1$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applis et sites Web sécurisés). Pour en savoir plus, contactez votre administrateur.
+
+Vous avez autorisé l'appli \"%2$s\" à configurer une connexion VPN. Cette appli peut également contrôler votre activité réseau."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Cet appareil est géré par :
+%1$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applications et sites sécurisés). Pour en savoir plus, contactez votre administrateur.
+
+Vous êtes aussi connecté à un VPN (\"%2$s\"). Votre fournisseur de services VPN peut également contrôler l'activité réseau."</string>
+    <string name="monitoring_description_profile_owned">"Ce profil est géré par :
+%1$s
+
+Votre administrateur peut contrôler l'activité de votre appareil et votre activité réseau (e-mails, applications et sites sécurisés).
+
+Pour en savoir plus, contactez votre administrateur."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Cet appareil est géré par :
+%1$s
+Votre profil est géré par :
+%2$s
+
+Votre administrateur peut contrôler l'activité de votre appareil et votre activité réseau (e-mails, applications et sites sécurisés).
+
+Pour en savoir plus, contactez votre administrateur."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Profil géré par :
+%1$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applications et sites sécurisés). Pour en savoir plus, contactez votre administrateur.
+
+Vous avez donné à l'appli \"%2$s\" l'autorisation de configurer une connexion VPN. Cette appli peut contrôler votre activité réseau."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Cet appareil est géré par :
+%1$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applications et sites sécurisés). Pour en savoir plus, contactez votre administrateur.
+
+Vous êtes aussi connecté à un VPN (\"%2$s\"). Votre fournisseur de services VPN peut également contrôler l'activité réseau."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Appareil géré par :
+%1$s
+Profil géré par :
+%2$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applications et sites sécurisés). Pour en savoir plus, contactez votre admin.
+
+Vous avez donné à l'appli \"%3$s\" l'autorisation de configurer une connexion VPN. Cette appli peut contrôler votre activité réseau."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Appareil géré par :
+%1$s
+Profil géré par :
+%2$s
+
+Votre administrateur peut contrôler votre activité réseau (e-mails, applications et sites sécurisés). Pour en savoir plus, contactez votre administrateur.
+
+Vous êtes aussi connecté à un VPN (\"%3$s\"). Votre fournisseur de services VPN peut également contrôler l'activité réseau."</string>
+    <string name="keyguard_indication_trust_disabled">"L'appareil restera verrouillé jusqu'à ce que vous le déverrouilliez manuellement."</string>
+    <string name="hidden_notifications_title">Recevoir les notifications plus vite</string>
+    <string name="hidden_notifications_text">"Afficher les notifications avant de déverrouiller l'appareil"</string>
+    <string name="hidden_notifications_cancel">Non merci</string>
+    <string name="hidden_notifications_setup">Config.</string>
+    <string name="muted_by">Son coupé par : %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="quickpanel_airplane_mode_text">"Mode
+Hors-ligne"</string>
+    <string name="quickpanel_airplane_mode_content_description">Mode Hors-ligne</string>
+    <string name="quickpanel_content_description_led_on">%s est activé.</string>
+    <string name="quickpanel_content_description_led_off">%s est désactivé.</string>
+    <string name="quickpanel_content_description_led_dim">%s ne peut pas être activé.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Connex. rapide</string>
+    <string name="accessibility_qconnect_button_tts">Connexion rapide</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Position</string>
+    <string name="quickpanel_silent_mode_content_description">Profil Discret</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Son</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibreur</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Muet</string>
+    <string name="quickpanel_rotation_content_description">"Rotation de l'écran"</string>
+    <string name="quickpanel_mobile_data_content_description">Données mobiles</string>
+    <string name="quickpanel_power_saving_content_description">"Mode économie d'énergie"</string>
+    <string name="quickpanel_ultra_power_saving_content_description">"Mode Ultra économie d'énergie"</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Fenêtres multiples</string>
+    <string name="quickpanel_car_mode_content_description">Mode Voiture</string>
+    <string name="quickpanel_dormant_mode_content_description">Ne pas déranger</string>
+    <string name="quickpanel_wifi_hotspot_content_description">"Point d'accès mobile"</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Sensibilité tactile</string>
+    <string name="quickpanel_smart_stay_content_description">Smart Stay</string>
+    <string name="quickpanel_smart_scroll_content_description">Smart Scroll</string>
+    <string name="quickpanel_sync_content_description">Sync</string>
+    <string name="quickpanel_vowifi_content_description">Appels Wi-Fi</string>
+    <string name="quickpanel_toolbox_content_description">Boîte à outils</string>
+    <string name="quickpanel_adaptive_display_content_description">Affichage adaptatif</string>
+    <string name="quickpanel_airgesture_content_description">Air Gesture</string>
+    <string name="quickpanel_airview_content_description">Air View</string>
+    <string name="quickpanel_network_booster_content_description">Download Booster</string>
+    <string name="quickpanel_personal_mode_content_description">Mode Privé</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Panneau touches latéral</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Position</string>
+    <string name="quickpanel_silent_mode_text">"Mode
+Discret"</string>
+    <string name="quickpanel_silent_mode_sound">Son</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibreur</string>
+    <string name="quickpanel_silent_mode_mute">Muet</string>
+    <string name="quickpanel_rotation_text">"Rotation
+écran"</string>
+    <string name="quickpanel_mobile_data_text">"Données
+mobiles"</string>
+    <string name="quickpanel_power_saving_text">"Éco.
+énergie"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Ultra éco
+énergie"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Multi
+fenêtres"</string>
+    <string name="quickpanel_car_mode_text">"Mode
+voit."</string>
+    <string name="quickpanel_driving_mode_text">"Mode
+mains-lib."</string>
+    <string name="quickpanel_dormant_mode_text">"Ne pas
+déranger"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Pt accès
+mobile"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Sensib.
+tactile"</string>
+    <string name="quickpanel_smart_stay_text">"Smart
+Stay"</string>
+    <string name="quickpanel_smart_scroll_text">"Smart
+Scroll"</string>
+    <string name="quickpanel_sync_text">Synchro.</string>
+    <string name="quickpanel_vowifi_text">"Appels
+Wi-Fi"</string>
+    <string name="quickpanel_toolbox_text">Boîte à outils</string>
+    <string name="quickpanel_smart_pause_text">"Smart
+Pause"</string>
+    <string name="quickpanel_adaptive_mode_text">"Adapt
+Display"</string>
+    <string name="quickpanel_airgesture_text">"Air
+Gesture"</string>
+    <string name="quickpanel_airview_text">"Air
+View"</string>
+    <string name="quickpanel_network_booster_text">"Download
+booster"</string>
+    <string name="quickpanel_personal_mode_text">"Mode
+Privé"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Connex.
+rapide"</string>
+    <string name="quickpanel_side_key_text">"Pan. tches
+latéral"</string>
+    <string name="accessibility_power_saving_mode">"Pour activer le mode Économie d'énergie, activez au moins une fonction."</string>
+    <string name="accessibility_power_saving_mode_title">"Mode Éco. d'énergie"</string>
+    <string name="insert_sim_card">Insérez la carte SIM</string>
+    <string name="insert_sim_card_message">Insérez une carte SIM pour accéder aux services réseau.</string>
+    <string name="insert_uim_or_sim_card">Insérez une carte UIM/SIM</string>
+    <string name="status_bar_recent_launch_task_manager_title">Gest. tâches</string>
+    <string name="status_bar_recent_remove_all_button">Tout fermer</string>
+    <string name="blocking_mode_enable">"Lorsque ce mode est activé, les notifications des fonctions sélectionnées sont désactivées. Vous recevrez uniquement les notifications d'appels entrants provenant de numéros figurant dans votre liste de contacts autorisés."</string>
+    <string name="blocking_mode_enable_for_grid_settings">"Le mode Blocage désactive les notifications des fonctions sélectionnées. Lorsque les appels entrants sont bloqués, vous recevez uniquement les notifications d'appels entrants provenant de numéros figurant dans votre liste de contacts autorisés. Pour modifier les paramètres du mode Blocage, accédez à Paramètres > Personnalisation > Mode Blocage."</string>
+    <string name="blocking_mode_enable_wifi">Lorsque ce mode est activé, les notifications des fonctions sélectionnées sont désactivées.</string>
+    <string name="blocking_mode_title">Mode Blocage</string>
+    <string name="magnification_text_for_air_view_button">"Gestes d'agrandissement"</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">"Impossible d'utiliser le Download Booster lorsque %1$s est activé. Désactivez %2$s, puis réessayez."</string>
+    <string name="quickpanel_air_view_warning">Pour activer Air View, activez au moins une fonction.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Pour activer Air View, activez au moins une fonction du mode Air View sélectionné.</string>
+    <string name="quickpanel_air_gesture_warning">Pour activer Air Gesture, activez au moins un paramètre approprié.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Maintenez votre doigt appuyé sur un bouton de configuration rapide pour accéder à ses paramètres.</string>
+    <string name="data_usage_disable_mobile_vzw_1">"A moins que vous n'utilisiez le Wi-Fi, vous ne pourrez plus utiliser Internet, la messagerie électronique ou d'autres applications nécessitant une connexion de données."</string>
+    <string name="data_usage_disable_mobile_vzw_2">Désactiver la connexion des données mobiles ?</string>
+    <string name="data_usage_disable_mobile_vzw">"A moins que vous n'utilisiez le Wi-Fi, vous ne pourrez plus utiliser internet, la messagerie électronique ou d'autres applications nécessitant une connexion de données.
+
+Les données mobiles vont être désactivées."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">"Les appels visio seront impossibles si les données mobiles sont désactivées. De plus, vous ne pourrez pas utiliser Internet, la messagerie électronique ou d'autres applications nécessitant une connexion de données (sauf si vous vous connectez à un réseau Wi-Fi). Désactiver la connexion des données mobiles ?"</string>
+    <string name="mobile_data_disable_during_volte">Impossible de désactiver les données mobiles pendant un appel VoLTE.</string>
+    <string name="mobile_data_connect">Connexion</string>
+    <string name="mobile_data_connection_dialog_text">La connexion des données mobiles est actuellement désactivée. Vous devez vous connecter aux données mobiles pour utiliser des applications telles que le navigateur, la messagerie et YouTube via le réseau mobile. Voulez-vous établir la connexion ?</string>
+    <string name="mobile_data_enable_toast_text">Impossible de se connecter aux réseaux mobiles lorsque le mode Hors-ligne est activé. Désactivez le mode Hors-ligne et réessayez.</string>
+    <string name="warning_alert_check">Ne plus afficher</string>
+    <string name="data_usage_enable_mobile_warning">Les connexions de données peuvent entraîner des frais supplémentaires. Continuer ?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">"Impossible d'utiliser VoLTE en mode Hors-ligne. Désactivez le mode Hors-ligne et réessayez."</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">"La version actuelle de votre logiciel ne prend pas en charge VoLTE. Contactez le service client pour obtenir plus d'informations."</string>
+    <string name="smart_pause_toast_text">"Pour utiliser Smart Pause, activez d'abord Désactiver le son/Mettre en pause."</string>
+    <string name="smart_bonding_popup_msg_roaming">"Impossible d'utiliser le Download Booster pendant l'itinérance. Nous vous recommandons de télécharger via un réseau Wi-Fi."</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Activer le Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Activer Données mobiles</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Act. données mobiles et Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_wifi">Le Wi-Fi est actuellement désactivé. Pour activer le Download Booster, le Wi-Fi et les données mobiles doivent tous les deux être activés. Le téléchargement via les réseaux mobiles peut entraîner des frais supplémentaires en fonction de votre forfait.</string>
+    <string name="smart_bonding_popup_msg_data">Les données mobiles sont actuellement désactivées. Pour activer le Download Booster, le Wi-Fi et les données mobiles doivent tous les deux être activés. Le téléchargement via les réseaux mobiles peut entraîner des frais supplémentaires en fonction de votre forfait.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Le Wi-Fi et les données mobiles sont actuellement désactivés. Pour activer le Download Booster, le Wi-Fi et les données mobiles doivent tous les deux être activés. Le téléchargement via les réseaux mobiles peut entraîner des frais supplémentaires en fonction de votre forfait.</string>
+    <string name="smart_bonding_popup_msg">Le Download Booster va être activé. Le téléchargement via les réseaux mobiles peut entraîner des frais supplémentaires en fonction de votre forfait.</string>
+    <string name="smartbonding_dialog_title">Download Booster</string>
+    <string name="insert_a_sim_card_and_try_again">Insérez une carte SIM et réessayez.</string>
+    <string name="unable_to_enable_Download_booster">"Impossible d'activer Download Booster"</string>
+    <string name="download_booster_dialog_title">Activer le Download Booster</string>
+    <string name="enable">Activer</string>
+    <string name="sd_card">Carte SD</string>
+    <string name="sdcard_insert">Carte SD insérée</string>
+    <string name="sdcard_unmount">Démonter la carte SD</string>
+    <string name="go_to_myfiles">Ouvrir Mes fichiers</string>
+    <string name="charging_interruption_title">Chargement impossible</string>
+    <string name="charging_interruption_by_terminal_open_text">"Impossible de charger votre appareil. Assurez-vous d'utiliser une batterie et un chargeur compatibles Samsung et vérifiez que votre appareil est correctement raccordé au chargeur."</string>
+    <string name="full_battery_title">Info</string>
+    <string name="full_battery_text">"La batterie est chargée.
+Débranchez le chargeur."</string>
+    <string name="reading_mode_title">Mode lecture</string>
+    <string name="reading_mode_alert">"Le mode lecture a été activé. L'écran est maintenant optimisé pour la lecture. Ce mode est disponible uniquement dans les applications sélectionnées."</string>
+    <string name="reading_mode_settings">Paramètres</string>
+    <string name="quickpanel_ebook_text">"Mode
+lecture"</string>
+    <string name="quickpanel_ebook_content_description">Mode lecture</string>
+    <string name="driving_mode_title">Mode mains-libres</string>
+    <string name="driving_mode_on_dialog_msg_1">"Une fois le mode mains-libres de S Voice fermé, vous devez désactiver le mode mains-libres dans Paramètres. S'il reste activé, les notifications et les informations relatives aux appels entrants seront automatiquement lues à haute voix."</string>
+    <string name="driving_mode_on_dialog_msg_2">Vous pouvez désactiver le mode mains-libres en disant “Désactiver le mode mains-libres” lorsque le mode mains-libres de S Voice est activé, ou en accédant à Paramètres ou au volet des raccourcis.</string>
+    <string name="quickpanel_driving_mode_content_description">Mode mains-libres</string>
+    <string name="critical_low_battery_title">Batterie très faible</string>
+    <string name="critical_low_battery_text">"Branchez votre appareil à un chargeur. Le fait d'utiliser votre appareil pendant son chargement risque d'affecter l'efficacité du chargement."</string>
+    <string name="critical_low_battery_text_charged_via_usb">"Pour charger plus rapidement, branchez votre appareil à une prise et fermez les applications inutilisées dans %s. Une utilisation prolongée pendant le chargement risque d'altérer l'efficacité du chargement."</string>
+    <string name="critical_low_battery_text_charged_via_ta">"Fermez les applications inutilisées dans %s. Une utilisation prolongée pendant le chargement risque d'en altérer l'efficacité."</string>
+    <string name="low_battery_text">"Branchez votre appareil à un chargeur. Le fait d'utiliser votre appareil pendant son chargement risque d'affecter l'efficacité du chargement."</string>
+    <string name="low_battery_text_charged_via_usb">"Pour charger plus rapidement, branchez votre appareil à une prise et fermez les applications inutilisées dans %s. Une utilisation prolongée pendant le chargement risque d'altérer l'efficacité du chargement."</string>
+    <string name="low_battery_text_charged_via_ta">"Fermez les applications inutilisées dans %s. Une utilisation prolongée pendant le chargement risque d'en altérer l'efficacité."</string>
+    <string name="low_battery_power_saving_button_text">"Économie d'énergie"</string>
+    <string name="wireless_charging_title">Chargement sans fil</string>
+    <string name="cable_charging_title">Chargement par câble</string>
+    <string name="wireless_charging_text">Support de charge détecté. Chargement sans fil…</string>
+    <string name="wireless_charging_text_for_us">Chargement sans fil en cours…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Basculement de chargement sans fil à chargement par câble</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Basculement de chargement par câble à chargement sans fil</string>
+    <string name="wireless_charging_spen_warning_text">Votre appareil se charge maintenant sans fil. Votre S Pen peut ne pas fonctionner correctement pendant le chargement.</string>
+    <string name="incompatible_charger_title">Pas de chargement</string>
+    <string name="incompatible_charger_dialog_text">"Le chargeur branché est incompatible avec ce téléphone. Afin d'éviter d'endommager votre téléphone, le chargement a été interrompu. Pour continuer le chargement, utilisez le chargeur d'origine et le câble fourni avec ce téléphone."</string>
+    <string name="incompatible_charger_notification_text">"Chargement impossible. Utilisez le chargeur d'origine."</string>
+    <string name="slow_charging_title">Chargement lent</string>
+    <string name="slow_charging_dialog_text">"Le chargement sera plus long avec le chargeur branché. Pour accélérer le chargement, utilisez le chargeur d'origine et le câble fourni avec ce téléphone."</string>
+    <string name="slow_charging_dialog_text_for_tablet">"Le chargeur actuellement branché rallongera le temps de charge ou ne chargera pas votre appareil. Pour accélérer le processus, utilisez le câble et le chargeur d'origine fournis avec cette tablette."</string>
+    <string name="slow_charging_toast_text_for_tablet">Pour accélérer le chargement, utilisez le chargeur et le câble fournis avec cette tablette.</string>
+    <string name="overheat_shutdown_warning_title">Surchauffe - Mise hors tension</string>
+    <string name="overheat_shutdown_warning_text">Votre téléphone est en surchauffe. Il va maintenant être éteint pour refroidir.</string>
+    <string name="overheat_shutdown_warning_text_tablet">"Votre tablette est en surchauffe. Elle va s'éteindre pour refroidir."</string>
+    <string name="overheat_shutdown_warning_button_text">Ne pas éteindre</string>
+    <string name="overheat_shutdown_notice_title">"Pourquoi mon téléphone s'est-il éteint tout seul ?"</string>
+    <string name="overheat_shutdown_notice_title_tablet">"Pourquoi ma tablette s'est-elle éteinte toute seule ?"</string>
+    <string name="overheat_shutdown_notice_text">"Votre téléphone était en surchauffe. Il s'est éteint pour ne pas être endommagé.
+
+Les causes de surchauffe sont diverses :
+Utilisation prolongée d'applications gourmandes en ressources graphiques (jeux vidéo, applications de navigation, etc.).
+Téléchargement et transfert de fichiers volumineux.
+Utilisation de votre téléphone dans un lieu très chaud."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Votre tablette était en surchauffe. Elle s'est éteinte pour ne pas être endommagée.
+
+Les causes de surchauffe sont diverses :
+Utilisation prolongée d'applications gourmandes en ressources graphiques (jeux vidéo, applications de navigation, etc.).
+Téléchargement et transfert de fichiers volumineux.
+Utilisation de votre tablette dans un lieu très chaud."</string>
+    <string name="overheat_poweroff_warning_title">Éteindre votre appareil</string>
+    <string name="overheat_poweroff_warning_text">"Votre appareil est en surchauffe. Il va à présent s'éteindre pour refroidir."</string>
+    <string name="overheat_poweroff_warning_button_text">Ne pas éteindre</string>
+    <string name="overheat_poweroff_notice_title">Appareil éteint automatiquement</string>
+    <string name="overheat_poweroff_notice_text">"Votre appareil a surchauffé. Il s'est éteint pour ne pas être endommagé.
+
+Les causes de surchauffe sont diverses :
+Utilisation prolongée d'applications gourmandes en ressources graphiques (jeux vidéo, applications de navigation).
+Transfert de fichiers volumineux.
+Utilisation de votre appareil dans un lieu chaud."</string>
+    <string name="power_sharing_warning_title">"Partage de l'alimentation"</string>
+    <string name="power_sharing_warning_text">"Votre niveau de batterie est inférieur à la limite de partage de l'alimentation. Pour continuer à partager votre alimentation, réglez la limite du partage sous le niveau de batterie actuel."</string>
+    <string name="power_sharing_start_toast_text">"Démarrage du partage de l'alimentation…"</string>
+    <string name="power_sharing_end_notification_text">"Le partage de l'alimentation est terminé. Déconnectez le câble."</string>
+    <string name="power_sharing_unable_notification_text">Partage impossible</string>
+    <string name="highvoltage_charger_notice_title">Utiliser le chargement rapide</string>
+    <string name="highvoltage_charger_notice_text">"Votre batterie se chargera ainsi plus rapidement, en particulier si l'écran ou l'appareil est éteint."</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">"Éteindre l'écran"</string>
+    <string name="highvoltage_charger_notification_text">Chargeur rapide branché.</string>
+    <string name="face_detection_failure_text">Smart Stay ne détecte pas les yeux.</string>
+    <string name="screenshot_failed_due_to_drm_text">"Impossible d'effectuer une capture de l'écran. Image protégée par DRM."</string>
+    <string name="no_such_item">Elément introuvable</string>
+    <string name="one_item_will_be_deleted">1 élément va être supprimé.</string>
+    <string name="location_title">Autorisation GPS autonome</string>
+    <string name="location_masterswitch_dialogtext">"Votre téléphone peut partager sa position approximative avec les services et les applications comme les services de cartes, d'achat et de météo.
+
+Les applications et services qui utilisent vos données de position doivent vous en informer. Avant de les utiliser, lisez la politique de confidentialité des fournisseurs d'application ou service qui vous intéresse afin de comprendre la manière dont ils collectent, utilisent et partagent vos données de position.
+
+La détermination de votre position requiert une connexion à un réseau mobile. L'utilisation des données sera facturée."</string>
+    <string name="location_3rdparty_gps_dialogtext">"En sélectionnant ce paramètre, vous autorisez l'accès à toutes les informations de localisation par un tiers via le Web ou par tous les composants logiciels ou périphériques que vous choisissez d'installer, de télécharger, d'ajouter ou de joindre au périphérique ou tout autre support. L'activation de cette fonctionnalité pourrait entraîner certains risques pour les utilisateurs de ce périphérique. L'utilisation des données sera facturée."</string>
+    <string name="agree">Accepter</string>
+    <string name="disagree">Refuser</string>
+    <string name="location_masterswitch_dialogtitle">Accepter la localisation</string>
+    <string name="gps_donotshow">Ne plus afficher</string>
+    <string name="tethering_attention_title">Attention</string>
+    <string name="tethering_wifi_off_warning">"L'activation du point d'accès mobile va désactiver le Wi-Fi."</string>
+    <string name="wifihotspot_detail">Détails</string>
+    <string name="tether_settings_title_wifi">"Point d'accès"</string>
+    <string name="guest_launge_warning_toast_text">"Impossible d'activer ou de désactiver %s lorsque le mode Invité est activé."</string>
+    <string name="personal_page_popup_msg_while_moving_item">"Impossible d'activer le mode Privé pendant le déplacement d'éléments vers Privé."</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">"Impossible de désactiver le mode Privé pendant le déplacement d'éléments vers Privé."</string>
+    <string name="no_sim_notification_title">Pas de carte SIM</string>
+    <string name="no_sim_notification_title_tmo">Aucune carte SIM insérée.</string>
+    <string name="no_sim_notification_title_vzw">Carte SIM introuvable</string>
+    <string name="no_sim_notification_text">Insérer carte SIM</string>
+    <string name="no_sim_notification_text_vzw">"Appuyez pour plus d'informations."</string>
+    <string name="roaming_title">Itinérance</string>
+    <string name="voice_and_data_roaming">Voix et données en itinérance</string>
+    <string name="data_only_roaming">Données en itinérance seulement</string>
+    <string name="voice_only_roaming">Voix en itinérance seulement</string>
+    <string name="quickpanel_edit_current">Volet des raccourcis</string>
+    <string name="guideline_empty_text">"Faites glisser une icône de la barre d'état pour ouvrir cette application."</string>
+    <string name="drag_and_drop_content">Déplacer contenu</string>
+    <string name="switch_window">Inverser fenêtres</string>
+    <string name="close_application">"Fermer l'application"</string>
+    <string name="collapse_window">Réduire la fenêtre</string>
+    <string name="change_to_poup_view">Ouvrir dans une fenêtre pop-up</string>
+    <string name="select_contents">"Faites glisser un paragraphe ou une capture d'écran d'image et déposez cet élément dans une autre fenêtre."</string>
+    <string name="do_not_show_again">Ne plus afficher</string>
+    <string name="help">Aide</string>
+    <string name="recent_multi_window">Ouvr. en vue Multi-fenêtres</string>
+    <string name="recent_pen_window">Ouvrir dans une fenêtre pop-up</string>
+    <string name="recent_delete">"Fermer l'application"</string>
+    <string name="disable_multi_window_popup_description">"L'affichage Multi-fenêtres sera désactivé et les applications ouvertes dans des fenêtres contextuelles seront fermées."</string>
+    <string name="disable_multi_window_popup_easymode_description">"Impossible d'utiliser la fonction Multi-fenêtres lorsque Mode simplifié est activé. Désactivez Mode simplifié, puis réessayez."</string>
+    <string name="yes">OK</string>
+    <string name="no">Annuler</string>
+    <string name="airplane_mode_message_on_for_vzw_only">"Le mode Hors-ligne désactive les fonctions d'appel, de messagerie et de réseaux mobiles."</string>
+    <string name="tw_safe_media_volume_warning">"Une écoute prolongée à fort volume peut endommager vos oreilles. Appuyez sur OK pour autoriser l'augmentation du volume au-delà du seuil de sécurité."</string>
+    <string name="tw_cover_volume_warning_message">"L'écoute prolongée à un volume élevé risque d'endommager votre ouïe. Pour augmenter le volume, ouvrez le clapet."</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Activer le mode Hors-ligne</string>
+    <string name="global_actions_toggle_airplane_mode">Mode Hors-ligne</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">"Le mode Hors-ligne vous permet de désactiver les fonctions d'appel, de SMS et de réseaux mobiles."</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Le mode Hors-ligne sera désactivé.</string>
+    <string name="multi_window_use_popup_title">Activer la fonction Multi-fenêtres</string>
+    <string name="multi_window_use_popup_msg">Les fonctions Fenêtres multiples et TalkBack ne peuvent pas être activées en même temps. TalkBack va être désactivé.</string>
+    <string name="air_gesture_use_popup_title">Activer Air Gesture</string>
+    <string name="air_gesture_use_popup_msg">Les fonctions Air Gesture et TalkBack ne peuvent pas être activées en même temps. TalkBack va être désactivé.</string>
+    <string name="air_view_use_popup_title">Activer Air View</string>
+    <string name="air_view_use_popup_msg">Air view et les options ci-dessous ne peuvent pas être activées en même temps. Les options vont être désactivées.</string>
+    <string name="car_mode_enable_use_popup_title">Activer le mode Voiture</string>
+    <string name="car_mode_use_popup_msg">Le mode Voiture et TalkBack ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="smart_pause_use_popup_title">Activer Smart Pause</string>
+    <string name="smart_pause_use_popup_msg">TalkBack et Smart Pause ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="smart_scroll_use_popup_title">Activer Smart Scroll</string>
+    <string name="smart_scroll_use_popup_msg">TalkBack et Smart Scroll ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="smart_stay_use_popup_title">Activer Smart Stay</string>
+    <string name="smart_stay_use_popup_msg">TalkBack et Smart Stay ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="toolbox_use_popup_title">Activer Toolbox</string>
+    <string name="toolbox_use_popup_msg">Toolbox et TalkBack ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="sidekey_use_popup_title">Activer le panneau de touches latéral</string>
+    <string name="sidekey_use_popup_msg">Le panneau de touches latéral et TalkBack ne peuvent pas être activés en même temps. TalkBack va être désactivé.</string>
+    <string name="airplane_mode_usb_3_popup_text">La désactivation du mode Hors-ligne interrompra votre connexion USB 3.0, ainsi que les transferts de données en cours.</string>
+    <string name="airplane_mode_usb_3_popup_title">Avis</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">Arr. USB 3.0</string>
+    <string name="recent_help_dialog_title">Touche Applications récentes</string>
+    <string name="recent_menukey_press_description_vzw">"La touche Menu a été remplacée par la touche Applications récentes pour vous permettre d'accéder rapidement aux applications récemment utilisées. Appuyez sur Aide pour obtenir plus d'informations."</string>
+    <string name="recent_menukey_press_description_no_help">La touche Menu a été remplacée par la touche Applications récentes pour pouvoir basculer rapidement entre les applications utilisées le plus récemment.</string>
+    <string name="recent_menukey_press_description_att">La touche Menu a été remplacée par la touche Récent. Lorsque vous êtes dans une application, maintenez enfoncée la touche Récent pour afficher les options de menu.</string>
+    <string name="recent_help_dialog_title_for_split_view">Nouvelles fonctions Multi-fenêtres</string>
+    <string name="recent_menukey_press_description_for_split_view_1">"Pour ouvrir des applications en affichage fractionné, appuyez sur %s dans la barre de titre de la fenêtre de l'application. Cette icône apparaît lorsque l'application prend en charge l'affichage fractionné."</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">"Pour ouvrir des applications en affichage fractionné, appuyez sur l'icône d'affichage fractionné dans la barre de titre de la fenêtre de l'application. Cette icône apparaît lorsque l'application prend en charge l'affichage fractionné."</string>
+    <string name="recent_menukey_press_description_for_split_view_2">"Maintenez votre doigt appuyé sur la fenêtre d'une application pour l'ouvrir dans une fenêtre contextuelle. Pour passer de l'affichage contextuel à un affichage fractionné, faites glisser la fenêtre de l'application vers le haut ou le bas de l'écran."</string>
+    <string name="recent_menukey_help_button">Aide</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="qs_edit_settings_title">Panneau des notifications</string>
+    <string name="qs_edit_settings_available_button">Options disponibles</string>
+    <string name="qs_edit_setting_button_summary_vzw">Vous pouvez choisir les boutons de configuration rapide à afficher en premier en haut du volet des raccourcis. Maintenez votre doigt appuyé sur les boutons, puis déplacez-les pour les ajouter, les masquer ou les réorganiser.</string>
+    <string name="qs_edit_setting_button_summary">Vous pouvez choisir les boutons de configuration rapide à afficher en premier en haut du panneau des notifications. Maintenez votre doigt appuyé sur les boutons, puis déplacez-les pour les ajouter, les masquer ou les réorganiser.</string>
+    <string name="notification_panel_unable_remove_minimum">"Impossible de supprimer l'option. Nombre minimum d'options (%d) atteint."</string>
+    <string name="qs_edit_setting_edit_button">Réorganiser</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">"Le mode Hors-ligne vous permet de désactiver les fonctions de réseau de données, de SMS et d'appel. Il désactive également les fonctions de connectivité comme le Wi-Fi et le Bluetooth. Pour utiliser le Wi-Fi et le Bluetooth, activez-les dans Paramètres ou le volet des notifications."</string>
+    <string name="pickup_tutorial_title">Essayer Smart Alert</string>
+    <string name="put_your_phone">"Une fois votre appareil posé, l'écran s'éteint."</string>
+    <string name="phone_detect">"Supposons que vous avez des appels manqués ou messages non lus. Posez votre appareil, puis reprenez-le une fois l'écran éteint."</string>
+    <string name="pick_up_your_phone">Attrapez votre appareil</string>
+    <string name="tutorial_complete">Didacticiel terminé.</string>
+    <string name="share_via">Partager via</string>
+    <string name="airmsg_warning_alert_check">Ne plus afficher</string>
+    <string name="airmsg_check_data_title_WLAN">Connexion au WLAN</string>
+    <string name="airmsg_check_data_title_Mobile">Se connecter via rés. mobiles</string>
+    <string name="cooling_title">Appareil en surchauffe</string>
+    <string name="cooling_body">"Votre appareil est en surchauffe. Des mesures vont être prises pour le refroidir.
+
+Votre téléphone reste utilisable mais :
+- la luminosité de l'écran risque de faiblir ;
+- des ralentissements peuvent survenir ;
+- le chargement risque d'être interrompu.
+
+Le fait de fermer l'application en cours d'utilisation facilitera le refroidissement.
+
+Une fois l'appareil refroidi, ses performances reviendront automatiquement à la normale."</string>
+    <string name="cooling_noti_text">Appuyez ici pour voir les détails.</string>
+    <string name="cooling_popup_name">Notification</string>
+    <string name="cooling_noti_title">Appareil en surchauffe</string>
+    <string name="btn_text_no">Annuler</string>
+    <string name="device_overheating">Appareil en surchauffe</string>
+    <string name="colling_noti_text_2">"Impossible d'ouvrir les applications. Vous ne pouvez utiliser que les applications Tél. et Contacts."</string>
+    <string name="cooling_title_VZW">Refroidissement</string>
+    <string name="cooling_body_VZW">"Votre téléphone est en surchauffe. Des mesures sont donc mises en place pour le refroidir.
+
+Votre téléphone reste utilisable mais :
+la luminosité de l'écran risque de faiblir ;
+des ralentissements peuvent apparaître ;
+le chargement risque d'être interrompu.
+
+Une fois le téléphone refroidi, ses fonctionnalités et capacités seront rétablies."</string>
+    <string name="cooling_noti_text_VZW">Appuyez ici pour en savoir plus.</string>
+    <string name="cooling_popup_name_VZW">Notific.</string>
+    <string name="cooling_noti_title_VZW">Refroidissement</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Annuler</string>
+    <string name="cooling_body_vzw_tablet">"Votre tablette est en surchauffe. Des mesures sont donc mises en place pour la refroidir.
+
+Votre tablette reste utilisable mais :
+la luminosité de l'écran risque de faiblir ;
+des ralentissements peuvent apparaître ;
+le chargement risque d'être interrompu.
+
+Une fois la tablette refroidie, ses fonctionnalités et capacités seront rétablies."</string>
+    <string name="safe_mode_title_global">Désactiver mode Sécurisé</string>
+    <string name="safe_mode_popup_body_global">Pour désactiver le mode Sécurisé, votre appareil va redémarrer. Toutes vos applications seront ensuite disponibles.</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Mode Sécurisé activé</string>
+    <string name="safe_mode_noti_body_global">Appuyez ici pour désactiver le mode Sécurisé.</string>
+    <string name="safe_mode_title_vzw">Désactiver mode Sécurisé</string>
+    <string name="safe_mode_popup_body_vzw">Redémarrer téléphone pour désactiver mode Sécurisé ? Toutes vos applis seront restaurées.</string>
+    <string name="safe_mode_btn_cancel_vzw">Annuler</string>
+    <string name="safe_mode_off_btn_vzw">Désactiver le mode Sécurisé</string>
+    <string name="safe_mode_noti_on_vzw">Mode Sécurisé activé</string>
+    <string name="safe_mode_noti_body_vzw">Appuyez pour désactiver le mode Sécurisé.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Pour modifier le mode Son, définissez le mode Interruption sur Priorité ou Tous.</string>
+    <string name="accessibility_driving_mode">Pour activer le mode mains-libres, activez au moins une fonction appropriée.</string>
+    <string name="qs_vibrate_on_in_priority">"Vibreur
+(priorité)"</string>
+    <string name="qs_sound_on_in_priority">"Son
+(priorité)"</string>
+    <string name="qs_silent_popup_title">Mode son</string>
+    <string name="qs_silent_popup_sound">Son</string>
+    <string name="qs_silent_popup_vibrate">Vibreur</string>
+    <string name="qs_rotate_popup_title">"Rotation de l'écran"</string>
+    <string name="qs_rotate_popup_all">Toutes</string>
+    <string name="qs_torch_popup_title">Lampe</string>
+    <string name="qs_torch_popup_brightness">Luminosité</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Aucune</string>
+    <string name="disable_multi_window_dialog_title">Désactiver la fonction Multi-fenêtres</string>
+    <string name="disable_multi_window_dialog_text">"L'affichage Multi-fenêtres sera désactivé et les applications ouvertes dans des fenêtres contextuelles seront fermées."</string>
+    <string name="AirplaneNoti_title">Mode Hors-ligne activé</string>
+    <string name="AirplaneNoti_text">Désactiver</string>
+    <string name="quickpanel_interruption_always_interrupt">"Autor.
+interrupt."</string>
+    <string name="quickpanel_interruption_priority_only">"Priorité
+uniq."</string>
+    <string name="tw_sound_priority_desciption">Son pour les interruptions prioritaires</string>
+    <string name="tw_vibrate_priority_desciption">Vibreur pour les interruptions prior.</string>
+    <string name="tw_mute_priority_desciption">Aucune interruption (alarmes incluses)</string>
+    <string name="tw_zen_off_interruptions">"À la réception d'appels et de notifications"</string>
+    <string name="tw_interruption_level_priority">Priorité uniquement</string>
+    <string name="tw_zen_off_interruptions_vzw">"À la réception d'appels et de notifications"</string>
+    <string name="tw_interruption_level_priority_vzw">Autoriser uniquement les interruptions prioritaires</string>
+    <string name="tw_interruption_level_all_vzw">Autoriser les interruptions</string>
+    <string name="tw_mute_priority_toast_description">"Aucune interruption
+(alarmes incluses)"</string>
+    <string name="dnd_noti_title">Mode Ne pas déranger activé</string>
+    <string name="dnd_noti_message">Son des alarmes désactivé</string>
+    <string name="dnd_noti_action_disable">Désactiver</string>
+    <string name="torch_light_notification_title">Allumer la lampe</string>
+    <string name="torch_light_notification_message">Éteindre la lampe</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Le mode Restriction de réseau va être désactivé</string>
+    <string name="recent_help_dialog_title_for_popup_view">Utilisation de la vue Multi-fenêtres</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">"Pour ouvrir des applications en affichage fractionné, appuyez sur %s dans la barre de titre de la fenêtre de l'application. Cette icône apparaît lorsque l'application prend en charge l'affichage fractionné."</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">"Pour ouvrir des applications en affichage fractionné, appuyez sur l'icône d'écran fractionné dans la barre de titre de la fenêtre de l'application. Cette icône apparaît lorsque l'application prend en charge l'affichage fractionné."</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">"Sur n'importe quel écran, vous pouvez également maintenir votre doigt appuyé sur la touche Application récentes pour ouvrir des applications en affichage fractionné."</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">"Lorsque l'application est ouverte et affichée à l'écran, vous pouvez l'afficher dans une fenêtre contextuelle en faisant glisser votre doigt en diagonale de haut en bas depuis l'un des coins de l'écran."</string>
+    <string name="wallpaper_crop_button_done">OK</string>
+    <string name="accessibility_desc_notification_panel">Volet des raccourcis</string>
+</resources>

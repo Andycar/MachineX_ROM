@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Machinex kernel Settings">
+        <PreferenceScreen android:icon="@drawable/synapse" android:title="Synapse" android:summary="Machinex Kernel Control">
+            <intent android:targetPackage="com.af.synapse" android:action="android.intent.action.MAIN" android:targetClass="com.af.synapse.MainActivity" />
+        </PreferenceScreen>
+        <Preference android:title="Fix WiFi problem" android:key="tool#shell#rm -f /data/.cid.info" android:summary="Turn it ON after checking this ;-)" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="AMOLED Panel Settings">
+        <PreferenceScreen android:icon="@drawable/ic_light" android:title="Panel" android:summary="AMOLED Panel Settings">
+            <Preference android:title="Turn ON BlueLight Filter" android:key="tool#shell#bluefilter" android:summary="Toggle bluefilter filter" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Lock Screen Settings">
+        <SwitchPreference android:title="Random Ink Effect Color" android:key="random_ink" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.ficeto.colorpicker.ColorPickerPreference android:title="Ink Effect Static Color" android:key="ink_effect_color" android:summary="Choose static color" />
+        <PreferenceScreen android:icon="@drawable/inkchanger" android:title="LockScreen effects" android:summary="Change effects on your lockScreen">
+            <intent android:targetPackage="com.xpe.app.galaxy.lockscreen.effect" android:action="android.intent.action.MAIN" android:targetClass="com.xpe.app.galaxy.lockscreen.effect.MainActivity" />
+        </PreferenceScreen>
+        <SwitchPreference android:title="Album Art" android:key="hide_album_art" android:defaultValue="0" android:summaryOn="Lockscreen Album Art Hidden" android:summaryOff="Lockscreen Album Art Shown" />
+        <ListPreference android:entries="@array/lockscreen_clock_position_entries" android:title="Lockscreen Clock Position" android:key="lockscreen_clock_position" android:entryValues="@array/lockscreen_clock_position_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notification panel, quick toggles">
+        <ListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="toggle_number" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" />
+        <ListPreference android:entries="@array/toggle_scroll_entries" android:title="Scrollable Toggles Shown" android:key="notification_panel_active_number_of_apps" android:summary="Scrolling toggle number" android:entryValues="@array/toggle_scroll_values" />
+        <!-- <com.ficeto.colorpicker.ColorPickerPreference android:title="Pull down date color" android:key="pulldown_date_color" android:summary="Choose color of Date when pulluing down Quick Settings Area" /> -->
+        <Preference android:title="Restart SystemUI" android:key="tool#restartsystemui" android:summary="Will restart the SystemUI (Phone Status Bar)" />
+    </PreferenceCategory>
+</PreferenceScreen>

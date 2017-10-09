@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@android:id/icon" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/incoming_call_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:id="@id/incoming_call_vibration_seekbar_text" android:paddingTop="6.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/incoming_call" android:fontFamily="sec-roboto-light" style="@style/VibrationFeedBackStyle" />
+            <SeekBar android:id="@id/incoming_call_vibration_seekbar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginBottom="15.0dip" />
+        </LinearLayout>
+        <View android:id="@id/incoming_call_divider" android:background="?android:listDividerAlertDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:paddingTop="6.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_volume_title" android:fontFamily="sec-roboto-light" style="@style/VibrationFeedBackStyle" />
+            <SeekBar android:id="@id/notification_vibration_seekbar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginBottom="15.0dip" />
+        </LinearLayout>
+        <View android:id="@id/haptic_feedback_vibration_divider" android:background="?android:listDividerAlertDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" />
+        <LinearLayout android:orientation="vertical" android:id="@id/haptic_feedback_vibration_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:id="@id/haptic_feedback_vibration_seekbar_text" android:paddingTop="6.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/haptic_feedback_enable_title" android:fontFamily="sec-roboto-light" style="@style/VibrationFeedBackStyle" />
+            <SeekBar android:id="@id/haptic_feedback_vibration_seekbar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginBottom="15.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

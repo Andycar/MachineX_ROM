@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Κανένα</item>
+        <item>Εφέ κυμάτων</item>
+        <item>Εφέ φωτισμού</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Ανενεργό</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+        <item>4 ώρες</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Αμερική</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Ασία</item>
+        <item>Αυστραλία</item>
+        <item>Ειρηνικός</item>
+        <item>Όλα</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>3 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Ποτέ</item>
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Άμεσα με το πλήκτρο ενεργοποίησης ή όταν λήξει το χρονικό όριο της οθόνης</item>
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>3 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Άμμεσα</item>
+        <item>5 δευτερόλεπτα</item>
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Πάρα πολύ μικρό</item>
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>Τεράστιο</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Πολύ αργά</item>
+        <item>Αργός</item>
+        <item>Κανονική</item>
+        <item>Γρήγορη</item>
+        <item>Ελαφρώς πιο γρήγορα</item>
+        <item>Πολύ πιο γρήγορα</item>
+        <item>Πολύ γρήγορα</item>
+        <item>Υπερβολικά γρήγορα</item>
+        <item>Ταχύτατος</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Πολύ χαμηλή</item>
+        <item>Χαμηλή</item>
+        <item>Κανονικό</item>
+        <item>Υψηλή</item>
+        <item>Πολύ υψηλή</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Σάρωση…</item>
+        <item>Σύνδεση…</item>
+        <item>Έλεγχος ταυτότητας…</item>
+        <item>Γίνεται λήψη διεύθυνσης IP…</item>
+        <item>Συνδέθηκε</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση…</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+        <item>Αποκλεισμένη</item>
+        <item>Έλεγχος ποιότητας της σύνδεσής σας στο Internet…</item>
+        <item>Συνδέθηκε</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Σάρωση…</item>
+        <item>Σύνδεση με %s…</item>
+        <item>Έλεγχος ταυτότητας %s…</item>
+        <item>Λήψη διεύθυνσης IP από %s…</item>
+        <item>Συνδέθηκε με %1$s.</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση από %s…</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+        <item>Αποκλεισμένη</item>
+        <item>Έλεγχος ποιότητας της σύνδεσής σας στο Internet…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Άνοιγμα</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Κουμπί προώθησης.</item>
+        <item>PIN από ομότιμη συσκευή</item>
+        <item>PIN από αυτήν τη συσκευή</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Έγινε σύνδεση</item>
+        <item>Εστάλη πρόσκληση.</item>
+        <item>Η σύνδεση απέτυχε</item>
+        <item>Πατήστε εδώ για σύνδεση.</item>
+        <item>Εκτός εμβέλειας.</item>
+        <item>Έχει συνδεθεί με άλλη συσκευή</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Χωρίς χρονικό όριο</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>60 λεπτά</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Όλες οι συσκευές</item>
+        <item>Μόνο συσκευές που επιτρέπονται</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Αυτόματο</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Τυπική</item>
+        <item>Υψηλή</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 ώρες</item>
+        <item>12 ώρες</item>
+        <item>24 ώρες</item>
+        <item>Κανένα χρονικό όριο</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>Χωρίς χρονικό όριο</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>1 ώρα</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Ασθενές</item>
+        <item>Καλό</item>
+        <item>Καλό</item>
+        <item>Ισχυρό</item>
+        <item>Πολύ ισχυρό</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Πάντα</item>
+        <item>Μόνο όταν είναι συνδεδεμένο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Πάντα</item>
+        <item>Μόνο όταν είναι συνδεδεμένο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Τις τελευταίες 30 ημέρες</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Αλφαβητική σειρά</item>
+        <item>Ισχύς σήματος</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Αυτόματα</item>
+        <item>Μόνο 5 GHz</item>
+        <item>Μόνο 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Αυτόματα</item>
+        <item>Χρήση εύρους ζώνης 5 GHz</item>
+        <item>Χρήση εύρους ζώνης 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Πολύ ισχυρό</item>
+        <item>Ισχυρό</item>
+        <item>Καλό</item>
+        <item>Όλα</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Χρόνος χρήσης</item>
+        <item>Last time used</item>
+        <item>Όνομα εφαρμογής</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Κανένα</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Κανένα</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Ανενεργό</item>
+        <item>Κουμπί προώθησης.</item>
+        <item>PIN από σημείο πρόσβασης</item>
+        <item>PIN από αυτήν τη συσκευή</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Στατικό</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Κανένα</item>
+        <item>Χειροκίνητα</item>
+        <item>Αυτ. διαμ.διακομ.μεσολ.</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Κανονικό</item>
+        <item>Κέντρο πόλης</item>
+        <item>Σπίτι</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>Αυτή είναι η πιο γενική ρύθμιση σύνδεσης Wi-Fi.</item>
+        <item>Εάν βρίσκεστε σε περιοχή με πολλά δίκτυα Wi-Fi, η σύνδεση Wi-Fi επανασυνδέεται συχνά για καλύτερη ισχύ σήματος.</item>
+        <item>Εάν βρίσκεστε σε περιοχή με λίγα δίκτυα Wi-Fi, η σύνδεση Wi-Fi διατηρείται όσο το δυνατόν περισσότερο.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Κανένα</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ή CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Ακαθόριστο</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Κανένα</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Εσωτερικός χώρος αποθήκευσης συσκευής</item>
+        <item>Κάρτα SD με δυνατότητα κατάργησης</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Επιτρέπεται</item>
+        <item>Ignored</item>
+        <item>Να γίνεται πάντα ερώτηση</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Τοποθεσία</item>
+        <item>Προσωπικό</item>
+        <item>Μηνύματα</item>
+        <item>Μέσα</item>
+        <item>Συσκευή</item>
+        <item>Αυτόματη εκτέλεση</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Πρόσβαση σε τοποθεσία κατά προσέγγιση</item>
+        <item>Πρόσβαση σε ακριβή τοποθεσία</item>
+        <item>GPS</item>
+        <item>Δόνηση</item>
+        <item>Ανάγνωση επαφών</item>
+        <item>Διαχείριση επαφών</item>
+        <item>Ανάγνωση αρχείου καταγραφής κλήσεων</item>
+        <item>Σύνταξη αρχείου καταγραφής κλήσεων</item>
+        <item>Ανάγνωση ημερολογίου</item>
+        <item>Διαχείριση ημερολογίου</item>
+        <item>Σάρωση για δίκτυα Wi-Fi</item>
+        <item>Ειδοποίηση</item>
+        <item>Σάρωση περιοχών κάλυψης δικτύου</item>
+        <item>Πραγματοποίηση τηλεφωνικών κλήσεων</item>
+        <item>Ανάγνωση μηνυμάτων κειμένου</item>
+        <item>Εγγραφή μηνυμάτων κειμένου</item>
+        <item>Λήψη μηνυμάτων κειμένου</item>
+        <item>Λήψη μηνυμάτων κειμένου έκτακτης ανάγκης</item>
+        <item>Λήψη μηνυμάτων πολυμέσων</item>
+        <item>Λήψη μηνυμάτων push WAP</item>
+        <item>Αποστολή μηνυμάτων κειμένου</item>
+        <item>Ανάγνωση μηνυμάτων κειμένου στην κάρτα SIM</item>
+        <item>Εγγραφή μηνυμάτων κειμένου στην κάρτα SIM</item>
+        <item>Τροποποίηση ρυθμίσεων</item>
+        <item>Διασύνδεση εφαρμογής επικάλυψης</item>
+        <item>Ειδοποιήσεις πρόσβασης</item>
+        <item>Κάμερα</item>
+        <item>Ηχογράφηση</item>
+        <item>Αναπαραγωγή αρχείων ήχου</item>
+        <item>Ανάγνωση των δεδομένων πρόχειρου</item>
+        <item>Διαχείριση δεδομένων πρόχειρου</item>
+        <item>Έλεγχος πολυμέσων</item>
+        <item>Έλεγχος εστίασης ήχου</item>
+        <item>Ρύθμιση κύριας έντασης</item>
+        <item>Προσαρμογή έντασης κατά την κλήση</item>
+        <item>Προσαρμογή έντασης ήχου κλήσης</item>
+        <item>Ρύθμιση έντασης μέσων</item>
+        <item>Ρύθμιση έντασης ήχου ξυπνητηριού</item>
+        <item>Προσαρμογή έντασης ειδοποίησης</item>
+        <item>Προσαρμογή της έντασης του ήχου που ακούγεται μέσω των συσκευών Bluetooth</item>
+        <item>Διατήρηση οθόνης ενεργής</item>
+        <item>Παρακολούθηση πληροφοριών τοποθεσίας</item>
+        <item>Παρακολούθηση πληροφοριών τοποθεσίας υψηλής ακρίβειας</item>
+        <item>Ανάγνωση στατιστικών χρήσης συσκευής</item>
+        <item>Ενεργοποίηση και απενεργοποίηση μικροφώνου</item>
+        <item>Αποτύπωση πολυμέσων</item>
+        <item>Αποτύπωση πολυμέσων</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Αποστολή MMS</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Αυτόματη εκτέλεση</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Τοποθεσία</item>
+        <item>Τοποθεσία</item>
+        <item>Τοποθεσία</item>
+        <item>Δόνηση</item>
+        <item>Ανάγνωση επαφών</item>
+        <item>Διαχείριση επαφών</item>
+        <item>Ανάγνωση αρχείου καταγραφής κλήσεων</item>
+        <item>Σύνταξη αρχείου καταγραφής κλήσεων</item>
+        <item>Ανάγνωση ημερολογίου</item>
+        <item>Διαχείριση ημερολογίου</item>
+        <item>Τοποθεσία</item>
+        <item>Εμφάνιση ειδοποιήσεων</item>
+        <item>Τοποθεσία</item>
+        <item>Πραγματοποίηση τηλεφωνικών κλήσεων</item>
+        <item>Ανάγνωση μηνυμάτων κειμένου</item>
+        <item>Εγγραφή μηνυμάτων κειμένου</item>
+        <item>Λήψη μηνυμάτων κειμένου</item>
+        <item>Λήψη μηνυμάτων κειμένου έκτακτης ανάγκης</item>
+        <item>Λήψη μηνυμάτων πολυμέσων</item>
+        <item>Λήψη μηνυμάτων push WAP</item>
+        <item>Αποστολή μηνυμάτων κειμένου</item>
+        <item>Ανάγνωση μηνυμάτων κειμένου στην κάρτα SIM</item>
+        <item>Εγγραφή μηνυμάτων κειμένου στην κάρτα SIM</item>
+        <item>Τροποποίηση ρυθμίσεων</item>
+        <item>Διασύνδεση εφαρμογής επικάλυψης</item>
+        <item>Ειδοποιήσεις πρόσβασης</item>
+        <item>Κάμερα</item>
+        <item>Ηχογράφηση</item>
+        <item>Αναπαραγωγή αρχείων ήχου</item>
+        <item>Ανάγνωση των δεδομένων πρόχειρου</item>
+        <item>Διαχείριση δεδομένων πρόχειρου</item>
+        <item>Έλεγχος πολυμέσων</item>
+        <item>Έλεγχος εστίασης ήχου</item>
+        <item>Ρύθμιση κύριας έντασης</item>
+        <item>Προσαρμογή έντασης κατά την κλήση</item>
+        <item>Προσαρμογή έντασης ήχου κλήσης</item>
+        <item>Ρύθμιση έντασης μέσων</item>
+        <item>Ρύθμιση έντασης ήχου ξυπνητηριού</item>
+        <item>Προσαρμογή έντασης ειδοποίησης</item>
+        <item>Προσαρμογή της έντασης του ήχου που ακούγεται μέσω των συσκευών Bluetooth</item>
+        <item>Διατήρηση οθόνης ενεργής</item>
+        <item>Θέση</item>
+        <item>Θέση</item>
+        <item>Ανάγνωση στατιστικών χρήσης συσκευής</item>
+        <item>Ενεργοποίηση και απενεργοποίηση μικροφώνου</item>
+        <item>Αποτύπωση πολυμέσων</item>
+        <item>Αποτύπωση πολυμέσων</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Αποστολή MMS</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Αυτόματη εκτέλεση</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Διαγραφή επαφών</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Μικρή (0,5 δευτερόλεπτα)</item>
+        <item>Μεσαία (1 δευτερόλεπτο)</item>
+        <item>Μεγάλη (1,5 δευτερόλ.)</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Σύντομη</item>
+        <item>Μεσαίο</item>
+        <item>Διαρκής</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Προεπιλογή</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Καθημερινά</item>
+        <item>Ρέουσα γραφή</item>
+        <item>Μικρά κεφαλαία</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Πάρα πολύ μικρό</item>
+        <item>Μικρό</item>
+        <item>Κανονική</item>
+        <item>Μεγάλο</item>
+        <item>Πολύ μεγάλο</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Προεπιλογή</item>
+        <item>Κανένα</item>
+        <item>Διάρθρωση</item>
+        <item>Σκιά</item>
+        <item>Υπερυψωμένο</item>
+        <item>Πεπλατυσμένο</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Προεπιλογή</item>
+        <item>Άσπρο σε μαύρο</item>
+        <item>Μαύρο σε άσπρο</item>
+        <item>Κίτρ. σε μαύρο</item>
+        <item>Κίτρινο σε μπλε</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB ανά buffer αρχείου καταγραφής</item>
+        <item>256 KB ανά buffer αρχείου καταγραφής</item>
+        <item>1 MB ανά buffer αρχείου καταγραφής</item>
+        <item>4 MB ανά buffer αρχείου καταγραφής</item>
+        <item>16 MB ανά buffer αρχείου καταγραφής</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Να μην γίνεται ποτέ έλεγχος</item>
+        <item>Έλεγχος μόνο για περιεχόμενο DRM</item>
+        <item>Να γίνεται πάντα έλεγχος</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Να μην χρησιμοποιείται ποτέ έλεγχος HDCP</item>
+        <item>Να χρησιμοποιείται μόνο έλεγχος HDCP για περιεχόμενο DRM</item>
+        <item>Να χρησιμοποιείται πάντα έλεγχος HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Απενεργοποιημένο κινούμενο στοιχείο.</item>
+        <item>Κλίμακα κινούμενων γραφικών 0.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 2x</item>
+        <item>Κλίμακα κινούμενων γραφικών 5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Απενεργοποιημένο κινούμενο στοιχείο.</item>
+        <item>Κλίμακα κινούμενων γραφικών 0.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 2x</item>
+        <item>Κλίμακα κινούμενων γραφικών 5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Απενεργοποιημένο κινούμενο στοιχείο.</item>
+        <item>Κλίμακα κινούμενων γραφικών 0.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1x</item>
+        <item>Κλίμακα κινούμενων γραφικών 1.5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 2x</item>
+        <item>Κλίμακα κινούμενων γραφικών 5x</item>
+        <item>Κλίμακα κινούμενων γραφικών 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Κανένα</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Κανένα</item>
+        <item>Logcat</item>
+        <item>Systrace (γραφικά)</item>
+        <item>Κλήση στοίβας με glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Ανενεργό</item>
+        <item>Επισήμανση της επιφάνειας των μη ορθογώνιων κλιπ με μπλε</item>
+        <item>Επισήμανση των ελεγμένων εντολών σχεδίασης με πράσινο</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Απόκρυψη</item>
+        <item>Να εμφανίζονται οθόνη ως ράβδοι</item>
+        <item>Εμφάνιση σε adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Ανενεργό</item>
+        <item>Εμφάνιση περιοχών overdraw</item>
+        <item>Εμφάνιση περιοχών για τους χρήστες με δευτερανοπία</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Τυπικό όριο</item>
+        <item>Χωρίς διεργασίες στο παρασκήνιο</item>
+        <item>1 διεργασία το ανώτερο</item>
+        <item>2 διεργασίες το ανώτερο</item>
+        <item>3 διεργασίες το ανώτερο</item>
+        <item>4 διεργασίες το ανώτερο</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>VPN PPTP</item>
+        <item>L2TP/IPSec VPN με κοινόχρηστα κλειδιά</item>
+        <item>L2TP/IPSec VPN με πιστοποιητικά</item>
+        <item>IPSec VPN με κοινόχρηστα κλειδιά και έλεγχο ταυτότητας XAuth</item>
+        <item>IPSec VPN με πιστοποιητικά και έλεγχο ταυτότητας XAuth</item>
+        <item>IPSec VPN με πιστοποιητικά και υβριδικό έλεγχο ταυτότητας</item>
+        <item>IPsec VPN με IKEv2 και έλεγχο ταυτότητας βάσει κοινόχρηστων κλειδιών</item>
+        <item>IPsec VPN με IKEv2 και έλεγχο ταυτότητας βάσει πιστοποιητικών</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Αποσυνδέθηκε</item>
+        <item>Προετοιμασία…</item>
+        <item>Σύνδεση…</item>
+        <item>Έγινε σύνδεση</item>
+        <item>Τέλος χρόνου</item>
+        <item>Ανεπιτυχής</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Ερώτηση</item>
+        <item>Να μην επιτρ. ποτέ</item>
+        <item>Επιτρέπεται πάντα</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Κανονική</item>
+        <item>Μέτριο</item>
+        <item>Χαμηλό</item>
+        <item>εξαιρετικά χαμηλή</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Ανενεργό</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Κανονική</item>
+        <item>Μέτριο</item>
+        <item>Χαμηλό</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Μόνιμα</item>
+        <item>Κορυφαία δραστηριότητα</item>
+        <item>Σημαντικό (προσκήνιο)</item>
+        <item>Σημαντικό (παρασκήνιο)</item>
+        <item>Backup</item>
+        <item>Βαριά εφαρμογή</item>
+        <item>Υπηρεσία (εκτελείται)</item>
+        <item>Υπηρεσία (επανεκκίνηση)</item>
+        <item>Δέκτης</item>
+        <item>Home</item>
+        <item>Τελευταία δραστηριότητα</item>
+        <item>Αποθηκευμένο στο cache (δραστηριότητα)</item>
+        <item>Αποθηκευμένο στο cache (υπολογιστής-πελάτης δραστηριοτήτων)</item>
+        <item>Αποθηκευμένο στο cache (κενό)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Συσκευή</item>
+        <item>Κάρτα SD</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Αποδοχή πάντα</item>
+        <item>Να γίνεται πάντα ερώτηση</item>
+        <item>Απόρριψη πάντα</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Βίντεο</item>
+        <item>Φωτογραφίες</item>
+        <item>Μουσική</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Αυτόματα</item>
+        <item>Μη αυτόματα</item>
+        <item>Να γίνεται πάντα ερώτηση</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Πάντα απενεργ/μένο</item>
+        <item>3 δευτερόλεπτα</item>
+        <item>5 δευτερόλεπτα</item>
+        <item>10 δευτερόλεπτα</item>
+        <item>15 δευτερόλεπτα</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Κανένα</item>
+        <item>Όλες οι επαφές</item>
+        <item>Αγαπημένα</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Κανένα</item>
+        <item>Όλες οι επαφές</item>
+        <item>Αγαπημένα</item>
+        <item>Ομάδα</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Υψηλή</item>
+        <item>Μεσαίο</item>
+        <item>Χαμηλή</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Τρέχον δίκτυο</item>
+        <item>Ερώτηση πάντα</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Σπίτι</item>
+        <item>Γραφείο</item>
+        <item>Καρδιά</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Κλήση</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Internet</item>
+        <item>Σπίτι</item>
+        <item>Γραφείο</item>
+        <item>Καρδιά</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Αντικατάσταση συντόμευσης</item>
+        <item>επαναφορά του προσαρμοσμένου πλήκτρου</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Ήχος</item>
+        <item>Δόνηση</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>10 λεπτά</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Υψηλό</item>
+        <item>Κανονικό</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>3 λεπτά</item>
+        <item>5 λεπτά</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Προσβ/τητα</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Προσβ/τητα</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Όλα</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Μία φορά</item>
+        <item>Κάθε 10 λεπτά</item>
+        <item>Κάθε 20 λεπτά</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>Real-time</item>
+        <item>15 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Κλασικό</item>
+        <item>Ημίτονος</item>
+        <item>Μεταμόρφωση</item>
+        <item>Πολύχρωμο</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 δευτερόλεπτα</item>
+        <item>6 δευτερόλεπτα</item>
+        <item>Πάντα απενεργ/μένο</item>
+        <item>Πάντα ενεργό</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Πάνω</item>
+        <item>Μέση</item>
+        <item>Κάτω</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Ειδήσεις</item>
+        <item>Μετοχή</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Νέα</item>
+        <item>Μετοχή</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Αργή</item>
+        <item>Κανονική</item>
+        <item>Γρήγορη</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Κανένα</item>
+        <item>Κάθε 30 λεπτά</item>
+        <item>Κάθε 1 ώρα</item>
+        <item>Κάθε 2 ώρες</item>
+        <item>Κάθε 4 ώρες</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Ακουστικά</item>
+        <item>PC</item>
+        <item>Τηλ/νο</item>
+        <item>HID (πληκτρολόγιο, ποντίκι κτλ)</item>
+        <item>Όλες οι συσκευές</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Στερεοφωνικός</item>
+        <item>Surround</item>
+    </string-array>
+</resources>

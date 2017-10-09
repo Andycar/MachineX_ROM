@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@color/col_007990" android:gravity="start" android:id="@id/map_search_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="21.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/col_007990" android:ellipsize="marquee" android:gravity="start" android:id="@id/map_search_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="0" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" />
+</LinearLayout>

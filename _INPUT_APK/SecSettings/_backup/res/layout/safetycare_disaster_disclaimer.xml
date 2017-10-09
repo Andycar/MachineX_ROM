@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android1="http://schemas.android.com/apk/res/android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="11.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip">
+            <TextView android:textSize="18.0sp" android:id="@id/safetycare_disclaimer_desc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/safetycare_disaster_desc1" />
+            <TextView android:textSize="18.0sp" android:id="@id/safetycare_disclaimer_desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_disaster_desc2" />
+            <TextView android:textSize="18.0sp" android:id="@id/safetycare_disclaimer_desc3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_disaster_desc3" />
+            <TextView android:textSize="18.0sp" android:id="@id/safetycare_disclaimer_desc4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_disaster_desc4" />
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textSize="18.0sp" android:gravity="fill_horizontal" android:id="@id/safetycare_read_and_agree_terms_and_conditions_checkBox" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_terms_and_conditions_checkbox_text" />
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textSize="18.0sp" android:gravity="fill_horizontal" android:id="@id/safetycare_use_location_service_checkBox" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_disaster_agree_check2" />
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textSize="18.0sp" android:gravity="fill_horizontal" android:id="@id/safetycare_agree_that_mobile_date_checkBox" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/safetycare_disaster_agree_check3" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/safetycare_cancel_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/safetycare_ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

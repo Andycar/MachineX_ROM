@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/location_info" android:layout_width="@dimen/location_image_width" android:layout_height="@dimen/location_image_height" android:layout_marginTop="@dimen/location_image_margin_top_land" android:layout_marginBottom="@dimen/location_image_margin_bottom" android:src="@drawable/setupwizard_map" android:scaleType="center" android:layout_weight="4.0" />
+    <ScrollView android:scrollbarStyle="outsideInset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/location_checkbox_margin_side_land" android:layout_weight="6.0">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_with_contents" android:layout_marginBottom="@dimen/padding_with_contents">
+                <CheckBox android:gravity="top" android:id="@id/location_sharing" android:layout_width="@dimen/location_check_box_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/location_check_box_marginBottom" android:text="@string/location_agree_sharing_content" android:paddingStart="@dimen/location_check_box_paddingLeft" style="@style/description_area" />
+                <CheckBox android:gravity="top" android:id="@id/location_use_search" android:layout_width="@dimen/location_check_box_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/location_check_box_marginBottom" android:text="@string/location_agree_use_search_content" android:paddingStart="@dimen/location_check_box_paddingLeft" style="@style/description_area" />
+                <CheckBox android:gravity="top" android:id="@id/location_use_wifi_scan" android:layout_width="@dimen/location_check_box_width" android:layout_height="wrap_content" android:text="@string/location_agree_use_wifi_scan_content" android:paddingStart="@dimen/location_check_box_paddingLeft" style="@style/description_area" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

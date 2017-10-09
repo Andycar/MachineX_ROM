@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_CityList" android:title="@string/cities_button" android:showAsAction="always" />
+    <item android:id="@id/menu_Add" android:title="@string/menu_add_title" android:showAsAction="always" />
+    <item android:id="@id/menu_Delete" android:title="@string/menu_delete_title" />
+    <item android:id="@id/menu_Map" android:title="@string/weather_map" />
+    <item android:id="@id/menu_Settings" android:title="@string/menu_settings_title" />
+    <item android:id="@id/menu_Report_wrong_city_name" android:title="@string/Report_wrong_city_name_text" />
+</menu>

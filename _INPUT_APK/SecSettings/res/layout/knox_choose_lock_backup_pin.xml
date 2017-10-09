@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="bottom|center" android:id="@id/pin_information_view" android:paddingLeft="30.0dip" android:paddingTop="40.0dip" android:paddingRight="30.0dip" android:paddingBottom="31.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" />
+            <EditText android:textAppearance="?android:textAppearanceLarge" android:textSize="24.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/pin_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionNext|flagNoExtractUi" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/pin_information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/pin_information" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/cancel_button" android:text="@string/cancel" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/next_button" android:text="@string/lockpassword_continue_label" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.SecKeyguardClockView android:orientation="vertical" android:id="@id/keyguard_sec_clock_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/keyguard_sec_clock_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/kg_owner_text_size" android:textColor="@color/keyguard_text_color_white" android:ellipsize="marquee" android:id="@id/keyguard_owner_info" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#7f000000" android:fontFamily="roboto-light" style="@style/keyguard_text_shadow" />
+    <TextView android:textSize="@dimen/kg_travel_text_size" android:textColor="#ffffffff" android:gravity="left" android:layout_gravity="bottom" android:id="@id/keyguard_travel_text" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#c0000000" style="@style/keyguard_text_shadow" />
+    <include layout="@layout/sec_adaptive_event_container_small" />
+</com.android.keyguard.sec.SecKeyguardClockView>

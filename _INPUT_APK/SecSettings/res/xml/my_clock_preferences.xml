@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/clock"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <SwitchPreferenceScreen android:title="@string/dualclock_settings_title" android:key="dualclock_settings" android:summary="@string/dualclock_settings_summary" android:fragment="com.android.settings.dualclock.DualClockSetting" />
+    <PreferenceCategory android:title="@string/clock_size" android:key="clock_size_category" />
+    <PreferenceCategory android:title="@string/clock_options" android:key="lock_screen_display_category" />
+    <CheckBoxPreference android:title="@string/lock_screen_show_date_title" android:key="lock_screen_date_and_year" />
+    <PreferenceScreen android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+</PreferenceScreen>

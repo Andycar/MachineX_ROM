@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/alert_dialog_padding_top" android:paddingBottom="@dimen/alert_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <ImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/alert_dialog_padding_left_right" android:paddingRight="@dimen/alert_dialog_padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensitivity_slow" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensitivity_fast" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <SeekBar android:id="@id/seekbar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/alert_dialog_seekbar_padding_left_right" android:layout_centerVertical="true" />
+</LinearLayout>

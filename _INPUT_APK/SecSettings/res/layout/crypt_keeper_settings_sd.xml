@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textColor="#fff5f5f5" android:gravity="bottom|center|left" android:id="@id/desc" android:padding="0.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    </ScrollView>
+    <TextView android:textSize="18.0sp" android:textColor="#fff5f5f5" android:gravity="bottom|center|left" android:id="@id/enc_messages" android:padding="0.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/crypt_keeper_sd_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <Button android:id="@id/enable_disable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disable_text" android:layout_weight="1.0" />
+        <Button android:id="@id/apply" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sdcard_encrypt_continue" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

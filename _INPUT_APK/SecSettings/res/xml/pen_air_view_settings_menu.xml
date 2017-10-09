@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/hovering_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.UnclickablePreference android:title="@string/pen_air_view_setting_guide" android:key="pen_air_view_guide" />
+    <PreferenceScreen android:title="@string/hovering_information_preview" android:key="key_pen_information_preview_2014" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="information_preview_2014" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hovering_icon_label" android:key="key_pen_icon_label_2014" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="icon_label" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hovering_list_scroll" android:key="key_pen_list_scroll_2014" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="list_scroll" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hovering_link_preview" android:key="key_pen_link_preview_2014" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="link_preview" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hovering_air_menu" android:key="key_pen_air_menu_2014" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="air_menu" />
+    </PreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_pointer" android:key="key_pen_pointer" android:summary="@string/hovering_pointer_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="pointer" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_information_preview" android:key="key_pen_information_preview" android:summary="@string/hovering_intormation_preview_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="information_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/pen_progress_preview_title" android:key="key_pen_progress_preview" android:summary="@string/pen_progress_preview_summary" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="progress_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/pen_speed_dial_preview_title" android:key="key_pen_speed_dial_preview" android:summary="@string/pen_speed_dial_preview_summary" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="speed_dial_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_icon_label" android:key="key_pen_icon_label" android:summary="@string/hovering_icon_label_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="icon_label" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_list_scroll" android:key="key_pen_list_scroll" android:summary="@string/hovering_list_scroll_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="list_scroll" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_link_preview" android:key="key_pen_link_preview" android:summary="@string/hovering_link_preview_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="link_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/hovering_air_menu" android:key="key_pen_air_menu" android:summary="@string/hovering_air_menu_msg" android:fragment="com.android.settings.PenAirViewHelp">
+        <extra android:name="type" android:value="air_menu" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/pen_air_view_additional_feedback_title" android:key="key_category_pen_additional_feedback" />
+    <CheckBoxPreference android:title="@string/pen_air_view_sound_and_haptic_feedback_title" android:key="key_pen_sound_and_haptic_feedback" android:summary="@string/pen_air_view_sound_and_haptic_feedback_summary" />
+</PreferenceScreen>

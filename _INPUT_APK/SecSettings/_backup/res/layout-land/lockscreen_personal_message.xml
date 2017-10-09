@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:background="@drawable/lock_screen_profile_img" android:layout_width="360.0dip" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/personal_message_body_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="29.0dip" android:text="@string/lock_screen_myprofile_widget_body" android:layout_toRightOf="@id/preview_image" />
+        <View android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginLeft="360.0dip" android:layout_below="@id/personal_message_body_text" style="@style/SettingsContentsListDivider" />
+        <RelativeLayout android:id="@id/personal_message_edit" android:paddingTop="8.0dip" android:paddingBottom="9.0dip" android:focusable="true" android:clickable="true" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginLeft="360.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/personal_message_body_text" style="@style/CommonListItemBackground">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/personal_message_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_profile_edit" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/personal_message_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_profile_summary" android:layout_below="@id/personal_message_title" />
+        </RelativeLayout>
+        <View android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginLeft="360.0dip" android:layout_below="@id/personal_message_edit" style="@style/SettingsContentsListDivider" />
+    </RelativeLayout>
+</ScrollView>

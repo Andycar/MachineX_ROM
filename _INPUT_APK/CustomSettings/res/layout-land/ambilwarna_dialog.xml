@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/ambilwarna_viewContainer" android:paddingLeft="@dimen/ambilwarna_spacer" android:paddingTop="@dimen/ambilwarna_spacer" android:paddingRight="@dimen/ambilwarna_spacer" android:paddingBottom="0.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ambilwarna_state" android:paddingRight="@dimen/ambilwarna_spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/ambilwarna_viewSatBri">
+        <ImageView android:paddingTop="@dimen/ambilwarna_spacer" android:paddingBottom="@dimen/ambilwarna_spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ambilwarna_arrow_down" />
+        <EditText android:gravity="center_vertical" android:id="@id/color_rgb" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:ems="10" android:singleLine="true">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <com.ficeto.colorpicker.ColorPickerView android:id="@id/ambilwarna_viewSatBri" android:layout_width="@dimen/ambilwarna_hsvWidth" android:layout_height="@dimen/ambilwarna_hsvHeight" android:layout_toRightOf="@id/ambilwarna_state" android:layerType="software" />
+    <View android:layout_width="@dimen/ambilwarna_spacer" android:layout_height="@dimen/ambilwarna_spacer" android:layout_below="@id/ambilwarna_viewSatBri" />
+    <ImageView android:id="@id/ambilwarna_viewHue" android:layout_width="@dimen/ambilwarna_hueWidth" android:layout_height="@dimen/ambilwarna_hsvHeight" android:layout_marginLeft="@dimen/ambilwarna_spacer" android:src="@drawable/ambilwarna_hue" android:scaleType="fitXY" android:layout_toRightOf="@id/ambilwarna_viewSatBri" />
+    <ImageView android:id="@id/ambilwarna_cursor" android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/ambilwarna_cursor" android:scaleType="matrix" />
+    <ImageView android:id="@id/ambilwarna_target" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ambilwarna_target" android:scaleType="matrix" />
+    <LinearLayout android:gravity="center" android:id="@id/ambilwarna_opacityView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ambilwarna_spacer" android:layout_below="@id/ambilwarna_viewSatBri" android:layout_alignRight="@id/ambilwarna_viewHue" android:layout_alignParentLeft="true">
+        <CheckBox android:id="@id/opacityActive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opacityLabel" />
+        <SeekBar android:id="@id/opacityValue" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="@integer/max_opacity" android:indeterminate="false" android:layout_weight="0.62" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/gps_btn" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="82.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="24.0dip" android:textStyle="normal" android:ellipsize="end" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_title_gps_info" android:singleLine="true" android:layout_centerVertical="true" android:fontFamily="sec-roboto-light" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/language_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/eula_title" android:background="#ff026c86" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <TextView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/terms_title" style="@style/eula_title_area" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="0.5">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="158.0dip">
+                <ScrollView android:scrollbarStyle="outsideInset" android:orientation="vertical" android:id="@id/terms_scroll" android:padding="@dimen/term_and_condition_scroll_area_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:gravity="start" android:id="@id/terms_msg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false" style="@style/description_area" />
+                </ScrollView>
+            </LinearLayout>
+            <CheckBox android:textSize="17.0dip" android:textColor="@color/desc_text" android:ellipsize="end" android:gravity="start|center" android:id="@id/terms_confirm" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="14.0dip" android:text="@string/terms_confirm" android:maxLines="4" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/err_collection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="0.5">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="158.0dip">
+                <ScrollView android:scrollbarStyle="outsideInset" android:orientation="vertical" android:id="@id/terms_scroll2" android:padding="@dimen/term_and_condition_scroll_area_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:gravity="start" android:id="@id/terms_msg2" android:scrollbars="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/error_log_collection" android:editable="false" style="@style/description_area" />
+                </ScrollView>
+            </LinearLayout>
+            <RadioGroup android:orientation="horizontal" android:id="@id/menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:checkedButton="@id/err_collection_confirm">
+                <RadioButton android:textSize="17.0dip" android:textColor="@color/desc_text" android:gravity="start|center" android:id="@id/err_collection_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/error_log_yes" android:layout_weight="0.5" />
+                <RadioButton android:textSize="17.0dip" android:textColor="@color/desc_text" android:gravity="start|center" android:id="@id/err_collection_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/error_log_no" android:layout_weight="0.5" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

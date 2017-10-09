@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/kap_padding" android:paddingEnd="@dimen/kap_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/kap_description" android:paddingTop="@dimen/kap_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kap_description" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/kap_reboot_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_below="@id/kap_description">
+        <ImageView android:id="@id/kap_reboot_img" android:background="@drawable/kap_warning_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:cropToPadding="false" />
+        <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/kap_warning_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kap_start" />
+    </LinearLayout>
+</RelativeLayout>

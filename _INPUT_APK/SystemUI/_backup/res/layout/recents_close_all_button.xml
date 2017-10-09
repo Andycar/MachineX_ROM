@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/clear_all_button" android:layout_width="fill_parent" android:layout_height="@dimen/tw_status_bar_recents_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/tw_status_bar_recent_panel_button_text_size_port" android:textColor="#fff5f5f5" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:background="#25000000" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/tw_status_bar_recents_button_height" android:text="@string/status_bar_recent_remove_all_button" android:singleLine="true" android:drawablePadding="@dimen/tw_status_bar_recent_panel_button_drawable_padding" android:layout_weight="1.0" android:contentDescription="@string/status_bar_recent_remove_all_button" />
+</LinearLayout>

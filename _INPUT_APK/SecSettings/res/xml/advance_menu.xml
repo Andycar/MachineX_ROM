@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <ListPreference android:persistent="false" android:entries="@array/touch_key_light_entries" android:title="@string/touch_key_light" android:key="touch_key_light" android:summary="@string/touch_key_light_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/touch_key_light_values" />
+    <PreferenceScreen android:title="@string/screen_mode_setting" android:key="screen_mode" android:summary="@string/screen_mode_summary" />
+    <PreferenceScreen android:title="@string/reading_mode" android:key="reading_mode" android:summary="@string/reading_mode_summary" android:fragment="com.android.settings.ReadingMode" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/display_saving" android:key="power_saving_mode" android:summary="@string/display_saving_mode_summary" />
+    <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
+</PreferenceScreen>

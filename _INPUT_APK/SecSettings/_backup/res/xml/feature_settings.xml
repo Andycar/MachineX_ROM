@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceScreen android:title="@string/s_beam_settings_title" android:key="sbeam" android:summary="@string/nfc_quick_toggle_summary" />
+    <SwitchPreferenceScreen android:title="@string/hovering_title" android:key="air_view" android:summary="@string/hovering_summary" />
+    <SwitchPreferenceScreen android:title="@string/air_motion_title" android:key="air_motion" android:summary="@string/air_motion_summary" />
+    <SwitchPreferenceScreen android:title="@string/voice_input_control_title" android:key="voice_cmd" android:summary="@string/voice_input_control_summry" />
+    <SwitchPreferenceScreen android:title="@string/intelligent_sleep_title" android:key="smart_stay" android:summary="@string/intelligent_sleep_summary" />
+    <SwitchPreferenceScreen android:title="@string/smart_pause_title" android:key="smart_pause" android:summary="@string/smart_pause_summary" />
+    <SwitchPreferenceScreen android:title="@string/smart_scroll_title" android:key="smart_scroll" android:summary="@string/smart_scroll_summary" />
+    <SwitchPreferenceScreen android:title="@string/easy_mode" android:key="easy_mode" android:summary="@string/easy_mode_summary" />
+    <SwitchPreferenceScreen android:title="@string/op_mode" android:key="op_mode" android:summary="@string/op_mode_summary" />
+    <SwitchPreferenceScreen android:title="@string/screen_mode_auto" android:key="adapt_display" android:summary="@string/screen_mode_auto_summary" />
+    <SwitchPreferenceScreen android:title="@string/smart_block_title" android:key="smart_block" android:summary="@string/smart_block_summary" />
+    <SwitchPreferenceScreen android:title="@string/multi_window_title" android:key="multi_window" android:summary="@string/multi_window_summary" />
+    <Preference android:title="@string/new_multi_user_feature_title" android:key="multi_user" android:summary="@string/new_multi_user_feature_summary" />
+</PreferenceScreen>

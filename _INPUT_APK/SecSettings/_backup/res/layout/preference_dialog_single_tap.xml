@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0sp" android:gravity="left" android:id="@id/singletap_noti" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/single_tap_mode_description" android:fontFamily="sec-roboto-light" />
+    <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/enable_single_tap_checkbox" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="18.0dip" android:text="@string/dont_show_dialog" />
+</LinearLayout>

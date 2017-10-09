@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_layout" android:background="@drawable/gridview_bg" android:paddingTop="@dimen/grid_settings_header_view_top_margin" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/grid_settings_header_view_min_width" android:minHeight="@dimen/grid_settings_header_view_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.settings.ToggleImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@id/icon_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/grid_settings_header_view_text_size" android:textColor="@color/grid_settings_header_view_text_color" android:ellipsize="end" android:gravity="center|top" android:id="@id/title" android:paddingLeft="@dimen/grid_settings_header_view_text_left_right_padding" android:paddingRight="@dimen/grid_settings_header_view_text_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" />
+</LinearLayout>

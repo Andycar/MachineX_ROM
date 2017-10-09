@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_editprofile_label_textSize" android:gravity="center_vertical" android:id="@id/tv_profileLabel" android:paddingLeft="@dimen/dialog_editprofile_label_paddingLeft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_editprofile_label_layoutHeight" android:text="@string/my_profile_edit" android:singleLine="true" android:includeFontPadding="false" />
+    <EditText android:id="@id/ed_EditMyProfile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_editprofile_edittext_margin" android:hint="@string/my_profile_dialog_hint" android:maxLines="3" android:lines="3" android:selectAllOnFocus="true" android:maxLength="5" android:inputType="textCapSentences|textMultiLine" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.sec.android.app.SecSetupWizard" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-I9505XXSPQA1">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.PERFORM_CDMA_PROVISIONING"/>
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.settings.permission.READ_GSETTINGS"/>
+    <uses-permission android:name="com.google.android.providers.settings.permission.WRITE_GSETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="com.sec.android.app.reactive.permission.ACCESS_REACTIVE_SERVICE"/>
+    <uses-permission android:name="com.vodafone.vodafone360updates.permission.SHOW_SETUP_WIZARD"/>
+    <supports-screens android:xlargeScreens="true"/>
+    <supports-screens android:anyDensity="true"/>
+    <application android:allowClearUserData="false" android:hardwareAccelerated="false" android:icon="@drawable/icon" android:label="@string/app_name" android:largeHeap="true" android:supportsRtl="true" android:theme="@style/SettingsTheme" android:uiOptions="splitActionBarWhenNarrow">
+        <meta-data android:name="android.SETUP_VERSION" android:value="eclair_1"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <activity android:configChanges="locale|fontScale|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="" android:launchMode="singleTask" android:name="com.sec.android.app.SecSetupWizard.SecSetupWizardActivity" android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+            <intent-filter android:priority="6">
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.DEVICE_INITIALIZATION_WIZARD"/>
+                <action android:name="com.android.setupwizard.OEM_POST_SETUP"/>
+                <action android:name="com.android.setupwizard.COMPLETED"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:launchMode="singleTop" android:name=".LanguageSettingActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:label="@string/app_name" android:launchMode="singleTop" android:name=".VideoIntroLanguageActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".WelcomeActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:label="@string/sim_missing_title" android:launchMode="singleTop" android:name=".SimMissingCheckActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:label="@string/data_connect_title" android:launchMode="singleTop" android:name=".DataConnectionActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:label="@string/reactivation_lock_title" android:launchMode="singleTop" android:name=".ReActivationLockActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".BackgroundTrafficActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:label="@string/terms_title" android:launchMode="singleTop" android:name=".TermsAndConditionActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".AttWelcomeSetupActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".ValidationEmailAccount" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:launchMode="singleTop" android:name=".NetworkChargesActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:launchMode="singleTop" android:name=".CURegistrationActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:launchMode="singleTop" android:name=".CTCRegistrationActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:launchMode="singleTop" android:name=".BaiduLocationActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:configChanges="keyboardHidden" android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:label="@string/app_name" android:launchMode="singleTop" android:name=".DeviceNameActivity" android:theme="@style/SettingsTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:exported="true" android:immersive="true" android:label="@string/v3_title" android:launchMode="singleTop" android:name=".KorV3Activity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".EasyModeStepWidgetsActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".EasyModeStepFontActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:immersive="true" android:label="@string/location_activity_title" android:launchMode="singleTop" android:name=".LocationActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:immersive="true" android:launchMode="singleTop" android:name=".EmailAccountConfigureList" android:theme="@style/SettingsTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:enabled="@bool/samsung_legal_popup_enabled" android:name=".SamsungLegal" android:theme="@style/SettingsTheme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.sec.android.app.SecSetupWizard.SamsungLegal"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="SetupIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NETWORK_SET_TIME"/>
+                <action android:name="android.intent.action.NETWORK_SET_TIMEZONE"/>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="com.sec.android.nfc.NFCSERVICE_STARTED"/>
+                <action android:name="com.google.android.setupwizard.SETUP_WIZARD_FINISHED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

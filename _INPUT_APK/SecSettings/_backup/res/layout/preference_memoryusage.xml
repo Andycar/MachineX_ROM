@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.deviceinfo.PercentageBarChart android:gravity="center_vertical" android:id="@id/percentage_bar_chart" android:layout_width="fill_parent" android:layout_height="32.0dip" android:minHeight="?android:listPreferredItemHeight" settings:emptyColor="@color/material_empty_color_light" settings:minTickWidth="6.0dip" />
+</LinearLayout>

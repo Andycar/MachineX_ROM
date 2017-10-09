@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/smart_screen_noti0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="8.0dip" android:text="@string/intelligent_help_0" />
+            <ImageView android:layout_gravity="center" android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/smart_screen_noti1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/intelligent_help_1" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/divider_line_view" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" />
+    <CheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:gravity="center" android:id="@id/do_not_show_again" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="18.0dip" android:text="@string/do_not_show_again" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/help_image_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/hand_adappted_grip_left_02" android:scaleType="center" />
+        <TextView android:textSize="17.0sp" android:textColor="?android:twTextColorPrimary" android:id="@id/help_text1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/onehand_hand_adaptive_tutorial_help_left" />
+        <ImageView android:id="@id/help_image_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/hand_adappted_grip_right_02" android:scaleType="center" />
+        <TextView android:textSize="17.0sp" android:textColor="?android:twTextColorPrimary" android:id="@id/help_text2" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/onehand_hand_adaptive_tutorial_help_right" />
+    </LinearLayout>
+</ScrollView>

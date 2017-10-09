@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/private_mode_app_title_message_text_size" android:id="@id/title_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/private_mode_app_title_message_marginTop" android:layout_marginBottom="@dimen/private_mode_app_title_message_marginBottom" android:text="@string/personal_page_tutorial_app_title_message" android:layout_marginStart="@dimen/private_mode_app_title_message_marginLeft" android:layout_marginEnd="@dimen/private_mode_app_title_message_marginRight" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@android:id/list" android:background="@drawable/tw_list_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:footerDividersEnabled="false" android:layout_marginStart="@dimen/private_mode_app_title_message_marginLeft" android:layout_marginEnd="@dimen/private_mode_app_title_message_marginRight" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/private_mode_welcome_action_bar_button_full_bg" android:layout_width="fill_parent" android:layout_height="@dimen/private_mode_welcome_next_button_height">
+                <View android:id="@id/prev_btn_area" android:tag="prev_is_disclaimer" android:background="@drawable/action_bar_button_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <View android:background="@drawable/tw_divider_ab_holo_light" android:layout_width="@dimen/private_mode_welcome_next_button_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area" android:background="@drawable/private_welcome_action_bar_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/private_mode_welcome_next_button_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/next_btn_text_arrow" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next_button_label" android:includeFontPadding="false" android:drawablePadding="@dimen/private_mode_welcome_next_arrow_paddingLeft" android:drawableEnd="@drawable/privatemode_setup_btn_arrow_normal" android:fontFamily="sec-roboto-light" android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

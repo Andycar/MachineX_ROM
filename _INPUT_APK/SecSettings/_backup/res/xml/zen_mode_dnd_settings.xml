@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dnd_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.UnclickablePreference android:title="@string/dnd_description" android:key="dnd_description" />
+    <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/zen_mode_option_title" android:key="zen_mode" />
+    <PreferenceScreen android:title="@string/allow_exceptions" android:key="allow_exceptions" android:fragment="com.android.settings.notification.ZenModeAllowException" />
+    <PreferenceCategory android:title="@string/allow_exceptions" android:key="important">
+        <CheckBoxPreference android:persistent="false" android:title="@string/allow_exceptions" android:key="zen_mode_switch" android:switchTextOn="" android:switchTextOff="" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_phone_calls" android:key="phone_calls" android:switchTextOn="" android:switchTextOff="" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_messages" android:key="messages" android:switchTextOn="" android:switchTextOff="" />
+        <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/zen_mode_from" android:key="starred" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_events" android:key="events" android:summary="@string/zen_mode_events_summary" android:switchTextOn="" android:switchTextOff="" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/volume_alarm_description" android:key="alarm_switch" android:switchTextOn="" android:switchTextOff="" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:persistent="false" android:title="@string/set_schedule" android:key="scheduling_switch" android:switchTextOn="" android:switchTextOff="" />
+    <Preference android:persistent="false" android:title="@string/zen_mode_downtime_days" android:key="days" />
+    <PreferenceCategory android:title="@string/zen_mode_automation_category" android:key="automation">
+        <Preference android:persistent="false" android:title="@string/zen_mode_entry_conditions_title" android:key="entry" />
+        <Preference android:persistent="false" android:title="@string/manage_condition_providers" android:key="manage_condition_providers" android:fragment="com.android.settings.notification.ConditionProviderSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

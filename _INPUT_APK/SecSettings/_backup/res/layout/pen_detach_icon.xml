@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/panel_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/panel" android:layout_width="@dimen/pendetach_panel_width" android:layout_height="@dimen/pendetach_panel_height">
+        <ImageView android:layout_gravity="center|top" android:id="@id/panel_icon" android:layout_width="@dimen/pendetach_image_width" android:layout_height="@dimen/pendetach_image_width" android:layout_marginTop="@dimen/pendetach_image_margin_top" />
+        <com.android.settings.PanelTextView android:textSize="@dimen/pendetach_text_size" android:textColor="@color/pendetach_panel_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center|top" android:id="@id/panel_text" android:layout_width="fill_parent" android:layout_height="@dimen/pendetach_text_height" android:layout_marginTop="@dimen/pendetach_text_margin_top" android:maxLines="2" android:lineSpacingExtra="@dimen/pendetach_text_line_spacing" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/panel_border" android:background="@drawable/setting_panel_bg_line" android:layout_width="@dimen/pendetach_panel_width" android:layout_height="@dimen/pendetach_panel_height" android:alpha="0.0" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pen_feedback_pen_sound_title" android:key="pen_settings_haptic_feedback_menu"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/air_button_title" android:key="haptic_feedback_air_command" />
+    <CheckBoxPreference android:title="@string/hovering_title" android:key="haptic_feedback_air_view" />
+    <CheckBoxPreference android:title="@string/pen_settings_handwriting_section_title" android:key="haptic_feedback_handwriting" />
+    <CheckBoxPreference android:title="@string/pen_feedback_pen_haptic_pen_gesture" android:key="haptic_feedback_pen_gesture" />
+</PreferenceScreen>

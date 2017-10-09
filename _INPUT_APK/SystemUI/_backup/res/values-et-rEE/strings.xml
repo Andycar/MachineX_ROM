@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">Aku taituvus on %d protsenti.</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Klahvilukk</string>
+    <string name="keyguard_password_enter_pin_code">Sisestage PIN-kood</string>
+    <string name="keyguard_password_enter_puk_code">Sisestage SIM-i PUK- ja uus PIN-kood</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM-i PUK-kood</string>
+    <string name="keyguard_password_enter_pin_prompt">Uus SIM-i PIN-kood</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Puudutage parooli sisestamiseks</font></string>
+    <string name="keyguard_password_enter_password_code">Avamiseks sisestage parool</string>
+    <string name="keyguard_password_enter_pin_password_code">Avamiseks sisestage PIN-kood</string>
+    <string name="keyguard_password_wrong_pin_code">Vale PIN-kood.</string>
+    <string name="keyguard_label_text">Avamiseks vajutage menüüklahvi, seejärel klahvi 0.</string>
+    <string name="faceunlock_multiple_failures">Maksimaalne teenusega Face Unlock avamise katsete arv on ületatud</string>
+    <string name="keyguard_charged">Laetud</string>
+    <string name="keyguard_plugged_in">Laadimine</string>
+    <string name="keyguard_low_battery">Ühendage laadija.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Avamiseks vajutage menüüklahvi.</string>
+    <string name="keyguard_network_locked_message">Võrk on suletud</string>
+    <string name="keyguard_missing_sim_message_short">SIM-kaarti pole</string>
+    <string name="keyguard_missing_sim_message">Telefonis pole SIM-kaarti.</string>
+    <string name="keyguard_missing_sim_instructions">Sisestage SIM-kaart.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM-kaart puudub või on loetamatu. Sisestage SIM-kaart.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Kasutamiskõlbmatu SIM-kaart.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-kaart on jäädavalt keelatud.
+ Uue SIM-kaardi saamiseks võtke ühendust oma mobiilsideoperaatoriga."</string>
+    <string name="keyguard_sim_locked_message">SIM-kaart on lukus.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM-kaart on PUK-lukus.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM-kaardi avamine ...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Vidin %2$d/%3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Vidina lisamine.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Tühi</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Avamisala on laiendatud.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Avamisala on ahendatud.</string>
+    <string name="keyguard_accessibility_widget">Vidin %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Kasutaja valija</string>
+    <string name="keyguard_accessibility_camera">Kaamera</string>
+    <string name="keygaurd_accessibility_media_controls">Meedia juhtnupud</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Vidina ümberkorraldamine algas.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Vidina ümberkorraldamine lõppes.</string>
+    <string name="keyguard_accessibility_widget_deleted">Vidin %1$s on kustutatud.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Avamisala laiendamine.</string>
+    <string name="keyguard_accessibility_slide_unlock">Lohistamisega avamine.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Mustriga avamine.</string>
+    <string name="keyguard_accessibility_face_unlock">Näoga avamine.</string>
+    <string name="keyguard_accessibility_pin_unlock">PIN-koodiga avamine.</string>
+    <string name="keyguard_accessibility_password_unlock">Parooliga avamine.</string>
+    <string name="keyguard_accessibility_pattern_area">Mustri ala.</string>
+    <string name="keyguard_accessibility_slide_area">Lohistamisala.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Nupp Eelmine lugu</string>
+    <string name="keyguard_accessibility_transport_next_description">Nupp Järgmine lugu</string>
+    <string name="keyguard_accessibility_transport_pause_description">Nupp Peata</string>
+    <string name="keyguard_accessibility_transport_play_description">Nupp Esita</string>
+    <string name="keyguard_accessibility_transport_stop_description">Nupp Peata</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Meeldib</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Ei meeldi</string>
+    <string name="keyguard_accessibility_transport_heart_description">Süda</string>
+    <string name="keyguard_accessibility_show_bouncer">Jätkamiseks tühistage lukustus</string>
+    <string name="keyguard_accessibility_hide_bouncer">Käivitamine on tühistatud</string>
+    <string name="keyguard_accessibility_delete_widget_start">Kustutamiseks laske vidin %1$s lahti.</string>
+    <string name="keyguard_accessibility_delete_widget_end">Vidinat %1$s ei kustutata.</string>
+    <string name="keyguard_accessibility_next_alarm">Järgmine alarm on määratud ajaks %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Tühista</string>
+    <string name="keyboardview_keycode_delete">Kustuta</string>
+    <string name="keyboardview_keycode_done">Valmis</string>
+    <string name="keyboardview_keycode_mode_change">Režiimi muutmine</string>
+    <string name="keyboardview_keycode_shift">Tõstuklahv</string>
+    <string name="keyboardview_keycode_enter">Sisestusklahv</string>
+    <string name="description_target_unlock">Luku avamine</string>
+    <string name="description_target_camera">Kaamera</string>
+    <string name="description_target_silent">Hääletu</string>
+    <string name="description_target_soundon">Heli on sees</string>
+    <string name="description_target_search">Otsing</string>
+    <string name="description_direction_up">Lohistage üles: %s.</string>
+    <string name="description_direction_down">Lohistage alla: %s.</string>
+    <string name="description_direction_left">Lohistage vasakule: %s.</string>
+    <string name="description_direction_right">Lohistage paremale: %s.</string>
+    <string name="user_switched">Praegune kasutaja %1$s.</string>
+    <string name="kg_emergency_call_label">Hädaabikõne</string>
+    <string name="kg_forgot_pattern_button_text">Unustasin mustri</string>
+    <string name="kg_wrong_pattern">Vale muster</string>
+    <string name="kg_wrong_password">Vale parool</string>
+    <string name="kg_wrong_pin">Vale PIN-kood</string>
+    <string name="kg_too_many_failed_attempts_countdown">Proovige uuesti %d sekundi pärast.</string>
+    <string name="kg_pattern_instructions">Joonistage oma muster</string>
+    <string name="kg_sim_pin_instructions">Sisestage SIM-i PIN-kood</string>
+    <string name="kg_pin_instructions">Sisestage PIN-kood</string>
+    <string name="kg_password_instructions">Sisestage parool</string>
+    <string name="kg_puk_enter_puk_hint">SIM on nüüd keelatud. Jätkamiseks sisestage PUK-kood. Üksikasju küsige operaatorilt.</string>
+    <string name="kg_puk_enter_pin_hint">Sisestage soovitud PIN-kood</string>
+    <string name="kg_enter_confirm_pin_hint">Kinnitage soovitud PIN-kood</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM-kaardi avamine ...</string>
+    <string name="kg_invalid_sim_pin_hint">Sisestage 4–8-numbriline PIN-kood</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-koodi pikkus peab olema vähemalt 8 numbrit.</string>
+    <string name="kg_invalid_puk">Sisestage uuesti õige PUK-kood. Korduvkatsete korral keelatakse SIM jäädavalt.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN-koodid ei ole vastavuses</string>
+    <string name="kg_login_too_many_attempts">Liiga palju mustrikatseid</string>
+    <string name="kg_login_instructions">"Avamiseks logige sisse oma Google'i kontoga."</string>
+    <string name="kg_login_username_hint">Kasutajanimi (e-post)</string>
+    <string name="kg_login_password_hint">Parool</string>
+    <string name="kg_login_submit_button">Logi sisse</string>
+    <string name="kg_login_invalid_input">Vale kasutajanimi või parool.</string>
+    <string name="kg_login_account_recovery_hint">"Kas unustasite kasutajanime või parooli?
+Külastage aadressi "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Konto kontrollimine ...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Olete PIN-koodi %d korda valesti sisestanud.
+
+Proovige %d sekundi pärast uuesti."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Olete parooli %d korda valesti sisestanud. 
+
+Proovige uuesti %d sekundi pärast."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Joonistasite oma avamismustri %d korda valesti.
+
+Proovige %d sekundi pärast uuesti."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Olete üritanud %d korda telefoni valesti avada. Pärast veel %d ebaõnnestunud katset lähtestatakse telefon tehase vaikeseadetele ja kõik kasutajaandmed lähevad kaotsi.</string>
+    <string name="kg_failed_attempts_now_wiping">Olete püüdnud telefoni %d korda valesti avada. Telefon lähtestatakse nüüd tehase vaikeseadetele.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Joonistasite oma avamismustri %d korda valesti. Pärast veel %d ebaõnnestunud katset palutakse teil telefon avada meilikontoga.
+
+ Proovige uuesti %d sekundi pärast."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Eemalda</string>
+    <string name="kg_password_wrong_pin_code_pukked">Vale SIM-i PIN-kood, seadme avamiseks peate nüüd ühendust võtma oma operaatoriga.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM ei ole kasutatav. Võtke ühendust operaatoriga.</string>
+    <string name="kg_password_pin_failed">SIM-i PIN-koodi toiming ebaõnnestus.</string>
+    <string name="kg_password_puk_failed">SIM-i PUK-koodi toiming ebaõnnestus.</string>
+    <string name="kg_pin_accepted">Kood on õige.</string>
+    <string name="keyguard_transport_prev_description">Nupp Eelmine lugu</string>
+    <string name="keyguard_transport_next_description">Nupp Järgmine lugu</string>
+    <string name="keyguard_transport_pause_description">Nupp Peata</string>
+    <string name="keyguard_transport_play_description">Nupp Esita</string>
+    <string name="keyguard_transport_stop_description">Nupp Peata</string>
+    <string name="keyguard_carrier_default">Teenus puudub.</string>
+    <string name="app_label">Süsteemi UI</string>
+    <string name="status_bar_clear_all_button">Puhasta</string>
+    <string name="status_bar_recent_remove_item_title">Eemalda loendist</string>
+    <string name="status_bar_recent_inspect_item_title">Rakenduse teave</string>
+    <string name="status_bar_no_recent_apps">Hiljutisi rakendusi pole</string>
+    <string name="status_bar_no_notifications_title">Teavitusi ei ole</string>
+    <string name="status_bar_ongoing_events_title">Jätkuv</string>
+    <string name="status_bar_latest_events_title">Teavitused</string>
+    <string name="battery_low_title">Aku on tühi</string>
+    <string name="battery_low_percent_format">%d%% jäänud</string>
+    <string name="invalid_charger">USB-laadimist ei toetata. Kasutage kaasasolevat laadijat.</string>
+    <string name="battery_low_why">Seaded</string>
+    <string name="status_bar_settings_settings_button">Seaded</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Lennurežiim</string>
+    <string name="status_bar_settings_auto_rotation">Ekraani automaatne pööramine</string>
+    <string name="status_bar_settings_mute_label">Vaigista</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto.</string>
+    <string name="status_bar_settings_notifications">Teavitused</string>
+    <string name="bluetooth_tethered">Bluetooth-modemi ühendus</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Seadista sisestusmeetodid</string>
+    <string name="status_bar_use_physical_keyboard">Füüsiline klaviatuur</string>
+    <string name="usb_device_permission_prompt">Kas lubada rakendusel %1$s juurde pääseda USB-seadmele?</string>
+    <string name="usb_accessory_permission_prompt">Kas lubada rakendusel %1$s juurde pääseda USB-tarvikule?</string>
+    <string name="usb_device_confirm_prompt">Kas avada %1$s, kui see USB-seade on ühendatud?</string>
+    <string name="usb_accessory_confirm_prompt">Kas avada %1$s, kui see USB-tarvik on ühendatud?</string>
+    <string name="usb_accessory_uri_prompt">Installitud rakendused ei tööta selle USB-tarvikuga. Lisateave tarviku kohta: %s.</string>
+    <string name="title_usb_accessory">USB-tarvik</string>
+    <string name="label_view">Kuva</string>
+    <string name="always_use_device">Kasuta vaikimisi selle USB-seadme jaoks</string>
+    <string name="always_use_accessory">Kasuta vaikimisi selle USB-tarviku jaoks</string>
+    <string name="usb_debugging_title">Kas lubada USB vea kõrvaldamine?</string>
+    <string name="usb_debugging_message">"Arvuti RSA-klahvi sõrmejälg on:
+%1$s"</string>
+    <string name="usb_debugging_always">Luba alati see arvuti</string>
+    <string name="compat_mode_on">Suumi ekraani täitmiseks</string>
+    <string name="compat_mode_off">Venita ekraani täitmiseks</string>
+    <string name="screenshot_saving_ticker">Ekraanipildi salvestamine…</string>
+    <string name="screenshot_saving_title">Ekraanipildi salvestamine…</string>
+    <string name="screenshot_saving_text">Ekraanipilti salvestatakse.</string>
+    <string name="screenshot_saved_title">Ekraanipilt jäädvustatud</string>
+    <string name="screenshot_saved_text">Toksake ekraanipildi kuvamiseks.</string>
+    <string name="screenshot_failed_title">Ekraanipilti ei saa jäädvustada.</string>
+    <string name="usb_preference_title">USB failiedastuse valikud</string>
+    <string name="use_mtp_button_title">Ühenda meediumipleierina (MTP)</string>
+    <string name="use_ptp_button_title">Ühenda kaamerana (PTP)</string>
+    <string name="installer_cd_button_title">Installi Androidi failiedastuse rakendus Macile</string>
+    <string name="accessibility_back">Tagasi</string>
+    <string name="accessibility_home">Kodu</string>
+    <string name="accessibility_menu">Menüü</string>
+    <string name="accessibility_search_light">Otsi</string>
+    <string name="accessibility_camera_button">Kaamera</string>
+    <string name="accessibility_unlock_button">Ava</string>
+    <string name="accessibility_ime_switch_button">Sisestusmeetodi vahetamise nupp.</string>
+    <string name="accessibility_compatibility_zoom_button">Ühilduvuse suumi nupp</string>
+    <string name="accessibility_compatibility_zoom_example">Suumi suuremale kuvale</string>
+    <string name="accessibility_bluetooth_connected">Ühendatud Bluetoothiga</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetoothi ühendus katkestatud.</string>
+    <string name="accessibility_no_battery">Aku puudub</string>
+    <string name="accessibility_battery_one_bar">Aku laetuse tase on üks tulp</string>
+    <string name="accessibility_battery_two_bars">Aku laetuse tase on kaks tulpa</string>
+    <string name="accessibility_battery_three_bars">Aku laetuse tase on kolm tulpa</string>
+    <string name="accessibility_battery_full">Aku on laetud.</string>
+    <string name="accessibility_no_phone">Telefoni signaal puudub</string>
+    <string name="accessibility_phone_one_bar">Telefoni signaali tugevus on üks tulp</string>
+    <string name="accessibility_phone_two_bars">Telefoni signaali tugevus on kaks tulpa</string>
+    <string name="accessibility_phone_three_bars">Telefoni signaali tugevus on kolm tulpa</string>
+    <string name="accessibility_phone_signal_full">Täielik telefoni signaal</string>
+    <string name="accessibility_no_data">Andmed puuduvad</string>
+    <string name="accessibility_data_one_bar">Andmeside signaali tugevus on üks tulp</string>
+    <string name="accessibility_data_two_bars">Andmeside signaali tugevus on kaks tulpa</string>
+    <string name="accessibility_data_three_bars">Andmeside signaali tugevus on kolm tulpa</string>
+    <string name="accessibility_data_signal_full">Täielik andmeside signaal</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi signaal puudub</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi signaali tugevus on üks tulp</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi signaali tugevus on kaks tulpa</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi signaali tugevus on kolm tulpa</string>
+    <string name="accessibility_wifi_signal_full">Taielik Wi-Fi signaal.</string>
+    <string name="accessibility_no_signal">Signaali pole</string>
+    <string name="accessibility_not_connected">Ühendus puudub.</string>
+    <string name="accessibility_desc_on">Sees</string>
+    <string name="accessibility_desc_off">Väljas</string>
+    <string name="accessibility_desc_connected">Ühendatud.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Rändlus</string>
+    <string name="accessibility_data_connection_edge">Ääristatud</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM-i pole</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth-jagamine</string>
+    <string name="accessibility_airplane_mode">Lennurežiim</string>
+    <string name="accessibility_settings_button">Süsteemi seaded</string>
+    <string name="accessibility_notifications_button">Teavitused</string>
+    <string name="accessibility_remove_notification">Kustuta teavitused</string>
+    <string name="accessibility_gps_enabled">GPS on sisse lülitatud</string>
+    <string name="accessibility_gps_acquiring">GPS-i hankimine…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter on aktiveeritud</string>
+    <string name="accessibility_ringer_vibrate">Helinaks on värin</string>
+    <string name="accessibility_ringer_silent">Vaigista helin</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Sulge</string>
+    <string name="accessibility_desc_quick_settings">Kiirseaded</string>
+    <string name="accessibility_quick_settings_alarm">Märguande ajaks on määratud %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobiilne andmeside desaktiveeritud</string>
+    <string name="data_usage_disabled_dialog_enable">Akt. andmesideühendus uuesti</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Internetiühendus puudub</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi on ühendatud.</string>
+    <string name="gps_notification_searching_text">Otsimine GPS-iga…</string>
+    <string name="gps_notification_found_text">Asukoht määratud GPS-iga</string>
+    <string name="accessibility_clear_all">Tühista kõik teavitused</string>
+    <string name="status_bar_notification_inspect_item_title">Teate seaded</string>
+    <string name="accessibility_rotation_lock_off">Ekraani pooratakse automaatselt.</string>
+    <string name="start_dreams">Ekraanisäästja</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Mobiilset kuumkohta ei toetata.</string>
+    <string name="it_policy_not_allow_wifi">Turvalisuse poliis piirab Wi-Fi kasutuse.</string>
+    <string name="it_policy_not_allow_wifiap">Turvalisuse poliis piirab internetijagamise kasutuse.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Lennurežiimis</string>
+    <string name="edm_policy_not_allow_open_wifiap">Turvalisuse poliis piirab mitteturvalise modemi kasutamist kuumkoha jaoks.</string>
+    <string name="wifi_authentication_succeed">Autenditud.</string>
+    <string name="wifi_authentication_failed">Autentimine nurjus.</string>
+    <string name="wifi_authentication_invalid_value">Autentimine ebaõnnestus. Palun kontrollige kehtivaid sertifikaate.</string>
+    <string name="wifi_setup_title_connected_network">Ühendus loodud Wi-Fi võrguga %s.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Laetud.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth-ühendus väljas</string>
+    <string name="quick_settings_brightness_label">Heledus</string>
+    <string name="quick_settings_ime_label">Sisestusviis</string>
+    <string name="quick_settings_location_label">Asukoht</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Ainult hädaabikõned.</string>
+    <string name="quick_settings_settings_label">Seaded</string>
+    <string name="quick_settings_time_label">Kellaaeg</string>
+    <string name="quick_settings_user_label">Mina</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Ühendus puudub.</string>
+    <string name="quick_settings_wifi_no_network">Võrk puudub</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Heledus</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto.</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Taskulamp</string>
+    <string name="recents_empty_message">Hiljutisi rakendusi pole</string>
+    <string name="zen_no_interruptions">Katkestusteta</string>
+    <string name="zen_important_interruptions">Ainult prioriteediga katkestused</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Puudub</string>
+    <string name="interruption_level_priority">"Priori-
+teet"</string>
+    <string name="interruption_level_all">Kõik</string>
+    <string name="guest_wipe_session_dontwipe">Jah, jätka</string>
+    <string name="notification_hidden_text">Sisu peidetud</string>
+    <string name="sanitized_content_text">Toksake siia, et siseneda rakendusse %s.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Tänan, ei</string>
+    <string name="hidden_notifications_setup">Seadista</string>
+    <string name="quickpanel_airplane_mode_text">"Lennu-
+režiim"</string>
+    <string name="quickpanel_airplane_mode_content_description">Lennurežiim</string>
+    <string name="quickpanel_content_description_led_on">%s on aktiveeritud.</string>
+    <string name="quickpanel_content_description_led_off">%s on desaktiveeritud.</string>
+    <string name="quickpanel_content_description_led_dim">%s ei tohi olla aktiveeritud.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Kiirühendamine</string>
+    <string name="accessibility_qconnect_button_tts">Kiirühendamine</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Asukoht</string>
+    <string name="quickpanel_silent_mode_content_description">Vaikne režiim</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Heli</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Värin</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Vaigista</string>
+    <string name="quickpanel_rotation_content_description">Ekraani pööramine</string>
+    <string name="quickpanel_mobile_data_content_description">Mobiilne andmeside</string>
+    <string name="quickpanel_power_saving_content_description">Energiasäästurežiim</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ülim energiasäästurežiim</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Mitmikaken</string>
+    <string name="quickpanel_car_mode_content_description">Autorežiim</string>
+    <string name="quickpanel_dormant_mode_content_description">Mitte segada</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Mobiilne kuumkoht</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Puutetundlikkus</string>
+    <string name="quickpanel_smart_stay_content_description">Nutikas olek</string>
+    <string name="quickpanel_smart_scroll_content_description">Nutikas kerimine</string>
+    <string name="quickpanel_sync_content_description">Sünkrooni</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi helistamine</string>
+    <string name="quickpanel_toolbox_content_description">Tööriistakast</string>
+    <string name="quickpanel_adaptive_display_content_description">Kohastuv kuva</string>
+    <string name="quickpanel_airgesture_content_description">Õhus liigutamine</string>
+    <string name="quickpanel_airview_content_description">Õhuvaade</string>
+    <string name="quickpanel_network_booster_content_description">Allalaadimisvõimendi</string>
+    <string name="quickpanel_personal_mode_content_description">Privaatsusrežiim</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Küljenupu paneel</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Asukoht</string>
+    <string name="quickpanel_silent_mode_text">"Vaikne
+režiim"</string>
+    <string name="quickpanel_silent_mode_sound">Heli</string>
+    <string name="quickpanel_silent_mode_vibrate">Värin</string>
+    <string name="quickpanel_silent_mode_mute">Vaigista</string>
+    <string name="quickpanel_rotation_text">"Ekraani
+pöör."</string>
+    <string name="quickpanel_mobile_data_text">Mobiiliandmes.</string>
+    <string name="quickpanel_power_saving_text">"Energia-
+sääst"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Ülim
+en.sääst"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Mitmik-
+aken"</string>
+    <string name="quickpanel_car_mode_text">"Auto-
+rež."</string>
+    <string name="quickpanel_driving_mode_text">"Käed-vabad
+režiim"</string>
+    <string name="quickpanel_dormant_mode_text">"Mitte
+segada"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Mobiilne
+kuumkoht"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Puute-
+tundl."</string>
+    <string name="quickpanel_smart_stay_text">"Nutikas
+olek"</string>
+    <string name="quickpanel_smart_scroll_text">"Nutikas
+kerim."</string>
+    <string name="quickpanel_sync_text">Sünkr.</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"Töö-
+riistad"</string>
+    <string name="quickpanel_smart_pause_text">"Nutikas
+peatam."</string>
+    <string name="quickpanel_adaptive_mode_text">"Adapt
+Display"</string>
+    <string name="quickpanel_airgesture_text">"Õhus
+liigutamine"</string>
+    <string name="quickpanel_airview_text">"Õhu-
+vaade"</string>
+    <string name="quickpanel_network_booster_text">"Allal.-
+võimendi"</string>
+    <string name="quickpanel_personal_mode_text">"Priv.-
+režiim"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Kiir-
+ühend."</string>
+    <string name="quickpanel_side_key_text">"Küljenupu
+paneel"</string>
+    <string name="accessibility_power_saving_mode">Energiasäästurežiimi aktiveerimiseks aktiveerige vähemalt üks funktsioon.</string>
+    <string name="accessibility_power_saving_mode_title">Energiasäästurežiim</string>
+    <string name="insert_sim_card">Sisesta SIM-kaart</string>
+    <string name="insert_sim_card_message">Sisestage SIM-kaart, et paaseda ligi vorguteenustele.</string>
+    <string name="insert_uim_or_sim_card">Paigaldage UIM-/SIM-kaart</string>
+    <string name="status_bar_recent_launch_task_manager_title">Tegumihaldur</string>
+    <string name="status_bar_recent_remove_all_button">Sulge kõik</string>
+    <string name="blocking_mode_enable">Kui see režiim on aktiveeritud, desaktiveeritakse teie valitud funktsioonide teavitused. Saate saabuvate kõnede teavitusi ainult lubatud inimeste loendist.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Blokeerimisrežiim inaktiveerib valitud funktsioonide teavitused. Kui saabuvad kõned on blokeeritud, saate saabuvate kõnede teavitusi ainult inimestelt, kes on teie lubatud kontaktides. Blokeerimisrežiimi seadete muutmiseks avage menüü Seaded > Isikupärastamine > Blokeerimisrežiim.</string>
+    <string name="blocking_mode_enable_wifi">Kui see režiim on aktiveeritud, desaktiveeritakse teie valitud funktsioonide teavitused.</string>
+    <string name="blocking_mode_title">Blokeerimisrežiim</string>
+    <string name="magnification_text_for_air_view_button">Suurendamise liigutused</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Allalaadimisvõimendit ei saa kasutada, kui %1$s on aktiveeritud. Desaktiveerige %2$s ja proovige uuesti.</string>
+    <string name="quickpanel_air_view_warning">Ohuvaate aktiveerimiseks aktiveerige vahemalt uks funktsioon.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Õhuvaate aktiveerimiseks aktiveerige valitud õhuvaate režiimist vähemalt üks funktsioon.</string>
+    <string name="quickpanel_air_gesture_warning">Ohus liigutamise aktiveerimiseks aktiveerige vahemalt uks seotud funktsioon.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Toksake ja hoidke sorme kiirdseadistuse nupul, et avada seotud seadeid.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">Ilma Wi-Fi võrguühenduseta ei saa te kasutada Internetti, e-posti ega teisi rakendusi, mis nõuavad andmesideühendust.</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Ühenda</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Mobiilsidevõrkudega ei saa ühendust luua, kui lennurežiim on aktiveeritud. Desaktiveerige lennurežiim ja proovige uuesti.</string>
+    <string name="warning_alert_check">Ära enam kuva</string>
+    <string name="data_usage_enable_mobile_warning">Pakettandmesideühenduse loomisel võivad rakenduda lisatasud. Kas jätkata?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">VoLTE-d ei saa kasutada, kui lennurežiim on aktiveerutud. Desaktiveerige lennurežiim ja proovige uuesti.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">Teie praegune tarkvaraversioon ei toeta VoLTE-d. Lisateabe saamiseks võtke ühendust klienditeenindusega.</string>
+    <string name="smart_pause_toast_text">Nutika peatamise kasutamiseks aktiveerige esmalt käsk Vaigista/peata.</string>
+    <string name="smart_bonding_popup_msg_roaming">Rändluse ajal ei saa allalaadimisvõimendit kasutada. Soovitame alla laadida Wi-Fi võrgu kaudu.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Lülita Wi-Fi sisse</string>
+    <string name="smart_bonding_popup_msg_data_btn">Lülita mobiilne andmeside sisse</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Lülit. Wi-Fi ja mob.side sisse</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi on hetkel välja lülitatud. Allalaadimisvõimendi aktiveerimiseks peavad nii Wi-Fi kui ka mobiilne andmeside olema sisse lülitatud. Sõltuvalt teie paketist võivad mobiilsidevõrgu kaudu allalaadimisel rakenduda lisatasud.</string>
+    <string name="smart_bonding_popup_msg_data">Mobiilne andmeside on hetkel välja lülitatud. Allalaadimisvõimendi aktiveerimiseks peavad nii Wi-Fi kui ka mobiilne andmeside olema sisse lülitatud. Sõltuvalt teie paketist võivad mobiilsidevõrgu kaudu allalaadimisel rakenduda lisatasud.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi ja mobiilne andmeside on hetkel välja lülitatud. Allalaadimisvõimendi aktiveerimiseks peavad nii Wi-Fi kui ka mobiilne andmeside olema sisse lülitatud. Sõltuvalt teie paketist võivad mobiilsidevõrgu kaudu allalaadimisel rakenduda lisatasud.</string>
+    <string name="smart_bonding_popup_msg">Allalaadimisvõimendi aktiveeritakse. Olenevalt teie paketist võivad mobiilsidevõrgu kaudu allalaadimisel rakenduda lisatasud.</string>
+    <string name="smartbonding_dialog_title">Allalaadimisvõimendi</string>
+    <string name="insert_a_sim_card_and_try_again">Paigaldage SIM-kaart ja proovige uuesti.</string>
+    <string name="unable_to_enable_Download_booster">Allalaadimisvõimendit ei saa aktiveerida</string>
+    <string name="download_booster_dialog_title">Allalaadimisvõimendi lubamine</string>
+    <string name="enable">Luba</string>
+    <string name="sd_card">SD-kaart</string>
+    <string name="sdcard_insert">SD-kaart on paigaldatud</string>
+    <string name="sdcard_unmount">Katkesta SD-kaardi ühendus</string>
+    <string name="go_to_myfiles">Ava kaust Minu Failid</string>
+    <string name="charging_interruption_title">Ei saa laadida</string>
+    <string name="charging_interruption_by_terminal_open_text">Seadet ei saa laadida, Veenduge, et kasutate Samsungi ühilduvusega akut ja laadijat ning teie seade on laadijaga korralikult ühendatud.</string>
+    <string name="full_battery_title">Teave</string>
+    <string name="full_battery_text">"Aku on laetud.
+Eemaldage laadija."</string>
+    <string name="reading_mode_title">Lugemisrežiim</string>
+    <string name="reading_mode_alert">Lugemisrežiim on aktiveeritud. Ekraan on nüüd optimeeritud lugemise jaoks. See režiim on saadaval ainult valitud rakendustes.</string>
+    <string name="reading_mode_settings">Seaded</string>
+    <string name="quickpanel_ebook_text">"Lug.-
+režiim"</string>
+    <string name="quickpanel_ebook_content_description">Lugemisrežiim</string>
+    <string name="driving_mode_title">Käed-vabad režiim</string>
+    <string name="driving_mode_on_dialog_msg_1">Käed-vabad režiim tuleb pärast rakenduse S Voice käed-vabad sulgemist menüüs Seaded desaktiveerida. Kui käed-vabad režiim jääb aktiveerituks, loetakse teavitused ja saabuvate kõnede teave ikkagi automaatselt ette.</string>
+    <string name="driving_mode_on_dialog_msg_2">Saate lülitada käed-vabad režiimi välja, öeldes rakenduses S Voice käed-vabad käskluse „Lülita käed-vabad režiim välja” või avades menüü Seaded või teavituste paneeli.</string>
+    <string name="quickpanel_driving_mode_content_description">Käed-vabad režiim</string>
+    <string name="critical_low_battery_title">Aku laetuse tase on kriitiliselt madal</string>
+    <string name="critical_low_battery_text">Ühendage oma seade laadijaga. Kui kasutate oma seadet laadimise ajal, ei pruugi see korralikult laadida.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Kiiremini laadimiseks ühendage pistik vooluvõrku ja sulgege kasutamata rakendused üksuses %s. Laadimise ajal kasutamine võib takistada efektiivset laadimist.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Sulgege kasutamata rakendused üksuses %s. Laadimise ajal kasutamine võib takistada efektiivset laadimist.</string>
+    <string name="low_battery_text">Ühendage oma seade laadijaga. Kui kasutate oma seadet laadimise ajal, ei pruugi see korralikult laadida.</string>
+    <string name="low_battery_text_charged_via_usb">Kiiremini laadimiseks ühendage pistik vooluvõrku ja sulgege kasutamata rakendused üksuses %s. Laadimise ajal kasutamine võib takistada efektiivset laadimist.</string>
+    <string name="low_battery_text_charged_via_ta">Sulgege kasutamata rakendused üksuses %s. Laadimise ajal kasutamine võib takistada efektiivset laadimist.</string>
+    <string name="low_battery_power_saving_button_text">Energia säästmine</string>
+    <string name="wireless_charging_title">Juhtmevaba laadimine.</string>
+    <string name="cable_charging_title">Kaabliga laadimine</string>
+    <string name="wireless_charging_text">Laadimisalus on tuvastatud. Laetakse juhtmevabalt…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Juhtmevabalt laadimiselt kaabli kaudu laadimisele ümberlülitumine</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Kaabli kaudu laadimiselt juhtmevabale laadimisele ümberlülitumine</string>
+    <string name="wireless_charging_spen_warning_text">Teie seade laeb nüüd juhtmevabalt. Teie S Pen ei pruugi korralikult töötada, kui juhtmevaba laadimine on pooleli.</string>
+    <string name="incompatible_charger_title">Ei lae.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Lülita seade välja</string>
+    <string name="overheat_poweroff_warning_text">Teie seade on kuumenemas üle. See lülitub nüüd jahtumiseks välja.</string>
+    <string name="overheat_poweroff_warning_button_text">Ära lülita välja</string>
+    <string name="overheat_poweroff_notice_title">Seade lülitatakse automaatselt välja</string>
+    <string name="overheat_poweroff_notice_text">"Teie seade kuumenes üle. See lülitus kahjustuste vältimiseks välja.
+
+Ülekuumenemist võivad põhjustada järgmised tegurid.
+Graafikatundlike rakenduste, nt mängude ja rakenduste, kasutamine pika aja jooksul.
+Suurte failide edastamine.
+Seadme kasutamine kuumas keskkonnas."</string>
+    <string name="power_sharing_warning_title">Toite jagamine</string>
+    <string name="power_sharing_warning_text">Akutoidet on toite jagamise piirangust vähem. Toite jagamise jätkamiseks reguleerige toite jagamise piirangut praegusest akutoite tasemest allapoole.</string>
+    <string name="power_sharing_start_toast_text">Toite jagamise alustamine…</string>
+    <string name="power_sharing_end_notification_text">Toite jagamine on lõppenud. Eraldage kaabel.</string>
+    <string name="power_sharing_unable_notification_text">Ei saa jagada.</string>
+    <string name="highvoltage_charger_notice_title">Kasuta kiirlaadimist</string>
+    <string name="highvoltage_charger_notice_text">See laeb teie aku kiiremini täis, eriti kui ekraan või telefon on välja lülitatud.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Lülita ekraan välja</string>
+    <string name="highvoltage_charger_notification_text">Kiirlaadija on ühendatud.</string>
+    <string name="face_detection_failure_text">Nutikas olek ei suuda tuvast. teie silmi.</string>
+    <string name="screenshot_failed_due_to_drm_text">Kuvahõive nurjus. DRM-kaitsega pilt.</string>
+    <string name="no_such_item">Üksust ei leita.</string>
+    <string name="one_item_will_be_deleted">1 üksus kustutatakse.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Nõustu</string>
+    <string name="disagree">Ei nõustu</string>
+    <string name="location_masterswitch_dialogtitle">Asukoha nõusolek</string>
+    <string name="gps_donotshow">Ära enam kuva</string>
+    <string name="tethering_attention_title">Tähelepanu!</string>
+    <string name="tethering_wifi_off_warning">Mobiilse kuumkoha aktiveerimisel lülitatakse Wi-Fi välja.</string>
+    <string name="wifihotspot_detail">Üksikasjad</string>
+    <string name="tether_settings_title_wifi">Kaasaskantav kuumkoht</string>
+    <string name="guest_launge_warning_toast_text">Külalise režiimis ei saa funktsiooni %s aktiveerida ega desaktiveerida.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Privaatsusrežiimi ei saa aktiveerida sel ajal, kui üksusi teisaldatakse kausta Privaatne.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Privaatsusrežiimi ei saa desaktiveerida sel ajal, kui üksusi teisaldatakse kausta Privaatne.</string>
+    <string name="no_sim_notification_title">SIM-i pole</string>
+    <string name="no_sim_notification_title_tmo">SIM-kaarti pole sisestatud.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Palun sisestage SIM-kaart.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Rändlus</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Teavituste paneel</string>
+    <string name="guideline_empty_text">Rakenduse avamiseks lohistage salvest selle ikoon.</string>
+    <string name="drag_and_drop_content">Teisalda sisu</string>
+    <string name="switch_window">Vaheta aknaid</string>
+    <string name="close_application">Sulge rakendus</string>
+    <string name="collapse_window">Ahenda aken</string>
+    <string name="change_to_poup_view">Ava hüpikaknas</string>
+    <string name="select_contents">Lohistage tekstiloik voi ekraanipilt teise aknasse.</string>
+    <string name="do_not_show_again">Ära enam kuva</string>
+    <string name="help">Spikker</string>
+    <string name="recent_multi_window">Ava mitmikakna vaates</string>
+    <string name="recent_pen_window">Ava hüpikaknas</string>
+    <string name="recent_delete">Sulge rakendus</string>
+    <string name="disable_multi_window_popup_description">Funktsioon Mitmikaken desaktiveeritakse ja kõik hüpikakendes avatud rakendused suletakse.</string>
+    <string name="disable_multi_window_popup_easymode_description">Mitmikakent ei saa kasutada, kui lihtne režiim on aktiveeritud. Desaktiveerige lihtne režiim ja proovige uuesti.</string>
+    <string name="yes">OK</string>
+    <string name="no">Tühista</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Kõrgel helitugevusel kuulamine pika aja jooksul võib kahjustada teie kuulmist. Toksake valikut OK, et lubada helitugevuse suurendamist üle ohutu taseme.</string>
+    <string name="tw_cover_volume_warning_message">Kõrgel helitugevusel kuulamine pika aja jooksul võib kahjustada kuulmist. Helitugevuse suurendamiseks avage kaas.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Aktiveeri lennurežiim</string>
+    <string name="global_actions_toggle_airplane_mode">Lennurežiim</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Lennurežiim võimaldab desaktiveerida helistamise, sõnumite ja mobiilsidevõrkude funktsioonid.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Lennurežiim inaktiveeritakse.</string>
+    <string name="multi_window_use_popup_title">Aktiveeri funktsioon Mitmikaken</string>
+    <string name="multi_window_use_popup_msg">Mitmikaken ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="air_gesture_use_popup_title">Aktiveeri õhus liigutamine</string>
+    <string name="air_gesture_use_popup_msg">Õhus liigutamine ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="air_view_use_popup_title">Aktiveerige õhuvaade</string>
+    <string name="air_view_use_popup_msg">Õhuvaade ja allolevad valikud ei saa olla korraga aktiveeritud. Allolevad valikud desaktiveeritakse.</string>
+    <string name="car_mode_enable_use_popup_title">Autorežiimi aktiveerimine</string>
+    <string name="car_mode_use_popup_msg">Autorežiim ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="smart_pause_use_popup_title">Aktiveeri nutikas peatamine</string>
+    <string name="smart_pause_use_popup_msg">Nutikas peatamine ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="smart_scroll_use_popup_title">Aktiveeri nutikas kerimine</string>
+    <string name="smart_scroll_use_popup_msg">Nutikas kerimine ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="smart_stay_use_popup_title">Aktiveeri nutikas olek</string>
+    <string name="smart_stay_use_popup_msg">Nutikas olek ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="toolbox_use_popup_title">Aktiveeri tööriistakast</string>
+    <string name="toolbox_use_popup_msg">Tööriistakast ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="sidekey_use_popup_title">Aktiveeri Küljenupu paneel</string>
+    <string name="sidekey_use_popup_msg">Küljenupu paneel ja TalkBack ei saa olla korraga aktiveeritud. TalkBack desaktiveeritakse.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Teavitus</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Hiljutine klahv</string>
+    <string name="recent_menukey_press_description_vzw">Menüüklahv on asendatud hiljutise klahviga, et saaksite kiiresti lülituda ümber rakenduste vahel, mida kasutasite kõige viimati. Lisateabe saamiseks toksake valikut Spikker.</string>
+    <string name="recent_menukey_press_description_no_help">Menüüklahv on asendatud klahviga Hiljutine, et saaksite kiiresti lülituda ümber rakenduste vahel, mida kasutasite kõige viimati.</string>
+    <string name="recent_menukey_press_description_att">Menüüklahv on asendatud hiljutise klahviga. Menüüvalikute nägemiseks vajutage ja hoidke rakenduses olles all hiljutist klahvi.</string>
+    <string name="recent_help_dialog_title_for_split_view">Uued mitmikakna funktsioonid</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Rakenduste avamiseks poolitatud ekraani vaates toksake rakenduse akna pealkirjaribal ikooni %s. See ikoon kuvatakse, kui rakendus toetab poolitatud ekraani vaadet.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Rakenduste avamiseks poolitatud ekraani vaates toksake rakenduse akna pealkirjaribal poolitatud ekraani ikooni. See ikoon kuvatakse, kui rakendus toetab poolitatud ekraani vaadet.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Toksake ja hoidke sõrme rakenduse aknal, et avada rakendus hüpikuna. Hüpikvaatest poolitatud ekraani vaatesse vahetamiseks lohistage rakenduse hüpikvaade ekraani üla- või alaserva.</string>
+    <string name="recent_menukey_help_button">Spikker</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="qs_edit_settings_title">Teavituste paneel</string>
+    <string name="qs_edit_settings_available_button">Saadaolevad nupud</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Saate kohandada, millised kiirseadistuste nupud kuvatakse teavituste paneeli ülaosas. Toksake ja hoidke sõrme nuppudel ning seejärel lohistage neid lisamiseks, peitmiseks või ümber korraldamiseks.</string>
+    <string name="notification_panel_unable_remove_minimum">Nuppu ei saa eemaldada. Nuppude minimaalne arv (%d) on saavutatud.</string>
+    <string name="qs_edit_setting_edit_button">Järjesta ümber</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Lennurežiim võimaldab teil lülitada välja helistamise, sõnumite ja andmevõrgu funktsioonid. See lülitab välja ka ühenduvuse funktsioonid, nagu Wi-Fi ja Bluetoothi. Wi-Fi ja Bluetooth-ühenduse kasutamiseks lülitage need menüüs Seaded või teavituste paneelil sisse.</string>
+    <string name="pickup_tutorial_title">Proovige nutikat märguannet</string>
+    <string name="put_your_phone">Kui olete seadme maha pannud, lülitub ekraan välja.</string>
+    <string name="phone_detect">Oletagem, et teil on vastamata kõnesid või sõnumeid. Pange seade maha ja võtke uuesti üles, kui ekraan on välja lülitunud.</string>
+    <string name="pick_up_your_phone">Võtke seade üles</string>
+    <string name="tutorial_complete">Õpetus on lõpule viidud.</string>
+    <string name="share_via">Jagamine</string>
+    <string name="airmsg_warning_alert_check">Ära enam kuva</string>
+    <string name="airmsg_check_data_title_WLAN">Loo ühendus WLAN-iga</string>
+    <string name="airmsg_check_data_title_Mobile">Loo ühendus mob.võrkude kaudu</string>
+    <string name="cooling_title">Seade on kuumenemas üle</string>
+    <string name="cooling_body">"Teie seade on kuumenemas üle. Seadme jahutamiseks viiakse läbi järgmised sammud.
+
+Saate ikkagi kasutada oma seadet, kuid
+- ekraan võib muutuda tuhmimaks;
+- seade võib muutuda aeglasemaks;
+- laadimine võib peatuda.
+
+Hetkel aktiivse rakenduse sulgemine aitab teie seadmel jahtuda.
+
+Kui seade on jahtunud, taastub seadme tavaline jõudlus automaatselt."</string>
+    <string name="cooling_noti_text">Toksake siia, et naha uksikasju.</string>
+    <string name="cooling_popup_name">Teavitus</string>
+    <string name="cooling_noti_title">Seade on kuumenemas üle</string>
+    <string name="btn_text_no">Tühista</string>
+    <string name="device_overheating">Seade on kuumenemas üle</string>
+    <string name="colling_noti_text_2">Rakendusi ei saa avada. Saate kasutada ainult rakendusi Telefon ja Kontaktid.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Toksake siia, et saada lisateavet.</string>
+    <string name="cooling_popup_name_VZW">Teavitus</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Tühista</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Desakt. turvaline režiim</string>
+    <string name="safe_mode_popup_body_global">Turvalise režiimi desaktiveerimiseks teie seade taaskäivitub. Kõik teie rakendused on seejärel saadaval.</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Turv. režiim aktiveeritud</string>
+    <string name="safe_mode_noti_body_global">Toksake siia, et desaktiveerida turvalist režiimi.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Tühista</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Määrake helirežiimi muutmiseks katkestusrežiim valikule Prioriteet või Kõik.</string>
+    <string name="accessibility_driving_mode">Käed-vabad režiimi aktiveerimiseks aktiveerige vähemalt üks asjakohane funktsioon.</string>
+    <string name="qs_vibrate_on_in_priority">"Vibreerimine
+(prioriteet)"</string>
+    <string name="qs_sound_on_in_priority">"Heli
+(prioriteet)"</string>
+    <string name="qs_silent_popup_title">Helirežiim</string>
+    <string name="qs_silent_popup_sound">Heli</string>
+    <string name="qs_silent_popup_vibrate">Värin</string>
+    <string name="qs_rotate_popup_title">Ekraani pööramine</string>
+    <string name="qs_rotate_popup_all">Kõik</string>
+    <string name="qs_torch_popup_title">Taskulamp</string>
+    <string name="qs_torch_popup_brightness">Heledus</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Puudub</string>
+    <string name="disable_multi_window_dialog_title">Desaktiveeri funktsioon Mitmikaken</string>
+    <string name="disable_multi_window_dialog_text">Funktsioon Mitmikaken desaktiveeritakse ja kõik hüpikakendes avatud rakendused suletakse.</string>
+    <string name="AirplaneNoti_title">Lennurežiim aktiveeritud</string>
+    <string name="AirplaneNoti_text">Desaktiveeri</string>
+    <string name="quickpanel_interruption_always_interrupt">"Katkesta
+alati"</string>
+    <string name="quickpanel_interruption_priority_only">"Ainult
+priorit."</string>
+    <string name="tw_sound_priority_desciption">Prioriteediga katkestuste heli</string>
+    <string name="tw_vibrate_priority_desciption">Vibreerimine priorit. katkestuste puhul</string>
+    <string name="tw_mute_priority_desciption">Katkestusteta (ka mitte märguanded)</string>
+    <string name="tw_zen_off_interruptions">Kõnede ja teavituste vastuvõtmisel</string>
+    <string name="tw_interruption_level_priority">Ainult prioriteediga</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Luba ainult prioriteediga katkestused</string>
+    <string name="tw_interruption_level_all_vzw">Katkesta alati</string>
+    <string name="tw_mute_priority_toast_description">"Katkestusteta
+(ka mitte märguanded)"</string>
+    <string name="dnd_noti_title">Rež. Mitte segada on aktiv.</string>
+    <string name="dnd_noti_message">Märguanded vaigistatud</string>
+    <string name="dnd_noti_action_disable">Desaktiveeri</string>
+    <string name="torch_light_notification_title">Taskulamp sees</string>
+    <string name="torch_light_notification_message">Lülita taskulamp sisse</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Võrgupiirangu režiim desaktiveeritakse</string>
+    <string name="recent_help_dialog_title_for_popup_view">Mitmikakna vaate kasutamine</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Rakenduste avamiseks poolitatud ekraani vaates toksake rakenduse akna pealkirjaribal ikooni %s. See ikoon kuvatakse, kui rakendus toetab poolitatud ekraani vaadet.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Rakenduste avamiseks poolitatud ekraani vaates toksake rakenduse akna pealkirjaribal poolitatud ekraani ikooni. See ikoon kuvatakse, kui rakendus toetab poolitatud ekraani vaadet.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Lisaks võite vajutada ja hoida klahvi Hiljutine ükskõik millisel ekraanil olles, et avada rakendusi poolitatud ekraani vaates.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Saate kuvada rakendust hüpikvaates, kui libistate diagonaalis alla ükskõik kummast ekraani ülanurgast, kui rakendus on avatud ja ekraanil.</string>
+    <string name="wallpaper_crop_button_done">Valmis</string>
+    <string name="accessibility_desc_notification_panel">Teavituste paneel</string>
+</resources>

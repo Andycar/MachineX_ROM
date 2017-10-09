@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ToggleSliderView android:id="@id/toggle_slider" android:focusable="true" android:visibility="gone" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/toggle_slider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:id="@id/brightness" android:background="@drawable/qs_background_primary" android:clickable="false" android:descendantFocusability="afterDescendants" android:layout_height="@dimen/toggle_slider_height" style="@style/BrightnessDialogContainer">
+        <com.android.systemui.settings.ToggleSlider android:layout_gravity="center_vertical" android:id="@id/brightness_slider" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="0.0dip" android:layout_height="@dimen/toggle_slider_height" android:layout_weight="1.0" systemui:text="@string/status_bar_settings_auto_brightness_label" />
+    </LinearLayout>
+</com.android.systemui.statusbar.ToggleSliderView>

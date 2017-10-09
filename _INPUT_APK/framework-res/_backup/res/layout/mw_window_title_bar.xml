@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/windowTitleBar" android:background="@drawable/multi_window_header_bg" android:layout_width="fill_parent" android:layout_height="@dimen/multiwindow_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/multi_window_btn_minimize_container" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_divider" />
+        <ImageButton android:gravity="center" android:id="@id/multi_window_btn_minimize" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_ic_minimize" android:scaleType="center" android:contentDescription="@string/Collapse_window" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/multi_window_btn_maximize_container" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_divider" />
+        <ImageButton android:gravity="center" android:id="@id/multi_window_btn_maximize" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_ic_maximize" android:scaleType="center" android:contentDescription="@string/Expand" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/multi_window_btn_drag_and_drop_container" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_divider" />
+        <ImageButton android:gravity="center" android:id="@id/multi_window_btn_drag_and_drop" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_ic_drag_and_drop" android:scaleType="center" android:contentDescription="@string/SS_DRAG_AND_DROP" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/multi_window_btn_exit_container" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_divider" />
+        <ImageButton android:gravity="center" android:id="@id/multi_window_btn_exit" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:src="@drawable/multi_window_header_ic_exit" android:scaleType="center" android:contentDescription="@string/SS_CLOSE_APPLICATION" />
+    </LinearLayout>
+</LinearLayout>

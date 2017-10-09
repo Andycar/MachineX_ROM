@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/background_traffic_title" android:background="#ff026c86" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/trans_indicator_margin" android:minHeight="58.0dip">
+        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/background_traffic_title" android:layout_weight="7.0" style="@style/eula_title_area" />
+        <Switch android:layout_gravity="center" android:id="@id/background_switch" android:focusable="false" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_weight="3.0" />
+    </LinearLayout>
+    <TextView android:id="@id/background_traffic_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" style="@style/description_area" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:layout_gravity="center" android:id="@id/data_usage_btn" android:layout_width="@dimen/accessibility_btn_width" android:layout_height="wrap_content" android:minHeight="@dimen/accessibility_btn_height" android:text="@string/data_usage" style="@style/button_style" />
+    </LinearLayout>
+</LinearLayout>

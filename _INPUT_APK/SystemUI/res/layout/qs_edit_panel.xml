@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSEditPanel android:id="@id/quick_settings_edit_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/quick_settings_layout" android:background="@drawable/qs_background_primary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/notificaiton_panel_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/qs_edit_available_btn_color" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/qs_edit_setting_button_summary" android:selectable="false" />
+    </LinearLayout>
+</com.android.systemui.qs.QSEditPanel>

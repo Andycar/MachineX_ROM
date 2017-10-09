@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Кроків до початку розробки: %d</item>
+        <item quantity="one">1 крок до початку розробки.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль має містити принаймні таку кількість літер: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість літер: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль має містити принаймні таку кількість літер нижнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість літер нижнього регістру: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль має містити принаймні таку кількість літер верхнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість літер верхнього регістру: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль має містити принаймні таку кількість цифр: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість цифр: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль має містити принаймні таку кількість символів: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість символів: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль має містити принаймні таку кількість цифр чи символів: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість цифр чи символів: 1</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Прочитання сповіщень за допомогою %d програм.</item>
+        <item quantity="one">Програмі %d надано дозвіл на прочитання сповіщень.</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">Установлено %d програм, які забезпечують умови для роботи цієї функції</item>
+        <item quantity="one">Установлено 1 програму, яка забезпечує умови для роботи цієї функції</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">1 годину</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+</resources>

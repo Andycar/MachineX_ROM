@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/setupwizard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_text" android:paddingBottom="@dimen/email_account_padding_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_area_top_margin" android:text="@string/email_account_r2g" style="@style/title_area" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/Exchange" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/ExchangeTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addExchange" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctExchange" android:layout_toRightOf="@id/addExchange" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/Yahoo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/YahooTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addYahoo" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctYahoo" android:layout_toRightOf="@id/addYahoo" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/Hotmail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/HotmailTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addHotmail" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctHotmail" android:layout_toRightOf="@id/addHotmail" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/AttNet" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/AttNetTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addAttNet" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctAtt" android:layout_toRightOf="@id/addAttNet" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/Aol" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/AolTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addAol" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctAOL" android:layout_toRightOf="@id/addAol" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/OtherAccount" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/OtherTitle" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_top" android:paddingBottom="@dimen/email_account_padding_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="left" android:id="@id/addOtherAccount" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_create_mtrl" android:layout_alignParentLeft="true" />
+                    <TextView android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_Setup_Othermail" android:layout_toRightOf="@id/addOtherAccount" style="@style/email_account_text" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/email_account_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

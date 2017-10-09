@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/visible_panel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/tw_top_margin_view" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/slider_panel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/tw_expand_button_divider" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/tw_divider_vertical_holo_light" android:scaleType="fitXY" />
+        <ImageView android:id="@id/tw_expand_button" android:background="@drawable/ic_volume_panel_settings_button_bg" android:paddingTop="19.0dip" android:paddingBottom="18.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/tw_ic_audio_setting" android:contentDescription="@android:string/permlab_modifyAudioSettings" android:paddingStart="15.0dip" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <View android:id="@id/tw_volume_panel_collapse_margin_view" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <View android:id="@id/tw_bottom_margin_view" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/zen_mode_panel" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tw_media_volume_panel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

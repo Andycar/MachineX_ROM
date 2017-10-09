@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/magazine_card_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_weather" android:key="weather" android:summary="@string/magazine_cetegory_weather_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_today" android:key="today_schedule" android:summary="@string/magazine_cetegory_today_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_birthday" android:key="today_birthday" android:summary="@string/magazine_cetegory_birthday_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_news" android:key="news" android:summary="@string/magazine_cetegory_news_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_social" android:key="social" android:summary="@string/magazine_cetegory_social_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_hereandnow" android:key="hereandnow" android:summary="@string/magazine_cetegory_hereandnow_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/magazine_category_email" android:key="email" android:summary="@string/magazine_cetegory_email_summary" />
+</PreferenceScreen>

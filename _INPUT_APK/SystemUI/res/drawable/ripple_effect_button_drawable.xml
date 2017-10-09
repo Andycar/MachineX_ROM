@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ripple_drawable_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:drawable="@drawable/security_btn_bg" />
+        </selector>
+        <shape android:shape="rectangle" />
+    </item>
+</ripple>

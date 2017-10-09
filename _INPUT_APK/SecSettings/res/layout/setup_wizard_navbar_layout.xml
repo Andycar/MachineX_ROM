@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/setup_wizard_navbar_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/setup_wizard_navbar_back" android:contentDescription="@string/setup_wizard_back_button_label" android:drawableStart="@drawable/setup_wizard_navbar_ic_back" class="com.android.setupwizard.navigationbar.SetupWizardNavBar$NavButton" style="@style/setup_wizard_navbar_button_style" />
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <view android:gravity="end|center" android:id="@id/setup_wizard_navbar_next" android:text="@string/setup_wizard_next_button_label" android:drawableEnd="@drawable/setup_wizard_navbar_ic_next" class="com.android.setupwizard.navigationbar.SetupWizardNavBar$NavButton" style="@style/setup_wizard_navbar_button_style" />
+</LinearLayout>

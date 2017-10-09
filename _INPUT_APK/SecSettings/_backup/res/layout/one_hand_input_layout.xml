@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/one_handed_input_help" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/one_haned_input_textview1" android:paddingTop="25.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/one_haned_input_msg" android:paddingStart="@dimen/one_hand_operation_side_margin" android:paddingEnd="@dimen/one_hand_operation_side_margin" />
+    </LinearLayout>
+</ScrollView>

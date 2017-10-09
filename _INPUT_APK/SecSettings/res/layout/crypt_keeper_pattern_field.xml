@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:background="@color/lock_pattern_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/switch_ime_button" android:background="?android:selectableItemBackground" android:padding="@dimen/crypt_keeper_edit_text_ime_padding" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lockscreen_ime" android:contentDescription="@string/crypt_keeper_switch_input_method" />
+</merge>

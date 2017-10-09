@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/all_screen_title" android:key="all_screen" android:summary="@string/all_screen_summary" />
+    <CheckBoxPreference android:title="@string/random_background_title" android:key="random_background" android:summary="@string/random_background_summary" />
+</PreferenceScreen>

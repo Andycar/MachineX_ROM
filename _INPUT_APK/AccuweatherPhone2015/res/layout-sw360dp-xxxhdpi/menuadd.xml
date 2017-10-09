@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.widgetapp.weather.libs.common.view.DispatchKeyRelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_layout" android:background="@color/col_00A5C4" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <RelativeLayout android:id="@id/menuadd_list_layout" android:background="@color/col_detail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_layout" android:layout_centerHorizontal="true">
+        <com.sec.android.widgetapp.weather.libs.common.view.TouchListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/list_divider" android:dividerHeight="2.0px" />
+        <RelativeLayout android:gravity="center" android:id="@id/menuadd_no_search_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="19.0dip" android:textColor="@color/col_000000" android:gravity="center" android:layout_gravity="center" android:id="@id/nosearch" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:fontFamily="sec-roboto-light" android:paddingStart="5.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.sec.android.widgetapp.weather.libs.common.view.DispatchKeyRelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip">
+        <LinearLayout android:id="@id/revert_menu_item" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/revert_menu_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wifi_cancel" android:singleLine="true" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="0.0" style="?android:attr/actionButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/save_menu_item" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:attr/actionButtonStyle">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/save_menu_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/motion_tutorial_done_btn" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/scan_button_item" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/scan_button_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wifi_p2p_scan_title" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="0.0" style="?android:attr/actionButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/indicator_parent" android:background="?android:selectableItemBackground" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <CheckedTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checkMark="?android:listChoiceIndicatorMultiple" android:minHeight="?android:listPreferredItemHeight" android:text="@string/notification_manager_indicator_text" android:singleLine="true" android:paddingEnd="7.0dip" style="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/panel_parent" android:background="?android:selectableItemBackground" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <CheckedTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checkMark="?android:listChoiceIndicatorMultiple" android:minHeight="?android:listPreferredItemHeight" android:text="@string/notification_manager_panel_text" android:singleLine="true" android:paddingEnd="7.0dip" style="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+</LinearLayout>

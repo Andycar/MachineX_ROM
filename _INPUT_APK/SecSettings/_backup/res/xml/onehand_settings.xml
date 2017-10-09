@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/onehand_settings_title" android:key="onehand_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/onehand_activate_reducescreensize_title" android:key="reducescreensize" android:fragment="com.android.settings.OneHandOperationSettings" />
+    <PreferenceScreen android:title="@string/onehand_activate_sidesoftkey_interaction_area" android:key="interaction_area" android:fragment="com.android.settings.OneHandInteractionAreaFragment" />
+    <PreferenceScreen android:title="@string/onehand_activate_sidesoftkey_interaction_area" android:key="onehand_input" android:fragment="com.android.settings.OneHandInputSettings" />
+    <PreferenceScreen android:title="@string/onehand_activate_sidesoftkey_title" android:key="sidesoftkey" android:fragment="com.android.settings.OneHandSideSoftKeyFragment" />
+    <PreferenceCategory android:title="@string/onehand_activate_category" android:key="category_onehand_operation" />
+    <CheckBoxPreference android:title="@string/onehand_activate_anyscreen_title" android:key="any_screen" android:summary="@string/onehand_activate_anyscreen_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_dialer_title" android:key="dialer" android:summary="@string/onehand_activate_dialer_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_samsung_keypad_title" android:key="samsung_keypad" android:summary="@string/onehand_activate_samsung_keypad_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_calculator_title" android:key="calculator" android:summary="@string/onehand_activate_calculator_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_pattern_title" android:key="pattern" android:summary="@string/onehand_activate_pattern_summary" />
+    <SwitchPreferenceScreen android:title="@string/onehand_activate_hand_adaptive_title" android:key="hand_adaptive_mode" android:fragment="com.android.settings.OneHandAdaptiveHelp">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:title="@string/onehand_tutorial_category" android:key="category_tutorial" />
+    <PreferenceScreen android:title="@string/onehand_tutorial_help_title" android:key="onehand_help" android:fragment="com.android.settings.OneHandHelp" />
+</PreferenceScreen>

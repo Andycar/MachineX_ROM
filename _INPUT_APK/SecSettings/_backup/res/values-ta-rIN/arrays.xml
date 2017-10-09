@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>அமெரிக்கா</item>
+        <item>ஐரோப்பா</item>
+        <item>ஆஃப்ரிக்கா</item>
+        <item>ஆசியா</item>
+        <item>ஆஸ்திரேலியா</item>
+        <item>பசிபிக்</item>
+        <item>எல்லாம்</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 வினாடிகள்</item>
+        <item>30 வினாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>ஒருபோதும் வேண்டாம்</item>
+        <item>15 வினாடிகள்</item>
+        <item>30 வினாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>உடனடியாக</item>
+        <item>5 வினாடிகள்</item>
+        <item>15 வினாடிகள்</item>
+        <item>30 வினாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>குறுகிய</item>
+        <item>சிறியது</item>
+        <item>இயல்பாக</item>
+        <item>பெரியது</item>
+        <item>மிகப் பெரியது</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>மிகவும் மெதுவாக</item>
+        <item>மெதுவாக</item>
+        <item>இயல்பாக</item>
+        <item>விரைவாக</item>
+        <item>விரைவானது</item>
+        <item>மிகவும் வேகமானது</item>
+        <item>வேகமானது</item>
+        <item>மிகவும் வேகமானது</item>
+        <item>அதிவிரைவானது</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>மிகவும் குறைவு</item>
+        <item>குறைவு</item>
+        <item>இயல்பு</item>
+        <item>அதிகமாக</item>
+        <item>மிகவும் அதிகமாக</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ஸ்கேன் செய்கிறது…</item>
+        <item>இணைக்கிறது...</item>
+        <item>அங்கீகரிக்கிறது...</item>
+        <item>IP முகவரியைப் பெறுகிறது…</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>இடைநீக்கப்பட்டது</item>
+        <item>துண்டிக்கிறது...</item>
+        <item>தொடர்பு துண்டிக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>தடுக்கப்பட்டது</item>
+        <item>வேகம் குறைந்த இணைப்பைத் தற்காலிகமாகத் தவிர்க்கிறது</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ஸ்கேன் செய்கிறது…</item>
+        <item>%1$s இல் இணைக்கிறது…</item>
+        <item>%1$s உடன் அங்கீகரிக்கிறது…</item>
+        <item>%1$s இலிருந்து IP முகவரியைப் பெறுகிறது…</item>
+        <item>%1$s உடன் இணைக்கப்பட்டது</item>
+        <item>இடைநீக்கப்பட்டது</item>
+        <item>%1$s இலிருந்து தொடர்பு துண்டிக்கப்படுகிறது…</item>
+        <item>தொடர்பு துண்டிக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>தடுக்கப்பட்டது</item>
+        <item>வேகம் குறைந்த இணைப்பைத் தற்காலிகமாகத் தவிர்க்கிறது</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>புஷ் பொத்தான்</item>
+        <item>பியர் சாதனத்திலிருந்து PIN</item>
+        <item>இந்தச் சாதனத்தில் உள்ள PIN</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>இணைக்கப்பட்டது</item>
+        <item>அழைக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>உள்ளது</item>
+        <item>எல்லைக்கு வெளியே உள்ளது</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>1 மணிநேரம்</item>
+        <item>காலநேரம் முடிய வேண்டாம்</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>மோசம்</item>
+        <item>சுமார்</item>
+        <item>நன்று</item>
+        <item>பிரமாதம்</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>எப்போதும்</item>
+        <item>செருகப்பட்டிருக்கும்போது மட்டும்</item>
+        <item>எப்போதும் வேண்டாம்</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>எப்போதும்</item>
+        <item>செருகப்பட்டிருக்கும்போது மட்டும்</item>
+        <item>ஒருபோதும் வேண்டாம்</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>கடந்த 30 நாட்கள்</item>
+        <item>பயன்பாட்டு சுழற்சியை அமை...</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>கடைசி 4 இலக்கங்கள்</item>
+        <item>முதல் 4 இலக்கங்கள்</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>தானியங்கு</item>
+        <item>5 GHz மட்டும்</item>
+        <item>2.4 GHz மட்டும்</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>பயன்படுத்திய நேரம்</item>
+        <item>கடைசியாகப் பயன்படுத்தியது</item>
+        <item>பயன்பாட்டின் பெயர்</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ஏதுமில்லை</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ஏதுமில்லை</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>நிலையான</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ஏதுமில்லை</item>
+        <item>கைமுறை</item>
+        <item>ப்ராக்ஸி தானியங்கு-உள்ளமைவு</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ஏதுமில்லை</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP அல்லது CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>குறிப்பிடப்படாதது</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ஏதுமில்லை</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>சாதன அகச் சேமிப்பு</item>
+        <item>அகற்றப்படக்கூடிய SD கார்டு</item>
+        <item>அமைப்பு தீர்மானிக்கட்டும்</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>இருப்பிடம்</item>
+        <item>தனிப்பட்டவை</item>
+        <item>செய்தியிடல்</item>
+        <item>ஊடகம்</item>
+        <item>சாதனம்</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>சீரற்ற இருப்பிடம்</item>
+        <item>சிறந்த இருப்பிடம்</item>
+        <item>GPS</item>
+        <item>அதிர்வு</item>
+        <item>தொடர்புகளைப் படி</item>
+        <item>தொடர்புகளை மாற்று</item>
+        <item>அழைப்புப் பதிவைப் படி</item>
+        <item>அழைப்புப் பதிவை மாற்று</item>
+        <item>கேலெண்டரைப் படி</item>
+        <item>கேலெண்டரை மாற்று</item>
+        <item>வைஃபை ஸ்கேன்</item>
+        <item>அறிவிப்பு</item>
+        <item>கைபேசியை ஸ்கேன் செய்</item>
+        <item>தொலைபேசியை அழை</item>
+        <item>SMS படி</item>
+        <item>SMS எழுது</item>
+        <item>SMS பெறு</item>
+        <item>அவசரநிலை SMS ஐப் பெறு</item>
+        <item>MMS பெறு</item>
+        <item>WAP அறிவிப்பைப் பெறு</item>
+        <item>SMS அனுப்பு</item>
+        <item>ICC SMS ஐப் படி</item>
+        <item>ICC SMS எழுது</item>
+        <item>அமைப்புகளை மாற்று</item>
+        <item>மேலே வரை</item>
+        <item>அறிவிப்புகளை அணுகு</item>
+        <item>கேமரா</item>
+        <item>ஆடியோவைப் பதிவுசெய்</item>
+        <item>ஆடியோவை இயக்கு</item>
+        <item>கிளிப்போர்டைப் படி</item>
+        <item>கிளிப்போர்ட்டை மாற்று</item>
+        <item>மீடியா பொத்தான்கள்</item>
+        <item>ஆடியோவை மையப்படுத்து</item>
+        <item>முதன்மை ஒலியளவு</item>
+        <item>குரல் ஒலியளவு</item>
+        <item>அழைப்பு - ஒலியளவு</item>
+        <item>மீடியாவின் ஒலியளவு</item>
+        <item>அலாரத்தின் ஒலியளவு</item>
+        <item>அறிவிப்பின் ஒலியளவு</item>
+        <item>புளூடூத் ஒலியளவு</item>
+        <item>செயலில்</item>
+        <item>இருப்பிடத்தைக் கண்காணி</item>
+        <item>அதிக ஆற்றல் இடத்தைக் கண்காணி</item>
+        <item>பயன்பாட்டு புள்ளிவிவரத்தைப் பெறுக</item>
+        <item>மைக்ரோஃபோனை முடக்கு/இயக்கு</item>
+        <item>புராஜக்ட் மீடியா</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடம்</item>
+        <item>அதிர்வு</item>
+        <item>தொடர்புகளைப் படி</item>
+        <item>தொடர்புகளை மாற்று</item>
+        <item>அழைப்புப் பதிவைப் படி</item>
+        <item>அழைப்புப் பதிவை மாற்று</item>
+        <item>கேலெண்டரைப் படி</item>
+        <item>கேலெண்டரை மாற்று</item>
+        <item>இருப்பிடம்</item>
+        <item>அறிவிப்பை இடுகையிடு</item>
+        <item>இருப்பிடம்</item>
+        <item>தொலைபேசியில் அழை</item>
+        <item>SMS/MMS ஐப் படி</item>
+        <item>SMS/MMS எழுது</item>
+        <item>SMS/MMS பெறு</item>
+        <item>SMS/MMS பெறு</item>
+        <item>SMS/MMS பெறு</item>
+        <item>SMS/MMS பெறு</item>
+        <item>SMS/MMS அனுப்பு</item>
+        <item>SMS/MMS ஐப் படி</item>
+        <item>SMS/MMS எழுது</item>
+        <item>அமைப்புகளை மாற்று</item>
+        <item>மேலே வரை</item>
+        <item>அறிவிப்புகளை அணுகு</item>
+        <item>கேமரா</item>
+        <item>ஆடியோவைப் பதிவுசெய்</item>
+        <item>ஆடியோவை இயக்கு</item>
+        <item>கிளிப்போர்டைப் படி</item>
+        <item>கிளிப்போர்ட்டை மாற்று</item>
+        <item>மீடியா பொத்தான்கள்</item>
+        <item>ஆடியோவை மையப்படுத்து</item>
+        <item>முதன்மை ஒலியளவு</item>
+        <item>குரல் ஒலியளவு</item>
+        <item>அழைப்பு - ஒலியளவு</item>
+        <item>மீடியாவின் ஒலியளவு</item>
+        <item>அலாரத்தின் ஒலியளவு</item>
+        <item>அறிவிப்பின் ஒலியளவு</item>
+        <item>புளூடூத் ஒலியளவு</item>
+        <item>விழிப்பில்</item>
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடம்</item>
+        <item>பயன்பாட்டு புள்ளிவிவரத்தைப் பெறுக</item>
+        <item>மைக்ரோஃபோனை முடக்கு/இயக்கு</item>
+        <item>புராஜக்ட் மீடியா</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>குறுகியது</item>
+        <item>நடுத்தரம்</item>
+        <item>நீளமானது</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>இயல்புநிலை</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif குறுகியது</item>
+        <item>Serif</item>
+        <item>மோனோஸ்பேஸ்</item>
+        <item>கேஷ்வல்</item>
+        <item>இணைவெழுத்து முறை</item>
+        <item>சிறிய எழுத்துகள்</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>மிகச் சிறிய</item>
+        <item>சிறிய</item>
+        <item>சாதாரண</item>
+        <item>பெரிய</item>
+        <item>மிகப் பெரிய</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>இயல்புநிலை</item>
+        <item>ஏதுமில்லை</item>
+        <item>வெளிக்கோடு</item>
+        <item>நிழலிடு</item>
+        <item>மேலெழும்பியது</item>
+        <item>அழுத்தப்பட்டது</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>பயன்பாட்டின் இயல்புகளை பயன்படுத்து</item>
+        <item>கருப்பில் வெண்மை</item>
+        <item>வெண்மையில் கருப்பு</item>
+        <item>கருப்பில் மஞ்சள்</item>
+        <item>நீலத்தில் மஞ்சள்</item>
+        <item>தனிப்பயன்</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64K / லாக் பஃபர்</item>
+        <item>256K / லாக் பஃபர்</item>
+        <item>1M / லாக் பஃபர்</item>
+        <item>4M / லாக் பஃபர்</item>
+        <item>16M / லாக் பஃபர்</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>எப்போதும் சரிபார்க்க வேண்டாம்</item>
+        <item>DRM உள்ளடக்கத்தை மட்டும் சரிபார்</item>
+        <item>எப்போதும் சரிபார்</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP சரிபார்ப்பை எப்போதும் பயன்படுத்தாதே</item>
+        <item>DRM உள்ளடக்கத்திற்கு மட்டும் HDCP சோதனையைப் பயன்படுத்து</item>
+        <item>HDCP சரிபார்ப்பை எப்போதும் பயன்படுத்து</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் அளவு .5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் அளவு .5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் அளவு .5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ஏதுமில்லை</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (பாதுகாப்பு)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (பாதுகாப்பு)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (பாதுகாப்பு)</item>
+        <item>1280x720 tvdpi மற்றும் 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ஏதுமில்லை</item>
+        <item>Logcat</item>
+        <item>Systrace (கிராஃபிக்ஸ்)</item>
+        <item>glGetError இல் அழைப்பின் அடுக்கு</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>முடக்கத்தில்</item>
+        <item>செவ்வகம் அல்லாத கிளிப் பகுதியை நீல நிறத்தில் வரையவும்</item>
+        <item>சோதிக்கப்பட்ட வரைதல் கட்டளைகளைப் பச்சை நிறத்தில் தனிப்படுத்தவும்</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>முடக்கத்தில்</item>
+        <item>திரையைப் பட்டிகளாக இயக்கு</item>
+        <item>adb shell dumpsys gfxinfo இல்</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>முடக்கத்தில்</item>
+        <item>ஓவர்டிரா பகுதிகளைக் காட்டு</item>
+        <item>நிறக்குருடின் பகுதிகளைக் காட்டு</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>நிலையான வரம்பு</item>
+        <item>பின்புலச் செயல்முறைகள் இல்லை</item>
+        <item>அதிகபட்சமாக 1 செயல்முறை</item>
+        <item>அதிகபட்சமாக 2 செயல்முறைகள்</item>
+        <item>அதிகபட்சமாக 3 செயல்முறைகள்</item>
+        <item>அதிகபட்சமாக 4 செயல்முறைகள்</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>பாதுகாப்பு விசைகளுடன் கூடிய L2TP/IPSec VPN</item>
+        <item>சான்றிதழ்களுடன் கூடிய L2TP/IPSec VPN</item>
+        <item>பாதுகாப்பு விசைகள் மற்றும் Xauth அங்கீகாரத்துடனான IPSec VPN</item>
+        <item>சான்றிதழ்கள் மற்றும் Xauth அங்கீகாரத்துடனான IPSec VPN</item>
+        <item>சான்றிதழ்கள் மற்றும் கலப்பு அங்கீகாரத்துடனான IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>தொடங்குகிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>நேரம் முடிந்தது</item>
+        <item>தோல்வி</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>கேள்</item>
+        <item>ஒருபோதும் அனுமதிக்காதே</item>
+        <item>எப்போதும் அனுமதி</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>இயல்பு</item>
+        <item>மிதமானது</item>
+        <item>குறைவு</item>
+        <item>மோசமாக உள்ளது</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>முடக்கத்தில்</item>
+        <item>வரையறுத்த குறுக்கீடுகள்</item>
+        <item>பூஜ்ஜிய குறுக்கீடுகள்</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>இயல்பு</item>
+        <item>நடுத்தரம்</item>
+        <item>குறைவு</item>
+        <item>நெருக்கடி</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>தொடர்நிலை</item>
+        <item>அதிக செயல்பாடு</item>
+        <item>முக்கியம் (முன்புலம்)</item>
+        <item>முக்கியம் (பின்புலம்)</item>
+        <item>காப்புப்பிரதி</item>
+        <item>அதீத பயன்பாடு</item>
+        <item>சேவை (இயக்கத்தில்)</item>
+        <item>சேவை (மறுதொடக்கத்தில்)</item>
+        <item>ரிசீவர்</item>
+        <item>முகப்பு</item>
+        <item>குறைந்த செயல்பாடு</item>
+        <item>தற்காலிகச் சேமிப்பு (செயல்பாடு)</item>
+        <item>தற்காலிகச் சேமிப்பு (செயல்பாட்டு கிளையன்ட்)</item>
+        <item>தற்காலிகச் சேமிப்பு (காலி)</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>கிளாஸிக்</item>
+        <item>ஹாஃப்டோன்</item>
+        <item>மார்ஃபிங்</item>
+        <item>பல நிறம்</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 வினாடிகள்</item>
+        <item>6 வினாடிகள்</item>
+        <item>எப்போதும் ஆஃப்</item>
+        <item>எப்போதும் ஆன்</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>மேலே</item>
+        <item>நடுத்தரம்</item>
+        <item>கீழே</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>செய்திகள்</item>
+        <item>ஸ்டாக்</item>
+        <item>ஃபேஸ்புக்</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>செய்திகள்</item>
+        <item>ஸ்டாக்</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>மெதுவாக</item>
+        <item>சாதாரண</item>
+        <item>வேகம்</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>ஒன்றுமில்லை</item>
+        <item>ஒவ்வொரு 30 நிமிடங்களுக்கும்</item>
+        <item>ஒவ்வொரு 1 மணிநேரம்</item>
+        <item>ஒவ்வொரு 2 மணிநேரங்களுக்கும்</item>
+        <item>ஒவ்வொரு 4 மணிநேரங்களுக்கும்</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>தலையணி</item>
+        <item>PC</item>
+        <item>ஃபோன்</item>
+        <item>HID (விசைப்பலகை, மவுஸ், மற்றும் பல.)</item>
+        <item>எல்லா சாதனங்கள்</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>ஸ்டிரீயோ</item>
+        <item>சுற்றம்</item>
+    </string-array>
+    <string-array name="available_auto_sync_entries">
+        <item>ஒவ்வொரு வாரமும்</item>
+        <item>ஒவ்வொரு 2 வாரங்களுக்கும்</item>
+        <item>ஒவ்வொரு மாதமும்</item>
+        <item>இல்லை</item>
+    </string-array>
+</resources>

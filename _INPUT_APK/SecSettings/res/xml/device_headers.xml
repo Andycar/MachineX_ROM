@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/setting_search">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
+    </header>
+    <header android:title="@string/personalizacion" />
+    <header android:icon="@drawable/ic_settings_descargas" android:title="@string/mod_font">
+        <intent android:targetPackage="com.ficeto.customsettings" android:action="android.intent.action.MAIN" android:targetClass="com.ficeto.customsettings.SettingsActivity" />
+    </header>
+	<header android:icon="@drawable/ic_settings_powersaving" android:id="@id/aryamod" android:title="@string/powersaving_ultra" android:key="ultra_powersaving" android:fragment="com.android.settings.powersavingmode.PowerSavingModeUltra" />
+    <header android:id="@id/personalization" android:title="@string/personalization" />
+    <header android:icon="@drawable/ic_settings_docomoservice" android:id="@id/docomoservice_settings" android:title="@string/docomoservice_settings">
+        <intent android:targetPackage="com.nttdocomo.android.docomoset" android:action="android.intent.action.MAIN" android:targetClass="com.nttdocomo.android.docomoset.DocomoServiceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_home" android:id="@id/home_settings_dcm" android:title="@string/home_settings_header" android:fragment="com.android.settings.DCMHomeSettings" />
+    <header android:icon="@drawable/ic_settings_lockscreen" android:id="@id/lock_screen_menu_settings" android:title="@string/lockscreen_wallpaper" android:fragment="com.android.settings.LockscreenMenuSettings" />
+    <header android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:title="@string/display_settings" android:fragment="com.android.settings.DisplaySettings" />
+    <header android:icon="@drawable/premium_watch_setting_icon" android:id="@id/premium_watch_settings" android:title="@string/premium_watch_settings_title" android:fragment="com.android.settings.premiumwatch.PremiumWatchSettings" />
+    <header android:icon="@drawable/ic_settings_led" android:id="@id/led_indicator_settings" android:title="@string/led_indicator_settings" android:fragment="com.android.settings.LedIndicatorSettings" />
+    <header android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/notification_settings" android:fragment="com.android.settings.notification.NotificationSettings" />
+    <header android:icon="@drawable/ic_settings_mode_change" android:id="@id/home_screen_mode_settings" android:title="@string/easy_mode" android:fragment="com.android.settings.easymode.EasyModeApp" />
+    <header android:icon="@drawable/ic_settings_launch_camera" android:id="@id/launch_camera" android:title="@string/launch_camera_title" android:fragment="com.android.settings.launchcamera.LaunchCameraSettings" />
+    <header android:icon="@drawable/ic_settings_call_setting" android:id="@id/call_settings" android:title="@string/call_settings">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_block" android:id="@id/dormant_mode" android:title="@string/dormant_mode" android:summary="@string/blocking_mode_menu_summary" android:fragment="com.android.settings.dormantmode.DormantmodeSettings" />
+    <header android:icon="@drawable/ic_settings_drivingmode" android:id="@id/driving_mode" android:title="@string/driving_mode_title" android:key="driving_mode_settings" android:summary="@string/driving_mode_summary" android:fragment="com.android.settings.DrivingModeSettings" />
+    <header android:icon="@drawable/ic_settings_sim_card_manager" android:id="@id/simcard_management" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.NetworkManagement" />
+    </header>
+    <header android:icon="@drawable/ic_settings_sim_card_manager" android:id="@id/simcard_management_chn" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.sec.android.app.simcardmgr" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.simcardmgr.NetworkManagement" />
+    </header>
+    <header android:icon="@drawable/ic_settings_block" android:id="@id/block_settings" android:title="@string/block_settings_title" android:fragment="com.android.settings.BlockSettings" />
+    <header android:icon="@drawable/ic_settings_safety_assuarance" android:id="@id/safety_assurance_settings" android:title="@string/safety_assurance_settings" android:summary="@string/safety_assurance_menu_summary">
+        <intent android:targetPackage="com.sec.android.app.safetyassurance" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.safetyassurance.settings.SafetyAssuranceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_torchlight" android:id="@id/torchlight_settings" android:title="@string/torchlight_settings" android:fragment="com.android.settings.torchlight.TorchlightSettings" />
+    <header android:icon="@drawable/ic_settings_powersaving" android:id="@id/power_saving_mode" android:title="@string/power_saving_mode_title" android:fragment="com.android.settings.powersavingmode.MenuPowerSavingModeSettings" />
+    <header android:icon="@drawable/ic_settings_dock" android:id="@id/dock_settings" android:title="@string/accessory" android:fragment="com.android.settings.DockSettings" />
+    <header android:icon="@drawable/ic_settings_accessibility" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:summary="@string/accessibility_assurance_menu_summary" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+    <header android:icon="@drawable/ic_settings_toolbar" android:id="@id/toolbar_settings" android:title="@string/toolbar_settings_title">
+        <intent android:launchMode="singleInstance" android:action="com.skyfire.browser.toolbar.intent.action.VIEW_SETTINGS">
+            <extra android:name="fragment" android:value="settings_fragment" />
+            <extra android:name="disable_tutorial" android:value="true" />
+        </intent>
+    </header>
+    <header android:id="@id/input_and_control" android:title="@string/input_and_control" />
+    <header android:icon="@drawable/ic_settings_one_handed_operation" android:id="@id/onehand_settings" android:title="@string/onehand_settings_title" android:fragment="com.android.settings.OneHandSettings" />
+    <header android:icon="@drawable/ic_settings_language" android:id="@id/language_settings" android:title="@string/language_settings" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+    <header android:icon="@drawable/ic_setting_func" android:id="@id/fingerprint_settings" android:title="@string/fingerprint" android:fragment="com.android.settings.fingerprint.FingerprintSettings" />
+    <header android:icon="@drawable/ic_settings_motion" android:id="@id/motion_settings" android:title="@string/motion_title" android:fragment="com.android.settings.motion.MotionSettings" />
+    <header android:icon="@drawable/ic_settings_motion" android:id="@id/s_motion_settings" android:title="@string/s_motion_title" android:summary="@string/motions_and_gestures_menu_summary" android:fragment="com.android.settings.motion2013.SMotionSettings" />
+    <header android:icon="@drawable/ic_settings_smart_screen" android:id="@id/smart_screen" android:title="@string/smart_screen_title" android:summary="@string/smart_screen_summary" android:fragment="com.android.settings.smartscreen.SmartScreenSettings" />
+    <header android:icon="@drawable/ic_settings_air_gesture" android:id="@id/header_input_air_gesture" android:title="@string/air_motion_title" android:summary="@string/air_motion_summary" android:fragment="com.android.settings.motion2013.AirMotionSettings" />
+    <header android:icon="@drawable/ic_settings_air_view" android:id="@id/finger_air_view_settings" android:title="@string/finger_air_view_title" android:summary="@string/air_view_menu_summary" android:fragment="com.android.settings.FingerAirViewSettings" />
+    <header android:icon="@drawable/ic_settings_air_view" android:id="@id/air_view_settings" android:title="@string/air_view_title" android:summary="@string/air_view_summary" android:fragment="com.android.settings.AirViewSettings" />
+    <header android:icon="@drawable/ic_settings_voice" android:id="@id/voice_input_control_settings" android:title="@string/voice_input_control_title" android:summary="@string/voice_control_menu_summary" android:fragment="com.android.settings.VoiceInputControlSettings" />
+    <header android:icon="@drawable/ic_settings_pen" android:id="@id/pen_settings_menu" android:title="@string/pen_settings_title" android:fragment="com.android.settings.PenSettingsMenu" />
+</preference-headers>

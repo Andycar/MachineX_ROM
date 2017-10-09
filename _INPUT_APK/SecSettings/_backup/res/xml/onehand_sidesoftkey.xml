@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="onehand_sidesoftkey"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/onehand_sidesoftkey_layout" android:selectable="false" android:key="onehand_sidesoftkey_layout" />
+    <PreferenceCategory android:title="@string/more_settings_category" android:key="onehand_sidesoftkey_settings">
+        <com.android.settings.OneHandSideSoftKeyTransparencyPreference android:title="@string/onehand_activate_sidesoftkey_transparency" android:key="onehand_sidesoftkey_transparency" android:dialogTitle="@string/onehand_activate_sidesoftkey_transparency" />
+        <CheckBoxPreference android:title="@string/onehand_activate_sidesoftkey_minimise" android:key="onehand_sidesoftkey_minimise" android:summary="@string/onehand_activate_sidesoftkey_minimise_summary" />
+        <PreferenceScreen android:title="@string/onehand_activate_sidesoftkey_editkeys" android:key="onehand_sidesoftkey_editkeys" android:fragment="com.android.settings.OneHandEditMenu" />
+    </PreferenceCategory>
+</PreferenceScreen>

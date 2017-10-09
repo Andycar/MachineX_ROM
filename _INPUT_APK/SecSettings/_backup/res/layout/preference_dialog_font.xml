@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/font_noti" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/font_change_popup" />
+        <CheckBox android:textSize="@dimen/alert_dialog_text_size" android:layout_gravity="left" android:id="@id/do_not_show_again" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="12.0dip" android:text="@string/do_not_show_again" />
+    </LinearLayout>
+</ScrollView>

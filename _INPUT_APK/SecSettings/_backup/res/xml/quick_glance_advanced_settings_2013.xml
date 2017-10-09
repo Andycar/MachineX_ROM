@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/glance_view_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_time_date" android:key="time_and_date" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_notification" android:key="notification" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_missed_calls" android:key="missed_call" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_unread_messages" android:key="unread_message" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_battery_power" android:key="battery" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/glance_view_current_music_info" android:key="current_music" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

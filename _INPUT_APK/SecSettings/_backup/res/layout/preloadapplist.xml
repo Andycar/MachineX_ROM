@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/app_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip" android:scaleType="fitCenter" />
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@id/app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="53.0dip" android:text="@string/select_all" android:singleLine="true" android:layout_toRightOf="@id/app_icon" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/app_check" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/list_checkbox_style" />
+    </RelativeLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

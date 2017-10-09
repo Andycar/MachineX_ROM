@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.sviewcover.SViewCoverSetting android:orientation="vertical" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sview_cover_setting_list_text_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/s_view_cover_setting_theme" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/sview_cover_setting_list_padding" android:paddingRight="@dimen/sview_cover_setting_list_padding" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_setting_list_height" android:text="@string/s_view_window_theme" android:singleLine="true" style="@style/sview_text_shadow" />
+        <ImageView android:id="@id/s_view_cover_setting_theme_devider" android:background="@drawable/noti_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/sview_cover_setting_list_text_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/s_view_cover_setting_infocover" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/sview_cover_setting_list_padding" android:paddingRight="@dimen/sview_cover_setting_list_padding" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_setting_list_height" android:text="@string/s_view_info_cover" android:singleLine="true" style="@style/sview_text_shadow" />
+        <ImageView android:background="@drawable/noti_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</com.sec.android.sviewcover.SViewCoverSetting>

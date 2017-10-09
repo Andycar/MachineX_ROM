@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@android:id/title" android:paddingLeft="@dimen/weather_settings_padding_left" android:paddingTop="@dimen/weather_settings_padding_top" android:paddingRight="@dimen/weather_settings_padding_right" android:paddingBottom="@dimen/weather_settings_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_content_style" />
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="0.75dip" />
+</LinearLayout>

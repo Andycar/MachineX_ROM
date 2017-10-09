@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="@dimen/text_description_text_size" android:textColor="@color/text_description_color" android:id="@id/text_description" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:minLines="3" android:layout_weight="1.0" android:fontFamily="Roboto Regular" android:layoutDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/linearTop">
+        <com.sec.android.emergencylauncher.view.EMGridView android:id="@id/apps_grid" android:layout_width="229.0dip" android:layout_height="wrap_content" android:listSelector="@drawable/grid_apps_background" android:cacheColorHint="#00ffffff" android:horizontalSpacing="47.0dip" android:verticalSpacing="10.0dip" android:numColumns="2" android:layoutDirection="ltr" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/main_container" android:paddingTop="10.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btn_emergency_call" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.sec.android.emergencylauncher.view.EmergencyLauncherBatteryMeterView android:layout_width="13.0dip" android:layout_height="21.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="23.0dip" android:textColor="#ff898989" android:gravity="center_horizontal" android:id="@id/text_batteryinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="Roboto Light" android:layoutDirection="locale" android:paddingStart="2.0dip" android:paddingEnd="12.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/launcher_divider" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip">
+            <TextView android:textSize="@dimen/text_battery_info_time_text_size" android:textColor="@color/text_emergencymode_maincontainer_color" android:gravity="start" android:id="@id/text_batteryinfoTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:singleLine="true" android:fontFamily="Roboto Light" android:layoutDirection="locale" />
+            <TextView android:textSize="@dimen/text_batteryinfo_size" android:textColor="@color/text_emergencymode_maincontainer_color" android:gravity="start" android:id="@id/text_batteryinfoTime2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="Roboto Light" android:layoutDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_emergency_call" android:background="@drawable/selector_emergency_call" android:layout_width="fill_parent" android:layout_height="@dimen/em_btn_layout_size" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/emergency_call_image" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="9.0dip" android:src="@drawable/safety_call_emergency_icon_call" />
+        <TextView android:textSize="@dimen/em_btn_text_size" android:textColor="@color/text_emergency_call_text_color" android:id="@id/emergency_call_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emergency_call" android:fontFamily="Roboto Regular" />
+    </LinearLayout>
+</RelativeLayout>

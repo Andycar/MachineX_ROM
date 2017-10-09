@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sview_text_shadow">
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="Theme.SViewCoverActivity" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">-16.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey.Klondike" parent="@style/Widget.TextView.NumPadKey">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="Animation.LockScreen" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/lock_screen_enter</item>
+        <item name="android:windowExitAnimation">@anim/lock_screen_exit</item>
+    </style>
+    <style name="widget_label">
+        <item name="android:textSize">@dimen/widget_label_font_size</item>
+    </style>
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="widget_big_thin" parent="@style/big_thin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+    <style name="Widget.TransportControl.SeekBar" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">13.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13.0dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item name="android:layout_gravity">bottom|center</item>
+    </style>
+    <style name="PasswordTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorControlNormal">#80ffffff</item>
+        <item name="android:colorControlActivated">#80ffffff</item>
+        <item name="android:colorPrimary">#ff00a0ce</item>
+    </style>
+    <style name="keyguard_text_shadow">
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="TextAppearance.passwordEntry" parent="@android:style/TextAppearance">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <item type="style" name="APKTOOL_DUMMY_d">false</item>
+    <item type="style" name="config_recents_activity_theme">@style/RecentsTheme.Wallpaper</item>
+    <style name="RecentsStyle" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/Animation.RecentsActivity</item>
+    </style>
+    <style name="RecentsTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.RecentsActivity</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:ambientShadowAlpha">0.35</item>
+    </style>
+    <style name="RecentsTheme.Wallpaper" parent="@style/RecentsTheme">
+        <item name="android:windowBackground">@color/recents_panel_background_color</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="RecentsTheme.NoWallpaper" parent="@style/RecentsTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="Animation.RecentsActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:wallpaperIntraOpenEnterAnimation">@anim/wallpaper_recents_launch_from_launcher_enter</item>
+        <item name="android:wallpaperIntraOpenExitAnimation">@anim/wallpaper_recents_launch_from_launcher_exit</item>
+    </style>
+    <style name="TextAppearance.StatusBar.HeadsUp" parent="@android:style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.SystemPanel" parent="@android:style/TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff808080</item>
+    </style>
+    <style name="TextAppearance.StatusBar.TextButton" parent="@android:style/TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/status_bar_clock_color</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded" parent="@android:style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/qs_time_expanded_size</item>
+        <item name="android:textColor">@color/status_bar_date_clock_color</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/qs_date_expanded_size</item>
+        <item name="android:textColor">@color/status_bar_date_clock_color</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.AboveDateTime" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/qs_emergency_calls_only_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#66ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.EmergencyCallsOnly" parent="@style/TextAppearance.StatusBar.Expanded.AboveDateTime" />
+    <style name="TextAppearance.StatusBar.Expanded.ChargingInfo" parent="@style/TextAppearance.StatusBar.Expanded.AboveDateTime" />
+    <style name="TextAppearance.StatusBar.Expanded.Network" parent="@style/TextAppearance.StatusBar.Expanded.Date">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#fffafafa</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Network.EmergencyOnly" parent="@style/TextAppearance.StatusBar.Expanded.Network" />
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/qs_user_detail_name</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher.UserName" parent="@style/TextAppearance.StatusBar.Expanded.UserSwitcher" />
+    <style name="TextAppearance" />
+    <style name="TextAppearance.QS" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/qs_text</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_header_text_size</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemPrimary" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_item_primary_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.TwDetailItemPrimary" parent="@style/TextAppearance.QS.DetailItemPrimary">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSecondary" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_item_secondary_text_size</item>
+        <item name="android:textColor">@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.VolumeSuppressor" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/qs_tile_text</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_button_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.DetailEmpty" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_empty_text_size</item>
+        <item name="android:textColor">@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.Subhead" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.ZenToast" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.QS.TwZenToast" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.SegmentedButton" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_data_usage_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Usage" parent="@style/TextAppearance.QS.DataUsage">
+        <item name="android:textSize">@dimen/qs_data_usage_usage_text_size</item>
+        <item name="android:textColor">@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Secondary" parent="@style/TextAppearance.QS.DataUsage">
+        <item name="android:textColor">@color/data_usage_secondary</item>
+    </style>
+    <style name="BaseBrightnessDialogContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BrightnessDialogContainer" parent="@style/BaseBrightnessDialogContainer">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.ShirtPocketPanel" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@android:anim/shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Animation.RecentPanel" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@android:anim/shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Animation.StatusBar" parent="@style/Animation" />
+    <style name="Animation.StatusBar.HeadsUp" parent="@style/Animation.StatusBar">
+        <item name="android:windowEnterAnimation">@anim/heads_up_enter</item>
+        <item name="android:windowExitAnimation">@anim/heads_up_exit</item>
+    </style>
+    <style name="TextAppearance.StatusBar.PhoneTicker" parent="@android:style/TextAppearance.StatusBar.Ticker">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:alertDialogTheme">@android:style/Theme.DeviceDefault.Light.Dialog.Alert</item>
+        <item name="android:colorControlActivated">@color/system_accent_color</item>
+        <item name="android:colorPrimary">@color/system_primary_color</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:colorControlActivated">@color/system_accent_color</item>
+        <item name="android:colorPrimary">@color/system_primary_color</item>
+    </style>
+    <style name="QSBorderlessButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_borderless_rect</item>
+        <item name="android:padding">12.0dip</item>
+    </style>
+    <style name="TwQSBorderlessButton" parent="@style/QSBorderlessButton">
+        <item name="android:background">@drawable/btn_none_mask_rect</item>
+    </style>
+    <style name="VolumePanelAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/popup_enter_material</item>
+        <item name="android:windowExitAnimation">@android:anim/popup_exit_material</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Parenthetical" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#60000000</item>
+    </style>
+    <style name="SearchPanelCircle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SearchPanelScrim">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/search_panel_scrim_height</item>
+    </style>
+    <style name="UserDetailView">
+        <item name="numColumns">3</item>
+    </style>
+    <style name="ZenToastAnimations">
+        <item name="android:windowEnterAnimation">@anim/zen_toast_enter</item>
+        <item name="android:windowExitAnimation">@anim/zen_toast_exit</item>
+    </style>
+    <style name="TextAppearance.RecentPanelHelpPopUp" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/help_popup_recent_menu_textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.RecentPanelHelpPopUp.CheckBoxText" parent="@style/TextAppearance.RecentPanelHelpPopUp">
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TutorialPopupStyle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/help_popup_picker_bg_w_01</item>
+        <item name="android:paddingLeft">@dimen/smart_alert_popup_text_padding</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">@dimen/smart_alert_popup_text_padding</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Overheating" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="HelpListItem.HelphubTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/help_popup_recent_menu_textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="insideImg_height">@dimen/helphub_help_list_item_image_no_scale_width</item>
+        <item name="insideImg_width">@dimen/helphub_help_list_item_image_no_scale_width</item>
+        <item name="insideImg_yDiff">0.0dip</item>
+        <item name="insideImg_gravity">fill</item>
+    </style>
+    <style name="ScreenshotDeleteActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="ScreenshotEditActivityTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="PickUpTutorialTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

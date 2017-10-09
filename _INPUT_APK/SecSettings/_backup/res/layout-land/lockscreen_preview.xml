@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/preview_image" android:layout_width="312.0dip" android:layout_height="273.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" />
+        <View android:id="@id/divider_view" android:background="?android:listDivider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" />
+    </LinearLayout>
+</LinearLayout>

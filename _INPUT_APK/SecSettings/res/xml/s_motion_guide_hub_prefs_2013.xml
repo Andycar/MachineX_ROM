@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <Preference android:title="@string/motion2014_learn_about_the_sensor" android:key="learn_about_the_sensor" />
+    <PreferenceCategory android:title="@string/motion_advanced_settings" android:key="advanced_category" />
+    <Preference android:title="@string/motion_advanced_settings" android:key="advanced_setting" />
+    <CheckBoxPreference android:title="@string/air_call_accept_auto_start_speaker_title" android:key="advanced_air_call_accept_auto_start_speaker" android:summary="@string/air_call_accept_auto_start_speaker_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

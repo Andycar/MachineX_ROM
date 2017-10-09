@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@android:dimen/preference_fragment_padding_side" android:paddingEnd="?android:scrollbarSize">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/apn_name" />
+        <EditText android:id="@id/edit_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/myplace_title" android:selectAllOnFocus="true" android:maxLength="100" android:inputType="textCapSentences" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/text_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/myplace_title" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/guide_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="20.0dip" android:text="@string/myplace_dialog_text_default" android:singleLine="false" />
+    </LinearLayout>
+</ScrollView>

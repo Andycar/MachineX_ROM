@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_screen_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:title="@string/intelligent_sleep_title" android:key="smartscreen_stay" android:summary="@string/intelligent_sleep_summary" />
+    <CheckBoxPreference android:title="@string/intelligent_rotation_title" android:key="smartscreen_rotation" android:summary="@string/intelligent_rotation_summary" />
+    <CheckBoxPreference android:title="@string/smart_pause_title" android:key="smartscreen_pause" android:summary="@string/smart_pause_summary" />
+    <SwitchPreferenceScreen android:title="@string/smart_scroll_title" android:key="smartscreen_scroll" android:summary="@string/smart_scroll_summary" android:fragment="com.android.settings.smartscreen.SmartScrollAdvancedSettings" />
+    <CheckBoxPreference android:title="@string/grip_rotation_lock_title" android:key="grip_rotation_lock" android:summary="@string/grip_rotation_lock_summary" />
+</PreferenceScreen>

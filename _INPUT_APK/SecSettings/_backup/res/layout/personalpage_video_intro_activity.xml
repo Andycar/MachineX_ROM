@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/root_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flayout_sw_welcome" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/image_intro_personalpage" android:background="@drawable/privatemode_setting_tutorial" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <VideoView android:id="@id/video_intro_personalpage" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_personalpage_welcome_title" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/private_mode_welcome_title_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/private_mode_welcome_title_marginTop" android:text="@string/personal_page" android:fontFamily="samsung-sans" />
+                <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/private_mode_welcome_icon_marginTop" android:src="@drawable/privatemode_setup_icon" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/layout_personalpage_welcome_msg" android:background="#ccff9c00" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/private_mode_welcome_message_layout_paddingTop" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/private_mode_welcome_message_layout_height" android:layout_weight="1.0" android:paddingStart="@dimen/private_mode_welcome_message_layout_paddingLeft" android:paddingEnd="@dimen/private_mode_welcome_message_layout_paddingRight">
+                    <TextView android:textSize="@dimen/private_mode_welcome_message_title_text_size" android:textStyle="normal" android:textColor="@android:color/white" android:id="@id/start_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/personal_page_welcome_title" android:fontFamily="sec-roboto-light" />
+                    <TextView android:textSize="@dimen/private_mode_welcome_message_msg_text_size" android:textStyle="normal" android:textColor="@android:color/white" android:id="@id/accessibility_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/private_mode_welcome_message_msg_marginTop" android:text="@string/personal_page_welcome_message" android:maxLines="5" android:lines="4" android:fontFamily="sec-roboto-light" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/private_mode_welcome_next_button_height">
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/next_btn_area" android:tag="next_is_disclimer" android:background="@drawable/action_bar_button_focus_only" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <Button android:textSize="@dimen/private_mode_welcome_next_button_text_size" android:textStyle="normal" android:textColor="@color/bottom_button_textcolor_for_personalpage" android:orientation="horizontal" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next_button_label" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="@dimen/private_mode_welcome_next_button_text_marginRight" android:drawableEnd="@drawable/welcome_page_actionbar_bottom_next_selector" android:fontFamily="sec-roboto-light" android:textAlignment="center" android:paddingEnd="@dimen/private_mode_welcome_next_button_paddingRight" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

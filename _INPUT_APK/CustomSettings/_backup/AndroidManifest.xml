@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ficeto.customsettings">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <application android:allowBackup="false" android:debuggable="true" android:icon="@drawable/ambilwarna_target" android:label="@string/app_name" android:theme="@android:style/Theme.Holo">
+        <activity android:label="@string/app_name" android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

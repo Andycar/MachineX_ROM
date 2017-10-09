@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/launch_camera_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:title="@string/launch_camera_description" android:key="help_launch_camera" />
+</PreferenceScreen>

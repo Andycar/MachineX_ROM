@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide_samsung_legal_for_na">"By tapping Next or otherwise using the phone, you agree to Samsung's terms and conditions."</string>
+    <string name="intent_ssw_terms_and_condition">terms_and_condition;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.TermsAndConditionActivity</string>
+    <string name="intent_ssw_reactivation_lock_setup">reactivation_lock_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.ReActivationLockActivity</string>
+    <string name="error_log_yes">Yes</string>
+    <string name="error_log_no">No thanks</string>
+    <string name="error_log_collection">"You agree to provide Samsung the error log data from any Software Update failure your device experiences. This will assist Samsung to improve and enhance Samsung's Software Update process and ultimately help you keep your device properly updated."</string>
+    <string name="error_log_collection_k">"CONSENT TO PROVIDE DIAGNOSTIC AND USAGE DATA
+
+Samsung would like your help in improving the quality and performance of its products and services. Samsung and its affiliates may collect diagnostic and usage data from your device for service improvement and statistical purposes, and also to track and address diagnostic events such as unexpected shutdowns and system errors. Diagnostic and usage collection may include usage information on how you use applications, log information on errors, and details on your use of applications (its specific function, frequency of use, memory/battery usage). All diagnostic and usage data will be collected and used in an aggregate manner only in a form that does not personally identify you or your device, and stored for 7 months separately from any other data we may collect. Since Samsung servers are located all over the world, the data we collect may be stored at servers located outside your country. You may choose not to provide us with any diagnostic and usage data, and such decision will not impact the functionality or operation of your device in any way. You may also choose to disable the collection of your diagnostic and usage information at any time via Settings. By clicking on the “Yes” button below, you hereby agree to the collection, use, storage, sharing and disclosure by Samsung and its affiliates of diagnostic and usage data from your device for the purposes set out above and in accordance with Samsungs privacy policy."</string>
+    <string name="error_log_collection_k_serviceinfo">"CONSENT TO PROVIDE DIAGNOSTIC AND USAGE DATA
+
+Samsung Electronics Co., Ltd. and its affiliates (”Samsung”) would like your help in improving the quality and performance of its products and services. Your device includes diagnostic software that may, with your consent, automatically collect diagnostic and usage data from your device. Diagnostic software may send this data to Samsung for statistical analysis in order to improve product and service quality, and track and address unexpected shutdowns or system errors. Diagnostic and usage data collected by Samsung may include information on how you use your device or information about network providers (including connection status, charging status, setting status (such as display and power settings), etc.) and how you use your applications (including frequency and duration of use, setting status, memory and battery usage, log data, and where the Location functionality is activated on your device, location data such as information about applicable base stations, etc.). Since Samsung has servers located all over the world, the data we collect may be stored outside your country of residence, including countries where the data protection laws may not be as comprehensive. By agreeing to provide us with this data, you expressly consent to this. All diagnostic and usage data collected for this purpose will be aggregated in a manner that does not personally identify you or your device, and is retained only as long as necessary for this analysis. You may choose not to provide us with diagnostic and usage data, and such decision will not impact the functionality or operation of your device in any way. You may choose to disable this software at any time, through Settings on your device. By tapping on the Yes button below, you hereby agree to (i) the automatic transmit of diagnostic and usage data and (ii) the collection, use, storage, sharing and disclosure by Samsung of diagnostic and usage data from your device for the purposes set out above."</string>
+    <string name="validation_email">Checking samsung account...</string>
+    <string name="continue_for_a11y">To enable Accessibility mode, continue holding the screen with two fingers until you hear a beep.</string>
+    <string name="canceled_a11y">Accessibility mode not enabled.</string>
+    <string name="enabled_a11y">Accessibility mode enabled.</string>
+    <string name="terms_confirm">I understand and agree to the terms and conditions above.</string>
+    <string name="terms_title">EULA &amp; Diagnostic Data</string>
+    <string name="terms_title_upgrade">End User Licence Agreement</string>
+    <string name="settings_license_activity_loading">Loading…</string>
+    <string name="settings_license_activity_unavailable">Error occurred while loading</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="data_connect_title">Data network</string>
+    <string name="data_connection_text">Many applications, widgets, and services on your device, or that you access through your device, require an Internet connection. If Wi-Fi is not turned on, the device will connect to your mobile network, which may result in additional charges depending on your payment plan.</string>
+    <string name="reactivation_lock_title">Reactivation lock</string>
+    <string name="reactivation_text">"Use your Samsung account to stop other people from reactivating your device after it has been reset.
+Prior to warranty repair referral, the reactivation lock must be turned off. Please remember your Samsung account information to reactivate your device when it is locked, without it, the use of your device and warranty repair referral may be limited .
+
+To turn off this feature, goto Settings > Security."</string>
+    <string name="reactivation_lock_desc">Protect your device in case it is lost or stolen by stopping other people from reactivating your device after it has been reset. You need a Samsung account to use this service.</string>
+    <string name="reactivation_lock_desc2">Before you request a repair under the warranty, the reactivation lock must be disabled. Remember your Samsung account information so you can reactivate your device when it is locked. To disable the reactivation lock, go to Settings > Security.</string>
+    <string name="reactivatio_check_text">Enable the reactivation lock</string>
+    <string name="device_name_title">Device name</string>
+    <string name="device_name_warning">Enter device name</string>
+    <string name="device_name_desc">Enter a device name to easily identify your device when using Bluetooth, Wi-Fi Direct, or tethering.</string>
+    <string name="device_name_desc_wifi_only">Enter a device name so you can easily identify your device when using Bluetooth and Wi-Fi Direct.</string>
+    <string name="key_feature">Browse key features</string>
+    <string name="extra_prefs_set_back_text" />
+    <string name="actionId">walled_garden</string>
+    <string name="scriptUri">android.resource://com.google.android.setupwizard/xml/wizard_script</string>
+    <string name="theme">material_light</string>
+    <string name="app_name">Samsung setup wizard</string>
+    <string name="welcome_start_msg">Welcome!</string>
+    <string name="key_feature_button">Learn more</string>
+    <string name="tap_to_learn_more">Tap to learn more.</string>
+    <string name="setup_complete_message">Device is set up and ready to use</string>
+    <string name="select_language">Select language</string>
+    <string name="start">Start</string>
+    <string name="sim_missing_title">Insert SIM card</string>
+    <string name="sim_missing_text">"Power off your device and insert your SIM card into the SIM card slot. If you prefer to skip this step now, be sure to insert your SIM card later. Until you do, most of your device's features will not work."</string>
+    <string name="location_sharing_title">Use Google location</string>
+    <string name="date_time_title">Time and Timezone</string>
+    <string name="location_sharing_message">Google location service uses data from sources such as Wi-Fi and mobile networks to help apps to determine your approximate location, even when GPS is not available</string>
+    <string name="yes_agree">Allow Google location services to collect anonymous location data. This will occur even when no applications are running</string>
+    <string name="yes_agree_use_location">Use My Location for Google search results and other Google services</string>
+    <string name="opt_set_title">Optional setting</string>
+    <string name="opt_set_msg">"Easy mode helps you to use your device more easily with the easy widgets feature and the ability to customise the font size
+Tap the easy mode tickbox to enable"</string>
+    <string name="easy_btn_text">Enable easy mode setup?</string>
+    <string name="try_again_button_label">Try again</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="next_button_label">Next</string>
+    <string name="next_button_disable">Disabled</string>
+    <string name="button_tts">Button</string>
+    <string name="previous_button_label">Previous</string>
+    <string name="restart_button_label">Restart</string>
+    <string name="finish_button_label">Finish</string>
+    <string name="uim_missing_title">No UIM card in device</string>
+    <string name="uim_missing_text">"Turn off your device, remove the battery, and carefully insert your UIM card with the gold contact side down. The cut-off corner should end up farthest away from the battery
+If you prefer to skip now, be sure to insert your UIM card later. Until you do, most of your device’s features will not work"</string>
+    <string name="sim_uim_missing_title">No UIM/SIM card inserted</string>
+    <string name="sim_uim_missing_text">"Turn off your device and carefully insert your UIM/SIM card into the UIM/SIM card slot. If you prefer to skip this step now, make sure you insert your UIM/SIM card later. Until you insert it, most of your device's features will not work"</string>
+    <string name="activation_progress_title">Activate device</string>
+    <string name="activation_progress_text">Activating your device. This can take a few minutes. Please wait...</string>
+    <string name="activation_succ_title">Device activated</string>
+    <string name="activation_succ_text">Your device needs to restart to be fully activated.</string>
+    <string name="device_activated_text">Your device is already activated.</string>
+    <string name="activation_fail_title">Fail to activate device</string>
+    <string name="activation_fail_text">Failed to activate your device. This may be a temporary problem. Restart your device to try again.</string>
+    <string name="unsupported_sim_text">"Unsupported SIM card in your device, Please turn off your device and carefully insert correct SIM card into the SIM card slot. If you prefer to skip this step now, be sure to insert correct SIM card later. Until you do, most of your device's features will not work."</string>
+    <string name="network_charges_title">Network charges</string>
+    <string name="network_charges_text">Using some applications, such as Internet, Email, etc., and performing some actions using mobile networks, may incur additional charges. For example, mobile networks are required to register a Samsung account, and use widgets, live wallpapers, and information tickers. More information about network charges will be provided in other circumstance.</string>
+    <string name="network_charges_mobile_warning">Connecting via packet data may incur additional charges. Continue?</string>
+    <string name="opt_dual_sim_msg">Enabling dual SIM always on lets you receive calls from both SIM cards even during calls.</string>
+    <string name="dual_simi_btn_text">Enable dual SIM always on?</string>
+    <string name="easy_step_widgets_message">Easy Widgets are automatically added to Home screen</string>
+    <string name="easy_step_widgets_favorite_message">"Favourite apps
+Favourite contacts
+Favourite settings"</string>
+    <string name="easy_step_widgets_favorite_message1">Favourite apps</string>
+    <string name="easy_step_widgets_favorite_message2">Favourite contacts</string>
+    <string name="easy_step_widgets_favorite_message3">Favourite settings</string>
+    <string name="easy_step_widgets_favorite_message4">Simple alarm clock</string>
+    <string name="easy_step_widgets_favorite_message5">Picture frame</string>
+    <string name="easy_step_widgets_skip_message">Tap Next to enable easy mode</string>
+    <string name="easy_step_font_message">Customise font size for Messaging, Email, Contacts etc.</string>
+    <string name="tiny">Tiny</string>
+    <string name="small">Small</string>
+    <string name="normal">Normal</string>
+    <string name="large">Large</string>
+    <string name="huge">Huge</string>
+    <string name="easymode_label">Easy mode</string>
+    <string name="easy_mode_summary">Use a simpler home screen layout, and larger text and icons.</string>
+    <string name="easy_mode_help">Use your device more easily with a simpler home screen layout and application interactions. Larger text and icons will also be applied to your home screen.</string>
+    <string name="enable_easy_mode">Enable Easy mode</string>
+    <string name="more_information">More information</string>
+    <string name="welcome">Welcome!</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="talkback_description">You can enable Talkback by drawing a rectangle anywhere on the screen without releasing</string>
+    <string name="accessibility_description">Tap Accessibility below to change the accessibility settings.</string>
+    <string name="location_sharing_title_baidu">Baidu location service</string>
+    <string name="location_sharing_message_baidu">Baidu Map location service uses data from sources such as WLAN and mobile networks to help apps to determine your approximate location, even when GPS is not available. You can change these options any times in Settings.</string>
+    <string name="location_sharing_message_baidu1">Baidu location service uses data from sources such as WLAN and mobile networks to help apps determine your approximate location, even when GPS is not available. You can change this option any time under Settings</string>
+    <string name="location_sharing_message_baidu2">When the NLP function is installed and opened, Baidu location services will collect anonymous location data. This will occur even when no apps are running. Some data may be stored on your device</string>
+    <string name="location_sharing_message_baidu3">This may incur additional charges. The data collected will be used to find your location and improve accuracy. We ensure that your data will not be shared with other parties or be used for purposes other than providing services. The following data will be collected</string>
+    <string name="location_sharing_message_baidu4">"- ID, signal strength of WLAN AP to be surveyed from the periphery
+- ID, signal strength to be surveyed from the peripheral base station (for GSM and CDMA)"</string>
+    <string name="yes_agree_baidu">Allow Baidu location services to collect anonymous location data. This will occur even when no applications are running.</string>
+    <string name="yes_agree_use_location_baidu">Use My Location for Baidu search results and other Baidu services</string>
+    <string name="wifi_scan_always_available_summary">Allow network location services and applications to scan for WLANs, even when WLAN is turned off.</string>
+    <string name="date_time_auto">Automatic date and time</string>
+    <string name="date_picker_title">Date</string>
+    <string name="time_picker_title">Time</string>
+    <string name="mobile_data_msg">Enable data access over mobile network</string>
+    <string name="mobile_data_title">Mobile data</string>
+    <string name="mobile_data_connected">Device connected to mobile network.</string>
+    <string name="stms_version" />
+    <string name="welcome_start_msg_att">Welcome to AT&amp;T Ready2Go!</string>
+    <string name="email_account_r2g">Email accounts</string>
+    <string name="add_email_account">Add all your email accounts</string>
+    <string name="att_terms_conditions">AT&amp;T Ready2Go Terms and Conditions</string>
+    <string name="label_AcctYahoo">Yahoo</string>
+    <string name="label_AcctHotmail">Hotmail</string>
+    <string name="label_AcctAOL">AOL</string>
+    <string name="label_AcctAtt">ATT.Net</string>
+    <string name="label_AcctExchange">Microsoft Exchange</string>
+    <string name="label_Setup_Othermail">Other accounts</string>
+    <string name="terms_conditions_device">AT&amp;T Ready2Go</string>
+    <string name="terms_conditions_r2g">Terms and conditions</string>
+    <string name="eulaurl">file:///android_asset/eula/r2geula_1_18_2013.htm</string>
+    <string name="eulaurl_es">file:///android_asset/eula/r2geula_1_18_2013_sp.htm</string>
+    <string name="terms_and_conditions_done">Done</string>
+    <string name="home_sync_thankyou">Thank you!</string>
+    <string name="home_sync_easy_setup">Easy setup</string>
+    <string name="home_sync_easy_setup_msg1">"1. Turn on NFC on your mobile device. Then place your mobile device on top of the HomeSync device to install the HomeSync application.
+2. Use the HomeSync app on your mobile device to control the HomeSync device. (Alternatively, you can control the HomeSync device using a mouse.)"</string>
+    <string name="home_sync_easy_setup_msg2">You can connect an Ethernet cable instead of connecting to a Wi-Fi network</string>
+    <string name="home_sync_wifi_msg">To access the Internet, connect to a Wi-Fi network or connect an Ethernet cable</string>
+    <string name="home_sync_display_aspect_ratio">Aspect ratio</string>
+    <string name="home_sync_display_aspect_ratio_msg">For a better picture display, manually set the aspect ratio of your TV using your TV remote control</string>
+    <string name="home_sync_sigin">1. Turn on NFC on your mobile device. Then place your mobile device on top of the HomeSync device to install the HomeSync application.</string>
+    <string name="home_sync_connect_ethernet">2. Use the HomeSync app on your mobile device to control the HomeSync device. (Alternatively, you can control the HomeSync device using a mouse.)</string>
+    <string name="home_sync_nfc_tag">You can connect an Ethernet cable instead of connecting to a Wi-Fi network.</string>
+    <string name="home_sync_control">4. Control your HomeSync device with HomeSync application using your mobile device.( You can also control HomeSync device with a mouse).</string>
+    <string name="home_sync_better_picture">For better picture quality, manually set the aspect</string>
+    <string name="home_sync_set_aspect_ratio">ratio of your TV settings using the TV</string>
+    <string name="home_sync_tv_remote">remote control, that best fits your display.</string>
+    <string name="welcome_desc_for_mum">"Your user area has been added to this tablet.
+After you have finished setting up, you can use the current applications and install new ones.
+
+Important:
+
+- The tablet's owner can uninstall the apps you have installed and delete your user area.
+- Other users can allow changes to application permissions on your behalf.
+- As with any computer, you should only share this tablet with people you trust."</string>
+    <string name="background_traffic_title">Background traffic optimization</string>
+    <string name="background_traffic_text">Background data optimisation will be enabled. This function automatically controls the amount of background data being received via mobile networks. This will save battery power and reduce data consumption. This function will not affect your normal use of the device.</string>
+    <string name="data_usage">Data usage</string>
+    <string name="location_activity_title">Google and your location</string>
+    <string name="location_agree_sharing_content">"Allow apps to estimate your location with Google's location service. Anonymous location data will be collected and sent to Google, and may be stored on your device. Collection may occur even when no apps are running."</string>
+    <string name="location_agree_use_search_content">"Get more relevant information when using Google apps. GPS and Google's location service may be accessed, even when you're not using Google apps."</string>
+    <string name="location_agree_use_wifi_scan_content">"To improve location accuracy and for other purposes, Google's location service and other apps can scan for nearby Wi-Fi networks, even when Wi-Fi is off."</string>
+    <string name="cu_registration_title">Register with China Unicom</string>
+    <string name="cu_registration_message_1">Your device information will be sent to the China Unicom server to register your device during the first boot-up. It uses data from sources such as WLAN and the mobile network. This may result in additional charges.</string>
+    <string name="cu_registration_yes_agree">I understand and agree to the terms and conditions above.</string>
+    <string name="ctc_registration_title">Register device with China Telecom</string>
+    <string name="ctc_registration_message_1">Your device information will be registered with the China Telecom server. The registration will use WLAN or Mobile data. Connecting to a mobile network may result in additional charges depending on your payment plan.</string>
+    <string name="ctc_registration_yes_agree">I agree to this.</string>
+    <string name="v3_title">Vaccine-driven Information</string>
+    <string name="v3_info">"For consumer protection in accordance with government policy, the antivirus program is installed and running.
+
+The antivirus program V3 was installed with real-time monitoring and periodic updates.
+
+Connecting to mobile networks may incur extra charges depending on your plan.
+
+Real-time monitoring and automatic updates can be changed in the antivirus program settings."</string>
+    <string name="dsa_dual_sim_always_on">Dual SIM always on</string>
+    <string name="label_SamsungAccount">Samsung account</string>
+    <string name="label_SamsungAccountDesc">Sign in or create a Samsung account to get the most out of your device.</string>
+    <string name="msg_sec_acct_modify_disabled">To edit account, complete setup wizard and go to Settings > Accounts.</string>
+    <string name="insert_sim_card">Insert SIM card</string>
+    <string name="insert_sim_card_message">Insert SIM card to access network services.</string>
+    <string name="insert_uim_card">Insert UIM card</string>
+    <string name="insert_uim_card_message">Insert a UIM card to access your mobile network.</string>
+    <string name="insert_simuim_card">Insert UIM/SIM card</string>
+    <string name="insert_simuim_card_message">Insert a UIM/SIM card to access network services.</string>
+    <string name="stms_appgroup">K_DEV_Settings_MAIN_SecSetupWizard_FullHD</string>
+    <string name="uscc_lbs_title">THIS HANDSET CAN DETECT YOUR LOCATION</string>
+    <string name="uscc_lbs_content">If you turn location “ON” and activate a third party location based service on this handset, you consent to U.S. Cellular’s use of and disclosure to such third party of this handset’s location. Turning location “ON” will allow U.S. Cellular to track the location of this handset and share such information with third party providers of location-based services. Once this handset’s location information is transferred from U.S. Cellular to the third-party location-based service provider, that third party’s privacy policy will govern subsequent uses of your location information. You should carefully review the terms and conditions and associated privacy policy of each such location- based service for information regarding how the third party provider of that service will use, disclose, protect and retain your location information. Such uses may include, but not be limited to, offering you location-based promotions and sharing your location with others. U.S. Cellular uses a variety of commercially reasonable and appropriate safeguards to protect location information residing on our systems from unauthorized access or disclosure including, without limitation, server firewalls and physical facility security. We also restrict access to location information to only those work groups that need to know that information for their job function. No security is perfect, however, and U.S. Cellular cannot guarantee the security of your location information. U.S. Cellular does not guaranty the accuracy or completeness of location information delivered through its network, and any location-based service may be disrupted or fail due to environmental factors and factors affecting satellite usage. You should understand the risks involved in consenting to the disclosure of your handset’s location information before requesting a location based service and inform users to whom you provide your handset that his or her location can be tracked. Turning location “OFF” will hide the location of this handset from everyone except U.S. Cellular, the entities to which U.S. Cellular may disclose your location information as permitted by law, including but not limited to public safety, fire service or law enforcement officials in emergency situations, and third party providers of location-based services that track the location of this handset without U.S. Cellular’s cooperation. You consent to disclosure of the location of this handset from U.S. Cellular to third-party providers of location-based services by turning location “ON”.</string>
+    <string name="lbs_agree">Agree</string>
+    <string name="lbs_disagree">Disagree</string>
+    <string name="data_usage_enable_mobile">Mobile data</string>
+    <string name="ctc_data_warning_in_roaming">"You're now in the international roaming state, the mobile data is on, please pay attention to the local charge rates."</string>
+    <string name="dlg_know">I know it</string>
+    <string name="launchSource">Samsung</string>
+</resources>

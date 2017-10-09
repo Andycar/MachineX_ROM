@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/liveview_hidden_rootview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip">
+        <View android:id="@id/liveview_hidden_locationview" android:background="@drawable/ripple_effect_drawable" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="fill_parent" />
+        <View android:id="@id/liveview_hidden_attributionview" android:background="@drawable/ripple_effect_drawable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attribution_info_rootview" android:background="@drawable/ripple_effect_drawable" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="9.0dip" android:textColor="#fff5f5f5" android:gravity="left" android:id="@id/attribution_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            <TextView android:textSize="9.0dip" android:textColor="#fff5f5f5" android:gravity="right" android:id="@id/attribution_photographer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@id/attribution_logo" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="9.0dip" android:scaleType="centerInside" android:maxWidth="51.0dip" />
+    </LinearLayout>
+</FrameLayout>

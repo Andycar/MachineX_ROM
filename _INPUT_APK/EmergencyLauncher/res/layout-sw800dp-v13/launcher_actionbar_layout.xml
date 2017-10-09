@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/launcher_actionbar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:layout_width="@dimen/actionbar_text_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/actionbar_text_margin_left">
+        <TextView android:id="@id/text_emergency_mode" android:text="@string/app_name" style="@style/actionbar_text" />
+    </LinearLayout>
+</LinearLayout>

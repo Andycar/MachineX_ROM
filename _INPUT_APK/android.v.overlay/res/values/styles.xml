@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material">
+        <item name="textColor">#ff80d8ff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="textColor">#66b3e5fc</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="textColor">#ff0277bd</item>
+    </style>
+</resources>

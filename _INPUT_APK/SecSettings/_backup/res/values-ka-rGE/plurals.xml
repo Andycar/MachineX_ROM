@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ახლა %d ნაბიჯი დაგრჩათ, რომ დეველოპერი გახდეთ.</item>
+        <item quantity="one">ახლა 1 ნაბიჯი დაგრჩათ, რომ დეველოპერი გახდეთ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">პაროლი უნდა შეიცავდეს მინიმუმ %d ასოს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს მინიმუმ 1 ასოს.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">პაროლი უნდა შეიცავდეს ქვედა რეგისტრის მინიმუმ %d ასოს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს ქვედა რეგისტრის მინიმუმ 1 ასოს.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">პაროლი უნდა შეიცავდეს ზედა რეგისტრის მინიმუმ %d ასოს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს ზედა რეგისტრის მინიმუმ 1 ასოს.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">პაროლი უნდა შეიცავდეს მინიმუმ %d ციფრს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს მინიმუმ 1 ციფრს.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">პაროლი უნდა შეიცავდეს მინიმუმ %d სიმბოლოს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს მინიმუმ 1 სიმბოლოს.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">პაროლი უნდა შეიცავდეს მინიმუმ %d ციფრს ან სიმბოლოს.</item>
+        <item quantity="one">პაროლი უნდა შეიცავდეს მინიმუმ 1 ციფრს ან სიმბოლოს.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d პროგრამა ვერ კითხულობს შეტყობინებებს.</item>
+        <item quantity="one">%d პროგრამას აქვს შეტყობინებების წაკითხვის ნებართვა.</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">დაინსტალირებული %d აპლიკაცია, რომლებიც უზრუნველყოფს ამ ფუნქციის მდგომარეობას</item>
+        <item quantity="one">დაინსტალირებულია 1 აპლიკაცია, რომელიც უზრუნველყოფს ამ ფუნქციის მდგომარეობას</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">1 წუთი</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="one">1 წამი</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">1 საათი</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">1 წუთი</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">1 წუთი</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="one">1 წამი</item>
+    </plurals>
+</resources>

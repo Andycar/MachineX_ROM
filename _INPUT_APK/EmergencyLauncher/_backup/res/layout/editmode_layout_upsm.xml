@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="@dimen/text_description_text_size" android:textColor="@color/text_description_color" android:id="@id/text_description_editmode" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/launcher_description_on_editmode" android:maxLines="3" android:minLines="3" android:layout_weight="1.0" android:fontFamily="Roboto Light" android:layoutDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:paddingTop="16.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/linearTop">
+        <com.sec.android.emergencylauncher.view.EMGridView android:id="@id/apps_grid" android:focusable="true" android:layout_width="257.0dip" android:layout_height="wrap_content" android:listSelector="@drawable/grid_apps_background" android:cacheColorHint="#00ffffff" android:horizontalSpacing="32.0dip" android:verticalSpacing="6.0dip" android:numColumns="2" android:layoutDirection="ltr" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/editmode_ok" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/upsm_edit_btn_size" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/upsm_edit_text_size" android:textColor="@color/upsm_edit_btn_text_color" android:id="@id/text_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_remove_dialog_ok_button" android:fontFamily="Roboto Light" />
+    </LinearLayout>
+</RelativeLayout>

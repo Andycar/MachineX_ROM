@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/grid_items" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/IconImage" />
+    <TextView android:typeface="normal" android:ellipsize="end" android:id="@id/title" android:singleLine="true" android:layout_below="@id/icon" android:layout_centerHorizontal="true" android:fontFamily="Roboto Regular" style="@style/IconTitleDefault" />
+    <ImageView android:id="@id/edit_sign" android:visibility="gone" android:src="@drawable/grid_apps_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/IconEditSign" />
+    <LinearLayout android:gravity="center" android:id="@id/badge_count_background" android:background="@drawable/powersaving_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/badge_margin_top" android:layout_marginRight="@dimen/badge_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/badge_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="Roboto Regular" style="@style/IconBadgeCount" />
+    </LinearLayout>
+</RelativeLayout>

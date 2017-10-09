@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wallpaper"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/pen_help_hovering" android:key="pen_help_air_view" android:summary="">
+        <intent android:action="com.samsung.helphub.HELP">
+            <extra android:name="helphub:section" android:value="air_view" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/air_button_title" android:key="pen_help_air_button" android:summary="">
+        <intent android:action="com.samsung.helphub.HELP">
+            <extra android:name="helphub:section" android:value="air_button" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pen_help_gesture" android:key="pen_help_gesture" android:summary="">
+        <intent android:action="com.samsung.helphub.HELP">
+            <extra android:name="helphub:section" android:value="air_gesture" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pen_writing_buddy" android:key="pen_help_writing_buddy" android:summary="">
+        <intent android:action="com.samsung.helphub.HELP">
+            <extra android:name="helphub:section" android:value="Writing buddy" />
+        </intent>
+    </PreferenceScreen>
+</PreferenceScreen>

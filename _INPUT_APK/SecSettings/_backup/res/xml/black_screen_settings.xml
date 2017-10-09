@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/black_screen_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/show_briefing_information_title" android:key="show_briefing_information" android:summary="@string/show_briefing_information_summary" />
+    <CheckBoxPreference android:title="@string/show_camera_shortcut_title" android:key="show_camera_shortcut" android:summary="@string/show_camera_shortcut_summary" />
+</PreferenceScreen>

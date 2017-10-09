@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:background="@drawable/setupwizard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0dip" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="@dimen/setupwizard_dateandtime_top_margin" android:text="@string/date_and_time_settings_title" style="@style/title_area" />
+    <ImageView android:layout_gravity="center" android:id="@id/date_time_img" android:layout_width="250.0dip" android:layout_height="168.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/setupwizard_time" android:layout_marginStart="55.0dip" android:layout_marginEnd="55.0dip" />
+    <View android:id="@id/timezone_dropdown_anchor" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <fragment android:id="@id/date_time_settings_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.settings.DateTimeSettings" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/setupwizard_navibar_background" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@drawable/setupwizard_bottom_button_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_button" android:background="@drawable/tw_btn_ripple_material" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bottom_button_text_size" android:textColor="@color/bottom_button_text_selector" android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next_button_label" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" android:paddingStart="@dimen/next_arrow_paddingLeft" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

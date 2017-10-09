@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.MSimKeyguardSimPinView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/msim_keyguard_sim_pin_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_pin_unlock" androidprv:layout_maxHeight="@dimen/keyguard_security_max_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/keyguard_bouncer_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/row0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.keyguard.PasswordTextView android:gravity="center" android:id="@id/msim_pinEntry" android:layout_width="240.0dip" android:layout_height="fill_parent" android:maxLength="8" android:layout_centerHorizontal="true" androidprv:scaledTextSize="32" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/delete_button" android:background="@drawable/ripple_drawable" android:paddingLeft="24.0dip" android:paddingTop="8.0dip" android:paddingRight="24.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/pin_lock_btn_back" android:layout_toRightOf="@id/msim_pinEntry" android:layout_alignParentRight="true" android:contentDescription="@string/keyboardview_keycode_delete" android:layout_alignEnd="@id/msim_pinEntry" />
+            <View android:id="@id/divider" android:background="#55ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.keyguard.NumPadKey android:id="@id/key1" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="1" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key2" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="2" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key3" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="3" androidprv:textView="@id/msim_pinEntry" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.keyguard.NumPadKey android:id="@id/key4" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="4" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key5" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="5" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key6" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="6" androidprv:textView="@id/msim_pinEntry" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.keyguard.NumPadKey android:id="@id/key7" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="7" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key8" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="8" androidprv:textView="@id/msim_pinEntry" />
+            <com.android.keyguard.NumPadKey android:id="@id/key9" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="9" androidprv:textView="@id/msim_pinEntry" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <Space android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.android.keyguard.NumPadKey android:id="@id/key0" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" androidprv:digit="0" androidprv:textView="@id/msim_pinEntry" />
+            <ImageButton android:gravity="center" android:id="@id/key_enter" android:background="@drawable/ripple_drawable" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/ic_done_wht" android:layout_weight="1.0" android:contentDescription="@string/keyboardview_keycode_enter" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="#55ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+</com.android.keyguard.MSimKeyguardSimPinView>

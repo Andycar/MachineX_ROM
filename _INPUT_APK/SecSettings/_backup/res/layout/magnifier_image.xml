@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#fff5f5f5" android:gravity="top" android:id="@id/air_wake_up_explained" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="16.0dip" android:text="@string/accessibility_magnifier_description" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="211.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/magnifier_image" android:layout_width="fill_parent" android:layout_height="171.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="0.3" />
+        <View android:layout_width="fill_parent" android:layout_height="208.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

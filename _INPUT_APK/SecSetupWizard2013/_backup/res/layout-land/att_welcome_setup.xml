@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/setupwizard_bg_h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/setup_wizard_logo" android:paddingTop="@dimen/setup_wizard_logo_paddingTop" android:paddingBottom="@dimen/setup_wizard_logo_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            <TextView android:gravity="center" android:id="@id/start_msg" android:paddingBottom="@dimen/att_welcome_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome" style="@style/att_welcome_title_area" />
+        </LinearLayout>
+        <ScrollView android:paddingTop="@dimen/att_welcome_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@drawable/tw_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/SamsungAccount" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/att_welcome_padding_top" android:paddingBottom="@dimen/att_welcome_padding_bottom" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/SamsungAccountTitle" android:paddingLeft="@dimen/att_welcome_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_SamsungAccount" style="@style/samsung_account_text" />
+                        <TextView android:id="@id/SamsungAccountDesc" android:paddingLeft="@dimen/att_welcome_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_SamsungAccountDesc" style="@style/samsung_account_text_desc" />
+                    </LinearLayout>
+                    <ImageView android:gravity="end" android:layout_gravity="center|right" android:id="@id/next_btn_acct_arrow" android:paddingRight="@dimen/att_welcome_padding_arrow_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/tw_setupwizard_att_welcome_next_button" android:layout_weight="6.0" />
+                </LinearLayout>
+                <View android:background="@drawable/tw_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

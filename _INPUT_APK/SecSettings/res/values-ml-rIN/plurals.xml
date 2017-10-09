@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ഒരു ഡെവലപ്പറാകുന്നതില്‍ നിന്ന് നിങ്ങളിപ്പോള്‍ %d അടി അകലെയാണ്.</item>
+        <item quantity="one">ഒരു ഡെവലപ്പറാകുന്നതില്‍ നിന്ന് നിങ്ങള്‍ 1 പടി മാത്രം ദൂരെയാണ്.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d അക്ഷരങ്ങള്‍ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 അക്ഷരം ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d ചെറിയ അക്ഷരങ്ങള്‍ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 ചെറിയ അക്ഷരം ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d വലിയ അക്ഷരങ്ങള്‍ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 വലിയ അക്ഷരം ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d നമ്പരുകള്‍ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 നമ്പര്‍ അടങ്ങിയിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d ചിഹ്നങ്ങള്‍ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 ചിഹ്നം ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് %d നമ്പരുകളോ ചിഹ്നങ്ങളോ ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‍വേഡില്‍ ചുരുങ്ങിയത് 1 നമ്പരോ ചിഹ്നമോ ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ആപ്ലിക്കേഷനുകൾക്ക് അറിയിപ്പുകളെ വായിക്കാൻ കഴിയും.</item>
+        <item quantity="one">അറിയിപ്പുകൾ വായിക്കുന്നതിന് %d ആപ്ലിക്കേഷനെ അനുവദിച്ചു.</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">ഈ പ്രവർത്തനത്തിന് വേണ്ട നിബന്ധനകൾ ഇൻസ്റ്റാൾ ചെയ്ത %d ആപ്ലിക്കേഷനുകൾ ലഭ്യമാക്കുന്നു</item>
+        <item quantity="one">ഈ പ്രവർത്തനത്തിന് വേണ്ട നിബന്ധനകൾ ഇൻസ്റ്റാൾ ചെയ്ത 1 ആപ്ലിക്കേഷൻ ലഭ്യമാക്കുന്നു</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d മിനിട്ടുകള്‍</item>
+        <item quantity="one">1 മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d നിമിഷം</item>
+        <item quantity="one">1 സെക്കന്‍റ്</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d മണിക്കൂര്‍</item>
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">%d മിനിട്ടുകള്‍</item>
+        <item quantity="one">1 മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">%d മിനിട്ടുകള്‍</item>
+        <item quantity="one">1 മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">%d നിമിഷം</item>
+        <item quantity="one">1 സെക്കന്‍റ്</item>
+    </plurals>
+</resources>

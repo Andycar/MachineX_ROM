@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/personalpagesettings_description_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/descprtion_divider" android:background="@color/divider_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="@dimen/private_mode_info_text_size" android:id="@id/textview_personalpage_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" android:text="@string/personal_page_secretbox_message" android:layout_marginStart="@dimen/private_mode_info_marginLeft" android:layout_marginEnd="@dimen/private_mode_info_marginRight" />
+    <TextView android:textSize="@dimen/private_mode_info_text_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/personal_page_tutorial_app_title_message" android:layout_marginStart="@dimen/private_mode_info_marginLeft" android:layout_marginEnd="@dimen/private_mode_info_marginRight" />
+    <ListView android:id="@id/pkglist" android:focusable="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:footerDividersEnabled="false" android:layout_marginStart="@dimen/private_mode_info_marginLeft" android:layout_marginEnd="@dimen/private_mode_info_marginRight" />
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/personal_mode_popup" />
+</LinearLayout>

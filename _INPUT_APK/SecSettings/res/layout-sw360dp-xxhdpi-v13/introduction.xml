@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:textColor="?android:textColorPrimary" android:id="@id/link_message" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="?android:scrollbarSize" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/do_not_show" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="12.0dip" android:text="@string/do_not_show" android:fontFamily="sec-roboto-light" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecurityPreferenceButtonContainer">
+                <Button android:textAppearance="?android:actionMenuTextAppearance" android:gravity="center" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="2.0" style="@style/SecurityPreferenceButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/LinearLayout_bt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bluetooth_no_nearby_dialog_text_margin_top">
+        <TextView android:textSize="19.0sp" android:textColor="@color/bluetooth_no_nearby_text_color" android:ellipsize="none" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bluetooth_no_nearby_dialog_text_margin_left_right" android:layout_marginRight="@dimen/bluetooth_no_nearby_dialog_text_margin_left_right" android:text="@string/bluetooth_no_devices_found" android:singleLine="false" />
+    </LinearLayout>
+</RelativeLayout>

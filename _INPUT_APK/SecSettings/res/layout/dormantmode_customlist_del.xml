@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/button_sellect_all" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Custom_Button_Bg">
+        <RelativeLayout android:id="@id/button_bar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Custom_Select_Button_Bg">
+            <TextView android:textSize="22.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select_all" android:layout_toLeftOf="@id/toggle_list_check" style="@style/Custom_Button_Text" />
+            <CheckBox android:layout_gravity="center|right" android:id="@id/toggle_list_check" android:paddingRight="@dimen/twCheckBox_select_all_padding_right" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" style="@style/Custom_Button_CheckBox" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:paddingTop="0.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:layout_weight="0.74" />
+    <LinearLayout android:id="@id/empty_screen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:gravity="center" android:id="@id/noitem_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/noitems_text_based" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContacts" android:layout_below="@id/noitem_image_view" android:layout_centerHorizontal="true" style="@style/DormantNoContactsTextAppearance" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

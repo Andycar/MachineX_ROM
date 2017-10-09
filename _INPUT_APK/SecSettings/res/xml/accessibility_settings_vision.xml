@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_vision_category" android:key="vision_category"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/accessibility_toggle_high_text_contrast_preference_title" android:key="toggle_high_text_contrast_preference" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/lcd_curtain_title" android:key="lcd_curtain" android:summary="@string/lcd_curtain_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/rapid_key_input_title" android:key="rapid_key_input" android:summary="@string/rapid_key_input_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/accessibility_toggle_speak_password_preference_title" android:key="toggle_speak_password_preference" android:summary="@string/accessibility_speak_password_summary" />
+    <com.android.settings.FontSizeListPreference android:entries="@array/entries_font_size" android:title="@string/title_font_size" android:key="font_size" android:summary="@string/summary_font_size" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/dialog_title_font_size" android:entryValues="@array/entryvalues_font_size" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_screen_magnification_title" android:key="screen_magnification_preference_screen" android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_magnifier_title" android:key="magnifier_preference_screen" android:fragment="com.android.settings.accessibility.ToggleMagnifierPreferenceFragment" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_notification_reminder" android:key="notification_preference" android:fragment="com.android.settings.accessibility.notificationreminder.NotificationReminderPreferenceFragment" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/high_contrast_title" android:key="high_contrast" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/color_blind_title" android:key="color_blind" />
+    <com.android.settings.SwitchPreferenceScreen android:persistent="false" android:title="@string/accessibility_display_inversion_preference_title" android:key="toggle_inversion_preference" />
+    <PreferenceScreen android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference_screen" android:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_global_gesture_preference_title" android:key="enable_global_gesture_preference_screen" android:fragment="com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment" />
+    <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings_preference" android:fragment="com.android.settings.tts.TextToSpeechSettings" />
+</PreferenceScreen>

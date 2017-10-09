@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/setupwizard_bg_h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_area_top_margin_land" style="@style/title_area" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <ImageView android:id="@id/setup_wizard_logo" android:paddingTop="21.0dip" android:paddingBottom="@dimen/setup_wizard_logo_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            <TextView android:gravity="center" android:id="@id/end_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thank_you" style="@style/sub_title_area" />
+            <TextView android:gravity="start" android:id="@id/device_name_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginTop="@dimen/edittext_top_margin" android:layout_marginRight="@dimen/edittext_side_margin" android:layout_marginBottom="9.0dip" android:text="@string/device_name_title" style="@style/small_title_area" />
+            <EditText android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginRight="@dimen/edittext_side_margin" android:layout_marginBottom="@dimen/edittext_bottom_margin" android:lines="1" android:singleLine="true" android:maxLength="32" android:inputType="textCapSentences" android:privateImeOptions="disableEmoticonInput=true" style="@style/edit_text_item" />
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                <TextView android:gravity="start" android:id="@id/device_name_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/device_name_desc" style="@style/description_area" />
+                <LinearLayout android:orientation="vertical" android:id="@id/easy_mode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:gravity="start" android:id="@id/easy_mode_title" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="4.0dip" android:text="@string/easymode_label" style="@style/small_title_area" />
+                    <TextView android:gravity="start" android:id="@id/easy_mode_msg" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/easy_mode_summary" style="@style/description_area" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/more_information_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/key_feature_button" android:contentDescription="@string/tap_to_learn_more" android:layout_marginEnd="2.0dip" style="@style/learn_more_style" />
+                    <CheckBox android:id="@id/easy_mode_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" android:text="@string/enable_easy_mode" android:paddingStart="10.0dip" style="@style/description_area" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/opt_dual_sim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:gravity="start" android:id="@id/optional_title" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="4.0dip" android:text="@string/dsa_dual_sim_always_on" style="@style/small_title_area" />
+                    <TextView android:gravity="start" android:id="@id/opt_dual_sim_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/opt_dual_sim_msg" style="@style/description_area" />
+                    <CheckBox android:id="@id/dual_sim_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@string/dual_simi_btn_text" android:paddingStart="10.0dip" style="@style/description_area" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/setupwizard_bottom_button_bg" android:paddingTop="@dimen/bottom_button_area_paddingTop" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/key_feature" android:background="@drawable/action_bar_button" android:focusable="true" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="21.0dip" android:textColor="@color/bottom_button_text" android:gravity="center" android:id="@id/key_feature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/key_feature_button" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area" android:background="@drawable/tw_btn_ripple_material" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bottom_button_text" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" android:paddingStart="@dimen/next_arrow_paddingLeft" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

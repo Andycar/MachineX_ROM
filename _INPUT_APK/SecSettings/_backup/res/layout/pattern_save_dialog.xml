@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right">
+            <TextView android:textSize="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/pattern_name" style="?android:attr/textAppearanceMedium" />
+            <EditText android:id="@id/edit_pattern_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/name_ex" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textCapSentences" />
+            <TextView android:textSize="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="22.0dip" android:text="@string/save_pattern_decription" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

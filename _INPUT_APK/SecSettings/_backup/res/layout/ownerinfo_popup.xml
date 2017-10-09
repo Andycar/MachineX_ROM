@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText android:gravity="top" android:id="@id/owner_info_edit_text_popup" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="23.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:hint="@string/owner_info_settings_edit_text_hint" android:maxLength="65" android:inputType="textCapSentences|textMultiLine" android:imeOptions="flagNoExtractUi" />
+        <EditText android:gravity="top" android:id="@id/owner_info_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/user_nickname" android:inputType="textCapWords" />
+        <CheckBox android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/show_owner_info_on_lockscreen_checkbox_popup" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_checkbox_left_right" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/alert_dialog_checkbox_left_right" android:layout_marginBottom="18.0dip" android:text="@string/show_owner_info_on_lockscreen_label" />
+    </LinearLayout>
+</ScrollView>

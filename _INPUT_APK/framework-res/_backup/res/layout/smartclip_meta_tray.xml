@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="horizontal" android:id="@id/main_meta_data_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/metadatascrollview" android:background="@drawable/app_tray_bg" android:layout_width="fill_parent" android:layout_height="83.0dip">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/metaitem_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</ScrollView>

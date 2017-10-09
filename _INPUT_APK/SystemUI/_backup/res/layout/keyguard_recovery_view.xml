@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.KeyguardRecoveryView android:gravity="bottom" android:orientation="vertical" android:id="@id/keyguard_recovery_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_password_unlock" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="fill_parent" android:layout_height="205.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/keyguard_bouncer_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="#70000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="36.0dip" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/passwordEntry" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:privateImeOptions="inputType=option" android:imeOptions="actionDone|flagForceAscii" />
+                <ImageView android:layout_gravity="center" android:id="@id/switch_ime_button" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lockscreen_ime" />
+            </LinearLayout>
+        </FrameLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:paddingTop="-5.0dip" android:paddingBottom="-5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+    </LinearLayout>
+</com.android.keyguard.sec.KeyguardRecoveryView>

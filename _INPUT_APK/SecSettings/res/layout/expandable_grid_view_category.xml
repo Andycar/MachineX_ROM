@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/catgory" android:background="@drawable/expandable_category_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/grid_settings_expandable_category_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/grid_settings_expandable_category_text_size" android:textColor="@color/grid_settings_expandable_category_text_color" android:gravity="center_vertical" android:id="@id/category_text_view" android:paddingLeft="@dimen/grid_settings_expandable_category_text_left_padding" android:paddingRight="@dimen/grid_settings_expandable_category_text_right_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <ImageView android:gravity="center_vertical" android:id="@id/category_expander_img_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/grid_settings_expandable_category_image_right_padding" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

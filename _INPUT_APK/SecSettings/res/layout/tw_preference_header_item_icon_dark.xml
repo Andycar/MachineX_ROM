@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/settings_main_preference_item_padding_left" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/icon_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="?android:twTextSizePrimary" android:textColor="?android:twTextColorPrimary" android:ellipsize="marquee" android:id="@id/icon_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="?android:twTextSizeSecondary" android:textColor="?android:twTextColorSecondary" android:ellipsize="end" android:id="@id/icon_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/icon_title" android:layout_alignLeft="@id/icon_title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_round" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/ic_btn_next_depth" />
+    </LinearLayout>
+</LinearLayout>

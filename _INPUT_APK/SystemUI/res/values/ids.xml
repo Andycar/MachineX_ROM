@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="clear_albumart" />
+    <item type="id" name="clear_battery_contatiner" />
+    <item type="id" name="clear_shealth_contatiner" />
+    <item type="id" name="clear_title" />
+    <item type="id" name="clear_weather_temp" />
+    <item type="id" name="clear_weather_temp_high" />
+    <item type="id" name="clear_weather_temp_low" />
+    <item type="id" name="clear_weather_unit" />
+    <item type="id" name="clear_weather_unit_high" />
+    <item type="id" name="clear_weather_unit_low" />
+    <item type="id" name="clear_weather_divider" />
+    <item type="id" name="clock_time_and_date" />
+    <item type="id" name="digital_clock_ampm" />
+    <item type="id" name="digital_clock_time" />
+    <item type="id" name="clock_day_and_month" />
+    <item type="id" name="digital_day_of_the_week" />
+    <item type="id" name="digital_month_day" />
+    <item type="id" name="missed_event_call_cnt" />
+    <item type="id" name="missed_event_call_divider" />
+    <item type="id" name="missed_event_msg_cnt" />
+    <item type="id" name="missed_event_view" />
+    <item type="id" name="missed_event_view_layout" />
+    <item type="id" name="s_view_cover_contextual_holder" />
+    <item type="id" name="s_view_cover_missed_content" />
+    <item type="id" name="s_view_cover_missed_count" />
+    <item type="id" name="s_view_cover_missed_event" />
+    <item type="id" name="s_view_cover_missed_event_cancel_button" />
+    <item type="id" name="s_view_cover_missed_icon" />
+    <item type="id" name="s_view_cover_missed_name" />
+    <item type="id" name="s_view_cover_missed_time" />
+    <item type="id" name="s_view_cover_page_navigation" />
+    <item type="id" name="s_view_cover_pager" />
+    <item type="id" name="s_view_cover_shortcuts_camera" />
+    <item type="id" name="s_view_cover_shortcuts_divider" />
+    <item type="id" name="s_view_cover_shortcuts_quick_memo_container" />
+    <item type="id" name="s_view_cover_shortcuts_music_container" />
+    <item type="id" name="s_view_cover_shortcuts_quick_memo" />
+    <item type="id" name="sview_cover_root" />
+    <item type="id" name="transport_controls" />
+    <item type="id" name="temporature" />
+    <item type="id" name="temporature_high_low" />
+    <item type="id" name="weather_icon" />
+    <item type="id" name="s_view_cover_background" />
+    <item type="id" name="s_view_cover_color_selector" />
+    <item type="id" name="s_view_cover_color_picker" />
+    <item type="id" name="s_view_cover_color_picker_background" />
+    <item type="id" name="s_view_cover_color_picker_pattern" />
+    <item type="id" name="s_view_cover_color_set_button" />
+    <item type="id" name="s_view_cover_unlock_area" />
+    <item type="id" name="s_view_cover_noti_page_area" />
+    <item type="id" name="s_view_cover_noti_page_button" />
+    <item type="id" name="s_view_cover_shortcut_page_button" />
+    <item type="id" name="s_view_cover_swipearrow_left" />
+    <item type="id" name="s_view_cover_swipearrow_right" />
+    <item type="id" name="s_view_cover_circle_left" />
+    <item type="id" name="s_view_cover_circle_right" />
+    <item type="id" name="s_view_cover_unlock_layout" />
+    <item type="id" name="s_view_cover_unlock_button" />
+    <item type="id" name="clear_sound_warning_container" />
+    <item type="id" name="festival_icon" />
+    <item type="id" name="usim_emergency_text" />
+    <item type="id" name="emergencyCallButton" />
+    <item type="id" name="translation_y_animator_tag" />
+    <item type="id" name="translation_z_animator_tag" />
+    <item type="id" name="scale_animator_tag" />
+    <item type="id" name="alpha_animator_tag" />
+    <item type="id" name="top_inset_animator_tag" />
+    <item type="id" name="height_animator_tag" />
+    <item type="id" name="translation_y_animator_end_value_tag" />
+    <item type="id" name="translation_z_animator_end_value_tag" />
+    <item type="id" name="scale_animator_end_value_tag" />
+    <item type="id" name="alpha_animator_end_value_tag" />
+    <item type="id" name="top_inset_animator_end_value_tag" />
+    <item type="id" name="height_animator_end_value_tag" />
+    <item type="id" name="translation_y_animator_start_value_tag" />
+    <item type="id" name="translation_z_animator_start_value_tag" />
+    <item type="id" name="scale_animator_start_value_tag" />
+    <item type="id" name="alpha_animator_start_value_tag" />
+    <item type="id" name="top_inset_animator_start_value_tag" />
+    <item type="id" name="height_animator_start_value_tag" />
+    <item type="id" name="tw_volume_dialog" />
+    <item type="id" name="tw_expand_button" />
+    <item type="id" name="tw_volume_title" />
+    <item type="id" name="tw_expand_button_divider" />
+    <item type="id" name="tw_expand_volume_divider" />
+    <item type="id" name="tw_top_margin_view" />
+    <item type="id" name="tw_bottom_margin_view" />
+    <item type="id" name="doze_saved_filter_tag" />
+    <item type="id" name="toggle_slider" />
+    <item type="id" name="qconnect_sfinder_parent" />
+    <item type="id" name="expandable_row" />
+    <item type="id" name="notification_contents_root" />
+    <item type="id" name="tw_sound_mode_panel" />
+    <item type="id" name="tw_sound_mode_mute_button" />
+    <item type="id" name="tw_sound_mode_vibrate_button" />
+    <item type="id" name="tw_sound_mode_sound_button" />
+    <item type="id" name="tw_settings_panel" />
+    <item type="id" name="tw_media_volume_title" />
+    <item type="id" name="tw_media_stream_icon" />
+    <item type="id" name="tw_media_seekbar" />
+    <item type="id" name="tw_bottom_media_panel" />
+    <item type="id" name="tw_transparent_margin_view" />
+    <item type="id" name="tw_horizontal_divider_above_soundmode" />
+    <item type="id" name="zen_subhead_collapsed_desc" />
+    <item type="id" name="padding">false</item>
+    <item type="id" name="warning_text">false</item>
+    <item type="id" name="do_not_show_again">false</item>
+    <item type="id" name="put_your_phone">false</item>
+    <item type="id" name="phone_detect">false</item>
+    <item type="id" name="level_percent">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="battery_low_cocktail_padding">false</item>
+    <item type="id" name="battery_low_cocktail_image">false</item>
+    <item type="id" name="battery_low_cocktail_level_percent">false</item>
+    <item type="id" name="battery_low_cocktail_power_saving">false</item>
+    <item type="id" name="battery_low_cocktail_button">false</item>
+    <item type="id" name="carrier_label">false</item>
+    <item type="id" name="clear_all_button">false</item>
+    <item type="id" name="usage_text">false</item>
+    <item type="id" name="usage_graph">false</item>
+    <item type="id" name="usage_carrier_text">false</item>
+    <item type="id" name="usage_info_top_text">false</item>
+    <item type="id" name="usage_period_text">false</item>
+    <item type="id" name="usage_info_bottom_text">false</item>
+    <item type="id" name="global_screenshot_background">false</item>
+    <item type="id" name="global_screenshot">false</item>
+    <item type="id" name="global_screenshot_flash">false</item>
+    <item type="id" name="content_holder">false</item>
+    <item type="id" name="highvoltage_charger_notification_padding">false</item>
+    <item type="id" name="keyguard_account_view">false</item>
+    <item type="id" name="keyguard_bouncer_frame">false</item>
+    <item type="id" name="keyguard_message_area">false</item>
+    <item type="id" name="login">false</item>
+    <item type="id" name="ok">false</item>
+    <item type="id" name="password">false</item>
+    <item type="id" name="keyguard_add_widget">false</item>
+    <item type="id" name="keyguard_add_widget_view">false</item>
+    <item type="id" name="keyguard_backup_pin_view">false</item>
+    <item type="id" name="keyguard_message_area_backup_pin_usa">false</item>
+    <item type="id" name="row0">false</item>
+    <item type="id" name="pinEntry">false</item>
+    <item type="id" name="delete_button">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="row1">false</item>
+    <item type="id" name="key1">false</item>
+    <item type="id" name="key2">false</item>
+    <item type="id" name="key3">false</item>
+    <item type="id" name="row2">false</item>
+    <item type="id" name="key4">false</item>
+    <item type="id" name="key5">false</item>
+    <item type="id" name="key6">false</item>
+    <item type="id" name="row3">false</item>
+    <item type="id" name="key7">false</item>
+    <item type="id" name="key8">false</item>
+    <item type="id" name="key9">false</item>
+    <item type="id" name="row4">false</item>
+    <item type="id" name="key0">false</item>
+    <item type="id" name="key_enter">false</item>
+    <item type="id" name="keyguard_selector_fade_container">false</item>
+    <item type="id" name="keyguard_bottom_area">false</item>
+    <item type="id" name="keyguard_indication_text">false</item>
+    <item type="id" name="preview_container">false</item>
+    <item type="id" name="camera_button">false</item>
+    <item type="id" name="phone_button">false</item>
+    <item type="id" name="lock_icon">false</item>
+    <item type="id" name="airplane_mode">false</item>
+    <item type="id" name="carrier1">false</item>
+    <item type="id" name="carrier_divider1">false</item>
+    <item type="id" name="carrier2">false</item>
+    <item type="id" name="carrier_divider2">false</item>
+    <item type="id" name="carrier3">false</item>
+    <item type="id" name="keyguard_carrierlock_password_view">false</item>
+    <item type="id" name="carrierlock_password">false</item>
+    <item type="id" name="keyguard_carrierlockplus_unlock_view">false</item>
+    <item type="id" name="keyguard_carrierlockplus_info_area">false</item>
+    <item type="id" name="carrierlockplus_call_button">false</item>
+    <item type="id" name="carrierlockplus_unlock_button">false</item>
+    <item type="id" name="carrierlockplus_emergency_button">false</item>
+    <item type="id" name="carrierlockplus_main_text">false</item>
+    <item type="id" name="carrierlockplus_owner_info">false</item>
+    <item type="id" name="keyguard_message_area_backup">false</item>
+    <item type="id" name="emergency_call_button">false</item>
+    <item type="id" name="forgot_password_button">false</item>
+    <item type="id" name="backup_pin_button">false</item>
+    <item type="id" name="keyguard_face_unlock_view">false</item>
+    <item type="id" name="face_unlock_area_view">false</item>
+    <item type="id" name="spotlightMask">false</item>
+    <item type="id" name="face_unlock_cancel_button">false</item>
+    <item type="id" name="keyguard_fmm_phone_locked">false</item>
+    <item type="id" name="keyguard_fmm_message">false</item>
+    <item type="id" name="keyguard_fmm_owner_phone_num">false</item>
+    <item type="id" name="keyguard_fmm_emergency_btn">false</item>
+    <item type="id" name="keyguard_fmm_unlock_view">false</item>
+    <item type="id" name="keyguard_fmm_info_area">false</item>
+    <item type="id" name="sec_keyguard_bottom_area">false</item>
+    <item type="id" name="glow_pad_view">false</item>
+    <item type="id" name="keyguard_host_view">false</item>
+    <item type="id" name="sliding_layout">false</item>
+    <item type="id" name="keyguard_widget_pager_delete_target">false</item>
+    <item type="id" name="app_widget_container">false</item>
+    <item type="id" name="keyguard_security_container">false</item>
+    <item type="id" name="view_flipper">false</item>
+    <item type="id" name="multi_pane_challenge">false</item>
+    <item type="id" name="digit_image">false</item>
+    <item type="id" name="klondike_text">false</item>
+    <item type="id" name="keyguard_circle_effect_circle_main">false</item>
+    <item type="id" name="keyguard_circle_effect_circle_1">false</item>
+    <item type="id" name="keyguard_circle_effect_circle_2">false</item>
+    <item type="id" name="keyguard_circle_effect_circle_3">false</item>
+    <item type="id" name="keyguard_circle_effect_circle_4">false</item>
+    <item type="id" name="keyguard_mass_tension_unlock_view">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_center_dot">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_finger">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_line">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_in_press">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_in_press_root">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_in_press_after">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_finger_root">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_finger_after">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_center_dot_root">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_center_dot_after">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_line_root">false</item>
+    <item type="id" name="keyguard_tension_effect_tension_line_after">false</item>
+    <item type="id" name="keyguard_message_area_bouncer">false</item>
+    <item type="id" name="keyguard_user_avatar">false</item>
+    <item type="id" name="keyguard_user_name">false</item>
+    <item type="id" name="keyguard_user_selector">false</item>
+    <item type="id" name="keyguard_users_grid">false</item>
+    <item type="id" name="digit_text">false</item>
+    <item type="id" name="keyguard_password_view">false</item>
+    <item type="id" name="passwordEntry">false</item>
+    <item type="id" name="switch_ime_button">false</item>
+    <item type="id" name="keyguard_pattern_view">false</item>
+    <item type="id" name="lockPatternView">false</item>
+    <item type="id" name="stub_secure_message_area_usa">false</item>
+    <item type="id" name="keyguard_pattern_view_onehand">false</item>
+    <item type="id" name="onehand_lockpattern">false</item>
+    <item type="id" name="onehand_left_arrow">false</item>
+    <item type="id" name="onehand_right_arrow">false</item>
+    <item type="id" name="keyguard_pin_view">false</item>
+    <item type="id" name="presentation">false</item>
+    <item type="id" name="clock">false</item>
+    <item type="id" name="clock_view">false</item>
+    <item type="id" name="keyguard_recovery_view">false</item>
+    <item type="id" name="keyguard_selector_view">false</item>
+    <item type="id" name="keyguard_selector_view_frame">false</item>
+    <item type="id" name="keyguard_signature_view">false</item>
+    <item type="id" name="signature_signview_container">false</item>
+    <item type="id" name="signature_lockscreen_help_text">false</item>
+    <item type="id" name="keyguard_message_area_signature">false</item>
+    <item type="id" name="signature_additional_pin_button">false</item>
+    <item type="id" name="keyguard_sim_perso_view">false</item>
+    <item type="id" name="simPersoEntry">false</item>
+    <item type="id" name="keyguard_sim_pin_view">false</item>
+    <item type="id" name="simPinEntry">false</item>
+    <item type="id" name="keyguard_sim_puk_view">false</item>
+    <item type="id" name="pukEntry">false</item>
+    <item type="id" name="keyguard_smartcardpin_view">false</item>
+    <item type="id" name="keyguard_spass_account_view">false</item>
+    <item type="id" name="keyguard_spass_password_view">false</item>
+    <item type="id" name="keyguard_spass_unlock_view">false</item>
+    <item type="id" name="kg_alternative_password">false</item>
+    <item type="id" name="kg_spass_status">false</item>
+    <item type="id" name="kg_spass_status_image">false</item>
+    <item type="id" name="kg_spass_animation">false</item>
+    <item type="id" name="kg_spass_status_container">false</item>
+    <item type="id" name="keyguard_frame_root">false</item>
+    <item type="id" name="keyguard_securityview_area">false</item>
+    <item type="id" name="kg_spass_animation_container">false</item>
+    <item type="id" name="spass_eca_container">false</item>
+    <item type="id" name="spass_eca_button">false</item>
+    <item type="id" name="emergency_button_area_spass">false</item>
+    <item type="id" name="date_view">false</item>
+    <item type="id" name="alarm_status">false</item>
+    <item type="id" name="keyguard_header">false</item>
+    <item type="id" name="multi_user_switch">false</item>
+    <item type="id" name="multi_user_avatar">false</item>
+    <item type="id" name="system_icons_super_container">false</item>
+    <item type="id" name="system_icons_container">false</item>
+    <item type="id" name="battery_level">false</item>
+    <item type="id" name="keyguard_carrier_text">false</item>
+    <item type="id" name="keyguard_status_view">false</item>
+    <item type="id" name="keyguard_am_pm_view_kor">false</item>
+    <item type="id" name="keyguard_time_view">false</item>
+    <item type="id" name="keyguard_am_pm_view">false</item>
+    <item type="id" name="keyguard_date_view">false</item>
+    <item type="id" name="keyguard_transport_control">false</item>
+    <item type="id" name="badge">false</item>
+    <item type="id" name="info_container">false</item>
+    <item type="id" name="metadata_container">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="artist_album">false</item>
+    <item type="id" name="transient_seek">false</item>
+    <item type="id" name="transient_seek_bar">false</item>
+    <item type="id" name="transient_seek_time_elapsed">false</item>
+    <item type="id" name="transient_seek_time_remaining">false</item>
+    <item type="id" name="btn_prev">false</item>
+    <item type="id" name="btn_play">false</item>
+    <item type="id" name="btn_next">false</item>
+    <item type="id" name="keyguard_unlock_view">false</item>
+    <item type="id" name="keyguard_unlock_bouncer_help_text">false</item>
+    <item type="id" name="keyguard_user_switcher">false</item>
+    <item type="id" name="user_name">false</item>
+    <item type="id" name="user_picture">false</item>
+    <item type="id" name="notification_contentView_layout">false</item>
+    <item type="id" name="security_home_icon_badge">false</item>
+    <item type="id" name="world">false</item>
+    <item type="id" name="score">false</item>
+    <item type="id" name="welcome">false</item>
+    <item type="id" name="msim_keyguard_sim_pin_view">false</item>
+    <item type="id" name="msim_pinEntry">false</item>
+    <item type="id" name="msim_keyguard_sim_puk_view">false</item>
+    <item type="id" name="msim_pukEntry">false</item>
+    <item type="id" name="vpn">false</item>
+    <item type="id" name="nwbooster_trio">false</item>
+    <item type="id" name="nwbooster_wifi_signal">false</item>
+    <item type="id" name="nwbooster_mobile_type">false</item>
+    <item type="id" name="nwbooster_inout">false</item>
+    <item type="id" name="wifi_combo">false</item>
+    <item type="id" name="wifi_signal">false</item>
+    <item type="id" name="wifi_inout">false</item>
+    <item type="id" name="wifi_signal_spacer">false</item>
+    <item type="id" name="new_mobile_combo">false</item>
+    <item type="id" name="sim_icon_chn">false</item>
+    <item type="id" name="separate_mobile">false</item>
+    <item type="id" name="separate_mobile_type">false</item>
+    <item type="id" name="separate_mobile_inout">false</item>
+    <item type="id" name="sim_icon">false</item>
+    <item type="id" name="mobile_combo_sub3">false</item>
+    <item type="id" name="mobile_focus_sub3">false</item>
+    <item type="id" name="mobile_signal_sub3">false</item>
+    <item type="id" name="mobile_type_sub3">false</item>
+    <item type="id" name="mobile_roaming_sub3">false</item>
+    <item type="id" name="mobile_rssi_type3">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="mobile_combo">false</item>
+    <item type="id" name="mobile_focus">false</item>
+    <item type="id" name="mobile_signal">false</item>
+    <item type="id" name="mobile_type">false</item>
+    <item type="id" name="mobile_roaming">false</item>
+    <item type="id" name="mobile_rssi_type">false</item>
+    <item type="id" name="separate_mobile2">false</item>
+    <item type="id" name="separate_mobile_type2">false</item>
+    <item type="id" name="separate_mobile_inout2">false</item>
+    <item type="id" name="mobile_combo_sub2">false</item>
+    <item type="id" name="mobile_focus_sub2">false</item>
+    <item type="id" name="mobile_signal_sub2">false</item>
+    <item type="id" name="mobile_type_sub2">false</item>
+    <item type="id" name="mobile_roaming_sub2">false</item>
+    <item type="id" name="mobile_rssi_type2">false</item>
+    <item type="id" name="airplane">false</item>
+    <item type="id" name="msim_status_bar">false</item>
+    <item type="id" name="call_background">false</item>
+    <item type="id" name="notification_lights_out">false</item>
+    <item type="id" name="status_bar_contents">false</item>
+    <item type="id" name="notification_icon_area">false</item>
+    <item type="id" name="notification_icon_area_inner">false</item>
+    <item type="id" name="carrierLabel">false</item>
+    <item type="id" name="moreIcon">false</item>
+    <item type="id" name="notificationIcons">false</item>
+    <item type="id" name="system_icon_area">false</item>
+    <item type="id" name="ticker_stub">false</item>
+    <item type="id" name="ticker">false</item>
+    <item type="id" name="notification_panel">false</item>
+    <item type="id" name="keyguard_bouncer_container">false</item>
+    <item type="id" name="emergency_calls_only">false</item>
+    <item type="id" name="notification_container_parent">false</item>
+    <item type="id" name="scroll_view">false</item>
+    <item type="id" name="reserve_notification_space">false</item>
+    <item type="id" name="notification_stack_scroller">false</item>
+    <item type="id" name="qs_navbar_scrim">false</item>
+    <item type="id" name="hided_by_cover_group1">false</item>
+    <item type="id" name="backdrop">false</item>
+    <item type="id" name="backdrop_back">false</item>
+    <item type="id" name="backdrop_front">false</item>
+    <item type="id" name="keyguard_effect_behind">false</item>
+    <item type="id" name="scrim_behind">false</item>
+    <item type="id" name="cover_holder">false</item>
+    <item type="id" name="hided_by_cover_group2">false</item>
+    <item type="id" name="brightness_mirror">false</item>
+    <item type="id" name="msim_panel_holder">false</item>
+    <item type="id" name="keyguard_effect_front">false</item>
+    <item type="id" name="scrim_in_front">false</item>
+    <item type="id" name="system_icons">false</item>
+    <item type="id" name="statusIcons">false</item>
+    <item type="id" name="signal_battery_cluster">false</item>
+    <item type="id" name="msim_signal_cluster">false</item>
+    <item type="id" name="battery_text">false</item>
+    <item type="id" name="battery">false</item>
+    <item type="id" name="quickpanel_dualsim_layout">false</item>
+    <item type="id" name="QuickSim1ButtonLayout">false</item>
+    <item type="id" name="QuickSim1ButtonImage">false</item>
+    <item type="id" name="QuickSim1ButtonText">false</item>
+    <item type="id" name="multisim_carrier_label1">false</item>
+    <item type="id" name="QuickSim2ButtonLayout">false</item>
+    <item type="id" name="QuickSim2ButtonImage">false</item>
+    <item type="id" name="QuickSim2ButtonText">false</item>
+    <item type="id" name="multisim_carrier_label2">false</item>
+    <item type="id" name="rot0">false</item>
+    <item type="id" name="nav_buttons">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="home">false</item>
+    <item type="id" name="recent_apps">false</item>
+    <item type="id" name="menu">false</item>
+    <item type="id" name="ime_switcher">false</item>
+    <item type="id" name="lights_out">false</item>
+    <item type="id" name="deadzone">false</item>
+    <item type="id" name="rot90">false</item>
+    <item type="id" name="notification_guts">false</item>
+    <item type="id" name="pkgname">false</item>
+    <item type="id" name="timestamp">false</item>
+    <item type="id" name="debug_info">false</item>
+    <item type="id" name="notification_inspect_app_provided_settings">false</item>
+    <item type="id" name="notification_inspect_item">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="profile_badge_line3">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="brightness">false</item>
+    <item type="id" name="brightness_slider">false</item>
+    <item type="id" name="noti_text">false</item>
+    <item type="id" name="skip">false</item>
+    <item type="id" name="add_text">false</item>
+    <item type="id" name="pickup_tutorial">false</item>
+    <item type="id" name="quick_settings_detailview_container">false</item>
+    <item type="id" name="quick_settings_layout">false</item>
+    <item type="id" name="content_area">false</item>
+    <item type="id" name="notification_divider_h">false</item>
+    <item type="id" name="notificaiton_panel_layout">false</item>
+    <item type="id" name="notificaiton_panel_bar_layout">false</item>
+    <item type="id" name="quick_settings_edit_container">false</item>
+    <item type="id" name="notificaiton_panel_area">false</item>
+    <item type="id" name="quick_settings_container">false</item>
+    <item type="id" name="quicksetting_scroller">false</item>
+    <item type="id" name="quick_settings_panel">false</item>
+    <item type="id" name="qs_secondary_rotation_tile_layout">false</item>
+    <item type="id" name="secondary_radio_rotate_all">false</item>
+    <item type="id" name="secondary_radio_rotate_video">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="secondary_btn_cancel">false</item>
+    <item type="id" name="qs_secondary_silent_tile_layout">false</item>
+    <item type="id" name="secondary_radio_sound">false</item>
+    <item type="id" name="secondary_radio_vibrate">false</item>
+    <item type="id" name="qs_secondary_torch_tile_layout">false</item>
+    <item type="id" name="brightness_title">false</item>
+    <item type="id" name="brightness_progress">false</item>
+    <item type="id" name="auto_turnoff_title">false</item>
+    <item type="id" name="secondary_radio_none">false</item>
+    <item type="id" name="secondary_radio_5min">false</item>
+    <item type="id" name="secondary_radio_10min">false</item>
+    <item type="id" name="secondary_btn_done">false</item>
+    <item type="id" name="sfinder_qconnect_layout">false</item>
+    <item type="id" name="sfinder_button_layout">false</item>
+    <item type="id" name="quick_connect_button_layout">false</item>
+    <item type="id" name="sfinder_button_big">false</item>
+    <item type="id" name="expanded_divider_3">false</item>
+    <item type="id" name="qconnect_button_big">false</item>
+    <item type="id" name="footer_text">false</item>
+    <item type="id" name="footer_icon">false</item>
+    <item type="id" name="panel_view">false</item>
+    <item type="id" name="panel">false</item>
+    <item type="id" name="notification_round_bg">false</item>
+    <item type="id" name="panel_icon">false</item>
+    <item type="id" name="panel_text">false</item>
+    <item type="id" name="panel_border">false</item>
+    <item type="id" name="notification_panel_overlayed">false</item>
+    <item type="id" name="panel_bar">false</item>
+    <item type="id" name="panel_fake">false</item>
+    <item type="id" name="status_bar_scrim">false</item>
+    <item type="id" name="recents_view">false</item>
+    <item type="id" name="empty_view_stub">false</item>
+    <item type="id" name="debug_overlay_stub">false</item>
+    <item type="id" name="nav_bar_scrim">false</item>
+    <item type="id" name="application_shortcut_layout">false</item>
+    <item type="id" name="shortcut1_layout">false</item>
+    <item type="id" name="shortcut1_icon">false</item>
+    <item type="id" name="shortcut1_text">false</item>
+    <item type="id" name="shortcut2_layout">false</item>
+    <item type="id" name="shortcut2_icon">false</item>
+    <item type="id" name="shortcut2_text">false</item>
+    <item type="id" name="shortcut3_layout">false</item>
+    <item type="id" name="shortcut3_icon">false</item>
+    <item type="id" name="shortcut3_text">false</item>
+    <item type="id" name="shortcut4_layout">false</item>
+    <item type="id" name="shortcut4_icon">false</item>
+    <item type="id" name="shortcut4_text">false</item>
+    <item type="id" name="recents_button_vzw">false</item>
+    <item type="id" name="recents_launch_button_vzw">false</item>
+    <item type="id" name="recents_button_divider_vzw01">false</item>
+    <item type="id" name="recents_google_button_vzw">false</item>
+    <item type="id" name="recents_button_divider_vzw02">false</item>
+    <item type="id" name="recents_RemoveAll_button_vzw">false</item>
+    <item type="id" name="recents_button_kk">false</item>
+    <item type="id" name="recents_launch_button_kk">false</item>
+    <item type="id" name="recents_button_divider01_kk">false</item>
+    <item type="id" name="recents_google_button_kk">false</item>
+    <item type="id" name="recents_button_divider02_kk">false</item>
+    <item type="id" name="recents_RemoveAll_button_kk">false</item>
+    <item type="id" name="recents_button">false</item>
+    <item type="id" name="close_all_button_fragment">false</item>
+    <item type="id" name="debug_seek_bar_1">false</item>
+    <item type="id" name="debug_seek_bar_2">false</item>
+    <item type="id" name="task_view_content">false</item>
+    <item type="id" name="task_view_thumbnail">false</item>
+    <item type="id" name="lock_to_app_fab">false</item>
+    <item type="id" name="task_view_bar">false</item>
+    <item type="id" name="application_icon">false</item>
+    <item type="id" name="activity_description">false</item>
+    <item type="id" name="app_multi_window_button">false</item>
+    <item type="id" name="dismiss_task">false</item>
+    <item type="id" name="remember">false</item>
+    <item type="id" name="s_view_cover_camera_layout">false</item>
+    <item type="id" name="select_background_color_text">false</item>
+    <item type="id" name="s_view_cover_color_cancel_button">false</item>
+    <item type="id" name="s_view_cover_open_cover_wallpaper_popup">false</item>
+    <item type="id" name="s_view_cover_open_cover_wallpaper_text">false</item>
+    <item type="id" name="s_view_cover_color_picker_dim">false</item>
+    <item type="id" name="default_home_widget">false</item>
+    <item type="id" name="clock_root">false</item>
+    <item type="id" name="dual_clock_time_and_date">false</item>
+    <item type="id" name="dual_clock_root">false</item>
+    <item type="id" name="roaming_clock_root">false</item>
+    <item type="id" name="region_roaming">false</item>
+    <item type="id" name="roaming_clock">false</item>
+    <item type="id" name="roaming_digital_clock_time">false</item>
+    <item type="id" name="roaming_digital_clock_ampm">false</item>
+    <item type="id" name="roaming_digital_month_day">false</item>
+    <item type="id" name="home_clock_root">false</item>
+    <item type="id" name="home_region_layout">false</item>
+    <item type="id" name="home_region_icon">false</item>
+    <item type="id" name="region_home">false</item>
+    <item type="id" name="home_clock">false</item>
+    <item type="id" name="home_digital_clock_time">false</item>
+    <item type="id" name="home_digital_clock_ampm">false</item>
+    <item type="id" name="home_digital_month_day">false</item>
+    <item type="id" name="s_view_cover_weather_health_container">false</item>
+    <item type="id" name="disaster_alert">false</item>
+    <item type="id" name="battery_charging">false</item>
+    <item type="id" name="s_view_cover_emergency_container">false</item>
+    <item type="id" name="s_view_cover_icon_emergency_battery">false</item>
+    <item type="id" name="s_view_cover_text_emergency_battery">false</item>
+    <item type="id" name="s_view_cover_emergency_devider">false</item>
+    <item type="id" name="s_view_cover_icon_emergency_timer">false</item>
+    <item type="id" name="s_view_cover_text_emergency_timer">false</item>
+    <item type="id" name="music_home_widget">false</item>
+    <item type="id" name="btn_playlist">false</item>
+    <item type="id" name="btn_volume">false</item>
+    <item type="id" name="s_view_cover_view">false</item>
+    <item type="id" name="s_view_cover_photo_id">false</item>
+    <item type="id" name="s_view_cover_missed_notification">false</item>
+    <item type="id" name="s_view_cover_missed_event_alert_popup">false</item>
+    <item type="id" name="s_view_cover_missed_event_alert_popup_text">false</item>
+    <item type="id" name="s_view_cover_setting_theme">false</item>
+    <item type="id" name="s_view_cover_setting_theme_devider">false</item>
+    <item type="id" name="s_view_cover_setting_infocover">false</item>
+    <item type="id" name="s_view_cover_shortcuts_camera_text_view">false</item>
+    <item type="id" name="s_view_cover_shortcuts_quick_memo_text_view">false</item>
+    <item type="id" name="missed_event_call_msg_cnt">false</item>
+    <item type="id" name="s_view_cover_unlock_two_level_layout">false</item>
+    <item type="id" name="s_view_cover_unlock_thrid_level_layout">false</item>
+    <item type="id" name="s_view_cover_noti_page_thrid_level_area">false</item>
+    <item type="id" name="s_view_cover_circle_thrid_level_left">false</item>
+    <item type="id" name="s_view_cover_shortcut_noti_bg_pressed">false</item>
+    <item type="id" name="s_view_cover_noti_page_thrid_level_button">false</item>
+    <item type="id" name="s_view_cover_swipearrow_thrid_level_left">false</item>
+    <item type="id" name="s_view_cover_circle_thrid_level_right">false</item>
+    <item type="id" name="s_view_cover_shortcut_camera_bg_pressed">false</item>
+    <item type="id" name="s_view_cover_shortcut_camera_bg_normal">false</item>
+    <item type="id" name="s_view_cover_shortcut_camera_button">false</item>
+    <item type="id" name="s_view_cover_swipearrow_thrid_level_right">false</item>
+    <item type="id" name="s_view_cover_hide_effect">false</item>
+    <item type="id" name="s_view_cover_background_dim">false</item>
+    <item type="id" name="s_view_cover_shortcut_noti_bg_normal">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_single_event_layout">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_single_event_count">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_multi_event_layout">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_multi_event_count_layout">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_missed_call_count">false</item>
+    <item type="id" name="s_view_cover_noti_page_third_level_unread_message_count">false</item>
+    <item type="id" name="s_view_cover_setting_area">false</item>
+    <item type="id" name="s_view_cover_setting_bg_pressed">false</item>
+    <item type="id" name="s_view_cover_setting_bg_normal">false</item>
+    <item type="id" name="s_view_cover_setting_button">false</item>
+    <item type="id" name="s_view_cover_swipearrow_setting">false</item>
+    <item type="id" name="s_view_cover_camera_area">false</item>
+    <item type="id" name="clear_sound_warning_contatiner">false</item>
+    <item type="id" name="adaptive_event_container_small">false</item>
+    <item type="id" name="emergency_container">false</item>
+    <item type="id" name="adaptive_info_area">false</item>
+    <item type="id" name="weather_container">false</item>
+    <item type="id" name="ped_container">false</item>
+    <item type="id" name="adaptive_weather_container">false</item>
+    <item type="id" name="adaptive_weather_small_icon">false</item>
+    <item type="id" name="adaptive_weather_small_temp">false</item>
+    <item type="id" name="adaptive_weather_small_unit">false</item>
+    <item type="id" name="adaptive_weather_small_high_temp">false</item>
+    <item type="id" name="adaptive_weather_small_high_unit">false</item>
+    <item type="id" name="adaptive_weather_small_Separator">false</item>
+    <item type="id" name="adaptive_weather_small_low_temp">false</item>
+    <item type="id" name="adaptive_weather_small_low_unit">false</item>
+    <item type="id" name="adaptive_weather_city_icon">false</item>
+    <item type="id" name="adaptive_weather_city_name">false</item>
+    <item type="id" name="liveview_hidden_rootview">false</item>
+    <item type="id" name="liveview_hidden_locationview">false</item>
+    <item type="id" name="liveview_hidden_attributionview">false</item>
+    <item type="id" name="attribution_info_rootview">false</item>
+    <item type="id" name="attribution_title">false</item>
+    <item type="id" name="attribution_photographer">false</item>
+    <item type="id" name="attribution_logo">false</item>
+    <item type="id" name="sec_keyguard_camera_circle">false</item>
+    <item type="id" name="trusted_lock_button">false</item>
+    <item type="id" name="help_overlay_image">false</item>
+    <item type="id" name="help_overlay_text">false</item>
+    <item type="id" name="help_overlay_checkbox">false</item>
+    <item type="id" name="help_overlay_button">false</item>
+    <item type="id" name="sec_keyguard_bottom_area_normal">false</item>
+    <item type="id" name="stub_emergency_dummy_circle">false</item>
+    <item type="id" name="sec_keyguard_emergency_dummy_circle">false</item>
+    <item type="id" name="stub_emergency_circle">false</item>
+    <item type="id" name="sec_keyguard_emergency_circle">false</item>
+    <item type="id" name="stub_gms_smart_lock_circle">false</item>
+    <item type="id" name="sec_gms_smart_lock_circle">false</item>
+    <item type="id" name="stub_unlock_view_help_text">false</item>
+    <item type="id" name="sec_keyguard_unlock_view_help_text">false</item>
+    <item type="id" name="stub_message_area">false</item>
+    <item type="id" name="stub_secure_message_area">false</item>
+    <item type="id" name="stub_carrier_text">false</item>
+    <item type="id" name="sec_keyguard_carrier_text">false</item>
+    <item type="id" name="stub_msim_carrier_text">false</item>
+    <item type="id" name="sec_msim_keyguard_carrier_text">false</item>
+    <item type="id" name="stub_camera_circle">false</item>
+    <item type="id" name="stub_keyguard_emergency_carrier_area">false</item>
+    <item type="id" name="keyguard_emergency_carrier_area">false</item>
+    <item type="id" name="circle_arrow_camera">false</item>
+    <item type="id" name="carrier_text">false</item>
+    <item type="id" name="keyguard_sec_clock_dual_image">false</item>
+    <item type="id" name="roaming_locale">false</item>
+    <item type="id" name="keyguard_dual_roaming_clock_container">false</item>
+    <item type="id" name="hour_10th_roaming">false</item>
+    <item type="id" name="hour_1th_roaming">false</item>
+    <item type="id" name="split_hour_time_roaming">false</item>
+    <item type="id" name="minute_10th_roaming">false</item>
+    <item type="id" name="minute_1th_roaming">false</item>
+    <item type="id" name="am_pm_roaming">false</item>
+    <item type="id" name="keyguard_dual_roaming_date_containerr">false</item>
+    <item type="id" name="day_view_roaming">false</item>
+    <item type="id" name="day_digit_10th_roaming">false</item>
+    <item type="id" name="day_digit_1th_roaming">false</item>
+    <item type="id" name="month_description_roaming">false</item>
+    <item type="id" name="home_locale">false</item>
+    <item type="id" name="keyguard_dual_home_clock_container">false</item>
+    <item type="id" name="hour_10th_home">false</item>
+    <item type="id" name="hour_1th_home">false</item>
+    <item type="id" name="split_hour_time_home">false</item>
+    <item type="id" name="minute_10th_home">false</item>
+    <item type="id" name="minute_1th_home">false</item>
+    <item type="id" name="am_pm_home">false</item>
+    <item type="id" name="keyguard_dual_home_date_containerr">false</item>
+    <item type="id" name="day_view_home">false</item>
+    <item type="id" name="day_digit_10th_home">false</item>
+    <item type="id" name="day_digit_1th_home">false</item>
+    <item type="id" name="month_description_home">false</item>
+    <item type="id" name="keyguard_sec_clock_dual_view">false</item>
+    <item type="id" name="roaming_ampm_kor">false</item>
+    <item type="id" name="roaming_time">false</item>
+    <item type="id" name="roaming_ampm">false</item>
+    <item type="id" name="roaming_date">false</item>
+    <item type="id" name="home_ampm_kor">false</item>
+    <item type="id" name="home_time">false</item>
+    <item type="id" name="home_ampm">false</item>
+    <item type="id" name="home_date">false</item>
+    <item type="id" name="keyguard_sec_clock_single_image">false</item>
+    <item type="id" name="single_clock_time_image_container">false</item>
+    <item type="id" name="keyguard_single_clock_image_time">false</item>
+    <item type="id" name="hour_10th">false</item>
+    <item type="id" name="hour_1th">false</item>
+    <item type="id" name="split_hour_time">false</item>
+    <item type="id" name="minute_10th">false</item>
+    <item type="id" name="minute_1th">false</item>
+    <item type="id" name="keyguard_single_clock_ampm_image">false</item>
+    <item type="id" name="single_clock_date_image_container">false</item>
+    <item type="id" name="keyguard_single_clock_date_image">false</item>
+    <item type="id" name="keyguard_sec_clock_single_view">false</item>
+    <item type="id" name="keyguard_single_clock_container">false</item>
+    <item type="id" name="keyguard_single_clock_ampm_kor">false</item>
+    <item type="id" name="keyguard_single_clock_time">false</item>
+    <item type="id" name="keyguard_single_clock_ampm">false</item>
+    <item type="id" name="keyguard_single_clock_date">false</item>
+    <item type="id" name="keyguard_sec_clock_view">false</item>
+    <item type="id" name="keyguard_sec_clock_holder">false</item>
+    <item type="id" name="keyguard_owner_info">false</item>
+    <item type="id" name="keyguard_travel_text">false</item>
+    <item type="id" name="circle_arrow_emergnecy">false</item>
+    <item type="id" name="emergency_button">false</item>
+    <item type="id" name="dummy_emergency_button">false</item>
+    <item type="id" name="keyguard_unlock_view_help_text">false</item>
+    <item type="id" name="keyguard_sec_profile_view">false</item>
+    <item type="id" name="profile_text">false</item>
+    <item type="id" name="profile_ampm_kor">false</item>
+    <item type="id" name="profile_time">false</item>
+    <item type="id" name="profile_ampm">false</item>
+    <item type="id" name="profile_date">false</item>
+    <item type="id" name="sec_keyguard_status_view">false</item>
+    <item type="id" name="msim_carrier_text">false</item>
+    <item type="id" name="popup_title">false</item>
+    <item type="id" name="popup_text">false</item>
+    <item type="id" name="popup_image">false</item>
+    <item type="id" name="wallpaper_widget_background">false</item>
+    <item type="id" name="queue_layout">false</item>
+    <item type="id" name="menu_queue">false</item>
+    <item type="id" name="wallpaper_widget_container">false</item>
+    <item type="id" name="keyguard_widget_grid">false</item>
+    <item type="id" name="wallpaper_widget_remote">false</item>
+    <item type="id" name="pin_button">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="mobile_data_combo">false</item>
+    <item type="id" name="mobile_data_signal">false</item>
+    <item type="id" name="mobile_data_type">false</item>
+    <item type="id" name="mobile_data_inout">false</item>
+    <item type="id" name="mobile_data_roaming">false</item>
+    <item type="id" name="wifi_airplane_spacer">false</item>
+    <item type="id" name="signal_null_for_vzw">false</item>
+    <item type="id" name="time_view">false</item>
+    <item type="id" name="am_pm_view">false</item>
+    <item type="id" name="empty_time_view">false</item>
+    <item type="id" name="status_bar">false</item>
+    <item type="id" name="operatorLogoIcon">false</item>
+    <item type="id" name="operatorLogoIcon_org">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="settings_button2">false</item>
+    <item type="id" name="edit_button_holder">false</item>
+    <item type="id" name="qs_edit_button">false</item>
+    <item type="id" name="basic_settings_button">false</item>
+    <item type="id" name="settings_button">false</item>
+    <item type="id" name="date_timeView">false</item>
+    <item type="id" name="settings_edit_button">false</item>
+    <item type="id" name="notification_button">false</item>
+    <item type="id" name="settings_button_holder">false</item>
+    <item type="id" name="header_emergency_calls_only">false</item>
+    <item type="id" name="date_collapsed">false</item>
+    <item type="id" name="date_expanded">false</item>
+    <item type="id" name="qs_detail_header">false</item>
+    <item type="id" name="qs_detail_header_progress">false</item>
+    <item type="id" name="header_debug_info">false</item>
+    <item type="id" name="notificaiton_edit_panel_back_button">false</item>
+    <item type="id" name="no_notifications">false</item>
+    <item type="id" name="dismiss_text">false</item>
+    <item type="id" name="backgroundNormal">false</item>
+    <item type="id" name="backgroundDimmed">false</item>
+    <item type="id" name="more_text">false</item>
+    <item type="id" name="more_icon_overflow">false</item>
+    <item type="id" name="overflow_icons_view">false</item>
+    <item type="id" name="expanded">false</item>
+    <item type="id" name="expandedPublic">false</item>
+    <item type="id" name="expandedKnox">false</item>
+    <item type="id" name="veto">false</item>
+    <item type="id" name="notification_guts_stub">false</item>
+    <item type="id" name="speedbump_line">false</item>
+    <item type="id" name="recent_item">false</item>
+    <item type="id" name="app_label">false</item>
+    <item type="id" name="app_icon">false</item>
+    <item type="id" name="app_thumbnail">false</item>
+    <item type="id" name="app_thumbnail_image">false</item>
+    <item type="id" name="recents_callout_line">false</item>
+    <item type="id" name="app_description">false</item>
+    <item type="id" name="recents_root">false</item>
+    <item type="id" name="recents_bg_protect">false</item>
+    <item type="id" name="recents_container">false</item>
+    <item type="id" name="recents_linear_layout">false</item>
+    <item type="id" name="recents_no_apps">false</item>
+    <item type="id" name="search_panel_container">false</item>
+    <item type="id" name="search_panel_scrim">false</item>
+    <item type="id" name="search_panel_circle">false</item>
+    <item type="id" name="search_logo">false</item>
+    <item type="id" name="tickerIcon">false</item>
+    <item type="id" name="tickerText">false</item>
+    <item type="id" name="brightness_icon_group">false</item>
+    <item type="id" name="brightness_icon">false</item>
+    <item type="id" name="animatedbrightness_icon">false</item>
+    <item type="id" name="slider_group">false</item>
+    <item type="id" name="auto_brightness_group">false</item>
+    <item type="id" name="slider_layout">false</item>
+    <item type="id" name="slider">false</item>
+    <item type="id" name="slider_split_layout">false</item>
+    <item type="id" name="slider_split">false</item>
+    <item type="id" name="slider_split_text">false</item>
+    <item type="id" name="toggle">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="subs_label">false</item>
+    <item type="id" name="panel_holder">false</item>
+    <item type="id" name="keyguard_mdm_overlay_container">false</item>
+    <item type="id" name="signal_cluster">false</item>
+    <item type="id" name="dormantmode_text">false</item>
+    <item type="id" name="dormantmode_checkbox">false</item>
+    <item type="id" name="drivingmode_text">false</item>
+    <item type="id" name="drivingmode_checkbox">false</item>
+    <item type="id" name="gps_alert_text">false</item>
+    <item type="id" name="gps_alert_title">false</item>
+    <item type="id" name="gps_alert_body">false</item>
+    <item type="id" name="gps_alert_bottom">false</item>
+    <item type="id" name="gps_alert_checkbox">false</item>
+    <item type="id" name="mobiledata_text">false</item>
+    <item type="id" name="mobiledata_checkbox">false</item>
+    <item type="id" name="networkbooster_text">false</item>
+    <item type="id" name="networkbooster_checkbox">false</item>
+    <item type="id" name="readingmode_text">false</item>
+    <item type="id" name="readingmode_checkbox">false</item>
+    <item type="id" name="airmessage_text">false</item>
+    <item type="id" name="airmessage_checkbox">false</item>
+    <item type="id" name="recents_help_image">false</item>
+    <item type="id" name="recents_help_body">false</item>
+    <item type="id" name="help_popup_recent_menu_text">false</item>
+    <item type="id" name="help_popup_recent_menu_checkBox">false</item>
+    <item type="id" name="recents_popup_text">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="buttonbar">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="space_cancel">false</item>
+    <item type="id" name="button2">false</item>
+    <item type="id" name="space_ok">false</item>
+    <item type="id" name="visible_panel">false</item>
+    <item type="id" name="slider_panel">false</item>
+    <item type="id" name="tw_volume_panel_collapse_margin_view">false</item>
+    <item type="id" name="stream_icon">false</item>
+    <item type="id" name="seekbar">false</item>
+    <item type="id" name="notice_text">false</item>
+    <item type="id" name="zen_mode_panel">false</item>
+    <item type="id" name="zen_subhead">false</item>
+    <item type="id" name="zen_subhead_collapsed">false</item>
+    <item type="id" name="zen_subhead_expanded">false</item>
+    <item type="id" name="zen_more_settings">false</item>
+    <item type="id" name="zen_buttons">false</item>
+    <item type="id" name="zen_conditions">false</item>
+    <item type="id" name="pressed">false</item>
+    <item type="id" name="not_pressed">false</item>
+    <item type="id" name="on">false</item>
+    <item type="id" name="off">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="secondaryProgress">false</item>
+    <item type="id" name="recent_remove_item">false</item>
+    <item type="id" name="recent_inspect_item">false</item>
+    <item type="id" name="center_clock_layout">false</item>
+    <item type="id" name="center_clock">false</item>
+    <item type="id" name="left_clock">false</item>
+    <item type="id" name="quick_launch">false</item>
+</resources>

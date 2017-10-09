@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="entryvalues_font_size">
+        <item>0.85</item>
+        <item>0.93</item>
+        <item>1.0</item>
+        <item>1.30</item>
+        <item>1.80</item>
+    </string-array>
+    <string-array name="sequence_list">
+        <item>language_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.LanguageSettingActivity</item>
+        <item>welcome;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.WelcomeActivity</item>
+        <item>sim_missing;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.SimMissingCheckActivity</item>
+        <item>data_connection;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DataConnectionActivity</item>
+        <item>wifi_setup;action;default_extra;com.android.net.wifi.SECSETUP_WIFI_NETWORK</item>
+        <item>background_traffic;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.BackgroundTrafficActivity</item>
+        <item>terms_and_condition;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.TermsAndConditionActivity</item>
+        <item>google_account_setup;action;google_setup_extra;com.google.android.setupwizard.ACCOUNT_SETUP</item>
+        <item>google_name_setup;action;google_setup_extra;com.google.android.setupwizard.USER_NAME</item>
+        <item>sec_account_setup;action;default_extra;com.osp.app.signin.action.SAMSUNG_ACCOUNT_SETUPWIZARD</item>
+        <item>sec_backup_setup;action;default_extra;com.sec.android.sCloudBackupApp.REQUEST_RESTORE</item>
+        <item>dropbox_setup;action;default_extra;com.sec.android.cloudagent.auth.dropbox.OOBELaunch</item>
+        <item>feature_setup;class;default_extra;com.android.settings/com.android.settings.FeatureSettingsSetupWizard</item>
+        <item>kor_v3;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.KorV3Activity</item>
+        <item>device_name_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DeviceNameActivity</item>
+    </string-array>
+    <string-array name="sequence_list_dsa">
+        <item>dual_sim_always_on_phone_number_setup;class;default_extra;com.android.phone/com.android.phone.DsaPhoneNumber</item>
+        <item>dual_sim_always_on_select_sim_setup;class;default_extra;com.android.phone/com.android.phone.DsaSelectSimCard</item>
+    </string-array>
+    <string-array name="sequence_list_video">
+        <item>video_intro;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.VideoIntroLanguageActivity</item>
+        <item>welcome;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.WelcomeActivity</item>
+        <item>sim_missing;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.SimMissingCheckActivity</item>
+        <item>data_connection;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DataConnectionActivity</item>
+        <item>wifi_setup;action;default_extra;com.android.net.wifi.SECSETUP_WIFI_NETWORK</item>
+        <item>background_traffic;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.BackgroundTrafficActivity</item>
+        <item>terms_and_condition;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.TermsAndConditionActivity</item>
+        <item>google_account_setup;action;google_setup_extra;com.google.android.setupwizard.ACCOUNT_SETUP</item>
+        <item>google_name_setup;action;google_setup_extra;com.google.android.setupwizard.USER_NAME</item>
+        <item>sec_account_setup;action;default_extra;com.osp.app.signin.action.SAMSUNG_ACCOUNT_SETUPWIZARD</item>
+        <item>sec_health_setup;class;default_extra;com.sec.android.app.shealth/com.sec.android.app.shealth.SplashScreenActivity</item>
+        <item>sec_backup_setup;action;default_extra;com.sec.android.sCloudBackupApp.REQUEST_RESTORE</item>
+        <item>reactivation_lock_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.ReActivationLockActivity</item>
+        <item>orangecloud_setup;class;default_extra;com.orange.oem.startupwizard/com.orange.oem.startupwizard.ServicesActivity</item>
+        <item>dropbox_setup;action;default_extra;com.sec.android.cloudagent.auth.dropbox.OOBELaunch</item>
+        <item>skt_account;class;default_extra;com.skp.tstore.startup/com.skp.tstore.startup.MainActivity</item>
+        <item>kor_v3;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.KorV3Activity</item>
+        <item>device_name_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DeviceNameActivity</item>
+    </string-array>
+    <string-array name="sequence_list_osupgrade">
+        <item>language_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.LanguageSettingActivity</item>
+        <item>sim_missing;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.SimMissingCheckActivity</item>
+        <item>wifi_setup;action;default_extra;com.android.net.wifi.SECSETUP_WIFI_NETWORK</item>
+        <item>date_and_time_setup;class;date_time_extra;com.android.settings/com.android.settings.DateTimeSettingsSetupWizard</item>
+        <item>google_account_setup;action;google_account_extra;com.google.android.accounts.AccountIntro</item>
+        <item>google_location_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.LocationActivity</item>
+        <item>google_name_setup;class;google_name_extra;com.google.android.gsf.login/com.google.android.gsf.login.NameActivity</item>
+        <item>sec_account_setup;action;default_extra;com.osp.app.signin.action.SAMSUNG_ACCOUNT_SETUPWIZARD</item>
+        <item>sec_backup_setup;action;default_extra;com.sec.android.sCloudBackupApp.REQUEST_RESTORE</item>
+        <item>dropbox_setup;action;default_extra;com.sec.android.cloudagent.auth.dropbox.OOBELaunch</item>
+        <item>feature_setup;class;default_extra;com.android.settings/com.android.settings.FeatureSettingsSetupWizard</item>
+        <item>device_name_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DeviceNameActivity</item>
+        <item>dual_sim_always_on_phone_number_setup;class;default_extra;com.android.phone/com.android.phone.DsaPhoneNumber</item>
+    </string-array>
+    <string-array name="camera_sequence_list_part_1">
+        <item>language_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.LanguageSettingActivity</item>
+        <item>date_and_time_setup;class;date_time_extra;com.android.settings/com.android.settings.DateTimeSettingsSetupWizard</item>
+    </string-array>
+    <string-array name="camera_sequence_list_part_2">
+        <item>wifi_setup;action;default_extra;com.android.net.wifi.SECSETUP_WIFI_NETWORK</item>
+        <item>terms_and_condition;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.TermsAndConditionActivity</item>
+        <item>google_account_setup;action;google_account_extra;com.google.android.accounts.AccountIntro</item>
+        <item>google_location_setup;class;google_account_extra;com.google.android.setupwizard/com.google.android.setupwizard.LocationSharingActivity</item>
+        <item>google_name_setup;class;google_name_extra;com.google.android.gsf.login/com.google.android.gsf.login.NameActivity</item>
+        <item>sec_account_setup;action;default_extra;com.osp.app.signin.action.SAMSUNG_ACCOUNT_SETUPWIZARD</item>
+        <item>sec_backup_setup;action;default_extra;com.sec.android.sCloudBackupApp.REQUEST_RESTORE</item>
+        <item>dropbox_setup;action;default_extra;com.sec.android.cloudagent.auth.dropbox.OOBELaunch</item>
+        <item>feature_setup;class;default_extra;com.android.settings/com.android.settings.FeatureSettingsSetupWizard</item>
+        <item>device_name_setup;class;default_extra;com.sec.android.app.SecSetupWizard/com.sec.android.app.SecSetupWizard.DeviceNameActivity</item>
+    </string-array>
+    <string-array name="sequence_list_subuser">
+        <item>google_subsuer_setup;action;google_setup_extra;com.android.setupwizard.WELCOME_USER</item>
+    </string-array>
+    <string-array name="default_extra">
+        <item>bool;firstRun</item>
+        <item>bool;SecSetupWizard</item>
+    </string-array>
+    <string-array name="locker_extra">
+        <item>string;launchSource</item>
+    </string-array>
+    <string-array name="google_setup_extra">
+        <item>bool;firstRun</item>
+        <item>string;actionId</item>
+        <item>string;scriptUri</item>
+    </string-array>
+    <string-array name="date_time_extra">
+        <item>bool;forFullHD</item>
+    </string-array>
+    <string-array name="google_account_extra">
+        <item>bool;allowSkip</item>
+        <item>bool;useImmersiveMode</item>
+        <item>bool;suppressCreditCardRequestActivity</item>
+        <item>bool;suppressGoogleServicesActivity</item>
+        <item>bool;suppressNameCheck</item>
+        <item>bool;allowed_domains</item>
+        <item>string;theme</item>
+    </string-array>
+    <string-array name="google_name_extra">
+        <item>integer;nameType</item>
+        <item>bool;useImmersiveMode</item>
+        <item>bool;suppressNameCheck</item>
+        <item>string;theme</item>
+    </string-array>
+    <string-array name="wifi_extra">
+        <item>bool;only_access_points</item>
+        <item>bool;extra_prefs_show_button_bar</item>
+        <item>string;extra_prefs_set_back_text</item>
+        <item>bool;extra_prefs_show_skip</item>
+        <item>bool;wifi_enable_next_on_connect</item>
+    </string-array>
+</resources>

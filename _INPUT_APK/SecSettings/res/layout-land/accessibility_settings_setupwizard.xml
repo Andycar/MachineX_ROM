@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:background="@drawable/setupwizard_bg_h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+        <TextView android:textSize="32.0dip" android:id="@id/accessibility_settings_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/accessibility_settings_title" android:fontFamily="sec-roboto-regular" style="@style/title_area" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginTop="@dimen/trans_indicator_margin" android:layout_weight="1.0">
+        <fragment android:id="@id/accessibilityfragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.settings.accessibility.AccessibilitySettings" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/setupwizard_navibar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@drawable/setupwizard_bottom_button_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn" android:background="@drawable/action_bar_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bottom_button_text_size" android:textColor="@color/bottom_button_text_selector" android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next_button_label" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:paddingLeft="@dimen/next_arrow_paddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

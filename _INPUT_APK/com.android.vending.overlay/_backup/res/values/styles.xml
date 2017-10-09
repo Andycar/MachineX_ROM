@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlaySearchPlate">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="HighlightBannerOverlaySubtitle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#61000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="PlayPlainText" />
+    <style name="HighlightBannerOverlayTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#61000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="PlayDrawerList">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@android:color/black</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="PlayDrawerBaseText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+    </style>
+    <style name="PlayMediumPlainText" />
+</resources>

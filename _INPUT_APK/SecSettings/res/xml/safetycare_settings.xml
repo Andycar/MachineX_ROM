@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/safetycare_settings" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:title="@string/safetycare_guide_text" android:key="safetycare_guide" />
+    <PreferenceScreen android:id="@id/safetycare_help" android:title="@string/safetycare_emergency_mode" android:key="lowpower_mode" android:summary="@string/safetycare_off" android:fragment="com.android.settings.safetycare.SafetyCareEmergencyMode" />
+    <PreferenceScreen android:title="@string/safetycare_geolookout_title" android:key="earthquake_alert">
+        <intent android:targetPackage="com.sec.android.GeoLookout" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.GeoLookout.activity.DisasterActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/safetycare_quick_action_for_emergency_category" android:key="situation" />
+    <PreferenceScreen android:title="@string/safetycare_send_emergency_message_title" android:key="safety_assistance">
+        <intent android:targetPackage="com.sec.android.app.safetyassurance" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.safetyassurance.settings.SafetyAssuranceSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/safetycare_emergency_buzzer" android:key="safety_emaergency_buzzer_jpn" android:summary="safetycare_buzzer">
+        <intent android:targetPackage="com.sec.android.app.emergencybuzzer" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.emergencybuzzer.EmergencyBuzzerSound" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/safetycare_emergency_contacts" android:key="emer_contact_category" />
+    <PreferenceScreen android:title="@string/safetycare_primary_contacts_manage" android:key="emer_contact" />
+</PreferenceScreen>

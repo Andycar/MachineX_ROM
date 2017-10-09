@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <FrameLayout android:id="@id/brightness_icon_group" android:layout_width="@dimen/toggle_slider_brightness_icon_width" android:layout_height="@dimen/toggle_slider_brightness_icon_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/toggle_slider_brightness_icon_margin_left" android:layout_marginEnd="@dimen/toggle_slider_brightness_icon_margin_right" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/brightness_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_brightness_auto_off" />
+        <com.android.systemui.statusbar.AnimatedBrightnessIconView android:id="@id/animatedbrightness_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/slider_group" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_toStartOf="@id/auto_brightness_group" android:layout_toEndOf="@id/brightness_icon_group">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/slider_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.systemui.settings.ToggleSeekBar android:id="@id/slider" android:nextFocusRight="@id/auto_brightness_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/tw_status_bar_seek_bar" android:thumb="@drawable/ic_brightness_thumb" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_brightness" android:paddingStart="14.0dip" android:paddingEnd="15.0dip" android:layout_toStartOf="@id/auto_brightness_group" android:layout_toEndOf="@id/brightness_icon_group" android:splitTrack="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/slider_split_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/slider_split" android:focusable="true" android:nextFocusRight="@id/auto_brightness_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:thumb="@drawable/ic_brightness_thumb" android:layout_weight="@dimen/toggle_slider_weight" />
+            <TextView android:textSize="@dimen/toggle_slider_split_text_size" android:textColor="@color/toggle_slider_text_color" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/slider_split_text" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="@dimen/toggle_slider_text_weight" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/auto_brightness_group" android:focusable="true" android:nextFocusLeft="@id/slider_group" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/toggle_slider_auto_brightness_group_left_margin" android:layout_marginEnd="@dimen/toggle_slider_auto_brightness_group_right_margin" android:layout_alignParentEnd="true">
+        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/toggle" android:focusable="true" android:nextFocusLeft="@id/slider_group" android:layout_width="@dimen/toggle_slider_checkbox_size" android:layout_height="@dimen/toggle_slider_checkbox_size" android:layout_marginTop="@dimen/toggle_slider_checkbox_top_margin" android:button="@drawable/tw_status_bar_check_box" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/toggle_slider_label_text_size" android:textColor="@color/toggle_slider_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toggle_slider_text_top_margin" android:singleLine="true" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/noti_basic_layout" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/noti_weather_icon" android:padding="@dimen/notification_large_icon_circle_padding" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="11.5dip" android:layout_marginBottom="11.5dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="11.5dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/noti_1line" android:layout_width="268.0dip" android:layout_height="24.0dip" android:layout_marginTop="9.0dip" android:layout_alignParentTop="true" android:layout_marginStart="64.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentStart="true">
+            <TextView android:textSize="17.0dip" android:textStyle="normal" android:textColor="@color/col_000000" android:gravity="bottom" android:id="@id/noti_title" android:layout_width="199.0dip" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec-roboto-light" />
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_435463" android:gravity="end|bottom|center" android:id="@id/noti_time" android:layout_width="62.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:fontFamily="sec-roboto-light" android:layout_marginStart="7.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0dip" android:textStyle="normal" android:textColor="@color/col_435463" android:id="@id/noti_city_name" android:layout_width="268.0dip" android:layout_height="20.0dip" android:singleLine="true" android:layout_below="@id/noti_1line" android:fontFamily="sec-roboto-light" android:layout_marginEnd="12.0dip" android:layout_alignStart="@id/noti_1line" />
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@color/col_4e6275" />
+    <LinearLayout android:gravity="center" android:id="@id/noti_hour_layout" android:layout_width="fill_parent" android:layout_height="82.0dip" android:weightSum="6.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="82.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="normal" android:textColor="@color/col_4e6275" android:id="@id/noti_hour_temp5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+            <ImageView android:id="@id/noti_hour_icon5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/col_4e6275" android:id="@id/noti_hour5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

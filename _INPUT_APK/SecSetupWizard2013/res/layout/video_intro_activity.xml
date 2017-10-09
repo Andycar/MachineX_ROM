@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/root_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flayout_sw_welcome" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <VideoView android:id="@id/video_intro_setupwizarad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_setupwizard_welcome" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_area_top_margin" style="@style/title_area" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/language_screen_side_padding" android:paddingRight="@dimen/language_screen_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/setup_wizard_logo" android:paddingTop="@dimen/setup_wizard_logo_paddingTop" android:paddingBottom="@dimen/setup_wizard_logo_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <TextView android:gravity="center" android:id="@id/start_msg" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="@string/welcome_start_msg" style="@style/sub_title_area" />
+                <TextView android:gravity="start" android:id="@id/language_title" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginTop="@dimen/edittext_top_margin" android:layout_marginRight="@dimen/edittext_side_margin" android:layout_marginBottom="7.0dip" android:text="@string/select_language" style="@style/small_title_area" />
+                <Spinner android:id="@id/language_spinner" android:layout_width="fill_parent" android:layout_height="@dimen/spinner_height" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginRight="@dimen/edittext_side_margin" style="@style/spinner_style" />
+                <View android:background="#ff7f7f7f" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingBottom="@dimen/accessibility_btn_bottom_margin" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:gravity="start" android:id="@id/accessibility_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accessibility_description" style="@style/description_area" />
+                    <Button android:layout_gravity="center" android:id="@id/accessibility_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/accessibility_btn_top_margin" android:minHeight="@dimen/accessibility_btn_height" android:text="@string/accessibility" style="@style/button_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/video_intro_button_area" android:background="@drawable/setupwizard_bottom_button_bg" android:paddingTop="@dimen/bottom_button_area_paddingTop" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area" android:background="@drawable/tw_btn_ripple_material" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bottom_button_text" />
+                    <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" android:paddingStart="@dimen/next_arrow_paddingLeft" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

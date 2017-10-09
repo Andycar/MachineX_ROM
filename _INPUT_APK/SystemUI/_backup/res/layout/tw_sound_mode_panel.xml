@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/tw_sound_mode_panel" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0dip" android:textColor="@color/tw_zen_sound_text_color" android:gravity="center" android:id="@id/tw_sound_mode_mute_button" android:background="@drawable/btn_borderless_rect" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/quickpanel_silent_mode_mute" android:layout_weight="1.0" />
+    <Button android:textSize="14.0dip" android:textColor="@color/tw_zen_sound_text_color" android:gravity="center" android:id="@id/tw_sound_mode_vibrate_button" android:background="@drawable/btn_borderless_rect" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/quickpanel_silent_mode_vibrate" android:layout_weight="1.0" />
+    <Button android:textSize="14.0dip" android:textColor="@color/tw_zen_sound_text_color" android:gravity="center" android:id="@id/tw_sound_mode_sound_button" android:background="@drawable/btn_borderless_rect" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/quickpanel_silent_mode_sound" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Хурд</item>
+        <item>Муқаррарӣ</item>
+        <item>Калон</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Ягон</item>
+        <item>Эффекти мавҷзанӣ</item>
+        <item>Эффекти рушноӣ</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Ғайрифаъол</item>
+        <item>1 соат</item>
+        <item>2 соат</item>
+        <item>3 соат</item>
+        <item>4 соат</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Амрико</item>
+        <item>Аврупо</item>
+        <item>Африқо</item>
+        <item>Осиё</item>
+        <item>Австралия</item>
+        <item>Уқёнуси Ором</item>
+        <item>Ҳама</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>2 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>30 дақиқа</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>3 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>15 дақиқа</item>
+        <item>30 дақиқа</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Ҳеҷ гоҳ</item>
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>2 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>30 дақиқа</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Дарҳол бо тугмаи хомӯшкунӣ ё ҳангоми ба охир расидани вақти фаъол будани экран</item>
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>3 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>15 дақиқа</item>
+        <item>30 дақиқа</item>
+        <item>1 соат</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Фавран</item>
+        <item>5 сония</item>
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>2 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>30 дақиқа</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Хурдакак</item>
+        <item>Хурд</item>
+        <item>Муқаррарӣ</item>
+        <item>Калон</item>
+        <item>Азим</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Хело суст</item>
+        <item>Суст</item>
+        <item>Муқаррарӣ</item>
+        <item>Зуд</item>
+        <item>Каме зудтар</item>
+        <item>Хело зудтар</item>
+        <item>Хело зуд</item>
+        <item>Бениҳоят зуд</item>
+        <item>Зудтарин</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Хеле паст</item>
+        <item>Паст</item>
+        <item>Муқаррарӣ</item>
+        <item>Баланд</item>
+        <item>Хеле баланд</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Ковиш…</item>
+        <item>Пайвастшавӣ…</item>
+        <item>Санҷиши ҳаққоният…</item>
+        <item>Суроғаи IP гирифта мешавад…</item>
+        <item>Пайваст шудем</item>
+        <item>Қатъшуда</item>
+        <item>Пайваст пароканда карда мешавад…</item>
+        <item>Пайваст пароканда шуд</item>
+        <item>Номуваффақ</item>
+        <item>Манъшуда</item>
+        <item>Сифати пайвасти шумо ба Интернет тафтиш карда мешавад…</item>
+        <item>Пайваст шудем</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ковиш…</item>
+        <item>Ба %s пайваст мешавем…</item>
+        <item>%s ҳаққониятро месанҷад…</item>
+        <item>Аз %s суроғаи IP гирифта мешавад…</item>
+        <item>Дастгоҳ ба %1$s пайваст шуд.</item>
+        <item>Қатъшуда</item>
+        <item>Пайваст бо %s пароканда карда мешавад…</item>
+        <item>Пайваст пароканда шуд</item>
+        <item>Номуваффақ</item>
+        <item>Манъшуда</item>
+        <item>Сифати пайвасти шумо ба Интернет тафтиш карда мешавад…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Кушодан</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Тугмаро зер кунед.</item>
+        <item>PIN аз дастгоҳи ҳамрутба</item>
+        <item>PIN аз ин дастгоҳ</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Пайваст шуд</item>
+        <item>Даъват карда шудед.</item>
+        <item>Пайвастагӣ иҷро нашуд</item>
+        <item>Барои пайваст шудан, инҷо зарба занед.</item>
+        <item>Берун аз минатақаи дастрасӣ.</item>
+        <item>Бо дастгоҳи дигар пайваст шудем</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Хомӯш накардан</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>20 дақиқа</item>
+        <item>30 дақиқа</item>
+        <item>60 дақиқа</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Ҳамаи дастгоҳҳо</item>
+        <item>Танҳо дастгоҳҳои иҷозатшуда</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Худкор</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Муқаррарӣ</item>
+        <item>Баланд</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 соат</item>
+        <item>12 соат</item>
+        <item>24 соат</item>
+        <item>Ягон ҳудуди вақт нест</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>1 соат</item>
+        <item>Хомӯш накардан</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>1 соат</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Суст</item>
+        <item>Миёна</item>
+        <item>Хуб</item>
+        <item>Баланд</item>
+        <item>Хеле баланд</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Ҳамеша</item>
+        <item>Танҳо ҳангоми барқгирӣ</item>
+        <item>Ҳеҷ гоҳ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Ҳамеша</item>
+        <item>Танҳо ҳангоми барқгирӣ</item>
+        <item>Ҳеҷ гоҳ</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>30 рӯзи охир</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Тартиби алифбоӣ</item>
+        <item>Сифати сигнал</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Худкор</item>
+        <item>Танҳо 5 ГГс</item>
+        <item>Танҳо 2,4 ГГс</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Худкор</item>
+        <item>Истифодаи тасмаи 5 ГҲтс</item>
+        <item>Истифодаи тасмаи 2.4 ГҲтс</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Хеле баланд</item>
+        <item>Баланд</item>
+        <item>Одилона</item>
+        <item>Ҳама</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Вақти истифода</item>
+        <item>Last time used</item>
+        <item>Номи барнома</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ягон</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ягон</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Хомӯш</item>
+        <item>Тугмаро зер кунед.</item>
+        <item>PIN­и нуқтаи дастрасӣ</item>
+        <item>PIN аз ин дастгоҳ</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Тағйирнопазир</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ягон</item>
+        <item>Дастӣ</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Одатӣ</item>
+        <item>Маркази шаҳр</item>
+        <item>Хона</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>Ин танзими маъмултарини пайвасти Wi-Fi мебошад.</item>
+        <item>Агар шумо дар минтақае бошед, ки шумораи зиёди шабакаҳои Wi-Fi дорад, Wi-Fi зуд­зуд шабакаҳоро иваз мекунад, то сифати баланди сигнал нигоҳ дошта шавад.</item>
+        <item>Агар шумо дар минтақае бошед, ки шумораи хурди шабакаҳои Wi-Fi дорад, пайвасти Wi-Fi то мӯҳлати имконпазир нигоҳ дошта мешавад.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ягон</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ва CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Муқаррарнашуда</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Ягон</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Захирагоҳи дохилии дастгоҳ</item>
+        <item>Корти SD-и ҷудошаванда</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Иҷозат додашудааст</item>
+        <item>Ignored</item>
+        <item>Ҳамеша пурсидан</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Макон</item>
+        <item>Шахсӣ</item>
+        <item>Паёмнависӣ</item>
+        <item>Мултимедиа</item>
+        <item>Дастгоҳ</item>
+        <item>Иҷрои худкор</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Дастрас шудан ба макони тақрибӣ</item>
+        <item>Дастрас шудан ба макони аниқ</item>
+        <item>GPS</item>
+        <item>Ларзиш</item>
+        <item>Хондани алоқаҳо</item>
+        <item>Идора кардани алоқаҳо</item>
+        <item>Хондани дафтари қайди зангҳо</item>
+        <item>Навиштани дафтари қайди зангҳо</item>
+        <item>Хондани тақвим</item>
+        <item>Идора кардани тақвим</item>
+        <item>Ковиши шабакаҳои Wi-Fi</item>
+        <item>Огоҳӣ</item>
+        <item>Ҷустуҷӯи шабакаҳо</item>
+        <item>Задани зангҳои телефонӣ</item>
+        <item>Хондани паёмҳои матнӣ</item>
+        <item>Навиштани паёмҳои матнӣ</item>
+        <item>Гирифтани паёмҳои матнӣ</item>
+        <item>Гирифтани паёмҳои матнии изтирорӣ</item>
+        <item>Гирифтани паёмҳои мултимедиявӣ</item>
+        <item>Гирифтани паёмҳои WAP push</item>
+        <item>Фиристодани паёмҳои матнӣ</item>
+        <item>Хондани паёмҳои матнӣ дар SIM-корт</item>
+        <item>Навиштани паёмҳои матнӣ ба SIM-корт</item>
+        <item>Тағйир додани танзимот</item>
+        <item>Интерфейси барномаҳоро рӯиҳам гузоред</item>
+        <item>Огоҳиҳои дастрасӣ</item>
+        <item>Камера</item>
+        <item>Сабт кардани аудио</item>
+        <item>Пахши файлҳои аудио</item>
+        <item>Хондани иттилооти зерҳофиза</item>
+        <item>Идора кардани иттилооти зерҳофиза</item>
+        <item>Назорати медиа</item>
+        <item>Назорати фокуси аудио</item>
+        <item>Мос кардани овози асосӣ</item>
+        <item>Мос кардани овози занги даромад</item>
+        <item>Мос кардани баландии овози оҳанги занг</item>
+        <item>Мос кардани овози медиа</item>
+        <item>Мос кардани овози сигнал</item>
+        <item>Мос кардани баландии овози ҳушдор</item>
+        <item>Мос кардани баландии овози садои тавассути дастгоҳҳои Bluetooth пахшшаванда</item>
+        <item>Экранро фурӯзон нигоҳ доред</item>
+        <item>Муоинаи маълумоти макон</item>
+        <item>Муоинаи маълумоти бениҳоят дақиқи макон</item>
+        <item>Хондани омори истифодаи дастгоҳ</item>
+        <item>Фурӯзон ва хомӯш кардани микрофон</item>
+        <item>Аксгирии медиа</item>
+        <item>Аксгирии медиа</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Фиристодани паёмҳои мултимедия</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Иҷрои худкор</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Макон</item>
+        <item>Макон</item>
+        <item>Макон</item>
+        <item>Ларзиш</item>
+        <item>Хондани алоқаҳо</item>
+        <item>Идора кардани алоқаҳо</item>
+        <item>Хондани дафтари қайди зангҳо</item>
+        <item>Навиштани дафтари қайди зангҳо</item>
+        <item>Хондани тақвим</item>
+        <item>Идора кардани тақвим</item>
+        <item>Макон</item>
+        <item>Нишон додани огоҳиҳо</item>
+        <item>Макон</item>
+        <item>Задани зангҳои телефонӣ</item>
+        <item>Хондани паёмҳои матнӣ</item>
+        <item>Навиштани паёмҳои матнӣ</item>
+        <item>Гирифтани паёмҳои матнӣ</item>
+        <item>Гирифтани паёмҳои матнии изтирорӣ</item>
+        <item>Гирифтани паёмҳои мултимедиявӣ</item>
+        <item>Гирифтани паёмҳои WAP push</item>
+        <item>Фиристодани паёмҳои матнӣ</item>
+        <item>Хондани паёмҳои матнӣ дар SIM-корт</item>
+        <item>Навиштани паёмҳои матнӣ ба SIM-корт</item>
+        <item>Тағйир додани танзимот</item>
+        <item>Интерфейси барномаҳоро рӯиҳам гузоред</item>
+        <item>Огоҳиҳои дастрасӣ</item>
+        <item>Камера</item>
+        <item>Сабт кардани аудио</item>
+        <item>Пахши файлҳои аудио</item>
+        <item>Хондани иттилооти зерҳофиза</item>
+        <item>Идора кардани иттилооти зерҳофиза</item>
+        <item>Назорати медиа</item>
+        <item>Назорати фокуси аудио</item>
+        <item>Мос кардани овози асосӣ</item>
+        <item>Мос кардани овози занги даромад</item>
+        <item>Мос кардани баландии овози оҳанги занг</item>
+        <item>Мос кардани овози медиа</item>
+        <item>Мос кардани овози сигнал</item>
+        <item>Мос кардани баландии овози ҳушдор</item>
+        <item>Мос кардани баландии овози садои тавассути дастгоҳҳои Bluetooth пахшшаванда</item>
+        <item>Экранро фурӯзон нигоҳ доред</item>
+        <item>Макон</item>
+        <item>Макон</item>
+        <item>Хондани омори истифодаи дастгоҳ</item>
+        <item>Фурӯзон ва хомӯш кардани микрофон</item>
+        <item>Аксгирии медиа</item>
+        <item>Аксгирии медиа</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Фиристодани паёмҳои мултимедия</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Иҷрои худкор</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Нест кардани алоқаҳо</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Кӯтоҳ (0.5 сония)</item>
+        <item>Миёна (1.0 сония)</item>
+        <item>Тӯлонӣ (1.5 сония)</item>
+        <item>Фармоишӣ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Кӯтоҳ</item>
+        <item>Миёна</item>
+        <item>Дароз</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Стандартӣ</item>
+        <item>Sans Serif</item>
+        <item>Sans Serif фишурда</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Рӯзмарра</item>
+        <item>Дастнависӣ</item>
+        <item>Ҳарфҳои хурд</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Хеле хурд</item>
+        <item>Хурд</item>
+        <item>Одатӣ</item>
+        <item>Калон</item>
+        <item>Хеле калон</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Стандартӣ</item>
+        <item>Ягон</item>
+        <item>Контур</item>
+        <item>Соя гузоштан</item>
+        <item>Бардошта шуд</item>
+        <item>Пахш карда шуд</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Стандартӣ</item>
+        <item>Сафед дар сиёҳ</item>
+        <item>Сиёҳ дар сафед</item>
+        <item>Зард дар сиёҳ</item>
+        <item>Зард дар кабуд</item>
+        <item>Фармоишӣ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 КБ барои ҳар як буфери сабт</item>
+        <item>256 КБ барои ҳар як буфери сабт</item>
+        <item>1 МБ барои ҳар як буфери сабт</item>
+        <item>4 МБ барои ҳар як буфери сабт</item>
+        <item>16 МБ барои ҳар як буфери сабт</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ҳеҷ гоҳ тафтиш накунед</item>
+        <item>Танҳо мӯҳтавои ИҲР ҷустан</item>
+        <item>Ҳамеша тафтиш кунед</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ҳеҷ гоҳ истифода набурдани санҷиши HDCP</item>
+        <item>Барои ҷустуҷӯи мӯҳтавои ИҲР танҳо HDCP истифода бурда мешавад.</item>
+        <item>Ҳамеша истифода бурдани санҷиши HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Аниматсия хомӯш аст.</item>
+        <item>Миқёси аниматсия 0,5x</item>
+        <item>Миқёси аниматсия 1x</item>
+        <item>Миқёси аниматсия 1,5x</item>
+        <item>Миқёси аниматсия 2x</item>
+        <item>Миқёси аниматсия 5x</item>
+        <item>Миқёси аниматсия 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Аниматсия хомӯш аст.</item>
+        <item>Миқёси аниматсия 0,5x</item>
+        <item>Миқёси аниматсия 1x</item>
+        <item>Миқёси аниматсия 1,5x</item>
+        <item>Миқёси аниматсия 2x</item>
+        <item>Миқёси аниматсия 5x</item>
+        <item>Миқёси аниматсия 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Аниматсия хомӯш аст.</item>
+        <item>Миқёси аниматсия 0,5x</item>
+        <item>Миқёси аниматсия 1x</item>
+        <item>Миқёси аниматсия 1,5x</item>
+        <item>Миқёси аниматсия 2x</item>
+        <item>Миқёси аниматсия 5x</item>
+        <item>Миқёси аниматсия 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ягон</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ягон</item>
+        <item>Logcat</item>
+        <item>Systrace (графика)</item>
+        <item>Стеки зангҳо дар glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Хомӯш</item>
+        <item>Сатҳи клипҳои ғайри-росткунҷаро бо ранги кабуд ишора кунед</item>
+        <item>Фармонҳои нақшакашии санҷидашударо бо ранги сабз ишора кунед</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Пинҳон кардан</item>
+        <item>Ҳамчун сутунҳо нишон додан дар экран</item>
+        <item>Нишон додани adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Хомӯш</item>
+        <item>Нишон додани минтақаҳои афзоиш</item>
+        <item>Нишон додани минтақаҳо барои шахсон бо дейтераномалия</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Ҳудуди стандартӣ</item>
+        <item>Ягон раванд дар пасзамина нест</item>
+        <item>На зиёда аз 1 раванд</item>
+        <item>На зиёда аз 2 раванд</item>
+        <item>На зиёда аз 3 раванд</item>
+        <item>На зиёда аз 4 раванд</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN бо калидҳои пешмубодилашуда</item>
+        <item>L2TP/IPSec VPN бо шаҳодатномаҳо</item>
+        <item>VPN IPSec бо калидҳои пешмубодилашуда ва санҷиши XAuth</item>
+        <item>VPN IPSec бо шаҳодатномаҳо ва санҷиши XAuth</item>
+        <item>VPN IPSec бо шаҳодатномаҳо ва санҷиши омехта</item>
+        <item>IPSec VPN бо IKEv2 ва санҷиш дар асоси калиди пешмубодилашуда</item>
+        <item>IPSec VPN бо IKEv2 ва санҷиш дар асоси шаҳодатнома</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Пайваст пароканда шуд</item>
+        <item>Бакордарорӣ иҷро мешавад…</item>
+        <item>Пайвастшавӣ…</item>
+        <item>Пайваст шуд</item>
+        <item>Хотимаи вақт</item>
+        <item>Номуваффақ</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Пурсидан</item>
+        <item>Ҳеҷ гоҳ иҷозат надиҳед</item>
+        <item>Ҳамеша иҷозат додан</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Одатӣ</item>
+        <item>Миёна</item>
+        <item>Паст</item>
+        <item>бениҳоят паст</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Хомӯш</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Одатӣ</item>
+        <item>Миёна</item>
+        <item>Паст</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Мудовим</item>
+        <item>Фаъолияти бештарин</item>
+        <item>Муҳим (пешзамина)</item>
+        <item>Муҳим (пасзамина)</item>
+        <item>Backup</item>
+        <item>Вазни зиёд</item>
+        <item>Хизмат (иҷро)</item>
+        <item>Хизмат (бозоғозӣ)</item>
+        <item>Гиранда</item>
+        <item>Home</item>
+        <item>Фаъолияти охирин</item>
+        <item>Зерҳофизаӣ (фаъолият)</item>
+        <item>Зерҳофизаӣ (фаъолияти мизоҷ)</item>
+        <item>Зерҳофизаӣ (холӣ)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Дастгоҳ</item>
+        <item>Корти SD</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Ҳамеша қабул кардан</item>
+        <item>Ҳамеша пурсидан</item>
+        <item>Ҳамеша рад кардан</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Видеоҳо</item>
+        <item>Суратҳо</item>
+        <item>Мусиқӣ</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Худкор</item>
+        <item>Дастӣ</item>
+        <item>Ҳамеша пурсидан</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Ҳамеша ғайрифаъол</item>
+        <item>3 сония</item>
+        <item>5 сония</item>
+        <item>10 сония</item>
+        <item>15 сония</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Ягон</item>
+        <item>Ҳамаи алоқаҳо</item>
+        <item>Писандидаҳо</item>
+        <item>Танзимшаванда</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Ягон</item>
+        <item>Ҳамаи алоқаҳо</item>
+        <item>Писандидаҳо</item>
+        <item>Гурӯҳ</item>
+        <item>Танзимшаванда</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Баланд</item>
+        <item>Миёна</item>
+        <item>Паст</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>СИМ1</item>
+        <item>СИМ2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Current network</item>
+        <item>Ҳамеша пурсидан</item>
+        <item>СИМ1</item>
+        <item>СИМ2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>СИМ1</item>
+        <item>СИМ2</item>
+        <item>Хона</item>
+        <item>Офис</item>
+        <item>Дил</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>СИМ1</item>
+        <item>СИМ2</item>
+        <item>Занг</item>
+        <item>SMS</item>
+        <item>ММС</item>
+        <item>Интернет</item>
+        <item>Хона</item>
+        <item>Офис</item>
+        <item>Дил</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Ҷойиваз кардани миёнбур</item>
+        <item>Аз нав танзим кардани тугмаи фармоишӣ</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Садо</item>
+        <item>Ларзиш</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>2 дақиқа</item>
+        <item>10 дақиқа</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Баланд</item>
+        <item>Муқаррарӣ</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 дақиқа</item>
+        <item>5 дақиқа</item>
+        <item>10 дақиқа</item>
+        <item>30 дақиқа</item>
+        <item>1 соат</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 сония</item>
+        <item>30 сония</item>
+        <item>1 дақиқа</item>
+        <item>3 дақиқа</item>
+        <item>5 дақиқа</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Осонии истифода</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Осонии истифода</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Ҳама</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Як бор</item>
+        <item>Ҳар 10 дақиқа</item>
+        <item>Ҳар 20 дақиқа</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>Дар вақти воқеӣ</item>
+        <item>15 дақиқа</item>
+        <item>30 дақиқа</item>
+        <item>1 соат</item>
+        <item>2 соат</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Классикӣ</item>
+        <item>Нимранг</item>
+        <item>Морфинг</item>
+        <item>Бисёрранг</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1,5 сония</item>
+        <item>6 сония</item>
+        <item>Ҳамеша ғайрифаъол</item>
+        <item>Ҳамеша фаъол</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Боло</item>
+        <item>Миёна</item>
+        <item>Поён</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Ахбор</item>
+        <item>Биржа</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Ахбор</item>
+        <item>Биржа</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Суст</item>
+        <item>Одатӣ</item>
+        <item>Зуд</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Ягон</item>
+        <item>Ҳар 30 дақиқа</item>
+        <item>Ҳар 1 соат</item>
+        <item>Ҳар 2 соат</item>
+        <item>Ҳар 4 соат</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Шлемофон</item>
+        <item>Компютер</item>
+        <item>Телефон</item>
+        <item>Дастгоҳҳои интерфейси одам­мошина (клавиатура, муш ва ғайра)</item>
+        <item>Ҳамаи дастгоҳҳо</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Стерео</item>
+        <item>Миёнагир</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Custom_Button_Bg">
+        <CheckBox android:textAppearance="?android:textAppearanceListItem" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/uninstall_select_all_button" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:text="@string/select_all" />
+    </LinearLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/uninstall_app_list" android:paddingTop="0.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/RelativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vpn_empty_view_center_icon_textsize" android:textColor="#ff0094b0" android:gravity="center_horizontal" android:id="@id/empty_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usage_access_empty" android:layout_centerInParent="true" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

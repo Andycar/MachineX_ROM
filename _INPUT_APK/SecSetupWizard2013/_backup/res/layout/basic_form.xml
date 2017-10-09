@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@drawable/setupwizard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_area_top_margin" style="@style/title_area" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/screen_display" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_btns_area" android:background="@drawable/setupwizard_bottom_button_bg" android:paddingTop="@dimen/bottom_button_area_paddingTop" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+        <View android:background="@drawable/action_bar_button_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area" android:background="@drawable/tw_btn_ripple_material" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/next_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bottom_button_text" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setupwizard_next_arrow" android:paddingStart="@dimen/next_arrow_paddingLeft" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

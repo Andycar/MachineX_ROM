@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_keyboard_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/header_category_my_accounts" android:key="account_menu_category" />
+    <PreferenceScreen android:icon="@drawable/backup_assistant_icon" android:enabled="false" android:id="@id/bua_plus" android:title="@string/bua_plus_title" android:key="vzw_bua_plus" android:shouldDisableView="true">
+        <intent android:action="com.samsung.vmmhux.ACTION_VMMHUX_SETUPWIZARD" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_settings_add_account" android:title="@string/add_account_label" android:key="key_account_add" android:fragment="com.android.settings.accounts.ChooseAccountFragment" />
+</PreferenceScreen>

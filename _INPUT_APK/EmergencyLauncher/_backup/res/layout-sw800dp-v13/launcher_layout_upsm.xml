@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linearTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_description_margin_top">
+        <TextView android:id="@id/text_description" style="@style/upmsTextDescription" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/grid_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_grid_margin_top_bottom" android:layout_marginBottom="@dimen/apps_grid_margin_top_bottom" android:layout_below="@id/linearTop">
+        <com.sec.android.emergencylauncher.view.EMGridView android:id="@id/apps_grid" android:layout_width="@dimen/apps_grid_width" android:layout_height="@dimen/apps_grid_height" android:listSelector="@drawable/grid_apps_background" android:cacheColorHint="#00ffffff" android:horizontalSpacing="@dimen/apps_grid_hor_specing" android:verticalSpacing="@dimen/apps_grid_ver_specing" android:numColumns="3" android:layoutDirection="ltr" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_container" android:background="@drawable/safety_saving_mode_bg_for_upsm" android:layout_width="fill_parent" android:layout_height="@dimen/main_container_layout_height" android:layout_below="@id/grid_container" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="@dimen/battery_layout_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/battery_layout_margin_left">
+                <com.sec.android.emergencylauncher.view.EmergencyLauncherBatteryMeterView android:layout_width="28.0dip" android:layout_height="37.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_battery_display" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/linear_battery_display_margin_left">
+                <TextView android:id="@id/text_battery_percentage" style="@style/batteryPercentageAndStandByTime" />
+                <TextView android:id="@id/text_battery" android:text="@string/upsm_launcher_battery_percentage" style="@style/textBatteryAndBatteryTime" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="28.0dip">
+                <ImageView android:id="@id/standby_image" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/safety_ic_standby_time00" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_usagetime_display" android:layout_width="@dimen/linear_usagetime_display_layout_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/linear_usagetime_display_margin_left">
+                <TextView android:id="@id/text_battery_standbytime" style="@style/batteryPercentageAndStandByTime" />
+                <TextView android:id="@id/text_battery_time" android:text="@string/launcher_battery_info_standby_max" style="@style/textBatteryAndBatteryTime" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

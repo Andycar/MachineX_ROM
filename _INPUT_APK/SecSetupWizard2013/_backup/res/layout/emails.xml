@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/emailLayout" android:background="@drawable/action_bar_button" android:paddingTop="@dimen/email_account_padding_account_top" android:paddingBottom="@dimen/email_account_padding_account_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/remove" android:paddingLeft="@dimen/email_account_side_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_list_icon_minus_mtrl" />
+    <TextView android:id="@id/email" android:paddingLeft="@dimen/email_account_text_padding_left" android:paddingTop="@dimen/email_account_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_AcctExchange" style="@style/added_email_account_text" />
+</LinearLayout>

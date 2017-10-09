@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sec.android.app.sbrowser.overlay" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-I9505XXSPQA1">
+    <overlay android:priority="65" android:targetPackage="com.sec.android.app.sbrowser"/>
+    <meta-data android:name="rom" android:value="MachineX ROM"/>
+    <meta-data android:name="infoShort" android:value="sbrowser theme"/>
+    <meta-data android:name="infoLong" android:value="This will change sbrowser theme"/>
+    <meta-data android:name="author" android:value="Andycar"/>
+</manifest>

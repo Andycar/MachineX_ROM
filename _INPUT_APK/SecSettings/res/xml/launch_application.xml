@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/launch_application_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/set_defaults" android:key="set_defaults_category" />
+    <PreferenceScreen android:persistent="false" android:title="@string/home" android:key="home" android:summary="@string/none" android:widgetLayout="@layout/round_more_icon" android:fragment="com.android.settings.HomeSettings" />
+    <com.android.settings.SmsListPreference android:persistent="false" android:title="@string/message" android:key="sms_application" android:widgetLayout="@layout/round_more_icon" />
+    <PreferenceCategory android:title="@string/clear_defaults" android:key="clear_defaults_category" />
+</PreferenceScreen>

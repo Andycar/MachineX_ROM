@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Zostaniesz programistą już po wykonaniu następującej liczby kroków: %d.</item>
+        <item quantity="one">Jeszcze jeden krok, a zostaniesz programistą.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę liter: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej 1 literę.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę małych liter: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej 1 małą literę.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę wielkich liter: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej 1 wielką literę.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę cyfr: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej 1 cyfrę.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę symboli: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej następującą liczbę symboli: 1.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Hasło musi zawierać co najmniej następującą liczbę cyfr lub symboli: %d.</item>
+        <item quantity="one">Hasło musi zawierać co najmniej następującą liczbę cyfr lub symboli: 1.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Aplikacji, które mogą odczytywać powiadomienia: %d.</item>
+        <item quantity="one">Aplikacji mogących odczytywać powiadomienia: %d.</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">Zainstalowanych aplikacji: %d umożliwiających działanie tej funkcji</item>
+        <item quantity="one">Zainstalowano 1 aplikację umożliwiającą działanie tej funkcji</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">1 godz.</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+</resources>

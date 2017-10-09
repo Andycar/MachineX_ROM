@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="setup_wizard_navbar_bg_color" format="color" />
+    <attr name="setup_wizard_navbar_text_color" format="color" />
+    <attr name="setup_wizard_navbar_theme" format="reference" />
+    <attr name="state_encrypted" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="aspectRatio" format="float" />
+    <attr name="headerAppearance" format="reference" />
+    <attr name="barPrimaryColor" format="reference|color" />
+    <attr name="barPredictionColor" format="reference|color" />
+    <attr name="chartMinHeight" format="reference|dimension" />
+    <attr name="emptyColor" format="color" />
+    <attr name="minTickWidth" format="dimension" />
+    <attr name="optimalWidth" format="dimension" />
+    <attr name="optimalWidthWeight" format="float" />
+    <attr name="sweepDrawable" format="reference" />
+    <attr name="followAxis">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="neighborMargin" format="dimension" />
+    <attr name="labelSize" format="dimension" />
+    <attr name="labelTemplate" format="reference" />
+    <attr name="labelColor" format="color" />
+    <attr name="safeRegion" format="dimension" />
+    <attr name="primaryDrawable" format="reference" />
+    <attr name="secondaryDrawable" format="reference" />
+    <attr name="borderDrawable" format="reference" />
+    <attr name="strokeColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="fillColorSecondary" format="color" />
+    <attr name="apnPreferenceStyle" format="reference" />
+    <attr name="keywords" format="string" />
+    <attr name="switchBarTheme" format="reference" />
+    <attr name="switchBarMarginStart" format="dimension" />
+    <attr name="switchBarMarginEnd" format="dimension" />
+    <attr name="preferenceBackgroundColor" format="color" />
+    <attr name="punchshape" format="string" />
+    <attr name="punchshow" format="boolean" />
+    <attr name="spaceBetweenTabs" format="dimension" />
+    <attr name="gutterPercentage" format="float" />
+    <attr name="location_allowed" format="boolean" />
+    <attr name="popups_allowed" format="boolean" />
+    <attr name="text" format="reference" />
+    <attr name="insideImg_paddingLeft" format="dimension" />
+    <attr name="insideImg_paddingRight" format="dimension" />
+    <attr name="insideImg_paddingTop" format="dimension" />
+    <attr name="insideImg_paddingBottom" format="dimension" />
+    <attr name="insideImg_padding" format="dimension" />
+    <attr name="insideImg_height" format="dimension" />
+    <attr name="insideImg_width" format="dimension" />
+    <attr name="insideImg_gravity">
+        <enum name="bottom" value="80" />
+        <enum name="center" value="17" />
+        <enum name="fill" value="119" />
+        <enum name="left" value="3" />
+        <enum name="right" value="5" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="images" format="reference" />
+    <attr name="image" format="reference" />
+    <attr name="ic_menu_add" format="reference" />
+    <attr name="ic_menu_moreoverflow" format="reference" />
+    <attr name="ic_wps" format="reference" />
+    <attr name="setup_divider_color" format="reference" />
+    <attr name="wifi_signal_color" format="reference" />
+    <attr name="wifi_signal" format="reference" />
+</resources>

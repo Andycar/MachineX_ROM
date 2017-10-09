@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>هيچيک</item>
+        <item>جلوه موج دار</item>
+        <item>جلوه نوری</item>
+        <item>‏Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>خاموش</item>
+        <item>۱ ساعت</item>
+        <item>۲ ساعت</item>
+        <item>۳ساعت</item>
+        <item>۴ ساعت</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>آمریکا</item>
+        <item>‏Europe</item>
+        <item>‏Africa</item>
+        <item>آسیا</item>
+        <item>استرالیا</item>
+        <item>اقیانوس آرام</item>
+        <item>همه</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۲دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۳۰ دقيقه</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۳ دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۱۵ دقيقه</item>
+        <item>۳۰ دقيقه</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>هرگز</item>
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۲دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۳۰ دقيقه</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>فورا با کلید روشن/خاموش یا زمانی که صفحه خاموش می شود</item>
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۳ دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۱۵ دقيقه</item>
+        <item>۳۰ دقيقه</item>
+        <item>۱ ساعت</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>فوری</item>
+        <item>۵ ثانيه</item>
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۲دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۳۰ دقيقه</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+        <item>فوق العاده بزرگ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بسیار کند</item>
+        <item>کند</item>
+        <item>عادی</item>
+        <item>سریع</item>
+        <item>کمی سریعتر</item>
+        <item>سریعتر</item>
+        <item>بسیار سریع</item>
+        <item>فوق سریع</item>
+        <item>سریعترین</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>بسیار ضعیف</item>
+        <item>پايين</item>
+        <item>عادی</item>
+        <item>بالا</item>
+        <item>بسیار زیاد</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>در حال بررسی…</item>
+        <item>در حال ارتباط…</item>
+        <item>درحال تأیید اعتبار…</item>
+        <item>در حال دریافت آدرس IP…</item>
+        <item>متصل شد.</item>
+        <item>به حالت تعلیق</item>
+        <item>قطع…</item>
+        <item>قطع شد</item>
+        <item>ناموفق</item>
+        <item>مسدود شد</item>
+        <item>در حال بررسی کیفیت اتصال اینترنت شما…</item>
+        <item>متصل شد.</item>
+        <item>‏CW Disconnected</item>
+        <item>‏CW Registering</item>
+        <item>‏CW Registered</item>
+        <item>‏CW Register Fail</item>
+        <item>‏CW PPP Setup</item>
+        <item>‏CW PPP Fail</item>
+        <item>‏CW Deiniting</item>
+        <item>‏CW Ready</item>
+        <item>‏CW Stopping WLAN</item>
+        <item>‏Connected. CW Register Fail.</item>
+        <item>‏Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>در حال بررسی…</item>
+        <item>اتصال به %s…</item>
+        <item>در حال تأیید اعتبار با %s…</item>
+        <item>در حال دریافت آدرس IP از %s…</item>
+        <item>به %1$s متصل شد.</item>
+        <item>به حالت تعلیق</item>
+        <item>درحال قطع اتصال از %s…</item>
+        <item>قطع شد</item>
+        <item>ناموفق</item>
+        <item>مسدود شد</item>
+        <item>در حال بررسی کیفیت اتصال اینترنت شما…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>ورود</item>
+        <item>‏WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>‏PEAP</item>
+        <item>‏TLS</item>
+        <item>‏TTLS</item>
+        <item>‏PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>دکمه را فشار دهید.</item>
+        <item>پین از دستگاه هماهنگ</item>
+        <item>پین این دستگاه</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>وصل شد</item>
+        <item>دعوت شده است.</item>
+        <item>اتصال برقرار نشد</item>
+        <item>برای اتصال، اینجا ضربه بزنید.</item>
+        <item>خارج از محدوده است.</item>
+        <item>متصل به یک دستگاه دیگر</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>بدون وقفه زمانی</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۲۰ دقيقه</item>
+        <item>۳۰ دقيقه</item>
+        <item>60 دقیقه</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>همه دستگاه ها</item>
+        <item>فقط دستگاه های مجاز</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>خودکار</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>استاندارد</item>
+        <item>بالا</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>۶ساعت</item>
+        <item>۱۲ساعته</item>
+        <item>24 ساعته</item>
+        <item>محدودیت زمانی وجود ندارد</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>۲دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱ ساعت</item>
+        <item>بدون وقفه زمانی</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>۲دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱ ساعت</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ضعیف</item>
+        <item>متوسط</item>
+        <item>خوب</item>
+        <item>قوی</item>
+        <item>بسیار قوی</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>همیشه</item>
+        <item>فقط در زمان وصل بودن به برق</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>همیشه</item>
+        <item>فقط در زمان وصل بودن به برق</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>۳۰ روز گذشته</item>
+        <item>‏Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>به ترتیب حروف الفبا</item>
+        <item>قدرت سیگنال</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>خودکار</item>
+        <item>فقط 5 گیگاهرتز</item>
+        <item>فقط 2.4 گیگاهرتز</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>خودکار</item>
+        <item>پهنای باند 5 گیگاهرتز</item>
+        <item>پهنای باند 2.4 گیگاهرتز</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>بسیار قوی</item>
+        <item>قوی</item>
+        <item>متوسط</item>
+        <item>همه</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>زمان مصرف</item>
+        <item>‏Last time used</item>
+        <item>نام برنامه</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>‏PEAP</item>
+        <item>‏TLS</item>
+        <item>‏TTLS</item>
+        <item>‏PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>هيچيک</item>
+        <item>‏MSCHAPV2</item>
+        <item>‏GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>هيچيک</item>
+        <item>‏PAP</item>
+        <item>‏MSCHAP</item>
+        <item>‏MSCHAPV2</item>
+        <item>‏GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>خاموش</item>
+        <item>دکمه را فشار دهید.</item>
+        <item>پین از نقطه دسترسی</item>
+        <item>پین این دستگاه</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>‏DHCP</item>
+        <item>ایستا</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>هيچيک</item>
+        <item>دستی</item>
+        <item>پیکربندی خودکار پروکسی</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>عادی</item>
+        <item>مرکز شهر</item>
+        <item>منزل</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>این تنظیمات، کلی ترین تنظیمات اتصال Wi-Fi است.</item>
+        <item>اگر در منطقه ای هستید که تعداد زیادی شبکه Wi-Fi وجود دارد، Wi-Fi بصورت مداوم مجدداً متصل می‌شود تا قدرت سیگنال بهتری ایجاد شود.</item>
+        <item>اگر در منطقه ای هستید که شبکه های Wi-Fi کمی وجود دارد، تا زمانی که این امکان وجود داشته باشد، اتصال Wi-Fi حفظ می‌شود.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>هيچيک</item>
+        <item>‏PAP</item>
+        <item>‏CHAP</item>
+        <item>‏PAP یا CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>‏LTE</item>
+        <item>‏eHRPD</item>
+        <item>غیر منتظره</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>هيچيک</item>
+        <item>‏SPN</item>
+        <item>‏IMSI</item>
+        <item>‏GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>حافظه داخلی دستگاه</item>
+        <item>کارت حافظه جداشدنی</item>
+        <item>‏Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>مجاز شد.</item>
+        <item>‏Ignored</item>
+        <item>پرسش</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>مکان</item>
+        <item>شخصی</item>
+        <item>پيام رسانی</item>
+        <item>رسانه</item>
+        <item>دستگاه</item>
+        <item>اجرای خودکار</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>دسترسی به مکان تقریبی</item>
+        <item>دسترسی به مکان دقیق</item>
+        <item>‏GPS</item>
+        <item>لرزش</item>
+        <item>خواندن مخاطبین</item>
+        <item>مدیریت مخاطبین</item>
+        <item>خواندن گزارش تماس</item>
+        <item>نوشتن گزارش تماس</item>
+        <item>خواندن تقویم</item>
+        <item>مدیریت تقویم</item>
+        <item>اسکن شبکه‌های Wi-Fi</item>
+        <item>اعلانات</item>
+        <item>اسکن شبکه سلولی</item>
+        <item>تماس بگیرید</item>
+        <item>خواندن پیام‌های متنی</item>
+        <item>نوشتن پیام متنی</item>
+        <item>دریافت پیام‌های متنی</item>
+        <item>دریافت پیام‌های متنی اضطراری</item>
+        <item>دریافت پیام‌های چندرسانه‌ای</item>
+        <item>دریافت پیام ارسال داده WAP</item>
+        <item>ارسال پیام‌های متنی</item>
+        <item>خواندن پیام‌های متنی در سیم‌کارت</item>
+        <item>نوشتن پیام متنی به سیم‌کارت</item>
+        <item>تغییر تنظیمات</item>
+        <item>هم‌پوشانی رابط برنامه</item>
+        <item>اعلان های دسترسی</item>
+        <item>دوربين</item>
+        <item>ثبت صدا</item>
+        <item>پخش فایل‌های صوتی</item>
+        <item>خواندن داده کلیپ‌بورد</item>
+        <item>مدیریت داده کلیپ‌بورد</item>
+        <item>کنترل رسانه</item>
+        <item>کنترل فوکوس صوتی</item>
+        <item>تنظیم کردن میزان صدای اصلی</item>
+        <item>تنظیم کردن میزان صدای تماس</item>
+        <item>تنظیم کردن میزان صدای آهنگ زنگ</item>
+        <item>تنظیم کردن میزان صدای رسانه</item>
+        <item>تنظیم کردن میزان صدای زنگ هشدار</item>
+        <item>تنظیم کردن میزان صدای هشدار</item>
+        <item>تنظیم کردن میزان صدای پخش شده از طریق دستگاههای بلوتوث</item>
+        <item>صفحه روشن بماند</item>
+        <item>نظارت بر اطلاعات مکان</item>
+        <item>نظارت بر اطلاعات بسیار دقیق مکان</item>
+        <item>خواندن آمار استفاده از دستگاه</item>
+        <item>روشن و خاموش کردن میکروفن</item>
+        <item>گرفتن رسانه</item>
+        <item>گرفتن رسانه</item>
+        <item>‏activate VPN</item>
+        <item>‏Wi-Fi change</item>
+        <item>‏bluetooth change</item>
+        <item>ارسال پیامهای چندرسانه ای</item>
+        <item>‏Read multimedia messages</item>
+        <item>‏Write multimedia messages</item>
+        <item>اجرای خودکار</item>
+        <item>‏nfc change</item>
+        <item>‏Delete text messages</item>
+        <item>‏Delete multimedia messages</item>
+        <item>‏delete contacts</item>
+        <item>‏delete call log</item>
+        <item>‏data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>لرزش</item>
+        <item>خواندن مخاطبین</item>
+        <item>مدیریت مخاطبین</item>
+        <item>خواندن گزارش تماس</item>
+        <item>نوشتن گزارش تماس</item>
+        <item>خواندن تقویم</item>
+        <item>مدیریت تقویم</item>
+        <item>مکان</item>
+        <item>نمایش اعلان‌ها</item>
+        <item>مکان</item>
+        <item>تماس بگیرید</item>
+        <item>خواندن پیام‌های متنی</item>
+        <item>نوشتن پیام متنی</item>
+        <item>دریافت پیام‌های متنی</item>
+        <item>دریافت پیام‌های متنی اضطراری</item>
+        <item>دریافت پیام‌های چندرسانه‌ای</item>
+        <item>دریافت پیام ارسال داده WAP</item>
+        <item>ارسال پیام‌های متنی</item>
+        <item>خواندن پیام‌های متنی در سیم‌کارت</item>
+        <item>نوشتن پیام متنی به سیم‌کارت</item>
+        <item>تغییر تنظیمات</item>
+        <item>هم‌پوشانی رابط برنامه</item>
+        <item>اعلان های دسترسی</item>
+        <item>دوربين</item>
+        <item>ثبت صدا</item>
+        <item>پخش فایل‌های صوتی</item>
+        <item>خواندن داده کلیپ‌بورد</item>
+        <item>مدیریت داده کلیپ‌بورد</item>
+        <item>کنترل رسانه</item>
+        <item>کنترل فوکوس صوتی</item>
+        <item>تنظیم کردن میزان صدای اصلی</item>
+        <item>تنظیم کردن میزان صدای تماس</item>
+        <item>تنظیم کردن میزان صدای آهنگ زنگ</item>
+        <item>تنظیم کردن میزان صدای رسانه</item>
+        <item>تنظیم کردن میزان صدای زنگ هشدار</item>
+        <item>تنظیم کردن میزان صدای هشدار</item>
+        <item>تنظیم کردن میزان صدای پخش شده از طریق دستگاههای بلوتوث</item>
+        <item>صفحه روشن بماند</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>خواندن آمار استفاده از دستگاه</item>
+        <item>روشن و خاموش کردن میکروفن</item>
+        <item>گرفتن رسانه</item>
+        <item>گرفتن رسانه</item>
+        <item>‏Activate VPN</item>
+        <item>‏Wi-Fi change</item>
+        <item>‏Bluetooth change</item>
+        <item>ارسال پیامهای چندرسانه ای</item>
+        <item>‏Read multimedia messages</item>
+        <item>‏Write multimedia messages</item>
+        <item>اجرای خودکار</item>
+        <item>‏Nfc change</item>
+        <item>‏Delete text messages</item>
+        <item>‏Delete multimedia messages</item>
+        <item>حذف مخاطبین</item>
+        <item>‏Delete call log</item>
+        <item>‏Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>کوتاه ۰.۵ ثانیه</item>
+        <item>متوسط ۱.۰ ثانیه</item>
+        <item>بلند ۱.۵ ثانیه</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>کوتاه</item>
+        <item>معمولی</item>
+        <item>بلند</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>پيش فرض</item>
+        <item>‏Sans serif</item>
+        <item>‏Sans serif فشرده</item>
+        <item>‏Sans serif monospace</item>
+        <item>‏Serif</item>
+        <item>‏Serif monospace</item>
+        <item>معمولی</item>
+        <item>خط شکسته</item>
+        <item>حروف بزرگ در اندازه کوچک</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+        <item>خیلی بزرگ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>پيش فرض</item>
+        <item>هيچيک</item>
+        <item>قالب</item>
+        <item>سایه برجسته</item>
+        <item>برجسته</item>
+        <item>فشرده</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>پیش فرض</item>
+        <item>سفید روی سیاه</item>
+        <item>سیاه روی سفید</item>
+        <item>زرد روی سیاه</item>
+        <item>زرد روی آبی</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>۶۴ کیلوبایت به ازای بافر گزارش</item>
+        <item>۲۵۶ کیلوبایت به ازای بافر گزارش</item>
+        <item>۱ مگابایت به ازای بافر گزارش</item>
+        <item>۴ مگابایت به ازای بافر گزارش</item>
+        <item>۱۶ مگابایت به ازای بافر گزارش</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>اصلاً بررسی نشود</item>
+        <item>فقط محتوای DRM بررسی شود</item>
+        <item>همیشه بررسی شود</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>هیچ وقت از بررسی HDCP استفاده نشود</item>
+        <item>فقط از بررسی HDCP برای محتوای DRM استفاده شود</item>
+        <item>همیشه از بررسی HDCP استفاده شود</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>انیمیشن خاموش است.</item>
+        <item>مقیاس انیمیشن ۰.۵x</item>
+        <item>مقیاس انیمیشن ۱x</item>
+        <item>مقیاس انیمیشن ۱.۵x</item>
+        <item>مقیاس انیمیشن ۲x</item>
+        <item>مقیاس انیمیشن ۵x</item>
+        <item>مقیاس انیمیشن ۱۰x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>انیمیشن خاموش است.</item>
+        <item>مقیاس انیمیشن ۰.۵x</item>
+        <item>مقیاس انیمیشن ۱x</item>
+        <item>مقیاس انیمیشن ۱.۵x</item>
+        <item>مقیاس انیمیشن ۲x</item>
+        <item>مقیاس انیمیشن ۵x</item>
+        <item>مقیاس انیمیشن ۱۰x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>انیمیشن خاموش است.</item>
+        <item>مقیاس انیمیشن ۰.۵x</item>
+        <item>مقیاس انیمیشن ۱x</item>
+        <item>مقیاس انیمیشن ۱.۵x</item>
+        <item>مقیاس انیمیشن ۲x</item>
+        <item>مقیاس انیمیشن ۵x</item>
+        <item>مقیاس انیمیشن ۱۰x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>هيچيک</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>هيچيک</item>
+        <item>‏Logcat</item>
+        <item>‏Systrace (گرافیک)</item>
+        <item>حافظه مجازی تماس در glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>خاموش</item>
+        <item>پررنگ کردن سطح کلیپ های غیر مستطیلی به رنگ آبی</item>
+        <item>پررنگ کردن دستورات ترسیمی آزمایش شده به رنگ سبز</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>پنهان</item>
+        <item>نمایش در صفحه به صورت نوار</item>
+        <item>نمایش در adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>خاموش</item>
+        <item>نمایش نواحی روی هم افتاده</item>
+        <item>نمایش نواحی به صورت رنگی</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>محدوده استاندارد</item>
+        <item>بدون پردازش پیش زمینه</item>
+        <item>حداکثر ۱ پردازش</item>
+        <item>حداکثر ۴ پردازش</item>
+        <item>حداکثر ۳ پردازش</item>
+        <item>حداکثر ۲ پردازش</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>‏PPTP VPN</item>
+        <item>‏VPN نوع L2TP/IPSec با کلیدهای پیش اشتراکی</item>
+        <item>‏VPN نوع L2TP/IPSec با مجوز</item>
+        <item>‏VPN نوع IPSec با کلیدهای پیش اشتراکی و تأیید اعتبار XAuth</item>
+        <item>‏VPN نوع IPSec با مجوز و تأیید اعتبار XAuth</item>
+        <item>‏VPN نوع IPSec با مجوز و تأیید اعتبار ترکیبی</item>
+        <item>‏IPSec VPN با IKEv2 و تأیید اعتبار مبتنی بر کلید پیش‌اشتراک</item>
+        <item>‏IPSec VPN با IKEv2 و تأیید اعتبار مبتنی بر گواهی</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>قطع شد</item>
+        <item>آماده سازی لیست</item>
+        <item>در حال ارتباط…</item>
+        <item>وصل شد</item>
+        <item>وقفه</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>پرسیدن</item>
+        <item>هرگز مجاز نیست</item>
+        <item>همیشه مجاز باشد</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>عادی</item>
+        <item>متوسط</item>
+        <item>پایین</item>
+        <item>خیلی ضعیف</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>خاموش</item>
+        <item>‏Limited interruptions</item>
+        <item>‏Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>عادی</item>
+        <item>متوسط</item>
+        <item>پایین</item>
+        <item>‏Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>مداوم</item>
+        <item>فعالیت برتر</item>
+        <item>مهم (پیش‌زمینه)</item>
+        <item>مهم (پس‌زمینه)</item>
+        <item>‏Backup</item>
+        <item>وزن سنگین</item>
+        <item>سرویس (اجرا)</item>
+        <item>سرویس (راه‌اندازی مجدد)</item>
+        <item>گیرنده</item>
+        <item>‏Home</item>
+        <item>آخرین فعالیت</item>
+        <item>در حافظه پنهان (فعالیت)</item>
+        <item>در حافظه پنهان (سرویس‌گیرنده فعالیت)</item>
+        <item>در حافظه پنهان (خالی)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>دستگاه</item>
+        <item>کارت حافظه</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>همیشه پذیرفته شود</item>
+        <item>پرسش</item>
+        <item>همیشه رد شود</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>فیلمها</item>
+        <item>عکسها</item>
+        <item>موزیک</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>‏CHAP</item>
+        <item>‏PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>خودکار</item>
+        <item>دستی</item>
+        <item>پرسش</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>هميشه خاموش</item>
+        <item>۳ ثانيه</item>
+        <item>۵ ثانيه</item>
+        <item>۱۰ ثانيه</item>
+        <item>۱۵ثانیه</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>هيچيک</item>
+        <item>همه مخاطبین</item>
+        <item>موردعلاقه ها</item>
+        <item>مخصوص</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>هيچيک</item>
+        <item>همه مخاطبین</item>
+        <item>موردعلاقه ها</item>
+        <item>گروه</item>
+        <item>مخصوص</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>بالا</item>
+        <item>معمولی</item>
+        <item>پايين</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>سیم1</item>
+        <item>سیم2</item>
+        <item>‏Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>شبکه فعلی</item>
+        <item>همیشه پرسیده شود</item>
+        <item>سیم1</item>
+        <item>سیم2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>سیم1</item>
+        <item>سیم2</item>
+        <item>منزل</item>
+        <item>دفتر</item>
+        <item>قلب</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>سیم1</item>
+        <item>سیم2</item>
+        <item>تماس</item>
+        <item>پیام کوتاه</item>
+        <item>پیام چندرسانه ای</item>
+        <item>اينترنت</item>
+        <item>منزل</item>
+        <item>دفتر</item>
+        <item>قلب</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>جایگزینی میانبر</item>
+        <item>بازنشانی کلید سفارشی شده</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>صدا</item>
+        <item>لرزش</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۲دقيقه</item>
+        <item>۱۰ دقیقه</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>بالا</item>
+        <item>عادی</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>۳ دقيقه</item>
+        <item>۵ دقيقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۳۰ دقيقه</item>
+        <item>۱ ساعت</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>۱۵ثانیه</item>
+        <item>۳۰ثانیه</item>
+        <item>۱ دقيقه</item>
+        <item>۳ دقيقه</item>
+        <item>۵ دقيقه</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>قابلیت دسترسی</item>
+        <item>‏TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>قابلیت دسترسی</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>همه</item>
+        <item>‏M4.0+</item>
+        <item>‏M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>يکبار</item>
+        <item>هر١٠ دقیقه</item>
+        <item>هر ۲۰ دقیقه</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>‏MB/GB (auto change)</item>
+        <item>‏MB only</item>
+        <item>‏GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>زمان واقعی</item>
+        <item>۱۵ دقيقه</item>
+        <item>۳۰ دقيقه</item>
+        <item>۱ ساعت</item>
+        <item>۲ ساعت</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>کلاسیک</item>
+        <item>سایه‌رنگ</item>
+        <item>الگوی تغییر</item>
+        <item>چندرنگی</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>۱.۵ثانیه</item>
+        <item>۶ثانیه</item>
+        <item>هميشه خاموش</item>
+        <item>هميشه روشن</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>بالا</item>
+        <item>وسط</item>
+        <item>پايين</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>اخبار</item>
+        <item>سهام</item>
+        <item>‏Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>اخبار</item>
+        <item>سهام</item>
+        <item>‏Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>آرام</item>
+        <item>عادی</item>
+        <item>سريع</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>هيچيک</item>
+        <item>هر ۳۰ دقیقه</item>
+        <item>هر ۱ ساعت</item>
+        <item>هر ۲ ساعت</item>
+        <item>هر ۴ ساعت</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>هدست</item>
+        <item>رایانه</item>
+        <item>تلفن</item>
+        <item>‏HID (صفحه کلید، ماوس و سایر موارد)</item>
+        <item>همه دستگاه ها</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>استریو</item>
+        <item>احاط‌ه‌</item>
+    </string-array>
+</resources>

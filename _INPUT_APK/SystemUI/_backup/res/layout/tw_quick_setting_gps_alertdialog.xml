@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/gps_alert_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_popup_text_margin" android:layout_marginTop="23.0dip" android:layout_marginRight="@dimen/checkbox_popup_text_margin" android:text="@string/location_3rdparty_gps_dialogtext" />
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/gps_alert_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_popup_text_margin" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/checkbox_popup_text_margin" android:text="@string/gps_body_title" />
+        <TextView android:id="@id/gps_alert_body" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_popup_text_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/checkbox_popup_text_margin" android:text="@string/gps_body" android:lineSpacingMultiplier="1.3" />
+        <TextView android:textStyle="bold" android:id="@id/gps_alert_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_popup_text_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/checkbox_popup_text_margin" android:text="@string/gps_body_bottom" android:lineSpacingMultiplier="1.3" />
+        <CheckBox android:textSize="19.0sp" android:textColor="#ffffffff" android:id="@id/gps_alert_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_popup_checkbox_margin" android:layout_marginTop="17.0dip" android:layout_marginBottom="18.0dip" android:text="@string/warning_alert_check" />
+    </LinearLayout>
+</ScrollView>

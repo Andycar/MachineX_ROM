@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_saving_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.UnclickablePreference android:title="@string/powersaving_mode_summary" android:key="powersaving_mode_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/powersaving_enable_settings_entry" android:title="@string/powersaving_enable_settings_title" android:key="enable_settings" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/powersaving_enable_settings_value" />
+    <PreferenceCategory android:title="@string/power_saving_mode_setting" android:key="power_saving_mode_setting" />
+    <CheckBoxPreference android:title="@string/power_saving_cpu" android:key="power_saving_cpu" android:summary="@string/power_saving_cpu_summary" />
+    <CheckBoxPreference android:title="@string/power_saving_display" android:key="power_saving_display" android:summary="@string/power_saving_display_summary" />
+    <CheckBoxPreference android:title="@string/power_saving_background_colour" android:key="power_saving_background_color" android:summary="@string/power_saving_background_colour_summary" />
+    <CheckBoxPreference android:title="@string/power_saving_haptic" android:key="power_saving_haptic" android:summary="@string/power_saving_haptic_summary" />
+    <CheckBoxPreference android:title="@string/power_saving_touchkey" android:key="power_saving_touchkey" android:summary="@string/power_saving_touchkey_summary" />
+    <CheckBoxPreference android:title="@string/power_saving_location" android:key="power_saving_location" android:summary="@string/power_saving_location_summary" />
+    <PreferenceCategory android:title="@string/power_saving_tips" android:key="power_saving_tips_preference_key">
+        <PreferenceScreen android:title="@string/learn_power_saving_tips" android:key="power_saving_tips" android:fragment="com.android.settings.powersavingmode.PowerSavingModeTips" />
+    </PreferenceCategory>
+</PreferenceScreen>

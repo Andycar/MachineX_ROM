@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.vending.SwiftBlack.SamsungS8" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <overlay android:priority="999" android:targetPackage="com.android.vending"/>
+    <application allowBackup="false" android:hasCode="false" android:label="com.android.vending.SwiftBlack.SamsungS8">
+        <meta-data android:name="Substratum_Device" android:value="dbfd10c4a8c195d0"/>
+        <meta-data android:name="Substratum_Parent" android:value="com.brit.swiftblack.layers"/>
+        <meta-data android:name="Substratum_Target" android:value="com.android.vending"/>
+        <meta-data android:name="Substratum_Type1a" android:value=""/>
+        <meta-data android:name="Substratum_Type1b" android:value=""/>
+        <meta-data android:name="Substratum_Type1c" android:value=""/>
+        <meta-data android:name="Substratum_Type2" android:value=""/>
+        <meta-data android:name="Substratum_Type3" android:value="Samsung_S8"/>
+        <meta-data android:name="Substratum_Type4" android:value=""/>
+        <meta-data android:name="Substratum_Version" android:value="823"/>
+    </application>
+</manifest>

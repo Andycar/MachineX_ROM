@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/notification_contentView_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/security_home_icon_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+</FrameLayout>

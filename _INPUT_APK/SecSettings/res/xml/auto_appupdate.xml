@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceScreen android:persistent="false" android:title="@string/preload_app_update_now" android:key="update_preaload" android:summary="@string/update_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/update_value" android:title="@string/auto_update" android:key="auto_update_preload" android:summary="@string/auto_update_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/update_value_real" />
+    <PreferenceScreen android:persistent="false" android:title="@string/auto_update_detail" android:key="auto_update_preload_detail" />
+</PreferenceScreen>

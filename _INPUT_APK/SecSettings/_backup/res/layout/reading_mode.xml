@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/easymode_help_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/reading_mode_category" android:layout_marginLeft="@dimen/listpreference_layout_marginLeft" android:layout_marginRight="@dimen/listpreference_layout_marginRight" android:text="@string/shortcut_category_normal" android:selectable="false" android:shouldDisableView="false" style="?android:attr/listSeparatorTextViewStyle" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listpreference_layout_marginLeft" android:layout_marginRight="@dimen/listpreference_layout_marginRight" />
+    <RelativeLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:id="@id/noitem_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/ic_setting_reading_mode_no_apps" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_applications" android:layout_below="@id/noitem_image_view" style="@style/DormantNoContactsTextAppearance" />
+    </RelativeLayout>
+</LinearLayout>

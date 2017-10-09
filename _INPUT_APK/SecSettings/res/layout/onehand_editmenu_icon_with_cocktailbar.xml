@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/panel_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/notification_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/panel" android:background="@drawable/side_key_setting_panel_bg" android:layout_width="@dimen/notification_panel_width_onehand_with_cocktailbar" android:layout_height="@dimen/notification_panel_height_onehand">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/notification_round_bg" android:background="@drawable/side_key_round_bg_off" android:layout_width="@dimen/notification_image_width" android:layout_height="@dimen/notification_image_height" android:layout_marginTop="@dimen/notification_image_margin_top" />
+                    <ImageView android:id="@id/panel_icon" android:layout_width="@dimen/notification_image_width" android:layout_height="@dimen/notification_image_height" android:layout_marginTop="@dimen/notification_image_margin_top" />
+                </FrameLayout>
+                <com.android.settings.PanelTextView android:textSize="@dimen/notification_text_size" android:textColor="@color/onehand_editmenu_panel_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/panel_text" android:background="@drawable/zzz_null" android:layout_width="fill_parent" android:layout_height="@dimen/notification_text_height" android:layout_marginTop="@dimen/notification_text_margin_top" android:maxLines="2" android:lineSpacingExtra="@dimen/notification_text_line_spacing" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/panel_border" android:background="@drawable/side_key_setting_panel_bg_line" android:layout_width="@dimen/notification_panel_width_onehand_with_cocktailbar" android:layout_height="@dimen/notification_panel_height_onehand" android:alpha="0.0" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

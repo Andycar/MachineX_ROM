@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">あと%dステップでデベロッパーモードになります。</item>
+        <item quantity="one">あと1ステップでデベロッパーモードになります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">パスワードには%d文字以上の文字を含める必要があります。</item>
+        <item quantity="one">パスワードには1文字以上の文字を含める必要があります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">パスワードには%d文字以上の小文字を含める必要があります。</item>
+        <item quantity="one">パスワードには1文字以上の小文字を含める必要があります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">パスワードには%d文字以上の大文字を含める必要があります。</item>
+        <item quantity="one">パスワードには1文字以上の大文字を含める必要があります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">パスワードには%d個以上の数字を含める必要があります。</item>
+        <item quantity="one">パスワードには1個以上の数字を含める必要があります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">パスワードには%d文字以上の記号を含める必要があります。</item>
+        <item quantity="one">パスワードには1文字以上の記号を含める必要があります。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">パスワードには%d文字以上の数字または記号を含める必要があります。</item>
+        <item quantity="one">パスワードには1文字以上の数字または記号を含める必要があります。</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d個のアプリケーションで通知の読み取りが可能</item>
+        <item quantity="one">%d件のアプリケーションに通知の読み取りを許可</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">この機能向けに提供されているアプリケーションが%d件インストールされています。</item>
+        <item quantity="one">この機能向けに提供されているアプリケーションが1件インストールされています。</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="update_duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="update_duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="torchlight_timeout_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="torchlight_timeout_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+</resources>

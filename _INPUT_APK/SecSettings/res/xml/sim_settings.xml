@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sim_settings_title" android:key="sim_cards" />
+    <PreferenceCategory android:title="@string/sim_pref_divider" android:key="sim_activities">
+        <com.android.settings.notification.DropDownPreference android:title="@string/cellular_data_title" android:key="sim_cellular_data" />
+        <com.android.settings.notification.DropDownPreference android:title="@string/calls_title" android:key="sim_calls" />
+        <com.android.settings.notification.DropDownPreference android:title="@string/sms_messages_title" android:key="sim_sms" />
+    </PreferenceCategory>
+</PreferenceScreen>

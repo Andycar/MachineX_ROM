@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/weather_settings_padding_left" android:layout_marginRight="@dimen/weather_settings_padding_right" android:singleLine="true" android:marqueeRepeatLimit="0" style="@style/list_title_style" />
+    <TextView android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/weather_settings_padding_left" android:layout_marginRight="@dimen/weather_settings_padding_right" android:layout_below="@android:id/title" style="@style/list_summary_style" />
+</RelativeLayout>

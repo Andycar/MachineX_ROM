@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title_area">
+        <item name="android:textSize">@dimen/main_title_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#bf000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="eula_title_area">
+        <item name="android:textSize">@dimen/main_title_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#bf000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="sub_title_area">
+        <item name="android:textSize">@dimen/sub_title_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="small_title_area">
+        <item name="android:textSize">@dimen/small_title_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="description_area">
+        <item name="android:textSize">@dimen/desc_font_size</item>
+        <item name="android:textColor">@color/desc_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="list_item">
+        <item name="android:textSize">@dimen/list_item_font_size</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding_left</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="button_style">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:paddingLeft">@dimen/button_padding_side</item>
+        <item name="android:paddingRight">@dimen/button_padding_side</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+    <style name="spinner_style">
+        <item name="android:textSize">@dimen/list_item_font_size</item>
+        <item name="android:gravity">start</item>
+        <item name="android:src">@drawable/tw_spinner_mtrl_am_alpha</item>
+        <item name="android:tint">#ff666666</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+</resources>

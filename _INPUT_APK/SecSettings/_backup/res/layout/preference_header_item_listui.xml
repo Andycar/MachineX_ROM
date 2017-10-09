@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:paddingLeft="@dimen/preference_padding_left" android:layout_width="fill_parent" android:layout_height="58.0dip" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/icon_check" android:paddingLeft="6.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/grid_preference_listui_left_margin" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/list_checkbox_style" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/listview_icon_size" android:layout_height="@dimen/listview_icon_size" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="6.0dip">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+</LinearLayout>

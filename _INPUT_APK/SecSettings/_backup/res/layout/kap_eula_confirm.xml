@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/tw_background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/eula_top_title" android:background="@color/actionbar_color" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#fffafafa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kap_title" android:singleLine="true" android:fontFamily="roboto-regular" />
+    </LinearLayout>
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/eula_top_title">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/small_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="18.0dip" android:text="@string/kap_eula_title" />
+        <ScrollView android:id="@id/kap_scrollView" android:background="@drawable/sw_textbox_eula_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/eula_bottom_check" android:overScrollMode="never">
+            <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:autoLink="web" android:id="@id/kap_textview" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kap_eula_comment" android:lineSpacingExtra="2.0dip" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/eula_bottom_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/eula_bottom_confirm">
+            <CheckBox android:textSize="18.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/kap_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/kap_eula_terms" android:paddingStart="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/eula_bottom_confirm" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/tw_ab_bottom_transparent_light_holo" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@android:style/Widget.DeviceDefault.Button.Borderless">
+                <Button android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/tw_btn_ripple_material" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/kap_cancel" android:layout_weight="140.0" android:fontFamily="sans-serif" />
+                <Button android:textSize="15.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/btn_next_reboot" android:background="@drawable/tw_btn_ripple_material" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/kap_next_reboot" android:layout_weight="140.0" android:fontFamily="sans-serif" />
+                <Button android:textSize="15.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/btn_reboot_now" android:background="@drawable/tw_btn_ripple_material" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/kap_reboot_now" android:layout_weight="140.0" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

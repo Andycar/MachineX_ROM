@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/cover_shortcut_bg" android:layout_width="@dimen/sview_cover_width" android:layout_height="@dimen/sview_cover_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/cover_dim_bg" android:background="@android:drawable/mainbg_pattern_mainarea" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_setting_indicator_height" />
+        <RelativeLayout android:orientation="horizontal" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_setting_title_height">
+            <TextView android:textSize="@dimen/sview_cover_setting_title_text_size" android:textColor="@color/sview_cover_setting_title_text_color" android:gravity="center_vertical" android:id="@id/cover_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sview_cover_setting_title_margin_left" android:layout_marginRight="@dimen/sview_cover_setting_title_margin_right" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/sview_title_text_shadow" />
+            <ImageButton android:id="@id/cancel_button" android:background="@drawable/setting_scover_close_btn" android:layout_width="@dimen/sview_cover_setting_close_button_size" android:layout_height="@dimen/sview_cover_setting_close_button_size" android:layout_marginRight="@dimen/sview_cover_setting_close_button_margin_right" android:src="@drawable/tw_action_bar_icon_cancel_02_holo_dark" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/wifi_ap_close" />
+        </RelativeLayout>
+        <LinearLayout android:screenOrientation="portrait" android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip">
+            <ImageView android:gravity="center_vertical" android:id="@id/img_torch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sview_light_off" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

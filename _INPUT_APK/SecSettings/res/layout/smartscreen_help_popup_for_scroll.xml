@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/smart_screen_noti_for_scroll0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/help_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:id="@id/smart_screen_noti_for_scroll1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" />
+        <CheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alert_dialog_text_size" android:gravity="center" android:id="@id/do_not_show_again_for_scroll" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="17.0dip" android:text="@string/do_not_show_again" />
+    </LinearLayout>
+</ScrollView>

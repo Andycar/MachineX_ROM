@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="left" android:id="@id/s_view_cover_color_picker_dim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:color/black" android:alpha="0.3" />
+        <ImageView android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="73.0dip" android:src="@android:color/black" android:alpha="0.2" />
+        <ImageView android:id="@id/s_view_cover_color_picker_pattern" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:drawable/mainbg_pattern_mainarea" />
+        <view android:layout_gravity="center|top" android:id="@id/s_view_cover_color_picker" android:layout_width="fill_parent" android:layout_height="119.0dip" android:layout_marginLeft="23.0dip" android:layout_marginTop="104.0dip" android:layout_marginRight="23.0dip" class="com.sec.android.sviewcover.SViewCoverColorPickerView" />
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/s_view_cover_color_picker_background" android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="21.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|top" android:id="@id/select_background_color_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/select_background_color" style="@style/sview_text_shadow" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+            <Button android:textSize="18.0dip" android:textColor="#fff5f5f5" android:id="@id/s_view_cover_color_cancel_button" android:background="@drawable/ripple_effect_button_drawable" android:layout_width="135.0dip" android:layout_height="40.0dip" android:text="@string/cancel" style="@style/sview_text_shadow" />
+            <Button android:textSize="18.0dip" android:textColor="#fff5f5f5" android:id="@id/s_view_cover_color_set_button" android:background="@drawable/ripple_effect_button_drawable" android:layout_width="135.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="@string/date_time_set" style="@style/sview_text_shadow" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_open_cover_wallpaper_popup" android:background="@drawable/tw_toast_frame_holo_light" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="90.0dip" android:layout_marginRight="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/s_view_cover_open_cover_wallpaper_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_view_cover_open_cover_popup" />
+    </LinearLayout>
+</FrameLayout>

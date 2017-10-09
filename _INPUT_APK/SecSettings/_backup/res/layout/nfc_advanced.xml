@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:id="@id/nfc_advanced" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RadioButton android:id="@id/route_radiobutton" android:background="#00000000" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:background="#00000000" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="18.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="18.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_toLeftOf="@id/route_radiobutton" android:layout_alignParentLeft="true">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/nfc_title" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/nfc_summary" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignStart="@id/nfc_title" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

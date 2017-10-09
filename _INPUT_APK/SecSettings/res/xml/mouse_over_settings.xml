@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.UnclickablePreference android:title="@string/mouse_over_menu_msg" android:key="mouse_over_guide" />
+    <CheckBoxPreference android:title="@string/mouse_over_preview_and_icon_labels_title" android:key="key_preview_and_icon_labels" android:summary="@string/mouse_over_preview_and_icon_labels_summary" />
+    <CheckBoxPreference android:title="@string/mouse_over_list_scrolling_title" android:key="key_list_scrolling" android:summary="@string/mouse_over_list_scrolling_summary2" />
+</PreferenceScreen>

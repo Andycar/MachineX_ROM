@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cover_wday_day">E</string>
+    <string name="clear_cover_month_day_no_year">MMM d</string>
+    <string name="clear_cover_day_month_no_year">d MMM</string>
+    <string name="date_time_set">Ezarri</string>
+    <string name="save">Gorde</string>
+    <string name="cancel">Utzi</string>
+    <string name="clearcover_exit_button">Irten</string>
+    <string name="clearcover_music_widget_unkown">Ezezaguna</string>
+    <string name="clearcover_no_missed_event">Ez duzu galdutako gertaerarik</string>
+    <string name="clearcover_1_missed_call">Dei galdu 1 duzu</string>
+    <string name="clearcover_1_unread_message">Irakurri gabeko mezu 1 duzu</string>
+    <string name="clearcover_n_missed_calls">%d dei galdu dituzu</string>
+    <string name="clearcover_n_unread_messages">Irakurri gabeko %1$d mezu dituzu</string>
+    <string name="clearcover_calls_and_messages">%1$d dei galdu eta irakurri gabeko %2$d mezu dituzu</string>
+    <string name="zzz_tts_temp_celsius">Celsius</string>
+    <string name="zzz_tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="zzz_tts_temperature">Maila</string>
+    <string name="volumepanel_ringtone">Dei doinua</string>
+    <string name="volumepanel_media">Media</string>
+    <string name="volumepanel_notification">Jakinarazpena</string>
+    <string name="volumepanel_system">Sistema</string>
+    <string name="s_view_cover_shortcuts_camera_text">Kamera</string>
+    <string name="s_view_cover_shortcuts_quick_memo_text">Ekintza Oroigarria</string>
+    <string name="s_view_cover_shortcuts_music_player_text">Musika</string>
+    <string name="cmas_presidential_alert">Presidential alert</string>
+    <string name="cmas_extreme_alert">Extreme alerts</string>
+    <string name="cmas_presidential_alerts">Alerta presidentzialak</string>
+    <string name="cmas_extreme_alerts">Extreme alerts</string>
+    <string name="cmas_severe_alerts">Severe alerts</string>
+    <string name="cmas_amber_alerts">ANBAR alertak</string>
+    <string name="cmas_emergency_alerts">Larrialdi alertak</string>
+    <string name="sae_presidential_alert">Presidential alert</string>
+    <string name="new_message_title">Mezu berria</string>
+    <string name="message_count">%d mezu berri</string>
+    <string name="new_message">Mezu berria</string>
+    <string name="cb_msg_header">CB mezuak</string>
+    <string name="push_message_sender">Difusio mezua</string>
+    <string name="select_background_color">Ezarri S View leiho hor. papera</string>
+    <string name="s_view_window_theme">S View leih. horma papera</string>
+    <string name="s_view_info_cover">Hautatu erakusteko gaiak</string>
+    <string name="s_view_screen_time_out">Pantaila denbora muga</string>
+    <string name="s_view_screen_roaming">Ibiltaritza</string>
+    <string name="s_view_screen_home">Etxea</string>
+    <string name="missed_call_title">Galdutako deia</string>
+    <string name="missed_calls_count">%d galdutako dei</string>
+    <string name="battery_charging_percent">Kargatzen: %%%d</string>
+    <string name="battery_wirelessly_charging_percent">Hari gabe kargatzea - %% %d</string>
+    <string name="battery_charged">Kargatuta</string>
+    <string name="unknown">Ezezag.</string>
+    <string name="private_num">Zenbaki pribatua</string>
+    <string name="payphone">Telefono publikoa</string>
+    <string name="unknown_address">Helbide ezezaguna</string>
+    <string name="s_view_cover_transport_prev_description">Aurrekoa</string>
+    <string name="s_view_cover_transport_next_description">Hurrengoa</string>
+    <string name="s_view_cover_transport_pause_description">Eten</string>
+    <string name="s_view_cover_transport_play_description">Erreproduzitu</string>
+    <string name="s_view_cover_transport_stop_description">Gelditu</string>
+    <string name="s_view_cover_transport_volume_description">Bolumena</string>
+    <string name="s_view_cover_transport_playlist_description">Erreprodukzio zerrendak</string>
+    <string name="s_view_cover_missed_event_secured_popup">Gailua blokeatuta dago. Ireki azala xehetasun gehiago ikusteko.</string>
+    <string name="s_view_cover_open_cover_popup">Ireki azala horma papera ezartzeko.</string>
+    <string name="s_view_cover_missed_event_button_accessibiliy">Irristatu bi hatzez, huts egindako gertaeraren orrira joateko.</string>
+    <string name="s_view_cover_settings_button_accessibiliy">Irristatu bi hatzez, Ezarpenetara joateko.</string>
+    <string name="s_view_cover_camera_button_accessibiliy">Irristatu bi hatzez, Kamera irekitzeko.</string>
+    <string name="s_view_cover_emergency_timer_hrs">ordu</string>
+    <string name="accessibility_battery_level">Bateria ehuneko %d(e)an dago</string>
+    <string name="unsaved">Gorde gabe</string>
+    <string name="clearcover_open_to_view_message">Ireki azala mezuaren xehetasunak ikusteko</string>
+    <string name="clearcover_open_to_view_call">Ireki azala dei xehetasunak ikusteko.</string>
+    <string name="ok">Ados</string>
+    <string name="status_view_wday_month_day_no_year">E, MMMM d</string>
+    <string name="status_view_wday_day_month_no_year">E, MMMM d</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, MMM d</string>
+    <string name="keyguard_password_enter_pin_code">Idatzi PIN kodea</string>
+    <string name="keyguard_password_wrong_pin_code">PIN kode okerra</string>
+    <string name="keyguard_label_text">Desblokeatzeko, sakatu Menua eta ondoren 0</string>
+    <string name="faceunlock_multiple_failures">Aurpegi desblokeoen saiakera kopurua gainditu duzu</string>
+    <string name="keyguard_charged">Kargatuta</string>
+    <string name="keyguard_plugged_in">Kargatzen: %%%d</string>
+    <string name="keyguard_low_battery">Konektatu zure kargadorea</string>
+    <string name="keyguard_charging_in_wireless">Hari gabe kargatzen: %% %d</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Sakatu menua desblokeatzeko</string>
+    <string name="keyguard_network_locked_message">Sarea blokeatuta</string>
+    <string name="keyguard_missing_sim_message_short">Ez dago SIM txartelik</string>
+    <string name="keyguard_missing_sim_message">Telefonoak ez dauka SIM txartelik</string>
+    <string name="keyguard_sim_locked_message">SIM txartela blokeatuta dago</string>
+    <string name="keyguard_sim_puk_locked_message">SIM txartela PUK bidez blokeatuta</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM txartela desblokeatzen…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %2$d/%3$d widget.</string>
+    <string name="keyguard_accessibility_add_widget">Gehitu widgeta</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Hutsik</string>
+    <string name="keyguard_accessibility_widget">%s widgeta</string>
+    <string name="keyguard_accessibility_camera">Kamera</string>
+    <string name="keyguard_accessibility_pattern_unlock">Patroidun desblokeoa</string>
+    <string name="keyguard_accessibility_face_unlock">Aurpegia desblokeatuta</string>
+    <string name="keyguard_accessibility_transport_pause_description">Eteteko botoia</string>
+    <string name="keyguard_accessibility_transport_play_description">Erreprodukzio botoia</string>
+    <string name="keyguard_accessibility_transport_stop_description">Gelditzeko botoia</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Hatz lodiak gorantz</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Hatz lodiak beherantz</string>
+    <string name="keyguard_accessibility_transport_heart_description">Bihotza</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">ALT</string>
+    <string name="keyboardview_keycode_cancel">Ezeztatu</string>
+    <string name="keyboardview_keycode_delete">EZABATU</string>
+    <string name="keyboardview_keycode_done">Amaituta</string>
+    <string name="keyboardview_keycode_shift">Aldatu</string>
+    <string name="keyboardview_keycode_enter">Adierazi</string>
+    <string name="description_target_unlock">Desblokeatu</string>
+    <string name="description_target_camera">Kamera</string>
+    <string name="description_target_silent">Isila</string>
+    <string name="description_target_soundon">Soinua piztuta</string>
+    <string name="description_target_search">Bilatu</string>
+    <string name="kg_emergency_call_label">Larrialdi deia</string>
+    <string name="kg_forgot_pattern_button_text">Eredua ahaztu duzu?</string>
+    <string name="kg_wrong_pattern">Diseinu okerra</string>
+    <string name="kg_wrong_password">Pasahitz okerra</string>
+    <string name="kg_wrong_pin">PIN okerra</string>
+    <string name="kg_too_many_failed_attempts_countdown">Saiatu berriz %d segundoren ondoren</string>
+    <string name="kg_too_many_failed_attempt_countdown">Saiatu berriz segundo 1 barru</string>
+    <string name="kg_pattern_instructions">Sortu zure desblokeatze eredua</string>
+    <string name="kg_sim_pin_instructions">Adierazi PINa SIM txartela desblokeatzeko</string>
+    <string name="kg_pin_instructions">PINa idatzi</string>
+    <string name="kg_password_instructions">Adierazi pasahitza</string>
+    <string name="kg_puk_enter_puk_hint">Zure SIM txartela blokeatu da. Adierazi zure PUKa jarraitzeko. Jarri harremanetan zure zerbitzu hornitzailearekin xehetasun gehiago jasotzeko.</string>
+    <string name="kg_puk_enter_pin_hint">Idatzi PIN berria</string>
+    <string name="kg_enter_confirm_pin_hint">Baieztatu zure PIN berria</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM txartela desblokeatzen…</string>
+    <string name="kg_invalid_sim_puk_hint">Zure PUKak 8 digitu edo gehiago izan behar ditu</string>
+    <string name="kg_invalid_confirm_pin_hint">Idatzi dituzun PINak ez datoz bat</string>
+    <string name="kg_login_instructions">Desblokeatzeko, hasi saioa zure Google kontuarekin</string>
+    <string name="kg_login_username_hint">Erabiltzaile izena (helbide elektronikoa)</string>
+    <string name="kg_login_password_hint">Pasahitza</string>
+    <string name="kg_login_submit_button">Saioa hasi</string>
+    <string name="kg_login_invalid_input">Erabiltzaile edo pasahitz baliogabea</string>
+    <string name="no_network_connection">Ez dago sare konexiorik</string>
+    <string name="kg_login_checking_password">Kontua egiaztatzen…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"PIN okerra eman duzu %1$d aldiz.
+
+Saiatu berriz %2$d segundo barru."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">Pasahitz okerra eman duzu %1$d aldiz. Saiatu berriz %2$d segundo barru</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Gailua desblokeatzeko %1$d saio oker egin dituzu. Saiatu berriz %2$d segundo barru.</string>
+    <string name="kg_reordering_delete_drop_target_text">KENDU</string>
+    <string name="keyguard_transport_pause_description">Eteteko botoia</string>
+    <string name="keyguard_transport_play_description">Erreprodukzio botoia</string>
+    <string name="keyguard_transport_stop_description">Gelditzeko botoia</string>
+    <string name="keyguard_carrier_default">Zerbitzurik gabe</string>
+    <string name="tts_temp_celsius">Celsius</string>
+    <string name="tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="tts_temperature">Maila</string>
+    <string name="keyguard_dualclock_home">Orri nagusia</string>
+    <string name="keyguard_dualclock_roaming">Ibiltaritza</string>
+    <string name="keyguard_dualclock_home_Seoul">Seul</string>
+    <string name="keyguard_dualclock_roaming_Korea">Ibiltaritza</string>
+    <string name="kg_spass_alternative_password">Ordezko pasahitza</string>
+    <string name="kg_spass_backup_verification">Babes kopia egiazt. mota</string>
+    <string name="kg_spass_swipe">Irristatu hatz bat pantaila nagusiak gailua desblokeatzeko</string>
+    <string name="kg_spass_passed">Ezagutu da.</string>
+    <string name="kg_forgot_spass_button_text">Desblok. Google-z</string>
+    <string name="kg_alternative_password_instructions">Adierazi ordezko pasahitza.</string>
+    <string name="kg_alternative_password_failed">Ordezko pasahitz okerra.</string>
+    <string name="kg_spass_popup_guide_text">Ziurtatu hatz puntarekin tekla nagusi osoa estaltzen duzula irristatzean.</string>
+    <string name="kg_spass_backup_password_button">Ad. babes kopia pasahitza</string>
+    <string name="kg_spass_backup_password_introductions">Adierazi babes kopiaren pasahitza.</string>
+    <string name="kg_spass_backup_password_failed">Babes kopiaren pasahitz okerra adierazi duzu.</string>
+    <string name="kg_spass_backup_pin_introductions">Adierazi babes kopia PINa</string>
+    <string name="kg_spass_backup_pin_failed">Babes kopia PIN okerra</string>
+    <string name="kg_spass_backup_pattern_introductions">Marraztu b. kopia patroia</string>
+    <string name="kg_spass_backup_pattern_failed">Patroi okerra marraztu duzu. Saiatu berriz.</string>
+    <string name="keyguard_clock_with_battery">%s-ko bateriaren energia</string>
+    <string name="default_profile_string">Mezu pertsonala</string>
+    <string name="default_profile_string_life_companion">Bizitzako laguna</string>
+    <string name="keyguard_progress_erasing_all">Datu guztiak ezabatzen…</string>
+    <string name="kg_lockscreen_backup_pin_button_text">Egin PINaren babes kopia</string>
+    <string name="fail_attempt_unlock_popup_title">Ezin izan da pantaila desblokeatu</string>
+    <string name="kg_failed_attempts_almost_at_pattern">Gailua desblokeatzeko %1$d saio oker egin dituzu. Beste %2$d oker aritzen bazara, ordezko PINa erabili ahalko duzu gailua desblokeatzeko. Saiatu berriz %3$d segundo barru.</string>
+    <string name="kg_1_failed_attempt_almost_at_wipe">You have incorrectly attempted to unlock the phone 1 time. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+    <string name="lockscreen_voiceunlock_failed_to_recognise_voice_text">Ezin izan da ahotsa hauteman</string>
+    <string name="lockscreen_unlock_guide_text">Irristatu pantaila desblokeatzeko</string>
+    <string name="kg_too_many_failed_spass_attempts_dialog_message">Ezin izan dira hatz markak hauteman %1$d aldiz. Saiatu berriz %2$d segundo barru.</string>
+    <string name="keyguard_recovery_instructions">Sartu berreskuratze pasahitza desblokeatzeko</string>
+    <string name="device_disabled">Gailua desgaituta. Jarri harremanetan IT administratzailearekin.</string>
+    <string name="keyguard_fmm_phone_locked_title">Telefonoa blokeatuta</string>
+    <string name="keyguard_fmm_owner_phone">Jabearen zenbakia</string>
+    <string name="keyguard_camera_shortcut_tts">Ukitu bi aldiz eta arrastatu Kamera irekitzeko.</string>
+    <string name="keyguard_signature_guide">Marraztu zure sinadura pantailan boligrafoarekin, desblokeatzeko</string>
+    <string name="keyguard_signature_failed_guide">Saiatu berriro. Marraztu zure sinadura pantailan boligrafoarekin, desblokeatzeko</string>
+    <string name="kg_too_many_failed_signature_attempts_dialog_message">Zure desblokeatze sinadura oker marraztu duzu %1$d aldiz. Saiatu berriz %2$d segundo barru.</string>
+    <string name="zzz_keyguard_password_attempts_count_pin_code">%d saiakera geratzen dira</string>
+    <string name="lockscreen_clock_dualclock_popup_title">Erloju duala</string>
+    <string name="lockscreen_clock_dualclock_popup_message">Hautatu zure hiria erloju duala erakusteko blokeo pantailan. Joan Ezarpenetara?</string>
+    <string name="kg_failed_attempts_almost_at_spass">Ezin izan da hatz marka egiaztatu %1$d aldiz. Beste %2$d aldiz oker aritzen bazara, babes kopia desblokeatzeko metodoa erabili ahalko duzu gailua desblokeatzeko. Saiatu berriz %3$d segundo barru.</string>
+    <string name="lockscreen_unlock_guide_text_touch_exploration">Irristatu bi hatz, pantailan desblokeatzeko</string>
+    <string name="lockscreen_swipe_voice_unlock_guide_text">Irristatu pantaila edo esan esnatze komandoa desblokeatzeko</string>
+    <string name="zzz_tts_lockscreen_shortcut_swipe">Ukitu berriz eta irristatu pantaila aplikazioak irekitzeko</string>
+    <string name="kg_failed_5_attempts_to_show_backup_pin_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup PIN is now required to unlock the screen.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_password_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup password is now required to unlock the screen.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe">You only have 1 attempt left to unlock your phone before it is reset to factory mode. This will delete all data, including files and downloaded apps.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe_subuser">You only have 1 attempt left to unlock your tablet before your account is removed. This will delete all data on your account, including files, and downloaded apps.</string>
+    <string name="kg_n_attempts_remaining">%d attempts remaining</string>
+    <string name="kg_1_attempt_remaining">1 attempt remaining</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_password_wrong_pin_code_maximum">Zure SIM txartela blokeatu da. Adierazi zure PUKa jarraitzeko. Jarri harremanetan zure zerbitzu hornitzailearekin xehetasun gehiago jasotzeko.</string>
+    <string name="lockscreen_sim_puk_tmo_help_pin_blocked">PINa blokeatuta</string>
+    <string name="lockscreen_sim_puk_tmo_help_contact_service_provider">Jarri harremanetan zure zerbitzu hornitzailearekin SIM txartela desblokeatzeko</string>
+    <string name="emergency_calls_only">Larrialdi deiak soilik</string>
+    <string name="kg_spass_help_overlay_guide_text">Biratu gailua %d° pantaila nagusian hatz punta beherantz irristatu aurretik.</string>
+    <string name="checkbox_description">Ez erakutsi berriz</string>
+    <string name="keyguard_accessibility_change_input_method">Aldatu idazkera metodoa</string>
+    <string name="status_bar_date_format_day_month">E, MMMM d</string>
+    <string name="status_bar_date_format_month_day">E, MMMM d</string>
+    <string name="app_label">Sistem. UI</string>
+    <string name="status_bar_clear_all_button">Ezabatu</string>
+    <string name="status_bar_recent_remove_item_title">Kendu zerrendatik</string>
+    <string name="status_bar_recent_inspect_item_title">Apl. Inf.</string>
+    <string name="status_bar_no_recent_apps">Berriki erabilitako aplikaziorik ez</string>
+    <string name="status_bar_no_notifications_title">Jakinarazpenik ez</string>
+    <string name="status_bar_ongoing_events_title">Abian</string>
+    <string name="status_bar_latest_events_title">Jakinarazpenak</string>
+    <string name="battery_low_title">Bateria gutxi</string>
+    <string name="battery_low_percent_format">%% %d gelditzen da</string>
+    <string name="invalid_charger">USB karga ez da onartzen. Erabili emandako kargagailua.</string>
+    <string name="battery_low_why">Ezarpenak</string>
+    <string name="status_bar_settings_settings_button">Ezarpenak</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Hegaldi modua</string>
+    <string name="status_bar_settings_auto_rotation">Biratu pantaila automatikoki</string>
+    <string name="status_bar_settings_mute_label">Isilarazi</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Jakinarazpenak</string>
+    <string name="bluetooth_tethered">Bluetooth ainguratuta</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Ezarri idazkera metodoak</string>
+    <string name="status_bar_use_physical_keyboard">Teklatu fisikoa</string>
+    <string name="usb_device_permission_prompt">Baimena eman %1$s aplikazioari USB gailura sartzeko?</string>
+    <string name="usb_accessory_permission_prompt">Baimena eman %1$s aplikazioari USB osagarrira sartzeko?</string>
+    <string name="usb_device_confirm_prompt">Ireki %1$s USB gailu hau konektatuta dagoenean?</string>
+    <string name="usb_accessory_confirm_prompt">Ireki %1$s USB osagarri hau konektatuta dagoenean?</string>
+    <string name="usb_accessory_uri_prompt">Instalatutako aplikazioek ez dute funtzionatzen USB osagarri honekin. Osagarriari buruz gehiago jakiteko jo hona: %s.</string>
+    <string name="title_usb_accessory">USB osagarria</string>
+    <string name="label_view">Ikusi</string>
+    <string name="always_use_device">Erabili lehenetsi gisa USB gailu honetarako</string>
+    <string name="always_use_accessory">Erabili lehenetsi gisa USB osagarri honetarako</string>
+    <string name="usb_debugging_title">Baimendu USB arazketa?</string>
+    <string name="usb_debugging_message">"Ordenagailuaren RSA hatz aztarna:
+%1$s"</string>
+    <string name="usb_debugging_always">Utzi beti ordenagailu honi</string>
+    <string name="compat_mode_on">Zoom pantaila betetzeko</string>
+    <string name="compat_mode_off">Egokitu pant. betetzeko</string>
+    <string name="screenshot_saving_ticker">Pantaila kaptura gordetzen…</string>
+    <string name="screenshot_saving_title">Pantaila kaptura gordetzen…</string>
+    <string name="screenshot_saving_text">Pantaila kaptura gordetzen</string>
+    <string name="screenshot_saved_title">Pantaila kapturatuta</string>
+    <string name="screenshot_saved_text">Ukitu pantaila kaptura ikusteko</string>
+    <string name="screenshot_failed_title">Ezin izan da pantaila kapturatu</string>
+    <string name="usb_preference_title">USB fitxat. transfer. aukerak</string>
+    <string name="use_mtp_button_title">Muntatu multimedia irakurgailu gisa (MTP)</string>
+    <string name="use_ptp_button_title">Muntatu kamera gisa (PTP)</string>
+    <string name="installer_cd_button_title">Instalatu Mac-entzako Android fitxategiak transferitzeko aplikazioa</string>
+    <string name="accessibility_back">Atzera</string>
+    <string name="accessibility_home">Etxea</string>
+    <string name="accessibility_menu">Menua</string>
+    <string name="accessibility_search_light">Bilatu</string>
+    <string name="accessibility_camera_button">Kamera</string>
+    <string name="accessibility_unlock_button">Desblokeatu</string>
+    <string name="accessibility_ime_switch_button">Aldatu sarrera metodoaren botoia</string>
+    <string name="accessibility_compatibility_zoom_button">Zoom bateragarritasun botoia</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom egin pantaila handitzeko</string>
+    <string name="accessibility_bluetooth_connected">Bluetoothera konektatuta</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth deskonektatuta</string>
+    <string name="accessibility_no_battery">Bateriarik ez</string>
+    <string name="accessibility_battery_one_bar">Bateria barra bat</string>
+    <string name="accessibility_battery_two_bars">Bi bateria barra</string>
+    <string name="accessibility_battery_three_bars">Hiru bateria barra</string>
+    <string name="accessibility_battery_full">Bateria guztiz beteta</string>
+    <string name="accessibility_no_phone">Telefono seinalerik ez</string>
+    <string name="accessibility_phone_one_bar">Telefono seinale barra bat</string>
+    <string name="accessibility_phone_two_bars">Bi telefono seinale barra</string>
+    <string name="accessibility_phone_three_bars">Hiru telefono seinale barra</string>
+    <string name="accessibility_phone_signal_full">Telefono seinale osoa</string>
+    <string name="accessibility_no_data">Daturik ez</string>
+    <string name="accessibility_data_one_bar">Datu seinaleren barra bat</string>
+    <string name="accessibility_data_two_bars">Bi datu seinale barra</string>
+    <string name="accessibility_data_three_bars">Hiru datu seinale barra</string>
+    <string name="accessibility_data_signal_full">Datu seinale osoa</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi seinalerik ez</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi seinale barra bat</string>
+    <string name="accessibility_wifi_two_bars">Bi Wi-Fi seinale barra</string>
+    <string name="accessibility_wifi_three_bars">Hiru Wi-Fi seinaleren barra</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi seinale osoa</string>
+    <string name="accessibility_no_signal">Seinalerik ez</string>
+    <string name="accessibility_not_connected">Ez konektatuta</string>
+    <string name="accessibility_desc_on">Aktibatuta</string>
+    <string name="accessibility_desc_off">Desaktibatuta</string>
+    <string name="accessibility_desc_connected">Konektatuta</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Ibiltaritza</string>
+    <string name="accessibility_data_connection_edge">Ertza</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Ez dago SIM txartelik</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth ainguraketa</string>
+    <string name="accessibility_airplane_mode">Hegaldi modua</string>
+    <string name="accessibility_settings_button">Sistemaren ezarpenak</string>
+    <string name="accessibility_notifications_button">Jakinarazpenak</string>
+    <string name="accessibility_remove_notification">Kendu jakinarazpenak</string>
+    <string name="accessibility_gps_enabled">GPSa piztuta</string>
+    <string name="accessibility_gps_acquiring">GPSa lortzen…</string>
+    <string name="accessibility_tty_enabled">Teleidazmakina gaituta</string>
+    <string name="accessibility_ringer_vibrate">Tonu bibrazioa</string>
+    <string name="accessibility_ringer_silent">Isilarazi tonua</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Itxi</string>
+    <string name="accessibility_desc_quick_settings">Ezarpen azkarrak</string>
+    <string name="accessibility_quick_settings_alarm">Alarma %s-e(ta)rako ezarrita</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobile data is off</string>
+    <string name="data_usage_disabled_dialog_enable">Gaitu mug. datu konex. berr.</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Interneteko konexiorik ez</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi konektatuta</string>
+    <string name="gps_notification_searching_text">Erabiltzen ari diren GPSak bilatzen…</string>
+    <string name="gps_notification_found_text">Kokapena GPS bidez ezarrita</string>
+    <string name="accessibility_clear_all">Kendu jakinarazpen guztiak</string>
+    <string name="status_bar_notification_inspect_item_title">Jakinarazpenen ezarpenak</string>
+    <string name="accessibility_rotation_lock_off">Pantaila automatikoki biratuko da</string>
+    <string name="start_dreams">Fantasia</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Ez da Wi-Fi eremua onartzen.</string>
+    <string name="it_policy_not_allow_wifi">Segurtasun politikak Wi-Fi erabilera mugatzen du</string>
+    <string name="it_policy_not_allow_wifiap">Segurtasun politikak Internet partekatzearen erabilera mugatzen du</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Hegaldi moduan</string>
+    <string name="edm_policy_not_allow_open_wifiap">Segurtasun politikak beroguneen ainguraketa ez segurtatuaren erabilera mugatzen du</string>
+    <string name="wifi_authentication_succeed">Autentikatuta</string>
+    <string name="wifi_authentication_failed">Autentikazioak huts egin du</string>
+    <string name="wifi_setup_title_connected_network">%s Wi-Fi sarera konektatuta</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Kargatuta</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetootha itzalita</string>
+    <string name="quick_settings_brightness_label">Argitasuna</string>
+    <string name="quick_settings_ime_label">Idazkera modua</string>
+    <string name="quick_settings_location_label">Kokalekua</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Larrialdi deiak bakarrik</string>
+    <string name="quick_settings_settings_label">Ezarpenak</string>
+    <string name="quick_settings_time_label">Ordua</string>
+    <string name="quick_settings_user_label">Nik</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Ez konektatuta</string>
+    <string name="quick_settings_wifi_no_network">Sarerik ez</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Argitasuna</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Linterna</string>
+    <string name="recents_empty_message">Ez dago aplikazio berririk</string>
+    <string name="zen_no_interruptions">Etenik gabe</string>
+    <string name="zen_important_interruptions">Lehentasunezko etenak soilik</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Bat ere ez</string>
+    <string name="interruption_level_priority">Lehent.</string>
+    <string name="interruption_level_all">Guztiak</string>
+    <string name="guest_wipe_session_dontwipe">Bai, jarraitu</string>
+    <string name="notification_hidden_text">Ezkutatutako edukia</string>
+    <string name="sanitized_content_text">Ukitu hemen %s-(e)ra sartzeko.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Ez, mila esker</string>
+    <string name="hidden_notifications_setup">Konfiguratu</string>
+    <string name="quickpanel_airplane_mode_text">"Hegaldia
+modua"</string>
+    <string name="quickpanel_airplane_mode_content_description">Hegaldi modua</string>
+    <string name="quickpanel_content_description_led_on">%s gaituta dago</string>
+    <string name="quickpanel_content_description_led_off">%s ezgaituta dago</string>
+    <string name="quickpanel_content_description_led_dim">%s ezin da gaitu</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Quick connect</string>
+    <string name="accessibility_qconnect_button_tts">Quick connect</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetootha</string>
+    <string name="quickpanel_gps_content_description">Kokalekua</string>
+    <string name="quickpanel_silent_mode_content_description">Modu isila</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Soinua</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Bibrazioa</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Mututu</string>
+    <string name="quickpanel_rotation_content_description">Pantaila biraketa</string>
+    <string name="quickpanel_mobile_data_content_description">Datu mugikorrak</string>
+    <string name="quickpanel_power_saving_content_description">Bateria aurrezteko modua</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Bateria aurrezteko ultramodua</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Leiho anitza</string>
+    <string name="quickpanel_car_mode_content_description">Auto modua</string>
+    <string name="quickpanel_dormant_mode_content_description">Blokeo modua</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Wi-Fi eremua</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Ukimen sentikortasuna</string>
+    <string name="quickpanel_smart_stay_content_description">Smart stay</string>
+    <string name="quickpanel_smart_scroll_content_description">Korritze adimenduna</string>
+    <string name="quickpanel_sync_content_description">Sinkronizazioa</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi deiak</string>
+    <string name="quickpanel_toolbox_content_description">Tresna kutxa</string>
+    <string name="quickpanel_adaptive_display_content_description">Bistaratze moldagarria</string>
+    <string name="quickpanel_airgesture_content_description">Air gesture</string>
+    <string name="quickpanel_airview_content_description">Air view</string>
+    <string name="quickpanel_network_booster_content_description">Deskarga zabaltzailea</string>
+    <string name="quickpanel_personal_mode_content_description">Modu pribatua</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Alboko teklaren panela</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Kokapena</string>
+    <string name="quickpanel_silent_mode_text">"Modu
+isila"</string>
+    <string name="quickpanel_silent_mode_sound">Soinua</string>
+    <string name="quickpanel_silent_mode_vibrate">Bibrazioa</string>
+    <string name="quickpanel_silent_mode_mute">Isilarazi</string>
+    <string name="quickpanel_rotation_text">"Pantaila
+biraketa"</string>
+    <string name="quickpanel_mobile_data_text">"Datu
+mugik."</string>
+    <string name="quickpanel_power_saving_text">"Bateria
+aurrez."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Bat.aurr.
+ultram."</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Multi
+window"</string>
+    <string name="quickpanel_car_mode_text">"Auto
+modua"</string>
+    <string name="quickpanel_driving_mode_text">"Esku libre
+modua"</string>
+    <string name="quickpanel_dormant_mode_text">"Blokeo
+modua"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Mobile
+hotspot"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Ukimen
+sentsibil."</string>
+    <string name="quickpanel_smart_stay_text">"Smart
+stay"</string>
+    <string name="quickpanel_smart_scroll_text">"Korritze
+adimenduna"</string>
+    <string name="quickpanel_sync_text">Sinkroniz</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">Tresna kutxa</string>
+    <string name="quickpanel_smart_pause_text">"Eten
+adimenduna"</string>
+    <string name="quickpanel_adaptive_mode_text">"Egokitu
+pant."</string>
+    <string name="quickpanel_airgesture_text">"Aire
+keinua"</string>
+    <string name="quickpanel_airview_text">"Aire
+ikuspegia"</string>
+    <string name="quickpanel_network_booster_text">"Deskarga
+zabaltz."</string>
+    <string name="quickpanel_personal_mode_text">"Modu
+pribatua"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Quick
+connect"</string>
+    <string name="quickpanel_side_key_text">"Alb. tekla
+panela"</string>
+    <string name="accessibility_power_saving_mode">Bateria aurrezteko modua gaitzeko, gaitu funtzio bat gutxienez</string>
+    <string name="accessibility_power_saving_mode_title">Energia aurrezteko modua</string>
+    <string name="insert_sim_card">Sartu SIM txartela</string>
+    <string name="insert_sim_card_message">Sartu SIM txartela sare zerbitzuetan sartzeko.</string>
+    <string name="insert_uim_or_sim_card">Sartu UIM/SIM txartela</string>
+    <string name="status_bar_recent_launch_task_manager_title">Ataza kud.</string>
+    <string name="status_bar_recent_remove_all_button">Itxi dena</string>
+    <string name="blocking_mode_enable">Modu hau gaituta dagoenean, hautatutako eginbideen jakinarazpenak ezgaituko dira. Zure baimendutako zerrendako pertsonen sarrera deien jakinarazpenak soilik jasoko dituzu.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Blokeo moduak hautatutako eginbideen jakinarazpenak ezgaitzen ditu. Sarrera deiak blokeatzen direnean, zure baimendutako kontaktuen sarrera deien jakinarazpenak soilik jasoko dituzu. Zure blokeo moduaren ezarpenak aldatzeko, joan Ezarpenak > Pertsonalizazioa > Blokeo modua aukerara.</string>
+    <string name="blocking_mode_enable_wifi">Honako modua gaitzean, aukeratutako ezaugarrien jakinarazpenak desgaituko dira</string>
+    <string name="blocking_mode_title">Blokeo modua</string>
+    <string name="magnification_text_for_air_view_button">Lupa keinuak</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Ezin da Deskarga zabaltzailea erabili %1$s gaituta badago. Ezgaitu %2$s eta saiatu berriz.</string>
+    <string name="quickpanel_air_view_warning">Air view gaitzeko, gaitu funtzio bat gutxienez</string>
+    <string name="quickpanel_air_view_warning_pen_support">Aire ikuspegia gaitzeko, gaitu gutxienez funtzio bat hautatutako Aire begirada modutik</string>
+    <string name="quickpanel_air_gesture_warning">Air gesture gaitzeko, gaitu gutxienez funtzio garrantzitsuetako bat</string>
+    <string name="quickpanel_air_gesture_warning_continue">Ukitu eta eutsi ezarpen azkarraren botoi bat ezarpen garrantzitsuetara joateko</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Wi-Fia erabili ezean, aurrerantzean ezingo dituzu Internet, Posta Elektronikoa edo datu konexioa behar duten bestelako aplikazioak erabili.
+
+Datu mugikorrak ezgaituko dira."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Konektatu</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Ezin da sare mugikorretara konektatu Hegaldi modua gaituta dagoen bitartean. Ezgaitu Hegaldi modua eta saiatu berriz.</string>
+    <string name="warning_alert_check">Ez erakutsi berriz</string>
+    <string name="data_usage_enable_mobile_warning">Litekeena da pakete datuen bidez konektatzeak kosturen bat izatea. Jarraitu?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Ezin da VoLTE erabili, Hegaldi modua gaituta badago. Ezgaitu Hegaldi modua eta saiatu berriz.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">Oraingo software bertsioak ez du VoLTE onartzen. Jarri harremanetan bezeroen zerbitzuekin, xehetasun gehiago izateko.</string>
+    <string name="smart_pause_toast_text">Smart pause erabiltzeko, gaitu Mututu/eten lehenik.</string>
+    <string name="smart_bonding_popup_msg_roaming">Ezin da Deskarga zabaltzailea erabili ibiltaritzan. Wi-Fi sare bidez deskargatzea gomendatzen dugu.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Piztu Wi-Fia</string>
+    <string name="smart_bonding_popup_msg_data_btn">Piztu datu mugikorrak</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Itzali Wi-Fi eta Datu mugikorrak</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi itzalita dago orain. Deskarga zabaltzailea gaitzeko, Wi-Fi eta Datu mugikorrak piztu behar dira. Baliteke sare mugikorren bidezko deskargek kostu osagarriak eragitea zure ordainketa planaren arabera.</string>
+    <string name="smart_bonding_popup_msg_data">Datu mugikorrak itzalita daude orain. Deskarga zabaltzailea gaitzeko, Wi-Fi eta Datu mugikorrak piztu behar dira. Baliteke sare mugikorren bidezko deskargek kostu osagarriak eragitea zure ordainketa planaren arabera.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi eta Datu mugikorrak itzalita daude orain. Deskarga zabaltzailea gaitzeko, Wi-Fi eta Datu mugikorrak piztu behar dituzu. Baliteke sare mugikorren bidezko deskargek kostu osagarriak eragitea zure ordainketa planaren arabera.</string>
+    <string name="smart_bonding_popup_msg">Deskarga zabaltzailea gaituko dago. Baliteke sare mugikorren bidezko deskargek kostu osagarriak eragitea zure ordainketa planaren arabera.</string>
+    <string name="smartbonding_dialog_title">Deskarga zabaltzailea</string>
+    <string name="insert_a_sim_card_and_try_again">Sartu SIM txartela eta saiatu berriz.</string>
+    <string name="unable_to_enable_Download_booster">Ezin da Deskarga zabaltzailea gaitu</string>
+    <string name="download_booster_dialog_title">Gaitu Deskarga zabaltzailea</string>
+    <string name="enable">Gaitu</string>
+    <string name="sd_card">SD txar.</string>
+    <string name="sdcard_insert">SD txartelik sartuta</string>
+    <string name="sdcard_unmount">Desmuntatu SD txartela</string>
+    <string name="go_to_myfiles">Joan Nire Fitxategietara</string>
+    <string name="charging_interruption_title">Ezin da kargatu</string>
+    <string name="charging_interruption_by_terminal_open_text">Ezin da zure gailua kargatu. Ziurtatu Samsung-ekin bateragarria den bateria eta kargadorea erabiltzen ari zarela, eta zure gailuak behar bezala konektatuta dagoela kargadorera.</string>
+    <string name="full_battery_title">Informazioa</string>
+    <string name="full_battery_text">"Bateria guztiz kargatuta.
+Kargagailua deskonektatu."</string>
+    <string name="reading_mode_title">Irakurketa modua</string>
+    <string name="reading_mode_alert">Irakurketa modua gaitu da. Pantaila orain irakurtzeko optimizatu da. Modu hau hautatutako aplikazioetan soilik dago erabilgarri.</string>
+    <string name="reading_mode_settings">Ezarpenak</string>
+    <string name="quickpanel_ebook_text">"Irakur.
+modua"</string>
+    <string name="quickpanel_ebook_content_description">Irakurketa modua</string>
+    <string name="driving_mode_title">Esku libreak modua</string>
+    <string name="driving_mode_on_dialog_msg_1">Esku libreak modua Ezarpenetan ezgaitu behar da, S Voice Esku libreak itxi ondoren. Esku libreak moduak gaituta jarraitzen badu, jakinarazpenak eta sarrera deien informazioa ozen irakurriko da automatikoki.</string>
+    <string name="driving_mode_on_dialog_msg_2">Esku libreak modua itzali dezakezu “Itzali Esku libreak modua” S Voice Esku libreak moduan, edo Ezarpenetara edo jakinarazpen panelera joanez</string>
+    <string name="quickpanel_driving_mode_content_description">Esku libreak modua</string>
+    <string name="critical_low_battery_title">Bateria oso baxu dago</string>
+    <string name="critical_low_battery_text">Konektatu gailua kargadore batera. Zure gailua kargatzen ari den bitartean erabiltzen baduzu, baliteke behar bezala ez kargatzea.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Azkarrago kargatzeko, konektatu entxufera eta itxi erabiltzen ari ez zaren aplikazioak %s-(e)n. Kargan erabilera jarraituak karga eraginkorra galaraz dezake.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Itxi erabiltzen ari ez zaren aplikazioak %s-(e)n. Kargan erabilera jarraituak karga eraginkorra galaraz dezake.</string>
+    <string name="low_battery_text">Konektatu gailua kargadore batera. Zure gailua kargatzen ari den bitartean erabiltzen baduzu, baliteke behar bezala ez kargatzea.</string>
+    <string name="low_battery_text_charged_via_usb">Azkarrago kargatzeko, konektatu entxufera eta itxi erabiltzen ari ez zaren aplikazioak %s-(e)n. Kargan erabilera jarraituak karga eraginkorra galaraz dezake.</string>
+    <string name="low_battery_text_charged_via_ta">Itxi erabiltzen ari ez zaren aplikazioak %s-(e)n. Kargan erabilera jarraituak karga eraginkorra galaraz dezake.</string>
+    <string name="low_battery_power_saving_button_text">Bateria aurreztea</string>
+    <string name="wireless_charging_title">Hari gabeko karga</string>
+    <string name="cable_charging_title">Kable bidez kargatu</string>
+    <string name="wireless_charging_text">Kargatzeko panela hauteman da. Hari gabe kargatzen…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Hari gabeko kargatzetik kable kargatzera igarotzen</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Klabe kargatzetik hari gabeko kargatzera igarotzen</string>
+    <string name="wireless_charging_spen_warning_text">Zure gailua kablerik gabe kargatzen ari da. Baliteke S Pen-ek ez funtzionatzea behar bezala hari gabe kargatu bitartean.</string>
+    <string name="incompatible_charger_title">Ez dabil kargatzen</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Itzali gailua</string>
+    <string name="overheat_poweroff_warning_text">Zure gailua gehiegi berotzen ari da. Orain itzali egingo da, hozteko.</string>
+    <string name="overheat_poweroff_warning_button_text">Ez itzali</string>
+    <string name="overheat_poweroff_notice_title">Gailua automatikoki itzalita</string>
+    <string name="overheat_poweroff_notice_text">"Zure gailua gehiegi berotu da. Itzali egingo da kalteak saihesteko.
+
+Hurrengoengatik berotu daiteke gehiegi:
+Denbora luzez grafikoki intentsuak diren aplikazioak erabiltzeagatik, adibidez, jokoak eta nabigatzeko aplikazioak.
+Fitxategi handiak transferitzeagatik.
+Gailua inguru bero batean erabiltzeagatik."</string>
+    <string name="power_sharing_warning_title">Bateria partekatzea</string>
+    <string name="power_sharing_warning_text">Zure bateria partekatze muga baino txikiagoa da. Bateria partekatzen jarraitzeko, egokitu bateria partekatzeko muga oraingo bateria mugatik behera.</string>
+    <string name="power_sharing_start_toast_text">Bateria partekatzea hasten…</string>
+    <string name="power_sharing_end_notification_text">Bateria partekatzea amaitu da. Deskonektatu kablea.</string>
+    <string name="power_sharing_unable_notification_text">Ezin da partekatu</string>
+    <string name="highvoltage_charger_notice_title">Erabili Azkar kargatzea</string>
+    <string name="highvoltage_charger_notice_text">Horrela, bateria azkarrago kargatuko du, batez ere, telefonoaren pantaila edo gailua itzalita badago.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Pantaila itzaltzea</string>
+    <string name="highvoltage_charger_notification_text">Kargadore azkarra konektatu da.</string>
+    <string name="face_detection_failure_text">Smart stay-k ezin ditu zure begiak hauteman</string>
+    <string name="screenshot_failed_due_to_drm_text">Ezin da pantaila kapturatu. DRMz babestutako irudia.</string>
+    <string name="no_such_item">Ezin da elementua aurkitu</string>
+    <string name="one_item_will_be_deleted">Elementu 1 ezabatuko da</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Ados</string>
+    <string name="disagree">Ez nago ados</string>
+    <string name="location_masterswitch_dialogtitle">Kokapen baimena</string>
+    <string name="gps_donotshow">Ez erakutsi berriz</string>
+    <string name="tethering_attention_title">Oharra</string>
+    <string name="tethering_wifi_off_warning">Wi-Fi eremua gaitzeak Wi-Fi itzaliko du.</string>
+    <string name="wifihotspot_detail">Xehetasunak</string>
+    <string name="tether_settings_title_wifi">Gune eramangarria</string>
+    <string name="guest_launge_warning_toast_text">Ezin da %s gaitu edo ezgaitu Gonbidatu moduan.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Ezin da Pribatu modua gaitu elementuak Pribatura mugitu bitartean.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Ezin da Modu pribatua ezgaitu, elementuak Pribatura mugitzean.</string>
+    <string name="no_sim_notification_title">Ez dago SIM txartelik</string>
+    <string name="no_sim_notification_title_tmo">Ez duzu SIM txartelik sartu</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Sartu SIM txartela.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Ibiltaritza</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Jakinarazpenen panela</string>
+    <string name="guideline_empty_text">Arrastatu ikono bat ontzitik aplikazio hori irekitzeko.</string>
+    <string name="drag_and_drop_content">Mugitu edukia</string>
+    <string name="switch_window">Aldatu leihoak</string>
+    <string name="close_application">Itxi aplikazioa</string>
+    <string name="collapse_window">Jaso leihoa</string>
+    <string name="change_to_poup_view">Ireki leiho agerkarian</string>
+    <string name="select_contents">Arrastatu eta utzi testu paragrafo edo irudi baten kaptura bat leihoan</string>
+    <string name="do_not_show_again">Ez erakutsi berriz</string>
+    <string name="help">Laguntza</string>
+    <string name="recent_multi_window">Ireki Leiho anitza ikusp.</string>
+    <string name="recent_pen_window">Ireki leiho agerkarian</string>
+    <string name="recent_delete">Itxi aplikazioa</string>
+    <string name="disable_multi_window_popup_description">Leiho anitza ezgaituko da eta leiho agerkarietan irekitako aplikazio guztiak itxiko dira.</string>
+    <string name="disable_multi_window_popup_easymode_description">Ezin da Leiho anitza erabili, Modu erraza gaituta badago. Ezgaitu Modu erraza eta saiatu berriz.</string>
+    <string name="yes">Ados</string>
+    <string name="no">Ezeztatu</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Bolumen altuegiko entzunaldi luzeek entzumena kaltetu dezakete. Ukitu Ados bolumena maila seguruetatik gora jartzea onartzeko.</string>
+    <string name="tw_cover_volume_warning_message">Denbora luzean bolumen altuak entzuteak zure entzumena kaltetu dezake. Bolumena igotzeko, ireki azala.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Gaitu Hegaldi modua</string>
+    <string name="global_actions_toggle_airplane_mode">Hegaldi modua</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Hegaldi moduak deiak, mezularitza eta sare mugikorren funtzionamendua ezgaitzea ahalbidetzen dizu</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Hegaldi modua desgaituko da.</string>
+    <string name="multi_window_use_popup_title">Gaitu Leiho anitza</string>
+    <string name="multi_window_use_popup_msg">Leiho anitza eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="air_gesture_use_popup_title">Gaitu air gesture</string>
+    <string name="air_gesture_use_popup_msg">Air gesture eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="air_view_use_popup_title">Gaitu air view</string>
+    <string name="air_view_use_popup_msg">Air view eta beheko aukerak ezin dituzu aldi berean gaitu. Beheko aukerak ezgaituko dira.</string>
+    <string name="car_mode_enable_use_popup_title">Gaitu Auto modua</string>
+    <string name="car_mode_use_popup_msg">Auto modua eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="smart_pause_use_popup_title">Gaitu Smart pause</string>
+    <string name="smart_pause_use_popup_msg">Smart pause eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="smart_scroll_use_popup_title">Gaitu korritze adimenduna</string>
+    <string name="smart_scroll_use_popup_msg">Smart scroll eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="smart_stay_use_popup_title">Gaitu Smart stay</string>
+    <string name="smart_stay_use_popup_msg">Smart stay eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="toolbox_use_popup_title">Gaitu Tresna kutxa</string>
+    <string name="toolbox_use_popup_msg">Tresna kutxa eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="sidekey_use_popup_title">Gaitu Alboko teklaren panela</string>
+    <string name="sidekey_use_popup_msg">Alboko tekla panela eta TalkBack ezin dituzu aldi berean gaitu. TalkBack ezgaituko da.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Oharra</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Berriki tekla</string>
+    <string name="recent_menukey_press_description_vzw">Berriki teklak menu tekla ordeztu du, berriki erabilitako aplikazio batetik bestera azkar igaro zaitezen. Ukitu Laguntza, informazio gehiago izateko.</string>
+    <string name="recent_menukey_press_description_no_help">Berriki erabilitakoen teklak menu tekla ordeztu du, berriki erabilitako aplikazio batetik bestera azkar igaro zaitezen.</string>
+    <string name="recent_menukey_press_description_att">Berriki teklak menu tekla ordeztu du. Aplikazio batean zaudenean, sakatu eta eutsi berriki tekla, menu aukerak ikusteko.</string>
+    <string name="recent_help_dialog_title_for_split_view">Leiho anitzaren eginbide berriak</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Bereizitako pantailaren ikuspegian aplikazioak irekitzeko, ukitu aplikazioaren leihoko izenburu barran dagoen %s. Ikonoa aplikazioak bereizitako pantailaren ikuspegia onartzen badu erakusten da.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Bereizitako pantailaren ikuspegian aplikazioak irekitzeko, ukitu aplikazioaren leihoko izenburu barran dagoen bereizitako pantailaren ikonoa. Ikonoa aplikazioak bereizitako pantailaren ikuspegia onartzen badu erakusten da.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Ukitu eta eutsi aplikazio leiho bat aplikazioa agerkari gisa irekitzeko. Ikuspegi agerkaria bereizitako pantailaren ikuspegira aldatzeko, arrastatu aplikazio agerkaria pantailaren goiko edo beheko aldera.</string>
+    <string name="recent_menukey_help_button">Lagunt.</string>
+    <string name="btn_text_yes">Ados</string>
+    <string name="qs_edit_settings_title">Jakinarazpen panela</string>
+    <string name="qs_edit_settings_available_button">Eskuragarri dauden botoiak</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Pertsonalizatu jakinarazpen panelaren goiko aldean zer ezarpen azkarreko botoi agertuko diren. Ukitu eta eutsi, ondoren arrastatu botoiak gehitzeko, ezkutatzeko edo berrantolatzeko.</string>
+    <string name="notification_panel_unable_remove_minimum">Ezin da botoia kendu. Botoien gutxieneko kopurura (%d) iritsi zara.</string>
+    <string name="qs_edit_setting_edit_button">Ordenatu berriro</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Hegaldi moduak deiak, mezularitza eta datu sareen eginbideak itzaltzeko aukera ematen dizu. Konektibitate eginbideak ere itzaltzen ditu, Wi-Fia eta Bluetootha kasu. Wi-Fia eta Bluetootha erabiltzeko, piztu itzazu Ezarpenetan edo jakinarazpenen panelean.</string>
+    <string name="pickup_tutorial_title">Probatu alerta adimenduna</string>
+    <string name="put_your_phone">Gailua utzi ondoren, pantaila itzali egingo da</string>
+    <string name="phone_detect">Pentsatu dei galduak edo mezuak dituzula. Utzi zure gailua eta jaso berriz pantaila itzali denean.</string>
+    <string name="pick_up_your_phone">Hartu zure gailua</string>
+    <string name="tutorial_complete">Tutoriala osatuta</string>
+    <string name="share_via">Partekatu honen bidez</string>
+    <string name="airmsg_warning_alert_check">Ez erakutsi berriz</string>
+    <string name="airmsg_check_data_title_WLAN">WLANera konektatu</string>
+    <string name="airmsg_check_data_title_Mobile">Konektatu sare mugikorren bidez</string>
+    <string name="cooling_title">Gailua gainberotuta</string>
+    <string name="cooling_body">"Zure gailua gainberotuta dago. Hozteko neurriak hartuko dira.
+
+Zure gailua erabiltzen jarrai dezakezu, baina baliteke
+- pantaila iluntzea.
+- gailua motelago aritzea.
+- karga etetea.
+
+Aplikazio hau ixteak zure gailua hozten lagunduko du.
+
+Gailua hoztu ondoren, funtzionamendua ohikoa izango da berriz automatikoki."</string>
+    <string name="cooling_noti_text">Ukitu hemen xehetasunak ikusteko</string>
+    <string name="cooling_popup_name">Jakinarazpena</string>
+    <string name="cooling_noti_title">Gailua gainberotuta</string>
+    <string name="btn_text_no">Ezez.</string>
+    <string name="device_overheating">Gailua gainberotuta</string>
+    <string name="colling_noti_text_2">Ezin dira aplikazioak ireki. Telefono eta Kontaktu aplikazioak soilik erabil ditzakezu.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Ukitu hemen gehiago jakiteko.</string>
+    <string name="cooling_popup_name_VZW">Jakinaraz.</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">Ados</string>
+    <string name="btn_text_no_VZW">Ezez.</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Ezgaitu Segurua modua</string>
+    <string name="safe_mode_popup_body_global">Segurua modua ezgaitzeko, zure gailua berrabiaraziko da. Orduan egongo dira erabilgarri zure aplikazio guztiak.</string>
+    <string name="safe_mode_off_btn_global">Ados</string>
+    <string name="safe_mode_noti_on_global">Segurua modua gaituta</string>
+    <string name="safe_mode_noti_body_global">Ukitu hemen Segurua modua ezgaitzeko.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Ezez.</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Soinu modua aldatzeko, hautatu Lehentasunezkoa edo Denak Etena moduan.</string>
+    <string name="accessibility_driving_mode">Esku libreak modua gaitzeko, gaitu funtzio nagusi bat gutxienez</string>
+    <string name="qs_silent_popup_title">Soinu modua</string>
+    <string name="qs_silent_popup_sound">Soinua</string>
+    <string name="qs_silent_popup_vibrate">Bibratu</string>
+    <string name="qs_rotate_popup_title">Pantaila biraketa</string>
+    <string name="qs_rotate_popup_all">Guztiak</string>
+    <string name="qs_torch_popup_title">Linterna</string>
+    <string name="qs_torch_popup_brightness">Argitasuna</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Bat ere ez</string>
+    <string name="disable_multi_window_dialog_title">Ezgaitu Leiho anitza</string>
+    <string name="disable_multi_window_dialog_text">Leiho anitza ezgaituko da eta leiho agerkarietan irekitako aplikazio guztiak itxiko dira.</string>
+</resources>

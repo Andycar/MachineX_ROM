@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Mic</item>
+        <item>Normal</item>
+        <item>Mare</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Niciuna</item>
+        <item>Efect de unde</item>
+        <item>Efect de lumină</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Oprit</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>Toate</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>3 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Niciodată</item>
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Instantaneu cu butonul de pornire sau la expirarea ecranului</item>
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>3 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>30 minute</item>
+        <item>1 oră</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Imediat</item>
+        <item>5 secunde</item>
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Foarte mic</item>
+        <item>Mic</item>
+        <item>Normal</item>
+        <item>Mare</item>
+        <item>Uriaş</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Foarte încet</item>
+        <item>Încet</item>
+        <item>Normal</item>
+        <item>Repede</item>
+        <item>Puţin mai repede</item>
+        <item>Mult mai repede</item>
+        <item>Foarte repede</item>
+        <item>Extrem de repede</item>
+        <item>Cel mai repede</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Foarte scăzută</item>
+        <item>Scăzută</item>
+        <item>Normal</item>
+        <item>Ridicată</item>
+        <item>Foarte mare</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanare…</item>
+        <item>Se conectează…</item>
+        <item>În curs de autentificare…</item>
+        <item>Se obţine adresa IP…</item>
+        <item>Conectat</item>
+        <item>Suspendat</item>
+        <item>Deconectare</item>
+        <item>Deconectat</item>
+        <item>Eşuat</item>
+        <item>Blocat</item>
+        <item>Calitatea conexiunii la internet este în curs de verificare…</item>
+        <item>Conectat</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanare…</item>
+        <item>Conectare cu %s</item>
+        <item>Se autentifică prin %s…</item>
+        <item>Se obţine adresa IP pentru %s…</item>
+        <item>Conectat la %1$s</item>
+        <item>Suspendat</item>
+        <item>Se deconectează de la %s…</item>
+        <item>Deconectat</item>
+        <item>Eşuat</item>
+        <item>Blocat</item>
+        <item>Calitatea conexiunii la internet este în curs de verificare…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Deschidere</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Buton de comandă</item>
+        <item>PIN de la dispozitiv pereche</item>
+        <item>PIN de la acest dispozitiv</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Conectat</item>
+        <item>Invitat</item>
+        <item>Conexiune nereuşită</item>
+        <item>Atingeţi aici pentru a vă conecta.</item>
+        <item>În afara limitelor</item>
+        <item>Conectat la un alt dispozitiv</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Fără perioadă de expirare</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>20 de minute</item>
+        <item>30 minute</item>
+        <item>60 de minute</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Toate dispozitivele</item>
+        <item>Numai dispozitive permise</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Automat</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Standard</item>
+        <item>Înalt</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 ore</item>
+        <item>12 ore</item>
+        <item>24 ore</item>
+        <item>Fără limită de timp</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>1 oră</item>
+        <item>Fără perioadă de expirare</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>1 oră</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slabă</item>
+        <item>Medie</item>
+        <item>Bun</item>
+        <item>Puternică</item>
+        <item>Foarte puternică</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Întotdeauna</item>
+        <item>Numai când este conectat</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Întotdeauna</item>
+        <item>Numai când este conectat</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Ultimele 30 de zile</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Ordine alfabetică</item>
+        <item>Putere semnal</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automat</item>
+        <item>Numai 5 GHz</item>
+        <item>Numai 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Automat</item>
+        <item>Utilizare lăţime bandă 5 GHz</item>
+        <item>Utilizare lăţime bandă 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Foarte puternică</item>
+        <item>Puternică</item>
+        <item>Mediu</item>
+        <item>Toate</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Timp de utilizare</item>
+        <item>Last time used</item>
+        <item>Nume aplicaţie</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Niciuna</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Niciuna</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Oprit</item>
+        <item>Buton de comandă</item>
+        <item>PIN de la punctul de acces</item>
+        <item>PIN de la acest dispozitiv</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Niciuna</item>
+        <item>Manual</item>
+        <item>Config. automată proxy</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Normal</item>
+        <item>Centru</item>
+        <item>Acasă</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>Aceasta este cea mai generală setare de conexiune Wi-Fi.</item>
+        <item>Dacă vă aflaţi într-o zonă cu numeroase reţele Wi-Fi, Wi-Fi se va reconecta frecvent, pentru o mai bună putere a semnalului.</item>
+        <item>Dacă vă aflaţi într-o zonă cu puţine reţele Wi-Fi, conexiunea Wi-Fi este menţinută cât mai mult timp posibil.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Niciuna</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP sau CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Nespecificat</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Niciuna</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Stocare internă dispozitiv</item>
+        <item>Cartelă SD detaşabilă</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Permis</item>
+        <item>Ignored</item>
+        <item>Se întreabă întotdeauna</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Locaţie</item>
+        <item>Personal</item>
+        <item>Mesaje</item>
+        <item>Media</item>
+        <item>Dispozitiv</item>
+        <item>Executare automată</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Accesarea locaţiei aproximative</item>
+        <item>Accesarea locaţiei exacte</item>
+        <item>GPS</item>
+        <item>Vibrare</item>
+        <item>Citire contacte</item>
+        <item>Gestionare contacte</item>
+        <item>Citire jurnal de apeluri</item>
+        <item>Scriere în jurnalul de apeluri</item>
+        <item>Citirea calendarului</item>
+        <item>Gestionare calendar</item>
+        <item>Căutaţi reţele Wi-Fi</item>
+        <item>Notificare</item>
+        <item>Scanare celule telefonie mobilă</item>
+        <item>Efectuarea apelurilor telefonice</item>
+        <item>Citirea mesajelor text</item>
+        <item>Scrierea mesajelor text</item>
+        <item>Primirea mesajelor text</item>
+        <item>Primirea mesajelor text de urgenţă</item>
+        <item>Primirea mesajelor multimedia</item>
+        <item>Primirea mesajelor push WAP</item>
+        <item>Trimitere mesaje text</item>
+        <item>Citirea mesajelor text de pe cartela SIM</item>
+        <item>Scrierea mesajelor text pe cartela SIM</item>
+        <item>Modificare setări</item>
+        <item>Interfaţă aplicaţie suprapunere</item>
+        <item>Notificări privind accesul</item>
+        <item>Cameră foto</item>
+        <item>Înregistrare audio</item>
+        <item>Redare fişiere audio</item>
+        <item>Citirea datelor din clipboard</item>
+        <item>Gestionare date clipboard</item>
+        <item>Controlul conţinutului media</item>
+        <item>Controlul focalizării audio</item>
+        <item>Reglare volum principal</item>
+        <item>Reglarea volumului în timpul apelului</item>
+        <item>Reglare volum sonerie</item>
+        <item>Reglare volum media</item>
+        <item>Reglare volum alarmă</item>
+        <item>Reglare volum alertă</item>
+        <item>Reglarea volumului pentru sunetul redat prin dispozitive Bluetooth</item>
+        <item>Păstrarea ecranului pornit</item>
+        <item>Monitorizarea informaţiilor despre locaţie</item>
+        <item>Monitorizarea informaţiilor despre locaţie cu grad înalt de acurateţe</item>
+        <item>Citirea statisticilor de utilizare a dispozitivelor</item>
+        <item>Pornirea şi oprirea microfonului</item>
+        <item>Capturarea conţinutului media</item>
+        <item>Capturarea conţinutului media</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Trimitere mesaje multim.</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Executare automată</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Locaţie</item>
+        <item>Locaţie</item>
+        <item>Locaţie</item>
+        <item>Vibrare</item>
+        <item>Citire contacte</item>
+        <item>Gestionare contacte</item>
+        <item>Citire jurnal de apeluri</item>
+        <item>Scriere în jurnalul de apeluri</item>
+        <item>Citirea calendarului</item>
+        <item>Gestionare calendar</item>
+        <item>Locaţie</item>
+        <item>Afişarea notificărilor</item>
+        <item>Locaţie</item>
+        <item>Efectuarea apelurilor telefonice</item>
+        <item>Citirea mesajelor text</item>
+        <item>Scrierea mesajelor text</item>
+        <item>Primirea mesajelor text</item>
+        <item>Primirea mesajelor text de urgenţă</item>
+        <item>Primirea mesajelor multimedia</item>
+        <item>Primirea mesajelor push WAP</item>
+        <item>Trimitere mesaje text</item>
+        <item>Citirea mesajelor text de pe cartela SIM</item>
+        <item>Scrierea mesajelor text pe cartela SIM</item>
+        <item>Modificare setări</item>
+        <item>Interfaţă aplicaţie suprapunere</item>
+        <item>Notificări privind accesul</item>
+        <item>Cameră foto</item>
+        <item>Înregistrare audio</item>
+        <item>Redare fişiere audio</item>
+        <item>Citirea datelor din clipboard</item>
+        <item>Gestionare date clipboard</item>
+        <item>Controlul conţinutului media</item>
+        <item>Controlul focalizării audio</item>
+        <item>Reglare volum principal</item>
+        <item>Reglarea volumului în timpul apelului</item>
+        <item>Reglare volum sonerie</item>
+        <item>Reglare volum media</item>
+        <item>Reglare volum alarmă</item>
+        <item>Reglare volum alertă</item>
+        <item>Reglarea volumului pentru sunetul redat prin dispozitive Bluetooth</item>
+        <item>Păstrarea ecranului pornit</item>
+        <item>Locaţie</item>
+        <item>Locaţie</item>
+        <item>Citirea statisticilor de utilizare a dispozitivelor</item>
+        <item>Pornirea şi oprirea microfonului</item>
+        <item>Capturarea conţinutului media</item>
+        <item>Capturarea conţinutului media</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Trimitere mesaje multim.</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Executare automată</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Ştergere contacte</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Scurt (0,5 secunde)</item>
+        <item>Mediu (1,0 secunde)</item>
+        <item>Lung (1,5 secunde)</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Scurt</item>
+        <item>Mediu</item>
+        <item>Lung</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Implicit</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Ocazional</item>
+        <item>Cursiv</item>
+        <item>Majuscule reduse</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Foarte mic</item>
+        <item>Mic</item>
+        <item>Normal</item>
+        <item>Mare</item>
+        <item>Foarte mare</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Implicit</item>
+        <item>Niciuna</item>
+        <item>Schiţă</item>
+        <item>Umbră coborâtă</item>
+        <item>Ridicat</item>
+        <item>Micşorat</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Implicit</item>
+        <item>Alb pe negru</item>
+        <item>Negru pe alb</item>
+        <item>Galben pe negru</item>
+        <item>Galb. pe albastru</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB per zonă tampon a jurnalului</item>
+        <item>256 KB per zonă tampon a jurnalului</item>
+        <item>1 MB per zonă tampon a jurnalului</item>
+        <item>4 MB per zonă tampon a jurnalului</item>
+        <item>16 MB per zonă tampon a jurnalului</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nu se verifică</item>
+        <item>Se verifică numai conţinutul DRM</item>
+        <item>Se verifică întotdeauna</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nu se utilizează verificarea HDCP</item>
+        <item>Se utilizează verificarea HDCP numai pentru conţinutul DRM</item>
+        <item>Se utilizează întotdeauna verificarea HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animaţia este dezactivată.</item>
+        <item>Scalare animaţie 0.5x</item>
+        <item>Scalare animaţie 1x</item>
+        <item>Scalare animaţie 1.5x</item>
+        <item>Scalare animaţie 2x</item>
+        <item>Scalare animaţie 5x</item>
+        <item>Scalare animaţie 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animaţia este dezactivată.</item>
+        <item>Scalare animaţie 0.5x</item>
+        <item>Scalare animaţie 1x</item>
+        <item>Scalare animaţie 1.5x</item>
+        <item>Scalare animaţie 2x</item>
+        <item>Scalare animaţie 5x</item>
+        <item>Scalare animaţie 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animaţia este dezactivată.</item>
+        <item>Scalare animaţie 0.5x</item>
+        <item>Scalare animaţie 1x</item>
+        <item>Scalare animaţie 1.5x</item>
+        <item>Scalare animaţie 2x</item>
+        <item>Scalare animaţie 5x</item>
+        <item>Scalare animaţie 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Niciuna</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Niciuna</item>
+        <item>Logcat</item>
+        <item>Systrace (grafică)</item>
+        <item>Stivă apel pe glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Oprit</item>
+        <item>Evidenţiaţi cu albastru suprafaţa decupajelor nedreptunghiulare</item>
+        <item>Evidenţiaţi cu verde comenzile pentru desen testate</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Ascundere</item>
+        <item>Afişare pe ecran ca bare</item>
+        <item>Afişare în adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Oprit</item>
+        <item>Afişare zone supraîncărcare</item>
+        <item>Afişare zone pentru cei cu deuteranomalie</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Limită standard</item>
+        <item>Nu sunt procese în fundal</item>
+        <item>Cel mult 1 proces</item>
+        <item>Cel mult 2 procese</item>
+        <item>Cel mult 3 procese</item>
+        <item>Cel mult 4 procese</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>VPN L2TP/IPsec cu chei prepartajate</item>
+        <item>VPN L2TP/IPsec cu certificate</item>
+        <item>VPN IPsec cu chei prepartajate şi autentificare XAuth</item>
+        <item>VPN IPsec cu certificate şi autentificare XAuth</item>
+        <item>VPN IPsec cu certificate şi autentificare hibridă</item>
+        <item>VPN IPsec cu IKEv2 şi autentificare bazată pe chei prepartajate</item>
+        <item>VPN IPsec cu IKEv2 şi autentificare bazată pe certificate</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Deconectat</item>
+        <item>Iniţializare</item>
+        <item>Se conectează…</item>
+        <item>Conectat</item>
+        <item>Expirare</item>
+        <item>Eşuat</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Solicitare</item>
+        <item>Niciodată permis</item>
+        <item>Permis întotdeauna</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Redus</item>
+        <item>nivel extrem de redus</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Oprit</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Redus</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Persistent</item>
+        <item>Cea mai multă activitate</item>
+        <item>Important (prim-plan)</item>
+        <item>Important (fundal)</item>
+        <item>Backup</item>
+        <item>Utilizare intensivă</item>
+        <item>Service (utilizare în curs)</item>
+        <item>Serviciu (repornire)</item>
+        <item>Receptor</item>
+        <item>Home</item>
+        <item>Ultima activitate</item>
+        <item>Memorat în cache (activităţi)</item>
+        <item>Memorat în cache (client de activităţi)</item>
+        <item>Memorat în cache (gol)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Dispozitiv</item>
+        <item>Cartelă SD</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Se acceptã întotdeauna</item>
+        <item>Se întreabă întotdeauna</item>
+        <item>Se respinge întotdeauna</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Videoclipuri</item>
+        <item>Fotografii</item>
+        <item>Muzică</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Automat</item>
+        <item>Manual</item>
+        <item>Se întreabă întotdeauna</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Întotdeauna dezactivat</item>
+        <item>3 secunde</item>
+        <item>5 secunde</item>
+        <item>10 secunde</item>
+        <item>15 secunde</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Niciuna</item>
+        <item>Toate contactele</item>
+        <item>Favorite</item>
+        <item>Particularizat</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Niciuna</item>
+        <item>Toate contactele</item>
+        <item>Favorite</item>
+        <item>Grup</item>
+        <item>Particularizat</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Ridicată</item>
+        <item>Mediu</item>
+        <item>Scăzută</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Reţea curentă</item>
+        <item>Întreabă întotdeauna</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Acasă</item>
+        <item>Birou</item>
+        <item>Inimă</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Apel</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Internet</item>
+        <item>Acasă</item>
+        <item>Birou</item>
+        <item>Inimă</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Înlocuire comandă rapidă</item>
+        <item>Resetare tastă particularizată</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Sunet</item>
+        <item>Vibrare</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>10 minute</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Ridicat</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+        <item>1 oră</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>3 minute</item>
+        <item>5 minute</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Accesibilitate</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Accesibilitate</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Toate</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>O dată</item>
+        <item>La fiecare 10 minute</item>
+        <item>La fiecare 20 de minute</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>În timp real</item>
+        <item>15 minute</item>
+        <item>30 minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Clasic</item>
+        <item>Semiton</item>
+        <item>Schimbare</item>
+        <item>Multicolor</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 secunde</item>
+        <item>6 secunde</item>
+        <item>Întotdeauna dezactivat</item>
+        <item>Întotdeauna pornit</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Sus</item>
+        <item>Mijloc</item>
+        <item>Jos</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Ştiri</item>
+        <item>Acţiuni</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Ştiri</item>
+        <item>Acţiuni</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Încet</item>
+        <item>Normal</item>
+        <item>Rapid</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Niciuna</item>
+        <item>La fiecare 30 de minut</item>
+        <item>Din oră în oră</item>
+        <item>La fiecare 2 ore</item>
+        <item>La fiecare 4 ore</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Căşti</item>
+        <item>PC</item>
+        <item>Telefon</item>
+        <item>HID (tastatură, mouse etc.)</item>
+        <item>Toate dispozitivele</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Stereo</item>
+        <item>Surround</item>
+    </string-array>
+</resources>

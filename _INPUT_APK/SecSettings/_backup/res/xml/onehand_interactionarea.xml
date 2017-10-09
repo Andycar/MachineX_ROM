@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/onehand_activate_sidesoftkey_interaction_area" android:key="onehand_interactionarea"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/onehand_activate_dialer_title" android:key="dialer" android:summary="@string/onehand_activate_dialer_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_samsung_keypad_title" android:key="samsung_keypad" android:summary="@string/onehand_activate_samsung_keypad_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_calculator_title" android:key="calculator" android:summary="@string/onehand_activate_calculator_summary" />
+    <CheckBoxPreference android:title="@string/onehand_activate_pattern_title" android:key="pattern" android:summary="@string/onehand_activate_pattern_summary" />
+</PreferenceScreen>

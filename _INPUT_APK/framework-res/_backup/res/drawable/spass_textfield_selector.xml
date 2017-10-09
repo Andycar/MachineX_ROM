@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/tw_textfield_pressed_holo_dark" />
+    <item android:state_focused="true" android:drawable="@drawable/tw_textfield_focused_holo_dark" />
+    <item android:drawable="@drawable/tw_textfield_default_holo_dark" />
+</selector>

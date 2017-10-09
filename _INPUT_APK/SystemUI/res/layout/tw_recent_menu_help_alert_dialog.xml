@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/recents_help_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_dialog_recent_menu_help_image_margin_top" android:layout_marginBottom="@dimen/help_dialog_recent_menu_help_image_margin_bottom" android:src="@drawable/tw_recent_help_popup_image" android:scaleType="center" />
+        <LinearLayout android:orientation="vertical" android:id="@id/recents_help_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/help_dialog_recent_menu_help_content_margin" android:layout_marginEnd="@dimen/help_dialog_recent_menu_help_content_margin">
+            <TextView android:textAppearance="@style/TextAppearance.RecentPanelHelpPopUp" android:id="@id/help_popup_recent_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_menukey_press_description" android:lineSpacingExtra="@dimen/help_popup_recent_menu_text_line_spacing" />
+            <CheckBox android:textAppearance="@style/TextAppearance.RecentPanelHelpPopUp.CheckBoxText" android:textColor="#ff000000" android:id="@id/help_popup_recent_menu_checkBox" android:paddingLeft="@dimen/help_popup_recent_menu_checkBox_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_dialog_recent_menu_checkBox_margin_top" android:layout_marginBottom="@dimen/help_dialog_recent_menu_checkBox_margin_bottom" android:text="@string/warning_alert_check" android:layout_marginStart="@dimen/help_dialog_recent_menu_checkBox_margin_left" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

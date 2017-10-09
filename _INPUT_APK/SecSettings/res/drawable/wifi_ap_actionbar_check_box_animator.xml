@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/checked">
+        <bitmap android:src="@drawable/tw_btn_check_to_on_mtrl_015" android:tint="@drawable/wifi_ap_checked_bitmap_color_list" />
+    </item>
+    <item android:state_checked="false" android:id="@id/unchecked">
+        <bitmap android:src="@drawable/tw_btn_check_to_on_mtrl_000" android:tint="@drawable/wifi_ap_unchecked_bitmap_color_list" />
+    </item>
+</animated-selector>

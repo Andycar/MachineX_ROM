@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">Батеријата е на %d проценти.</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Впишете ПИН-код</string>
+    <string name="keyguard_password_enter_puk_code">Внеси ПУК и нов ПИН код за СИМ картичката</string>
+    <string name="keyguard_password_enter_puk_prompt">ПУК код за СИМ картичка</string>
+    <string name="keyguard_password_enter_pin_prompt">Нов ПИН код за СИМ картичка</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Допрете за да впишете лозинка</font></string>
+    <string name="keyguard_password_enter_password_code">Впишете ја лозинката за да се отклучи</string>
+    <string name="keyguard_password_enter_pin_password_code">Впишете ПИН за да се отклучи</string>
+    <string name="keyguard_password_wrong_pin_code">Погрешен ПИН код.</string>
+    <string name="keyguard_label_text">За да го отклучите, притиснете „Мени“ и потоа „0“.</string>
+    <string name="faceunlock_multiple_failures">Максималниот број обиди на отклучување со лице е надминат</string>
+    <string name="keyguard_charged">Наполнета</string>
+    <string name="keyguard_plugged_in">Се полни</string>
+    <string name="keyguard_low_battery">Поврзи го полначот.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Притисни „Мени“ да се отклучи.</string>
+    <string name="keyguard_network_locked_message">Мрежата е заклучена</string>
+    <string name="keyguard_missing_sim_message_short">Нема СИМ картичка</string>
+    <string name="keyguard_missing_sim_message">Во телефонот нема СИМ картичка.</string>
+    <string name="keyguard_missing_sim_instructions">Вметни СИМ картичка.</string>
+    <string name="keyguard_missing_sim_instructions_long">Нема СИМ картичка или не може да прочита. Вметни СИМ картичка.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Неупотреблива СИМ картичка.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Вашата СИМ картичка е трајно оневозможена.
+Контактирајте со вашиот оператор за безжична мрежа за друга СИМ картичка."</string>
+    <string name="keyguard_sim_locked_message">СИМ картичката е заклучена.</string>
+    <string name="keyguard_sim_puk_locked_message">СИМ картичката е заклучена со ПУК.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">СИМ картичката се отклучува...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Виџет %2$d од %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Додај виџет.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Празно</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Областа за отклучување е проширена.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Областа за отклучување е собрана.</string>
+    <string name="keyguard_accessibility_widget">Виџет %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Избирач на корисник</string>
+    <string name="keyguard_accessibility_camera">Фотоапарат</string>
+    <string name="keygaurd_accessibility_media_controls">Контроли на медиуми</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Прередувањето виџети започна.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Прередувањето виџети заврши.</string>
+    <string name="keyguard_accessibility_widget_deleted">Виџетот %1$s е избришан.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Прошири отклучена област.</string>
+    <string name="keyguard_accessibility_slide_unlock">Отклучување со лизгање.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Отклучување со шема.</string>
+    <string name="keyguard_accessibility_face_unlock">Отклучување со лик.</string>
+    <string name="keyguard_accessibility_pin_unlock">Отклучување со пин.</string>
+    <string name="keyguard_accessibility_password_unlock">Отклучување со лозинка.</string>
+    <string name="keyguard_accessibility_pattern_area">Област за шема.</string>
+    <string name="keyguard_accessibility_slide_area">Област за лизгање.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Копче „Претходна песна“</string>
+    <string name="keyguard_accessibility_transport_next_description">Копче „Следна песна“</string>
+    <string name="keyguard_accessibility_transport_pause_description">Копче „Пауза“</string>
+    <string name="keyguard_accessibility_transport_play_description">Копче „Репродукција“</string>
+    <string name="keyguard_accessibility_transport_stop_description">Копче „Запри“</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Палци нагоре</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Палци надолу</string>
+    <string name="keyguard_accessibility_transport_heart_description">Срце</string>
+    <string name="keyguard_accessibility_show_bouncer">Отклучи за да продолжиш</string>
+    <string name="keyguard_accessibility_hide_bouncer">Стартувањето е откажано</string>
+    <string name="keyguard_accessibility_delete_widget_start">Пушти го %1$s да се избрише.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s нема да се избрише.</string>
+    <string name="keyguard_accessibility_next_alarm">Следниот аларм е поставен за %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">АБВ</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Копче „Alt“</string>
+    <string name="keyboardview_keycode_cancel">Копче „Откажи“</string>
+    <string name="keyboardview_keycode_delete">Копче „Избриши“</string>
+    <string name="keyboardview_keycode_done">Копче „Готово“</string>
+    <string name="keyboardview_keycode_mode_change">Копче „Промени режим“</string>
+    <string name="keyboardview_keycode_shift">Копче „Shift“</string>
+    <string name="keyboardview_keycode_enter">Копче „Внеси“</string>
+    <string name="description_target_unlock">Отклучи</string>
+    <string name="description_target_camera">Фотоапарат</string>
+    <string name="description_target_silent">На тивко</string>
+    <string name="description_target_soundon">Вклучи звук</string>
+    <string name="description_target_search">Пребарај</string>
+    <string name="description_direction_up">Лизгај нагоре за %s.</string>
+    <string name="description_direction_down">Лизгај надолу за %s.</string>
+    <string name="description_direction_left">Лизгај налево за %s.</string>
+    <string name="description_direction_right">Лизгај надесно за %s.</string>
+    <string name="user_switched">Тековен корисник %1$s.</string>
+    <string name="kg_emergency_call_label">Итен повик</string>
+    <string name="kg_forgot_pattern_button_text">Заборавив шема</string>
+    <string name="kg_wrong_pattern">Погрешна шема</string>
+    <string name="kg_wrong_password">Погрешна лозинка</string>
+    <string name="kg_wrong_pin">Погрешен ПИН</string>
+    <string name="kg_too_many_failed_attempts_countdown">Обидете се повторно за %d секунди.</string>
+    <string name="kg_pattern_instructions">Употреби ја својата шема</string>
+    <string name="kg_sim_pin_instructions">Внеси ПИН на СИМ картичка</string>
+    <string name="kg_pin_instructions">Внеси ПИН</string>
+    <string name="kg_password_instructions">Внеси лозинка</string>
+    <string name="kg_puk_enter_puk_hint">СИМ картичката е сега оневозможена. Внесете ПУК код за да продолжите. Контактирајте го операторот за детали.</string>
+    <string name="kg_puk_enter_pin_hint">Внеси посакуван ПИН код</string>
+    <string name="kg_enter_confirm_pin_hint">Потврди го саканиот ПИН код</string>
+    <string name="kg_sim_unlock_progress_dialog_message">СИМ картичката се отклучува...</string>
+    <string name="kg_invalid_sim_pin_hint">Напишете PIN што има 4 до 8 броеви</string>
+    <string name="kg_invalid_sim_puk_hint">ПУК кодот треба да содржи 8 или повеќе броеви.</string>
+    <string name="kg_invalid_puk">Повторно внесете го точниот ПУК код. Повторните обиди трајно ќе ја оневозможат СИМ картичката.</string>
+    <string name="kg_invalid_confirm_pin_hint">ПИН кодовите не се совпаѓаат</string>
+    <string name="kg_login_too_many_attempts">Премногу обиди со шема</string>
+    <string name="kg_login_instructions">За да го отклучите, пријавете се со вашата сметка на Google.</string>
+    <string name="kg_login_username_hint">Корисничко име (е-пошта)</string>
+    <string name="kg_login_password_hint">Лозинка</string>
+    <string name="kg_login_submit_button">Пријави се</string>
+    <string name="kg_login_invalid_input">Неважечко корисничко име или лозинка.</string>
+    <string name="kg_login_account_recovery_hint">"Го заборави своето корисничко име или лозинката?
+Посети"<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Сметката се проверува...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Погрешно сте го впишале вашиот ПИН %d пати. 
+
+Обидете се повторно за %d секунди."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Погрешно сте ја впишале вашата лозинка %d пати. 
+
+Обидете се повторно за %d секунди."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Погрешно сте ја употребиле вашата шема за отклучување %d пати. 
+
+Обидете се повторно за %d секунди."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Погрешно сте се обиделе да го отклучите телефонот %d пати. По %d неуспешни обиди, телефонот ќе се ресетира на фабрички стандардни вредности и сите податоци за корисникот ќе се изгубат.</string>
+    <string name="kg_failed_attempts_now_wiping">Погрешно сте се обиделе да го отклучите телефонот %d пати. Телефонот ќе се ресетира на фабрички стандардни вредности.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Погрешно сте ја употребиле вашата шема на отклучување %d пати. По %d неуспешни обиди, ќе побараат од вас да го отклучите телефонот со користење сметка на е-пошта.
+
+ Обидете се повторно за %d секунди."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Отстрани</string>
+    <string name="kg_password_wrong_pin_code_pukked">ПИН кодот за СИМ картичката е неточен. Контактирате со вашиот оператор да го отклучи уредот.</string>
+    <string name="kg_password_wrong_puk_code_dead">СМС картичката е неупотреблива. Контактирајте со вашиот оператор.</string>
+    <string name="kg_password_pin_failed">СИМ картичката не се отклучи со ПИН кодот!</string>
+    <string name="kg_password_puk_failed">СИМ картичката не се отклучи со ПУК кодот!</string>
+    <string name="kg_pin_accepted">Кодот е прифатен!</string>
+    <string name="keyguard_transport_prev_description">Копче „Претходна песна“</string>
+    <string name="keyguard_transport_next_description">Копче „Следна песна“</string>
+    <string name="keyguard_transport_pause_description">Копче „Пауза“</string>
+    <string name="keyguard_transport_play_description">Копче „Репродукција“</string>
+    <string name="keyguard_transport_stop_description">Копче „Запри“</string>
+    <string name="keyguard_carrier_default">Нема услуга.</string>
+    <string name="app_label">Систем</string>
+    <string name="status_bar_clear_all_button">Избриши</string>
+    <string name="status_bar_recent_remove_item_title">Отстрани од листа</string>
+    <string name="status_bar_recent_inspect_item_title">Инфо. за апликација</string>
+    <string name="status_bar_no_recent_apps">Нема скорешни апликации</string>
+    <string name="status_bar_no_notifications_title">Без известувања</string>
+    <string name="status_bar_ongoing_events_title">Во тек</string>
+    <string name="status_bar_latest_events_title">Известувања</string>
+    <string name="battery_low_title">Батеријата е слаба</string>
+    <string name="battery_low_percent_format">Уште %d%%</string>
+    <string name="invalid_charger">Не е поддржано полнење преку USB. Користете го полначот.</string>
+    <string name="battery_low_why">Опции</string>
+    <string name="status_bar_settings_settings_button">Опции</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Режим за летало</string>
+    <string name="status_bar_settings_auto_rotation">Автом. вртење на екранот</string>
+    <string name="status_bar_settings_mute_label">Иск.мик</string>
+    <string name="status_bar_settings_auto_brightness_label">Автоматски</string>
+    <string name="status_bar_settings_notifications">Известувања</string>
+    <string name="bluetooth_tethered">Bluetooth е делено поврзан</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Постави начини на внесување</string>
+    <string name="status_bar_use_physical_keyboard">Физичка тастатура</string>
+    <string name="usb_device_permission_prompt">Да се дозволи апликацијата %1$s да пристапи до уредот USB?</string>
+    <string name="usb_accessory_permission_prompt">Да се дозволи апликацијата %1$s да пристапи до USB додатокот?</string>
+    <string name="usb_device_confirm_prompt">Да се отвори %1$s кога ќе се приклучи овој уред USB?</string>
+    <string name="usb_accessory_confirm_prompt">Отвори %1$s кога ќе се приклучи овој USB додаток?</string>
+    <string name="usb_accessory_uri_prompt">Нема инсталирано апликации што работат со овој USB додаток. Дознајте повеќе за овој додаток на %s.</string>
+    <string name="title_usb_accessory">USB додаток</string>
+    <string name="label_view">Прикажи</string>
+    <string name="always_use_device">Користи како зададено за овој уред USB</string>
+    <string name="always_use_accessory">Користи како зададена за овој USB додаток</string>
+    <string name="usb_debugging_title">Дозволи дебагирање на USB?</string>
+    <string name="usb_debugging_message">"Отпечатокот на прст за клуч RSA на компјутерот е:
+%1$s"</string>
+    <string name="usb_debugging_always">Секогаш дозволувај го овој компјутер</string>
+    <string name="compat_mode_on">Зумирај на цел екран</string>
+    <string name="compat_mode_off">Растегни на цел екран</string>
+    <string name="screenshot_saving_ticker">Се сочувува екранската снимка…</string>
+    <string name="screenshot_saving_title">Се сочувува екранската снимка…</string>
+    <string name="screenshot_saving_text">Снимката на екранот е зачувувана.</string>
+    <string name="screenshot_saved_title">Екранот е снимен</string>
+    <string name="screenshot_saved_text">Допрете за да видите екранска снимка.</string>
+    <string name="screenshot_failed_title">Не може да се долови екранска снимка.</string>
+    <string name="usb_preference_title">Пренос на фајлови преку USB</string>
+    <string name="use_mtp_button_title">Монтирај како плеер за медиуми (MTP)</string>
+    <string name="use_ptp_button_title">Монтирај како фотоапарат (PTP)</string>
+    <string name="installer_cd_button_title">Инсталирај апликација за пренос на фајлови Android за Mac</string>
+    <string name="accessibility_back">Назад</string>
+    <string name="accessibility_home">Дома</string>
+    <string name="accessibility_menu">Мени</string>
+    <string name="accessibility_search_light">Пребарување</string>
+    <string name="accessibility_camera_button">Камера</string>
+    <string name="accessibility_unlock_button">Отклучи</string>
+    <string name="accessibility_ime_switch_button">Копче за менување начин на внес.</string>
+    <string name="accessibility_compatibility_zoom_button">Копче за компатибилен зум</string>
+    <string name="accessibility_compatibility_zoom_example">Зумирај на поголем екран</string>
+    <string name="accessibility_bluetooth_connected">Поврзано со Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth е откачено.</string>
+    <string name="accessibility_no_battery">Нема батерија</string>
+    <string name="accessibility_battery_one_bar">Една лента полна батерија</string>
+    <string name="accessibility_battery_two_bars">Две ленти полна батерија</string>
+    <string name="accessibility_battery_three_bars">Три ленти полна батерија</string>
+    <string name="accessibility_battery_full">Батеријата е наполнета.</string>
+    <string name="accessibility_no_phone">Нема телефонски сигнал</string>
+    <string name="accessibility_phone_one_bar">Една лента телефонски сигнал</string>
+    <string name="accessibility_phone_two_bars">Две ленти телефонски сигнал</string>
+    <string name="accessibility_phone_three_bars">Три ленти телефонски сигнал</string>
+    <string name="accessibility_phone_signal_full">Целосен телефонски сигнал</string>
+    <string name="accessibility_no_data">Нема податоци</string>
+    <string name="accessibility_data_one_bar">Една лента податочен сигнал</string>
+    <string name="accessibility_data_two_bars">Две ленти податочен сигнал</string>
+    <string name="accessibility_data_three_bars">Три ленти податочен сигнал</string>
+    <string name="accessibility_data_signal_full">Целосен податочен сигнал</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Нема сигнал Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Една лента сигнал Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Две ленти сигнал Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Три ленти сигнал Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi-сигналот е целосен.</string>
+    <string name="accessibility_no_signal">Нема сигнал</string>
+    <string name="accessibility_not_connected">Нема поврзување.</string>
+    <string name="accessibility_desc_on">Вклучено</string>
+    <string name="accessibility_desc_off">Исклучено</string>
+    <string name="accessibility_desc_connected">Поврзано.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Роаминг</string>
+    <string name="accessibility_data_connection_edge">Раб</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Нема SIM</string>
+    <string name="accessibility_bluetooth_tether">Делење опсег Bluetooth</string>
+    <string name="accessibility_airplane_mode">Режим за летало</string>
+    <string name="accessibility_settings_button">Системски параметри</string>
+    <string name="accessibility_notifications_button">Известувања</string>
+    <string name="accessibility_remove_notification">Избриши известувања</string>
+    <string name="accessibility_gps_enabled">GPS е вклучено</string>
+    <string name="accessibility_gps_acquiring">Се добива GPS…</string>
+    <string name="accessibility_tty_enabled">Овозможено TeleTypewriter</string>
+    <string name="accessibility_ringer_vibrate">Вибрирачко ѕвонење</string>
+    <string name="accessibility_ringer_silent">Искл. звук на ѕвонење</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Затвори</string>
+    <string name="accessibility_desc_quick_settings">Брзи поставки</string>
+    <string name="accessibility_quick_settings_alarm">Алармот е поставен за %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Мобилните податоци се оневозможени</string>
+    <string name="data_usage_disabled_dialog_enable">Пак овозм. податочна врска</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Нема поврз. со интернет</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Поврзано со Wi-Fi.</string>
+    <string name="gps_notification_searching_text">Се пребарува со GPS…</string>
+    <string name="gps_notification_found_text">Локацијата е одредена од GPS</string>
+    <string name="accessibility_clear_all">Избриши ги сите известувања</string>
+    <string name="status_bar_notification_inspect_item_title">Опции за известување</string>
+    <string name="accessibility_rotation_lock_off">Екранот ќе се врти автоматски.</string>
+    <string name="start_dreams">Денски сон</string>
+    <string name="ethernet_label">Етернет</string>
+    <string name="wifi_ap_not_supported">Мобилен хотспот не е поддржан.</string>
+    <string name="it_policy_not_allow_wifi">Политиката на безбедност го ограничува користењето Wi-Fi.</string>
+    <string name="it_policy_not_allow_wifiap">Политиката на безбедност го ограничува користењето делење преку интернет.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Во режим за летање.</string>
+    <string name="edm_policy_not_allow_open_wifiap">Политиката на безбедност го ограничува користењето небезбедното споделување на хотспот.</string>
+    <string name="wifi_authentication_succeed">Препознато.</string>
+    <string name="wifi_authentication_failed">Неуспешно потврдување.</string>
+    <string name="wifi_authentication_invalid_value">Неуспешна проверка на идентитетот. Проверете ја валидноста на сертификатите.</string>
+    <string name="wifi_setup_title_connected_network">Поврзано со мрежа Wi-Fi %s.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Наполнето.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Исклучен Bluetooth</string>
+    <string name="quick_settings_brightness_label">Светлина</string>
+    <string name="quick_settings_ime_label">Начин на внесување</string>
+    <string name="quick_settings_location_label">Локација</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Само итни повици.</string>
+    <string name="quick_settings_settings_label">Опции</string>
+    <string name="quick_settings_time_label">Време</string>
+    <string name="quick_settings_user_label">Мене</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Нема поврзување.</string>
+    <string name="quick_settings_wifi_no_network">Нема мрежа</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Светлина</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Автоматски</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Светилка</string>
+    <string name="recents_empty_message">Нема скорешни апликации</string>
+    <string name="zen_no_interruptions">Без прекини</string>
+    <string name="zen_important_interruptions">Само приоритетни прекини</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Ништо</string>
+    <string name="interruption_level_priority">Приорит.</string>
+    <string name="interruption_level_all">Сите</string>
+    <string name="guest_wipe_session_dontwipe">Да, продолжи</string>
+    <string name="notification_hidden_text">Содржината е скриена</string>
+    <string name="sanitized_content_text">Допрете тука за да влезете во %s.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Не, благодарам</string>
+    <string name="hidden_notifications_setup">Постави</string>
+    <string name="quickpanel_airplane_mode_text">"Режим
+за летало"</string>
+    <string name="quickpanel_airplane_mode_content_description">Режим за летање</string>
+    <string name="quickpanel_content_description_led_on">%s е вклучено.</string>
+    <string name="quickpanel_content_description_led_off">%s е исклучено.</string>
+    <string name="quickpanel_content_description_led_dim">%s не може да се вклучи.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Брзо поврзување</string>
+    <string name="accessibility_qconnect_button_tts">Брзо поврзување</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Место</string>
+    <string name="quickpanel_silent_mode_content_description">Тивок режим</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Звук</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Вибрации</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Исклучи звук</string>
+    <string name="quickpanel_rotation_content_description">Вртење на екранот</string>
+    <string name="quickpanel_mobile_data_content_description">Мобилни податоци</string>
+    <string name="quickpanel_power_saving_content_description">Режим за штедење</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ултра режим за штедење енергија</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Повеќе прозорци</string>
+    <string name="quickpanel_car_mode_content_description">Режим за автомобил</string>
+    <string name="quickpanel_dormant_mode_content_description">Не вознемирувај</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Mobile hotspot</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Допирна чувствителност</string>
+    <string name="quickpanel_smart_stay_content_description">Паметно останување</string>
+    <string name="quickpanel_smart_scroll_content_description">Паметно листање</string>
+    <string name="quickpanel_sync_content_description">Синхронизирање</string>
+    <string name="quickpanel_vowifi_content_description">Повикување Wi-Fi</string>
+    <string name="quickpanel_toolbox_content_description">Комплет алати</string>
+    <string name="quickpanel_adaptive_display_content_description">Приспособлив екран</string>
+    <string name="quickpanel_airgesture_content_description">Air gesture</string>
+    <string name="quickpanel_airview_content_description">Воздушен преглед</string>
+    <string name="quickpanel_network_booster_content_description">Засилувач на преземања</string>
+    <string name="quickpanel_personal_mode_content_description">Приватен режим</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Странична плоча со копчиња</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Локација</string>
+    <string name="quickpanel_silent_mode_text">"Тивок
+режим"</string>
+    <string name="quickpanel_silent_mode_sound">Звук</string>
+    <string name="quickpanel_silent_mode_vibrate">Вибрации</string>
+    <string name="quickpanel_silent_mode_mute">Исклучи звук</string>
+    <string name="quickpanel_rotation_text">"Вртење
+екран"</string>
+    <string name="quickpanel_mobile_data_text">"Мобилни
+податоци"</string>
+    <string name="quickpanel_power_saving_text">"Штедење
+енергија"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Улт.штед.
+енергија"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Повеќе
+прозорци"</string>
+    <string name="quickpanel_car_mode_text">"Реж.за
+автом."</string>
+    <string name="quickpanel_driving_mode_text">"Режим
+без раце"</string>
+    <string name="quickpanel_dormant_mode_text">"Не возне-
+мирувај"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Мобилен
+хотспот"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Допирна
+чувств."</string>
+    <string name="quickpanel_smart_stay_text">"Паметно
+мирув."</string>
+    <string name="quickpanel_smart_scroll_text">"Паметно
+листање"</string>
+    <string name="quickpanel_sync_text">Синхрон.</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"Комплет
+алати"</string>
+    <string name="quickpanel_smart_pause_text">"Паметна
+пауза"</string>
+    <string name="quickpanel_adaptive_mode_text">"Присп.
+екран"</string>
+    <string name="quickpanel_airgesture_text">"Воздушен
+гест"</string>
+    <string name="quickpanel_airview_text">"Воздушен
+преглед"</string>
+    <string name="quickpanel_network_booster_text">"Засил.на
+презем."</string>
+    <string name="quickpanel_personal_mode_text">"Приватен
+режим"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Брзо
+поврз."</string>
+    <string name="quickpanel_side_key_text">"Стран.пл.
+со коп."</string>
+    <string name="accessibility_power_saving_mode">За да вклучите режим за штедење енергија, вклучете барем една функција.</string>
+    <string name="accessibility_power_saving_mode_title">Режим за штедење енергија</string>
+    <string name="insert_sim_card">Вметнете SIM-карт.</string>
+    <string name="insert_sim_card_message">Вметнете SIM-картичка за да пристапите кон мрежните услуги.</string>
+    <string name="insert_uim_or_sim_card">Вметнете UIM/SIM-картичка</string>
+    <string name="status_bar_recent_launch_task_manager_title">Уред. на зад.</string>
+    <string name="status_bar_recent_remove_all_button">Затвори ги сите</string>
+    <string name="blocking_mode_enable">Кога е вклучен овој режим, известувањата за избраните функции ќе се исклучат. Ќе примате само известувања за дојдовните повици од луѓето во листата дозволени.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Режимот за блокирање ги исклучува известувањата за избраните функции. Кога се блокирани дојдовните повици, ќе примате известувања само за дојдовните повици од дозволените контакти. За да ги смените поставките на Режимот за блокирање, одете во Опции > Персонализација > Режим за блокирање.</string>
+    <string name="blocking_mode_enable_wifi">Кога е вклучен овој режим, известувањата за избраните функции ќе бидат исклучени.</string>
+    <string name="blocking_mode_title">Режим за блокирање</string>
+    <string name="magnification_text_for_air_view_button">Гестови за зголемување</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Не може да се користи Засилувач на преземања додека е вклучено %1$s. Исклучете го %2$s и обидете се повторно.</string>
+    <string name="quickpanel_air_view_warning">За да вклучите воздушен преглед, вклучете барем една функција.</string>
+    <string name="quickpanel_air_view_warning_pen_support">За да вклучите воздушен преглед, вклучете барем една функција од избраниот режим за воздушен преглед.</string>
+    <string name="quickpanel_air_gesture_warning">За да вклучите air gesture, вклучете барем една релевантна функција.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Допрете и држете копче за брзо поставување за да дојдете до соодветната опција.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Ако не користите Wi-Fi, веќе нема да можете да користите интернет, е-пошта или други апликации што бараат податочно поврзување.
+
+Мобилните податоци ќе се исклучат."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Поврзи</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Не може да се поврзе со мобилни мрежи додека е вклучен режим за летало. Исклучете го режимот за летало и обидете се повторно.</string>
+    <string name="warning_alert_check">Не прикажувај веќе</string>
+    <string name="data_usage_enable_mobile_warning">За поврзување преку пакетни податоци може да се наплаќа дополнително. Сепак продолжи?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Не може да се користи VoLTE додека е вклучен режимот за летало. Исклучете го режимот за летало и обидете се повторно.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE не е поддржано од моменталната верзија на софтверот. Контактирајте со поддршката за купувачите за повеќе детали.</string>
+    <string name="smart_pause_toast_text">За да користите Паметно паузирање, прво вклучете Исклучи звук/пауза.</string>
+    <string name="smart_bonding_popup_msg_roaming">Не може да се користи Засилувач на преземања во роаминг. Препорачуваме преземање преку мрежа Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Вклучи Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Вклучи Мобилни податоци</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Вкл. Wi-Fi и Мобилни податоци</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi е исклучено во моментов. За да го вклучите Засилувачот на преземања, треба да се вклучени и Wi-Fi, и мобилни податоци. Преземањето преку мобилни мрежи може да се наплаќа дополнително, зависно од Вашиот пакет.</string>
+    <string name="smart_bonding_popup_msg_data">Мобилните податоци се исклучени. За да го вклучите Засилувачот на преземања, треба да се вклучени и Wi-Fi, и мобилни податоци. Преземањето преку мобилни мрежи може да се наплаќа дополнително, зависно од Вашиот пакет.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi и Мобилни податоци се исклучени во моментов. За да го вклучите Засилувачот на преземања, треба да се вклучени и Wi-Fi, и мобилни податоци. Преземањето преку мобилни мрежи може да се наплаќа дополнително, зависно од Вашиот пакет.</string>
+    <string name="smart_bonding_popup_msg">Ќе се вклучи засилувачот на преземања. Преземањето преку мобилни мрежи може да се наплаќа дополнително, зависно од Вашиот пакет.</string>
+    <string name="smartbonding_dialog_title">Засилувач на преземања</string>
+    <string name="insert_a_sim_card_and_try_again">Вметнете SIM-картичка и обидете се повторно.</string>
+    <string name="unable_to_enable_Download_booster">Не може да се вклучи Засилувач на преземања</string>
+    <string name="download_booster_dialog_title">Вклучи Засилувач на преземања</string>
+    <string name="enable">Вклучи</string>
+    <string name="sd_card">SD-карт.</string>
+    <string name="sdcard_insert">Вметната е SD-картичка</string>
+    <string name="sdcard_unmount">Демонтирај SD-картичка</string>
+    <string name="go_to_myfiles">Оди во Мои фајлови</string>
+    <string name="charging_interruption_title">Не може да се полни</string>
+    <string name="charging_interruption_by_terminal_open_text">Не може да се полни уредот. Проверете дали користите батерија и полнач компатибилни со Samsung и дали уредот е правилно поврзан со полначот.</string>
+    <string name="full_battery_title">Информации</string>
+    <string name="full_battery_text">"Батеријата е наполнета.
+Извадете го полначот."</string>
+    <string name="reading_mode_title">Режим за читање</string>
+    <string name="reading_mode_alert">Вклучен е режимот за читање. Екранот е сега оптимизиран за читање. Овој режим е достапен само за одбрани апликации.</string>
+    <string name="reading_mode_settings">Опции</string>
+    <string name="quickpanel_ebook_text">"Реж. за
+читање"</string>
+    <string name="quickpanel_ebook_content_description">Режим за читање</string>
+    <string name="driving_mode_title">Режим без раце</string>
+    <string name="driving_mode_on_dialog_msg_1">Режимот без раце треба да се исклучи во Опции откако ќе го затворите S Voice без раце. Ако Режимот без раце остане вклучен, известувањата и информациите за дојдовните повици пак ќе се читаат автоматски.</string>
+    <string name="driving_mode_on_dialog_msg_2">Може да го исклучите Режимот без раце велејќи „Исклучи Режим без раце“ во S Voice без раце или одејќи во Опции или во таблата за известувања.</string>
+    <string name="quickpanel_driving_mode_content_description">Режим без раце</string>
+    <string name="critical_low_battery_title">Батеријата е многу слаба</string>
+    <string name="critical_low_battery_text">Поврзете го уредот со полнач. Користењето на уредот додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="critical_low_battery_text_charged_via_usb">За да полните побрзо, приклучете во штекер и затворете ги некористените апликации во %s. Користењето додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Затворете ги некористените апликации во %s. Користењето додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="low_battery_text">Поврзете го уредот со полнач. Користењето на уредот додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="low_battery_text_charged_via_usb">За да полните побрзо, приклучете во штекер и затворете ги некористените апликации во %s. Користењето додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="low_battery_text_charged_via_ta">Затворете ги некористените апликации во %s. Користењето додека се полни може да ја намали ефикасноста на полнењето.</string>
+    <string name="low_battery_power_saving_button_text">Штедење енергија</string>
+    <string name="wireless_charging_title">Безжично полнење.</string>
+    <string name="cable_charging_title">Полнење со кабел</string>
+    <string name="wireless_charging_text">Откриена е подлога за полнење. Се полни безжично…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Се префрлува од безжично во полнење со кабел</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Се префрлува од полнење со кабел во безжично</string>
+    <string name="wireless_charging_spen_warning_text">Уредот сега се полни безжично. S Pen може да не работи правилно додека трае безжичното полнење.</string>
+    <string name="incompatible_charger_title">Не се полни.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Исклучи уред</string>
+    <string name="overheat_poweroff_warning_text">Уредот се прегрева. Сега ќе се исклучи за да се излади.</string>
+    <string name="overheat_poweroff_warning_button_text">Не исклучувај</string>
+    <string name="overheat_poweroff_notice_title">Уредот се исклучува автоматски</string>
+    <string name="overheat_poweroff_notice_text">"Уредот се прегреа. Се исклучи за да се спречи оштетување.
+
+Прегревањето може да го предизвика:
+Користење апликации што користат многу графика, како игри и апликации за навигација подолго време.
+Пренесување големи фајлови.
+Користење на уредот во жешка средина."</string>
+    <string name="power_sharing_warning_title">Делење напојување</string>
+    <string name="power_sharing_warning_text">Батеријата е послаба од ограничувањето за делење напојување. За да продолжите да споделувате напојување, прилагодете го ограничувањето за делење на напојувањето под моменталното ниво на батеријата.</string>
+    <string name="power_sharing_start_toast_text">Се почнува Делењето напојување…</string>
+    <string name="power_sharing_end_notification_text">Делењето напојување заврши. Откачете го кабелот.</string>
+    <string name="power_sharing_unable_notification_text">Не може да се сподели.</string>
+    <string name="highvoltage_charger_notice_title">Користете Брзо полнење</string>
+    <string name="highvoltage_charger_notice_text">Ова ќе ви ја наполни батеријата побрзо, особено додека екранот или уредот се исклучени.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Исклучи екран</string>
+    <string name="highvoltage_charger_notification_text">Поврзан е брз полнач.</string>
+    <string name="face_detection_failure_text">Пам.остан. не може да ви ги открие очите.</string>
+    <string name="screenshot_failed_due_to_drm_text">Не може да се сними екранот. Има слика заштитена со DRM.</string>
+    <string name="no_such_item">Не може да се најде записот.</string>
+    <string name="one_item_will_be_deleted">1 запис ќе се избрише.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Добро</string>
+    <string name="disagree">Не се согласувам</string>
+    <string name="location_masterswitch_dialogtitle">Согласност за локација</string>
+    <string name="gps_donotshow">Не прикажувај веќе</string>
+    <string name="tethering_attention_title">Внимание</string>
+    <string name="tethering_wifi_off_warning">Вклучувањето на Мобилен хотспот ќе го исклучи Wi-Fi.</string>
+    <string name="wifihotspot_detail">Детали</string>
+    <string name="tether_settings_title_wifi">Преносен хотспот</string>
+    <string name="guest_launge_warning_toast_text">Не може да се вклучи или исклучи %s при Гостински режим.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Не може да се вклучи Приватен режим додека преместувате записи во Приватно.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Не може да се исклучи Приватен режим додека преместувате записи во Приватно.</string>
+    <string name="no_sim_notification_title">Нема SIM</string>
+    <string name="no_sim_notification_title_tmo">Нема вметнато SIM-картичка.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Ставете SIM картичка.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Роаминг</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Табла за известувања</string>
+    <string name="guideline_empty_text">Повлечете икона од лентата за да ја отворите таа апликација.</string>
+    <string name="drag_and_drop_content">Премести содржина</string>
+    <string name="switch_window">Замени прозорци</string>
+    <string name="close_application">Затвори апликација</string>
+    <string name="collapse_window">Собери прозорец</string>
+    <string name="change_to_poup_view">Отвори во појавен прозорец</string>
+    <string name="select_contents">Повлечете и испуштете текстуален пасус или екранска снимка на другиот прозорец.</string>
+    <string name="do_not_show_again">Не прикажувај веќе</string>
+    <string name="help">Помош</string>
+    <string name="recent_multi_window">Отв.во прегл.на пов.проз.</string>
+    <string name="recent_pen_window">Отвори во појавен прозорец</string>
+    <string name="recent_delete">Затвори апликација</string>
+    <string name="disable_multi_window_popup_description">Повеќе прозорци ќе се исклучи и сите апликации отворени во појавни прозорци ќе се затворат.</string>
+    <string name="disable_multi_window_popup_easymode_description">Не може да се користат повеќе прозорци додека е вклучен лесниот режим. Исклучете го лесниот режим и обидете се повторно.</string>
+    <string name="yes">OK</string>
+    <string name="no">Откажи</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Слушањето со голема јачина подолго време може да Ви го оштети слухот. Допрете OK за да овозможите јачината да се зголеми над безбедните нивоа.</string>
+    <string name="tw_cover_volume_warning_message">Слушањето со голема јачина подолго време може да го оштети слухот. За да ја зголемите јачината, отворете го капакот.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Вклучи Режим за летање</string>
+    <string name="global_actions_toggle_airplane_mode">Режим за летало</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Режимот за летање овозможува да ги исклучите функциите за повикување, размена на пораки и мобилни мрежи.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Режимот за летало ќе се оневозможи.</string>
+    <string name="multi_window_use_popup_title">Вклучи повеќе прозорци</string>
+    <string name="multi_window_use_popup_msg">Повеќе прозорци и TalkBack не може да се активни заедно. TalkBack ќе се исклучи.</string>
+    <string name="air_gesture_use_popup_title">Овозможи Air gesture</string>
+    <string name="air_gesture_use_popup_msg">Воздушен гест и TalkBack не можат да се активни заедно. TalkBack ќе се исклучи.</string>
+    <string name="air_view_use_popup_title">Вклучи воздушен преглед</string>
+    <string name="air_view_use_popup_msg">Воздушен преглед и опциите подолу не може да се активни заедно. Опциите подолу ќе се исклучат.</string>
+    <string name="car_mode_enable_use_popup_title">Вклучи Режим за автомобил</string>
+    <string name="car_mode_use_popup_msg">Режимот за автомобил и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="smart_pause_use_popup_title">Вклучи паметно паузирање</string>
+    <string name="smart_pause_use_popup_msg">Паметно паузирање и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="smart_scroll_use_popup_title">Овозможи паметно листање</string>
+    <string name="smart_scroll_use_popup_msg">Паметно листање и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="smart_stay_use_popup_title">Овозможи паметно останување</string>
+    <string name="smart_stay_use_popup_msg">Паметно останување и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="toolbox_use_popup_title">Вклучи Комплет алати</string>
+    <string name="toolbox_use_popup_msg">Комплет алати и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="sidekey_use_popup_title">Вклучи Странична плоча со копчиња</string>
+    <string name="sidekey_use_popup_msg">Страничната плоча со копчиња и TalkBack не може да се вклучени истовремено. TalkBack ќе се исклучи.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Известување</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Копче последни</string>
+    <string name="recent_menukey_press_description_vzw">Копчето за мени е заменето со копчето последни за да можете брзо да ги менувате апликациите што сте ги користеле последни. Допрете Помош за повеќе информации.</string>
+    <string name="recent_menukey_press_description_no_help">Копчето за мени е заменето со копчето последни за да можете брзо да ги менувате апликациите што сте ги користеле неодамна.</string>
+    <string name="recent_menukey_press_description_att">Копчето мени е заменето со копчето последни. Додека сте во апликација, држете го притиснато копчето последни за да ги видите опциите на менито.</string>
+    <string name="recent_help_dialog_title_for_split_view">Нови функции на Повеќе прозорци</string>
+    <string name="recent_menukey_press_description_for_split_view_1">За да отворате апликации на поделениот екран, допрете %s на насловната лента на прозорецот на апликацијата. Оваа икона е прикажана кога апликацијата поддржува преглед на поделен екран.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">За да отворате апликации на поделениот екран, допрете ја иконата за поделен екран на насловната лента на прозорецот на апликацијата. Оваа икона е прикажана кога апликацијата поддржува преглед на поделен екран.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Допрете и држете прозорец на апликација за да ја отворите апликацијата како појавен прозорец. За да смените од појавен преглед во поделен екран, одвлечете го појавниот прозорец на апликацијата на врвот или на дното на екранот.</string>
+    <string name="recent_menukey_help_button">Помош</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="qs_edit_settings_title">Табла за известувања</string>
+    <string name="qs_edit_settings_available_button">Достапни копчиња</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Прилагодете кои копчиња за брзо поставување ќе се појавуваат најгоре на таблата за известување. Допрете и држете, а потоа одвлечете ги копчињата за да ги додавате, скривате или прередувате.</string>
+    <string name="notification_panel_unable_remove_minimum">Не може да се отстрани копчето. Достигнат е минималниот број копчиња (%d).</string>
+    <string name="qs_edit_setting_edit_button">Пререди</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Режимот за летало овозможува да исклучите повикување, праќање пораки и податочни мрежи. Ги исклучува и функциите за поврзување како Wi-Fi и Bluetooth. За да ги користите Wi-Fi и Bluetooth, вклучете ги во Опции или во таблата за известувања.</string>
+    <string name="pickup_tutorial_title">Пробајте го паметно известување</string>
+    <string name="put_your_phone">Откако ќе го оставите уредот, екранот ќе се изгасне.</string>
+    <string name="phone_detect">Да речеме, сте пропуштиле повици или пораки. Спуштете го уредот, па кренете го кога ќе се исклучи екранот.</string>
+    <string name="pick_up_your_phone">Кренете го уредот</string>
+    <string name="tutorial_complete">Упатството е завршено.</string>
+    <string name="share_via">Сподели преку</string>
+    <string name="airmsg_warning_alert_check">Не прикажувај веќе</string>
+    <string name="airmsg_check_data_title_WLAN">Поврзи се со WLAN</string>
+    <string name="airmsg_check_data_title_Mobile">Поврзувај преку мобилни мрежи</string>
+    <string name="cooling_title">Уредот се прегрева</string>
+    <string name="cooling_body">"Уредот се прегрева. Ќе се преземат чекори за ладење.
+
+Уште можете да го користите уредот, но
+- екранот може да се затемни.
+- уредот може да биде побавен.
+- полнењето може да се паузира.
+
+Затворањето на моменталната апликација може да помогне да се излади уредот.
+
+Откако ќе се излади уредот, перформансите автоматски ќе се вратат во нормала."</string>
+    <string name="cooling_noti_text">Допрете тука за да ги видите деталите.</string>
+    <string name="cooling_popup_name">Известување</string>
+    <string name="cooling_noti_title">Уредот се прегрева</string>
+    <string name="btn_text_no">Откажи</string>
+    <string name="device_overheating">Уредот се прегрева</string>
+    <string name="colling_noti_text_2">Не може да се отвораат апликации. Можете да ги користите само апликациите Телефон и Контакти.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Допрете тука за да дознаете повеќе.</string>
+    <string name="cooling_popup_name_VZW">Извест.</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Откажи</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Исклучи Безбеден режим</string>
+    <string name="safe_mode_popup_body_global">За да се исклучи Безбедниот режим, уредот ќе се рестартира. Потоа ќе бидат достапни сите апликации.</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Безбедн. режим е вклучен</string>
+    <string name="safe_mode_noti_body_global">Допрете тука за исклучување на Безбедниот режим.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Откажи</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">За да го смените звучниот режим, поставете го режимот за прекин на Приоритет или Сите.</string>
+    <string name="accessibility_driving_mode">За да го вклучите Режимот без раце, вклучете барем една релевантна функција.</string>
+    <string name="qs_vibrate_on_in_priority">"Вибрирање
+(Приоритет)"</string>
+    <string name="qs_sound_on_in_priority">"Звук
+(Приоритет)"</string>
+    <string name="qs_silent_popup_title">Режим за звук</string>
+    <string name="qs_silent_popup_sound">Звук</string>
+    <string name="qs_silent_popup_vibrate">Вибрации</string>
+    <string name="qs_rotate_popup_title">Вртење на екранот</string>
+    <string name="qs_rotate_popup_all">Сите</string>
+    <string name="qs_torch_popup_title">Светилка</string>
+    <string name="qs_torch_popup_brightness">Светлина</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Ништо</string>
+    <string name="disable_multi_window_dialog_title">Исклучи повеќе прозорци</string>
+    <string name="disable_multi_window_dialog_text">Повеќе прозорци ќе се исклучи и сите апликации отворени во појавни прозорци ќе се затворат.</string>
+    <string name="AirplaneNoti_title">Вклучен е Авионски режим</string>
+    <string name="AirplaneNoti_text">Исклучи</string>
+    <string name="quickpanel_interruption_always_interrupt">"Секогаш
+прекинув."</string>
+    <string name="quickpanel_interruption_priority_only">"Само
+приоритет"</string>
+    <string name="tw_sound_priority_desciption">Звук за приоритетни прекини</string>
+    <string name="tw_vibrate_priority_desciption">Вибрирај за приоритетни прекини</string>
+    <string name="tw_mute_priority_desciption">Без прекини (дури ни аларми)</string>
+    <string name="tw_zen_off_interruptions">При примање повици и известувања</string>
+    <string name="tw_interruption_level_priority">Само приоритетни</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Дозволувај само приоритетни прекини</string>
+    <string name="tw_interruption_level_all_vzw">Секогаш прекинувај</string>
+    <string name="tw_mute_priority_toast_description">"Без прекини
+(дури ни аларми)"</string>
+    <string name="dnd_noti_title">Реж.Не вознемирувај е вклучен</string>
+    <string name="dnd_noti_message">Звукот на алармите е исклучен</string>
+    <string name="dnd_noti_action_disable">Исклучи</string>
+    <string name="torch_light_notification_title">Вклучена светилка</string>
+    <string name="torch_light_notification_message">Исклучи Светилка</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Режимот за мрежно ограничување ќе се исклучи.</string>
+    <string name="recent_help_dialog_title_for_popup_view">Користење на прегледот на повеќе прозорци</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">За да отворате апликации во прегледот на поделен екран, допрете %s на насловната лента на прозорецот на апликацијата. Оваа икона е прикажана кога апликацијата поддржува преглед на поделен екран.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">За да отворате апликации во преглед на поделен екран, допрете ја иконата за поделен екран на насловната лента на прозорецот на апликацијата. Иконата се прикажува кога апликацијата поддржува преглед на поделен екран.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Можете да го притиснете и држите копчето Последни додека сте на некој екран за да отворите апликации во прегледот на поделен екран.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Прегледувајте апликација во појавен преглед поминувајќи надолу дијагонално од кој и да е агол на екранот додека е отворена апликацијата и прикажана на екранот.</string>
+    <string name="wallpaper_crop_button_done">Готово</string>
+    <string name="accessibility_desc_notification_panel">Табла за известувања</string>
+</resources>

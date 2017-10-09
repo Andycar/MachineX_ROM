@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/col_FAFAFA" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/citylist_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sec.android.touchwiz.widget.TwListView android:gravity="center" android:id="@id/animationlistview" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="29.0dip" android:listSelector="?android:selectableItemBackground" android:divider="@drawable/list_divider" android:dividerHeight="0.5dip" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/detailBottomLayout" android:background="@color/col_25_000000" android:layout_width="fill_parent" android:layout_height="29.0dip" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <RelativeLayout android:id="@id/detail_logo" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="99.0dip" android:layout_height="15.0dip" android:layout_centerVertical="true" android:contentDescription="@string/accu_logo" android:nextFocusForward="@id/detailupdatebtn" android:layout_marginStart="13.0dip" android:layout_alignParentStart="true">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_list_accuweather_logo" />
+        </RelativeLayout>
+        <ImageView android:id="@id/detailupdatebtn" android:background="@drawable/refresh_selector" android:focusable="true" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/weather_ic_list_update" android:layout_centerVertical="true" android:contentDescription="@string/refresh_button" android:nextFocusForward="@id/menugolist" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true">
+            <ProgressBar android:id="@id/detailupdateflipper" android:visibility="gone" android:drawingCacheQuality="high" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateBehavior="repeat" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:autoStart="true" style="?android:attr/progressBarStyleSmall" />
+        </RelativeLayout>
+        <TextView android:textSize="11.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:gravity="end" android:id="@id/detailupdatetext" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/last_updated_text" android:fontFamily="sans-serif" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/detailupdatebtn" />
+    </RelativeLayout>
+</RelativeLayout>

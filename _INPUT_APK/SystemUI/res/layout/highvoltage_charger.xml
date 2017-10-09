@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/padding" android:paddingLeft="@dimen/battery_low_padding_left" android:paddingTop="@dimen/battery_low_padding_top" android:paddingRight="@dimen/battery_low_padding_left" android:paddingBottom="@dimen/battery_low_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start" android:id="@id/warning_text" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/highvoltage_charger_notice_text" />
+        <CheckBox android:id="@id/do_not_show_again" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/warning_alert_check" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/top_bg" android:background="@drawable/top_bg" android:layout_width="fill_parent" android:layout_height="@dimen/multiwindow_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/delete_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/delete_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbox_delete_ic" />
+            <ImageView android:layout_gravity="center" android:id="@id/delete_icon_cover" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbox_delete_ic_focus" />
+            <ImageView android:layout_gravity="center" android:id="@id/delete_icon_body" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbox_delete_ic_body_focus" />
+        </FrameLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/delete_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/top_bg_focus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/top_bg_red_focus" />
+</FrameLayout>

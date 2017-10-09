@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_security_locktype"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.MultiLinePreference android:title="@string/knox_twofactor_description" android:selectable="false" android:key="pref_two_factor_description" />
+    <com.android.settings.RadioButtonPreference android:title="@string/unlock_set_unlock_password_title" android:key="pref_lock_password" android:summary="@string/unlock_set_unlock_password_summary" android:widgetLayout="@xml/radiobutton_preference" />
+    <com.android.settings.RadioButtonPreference android:title="@string/unlock_set_unlock_pin_title" android:key="pref_lock_pin" android:summary="@string/unlock_set_unlock_pin_summary" android:widgetLayout="@xml/radiobutton_preference" />
+    <com.android.settings.RadioButtonPreference android:title="@string/unlock_set_unlock_pattern_title" android:key="pref_lock_pattern" android:summary="@string/unlock_set_unlock_pattern_summary" android:widgetLayout="@xml/radiobutton_preference" />
+</PreferenceScreen>

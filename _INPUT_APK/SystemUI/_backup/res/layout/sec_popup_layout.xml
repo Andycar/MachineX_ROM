@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0dip" android:textColor="#ff000000" android:id="@id/popup_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="21.0dip" android:fontFamily="Roboto_Regular" />
+    <TextView android:textSize="19.0dip" android:textColor="#ff000000" android:id="@id/popup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="10.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/popup_image" android:layout_width="342.0dip" android:layout_height="114.0dip" android:layout_marginBottom="7.0dip" />
+</LinearLayout>

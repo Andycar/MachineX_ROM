@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:id="@id/guide_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/powersavingmode_help_edit_bubble_margin_bottom">
+        <TextView android:id="@id/help_edit_bubble_summary" android:text="@string/wifi_help_tutorial_complete" style="@style/help_bubble" />
+    </RelativeLayout>
+</LinearLayout>

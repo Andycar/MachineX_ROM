@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/menu_settings_subtitle_currentloaction"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?android:attr/actionButtonStyle">
+        <TextView android:textSize="15.0dip" android:textStyle="normal" android:textColor="@color/col_def_actionbar_tint_color" android:gravity="center" android:id="@id/currentCityBtnText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/menu_settings_subtitle_currentloaction" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true" android:textAllCaps="true" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</LinearLayout>

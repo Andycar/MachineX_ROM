@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/background" android:focusable="true" android:nextFocusDown="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/weather_bg" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/notempty_city" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/iconntemperatureLayout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/weathericonzone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip">
+                <ImageView android:id="@id/weathericon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:scaleType="center" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/temper_zone" android:layout_width="wrap_content" android:layout_height="56.0dip">
+                <TextView android:textSize="45.0dip" android:textColor="@color/col_FAFAFA" android:id="@id/temperature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:layout_centerVertical="true" android:fontFamily="samsung-neo-num3L" />
+                <ImageView android:id="@id/temperature_icon" android:layout_width="11.0dip" android:layout_height="wrap_content" android:src="@drawable/easy_weather_detail_temp" android:layout_centerVertical="true" android:layout_toEndOf="@id/temperature_text" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/citynameLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@id/iconntemperatureLayout">
+            <LinearLayout android:orientation="horizontal" android:id="@id/cityname" android:layout_width="wrap_content" android:layout_height="28.0dip">
+                <ImageView android:id="@id/current_location" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+                <TextView android:textSize="21.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:layout_gravity="center" android:id="@id/city_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/citynameLayout">
+            <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:id="@id/updatedate_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/col_50_000000" android:shadowDy="4.0" android:shadowRadius="5.0" android:fontFamily="sans-serif" />
+            <RelativeLayout android:id="@id/refreshlayout" android:focusable="true" android:nextFocusUp="@id/background" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" android:contentDescription="@string/refresh_button" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/updatedate_text">
+                <ProgressBar android:id="@id/refreshflipper" android:focusable="false" android:visibility="invisible" android:drawingCacheQuality="high" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateBehavior="repeat" android:layout_centerVertical="true" android:autoStart="true" android:layout_marginStart="3.0dip" />
+                <ImageView android:id="@id/refreshview" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/easy_ic_weather_update" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/empty_city" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/weathertitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/weather_ic_add" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/col_FAFAFA" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/taptoaddcitysub" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/easymode_subscribe" android:maxLines="2" android:minLines="1" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:lineSpacingExtra="-1.0dip" android:layerType="software" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center" android:id="@id/error" android:focusable="false" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="5.0dip" android:paddingEnd="5.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/col_F5F5F5" android:gravity="center" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_network_connnection_failed" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:layout_centerVertical="true" android:layerType="software" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/col_F5F5F5" android:gravity="center" android:id="@id/error_message_gps_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_network_connnection_failed" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:layout_alignParentTop="true" android:lineSpacingExtra="0.0dip" android:layerType="software" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@color/col_F5F5F5" android:gravity="center" android:id="@id/emptyselect" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_city_message" android:shadowColor="@color/col_50_000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:layout_centerInParent="true" android:layerType="software" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

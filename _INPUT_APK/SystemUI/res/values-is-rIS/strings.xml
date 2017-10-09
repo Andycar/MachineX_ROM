@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">Rafhlaða er í %d prósentum.</string>
+    <string name="ok">Í lagi</string>
+    <string name="app_name">Takkavörn</string>
+    <string name="keyguard_password_enter_pin_code">Sláðu inn PIN-númer</string>
+    <string name="keyguard_password_enter_puk_code">Sláðu inn PUK-númer SIM-korts og nýtt PIN-númer</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK-númer SIM-korts</string>
+    <string name="keyguard_password_enter_pin_prompt">Nýtt PIN-númer SIM-korts</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Snertu og sláðu inn aðgangsorð</font></string>
+    <string name="keyguard_password_enter_password_code">Sláðu inn aðgangsorðið til að opna</string>
+    <string name="keyguard_password_enter_pin_password_code">Sláðu inn PIN-númer til að opna</string>
+    <string name="keyguard_password_wrong_pin_code">Rangt PIN-númer.</string>
+    <string name="keyguard_label_text">Til að taka úr lás ýtirðu á valmyndartakkann og síðan 0.</string>
+    <string name="faceunlock_multiple_failures">Hámarksfjölda tilrauna til að opna með andliti náð</string>
+    <string name="keyguard_charged">Fullhlaðið</string>
+    <string name="keyguard_plugged_in">Í hleðslu</string>
+    <string name="keyguard_low_battery">Tengdu hleðslutækið.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Ýttu á valmyndarhnappinn til að taka úr lás.</string>
+    <string name="keyguard_network_locked_message">Símkerfi læst</string>
+    <string name="keyguard_missing_sim_message_short">Ekkert SIM-kort</string>
+    <string name="keyguard_missing_sim_message">Ekkert SIM-kort í símanum.</string>
+    <string name="keyguard_missing_sim_instructions">Settu SIM-kort í.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM-kort vantar eða það er ekki læsilegt. Settu SIM-kort í.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Ónothæft SIM-kort.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-kortið hefur verið gert varanlega óvirkt.
+ Hafðu samband við símafyrirtækið þitt til að fá annað SIM-kort."</string>
+    <string name="keyguard_sim_locked_message">SIM-kortið er læst.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM-kortið er PUK-læst.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Tekur SIM-kort úr lás…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Græja %2$d af %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Bæta græju við.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Autt</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Opnunarsvæði stækkað.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Opnunarsvæði fellt saman.</string>
+    <string name="keyguard_accessibility_widget">Græjan %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Notandaval</string>
+    <string name="keyguard_accessibility_camera">Myndavél</string>
+    <string name="keygaurd_accessibility_media_controls">Margmiðlunarstýringar</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Endurröðun græja hafin.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Endurröðun græja lokið.</string>
+    <string name="keyguard_accessibility_widget_deleted">Græjunni %1$s eytt.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Stækka opnunarsvæði.</string>
+    <string name="keyguard_accessibility_slide_unlock">Opnun með stroku.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Opnun með mynstri.</string>
+    <string name="keyguard_accessibility_face_unlock">Opnun með andliti.</string>
+    <string name="keyguard_accessibility_pin_unlock">Opnun með PIN-númeri.</string>
+    <string name="keyguard_accessibility_password_unlock">Opnun með aðgangsorði.</string>
+    <string name="keyguard_accessibility_pattern_area">Svæði mynsturs.</string>
+    <string name="keyguard_accessibility_slide_area">Stroksvæði.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Hnappur fyrir fyrra lag</string>
+    <string name="keyguard_accessibility_transport_next_description">Hnappur fyrir næsta lag</string>
+    <string name="keyguard_accessibility_transport_pause_description">Hnappur til að gera hlé</string>
+    <string name="keyguard_accessibility_transport_play_description">Hnappur til að spila</string>
+    <string name="keyguard_accessibility_transport_stop_description">Hnappur til að stöðva</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Þumall upp</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Þumall niður</string>
+    <string name="keyguard_accessibility_transport_heart_description">Hjarta</string>
+    <string name="keyguard_accessibility_show_bouncer">Taktu úr lás til að halda áfram</string>
+    <string name="keyguard_accessibility_hide_bouncer">Hætt við ræsingu</string>
+    <string name="keyguard_accessibility_delete_widget_start">Slepptu %1$s til að eyða.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s verður ekki eytt.</string>
+    <string name="keyguard_accessibility_next_alarm">Næsti vekjari stilltur á %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Hætta við</string>
+    <string name="keyboardview_keycode_delete">Eyða</string>
+    <string name="keyboardview_keycode_done">Lokið</string>
+    <string name="keyboardview_keycode_mode_change">Breyta stillingu</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">Taka úr lás</string>
+    <string name="description_target_camera">Myndavél</string>
+    <string name="description_target_silent">Hljóðlaust</string>
+    <string name="description_target_soundon">Kveikt á hljóði</string>
+    <string name="description_target_search">Leita</string>
+    <string name="description_direction_up">Strjúktu upp til að %s.</string>
+    <string name="description_direction_down">Strjúktu niður til að %s.</string>
+    <string name="description_direction_left">Strjúktu til vinstri til að %s.</string>
+    <string name="description_direction_right">Strjúktu til hægri til að %s.</string>
+    <string name="user_switched">Núverandi notandi %1$s.</string>
+    <string name="kg_emergency_call_label">Neyðarsímtal</string>
+    <string name="kg_forgot_pattern_button_text">Man ekki mynstrið</string>
+    <string name="kg_wrong_pattern">Rangt mynstur</string>
+    <string name="kg_wrong_password">Rangt aðgangsorð</string>
+    <string name="kg_wrong_pin">Rangt PIN-númer</string>
+    <string name="kg_too_many_failed_attempts_countdown">Reyndu aftur eftir %d sekúndur.</string>
+    <string name="kg_pattern_instructions">Teiknaðu mynstrið þitt</string>
+    <string name="kg_sim_pin_instructions">Sláðu inn PIN-númer SIM-kortsins</string>
+    <string name="kg_pin_instructions">Sláðu inn PIN-númer</string>
+    <string name="kg_password_instructions">Sláðu inn aðgangsorð</string>
+    <string name="kg_puk_enter_puk_hint">SIM-kortið hefur verið gert óvirkt. Sláðu inn PUK-númerið til að halda áfram. Hafðu samband við símafyrirtækið til að fá frekari upplýsingar.</string>
+    <string name="kg_puk_enter_pin_hint">Sláðu inn nýtt PIN-númer</string>
+    <string name="kg_enter_confirm_pin_hint">Staðfestu nýja PIN-númerið</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Opnar SIM-kort…</string>
+    <string name="kg_invalid_sim_pin_hint">Sláðu inn 4 til 8 talna PIN-númer</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-númerið verður að vera 8 tölustafir eða lengra.</string>
+    <string name="kg_invalid_puk">Prófaðu aftur að setja inn rétt PUK-númer. Endurteknar tilraunir gera SIM-kortið varanlega óvirkt.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN-númerin stemma ekki</string>
+    <string name="kg_login_too_many_attempts">Of margar tilraunir til að teikna mynstur</string>
+    <string name="kg_login_instructions">Skráðu þig inn með Google reikningnum þínum til að opna.</string>
+    <string name="kg_login_username_hint">Notandanafn (netfang)</string>
+    <string name="kg_login_password_hint">Aðgangsorð</string>
+    <string name="kg_login_submit_button">Skrá inn</string>
+    <string name="kg_login_invalid_input">Ógilt notandanafn eða aðgangsorð.</string>
+    <string name="kg_login_account_recovery_hint">"Gleymdirðu notandanafninu eða aðgangsorðinu?
+Farðu á "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Athugar reikninginn…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Þú hefur slegið inn rangt PIN-númer %d sinnum. 
+
+Reyndu aftur eftir %d sekúndur."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Þú hefur slegið inn rangt aðgangsorð %d sinnum. 
+
+Reyndu aftur eftir %d sekúndur."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Þú hefur teiknað rangt opnunarmynstur %d sinnum. 
+
+Reyndu aftur eftir %d sekúndur."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Þú hefur gert %d tilraunir til að opna símann. Eftir %d árangurslausar tilraunir í viðbót verður síminn stilltur á sjálfgefnar stillingar og öll notandagögn hans glatast.</string>
+    <string name="kg_failed_attempts_now_wiping">Þú hefur gert %d tilraunir til að opna símann án árangurs. Hann verður nú stilltur á sjálfgefnar stillingar.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Þú hefur teiknað rangt opnunarmynstur %d sinnum. Eftir %d árangurslausar tilraunir í viðbót verður þú beðin(n) um að opna símann með tölvupóstreikningi.
+
+ Reyndu aftur eftir %d sekúndur."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Fjarlægja</string>
+    <string name="kg_password_wrong_pin_code_pukked">Rangt PIN-númer SIM-korts. Þú þarft núna að hafa samband við símafyrirtækið þitt til að taka tækið úr lás.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM-kortið er ónothæft. Hafðu samband við símafyrirtækið þitt.</string>
+    <string name="kg_password_pin_failed">PIN-aðgerð SIM-korts mistókst!</string>
+    <string name="kg_password_puk_failed">PUK-aðgerð SIM-korts mistókst!</string>
+    <string name="kg_pin_accepted">Númer samþykkt!</string>
+    <string name="keyguard_transport_prev_description">Hnappur fyrir fyrra lag</string>
+    <string name="keyguard_transport_next_description">Hnappur fyrir næsta lag</string>
+    <string name="keyguard_transport_pause_description">Hnappur til að gera hlé</string>
+    <string name="keyguard_transport_play_description">Hnappur til að spila</string>
+    <string name="keyguard_transport_stop_description">Hnappur til að stöðva</string>
+    <string name="keyguard_carrier_default">Ekkert símasamband.</string>
+    <string name="app_label">Kerfisviðmót</string>
+    <string name="status_bar_clear_all_button">Hreinsa</string>
+    <string name="status_bar_recent_remove_item_title">Taka af lista</string>
+    <string name="status_bar_recent_inspect_item_title">Forritsupplýsingar</string>
+    <string name="status_bar_no_recent_apps">Engin nýleg forrit</string>
+    <string name="status_bar_no_notifications_title">Engar tilkynningar</string>
+    <string name="status_bar_ongoing_events_title">Áframhaldandi</string>
+    <string name="status_bar_latest_events_title">Tilkynningar</string>
+    <string name="battery_low_title">Lítil hleðsla á rafhlöðu</string>
+    <string name="battery_low_percent_format">%d%% eftir</string>
+    <string name="invalid_charger">Hleðsla með USB ekki studd. Notaðu hleðslutækið sem fylgir.</string>
+    <string name="battery_low_why">Stillingar</string>
+    <string name="status_bar_settings_settings_button">Stillingar</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Flugstilling</string>
+    <string name="status_bar_settings_auto_rotation">Snúa skjá sjálfvirkt</string>
+    <string name="status_bar_settings_mute_label">Hljóð af</string>
+    <string name="status_bar_settings_auto_brightness_label">Sjálfvirkt</string>
+    <string name="status_bar_settings_notifications">Tilkynningar</string>
+    <string name="bluetooth_tethered">Bluetooth-tjóðrað</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Setja upp innsláttaraðferðir</string>
+    <string name="status_bar_use_physical_keyboard">Raunlyklaborð</string>
+    <string name="usb_device_permission_prompt">Leyfa forritinu %1$s að fá aðgang að USB-tækinu?</string>
+    <string name="usb_accessory_permission_prompt">Leyfa forritinu %1$s að fá aðgang að USB-aukabúnaðinum?</string>
+    <string name="usb_device_confirm_prompt">Opna %1$s þegar þetta USB-tæki er tengt?</string>
+    <string name="usb_accessory_confirm_prompt">Opna %1$s þegar þessi USB-aukabúnaður er tengdur?</string>
+    <string name="usb_accessory_uri_prompt">Engin uppsett forrit virka með þessum USB-aukahlut. Nánari upplýsingar um þennan aukahlut á %s.</string>
+    <string name="title_usb_accessory">USB-aukahlutur</string>
+    <string name="label_view">Birta</string>
+    <string name="always_use_device">Nota sjálfkrafa fyrir þetta USB-tæki</string>
+    <string name="always_use_accessory">Nota sjálfkrafa fyrir þennan USB-aukahlut</string>
+    <string name="usb_debugging_title">Leyfa USB-kembingu?</string>
+    <string name="usb_debugging_message">"Fingrafar RSA-lykils tölvunnar er:
+%1$s"</string>
+    <string name="usb_debugging_always">Leyfa alltaf þessa tölvu</string>
+    <string name="compat_mode_on">Þysja til að fylla skjá</string>
+    <string name="compat_mode_off">Toga yfir allan skjáinn</string>
+    <string name="screenshot_saving_ticker">Vista skjámynd…</string>
+    <string name="screenshot_saving_title">Vista skjámynd…</string>
+    <string name="screenshot_saving_text">Er að vista skjámynd.</string>
+    <string name="screenshot_saved_title">Skjámynd tekin</string>
+    <string name="screenshot_saved_text">Pikkaðu til að skoða skjámynd.</string>
+    <string name="screenshot_failed_title">Mistókst að taka skjámynd.</string>
+    <string name="usb_preference_title">Valkostir USB skráarflutnings</string>
+    <string name="use_mtp_button_title">Tengja sem efnisspilara (MTP)</string>
+    <string name="use_ptp_button_title">Tengja sem myndavél (PTP)</string>
+    <string name="installer_cd_button_title">Setja upp Android skráarflutningsforrit fyrir Mac</string>
+    <string name="accessibility_back">Bakka</string>
+    <string name="accessibility_home">Heima</string>
+    <string name="accessibility_menu">Valmynd</string>
+    <string name="accessibility_search_light">Leit</string>
+    <string name="accessibility_camera_button">Myndavél</string>
+    <string name="accessibility_unlock_button">Taka úr lás</string>
+    <string name="accessibility_ime_switch_button">Hnappur til að skipta um innsláttaraðferðir.</string>
+    <string name="accessibility_compatibility_zoom_button">Samhæfniaðdráttarhnappur</string>
+    <string name="accessibility_compatibility_zoom_example">Stækka á stærri skjá</string>
+    <string name="accessibility_bluetooth_connected">Tengt við Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth aftengt.</string>
+    <string name="accessibility_no_battery">Engin rafhlaða</string>
+    <string name="accessibility_battery_one_bar">Ein stöng af rafhlöðuorku</string>
+    <string name="accessibility_battery_two_bars">Tvær stangir af rafhlöðuorku</string>
+    <string name="accessibility_battery_three_bars">Þrjár stangir af rafhlöðuorku</string>
+    <string name="accessibility_battery_full">Rafhlaða er full.</string>
+    <string name="accessibility_no_phone">Ekkert símamerki</string>
+    <string name="accessibility_phone_one_bar">Ein stöng af símamerki</string>
+    <string name="accessibility_phone_two_bars">Tvær stangir símamerkis</string>
+    <string name="accessibility_phone_three_bars">Þrjár stangir af símamerki</string>
+    <string name="accessibility_phone_signal_full">Fullt símamerki</string>
+    <string name="accessibility_no_data">Engin gögn</string>
+    <string name="accessibility_data_one_bar">Ein stöng af gagnamerki</string>
+    <string name="accessibility_data_two_bars">Tvær stangir gagnamerkis</string>
+    <string name="accessibility_data_three_bars">Þrjár stangir gagnamerkis</string>
+    <string name="accessibility_data_signal_full">Fullt gagnamerki</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Ekkert Wi-Fi-merki</string>
+    <string name="accessibility_wifi_one_bar">Ein stöng Wi-Fi-merkis</string>
+    <string name="accessibility_wifi_two_bars">Tvær stangir Wi-Fi-merkis</string>
+    <string name="accessibility_wifi_three_bars">Þrjár stangir Wi-Fi-merkis</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi merki er fullt.</string>
+    <string name="accessibility_no_signal">Ekkert samband</string>
+    <string name="accessibility_not_connected">Engin tenging er.</string>
+    <string name="accessibility_desc_on">Kveikt</string>
+    <string name="accessibility_desc_off">Slökkt</string>
+    <string name="accessibility_desc_connected">Tengt.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Í reiki</string>
+    <string name="accessibility_data_connection_edge">Brún</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Ekkert SIM-kort</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth-tjóðrun</string>
+    <string name="accessibility_airplane_mode">Flugstilling</string>
+    <string name="accessibility_settings_button">Kerfisstillingar</string>
+    <string name="accessibility_notifications_button">Tilkynningar</string>
+    <string name="accessibility_remove_notification">Hreinsa tilkynningar</string>
+    <string name="accessibility_gps_enabled">Kveikt á GPS</string>
+    <string name="accessibility_gps_acquiring">Sæki GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter virkt</string>
+    <string name="accessibility_ringer_vibrate">Hringitónn og titringur</string>
+    <string name="accessibility_ringer_silent">Þagga hringitón</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Loka</string>
+    <string name="accessibility_desc_quick_settings">Flýtistillingar</string>
+    <string name="accessibility_quick_settings_alarm">Áminning stillt fyrir %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Farsímagögn óvirk</string>
+    <string name="data_usage_disabled_dialog_enable">Opna aftur fyrir gagnat.</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Engin nettenging</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi er tengt.</string>
+    <string name="gps_notification_searching_text">Leita með GPS…</string>
+    <string name="gps_notification_found_text">Staðsetning stillt eftir GPS</string>
+    <string name="accessibility_clear_all">Hreinsa allar tilkynningar</string>
+    <string name="status_bar_notification_inspect_item_title">Stillingar tilkynninga</string>
+    <string name="accessibility_rotation_lock_off">Skjárinn mun snúast sjálfkrafa.</string>
+    <string name="start_dreams">Skjávari</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Farsímaaðgangsstaður er ekki studdur.</string>
+    <string name="it_policy_not_allow_wifi">Öryggisreglur takmarka notkun Wi-Fi.</string>
+    <string name="it_policy_not_allow_wifiap">Öryggisreglur takmarka samnýtingu á netinu.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Í flugstillingu.</string>
+    <string name="edm_policy_not_allow_open_wifiap">Öryggisstefnan takmarkar notkun óvarinnar tjóðrunar heits reits.</string>
+    <string name="wifi_authentication_succeed">Sannprófað.</string>
+    <string name="wifi_authentication_failed">Sannprófun mistókst.</string>
+    <string name="wifi_authentication_invalid_value">Authentication failed. Check ID and password.</string>
+    <string name="wifi_setup_title_connected_network">Tengt við Wi-Fi netið %s.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Fullhlaðin.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Slökkt á Bluetooth</string>
+    <string name="quick_settings_brightness_label">Birtustig</string>
+    <string name="quick_settings_ime_label">Innsláttaraðferð</string>
+    <string name="quick_settings_location_label">Staðsetning</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Aðeins neyðarhringingar.</string>
+    <string name="quick_settings_settings_label">Stillingar</string>
+    <string name="quick_settings_time_label">Tími</string>
+    <string name="quick_settings_user_label">Ég</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Engin tenging er.</string>
+    <string name="quick_settings_wifi_no_network">Ekkert samband</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Birtustig</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Sjálfvirkt</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Ljós</string>
+    <string name="recents_empty_message">Engin nýleg forrit</string>
+    <string name="zen_no_interruptions">Engin truflun</string>
+    <string name="zen_important_interruptions">Aðeins forgangstruflanir</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Ekkert</string>
+    <string name="interruption_level_priority">Í forgangi</string>
+    <string name="interruption_level_all">Allt</string>
+    <string name="guest_wipe_session_dontwipe">Já, halda áfram</string>
+    <string name="notification_hidden_text">Efni falið</string>
+    <string name="sanitized_content_text">Pikkaðu hér til að opna %s.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Nei, takk</string>
+    <string name="hidden_notifications_setup">Setja upp</string>
+    <string name="quickpanel_airplane_mode_text">"Flug-
+stilling"</string>
+    <string name="quickpanel_airplane_mode_content_description">Flugstilling</string>
+    <string name="quickpanel_content_description_led_on">Kveikt er á %s.</string>
+    <string name="quickpanel_content_description_led_off">Slökkt er á %s.</string>
+    <string name="quickpanel_content_description_led_dim">Ekki er hægt að kveikja á %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Flýtitenging</string>
+    <string name="accessibility_qconnect_button_tts">Flýtitenging</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Staðsetning</string>
+    <string name="quickpanel_silent_mode_content_description">Hljóðlaus stilling</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Hljóð</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Titringur</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Þagga</string>
+    <string name="quickpanel_rotation_content_description">Skjásnúningur</string>
+    <string name="quickpanel_mobile_data_content_description">Farsímagögn</string>
+    <string name="quickpanel_power_saving_content_description">Orkusparnaðarstilling</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ofursparnaðarstilling</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Margir gluggar</string>
+    <string name="quickpanel_car_mode_content_description">Bílastilling</string>
+    <string name="quickpanel_dormant_mode_content_description">Ekki trufla</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Farsímaaðgangsstaður</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Snertinæmi</string>
+    <string name="quickpanel_smart_stay_content_description">Snjalldvöl</string>
+    <string name="quickpanel_smart_scroll_content_description">Snjallfletting</string>
+    <string name="quickpanel_sync_content_description">Samstilling</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi símtöl</string>
+    <string name="quickpanel_toolbox_content_description">Verkfærakassi</string>
+    <string name="quickpanel_adaptive_display_content_description">Stillanlegur skjár</string>
+    <string name="quickpanel_airgesture_content_description">Flot</string>
+    <string name="quickpanel_airview_content_description">Flotskoðun</string>
+    <string name="quickpanel_network_booster_content_description">Download Booster</string>
+    <string name="quickpanel_personal_mode_content_description">Einkastilling</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Hliðarlyklaborð</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Staður</string>
+    <string name="quickpanel_silent_mode_text">"Hljóðl.
+st."</string>
+    <string name="quickpanel_silent_mode_sound">Hljóð</string>
+    <string name="quickpanel_silent_mode_vibrate">Titringur</string>
+    <string name="quickpanel_silent_mode_mute">Þögn</string>
+    <string name="quickpanel_rotation_text">"Snúningur
+skjás"</string>
+    <string name="quickpanel_mobile_data_text">"Farsíma-
+gögn"</string>
+    <string name="quickpanel_power_saving_text">"Orku-
+sparn."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Ofur-
+sparnaður"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Margir
+gluggar"</string>
+    <string name="quickpanel_car_mode_text">"Bíla-
+still."</string>
+    <string name="quickpanel_driving_mode_text">"Handfrjáls
+stilling"</string>
+    <string name="quickpanel_dormant_mode_text">"Ónáðið
+ekki"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Farsíma-
+aðgstað."</string>
+    <string name="quickpanel_touch_sensitivity_text">"Snerti-
+næmi"</string>
+    <string name="quickpanel_smart_stay_text">"Snjall-
+dvöl"</string>
+    <string name="quickpanel_smart_scroll_text">"Snjall-
+fletting"</string>
+    <string name="quickpanel_sync_text">Samstilla</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"Tækja-
+kassi"</string>
+    <string name="quickpanel_smart_pause_text">"Snjall-
+hlé"</string>
+    <string name="quickpanel_adaptive_mode_text">"Aðlaga
+skjá"</string>
+    <string name="quickpanel_airgesture_text">"Flot-
+bending"</string>
+    <string name="quickpanel_airview_text">"Flot-
+skoðun"</string>
+    <string name="quickpanel_network_booster_text">"Download
+booster"</string>
+    <string name="quickpanel_personal_mode_text">"Einka-
+stilling"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Flýti-
+tenging"</string>
+    <string name="quickpanel_side_key_text">"Hliðar-
+lyklaborð"</string>
+    <string name="accessibility_power_saving_mode">Til að kveikja á orkusparnaðarstillingu skaltu kveikja á minnst einni aðgerð.</string>
+    <string name="accessibility_power_saving_mode_title">Orkusparnaður</string>
+    <string name="insert_sim_card">Setja inn SIM-kort</string>
+    <string name="insert_sim_card_message">Setjið SIM kort í til að fá aðgang að netþjónustu.</string>
+    <string name="insert_uim_or_sim_card">Settu UIM-/SIM-kort í</string>
+    <string name="status_bar_recent_launch_task_manager_title">Verkefnastj.</string>
+    <string name="status_bar_recent_remove_all_button">Loka öllu</string>
+    <string name="blocking_mode_enable">Þegar þessi stilling er virk birtast ekki tilkynningar fyrir valda eiginleika. Þú færð einungis tilkynningar um símtöl frá fólki á lista yfir leyfða aðila.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Bannlistastilling slekkur á tilkynningum fyrir valda eiginleika. Þegar lokað er fyrir móttekin símtöl færðu aðeins tilkynningar um símtöl sem berast frá fólki á lista yfir leyfða tengiliði. Til að breyta bannlistastillingum skaltu fara í Stillingar > Sérsnið > Bannlistastilling.</string>
+    <string name="blocking_mode_enable_wifi">Þegar kveikt er á þessari stillingu verður slökkt á tilkynningum fyrir valda eiginleika.</string>
+    <string name="blocking_mode_title">Bannlistastilling</string>
+    <string name="magnification_text_for_air_view_button">Stækkunarbendingar</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Ekki er hægt að nota Download Booster þegar kveikt er á %1$s. Slökktu á %2$s og reyndu aftur.</string>
+    <string name="quickpanel_air_view_warning">Til að kveikja á flotskoðun þarftu að kveikja á minnst einni aðgerð.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Til að kveikja á flotskoðun þarftu að kveikja á minnst einni aðgerð í valinni stillingu flotskoðunar.</string>
+    <string name="quickpanel_air_gesture_warning">Til að kveikja á air gesture þarftu að kveikja á minnst einni tengdri aðgerð.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Haltu fingri á flýtistillingahnappi til að opna viðeigandi stillingar.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Ekki er hægt að nota internetið, tölvupóst eða önnur forrit sem þarfnast gagnatengingar nema með Wi-Fi.
+
+Slökkt verður á gagnatengingu um farsímakerfi."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Tengjast</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Getur ekki tengst við farsímakerfi á meðan kveikt er á flugstillingu. Slökktu á flugstillingu og reyndu aftur.</string>
+    <string name="warning_alert_check">Ekki sýna aftur</string>
+    <string name="data_usage_enable_mobile_warning">Gjald kann að vera tekið fyrir pakkagagnatengingu. Viltu halda áfram?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Ekki er hægt að nota VoLTE í flugstillingu. Slökktu á flugstillingu og reyndu aftur.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE er ekki stutt í núverandi hugbúnaðarútgáfu. Frekari upplýsingar fást í þjónustuveri.</string>
+    <string name="smart_pause_toast_text">Gerðu „Þagga/gera hlé“ virkt til að nota snjallhlé.</string>
+    <string name="smart_bonding_popup_msg_roaming">Ekki er hægt að nota Download Booster í reiki. Við mælum með niðurhali í gegnum Wi-Fi net.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Kveikja á Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Kveikja á farsímagögnum</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Kveiktu á Wi-Fi og farsímagögnum</string>
+    <string name="smart_bonding_popup_msg_wifi">Slökkt er á Wi-Fi sem stendur. Til að nota Download Booster þarf að vera kveikt á bæði Wi-Fi og farsímagögnum. Niðurhal um farsímakerfi kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift.</string>
+    <string name="smart_bonding_popup_msg_data">Slökkt er á farsímagögnum sem stendur. Til að nota Download Booster þarf að vera kveikt á bæði Wi-Fi og farsímagögnum. Niðurhal um farsímakerfi kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Slökkt er á Wi-Fi og farsímagögnum sem stendur. Til að nota Download Booster þarf að vera kveikt á bæði Wi-Fi og farsímagögnum. Niðurhal um farsímakerfi kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift.</string>
+    <string name="smart_bonding_popup_msg">Kveikt verður á Download Booster. Niðurhal um farsímakerfi kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift.</string>
+    <string name="smartbonding_dialog_title">Download Booster</string>
+    <string name="insert_a_sim_card_and_try_again">Settu SIM-kort í og reyndu aftur.</string>
+    <string name="unable_to_enable_Download_booster">Ekki er hægt að kveikja á „Download Booster“</string>
+    <string name="download_booster_dialog_title">Gera Download Booster virkt</string>
+    <string name="enable">Gera virkt</string>
+    <string name="sd_card">SD-kort</string>
+    <string name="sdcard_insert">SD-kort er í</string>
+    <string name="sdcard_unmount">Losa SD-kort</string>
+    <string name="go_to_myfiles">Fara í Skrárnar mínar</string>
+    <string name="charging_interruption_title">Ekki er hægt að hlaða</string>
+    <string name="charging_interruption_by_terminal_open_text">Ekki er hægt að hlaða tækið. Gakktu úr skugga um að þú sért að nota samhæfa Samsung-rafhlöðu og hleðslutæki og að tækið sé rétt tengt við hleðslutækið.</string>
+    <string name="full_battery_title">Upplýsingar</string>
+    <string name="full_battery_text">"Rafhlaða fullhlaðin.
+Aftengið hleðslutækið."</string>
+    <string name="reading_mode_title">Lestrarstilling</string>
+    <string name="reading_mode_alert">Kveikt var á lestrarstillingu. Skjárinn hefur nú verið stilltur fyrir lestur. Þessi stilling er aðeins í boði í völdum forritum.</string>
+    <string name="reading_mode_settings">Stillingar</string>
+    <string name="quickpanel_ebook_text">Lestur</string>
+    <string name="quickpanel_ebook_content_description">Lestrarstilling</string>
+    <string name="driving_mode_title">Handfrjáls stilling</string>
+    <string name="driving_mode_on_dialog_msg_1">Slökkt þarf að vera á handfrjálsri stillingu undir Stillingar eftir að þú lokar handfrjálsri stillingu S Voice. Ef áfram er kveikt á handfrjálsri stillingu eru tilkynningar og upplýsingar um símtöl sem berast sjálfkrafa lesnar upphátt áfram.</string>
+    <string name="driving_mode_on_dialog_msg_2">Þú getur slökkt á handfrjálsri stillingu með því að segja „Slökkva á handfrjálsri stillingu“ í handfrjálsri stillingu S Voice eða með því að opna Stillingar eða tilkynningaskjáinn.</string>
+    <string name="quickpanel_driving_mode_content_description">Handfrjáls stilling</string>
+    <string name="critical_low_battery_title">Hleðsla rafhlöðu er mjög lítil</string>
+    <string name="critical_low_battery_text">Settu tækið í hleðslu. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Til að hlaða hraðar skaltu tengja við innstungu og loka ónotuðum forritum í %s. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Lokaðu ónotuðum forritum í %s. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="low_battery_text">Settu tækið í hleðslu. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="low_battery_text_charged_via_usb">Til að hlaða hraðar skaltu tengja við innstungu og loka ónotuðum forritum í %s. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="low_battery_text_charged_via_ta">Lokaðu ónotuðum forritum í %s. Áframhaldandi notkun meðan á hleðslu stendur kann að koma í veg fyrir árangursríka hleðslu.</string>
+    <string name="low_battery_power_saving_button_text">Orkusparnaður</string>
+    <string name="wireless_charging_title">Þráðlaus hleðsla.</string>
+    <string name="cable_charging_title">Hleðsla um snúru</string>
+    <string name="wireless_charging_text">Hleðsluflötur fannst. Hleð þráðlaust…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Skipti úr þráðlausri hleðslu í hleðslu með snúru</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Skipti úr hleðslu með snúru í þráðlausa hleðslu</string>
+    <string name="wireless_charging_spen_warning_text">Tækið er nú hlaðið þráðlaust. Ekki er víst að S Pen virki meðan þráðlaus hleðsla er í gangi.</string>
+    <string name="incompatible_charger_title">Hleður ekki.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Slökkva á tækinu</string>
+    <string name="overheat_poweroff_warning_text">Tækið er að ofhitna. Slökkt verður á því til að kæla það.</string>
+    <string name="overheat_poweroff_warning_button_text">Ekki slökkva</string>
+    <string name="overheat_poweroff_notice_title">Slökkt á tækinu sjálfkrafa</string>
+    <string name="overheat_poweroff_notice_text">"Tækið ofhitnaði. Slökkt var á því til að koma í veg fyrir skemmdir.
+
+Ofhitnun kann að orsakast af:
+Notkun mjög myndrænna forrita á borð við leiki og leiðsagnarforrit í lengri tíma.
+Flutningi stórra skráa.
+Notkun tækisins í miklum hita."</string>
+    <string name="power_sharing_warning_title">Orkudeiling</string>
+    <string name="power_sharing_warning_text">Hleðsla rafhlöðunnar er minni en mörk orkudeilingar. Til að halda áfram að deila orku skaltu stilla lágmarkið þannig að það verði lægra en núverandi hleðsla rafhlöðunnar.</string>
+    <string name="power_sharing_start_toast_text">Byrja orkudeilingu…</string>
+    <string name="power_sharing_end_notification_text">Orkudeilingu er lokið. Aftengdu snúruna.</string>
+    <string name="power_sharing_unable_notification_text">Mistókst að samnýta.</string>
+    <string name="highvoltage_charger_notice_title">Nota hraðhleðslu</string>
+    <string name="highvoltage_charger_notice_text">Þetta hleður rafhlöðuna hraðar, sérstaklega þegar slökkt er á skjánum eða tækinu.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Slökkva á skjá</string>
+    <string name="highvoltage_charger_notification_text">Hraðhleðslutæki er tengt.</string>
+    <string name="face_detection_failure_text">Snjalldvöl tekst ekki að greina augun.</string>
+    <string name="screenshot_failed_due_to_drm_text">Ekki er hægt að taka skjámynd. DRM-varin mynd.</string>
+    <string name="no_such_item">Mistókst að finna hlut.</string>
+    <string name="one_item_will_be_deleted">1 hlut verður eytt.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Samþykkt</string>
+    <string name="disagree">Hafna</string>
+    <string name="location_masterswitch_dialogtitle">Staðsetningar-samþykki</string>
+    <string name="gps_donotshow">Ekki sýna aftur</string>
+    <string name="tethering_attention_title">Athuga</string>
+    <string name="tethering_wifi_off_warning">Ef kveikt er á farsímaaðgangsstað verður slökkt á Wi-Fi.</string>
+    <string name="wifihotspot_detail">Upplýsingar</string>
+    <string name="tether_settings_title_wifi">Heitur reitur</string>
+    <string name="guest_launge_warning_toast_text">Ekki er hægt að breyta eða slökkva á %s í gestastillingu.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Ekki er hægt að kveikja á einkastillingu þegar verið er að færa hluti í einkamál.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Ekki er hægt að slökkva á einkastillingu þegar verið er að færa hluti í einkamál.</string>
+    <string name="no_sim_notification_title">Ekkert SIM-kort</string>
+    <string name="no_sim_notification_title_tmo">SIM-kort vantar.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Setjið gagnakortið í.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Í reiki</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Tilkynningaskjár</string>
+    <string name="guideline_empty_text">Dragðu tákn af bakkanum til að opna það forrit.</string>
+    <string name="drag_and_drop_content">Færa efni</string>
+    <string name="switch_window">Skipta á milli glugga</string>
+    <string name="close_application">Loka forriti</string>
+    <string name="collapse_window">Fella saman glugga</string>
+    <string name="change_to_poup_view">Opna í sprettiglugga</string>
+    <string name="select_contents">Dragðu efnisgrein texta eða skjámynd í hinn gluggann og slepptu.</string>
+    <string name="do_not_show_again">Ekki sýna aftur</string>
+    <string name="help">Hjálp</string>
+    <string name="recent_multi_window">Opna í mörgum gluggum</string>
+    <string name="recent_pen_window">Opna í sprettiglugga</string>
+    <string name="recent_delete">Loka forriti</string>
+    <string name="disable_multi_window_popup_description">Slökkt verður á mörgum gluggum og öllum opnum forritum í sprettigluggum verður lokað.</string>
+    <string name="disable_multi_window_popup_easymode_description">Ekki er hægt að nota „Margir gluggar“ í einfaldri útgáfu. Slökktu á einfaldri útgáfu og reyndu aftur.</string>
+    <string name="yes">Í lagi</string>
+    <string name="no">Hætta við</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Ef hlustað er á háum hljóðstyrk í langan tíma kann það að skaða heyrnina. Pikkaðu á „Í lagi“ til að hækka hljóðstyrkinn meira en ráðlegt er.</string>
+    <string name="tw_cover_volume_warning_message">Ef hlustað er á háum hljóðstyrk í langan tíma kann það að skaða heyrnina. Opnaðu hulstrið til að hækka.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Kveikja á flugstillingu</string>
+    <string name="global_actions_toggle_airplane_mode">Flughamur</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Flugstilling gerir þér kleift að slökkva á símtölum, skilaboðum og farsímakerfiseiginleikum.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Flugstilling verður gerð óvirk.</string>
+    <string name="multi_window_use_popup_title">Nota marga glugga</string>
+    <string name="multi_window_use_popup_msg">Ekki er hægt að hafa kveikt á mörgum gluggum og TalkBack á sama tíma. Slökkt verður á TalkBack.</string>
+    <string name="air_gesture_use_popup_title">Kveikja á air gesture</string>
+    <string name="air_gesture_use_popup_msg">Ekki er hægt að hafa kveikt á flotbendingu og TalkBack á sama tíma. Slökkt verður á TalkBack.</string>
+    <string name="air_view_use_popup_title">Kveikja á flotskoðun</string>
+    <string name="air_view_use_popup_msg">Ekki er hægt að hafa kveikt á flotskoðun og valkostunum hér að neðan á sama tíma. Slökkt verður á valkostunum hér að neðan.</string>
+    <string name="car_mode_enable_use_popup_title">Kveikja á bílastillingu</string>
+    <string name="car_mode_use_popup_msg">Ekki er hægt að hafa kveikt á bílastillingu og TalkBack í einu. Slökkt verður á TalkBack.</string>
+    <string name="smart_pause_use_popup_title">Kveikja á snjallhléi</string>
+    <string name="smart_pause_use_popup_msg">Ekki er hægt að hafa kveikt á TalkBack og snjallhléi á sama tíma. Slökkt verður á TalkBack.</string>
+    <string name="smart_scroll_use_popup_title">Kveikja á snjallflettingu</string>
+    <string name="smart_scroll_use_popup_msg">Ekki er hægt að hafa kveikt á TalkBack og snjallflettingu á sama tíma. Slökkt verður á TalkBack.</string>
+    <string name="smart_stay_use_popup_title">Kveikja á snjalldvöl</string>
+    <string name="smart_stay_use_popup_msg">Ekki er hægt að hafa kveikt á TalkBack og snjalldvöl á sama tíma. Slökkt verður á TalkBack.</string>
+    <string name="toolbox_use_popup_title">Kveikja á verkfærakassa</string>
+    <string name="toolbox_use_popup_msg">Ekki er hægt að hafa kveikt á verkfærakassanum og TalkBack í einu. Slökkt verður á TalkBack.</string>
+    <string name="sidekey_use_popup_title">Kveikja á hliðarlyklaborði</string>
+    <string name="sidekey_use_popup_msg">Ekki er hægt að hafa kveikt á hliðarlyklaborði og TalkBack í einu. Slökkt verður á TalkBack.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Tilkynning</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Takki fyrir nýlegt</string>
+    <string name="recent_menukey_press_description_vzw">Valmyndartakkanum hefur verið skipt út fyrir takkann fyrir nýlegt til að gera þér kleift að skipta fljótt yfir í forrit sem þú notaðir nýlega. Frekari upplýsingar má nálgast með því að pikka á Hjálp.</string>
+    <string name="recent_menukey_press_description_no_help">Valmyndartakkanum hefur verið skipt út fyrir takkann fyrir nýlegt til að gera þér kleift að skipta á fljótlegan hátt yfir í forrit sem þú notaðir nýlega.</string>
+    <string name="recent_menukey_press_description_att">Valmyndartakkanum hefur verið skipt út fyrir takkann fyrir nýlegt. Þegar forrit er opið heldurðu takkanum fyrir nýlegt inni til að birta valmyndaratriði.</string>
+    <string name="recent_help_dialog_title_for_split_view">Nýir eiginleikar fyrir marga glugga</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Til að opna forrit á skiptum skjá skaltu pikka á %s á titilstiku forritsgluggans. Táknið sést þegar forrit styður skiptan skjá.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Til að opna forrit á skiptum skjá skaltu pikka á táknið fyrir skiptan skjá á titilstiku forritsgluggans. Táknið sést þegar forrit styður skiptan skjá.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Haltu fingri á glugga forrits til að opna forritið í sprettiglugga. Til að skipta úr sprettiglugga yfir í skiptan skjá skaltu draga sprettiglugga forritsins efst eða neðst á skjáinn.</string>
+    <string name="recent_menukey_help_button">Hjálp</string>
+    <string name="btn_text_yes">Í lagi</string>
+    <string name="qs_edit_settings_title">Tilkynningaskjár</string>
+    <string name="qs_edit_settings_available_button">Tiltækir hnappar</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Sérstilltu hvaða flýtistillingahnappar birtast efst á tilkynningaskjánum. Haltu fingri á hnöppunum og dragðu þá svo til að bæta þeim við eða breyta röðinni.</string>
+    <string name="notification_panel_unable_remove_minimum">Ekki er hægt að fjarlægja hnappinn. Lágmarksfjölda hnappa náð (%d).</string>
+    <string name="qs_edit_setting_edit_button">Panta aftur</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Flugstilling gerir þér kleift að slökkva á símtölum, skilaboðum og gagnaneti. Hún slekkur einnig á samskiptaeiginleikum á borð við Wi-Fi og Bluetooth. Til að nota Wi-Fi og Bluetooth skaltu kveikja á þeim eiginleikum í stillingum eða á tilkynningaskjánum.</string>
+    <string name="pickup_tutorial_title">Prófa snjalláminningu</string>
+    <string name="put_your_phone">Eftir að þú leggur tækið niður slokknar á skjánum.</string>
+    <string name="phone_detect">Gerum ráð fyrir að þú eigir ósvöruð símtöl eða skilaboð. Leggðu tækið niður og taktu upp aftur þegar skjárinn hefur slökkt á sér.</string>
+    <string name="pick_up_your_phone">Taktu upp tækið</string>
+    <string name="tutorial_complete">Kennslu lokið.</string>
+    <string name="share_via">Samnýta um</string>
+    <string name="airmsg_warning_alert_check">Ekki sýna aftur</string>
+    <string name="airmsg_check_data_title_WLAN">Tengjast þráðlausu staðarneti</string>
+    <string name="airmsg_check_data_title_Mobile">Tengjast í gegnum farsímakerfi</string>
+    <string name="cooling_title">Tækið er að ofhitna</string>
+    <string name="cooling_body">"Tækið þitt er að ofhitna. Gripið verður til ráðstafana til að kæla það niður.
+
+Þú getur áfram notað tækið en
+- skjárinn gæti orðið dekkri.
+- tækið gæti orðið hægvirkara.
+- hlé kann að vera gert á hleðslu.
+
+Ef þú lokar núverandi forriti kólnar tækið hraðar.
+
+Þegar tækið hefur kólnað verða afköst þess sjálfkrafa færð í eðlilegt horf."</string>
+    <string name="cooling_noti_text">Pikkaðu hér til að sjá upplýsingar.</string>
+    <string name="cooling_popup_name">Tilkynning</string>
+    <string name="cooling_noti_title">Tækið er að ofhitna</string>
+    <string name="btn_text_no">Hætta</string>
+    <string name="device_overheating">Tækið er að ofhitna</string>
+    <string name="colling_noti_text_2">Ekki er hægt að opna forrit. Þú getur aðeins notað forritin Sími og Tengiliðir.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Pikkaðu hér til að fá frekari upplýsingar.</string>
+    <string name="cooling_popup_name_VZW">Tilkynning</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">Í lagi</string>
+    <string name="btn_text_no_VZW">Hætta</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Slökkva á öryggisstill.</string>
+    <string name="safe_mode_popup_body_global">Tækið verður endurræst til að slökkva á öryggisstillingu. Hægt er að nota öll forrit.</string>
+    <string name="safe_mode_off_btn_global">Í lagi</string>
+    <string name="safe_mode_noti_on_global">Örugg stilling á</string>
+    <string name="safe_mode_noti_body_global">Pikkaðu hér til að slökkva á öryggisstillingu.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Hætta</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Til að skipta um hljóðstillingu skaltu stilla truflunarstillinguna á forgang eða allt.</string>
+    <string name="accessibility_driving_mode">Til að kveikja á handfrjálsri stillingu þarftu að kveikja á minnst einni tengdri aðgerð.</string>
+    <string name="qs_vibrate_on_in_priority">"Titringur
+(forgangur)"</string>
+    <string name="qs_sound_on_in_priority">"Hljóð
+(forgangur)"</string>
+    <string name="qs_silent_popup_title">Hljóðstilling</string>
+    <string name="qs_silent_popup_sound">Hljóð</string>
+    <string name="qs_silent_popup_vibrate">Titra</string>
+    <string name="qs_rotate_popup_title">Skjásnúningur</string>
+    <string name="qs_rotate_popup_all">Allt</string>
+    <string name="qs_torch_popup_title">Vasaljós</string>
+    <string name="qs_torch_popup_brightness">Birtustig</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Ekkert</string>
+    <string name="disable_multi_window_dialog_title">Slökkva á mörgum gluggum</string>
+    <string name="disable_multi_window_dialog_text">Slökkt verður á mörgum gluggum og öllum opnum forritum í sprettigluggum verður lokað.</string>
+    <string name="AirplaneNoti_title">Kveikt á flugstillingu</string>
+    <string name="AirplaneNoti_text">Slökkva</string>
+    <string name="quickpanel_interruption_always_interrupt">"Trufla
+alltaf"</string>
+    <string name="quickpanel_interruption_priority_only">"Aðeins
+forgangur"</string>
+    <string name="tw_sound_priority_desciption">Hljóð fyrir forgangstruflanir</string>
+    <string name="tw_vibrate_priority_desciption">Titringur fyrir forgangstruflanir</string>
+    <string name="tw_mute_priority_desciption">Engar truflanir (ekki heldur vekjarar)</string>
+    <string name="tw_zen_off_interruptions">Þegar símtöl og tilkynningar berast</string>
+    <string name="tw_interruption_level_priority">Aðeins forgangur</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Leyfa aðeins forgangstruflanir</string>
+    <string name="tw_interruption_level_all_vzw">Trufla alltaf</string>
+    <string name="tw_mute_priority_toast_description">"Engar truflanir
+(ekki heldur vekjarar)"</string>
+    <string name="dnd_noti_title">Kveikt á „Ónáðið ekki“</string>
+    <string name="dnd_noti_message">Vekjarar þaggaðir</string>
+    <string name="dnd_noti_action_disable">Slökkva</string>
+    <string name="torch_light_notification_title">Kveikt á vasaljósi</string>
+    <string name="torch_light_notification_message">Slökkva á vasaljósi</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Slökkt verður á símkerfistakmörkun</string>
+    <string name="recent_help_dialog_title_for_popup_view">Margir gluggar notaðir</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Til að opna forrit á skiptum skjá skaltu pikka á %s á titilstiku forritsgluggans. Þetta tákn sést þegar forritið styður skiptan skjá.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Til að opna forrit á skiptum skjá skaltu pikka á tákn skipts skjás á titilstiku forritsgluggans. Þetta tákn sést þegar forritið styður skiptan skjá.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Einnig er hægt að halda fingri á takkanum fyrir nýlegt á hvaða skjá sem er til að opna forrit á skiptum skjá.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Skoðaðu forrit í sprettigluggum með því að strjúka skáhallt niður úr öðru hvoru horninu efst á skjánum þegar forritið er opið og birt á skjánum.</string>
+    <string name="wallpaper_crop_button_done">Lokið</string>
+    <string name="accessibility_desc_notification_panel">Tilkynningaskjár</string>
+</resources>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Wielgi</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Żŏdyn</item>
+        <item>Efekt weli</item>
+        <item>Efekt świetlny</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Wył.</item>
+        <item>1 godz.</item>
+        <item>2 godz.</item>
+        <item>3 godz.</item>
+        <item>4 godz.</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Ameryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Azjŏ</item>
+        <item>Australia</item>
+        <item>Pacyfik</item>
+        <item>Wszyjske</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nigdy</item>
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Hned kneflym folowaniŏ abo ja sie skōńczy limit czasu ekranu</item>
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Na szlag</item>
+        <item>5 sek.</item>
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Blank mały</item>
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Wielgi</item>
+        <item>Srogi</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Fest poleku</item>
+        <item>Poleku</item>
+        <item>Normalnie</item>
+        <item>Gibko</item>
+        <item>Trocha warcij</item>
+        <item>Barzij gibko</item>
+        <item>Fest gibko</item>
+        <item>Extra gibko</item>
+        <item>Nŏjgibcyj</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Fest niski</item>
+        <item>Niski</item>
+        <item>Wył.</item>
+        <item>Wysoki</item>
+        <item>Fest srōgi</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skanōwanie..</item>
+        <item>Łōnczynie…</item>
+        <item>Uwierzytelnianiy…</item>
+        <item>Uzyskiwaniy adresy IP….</item>
+        <item>Połōnczōno</item>
+        <item>Deaktywowane</item>
+        <item>Rozłōnczaniy…</item>
+        <item>Rozłōnczono</item>
+        <item>Niyudane</item>
+        <item>Blokniynty</item>
+        <item>Sprŏwdzanie jakości połōnczyniŏ z Internecym…</item>
+        <item>Połōnczōno</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skanōwanie..</item>
+        <item>Łōnczynie z %s…</item>
+        <item>Uwierzytelnianiy w necu %s…</item>
+        <item>Dostŏwaniy adresy IP z neca %s….</item>
+        <item>Połōnczōno z maszinōm %1$s.</item>
+        <item>Deaktywowane</item>
+        <item>Ôdłōnczaniy ôd %s..</item>
+        <item>Rozłōnczono</item>
+        <item>Niyudane</item>
+        <item>Blokniynty</item>
+        <item>Sprŏwdzanie jakości połōnczyniŏ z Internecym…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Ôtwartŏ</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Knefel punktu dostympu</item>
+        <item>Kōd PIN z masziny rōwnorzyndnyj</item>
+        <item>Kōd PIN z tyj masziny</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Połōnczono</item>
+        <item>Zaproszono</item>
+        <item>Połōn. niypodarzōne</item>
+        <item>Tyknij tukej, coby połōnczyć.</item>
+        <item>Poza zakresym.</item>
+        <item>Połōnczyniy z inkszōm maszinōm</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Nigdy</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>60 min</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Wszyjskie masziny</item>
+        <item>Ino dozwolōne masziny</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Autōmatycznie</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Sztandardowy</item>
+        <item>Wysoki</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 godz.</item>
+        <item>12 godz.</item>
+        <item>24 godz.</item>
+        <item>Bez czasowego limitu</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>1 godzina</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>1 godzina</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Darymny</item>
+        <item>Dostateczny</item>
+        <item>Dobry</item>
+        <item>Sprŏwny</item>
+        <item>Fest sprŏwnie</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Zŏwdy</item>
+        <item>ino kej podłōnczony</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Zŏwdy</item>
+        <item>ino kej podłōnczony</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Ôstatnie 30 dni</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Ukłŏd alfabetyczny</item>
+        <item>Moc sygnału</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Autōmatyczny</item>
+        <item>ino 5 GHz</item>
+        <item>ino 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Autōmatyczny</item>
+        <item>Użij pasma 5 GHz</item>
+        <item>Użyj pasma 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Fest sprŏwnie</item>
+        <item>Sprŏwny</item>
+        <item>Dobry</item>
+        <item>Wszyjske</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Czas fungowaniŏ</item>
+        <item>Last time used</item>
+        <item>Miano aplikacyji</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Żŏdyn</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Żŏdyn</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Wyłōncz</item>
+        <item>Knefel punktu dostympu</item>
+        <item>Kōd PIN z pōnktu dostympu</item>
+        <item>Kōd PIN z tyj masziny</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statyczny</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Żŏdyn</item>
+        <item>Sōmymu</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Normalnŏ</item>
+        <item>Downtown</item>
+        <item>Prywatnŏ</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>To je nŏjbarzij ôgōlne nasztalowaniy połōnczyniŏ Wi-FI</item>
+        <item>Kej żeś je w placu kaj sōm roztōmajte nece Wi-Fi, połōnczyniy Wi-Fi bydzie czynsto ponŏwiane coby uzyskać lepszy sygnōł.</item>
+        <item>Kej żeś je w placu kaj sōm roztōmajte nece Wi-FI, połōnczyniy Wi-FI je utrzimywane tak dugo jak idzie.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Żŏdyn</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP abo CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Niyôkreślōny</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Żŏdyn</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Wewnyntrzno pamiyńć masowŏ masziny</item>
+        <item>Przenośnŏ karta pamiyńci</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Dozwolōne</item>
+        <item>Ignored</item>
+        <item>Zowdy pytej</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokalizacyjŏ</item>
+        <item>Persōnalne</item>
+        <item>Wiadōmości</item>
+        <item>Mydia</item>
+        <item>Maszina</item>
+        <item>Automatyczne uruchamianie</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Dostęp do przybliżonej lokalizacji</item>
+        <item>Dostęp do dokładnej lokalizacji</item>
+        <item>Lokalizacjŏ</item>
+        <item>Wibracyjŏ</item>
+        <item>Ôdczytuj kōntakty</item>
+        <item>Zarządzanie kontaktami</item>
+        <item>Zachowej we spisie gŏdek</item>
+        <item>Szkryflej spis gŏdek.</item>
+        <item>Czytać z kalyndŏrza</item>
+        <item>Zarządzanie kalendarzami</item>
+        <item>Wyszukuj sieci Wi-Fi</item>
+        <item>Nowina</item>
+        <item>Skanowanie komórek</item>
+        <item>Nawiązywanie połączeń telefonicznych</item>
+        <item>Odczyt SMS</item>
+        <item>Pisz SMS</item>
+        <item>Odbieranie SMS</item>
+        <item>Odbieranie alarmowych SMS</item>
+        <item>Odbieranie MMS</item>
+        <item>Odbieranie wiadomości WAP Push</item>
+        <item>Posyłej SMSy</item>
+        <item>Odczyt SMS na karcie SIM</item>
+        <item>Zapisuj SMS na karcie SIM</item>
+        <item>Modyfikowanie ustawień</item>
+        <item>Nakładanie interfejsu aplikacji</item>
+        <item>Nowiny ô dostympie</item>
+        <item>Fotoaparat</item>
+        <item>Nagrej dźwiynk</item>
+        <item>Odtwarzanie plików audio</item>
+        <item>Odczyt danych schowka</item>
+        <item>Zarządzanie danymi schowka</item>
+        <item>Kōntroluj media</item>
+        <item>Kōntroluj audio ôstrość</item>
+        <item>Przipasuj ôgōlnŏ głośność</item>
+        <item>Przipasuj głośność gŏdek</item>
+        <item>Przipasuj głośność zwōnka</item>
+        <item>Przipasuj głośność mediōw</item>
+        <item>Przipasuj głośność alarmu</item>
+        <item>Przipasuj głośność alarmu</item>
+        <item>Przipasuj głośność klangu ze maszin Bluetooth.</item>
+        <item>Pozostawianie włączonego ekranu</item>
+        <item>Monitorowanie informacji o lokalizacji</item>
+        <item>Monitorowanie bardzo dokładnych informacji o lokalizacji</item>
+        <item>Odczytywanie wykorzystania urządzenia</item>
+        <item>Załōncz i wyłōncz mikrofōn</item>
+        <item>Przechwytywanie multimediów</item>
+        <item>Chyć media</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Posyłanie MMS</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Automatyczne uruchamianie</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokalizacyjŏ</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Wibracyjŏ</item>
+        <item>Ôdczytuj kōntakty</item>
+        <item>Zarządzanie kontaktami</item>
+        <item>Zachowej we spisie gŏdek</item>
+        <item>Szkryflej spis gŏdek.</item>
+        <item>Czytać z kalyndŏrza</item>
+        <item>Zarządzanie kalendarzami</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Pokŏzuj nowiny</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Nawiązywanie połączeń telefonicznych</item>
+        <item>Odczyt SMS</item>
+        <item>Pisz SMS</item>
+        <item>Odbieranie SMS</item>
+        <item>Odbieranie alarmowych SMS</item>
+        <item>Odbieranie MMS</item>
+        <item>Odbieranie wiadomości WAP Push</item>
+        <item>Posyłej SMSy</item>
+        <item>Odczyt SMS na karcie SIM</item>
+        <item>Zapisuj SMS na karcie SIM</item>
+        <item>Modyfikowanie ustawień</item>
+        <item>Nakładanie interfejsu aplikacji</item>
+        <item>Nowiny ô dostympie</item>
+        <item>Fotoaparat</item>
+        <item>Nagrej dźwiynk</item>
+        <item>Odtwarzanie plików audio</item>
+        <item>Odczyt danych schowka</item>
+        <item>Zarządzanie danymi schowka</item>
+        <item>Kōntroluj media</item>
+        <item>Kōntroluj audio ôstrość</item>
+        <item>Przipasuj ôgōlnŏ głośność</item>
+        <item>Przipasuj głośność gŏdek</item>
+        <item>Przipasuj głośność zwōnka</item>
+        <item>Przipasuj głośność mediōw</item>
+        <item>Przipasuj głośność alarmu</item>
+        <item>Przipasuj głośność alarmu</item>
+        <item>Przipasuj głośność klangu ze maszin Bluetooth.</item>
+        <item>Pozostawianie włączonego ekranu</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Lokalizacyjŏ</item>
+        <item>Odczytywanie wykorzystania urządzenia</item>
+        <item>Załōncz i wyłōncz mikrofōn</item>
+        <item>Przechwytywanie multimediów</item>
+        <item>Chyć media</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Posyłanie MMS</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Automatyczne uruchamianie</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Wyciepowanie kōntaktōw</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Krōtki (0.5 s)</item>
+        <item>Strzedni (1.0 s)</item>
+        <item>Dugi (1.5 s)</item>
+        <item>Niystandardowŏ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Krōtki</item>
+        <item>Normalny</item>
+        <item>Dugi</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Sztandardowe</item>
+        <item>Bezszeryfowy</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Codzienność</item>
+        <item>Kursywa</item>
+        <item>Małe mycki.</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Fest mały</item>
+        <item>Niywielgi</item>
+        <item>Normalny</item>
+        <item>Wielgi</item>
+        <item>Fest wielgi</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Sztandardowe</item>
+        <item>Żŏdyn</item>
+        <item>Ôbrys</item>
+        <item>Ciyń</item>
+        <item>Buła</item>
+        <item>Klynkiynty</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Dōmyślny</item>
+        <item>Biŏły na czŏrn.</item>
+        <item>Czŏrny na biŏł.</item>
+        <item>Żōłty na czŏrn.</item>
+        <item>Żōłty na modr.</item>
+        <item>Niystandardowŏ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB na bufor dziynnika.</item>
+        <item>256 KB na bufor dziynnika.</item>
+        <item>1 MB na bufor dziynnika.</item>
+        <item>4 MB na bufor dziynnika.</item>
+        <item>16 MB na bufor dziynnika.</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nigdy niy badej</item>
+        <item>Badnij ino na zawartość DRM</item>
+        <item>Zŏwdy badej</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nigdy niy używej badaniŏ HDCP</item>
+        <item>Badania HDCP używej ino do zawartości DRM</item>
+        <item>Zŏwdy używej badaniŏ HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacjŏ je wyłōnczōnŏ</item>
+        <item>Skala animacyje 0,5x</item>
+        <item>Skala animacyje 1x</item>
+        <item>Skala animacyje 1,5x</item>
+        <item>Skala animacyje 2x</item>
+        <item>Skala animacyje 5x</item>
+        <item>Skala animacyje 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacjŏ je wyłōnczōnŏ</item>
+        <item>Skala animacyje 0,5x</item>
+        <item>Skala animacyje 1x</item>
+        <item>Skala animacyje 1,5x</item>
+        <item>Skala animacyje 2x</item>
+        <item>Skala animacyje 5x</item>
+        <item>Skala animacyje 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacjŏ je wyłōnczōnŏ</item>
+        <item>Skala animacyje 0,5x</item>
+        <item>Skala animacyje 1x</item>
+        <item>Skala animacyje 1,5x</item>
+        <item>Skala animacyje 2x</item>
+        <item>Skala animacyje 5x</item>
+        <item>Skala animacyje 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Żŏdyn</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Żŏdyn</item>
+        <item>Logcat</item>
+        <item>Systrace (grafiki)</item>
+        <item>Gŏdka mŏ glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Wyłōncz</item>
+        <item>Wyrōżnij powierzchniŏ niyprostokōntnych prziciyńć na modro</item>
+        <item>Wyrōżnij przetestowane polecynia rysowaniŏ na zielōnŏ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Skryj</item>
+        <item>Pokŏż na ekrōniy jako pŏski</item>
+        <item>Pokŏż we przikozie adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Wyłōncz</item>
+        <item>Pokŏż place przesztrychowaniŏ</item>
+        <item>Pokŏż place dlŏ deuteroanomalij</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Limit standardowy</item>
+        <item>Niy ma procesōw w tle</item>
+        <item>Nŏjwyżyj 1 proces</item>
+        <item>Nŏjwyżyj 2 procesy</item>
+        <item>Nŏjwyżyj 3 procesy</item>
+        <item>Nŏjwyżyj 4 procesy</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>Nec VPN L2TP/IPSec korzystŏ ze wstympnie udostympniōnych kluczy</item>
+        <item>Nec VPN L2TP/IPSec korzystŏ ze certyfikatōw</item>
+        <item>Nec VPN L2TP/IPSec korzystŏ ze wstympnie udostympniōnych kluczy i uwierzytelniyniŏ XAuth</item>
+        <item>Nec VPN L2TP/IPSec korzystŏ ze certyfikatōw i uwierzytelniyniŏ XAuth</item>
+        <item>Nec VPN L2TP/IPSec korzystŏ ze certyfikatōw i uwierzytelniyniŏ hybrydowego</item>
+        <item>Nec VPN IP sec z IKEv2 i uwierzytelnianiym podōg wstympnie udostympnionym kluczu</item>
+        <item>Nec VPN IP sec z IKEv2 i uwierzytelnianiym podōg certyfikatōw</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Rozłōnczono</item>
+        <item>Inicjowanie…</item>
+        <item>Łōnczynie…</item>
+        <item>Połōnczono</item>
+        <item>Limit czasu</item>
+        <item>Niyudane</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Pytej</item>
+        <item>Nigdy niy gŏdej \"ja\"</item>
+        <item>Zŏwdy gŏdej \"ja\"</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normalny</item>
+        <item>Strzedni</item>
+        <item>Niski</item>
+        <item>fest słabo</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Wyłōncz</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normalnŏ</item>
+        <item>Strzedni</item>
+        <item>Niski</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Stałe</item>
+        <item>Top dzŏłanie</item>
+        <item>Ważne (pierwszy plan)</item>
+        <item>Ważne (tło)</item>
+        <item>Backup</item>
+        <item>Fest ciynżki</item>
+        <item>Serwis (fōnguje)</item>
+        <item>Serwis (resztartuje)</item>
+        <item>Odbiornik</item>
+        <item>Home</item>
+        <item>Ostatnia aktywność</item>
+        <item>Pamiyńć podryncznŏ (acktywność)</item>
+        <item>Pamiyńć podryncznŏ (aktywny kliynt)</item>
+        <item>Pamiyńć podryncznŏ (prōznŏ)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Maszina</item>
+        <item>Karta SD</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Zowdy ôdbiyrej</item>
+        <item>Zowdy pytej</item>
+        <item>Zawdy ôdciepuj</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Filmy</item>
+        <item>Foto</item>
+        <item>Muzyka</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Autōmatyczny</item>
+        <item>Ryncznie</item>
+        <item>Zowdy pytej</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Zawdy wył.</item>
+        <item>3 sek.</item>
+        <item>5 sek.</item>
+        <item>10 sek.</item>
+        <item>15 sek.</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Żŏdyn</item>
+        <item>Wszyjske kōntakty</item>
+        <item>Nŏjrŏdsze</item>
+        <item>Niystand.</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Żŏdyn</item>
+        <item>Wszyjske kōntakty</item>
+        <item>Nŏjrŏdsze</item>
+        <item>Grupy</item>
+        <item>Niystand.</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Wysoki</item>
+        <item>Normalny</item>
+        <item>Niski</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Bieżōncy nec</item>
+        <item>Zŏwdy pytej</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Prywatnŏ</item>
+        <item>Biuro</item>
+        <item>Herc</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Połōnczynia</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Internec</item>
+        <item>Prywatnŏ</item>
+        <item>Biuro</item>
+        <item>Herc</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Zamiyń skrōt</item>
+        <item>Wynuluj knefel dopasowany</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Klang</item>
+        <item>Wibracyjŏ</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>10 min</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Wysoki</item>
+        <item>Nōrmalny</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>3 min</item>
+        <item>5 min</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Dostympność</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Dostympność</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Wszyjske</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Rŏz</item>
+        <item>Co 10 min</item>
+        <item>Co 20 minut</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (autōmatyczne pomiynianiy)</item>
+        <item>Inŏ MB</item>
+        <item>Inŏ GB</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>W czasie rzeczywistym</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+        <item>2 godz.</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Klaszyczny</item>
+        <item>Pōłtōn</item>
+        <item>Morphing</item>
+        <item>Farbiaty</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1,5 sek.</item>
+        <item>6 sek.</item>
+        <item>Zawdy wył.</item>
+        <item>Zawdy zał.</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Gōra</item>
+        <item>Środek</item>
+        <item>Spodek</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Info</item>
+        <item>Gełda</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Wiadōmości</item>
+        <item>Gełda</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Poleku</item>
+        <item>Normalnŏ</item>
+        <item>Gibko</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Żŏdyn</item>
+        <item>Co 30 minut</item>
+        <item>Co 1 godzina</item>
+        <item>Co 2 godziny</item>
+        <item>Kŏżde 4 godziny</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Suchawki</item>
+        <item>Kōmputer</item>
+        <item>Telefōn</item>
+        <item>HID (tastatura, mysza itp.)</item>
+        <item>Wszyjskie masziny</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Stereo</item>
+        <item>Surround</item>
+    </string-array>
+</resources>

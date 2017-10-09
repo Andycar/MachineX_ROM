@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/updatedate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/col_def_info_color" android:id="@id/updatedate_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/col_50_000000" android:shadowDy="3.0" android:shadowRadius="4.0" android:fontFamily="sans-roboto-light" />
+        <RelativeLayout android:id="@id/refresh" android:focusable="true" android:nextFocusUp="@id/background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/refresh_button" android:layout_marginStart="1.0dip">
+            <ProgressBar android:id="@id/refreshflipper" android:focusable="false" android:visibility="invisible" android:drawingCacheQuality="high" android:duplicateParentState="true" android:layout_width="16.0dip" android:layout_height="16.0dip" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateBehavior="repeat" android:layout_centerVertical="true" android:autoStart="true" />
+            <ImageView android:id="@id/refreshview" android:duplicateParentState="true" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="@color/col_def_widget_refresh_location_icon_color" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

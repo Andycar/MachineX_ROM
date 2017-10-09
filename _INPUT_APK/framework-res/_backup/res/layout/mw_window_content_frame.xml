@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/windowContentFrame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/windowIconicFrame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/windowIconic" android:visibility="gone" android:layout_width="@dimen/multiwindow_minimized_width" android:layout_height="@dimen/multiwindow_minimized_height" />
+    </FrameLayout>
+</LinearLayout>

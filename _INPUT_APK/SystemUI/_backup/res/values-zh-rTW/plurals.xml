@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM 卡的 PIN 碼輸入錯誤，您還可以再試 %d 次。</item>
+        <item quantity="one">SIM 卡的 PIN 碼輸入錯誤，您還可以再試 %d 次。如果仍然失敗，就必須請行動通訊業者為裝置解鎖。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM 卡的 PUK 碼輸入錯誤，您還可以再試 %d 次。如果仍然失敗，SIM 卡將永久無法使用。</item>
+        <item quantity="one">SIM 卡的 PUK 碼輸入錯誤，您還可以再試 %d 次。如果仍然失敗，SIM 卡將永久無法使用。</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d 個最近的應用程式</item>
+        <item quantity="one">1 個最近的應用程式</item>
+    </plurals>
+</resources>

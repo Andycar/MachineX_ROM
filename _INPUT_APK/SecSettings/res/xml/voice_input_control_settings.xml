@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="voice_input_control_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/voice_input_control_incomming_calls" android:key="voice_input_control_incomming_calls" android:summary="@string/voice_control_incomming_calls_summary_v2" />
+    <CheckBoxPreference android:title="@string/voice_input_control_chaton_v" android:key="voice_input_control_chatonv" android:summary="@string/voice_control_chaton_calls_summary_v2" />
+    <CheckBoxPreference android:title="@string/voice_input_control_alarm" android:key="voice_input_control_alarm" android:summary="@string/voice_control_alarm_summary_v2" />
+    <CheckBoxPreference android:title="@string/voice_input_control_camera" android:key="voice_input_control_camera" android:summary="@string/voice_control_camera_summary_v2" />
+    <CheckBoxPreference android:title="@string/voice_input_control_music" android:key="voice_input_control_music" android:summary="@string/voice_control_music_summary_v2" />
+</PreferenceScreen>

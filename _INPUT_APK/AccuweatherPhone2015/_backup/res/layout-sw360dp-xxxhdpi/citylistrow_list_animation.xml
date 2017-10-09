@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="109.5dip" android:minHeight="109.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/contentsLayout" android:layout_width="fill_parent" android:layout_height="109.5dip" android:layout_alignParentTop="true">
+        <com.sec.android.widgetapp.weather.libs.common.view.DeviceDefaultCheckBox android:id="@id/checkbox" android:background="@android:color/transparent" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/mycitydatanameLayout" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/currentlocationicon" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="32.0dip" android:src="@drawable/weather_ic_list_location" android:tint="@color/col_def_widget_current_location_icon_color" android:layout_marginEnd="2.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="24.0dip" android:textStyle="normal" android:ellipsize="end" android:id="@id/mycitydataname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sec-roboto-light" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textStyle="normal" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mycitydatastatename" android:layout_width="wrap_content" android:layout_height="19.0dip" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="0" android:fontFamily="sec-roboto-light" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/mycitydatatimeLayout" android:layout_width="wrap_content" android:layout_height="19.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/dst_icon" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/weather_ic_list_summertime" android:layout_marginEnd="2.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textStyle="normal" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:id="@id/mycitydatatime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="sec-roboto-light" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textStyle="normal" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:id="@id/mycitydatatimeampm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="sec-roboto-light" android:paddingStart="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/contentsTempLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/mycitydataweathericon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="61.0dip" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="65.0dip" android:layout_height="51.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="32.0dip" android:gravity="end|center" android:id="@id/mycitydatacurrenttemp" android:layout_width="wrap_content" android:layout_height="32.0dip" android:singleLine="true" android:fontFamily="samsung-neo-num3L" android:layoutDirection="ltr" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="19.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textColor="?android:textColorSecondary" android:gravity="end|center" android:id="@id/weatherTempHigh" android:layout_width="wrap_content" android:layout_height="19.0dip" android:fontFamily="samsung-neo-num3L" />
+                    <View android:layout_gravity="center_vertical" android:background="@drawable/weather_ic_list_slash" android:layout_width="7.0dip" android:layout_height="19.0dip" android:layout_marginTop="1.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textColor="?android:textColorSecondary" android:gravity="end|center" android:id="@id/weatherTempLow" android:layout_width="wrap_content" android:layout_height="19.0dip" android:fontFamily="samsung-neo-num3L" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

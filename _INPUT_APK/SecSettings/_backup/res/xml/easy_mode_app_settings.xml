@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="easy_mode_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/font" android:key="font_category" />
+    <com.android.settings.FontSizeListPreference android:entries="@array/entry_easy_mode_font_size" android:title="@string/title_font_size" android:key="font_size" android:summary="@string/summary_font_size" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/dialog_title_font_size" android:entryValues="@array/entryvalues_easy_mode_font_size" />
+    <PreferenceCategory android:title="@string/home" android:key="home_category" />
+    <CheckBoxPreference android:title="@string/easy_mode_camera" android:key="easy_mode_home" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <PreferenceCategory android:title="@string/easy_mode_settings_category_title" android:key="easy_mode_app_list">
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference_all" android:title="@string/easy_mode_select_all" android:key="easy_mode_select_all" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_camera" android:key="easy_mode_camera" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_clock" android:key="easy_mode_clock" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_email" android:key="easy_mode_email" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_gallery" android:key="easy_mode_gallery" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_internet" android:key="easy_mode_internet" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_messages" android:key="easy_mode_messages" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_music" android:key="easy_mode_music" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_myfiles" android:key="easy_mode_myfiles" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_phone" android:key="easy_mode_phone" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_splanner" android:key="easy_mode_splanner" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_video" android:key="easy_mode_video" android:widgetLayout="@layout/preference_widget_checkbox" />
+        <CheckBoxPreference android:layout="@layout/easy_mode_preference" android:title="@string/easy_mode_voicerecorder" android:key="easy_mode_voicerecorder" android:widgetLayout="@layout/preference_widget_checkbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

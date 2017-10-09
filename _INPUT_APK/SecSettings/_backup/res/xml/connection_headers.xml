@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/setting_search">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
+    </header>
+    <header android:id="@id/wireless_section" android:title="@string/header_category_network_connections" />
+    <header android:icon="@drawable/ic_settings_wifi_calling" android:id="@id/wifi_calling_settings" android:title="@string/wifi_calling_mode_title">
+        <intent android:action="com.oem.smartwifisupport.WIFI_CALLING" />
+    </header>
+    <header android:icon="@drawable/ic_settings_wifi" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:summary="@string/tap_to_configure" android:fragment="com.android.settings.wifi.WifiSettings" />
+    <header android:icon="@drawable/ic_settings_sprint_hotspot" android:id="@id/wifi_sprinthotspot_settings" android:title="@string/wifi_tether_checkbox_text" android:fragment="com.android.settings.wifi.mobileap.WifiApSettings" />
+    <header android:icon="@drawable/ic_settings_bluetooth" android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:summary="@string/tap_to_configure" android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+    <header android:icon="@drawable/ic_settings_tethering" android:id="@id/header_connection_tethering_hotspot" android:title="@string/tether_settings_title_all" android:summary="@string/tether_settings_summary_all" android:fragment="com.android.settings.TetherSettings" />
+    <header android:icon="@drawable/ic_settings_airplane_mode" android:id="@id/airplane_mode" android:title="@string/airplane_mode" android:summary="@string/airplane_mode_menu_summary" android:fragment="com.android.settings.AirplaneModeSettings" />
+    <header android:icon="@drawable/ic_settings_airplane_mode" android:id="@id/header_connection_airplane_mode" android:title="@string/airplane_mode" android:summary="@string/airplane_mode_menu_summary4" />
+    <header android:icon="@drawable/ic_setting_grid_toddlermode" android:id="@id/header_connection_toddler_mode" android:title="@string/toddler_mode_title" android:summary="@string/toddler_mode_summary" />
+    <header android:icon="@drawable/ic_settings_downloadbooster" android:id="@id/smart_bonding_settings" android:title="@string/smart_bonding" android:fragment="com.android.settings.smartbonding.SmartBondingSettings" />
+    <header android:icon="@drawable/ic_settings_data_usage" android:id="@id/data_usage_settings" android:title="@string/data_usage_summary_title" android:fragment="com.android.settings.DataUsageSummary" />
+    <header android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+    <header android:icon="@drawable/ic_settings_mobile_data" android:id="@id/mobile_data_settings" android:title="@string/mobile_data_title" android:summary="@string/slot1_mobile_data">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DataSlotChoice" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/dualSlot_settings" android:title="@string/sim_card_management_ds">
+        <intent android:action="settings.SIM_CARD_NETWORK" />
+    </header>
+    <header android:icon="@drawable/ic_settings_roaming" android:id="@id/global_roaming_settings" android:title="@string/lgt_service_global_auto_roaming" android:fragment="com.android.settings.GlobalRoamingSettings" />
+    <header android:icon="@drawable/ic_settings_roaming" android:id="@id/t_roaming_settings" android:title="@string/troaming_activity_name" android:fragment="com.android.settings.TRoamingSettings" />
+    <header android:icon="@drawable/ic_settings_roaming" android:id="@id/kt_roaming_settings" android:title="@string/lgt_service_global_auto_roaming" android:fragment="com.android.settings.TRoamingSettings" />
+    <header android:icon="@drawable/ic_icon_roaming" android:id="@id/international_roaming_setting" android:title="@string/international_roaming_setting">
+        <intent android:targetPackage="com.sec.android.app.irsettings" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.irsettings.InternationalRoamingTab" />
+    </header>
+    <header android:icon="@drawable/ic_settings_more_network" android:id="@id/wireless_settings" android:title="@string/more_networks" android:fragment="com.android.settings.WirelessSettings" android:breadCrumbTitle="@string/more_networks" />
+    <header android:id="@id/share_section" android:title="@string/header_category_connect_share" />
+    <header android:icon="@drawable/ic_settings_nfc" android:id="@id/nfc_setting" android:title="@string/nfc_quick_toggle_title" android:summary="@string/nfc_quick_toggle_summary" android:fragment="com.android.settings.nfc.NfcSettings" />
+    <header android:icon="@drawable/ic_settings_s_beam" android:id="@id/sbeam_setting" android:title="@string/s_beam_settings_title" android:summary="@string/sbeam_menu_summary" android:fragment="com.android.settings.nfc.SBeam" />
+    <header android:icon="@drawable/ic_settings_nearby" android:id="@id/nearby_setting" android:title="@string/allshare_nearby" android:summary="@string/allshare_title_summary" android:fragment="com.android.settings.nearby.NearbySettings" />
+    <header android:icon="@drawable/ic_settings_wireless_printer" android:id="@id/print_settings" android:title="@string/print_settings" android:fragment="com.android.settings.print.PrintSettingsFragment" />
+    <header android:icon="@drawable/ic_settings_nearby" android:id="@id/allshare_cast_settings" android:title="@string/wfd_settings_title" android:summary="@string/wfd_settings_summary" android:fragment="com.android.settings.wfd.WfdPickerActivity" />
+    <header android:icon="@drawable/ic_settings_screen_mirroring" android:id="@id/screen_mirroring_settings" android:title="@string/wfd_settings_title" android:summary="@string/wfd_settings_summary" android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+    <header android:icon="@drawable/ic_settings_mirrolink" android:id="@id/mirror_link_settings" android:title="@string/mirror_link_title" android:summary="@string/mirror_link_summary" android:fragment="com.android.settings.mirrorlink.MirrorLink" />
+    <header android:icon="@drawable/ic_settings_list_kies_via_wifi" android:id="@id/kies_via_wifi" android:title="@string/kies_via_wifi" android:summary="@string/kies_via_wifi_summary">
+        <intent android:targetPackage="com.sec.android.app.kieswifi" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.kieswifi.ui.KiesLauncher" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_nfc" android:id="@id/nfc_osaifukeitai_setting" android:title="@string/nfc_osaifukeitai_title" android:summary="@string/nfc_quick_toggle_summary" android:fragment="com.android.settings.nfc.NfcOsaifukeitaiSettings" />
+</preference-headers>

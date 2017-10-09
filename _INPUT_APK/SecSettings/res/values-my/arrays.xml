@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>အေသး</item>
+        <item>ပံုမွန္</item>
+        <item>အႀကီး</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>မရွိ</item>
+        <item>လိႈင္းတြန္႔ အထူးျပဳလုပ္ခ်က္</item>
+        <item>အလင္း အဖက္</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>ပိတ္</item>
+        <item>1 နာရီ</item>
+        <item>၂ နာရီ</item>
+        <item>၃ နာရီ</item>
+        <item>၄ နာရီ</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>အေမရိကန္</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>အာရွ</item>
+        <item>ၾသစေၾတးလ်</item>
+        <item>ပစိဖိတ္</item>
+        <item>အားလုံး</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၂ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၃ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၁၅ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>ဘယ္ေတာ့မွ</item>
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၂ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>ပါဝါခလုတ္ျဖင့္ ခ်က္ခ်င္း သို႔မဟုတ္ ျမင္ကြင္း ေမွာင္သြားေသာအခါ</item>
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၃ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၁၅ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+        <item>၁ နာရီ</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ခ်က္ခ်င္း</item>
+        <item>၅ စကၠန္႔</item>
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၂ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>အေသးဆံုး</item>
+        <item>အေသး</item>
+        <item>ပံုမွန္</item>
+        <item>အႀကီး</item>
+        <item>အႀကီးဆံုး</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>အလြန္ ေႏွး</item>
+        <item>ေႏွးေသာ</item>
+        <item>ပံုမွန္</item>
+        <item>ျမန္ေသာ</item>
+        <item>အနည္းငယ္ ပိုျမန္</item>
+        <item>မ်ားစြာ ပိုျမန္</item>
+        <item>အလြန္ ျမန္</item>
+        <item>အလြန္႔အလြန္ ျမန္</item>
+        <item>အျမန္ဆံုး</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>အလြန္ နည္းေနပါသည္</item>
+        <item>နည္းေနပါသည္</item>
+        <item>ပုံမွန္</item>
+        <item>ျမင့္ေသာ</item>
+        <item>အလြန္ျမင့္ေသာ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ရွာေဖြေနပါသည္…</item>
+        <item>ဆက္သြယ္ေနပါသည္……</item>
+        <item>စစ္မွန္ေၾကာင္းအေထာက္အထားစစ္ေဆးေနျခင္း..</item>
+        <item>IP လိပ္စာ ရယူေနပါသည္…</item>
+        <item>ခ်ိတ္ဆက္ထားေသာ</item>
+        <item>ဆုိင္းငံ့ထားၿပီး</item>
+        <item>ဆက္သြယ္ထားမႈကုိ ျဖတ္ေတာက္ေနပါသည္..</item>
+        <item>ဆက္သြယ္ထားမႈကို ျဖတ္ေတာက္ၿပီးပါၿပီ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆီးထားပါသည္</item>
+        <item>သင့္ အင္တာနက္ ခ်ိတ္ဆက္မႈ အရည္အေသြး စစ္ေဆးေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ထားေသာ</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ရွာေဖြေနပါသည္…</item>
+        <item>%သုိ႔ ခ်ိတ္ဆက္ေနပါသည္…</item>
+        <item>%s ႏွင့္ စစ္မွန္ေၾကာင္းစစ္ေဆးေနပါသည္</item>
+        <item>%s မွ IP လိပ္စာ ရယူေနပါသည္</item>
+        <item>%1$s သို့ ဆက္သြယ္ျပီး။</item>
+        <item>ဆုိင္းငံ့ထားၿပီး</item>
+        <item>%s အဆက္အသြယ္ ျဖတ္ေနပါသည္…</item>
+        <item>ဆက္သြယ္ထားမႈကို ျဖတ္ေတာက္ၿပီးပါၿပီ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆီးထားပါသည္</item>
+        <item>သင့္ အင္တာနက္ ခ်ိတ္ဆက္မႈ အရည္အေသြး စစ္ေဆးေနသည္…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>ဖြင့္ထားေသာ</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>တြန္းေဆာ္ ခလုတ္</item>
+        <item>အေဖၚ ကိရိယာမွ PIN</item>
+        <item>ဤကိရိယာမွ PIN</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>ခ်ိတ္ဆက္ထားေသာ</item>
+        <item>ဖိတ္ေခၚျပီးၿပီ</item>
+        <item>ဆက္သြယ္မႈ မေအာင္ျမင္ပါ</item>
+        <item>ခ်ိတ္ဆက္ရန္ ဤေနရာ ႏွိပ္ပါ။</item>
+        <item>မ်ဳိးကြဲ</item>
+        <item>အျခား ကိရိယာႏွင့္ ခ်ိတ္ဆက္ထားသည္</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>မည္သည့္အခါမွ မပိတ္ပါ</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၂၀ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+        <item>မိနစ္ 60</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>ကိရိယာ အားလံုး</item>
+        <item>ခြင့္ျပဳ ကိရိယာမ်ားသာ</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>ေအာ္တို</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>၁၀</item>
+        <item>၁၁</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>စံသတ္မွတ္ခ်က္</item>
+        <item>ျမင့္ေသာ</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>၆ နာရီ</item>
+        <item>၁၂ နာရီ</item>
+        <item>၂၄ နာရီ</item>
+        <item>အခ်ိန္ အကန္႔အသတ္ မရွိပါ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>၂ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁ နာရီ</item>
+        <item>မည္သည့္အခါမွ မပိတ္ပါ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>၂ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁ နာရီ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>အားနည္း</item>
+        <item>အသင့္အတင့္</item>
+        <item>ေကာင္းသည္</item>
+        <item>အားေကာင္း</item>
+        <item>အလြန္အားေကာင္း</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>အျမဲတမ္း</item>
+        <item>ပလပ္ တပ္ထားမွသာ</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>အျမဲတမ္း</item>
+        <item>ပလပ္ တပ္ထားမွသာ</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>လြန္ခဲ့ေသာ ၃၀ ရက္</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>အကၡရာစဥ္</item>
+        <item>ထုတ္လႊင့္ခ်က္အင္အား</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>အလုိအေလ်ာက္</item>
+        <item>5 GHz မွ်သာ</item>
+        <item>2.4 GHz သာ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>အလုိအေလ်ာက္</item>
+        <item>၅ GHz ဘန္းအက်ယ္ သံုးပါ</item>
+        <item>၂.၄ GHz ဘန္းအက်ယ္ သံုးပါ</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>အလြန္အားေကာင္း</item>
+        <item>အားေကာင္း</item>
+        <item>သင့္တင့္</item>
+        <item>အားလုံး</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>အသုံးျပဳေနမႈ အခ်ိန္</item>
+        <item>Last time used</item>
+        <item>အပ္ အမည္</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>မရွိ</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>မရွိ</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>ပိတ္</item>
+        <item>တြန္းေဆာ္ ခလုတ္</item>
+        <item>ဝင္ေရာက္ပြိဳင့္မွ PIN</item>
+        <item>ဤကိရိယာမွ PIN</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>မရွိ</item>
+        <item>လမ္းၫႊန္</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>ပုံမွန္</item>
+        <item>ျမိဳ႕ထဲ</item>
+        <item>ပင္မ</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>ဤသည္မွာ အသံုး အမ်ားဆံုး Wi-Fi ဆက္သြယ္ေရး သတ္မွတ္ခ်က္ ျဖစ္သည္။</item>
+        <item>သင္သည္ Wi-Fi ကြန္ရက္ မ်ားသည့္ ေဒသမွာ ရွိေနပါက၊ Wi-Fi သည္ ပိုအားေကာင္းေသာ လႈိင္းအတြက္ မၾကာခဏ ျပန္ဆက္သြယ္မည္။</item>
+        <item>သင္သည္ Wi-Fi ကြန္ရက္ နည္းသည့္ ေဒသမွာ ရွိေနပါက၊ Wi-Fi ဆက္သြယ္မႈကို အတတ္ႏုိင္ဆံုး ၾကာေအာင္ ထိန္းထားမည္။</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>မရွိ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP သို႔မဟုတ္ CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>တိတိက်က်ေဖၚျပမထားေသာ</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>မရွိ</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>အတြင္း စက္ကရိယာ သိုေလွာင္ခန္း</item>
+        <item>ဖယ္ထုတ္ႏိုင္ေသာ SD ကဒ္</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>ခြင့္ျပဳေသာ။</item>
+        <item>Ignored</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>တည္ေနရာ</item>
+        <item>ကိုယ္ေရး</item>
+        <item>မက္ေဆ့ခ်္ပုိ႔ျခင္း</item>
+        <item>မီဒီယာ</item>
+        <item>ကိရိယာ</item>
+        <item>အလိုလို လုပ္ေဆာင္</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ခန္႔မွန္းေျခ တည္ေနရာကို ဝင္ၾကည့္ျခင္း</item>
+        <item>တိက်ေသာ တည္ေနရာကို ဝင္ၾကည့္ျခင္း</item>
+        <item>GPS</item>
+        <item>တုန္ခါမႈ</item>
+        <item>အဆက္အသြယ္မ်ား ဖတ္ပါ</item>
+        <item>အဆက္အသြယ္မ်ားကို စီမံျခင္း</item>
+        <item>ေခၚဆိုမႈမွတ္တမ္း ဖတ္ပါ</item>
+        <item>ေခၚဆိုမႈမွတ္တမ္း ေရးပါ</item>
+        <item>ျပကၡဒိန္ကို ဖတ္သည္</item>
+        <item>ျပကၡဒိန္ကို စီမံျခင္း</item>
+        <item>Wi-Fi ကြန္ရက္အတြက္ စကန္လုပ္ျခင္း</item>
+        <item>သတိေပးခ်က္</item>
+        <item>ဆဲလ္မ်ား ရွာေဖြပါ</item>
+        <item>ဖုန္းေခၚဆိုမႈမ်ား ျပဳလုပ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို ဖတ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို ေရးျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>အေရးေပၚ စာသား မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>မာတီမီဒီယာ မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>WAP အလကား ေၾကာ္ျငာမက္ေဆ့ခ်္ကို လက္ခံျခင္း</item>
+        <item>စာသားမက္ေဆ့ခ်္မ်ား ပို ့ပါ</item>
+        <item>SIM ကတ္ေပၚရွိ စာသား မက္ေဆ့ခ်္မ်ားကို ဖတ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို SIM ကတ္သို႔ ေရးျခင္း</item>
+        <item>သတ္မွတ္ခ်က္မ်ားကို မြမ္းမံျခင္း</item>
+        <item>အပလီေကးရွင္း ၾကားခံပစၥည္းကို အစားထိုးလဲျခင္း</item>
+        <item>ဝင္ေရာက္မႈ အသိေပးခ်က္မ်ား</item>
+        <item>ကင္မရာ</item>
+        <item>အသံသြင္းပါ</item>
+        <item>ေအာ္ဒီယို ဖိုင္မ်ားကို ဖြင့္ျခင္း</item>
+        <item>ကလစ္ဘုတ္ အခ်က္အလက္ကို ဖတ္ျခင္း</item>
+        <item>ကလစ္ဘုတ္ အခ်က္အလက္ကို စီမံျခင္း</item>
+        <item>မီဒီယာ ထိန္းပါ</item>
+        <item>ေအာ္ဒီယို ဆံုခ်က္ကို ထိန္းပါ</item>
+        <item>မာစတာ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>ေခၚဆိုမူ-အတြင္း အတိုးအက်ယ္ညိွပါ</item>
+        <item>ဖုန္းေခၚေတး အသံအတိုးအက်ယ္ကို ညႇိပါ</item>
+        <item>မီဒီယာ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>သတိေပးခ်က္ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>သတိေပးခ်က္ အသံအတိုးအက်ယ္ကို ညႇိပါ</item>
+        <item>ဘလူးတုသ္ ကိရိယာမ်ားမွ တဆင့္ဖြင့္ေသာ အသံ၏အတိုးအက်ယ္ ကိုညွိပါ</item>
+        <item>ဖန္သားျပင္ ဆက္ဖြင့္ထားပါ</item>
+        <item>တည္ေနရာ သတင္းအခ်က္အလက္ကို ေစာင့္ၾကည့္ပါ</item>
+        <item>မွန္ကန္မူျမင့္မားေသာ တည္ေနရာ သတင္းအခ်က္အလက္ကို ေစာင့္ၾကည့္ပါ</item>
+        <item>ကိရိယာ အသံုးျပဳမူ ကိန္းဂဏန္း အခ်က္အလက္ကို ဖတ္ပါ</item>
+        <item>မိုက္ခရိုဖုန္းကို ဖြင့္ျပီးပိတ္ပါ</item>
+        <item>မီဒီယာ ရိုက္ကူးပါ</item>
+        <item>မီဒီယာ ရိုက္ကူးပါ</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>မာလ္တီမီဒီယာ မက္ေဆ့ခ်္မ်ား ပို႔ပါ</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>အလိုလို လုပ္ေဆာင္</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာ</item>
+        <item>တုန္ခါမႈ</item>
+        <item>အဆက္အသြယ္မ်ား ဖတ္ပါ</item>
+        <item>အဆက္အသြယ္မ်ားကို စီမံျခင္း</item>
+        <item>ေခၚဆိုမႈမွတ္တမ္း ဖတ္ပါ</item>
+        <item>ေခၚဆိုမႈမွတ္တမ္း ေရးပါ</item>
+        <item>ျပကၡဒိန္ကို ဖတ္သည္</item>
+        <item>ျပကၡဒိန္ကို စီမံျခင္း</item>
+        <item>တည္ေနရာ</item>
+        <item>သတိေပးခ်က္မ်ား ျပပါ</item>
+        <item>တည္ေနရာ</item>
+        <item>ဖုန္းေခၚဆိုမႈမ်ား ျပဳလုပ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို ဖတ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို ေရးျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>အေရးေပၚ စာသား မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>မာတီမီဒီယာ မက္ေဆ့ခ်္မ်ားကို လက္ခံျခင္း</item>
+        <item>WAP အလကား ေၾကာ္ျငာမက္ေဆ့ခ်္ကို လက္ခံျခင္း</item>
+        <item>စာသားမက္ေဆ့ခ်္မ်ား ပို ့ပါ</item>
+        <item>SIM ကတ္ေပၚရွိ စာသား မက္ေဆ့ခ်္မ်ားကို ဖတ္ျခင္း</item>
+        <item>စာသား မက္ေဆ့ခ်္မ်ားကို SIM ကတ္သို႔ ေရးျခင္း</item>
+        <item>သတ္မွတ္ခ်က္မ်ားကို မြမ္းမံျခင္း</item>
+        <item>အပလီေကးရွင္း ၾကားခံပစၥည္းကို အစားထိုးလဲျခင္း</item>
+        <item>ဝင္ေရာက္မႈ အသိေပးခ်က္မ်ား</item>
+        <item>ကင္မရာ</item>
+        <item>အသံသြင္းပါ</item>
+        <item>ေအာ္ဒီယို ဖိုင္မ်ားကို ဖြင့္ျခင္း</item>
+        <item>ကလစ္ဘုတ္ အခ်က္အလက္ကို ဖတ္ျခင္း</item>
+        <item>ကလစ္ဘုတ္ အခ်က္အလက္ကို စီမံျခင္း</item>
+        <item>မီဒီယာ ထိန္းပါ</item>
+        <item>ေအာ္ဒီယို ဆံုခ်က္ကို ထိန္းပါ</item>
+        <item>မာစတာ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>ေခၚဆိုမူ-အတြင္း အတိုးအက်ယ္ညိွပါ</item>
+        <item>ဖုန္းေခၚေတး အသံအတိုးအက်ယ္ကို ညႇိပါ</item>
+        <item>မီဒီယာ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>သတိေပးခ်က္ အသံအတုိးအက်ယ္ညိွပါ</item>
+        <item>သတိေပးခ်က္ အသံအတိုးအက်ယ္ကို ညႇိပါ</item>
+        <item>ဘလူးတုသ္ ကိရိယာမ်ားမွ တဆင့္ဖြင့္ေသာ အသံ၏အတိုးအက်ယ္ ကိုညွိပါ</item>
+        <item>ဖန္သားျပင္ ဆက္ဖြင့္ထားပါ</item>
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာ</item>
+        <item>ကိရိယာ အသံုးျပဳမူ ကိန္းဂဏန္း အခ်က္အလက္ကို ဖတ္ပါ</item>
+        <item>မိုက္ခရိုဖုန္းကို ဖြင့္ျပီးပိတ္ပါ</item>
+        <item>မီဒီယာ ရိုက္ကူးပါ</item>
+        <item>မီဒီယာ ရိုက္ကူးပါ</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>မာလ္တီမီဒီယာ မက္ေဆ့ခ်္မ်ား ပို႔ပါ</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>အလိုလို လုပ္ေဆာင္</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>အဆက္အသြယ္မ်ားကုိ ဖ်က္ပါ</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>တိုေသာ (၀.၅ စကၠန္႔)</item>
+        <item>အလတ္စား (၁.၀ စကၠန္႔)</item>
+        <item>ရွည္ေသာ (၁.၅ စကၠန္႔)</item>
+        <item>စိတ္ၾကိဳက္</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>တုိေသာ</item>
+        <item>အလယ္အလတ္</item>
+        <item>ရွည္ေသာ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>မူလသတ္မွတ္ထားေသာ</item>
+        <item>အစြန္းထြက္ေသာ အကၡရာပုံစံမ်ားကို စကင္</item>
+        <item>ဆန္စ္ ဆာရစ္ဖ္ အေသးစား</item>
+        <item>Sans serif monospace</item>
+        <item>ဆာရစ္ဖ္</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>ဆက္လက္ေရး</item>
+        <item>အေပၚထပ္ဆင့္ စာလုံးအေသး</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>အလြန္ေသး</item>
+        <item>အေသး</item>
+        <item>ပံုမွန္</item>
+        <item>အႀကီး</item>
+        <item>အလြန္ၾကီး</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>မူလသတ္မွတ္ထားေသာ</item>
+        <item>မရွိ</item>
+        <item>ပုံၾကမ္း</item>
+        <item>အရိပ္ခ်</item>
+        <item>ျမွင့္ထားသည္</item>
+        <item>အားငယ္ေသာ</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ႀကိဳတင္စီစဥ္ထားမႈ</item>
+        <item>အမည္းေပၚ အျဖဴ</item>
+        <item>အျဖဴေပၚ အမည္း</item>
+        <item>အမည္းေပၚ အဝါ</item>
+        <item>အျပာေပၚ အဝါ</item>
+        <item>စိတ္ၾကိဳက္</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>မွတ္တမ္းဘာဖာတစ္ခုတြင္ 64 KB</item>
+        <item>မွတ္တမ္းဘာဖာတစ္ခုတြင္ 256 KB</item>
+        <item>မွတ္တမ္းဘာဖာတစ္ခုတြင္ 1 MB</item>
+        <item>မွတ္တမ္းဘာဖာတစ္ခုတြင္ 4 MB</item>
+        <item>မွတ္တမ္းဘာဖာတစ္ခုတြင္ 16 MB</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>မည္သည့္အခါမွ မစစ္ေဆးပါႏွင့္</item>
+        <item>DRM ပါဝင္မႈမ်ားကိုသာ စစ္ေဆးျခင္း</item>
+        <item>အျမဲ စစ္ေဆးပါ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP စစ္ေဆးျခင္းအား မည္သည့္အခါမွ မသံုးပါႏွင့္</item>
+        <item>DRM ပါဝင္မႈအတြက္ HDCP စစ္ေဆးျခင္းသာ သံုးပါ</item>
+        <item>HDCP စစ္ေဆးျခင္း အစဥ္သံုးပါ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>သရုပ္ေဖာ္ျခင္း ပိတ္ထားသည္။</item>
+        <item>သရုပ္ေဖာ္ စေကး 0.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 2x</item>
+        <item>သရုပ္ေဖာ္ စေကး 5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>သရုပ္ေဖာ္ျခင္း ပိတ္ထားသည္။</item>
+        <item>သရုပ္ေဖာ္ စေကး 0.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 2x</item>
+        <item>သရုပ္ေဖာ္ စေကး 5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>သရုပ္ေဖာ္ျခင္း ပိတ္ထားသည္။</item>
+        <item>သရုပ္ေဖာ္ စေကး 0.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1x</item>
+        <item>သရုပ္ေဖာ္ စေကး 1.5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 2x</item>
+        <item>သရုပ္ေဖာ္ စေကး 5x</item>
+        <item>သရုပ္ေဖာ္ စေကး 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>မရွိ</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>မရွိ</item>
+        <item>Logcat</item>
+        <item>Systrace (ဂရပ္ဖစ္မ်ား)</item>
+        <item>glGetError ေပၚက ေခၚဆိုမႈ ေဒတာအစု</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ပိတ္</item>
+        <item>ေထာင့္မွန္စတုဂံ မဟုတ္ေသာ ကလစ္မ်ား၏ မ်က္ႏွာျပင္ကို အျပာေရာင္ျဖင့္ အသားေပးပါ</item>
+        <item>စစ္ေဆးၿပီး ပံုဆြဲျခင္း ကြန္မန္းမ်ားကို အစိမ္းေရာင္ျဖင့္ အသားေပးပါ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>၀ွက္ပါ</item>
+        <item>ဖန္သားျပင္ေပၚတြင္ ဘားမ်ားအျဖစ္ ျပပါ</item>
+        <item>adb အကာ ဒမ္ဆစ္ gfxအခ်က္အလက္ ျပပါ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ပိတ္</item>
+        <item>ဖန္းသားျပင္အေရာင္ေျပာင္း ဧရိယာမ်ားကို ျပပါ</item>
+        <item>အေရာင္ကန္းေနသူမ်ား အတြက္ အေရာင္ဧရိယာမ်ားကို ျပပါ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>စံထားသည့္ အကန္႔အသတ္</item>
+        <item>ေနာက္ခံ လုပ္ငန္းစဥ္မ်ား မရွိပါ</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ ၁ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ ၂ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ ၃ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ ၄ ခု</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>ၾကိဳတင္-မွ်ေဝထားသည့္ ကီးမ်ားႏွင့္ L2TP/IPSec VPN</item>
+        <item>ဆာတီဖီကိတ္မ်ားႏွင့္ L2TP/IPSec VPN</item>
+        <item>ၾကိဳတင္-မွ်ေဝထားသည့္ ကီးမ်ားႏွင့္ IPSec VPN ႏွင့္ XAuth အေထာက္အထားျပျခင္းျဖင့္ IPSec VPN</item>
+        <item>ဆာတီဖီကိတ္မ်ားႏွင့္ XAuth အေထာက္အထားျပျခင္းျဖင့္ IPSec VPN</item>
+        <item>ဆာတီဖီကိတ္မ်ားႏွင့္ XAuth အေထာက္အထားျပျခင္းျဖင့္ IPSec VPN</item>
+        <item>IKEv2 ႏွင့္ ၾကိဳတင္မွ်ေဝထားသည့္ အေထာက္အထားျပျခင္းျဖင့္ IPSec VPN</item>
+        <item>IKEv2 ႏွင့္ ဆာတီဖီကိတ္-အေျချပဳ အေထာက္အထားျပျခင္းျဖင့္ IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ဆက္သြယ္ထားမႈကို ျဖတ္ေတာက္ၿပီးပါၿပီ</item>
+        <item>ျပန္လည္စတင္အသုံးျပဳႏုိင္ရန္ ရွင္းလင္းေနပါသည္..</item>
+        <item>ဆက္သြယ္ေနပါသည္……</item>
+        <item>ခ်ိတ္ဆက္ထားေသာ</item>
+        <item>တိုင္းမ္ေအာက္</item>
+        <item>မေအာင္ျမင္ပါ</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ေမးပါ</item>
+        <item>ဘယ္ေတာ့မွ ခြင့္မျပဳ</item>
+        <item>အျမဲ ခြင့္ျပဳပါ</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ပံုမွန္</item>
+        <item>အတန္အသင့္</item>
+        <item>နိမ့္ေသာ</item>
+        <item>အလြန္ နည္းေနပါသည္</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>ပိတ္</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ပုံမွန္</item>
+        <item>အတန္အသင့္</item>
+        <item>နိမ့္ေသာ</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ဆက္တိုက္</item>
+        <item>ထိပ္တန္း လႈပ္ရွားမႈ</item>
+        <item>အေရးႀကီးေသာ (ေရွ႕မ်က္ႏွာစာ)</item>
+        <item>အေရးႀကီးေသာ (ေနာက္ခံ)</item>
+        <item>Backup</item>
+        <item>အလြန္ အသုံးျပဳထားပါသည္</item>
+        <item>ဝန္ေဆာင္မႈ (လုပ္ေနေသာ)</item>
+        <item>ဝန္ေဆာင္မႈ (ျပန္စတင္ျခင္း)</item>
+        <item>ရရွိသူ</item>
+        <item>Home</item>
+        <item>ေနာက္ဆုံးလုပ္ခဲ့ေသာ လႈပ္ရွားမႈ</item>
+        <item>ယာယီသိမ္းထားေသာ (လႈပ္ရွားမႈ)</item>
+        <item>ယာယီသိမ္းထားေသာ (ေဖာက္သည္၏ လႈပ္ရွားမႈ)</item>
+        <item>ယာယီသိမ္းထားေသာ (အလြတ္)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>ကိရိယာ</item>
+        <item>SD ကတ္</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>အၿမဲလက္ခံပါ</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+        <item>အၿမဲပယ္ခ်ပါ</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>ဗီဒီယိုမ်ား</item>
+        <item>ဓါတ္ပုံမ်ား</item>
+        <item>ဂီတ</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>အလုိအေလ်ာက္</item>
+        <item>လက္ျဖင့္</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>အၿမဲပိတ္ထားပါ</item>
+        <item>၃ စကၠန္႔</item>
+        <item>၅ စကၠန္႔</item>
+        <item>၁၀ စကၠန္႔</item>
+        <item>၁၅ စကၠန္႔</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>မရွိ</item>
+        <item>အဆက္အသြယ္မ်ား အားလုံး</item>
+        <item>စိတ္ႀကိဳက္မ်ား</item>
+        <item>လုပ္အပ္သလုိ အထူးျပဳလုပ္ပါ</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>မရွိ</item>
+        <item>အဆက္အသြယ္မ်ား အားလုံး</item>
+        <item>စိတ္ႀကိဳက္မ်ား</item>
+        <item>အုပ္စု</item>
+        <item>လုပ္အပ္သလုိ အထူးျပဳလုပ္ပါ</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>ျမင့္ေသာ</item>
+        <item>အလယ္အလတ္</item>
+        <item>နည္းေနပါသည္</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>လက္ရွိကြန္ယက္</item>
+        <item>အျမဲေမးပါ</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>ပင္မ</item>
+        <item>ရုံး</item>
+        <item>အသဲ</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>ဖုန္းေခၚမႈ</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>အင္တာနက္</item>
+        <item>ပင္မ</item>
+        <item>ရုံး</item>
+        <item>အသဲ</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>ျဖတ္လမ္းကို အစားထိုးပါ</item>
+        <item>လုိအပ္သလို အထူးျပဳလုပ္ထားေသာ ခလုပ္ကို ျပန္လည္ဖန္တီးပါ</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>အသံ</item>
+        <item>တုန္ခါမႈ</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၂ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>ျမင့္ေသာ</item>
+        <item>ပံုမွန္</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>၃ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+        <item>၁၀ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+        <item>1 နာရီ</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>၁၅ စကၠန္႔</item>
+        <item>၃၀ စကၠန္႔</item>
+        <item>၁ မိနစ္</item>
+        <item>၃ မိနစ္</item>
+        <item>၅ မိနစ္</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>ဝင္ေရာက္ႏုိင္ခြင့္</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>ဝင္ေရာက္ႏုိင္ခြင့္</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>အားလံုး</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>တစ္ႀကိမ္</item>
+        <item>၁၀ မိနစ္တုိင္း</item>
+        <item>မိနစ္ ၂၀ တိုင္း</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>တစ္ခ်ိန္တည္း ျပန္ေျဖျခင္း</item>
+        <item>၁၅ မိနစ္</item>
+        <item>၃၀ မိနစ္</item>
+        <item>1 နာရီ</item>
+        <item>၂ နာရီ</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>႐ုိး႐ုိး</item>
+        <item>သံဝက္</item>
+        <item>ေမာ္ဖင္း</item>
+        <item>ေရာင္စံု</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>၁.၅ စကၠန္႔</item>
+        <item>၆ စကၠန္႔</item>
+        <item>အၿမဲပိတ္ထားပါ</item>
+        <item>အၿမဲဖြင့္ထားပါ</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>ထိပ္ပိုင္း</item>
+        <item>အလယ္</item>
+        <item>ေအာက္ေျခ</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>သတင္းမ်ား</item>
+        <item>စေတာ့</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>သတင္းမ်ား</item>
+        <item>စေတာ့</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>ေႏွးေနသည္</item>
+        <item>ပုံမွန္</item>
+        <item>အျမန္</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>မရွိ</item>
+        <item>မိနစ္ ၃၀ တုိင္း</item>
+        <item>၁ နာရီ တုိင္း</item>
+        <item>၂ နာရီ ၾကာတိုင္း</item>
+        <item>၄ နာရီတိုင္း</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>နားၾကပ္</item>
+        <item>PC</item>
+        <item>ဖုန္း</item>
+        <item>HID (ကီးဘုတ္၊ ေမာက္စ္၊ စသျဖင့္)</item>
+        <item>ကိရိယာ အားလံုး</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>စတီရီယို</item>
+        <item>ပတ္၀န္းက်င္</item>
+    </string-array>
+</resources>

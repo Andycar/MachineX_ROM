@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:title="@string/accessibility_notification_summary" android:key="notification_reminder_guide" />
+    <PreferenceCategory android:title="@string/notification_reminder_category_title_K" android:key="notification_reminder_category_options">
+        <CheckBoxPreference android:title="@string/notification_reminder_preference_vibrate" android:key="notification_reminder_vibrate" />
+        <CheckBoxPreference android:title="@string/notification_reminder_preference_led_title" android:key="notification_reminder_indicator" android:summary="@string/notification_reminder_preference_led_summary" />
+        <ListPreference android:entries="@array/time_interval_entries" android:title="@string/accessibility_notification_reminder_time" android:key="notification_time_interval" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/accessibility_notification_reminder_time" android:entryValues="@array/time_interval_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_reminder_category_title_packages" android:key="notification_reminder_category_packages">
+        <CheckBoxPreference android:title="@string/notification_reminder_preference_application" android:key="notification_reminder_select_all" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">Մարտկոցի լիցքը %d տոկոս է:</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Մուտքագրեք PIN կոդը</string>
+    <string name="keyguard_password_enter_puk_code">Մուտքագրեք SIM PUK-ը և նոր PIN կոդը</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK կոդը</string>
+    <string name="keyguard_password_enter_pin_prompt">Նոր SIM PIN կոդը</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Հպեք` գաղտնաբառը մուտքագրելու համար</font></string>
+    <string name="keyguard_password_enter_password_code">Մուտքագրեք գաղտնաբառը ապակողպման համար</string>
+    <string name="keyguard_password_enter_pin_password_code">Մուտքագրեք PIN-ը ապակողպման համար</string>
+    <string name="keyguard_password_wrong_pin_code">Սխալ PIN ծածկագիր:</string>
+    <string name="keyguard_label_text">Ապակողպման համար սեղմեք Ցանկ, ապա 0:</string>
+    <string name="faceunlock_multiple_failures">Առավելագույն Դեմքով ապակողպման փորձերը գերազանցված են</string>
+    <string name="keyguard_charged">Լիցքավորված է</string>
+    <string name="keyguard_plugged_in">Լիցքավորում</string>
+    <string name="keyguard_low_battery">Միացրեք ձեր լիցքավորիչը:</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Ապակողպելու համար սեղմեք Ցանկը:</string>
+    <string name="keyguard_network_locked_message">Ցանցը կողպված է</string>
+    <string name="keyguard_missing_sim_message_short">SIM քարտ չկա</string>
+    <string name="keyguard_missing_sim_message">Հեռախոսի մեջ SIM քարտ չկա:</string>
+    <string name="keyguard_missing_sim_instructions">Զետեղեք SIM քարտը:</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM քարտը բացակայում է կամ չի կարող կարդացվել: Մտցրեք SIM քարտ:</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Անպիտան SIM քարտ:</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Ձեր SIM քարտը ընդմիշտ կասեցվել է:
+Կապվեք ձեր բջջային ծառայության մատակարարի հետ նոր SIM քարտ ձեռք բերելու համար:"</string>
+    <string name="keyguard_sim_locked_message">SIM քարտը կողպված է:</string>
+    <string name="keyguard_sim_puk_locked_message">SIM քարտը PUK-ով կողպված է:</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM քարտը ապակողպվում է...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Վիջեթ %2$d of %3$d:</string>
+    <string name="keyguard_accessibility_add_widget">Ավելացնել վիջեթ:</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Դատարկ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Ապակողպման տարածքն ընդլայնված է:</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Ապակողպման տարածքը ետ է ծալված:</string>
+    <string name="keyguard_accessibility_widget">%1$s վիջեթ:</string>
+    <string name="keyguard_accessibility_user_selector">Օգտվողի ընտրիչ</string>
+    <string name="keyguard_accessibility_camera">Ֆոտոխցիկ</string>
+    <string name="keygaurd_accessibility_media_controls">Մեդիա կարգավորումներ</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Վիջեթների վերադասավորումը մեկնարկել է:</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Վիջեթի վերադասավորումն ավարտվեց:</string>
+    <string name="keyguard_accessibility_widget_deleted">Վիջեթ %1$s-ը ջնջված է:</string>
+    <string name="keyguard_accessibility_expand_lock_area">Ընդլայնել ապակողպման տարածությունը:</string>
+    <string name="keyguard_accessibility_slide_unlock">Էջի ապակողպում:</string>
+    <string name="keyguard_accessibility_pattern_unlock">Սխեմայով ապակողպում:</string>
+    <string name="keyguard_accessibility_face_unlock">Դեմքով ապակողպում:</string>
+    <string name="keyguard_accessibility_pin_unlock">Pin-ն ապակողպված է:</string>
+    <string name="keyguard_accessibility_password_unlock">Գաղտնաբառի ապակողպում:</string>
+    <string name="keyguard_accessibility_pattern_area">Սխեմայի տարածք:</string>
+    <string name="keyguard_accessibility_slide_area">Սահեցման տարածք:</string>
+    <string name="keyguard_accessibility_transport_prev_description">Նախորդ հետագծի կոճակը</string>
+    <string name="keyguard_accessibility_transport_next_description">Հաջորդ հետագծի կոճակը</string>
+    <string name="keyguard_accessibility_transport_pause_description">Դադարի կոճակ</string>
+    <string name="keyguard_accessibility_transport_play_description">Նվագարկման կոճակ</string>
+    <string name="keyguard_accessibility_transport_stop_description">Կանգի կոճակ</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Լավն է</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Լավը չէ</string>
+    <string name="keyguard_accessibility_transport_heart_description">Սիրտ</string>
+    <string name="keyguard_accessibility_show_bouncer">Շարունակելու համար ապակողպեք</string>
+    <string name="keyguard_accessibility_hide_bouncer">Գործարկումը չեղարկվեց</string>
+    <string name="keyguard_accessibility_delete_widget_start">%1$s վիջեթը ջնջելու համար բաց թողեք այն այստեղ:</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s վիջեթը չի ջնջվի:</string>
+    <string name="keyguard_accessibility_next_alarm">Հաջորդ զարթուցիչը դրված է %1$s-ի վրա</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Չեղարկել</string>
+    <string name="keyboardview_keycode_delete">Ջնջել</string>
+    <string name="keyboardview_keycode_done">Կատարված է</string>
+    <string name="keyboardview_keycode_mode_change">Ռեժիմի փոփոխում</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Մուտք</string>
+    <string name="description_target_unlock">Ապակողպել</string>
+    <string name="description_target_camera">Ֆոտոխցիկ</string>
+    <string name="description_target_silent">Լուռ</string>
+    <string name="description_target_soundon">Ձայնը միացնել</string>
+    <string name="description_target_search">Որոնել</string>
+    <string name="description_direction_up">Սահեցրեք վերև %s-ի համար:</string>
+    <string name="description_direction_down">Սահեցրեք ցած %s-ի համար:</string>
+    <string name="description_direction_left">Սահեցրեք ձախ` %s-ի համար:</string>
+    <string name="description_direction_right">Սահեցրեք աջ` %s-ի համար:</string>
+    <string name="user_switched">Ներկայիս օգտվողը %1$s:</string>
+    <string name="kg_emergency_call_label">Արտակարգ իրավիճակի հեռախոսազանգ</string>
+    <string name="kg_forgot_pattern_button_text">Մոռացել եմ սխեման</string>
+    <string name="kg_wrong_pattern">Սխալ սխեմա</string>
+    <string name="kg_wrong_password">Սխալ գաղտնաբառ</string>
+    <string name="kg_wrong_pin">Սխալ PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Փորձեք կրկին %d վայրկյանից:</string>
+    <string name="kg_pattern_instructions">Հավաքեք ձեր սխեման</string>
+    <string name="kg_sim_pin_instructions">Մուտքագրեք SIM-քարտի PIN-կոդը</string>
+    <string name="kg_pin_instructions">Մուտքագրեք PIN-ը</string>
+    <string name="kg_password_instructions">Մուտքագրեք գաղտնաբառը</string>
+    <string name="kg_puk_enter_puk_hint">SIM-ը այս պահին անջատված է: Մուտքագրեք PUK կոդը շարունակելու համար: Մանրամասների համար կապվեք օպերատորի հետ:</string>
+    <string name="kg_puk_enter_pin_hint">Մուտքագրեք ցանկալի PIN ծածկագիրը</string>
+    <string name="kg_enter_confirm_pin_hint">Հաստատեք ցանկալի PIN ծածկագիրը</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Ապակողպում է SIM քարտը ...</string>
+    <string name="kg_invalid_sim_pin_hint">Տպե՛ք PIN` 4-ից 8 թիվ</string>
+    <string name="kg_invalid_sim_puk_hint">PUK կոդը պետք է լինի 8 կամ ավելի թիվ:</string>
+    <string name="kg_invalid_puk">Վերամուտքագրեք ճիշտ PUK ծածկագիրը: Կրկնվող փորձերը ընդմիշտ կկասեցնեն SIM քարտը:</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN ծածկագրերը չեն համընկնում</string>
+    <string name="kg_login_too_many_attempts">Չափից շատ սխեմայի փորձեր</string>
+    <string name="kg_login_instructions">Ապակողպելու համար` մուտք գործեք ձեր Google հաշվով:</string>
+    <string name="kg_login_username_hint">Օգտանուն (էլփոստ)</string>
+    <string name="kg_login_password_hint">Գաղտնաբառը</string>
+    <string name="kg_login_submit_button">Մուտք գործել</string>
+    <string name="kg_login_invalid_input">Սխալ օգտանուն կամ գաղտնաբառ:</string>
+    <string name="kg_login_account_recovery_hint">"Մոռացե՞լ եք ձեր օգտանունը կամ գաղտնաբառը:
+Այցելեք "<b>google.com /accounts/recovery</b>:</string>
+    <string name="kg_login_checking_password">Հաշիվը ստուգվում է...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Դուք %d անգամ սխալ եք մուտքագրել ձեր PIN-ը: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Դուք սխալ եք մուտքագրել ձեր գաղտնաբառը %d անգամ: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Դուք %d անգամ սխալ եք հավաքել ձեր ապակողպման սխեման: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Դուք %d անգամ սխալ փորձ եք արել հեռախոսն ապակողպելու համար: %d անգամից ավել անհաջող փորձերից հետո հեռախոսը կվերակարգավորվի գործարանային լռելյայնի, և օգտվողի բոլոր տվյալները կկորեն:</string>
+    <string name="kg_failed_attempts_now_wiping">Դուք %d անգամ սխալ փորձ եք արել հեռախոսն ապակողպելու համար: Հեռախոսն այժմ կվերակարգավորվի գործարանային լռելյայնի:</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Դուք %d անգամ սխալ եք հավաքել ձեր ապակողպման նմուշը: %d անգամից ավել անհաջող փորձերից հետո ձեզ կառաջարկվի ապակողպել ձեր հեռախոսը` օգտագործելով էլփոստի հաշիվ:
+
+ Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Հեռացնել</string>
+    <string name="kg_password_wrong_pin_code_pukked">Սխալ SIM PIN կոդի պատճառով պետք է դիմեք ձեր օպերատորին՝ սարքն արգելաբացելու համար:</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM-ը հնարավոր չէ օգտագործել: Դիմեք ձեր օպերատորին:</string>
+    <string name="kg_password_pin_failed">SIM PIN գործողությունը ձախողվեց:</string>
+    <string name="kg_password_puk_failed">SIM PUK գործողությունը ձախողվեց:</string>
+    <string name="kg_pin_accepted">Կոդն ընդունվեց:</string>
+    <string name="keyguard_transport_prev_description">Նախորդ հետագծի կոճակ</string>
+    <string name="keyguard_transport_next_description">Հաջորդ հետագծի կոճակ</string>
+    <string name="keyguard_transport_pause_description">Դադարի կոճակ</string>
+    <string name="keyguard_transport_play_description">Նվագարկման կոճակ</string>
+    <string name="keyguard_transport_stop_description">Դադարի կոճակ</string>
+    <string name="keyguard_carrier_default">Ծառայություն չկա:</string>
+    <string name="app_label">Համակարգի UI</string>
+    <string name="status_bar_clear_all_button">Մաքրել</string>
+    <string name="status_bar_recent_remove_item_title">Հեռացնել ցանկից</string>
+    <string name="status_bar_recent_inspect_item_title">Ծրագրի տեղեկ.</string>
+    <string name="status_bar_no_recent_apps">Վերջերս օգտագործված ծրագրեր չկան</string>
+    <string name="status_bar_no_notifications_title">Ծանուցումներ չկան</string>
+    <string name="status_bar_ongoing_events_title">Ընթացիկ</string>
+    <string name="status_bar_latest_events_title">Ծանուցումներ</string>
+    <string name="battery_low_title">Մարտկոցի էներգիայի մակարդակը ցածր է</string>
+    <string name="battery_low_percent_format">%d%% է մնում</string>
+    <string name="invalid_charger">USB լիցքավորումը չի ապահովվում: Օգտագործեք տրված լիցքավորիչը:</string>
+    <string name="battery_low_why">Դրվածքներ</string>
+    <string name="status_bar_settings_settings_button">Պարամետրեր</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Թռիչքի ռեժիմ</string>
+    <string name="status_bar_settings_auto_rotation">Ինքնապտտել էկրանը</string>
+    <string name="status_bar_settings_mute_label">Անձայն</string>
+    <string name="status_bar_settings_auto_brightness_label">Ավտոմատ</string>
+    <string name="status_bar_settings_notifications">Ծանուցումներ</string>
+    <string name="bluetooth_tethered">Bluetooth-ը տեղակապված է</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Նախադրել ներածման եղանակներ</string>
+    <string name="status_bar_use_physical_keyboard">Ֆիզիկական ստեղնաշար</string>
+    <string name="usb_device_permission_prompt">Թույլ տա՞լ, որ %1$s ծրագիրը մուտք գործի USB սարք:</string>
+    <string name="usb_accessory_permission_prompt">Թույլ տա՞լ, որ %1$s ծրագիրը մուտք գործի USB լրասարք:</string>
+    <string name="usb_device_confirm_prompt">Բացե՞լ %1$s, երբ այս USB սարքը միացված լինի:</string>
+    <string name="usb_accessory_confirm_prompt">Բացե՞լ %1$s, երբ այս USB լրասարքը միացված լինի:</string>
+    <string name="usb_accessory_uri_prompt">Տեղադրված ծրագրերից ոչ մեկը չի աշխատում այս USB լրասարքի հետ: Տեղեկացեք ավելին այս լրասարքի մասին %s-ում:</string>
+    <string name="title_usb_accessory">USB լրասարք</string>
+    <string name="label_view">Դիտել</string>
+    <string name="always_use_device">Ըստ կանխադրման՝ օգտագործել այս USB սարքի համար</string>
+    <string name="always_use_accessory">Ըստ կանխադրման՝ օգտագործել այս USB լրասարքի համար</string>
+    <string name="usb_debugging_title">Թույլ տա՞լ USB վրիպազերծում:</string>
+    <string name="usb_debugging_message">"ԱՀ-ի RSA բանալու դրոշմահետքն է՝
+%1$s"</string>
+    <string name="usb_debugging_always">Միշտ թույլատրել այս ԱՀ-ը</string>
+    <string name="compat_mode_on">Խոշոր.՝ էկրանը լցնելու հր</string>
+    <string name="compat_mode_off">Ձգել՝ էկրանը լցնելու հր</string>
+    <string name="screenshot_saving_ticker">Էկրանի պատկերը պահպանվում է…</string>
+    <string name="screenshot_saving_title">Էկրանի պատկերը պահպանվում է…</string>
+    <string name="screenshot_saving_text">Էկրանի պատկերը պահպանվում է:</string>
+    <string name="screenshot_saved_title">Էկրանի պատկերը սևեռվեց</string>
+    <string name="screenshot_saved_text">Թակել՝ էկրանի պատկերը դիտելու համար:</string>
+    <string name="screenshot_failed_title">Անհնար է Էկրանի պատկերը սևեռել:</string>
+    <string name="usb_preference_title">USB ֆայլի փոխանցման ընտրանքներ</string>
+    <string name="use_mtp_button_title">Տեղադրել որպես մեդիա նվագարկիչ (MTP)</string>
+    <string name="use_ptp_button_title">Տեղադրել որպես խցիկ (PTP)</string>
+    <string name="installer_cd_button_title">Տեղադրել Android ֆայլի փոխանցման ծրագիր Mac-ի համար</string>
+    <string name="accessibility_back">Ետ</string>
+    <string name="accessibility_home">Տուն</string>
+    <string name="accessibility_menu">Ցանկ</string>
+    <string name="accessibility_search_light">Որոնել</string>
+    <string name="accessibility_camera_button">Խցիկ</string>
+    <string name="accessibility_unlock_button">Հանել արգելափակումը</string>
+    <string name="accessibility_ime_switch_button">Փոխարկել ներածման եղանակի կոճակը:</string>
+    <string name="accessibility_compatibility_zoom_button">Համատեղելիության մասշտաբավորման կոճակ</string>
+    <string name="accessibility_compatibility_zoom_example">Մասշտաբավորել ավելի մեծ էկրանի համար</string>
+    <string name="accessibility_bluetooth_connected">Միացված է Bluetooth-ին</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth-ը անջատված է:</string>
+    <string name="accessibility_no_battery">Մարտկոց չկա</string>
+    <string name="accessibility_battery_one_bar">Մարտկոցի էներգիայի մեկ սյուն</string>
+    <string name="accessibility_battery_two_bars">Մարտկոցի էներգիայի երկու սյուն</string>
+    <string name="accessibility_battery_three_bars">Մարտկոցի էներգիայի երեք սյուն</string>
+    <string name="accessibility_battery_full">Մարտկոցը լիքն է:</string>
+    <string name="accessibility_no_phone">Հեռախոսի ազդանշան չկա</string>
+    <string name="accessibility_phone_one_bar">Հեռախոսի ազդանշանի մեկ սյուն</string>
+    <string name="accessibility_phone_two_bars">Հեռախոսի ազդանշանի երկու սյուն</string>
+    <string name="accessibility_phone_three_bars">Հեռախոսի ազդանշանի երեք սյուն</string>
+    <string name="accessibility_phone_signal_full">Հեռախոսի լրիվ ազդանշան</string>
+    <string name="accessibility_no_data">Տվյալներ չկան</string>
+    <string name="accessibility_data_one_bar">Տվյալների փոխանցման ազդանշանի մեկ սյուն</string>
+    <string name="accessibility_data_two_bars">Տվյալների փոխանցման ազդանշանի երկու սյուն</string>
+    <string name="accessibility_data_three_bars">Տվյալների փոխանցման ազդանշանի երեք սյուն</string>
+    <string name="accessibility_data_signal_full">Տվյալների լրիվ ազդանշան</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi ազդանշան չկա</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi ազդանշանի մեկ սյուն</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi ազդանշանի երկու սյուն</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi ազդանշանի երեք սյուն</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi ազդանշանը լրիվ է:</string>
+    <string name="accessibility_no_signal">Ազդանշան չկա</string>
+    <string name="accessibility_not_connected">Միացված չէ:</string>
+    <string name="accessibility_desc_on">Միացված է</string>
+    <string name="accessibility_desc_off">Անջտվծ</string>
+    <string name="accessibility_desc_connected">Միացված է</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3Գ</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Ռոումինգ</string>
+    <string name="accessibility_data_connection_edge">Եզր</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM չկա</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth տեղակապում</string>
+    <string name="accessibility_airplane_mode">Թռիչքի ռեժիմ</string>
+    <string name="accessibility_settings_button">Համակարգի դրվածքներ</string>
+    <string name="accessibility_notifications_button">Ծանուցումներ</string>
+    <string name="accessibility_remove_notification">Հստակ ծանուցումներ</string>
+    <string name="accessibility_gps_enabled">GPS-ը միացված է</string>
+    <string name="accessibility_gps_acquiring">Ձեռք է բերվում GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter-ն ընձեռված է</string>
+    <string name="accessibility_ringer_vibrate">Զանգի հնչերանգի թրթռում</string>
+    <string name="accessibility_ringer_silent">Խլացնել զանգի հնչերանգը</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Փակել</string>
+    <string name="accessibility_desc_quick_settings">Արագ դրվածքներ</string>
+    <string name="accessibility_quick_settings_alarm">Ազդանշան է դրվել %s-ի համար:</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Շարժական տվյալները կասեցված են</string>
+    <string name="data_usage_disabled_dialog_enable">Նրց ընձեռել տվյլների միացում</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ինտերնետային կապ չկա</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi-ը միացված է:</string>
+    <string name="gps_notification_searching_text">Որոնում GPS-ի միջոցով…</string>
+    <string name="gps_notification_found_text">GPS-ով որոշված տեղ</string>
+    <string name="accessibility_clear_all">Ջնջել բոլոր ծանուցումները</string>
+    <string name="status_bar_notification_inspect_item_title">Ծանուցումների կայվածքներ</string>
+    <string name="accessibility_rotation_lock_off">Էկրանը կպտտվի ինքնաբերաբար:</string>
+    <string name="start_dreams">Էկրանի պահպանիչ</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Շարժական թեժ կետը չի ապահովվում:</string>
+    <string name="it_policy_not_allow_wifi">Անվտանգության քաղաքականությունը սահմանափակում է Wi-Fi-ի օգտագործումը:</string>
+    <string name="it_policy_not_allow_wifiap">Անվտանգության քաղաքականությունը սահմանափակում է ինտերնետային համօգտագործումը:</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Թռիչքային ռեժիմում:</string>
+    <string name="edm_policy_not_allow_open_wifiap">Անվտանգության քաղաքականությունը սահմանափակում է չպաշտպանված տեղակապումը թեժ կետի համար:</string>
+    <string name="wifi_authentication_succeed">Վավերականացված է:</string>
+    <string name="wifi_authentication_failed">Վավերականացումը ձախողվեց:</string>
+    <string name="wifi_authentication_invalid_value">Նույնականացումը ձախողվել է: Ստուգեք ID-ն և գաղտնաբառը:</string>
+    <string name="wifi_setup_title_connected_network">Միացել է %s Wi-Fi ցանցին:</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Լիցքավորված:</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth-ն անջատված է:</string>
+    <string name="quick_settings_brightness_label">Պայծառություն</string>
+    <string name="quick_settings_ime_label">Ներմուծման մեթոդ</string>
+    <string name="quick_settings_location_label">Գտնվելու վայր</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Միայն հրատապ կանչեր:</string>
+    <string name="quick_settings_settings_label">Պարամետրեր</string>
+    <string name="quick_settings_time_label">Ժամանակ</string>
+    <string name="quick_settings_user_label">Իմ կողմից</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Միացված չէ:</string>
+    <string name="quick_settings_wifi_no_network">Ցանց չկա</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Պայծառություն</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Ավտոմատ</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Լապտեր</string>
+    <string name="recents_empty_message">Վերջին գործադիրներ չկան</string>
+    <string name="zen_no_interruptions">Ոչ մի ընդհատում</string>
+    <string name="zen_important_interruptions">Միայն առաջնահերթ ընդհատումներ</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Ոչ մի</string>
+    <string name="interruption_level_priority">"Առաջնա-
+հերթ"</string>
+    <string name="interruption_level_all">Բոլոր</string>
+    <string name="guest_wipe_session_dontwipe">Այո, շարունակել</string>
+    <string name="notification_hidden_text">Բովանդակությունը թաքցված է</string>
+    <string name="sanitized_content_text">Թակեք այստեղ՝ %s մտնելու համար:</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Ոչ, շնորհակալ եմ</string>
+    <string name="hidden_notifications_setup">Տեղակայել</string>
+    <string name="quickpanel_airplane_mode_text">"Թռիչքային
+ռեժիմ"</string>
+    <string name="quickpanel_airplane_mode_content_description">Թռիչքային ռեժիմ</string>
+    <string name="quickpanel_content_description_led_on">%s-ը միացված է:</string>
+    <string name="quickpanel_content_description_led_off">%s-ն անջատած է:</string>
+    <string name="quickpanel_content_description_led_dim">%s-ն անհնար է միացնել:</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Արագ միացում</string>
+    <string name="accessibility_qconnect_button_tts">Արագ կապակցում</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Տեղը</string>
+    <string name="quickpanel_silent_mode_content_description">Անձայն ռեժիմ</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Հնչյուն</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Թրթռում</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Խլացնել</string>
+    <string name="quickpanel_rotation_content_description">Էկրանի պտտում</string>
+    <string name="quickpanel_mobile_data_content_description">Շարժական տվյալներ</string>
+    <string name="quickpanel_power_saving_content_description">Էներգիայի խնայման ռեժիմ</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Էներգիայի գերխնայման ռեժիմ</string>
+    <string name="quickpanel_wifi_display_content_description">Սքրին միրըրինգ</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Բազմակի պատուհան</string>
+    <string name="quickpanel_car_mode_content_description">Մեքենայի ռեժիմ</string>
+    <string name="quickpanel_dormant_mode_content_description">Չանհանգստացնել</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Շարժական թեժ կետ</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Հպազգայնություն</string>
+    <string name="quickpanel_smart_stay_content_description">Խելացի հապաղում</string>
+    <string name="quickpanel_smart_scroll_content_description">Խելացի ոլորում</string>
+    <string name="quickpanel_sync_content_description">Համաժամացնել</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi զանգում</string>
+    <string name="quickpanel_toolbox_content_description">Գործիքների արկղ</string>
+    <string name="quickpanel_adaptive_display_content_description">Հարմարվող ցուցադրում</string>
+    <string name="quickpanel_airgesture_content_description">Օդային ժեստ</string>
+    <string name="quickpanel_airview_content_description">Օդային դիտում</string>
+    <string name="quickpanel_network_booster_content_description">Ներբեռնումների խթանիչ</string>
+    <string name="quickpanel_personal_mode_content_description">Գաղտնի կապի ռեժիմ</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Կողային ստեղների վահանակ</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Տեղը</string>
+    <string name="quickpanel_silent_mode_text">"Լուռ
+ռեժիմ"</string>
+    <string name="quickpanel_silent_mode_sound">Ձայն</string>
+    <string name="quickpanel_silent_mode_vibrate">Թռթռացնել</string>
+    <string name="quickpanel_silent_mode_mute">Անձայն</string>
+    <string name="quickpanel_rotation_text">"Էկրանի
+պտտում"</string>
+    <string name="quickpanel_mobile_data_text">"Շարժ.
+տվյալներ"</string>
+    <string name="quickpanel_power_saving_text">"Էներգ.
+sխնայում"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Էներգիայի
+գերխնայ."</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Բազմ.
+պատուհան"</string>
+    <string name="quickpanel_car_mode_text">"Մեքեն.
+ռեժիմ"</string>
+    <string name="quickpanel_driving_mode_text">"Զեռնազատ
+կերպ"</string>
+    <string name="quickpanel_dormant_mode_text">Չանհանգստ.</string>
+    <string name="quickpanel_wifi_hotspot_text">"Շարժական
+թեժ կետ"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Հպում
+զգայն-ն"</string>
+    <string name="quickpanel_smart_stay_text">"Խելացի
+հապաղում"</string>
+    <string name="quickpanel_smart_scroll_text">"Խելացի
+ոլորում"</string>
+    <string name="quickpanel_sync_text">Հմժմացնել</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">"Գործիքնե
+րի արկղ"</string>
+    <string name="quickpanel_smart_pause_text">"Խելացի
+դադար"</string>
+    <string name="quickpanel_adaptive_mode_text">"Adapt
+display"</string>
+    <string name="quickpanel_airgesture_text">"Օդային
+ժեստ"</string>
+    <string name="quickpanel_airview_text">"Օդային
+դիտում"</string>
+    <string name="quickpanel_network_booster_text">"Ներբեռն.
+խթանիչ"</string>
+    <string name="quickpanel_personal_mode_text">"Գաղտնի
+ռեժիմ"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Արագ
+միացում"</string>
+    <string name="quickpanel_side_key_text">"Կող. ստեղ.
+վահանակ"</string>
+    <string name="accessibility_power_saving_mode">Էներգիայի խնայման ռեժիմն ընձեռելու համար ընձեռեք առնվազն մեկ գործառույթ:</string>
+    <string name="accessibility_power_saving_mode_title">Սնուցման խնայողական օգտագործման ռեժիմ</string>
+    <string name="insert_sim_card">Մտցնել SIM քարտ</string>
+    <string name="insert_sim_card_message">Տեղադրեք SIM քարտը՝ ցանցային ծառայություններ մտնելու համար:</string>
+    <string name="insert_uim_or_sim_card">Մտցնել UIM/SIM քարտ</string>
+    <string name="status_bar_recent_launch_task_manager_title">Առջդր. կռվրիչ</string>
+    <string name="status_bar_recent_remove_all_button">Փակել բոլորը</string>
+    <string name="blocking_mode_enable">Երբ այս ռեժիմն ընձեռված է, ընտրված գործառական հնարավորությունների ծանուցումները կկասեցվեն: Դուք միայն ծանուցումներ կստանաք Ձեր թույլատրվածների ցուցակի մարդկանց կողմից կատարված մուտքային զանգերի մասին:</string>
+    <string name="blocking_mode_enable_for_grid_settings">Արգելափակման ռեժիմն անջատում է ընտրված յուրահատկությունների ծանուցումները: Երբ արգելափակված են մտից զանգերը, դուք ստանում եք միայն թույլատրված ցուցակում նշված մարդկանցից զանգերի ծանուցումներ: Ձեր Արգելափակման ռեժիմի դրվածքները փոխելու համար գնացեք Դրվածքներ > Անհատականեցում > Արգելափակման ռեժիմ:</string>
+    <string name="blocking_mode_enable_wifi">Երբ այս ռեժիմն ընձեռված է, ընտրված գործառական հնարավորությունների ծանուցումները կկասեցվեն:</string>
+    <string name="blocking_mode_title">Արգելափակման ռեժիմ</string>
+    <string name="magnification_text_for_air_view_button">Խոշորացման ժեստեր</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Անհնար է օգտագործել Ներբեռնումների խթանիչը, երբ ընձեռված է %1$s: Կասեցրեք %2$s և նորից փորձեք:</string>
+    <string name="quickpanel_air_view_warning">Օդային դիտումն ընձեռելու համար ընձեռեք առնվազն մեկ գործառույթ:</string>
+    <string name="quickpanel_air_view_warning_pen_support">Որպեսզի ընձեռեք օդային դիտումը, ընտրված Օդային դիտման ռեժիմից ընձեռեք առնվազն մեկ գործառույթ:</string>
+    <string name="quickpanel_air_gesture_warning">Օդային ժեստն ընձեռելու համար ընձեռեք առնվազն մեկ համապատասխան գործառույթ:</string>
+    <string name="quickpanel_air_gesture_warning_continue">Թակեք և պահեք արագ դրվածքների կոճակը՝ համապատասխան դրվածքները գնալու համար:</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Եթե Wi-Fi չեք օգտագործում, Դուք այլևս չեք կարող օգտվել Ինտերնետից, Էլփոստից և այլ ծրագրերից, որոնք տվյալների միացում են պահանջում:
+
+Շարժական տվյալները կկասեցվեն"</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Միանալ</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Անհնար է միանալ շարժական կապի ցանցերին, երբ Թռիչքային ռեժիմն ընձեռված է: Կասեցրեք Թռիչքային ռեժիմը և նորից փորձեք:</string>
+    <string name="warning_alert_check">Ցույց չտալ այլևս</string>
+    <string name="data_usage_enable_mobile_warning">Փաթեթային տվյալների միջոցով միացումը կարող է լրացուցիչ վճար պահանջել: Շարունակե՞լ:</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Անհնար է VoLTE օգտագործել, երբ Թռիչքային ռեժիմն ընձեռված է: Կասեցրեք Թռիչքային ռեժիմը և նորից փորձեք:</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE-ն չի ապահովվում Ձեր ընթացիկ ծրագրակազմի վարկածով: Լրացուցիչ մանրամասների համար դիմեք հաճախորդների սպասարկման ծառայություններին:</string>
+    <string name="smart_pause_toast_text">Խելացի դադարն օգտագործելու համար նախ ընձեռեք Խլացնել/ընդմիջել:</string>
+    <string name="smart_bonding_popup_msg_roaming">Անհնար է ռոումինգի ընթացքում օգտագործել Ներբեռնումների խթանիչը: Խորհուրդ ենք տալիս ներբեռնել Wi-Fi ցանցի միջոցով:</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Միացնել Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Միացնել Շարժական տվյալները</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Միացնել Wi-Fi և Շարժ. տվյալներ</string>
+    <string name="smart_bonding_popup_msg_wifi">Ներկայումս Wi-Fi-ն անջատված է: Որպեսզի ընձեռեք Ներբեռնումների խթանիչը, և՛ Wi-Fi-ը, և՛ Շարժական տվյալները պետք է միացված լինեն: Շարժական կապի ցանցերի միջոցով ներբեռնելը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:</string>
+    <string name="smart_bonding_popup_msg_data">Շարժական տվյալները ներկա պահին անջատված են: Որպեսզի ընձեռեք Ներբեռնումների խթանիչը, և՛ Wi-Fi-ը, և՛ Շարժական տվյալները պետք է միացված լինեն: Շարժական կապի ցանցերի միջոցով ներբեռնելը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Ներկայումս Wi-Fi-ն ու Շարժական տվյալներն անջատված են: Որպեսզի ընձեռեք Ներբեռնումների խթանիչը, և՛ Wi-Fi-ը, և՛ Շարժական տվյալները պետք է միացված լինեն: Շարժական կապի ցանցերի միջոցով ներբեռնելը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:</string>
+    <string name="smart_bonding_popup_msg">Ներբեռնումների խթանիչը կընձեռվի: Շարժական կապի ցանցերի միջոցով ներբեռնելը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:</string>
+    <string name="smartbonding_dialog_title">Ներբեռնումների խթանիչ</string>
+    <string name="insert_a_sim_card_and_try_again">Մտցրեք SIM քարտ և նորից փորձեք:</string>
+    <string name="unable_to_enable_Download_booster">Անհնար է միացնել Ներբեռն. խթանիչ</string>
+    <string name="download_booster_dialog_title">Ընձեռել Ներբեռնումների խթանիչը</string>
+    <string name="enable">Ակտիվացնել</string>
+    <string name="sd_card">SD քարտ</string>
+    <string name="sdcard_insert">SD քարտը մտցված է</string>
+    <string name="sdcard_unmount">Հեռացնել SD քարտը</string>
+    <string name="go_to_myfiles">Գնալ Իմ Ֆայլերը</string>
+    <string name="charging_interruption_title">Անհնար է լիցքավորել</string>
+    <string name="charging_interruption_by_terminal_open_text">Անհնար է լիցքավորել Ձեր սարքը: Համոզվեք, որ օգտագործում եք Samsung-ի հետ համատեղելի մարտկոց ու լիցքավորիչ, և որ Ձեր սարքը ճիշտ է միացված լիցքավորիչին:</string>
+    <string name="full_battery_title">Տեղեկատվություն</string>
+    <string name="full_battery_text">"Մարտկոցն ամբողջապես լիցքավորված է:
+Անջատեք լիցքավորիչը:"</string>
+    <string name="reading_mode_title">Ընթերցման ռեժիմ</string>
+    <string name="reading_mode_alert">Ընթերցման ռեժիմն ընձեռվել է: Էկրանն այժմ լավարկված է ընթերցման համար: Այս ռեժիմը մատչելի է միայն ընտրված ծրագրերում:</string>
+    <string name="reading_mode_settings">Պարամետրեր</string>
+    <string name="quickpanel_ebook_text">"Ընթերց.
+ռեժիմ"</string>
+    <string name="quickpanel_ebook_content_description">Ընթերցման ռեժիմ</string>
+    <string name="driving_mode_title">Ձեռնազատ ռեժիմ</string>
+    <string name="driving_mode_on_dialog_msg_1">S Voice Ձեռնազատն ընտրելուց հետո Կարգավորումներում պետք է անջատեք Ձեռնազատ աշխատակերպը: Եթե այն միացած մնա, ծանուցումների և մուտքային զանգերի տեղեկությունը դարձյալ կընթերցվի ինքնաշխատորեն</string>
+    <string name="driving_mode_on_dialog_msg_2">Կարող եք անջատել Ձեռնազատ կերպը`ասելով «Անջատել Ձեռնազատ կերպը» S Voice-ում կամ գնալով դեպի Կարգավորումներ կամ ծանուցման փեղկ:</string>
+    <string name="quickpanel_driving_mode_content_description">Ձեռնազատ ռեժիմ</string>
+    <string name="critical_low_battery_title">Մարտկոցը սաստիկ նստած է</string>
+    <string name="critical_low_battery_text">Սարքը միացրեք լիցքավորիչին: Լիցքավորման ընթացքում սարքի օգտագործումը շարունակելու դեպքում հնարավոր է, որ լիցքավորումն արդյունավետորեն չընթանա:</string>
+    <string name="critical_low_battery_text_charged_via_usb">Ավելի արագ լիցքավորելու համար միացեք խցակի վարդակին և փակեք %s-ում չօգտագործվող ծրագրերը: Լիցքավորման ընթացքում շարունակվող օգտագործումը կարող է խանգարել արդյունավետ լիցքավորմանը:</string>
+    <string name="critical_low_battery_text_charged_via_ta">Փակեք %s-ում չօգտագործվող ծրագրերը: Լիցքավորման ընթացքում շարունակվող օգտագործումը կարող է խանգարել արդյունավետ լիցքավորմանը:</string>
+    <string name="low_battery_text">Սարքը միացրեք լիցքավորիչին: Լիցքավորման ընթացքում սարքի օգտագործումը շարունակելու դեպքում հնարավոր է, որ լիցքավորումն արդյունավետորեն չընթանա:</string>
+    <string name="low_battery_text_charged_via_usb">Ավելի արագ լիցքավորելու համար միացեք խցակի վարդակին և փակեք %s-ում չօգտագործվող ծրագրերը: Լիցքավորման ընթացքում շարունակվող օգտագործումը կարող է խանգարել արդյունավետ լիցքավորմանը:</string>
+    <string name="low_battery_text_charged_via_ta">Փակեք %s-ում չօգտագործվող ծրագրերը: Լիցքավորման ընթացքում շարունակվող օգտագործումը կարող է խանգարել արդյունավետ լիցքավորմանը:</string>
+    <string name="low_battery_power_saving_button_text">Էներգիայի խնայում</string>
+    <string name="wireless_charging_title">Անլար լիցքավորում:</string>
+    <string name="cable_charging_title">Լարով լիցքավորում</string>
+    <string name="wireless_charging_text">Լիցքավորող տակդիր է հայտնաբերվել: Կատարվում է անլար լիցքավորում…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Փոխարկվում է անլար լիցքավորումից դեպի կաբելային լիցքավորում</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Փոխարկվում է կաբելային լիցքավորումից դեպի անլար լիցքավորում</string>
+    <string name="wireless_charging_spen_warning_text">Ձեր սարքը հիմա լիցքավորվում է անլար: Անլար լիցքավորման ընթացքում S Pen-ը կարող է պատշաճ չաշխատել:</string>
+    <string name="incompatible_charger_title">Չի լիցքավորվում:</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Անջատել սարքը</string>
+    <string name="overheat_poweroff_warning_text">Ձեր սարքը գերտաքանում է: Հիմա սնուցումը կանջատվի, որպեսզի սարքը հովանա:</string>
+    <string name="overheat_poweroff_warning_button_text">Սնուցումը չանջատել</string>
+    <string name="overheat_poweroff_notice_title">Սարքի սնուցումն ինքնաբերաբար անջատվել է</string>
+    <string name="overheat_poweroff_notice_text">"Ձեր սարքը գերտաքացել է: Սնուցումն անջատվել է, որպեսզի սարքը չվնասվի:
+
+Գերտաքացման պատճառ կարող են լինել՝
+երկար ժամանակ գրաֆիկական պատկերներով հարուստ ծրագրեր օգտագործելը, օրինակ՝ խաղերի և նավարկման ծրագրեր.
+մեծ ֆայլեր փոխանցելը.
+սարքը տաք միջավայրում օգտագործելը:"</string>
+    <string name="power_sharing_warning_title">Էներգիայի համօգտագործում</string>
+    <string name="power_sharing_warning_text">Մարտկոցի հոսանքը պակաս է համօգտ-ն սահմանաչափից: Հոսանքի համօգտ-ը շարունակելու համար կայեք հոսանքի համօգտ-ն սահամանաչափը մարտկոցի ընթացիկ մակարդակից ցածր:</string>
+    <string name="power_sharing_start_toast_text">Հոսանքի համօգտ-ն մեկնարկում…</string>
+    <string name="power_sharing_end_notification_text">Էներգիայի համօգտագործումն ավարտվել է: Անջատեք հաղորդալարը:</string>
+    <string name="power_sharing_unable_notification_text">Անհնար է համօգտագործել:</string>
+    <string name="highvoltage_charger_notice_title">Օգտագործեք Արագ լիցքավորում</string>
+    <string name="highvoltage_charger_notice_text">Դա առագ կփոխի ձեր մարտկոցի ռեժիմը, հատկապես եթե էկրանը կամ սարքն անջատած են:</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Անջատել էկրանը</string>
+    <string name="highvoltage_charger_notification_text">Արագ լիցքավորիչը միացված է:</string>
+    <string name="face_detection_failure_text">Խելացի հապաղումը չի կարող հյտնբրել աչքեր:</string>
+    <string name="screenshot_failed_due_to_drm_text">Անհնար է էկրանը սևեռել: DRM-ով պաշտպանված պատկեր:</string>
+    <string name="no_such_item">Անհնար է տարր գտնել:</string>
+    <string name="one_item_will_be_deleted">1 տարր կվերացվի:</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Հմձայն եմ</string>
+    <string name="disagree">Առարկել</string>
+    <string name="location_masterswitch_dialogtitle">Տեղադրության թույլտվություն</string>
+    <string name="gps_donotshow">Ցույց չտալ այլևս</string>
+    <string name="tethering_attention_title">Ուշադրություն</string>
+    <string name="tethering_wifi_off_warning">Շարժական թեժ կետի ընձեռումը կանջատի Wi-Fi-ը:</string>
+    <string name="wifihotspot_detail">Մանրամասներ</string>
+    <string name="tether_settings_title_wifi">Փոխադրովի թեժ կետ</string>
+    <string name="guest_launge_warning_toast_text">Հյուրի կերպում անհնար է միացնել կամ անջատել %s-ը:</string>
+    <string name="personal_page_popup_msg_while_moving_item">Անհնար է Գաղտնի կապի ռեժիմն ընձեռել տարրերը դեպի Գաղտնի տեղափոխելու ընթացքում:</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Անհնար է Գաղտնի կապի ռեժիմը կասեցնել տարրերը դեպի Գաղտնի տեղափոխելու ընթացքում:</string>
+    <string name="no_sim_notification_title">SIM չկա</string>
+    <string name="no_sim_notification_title_tmo">Ոչ մի SIM քարտ մտցված չէ:</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Տեղադրեք SIM քարտ:</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Ռոումինգ</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Ծանուցումների վահանակ</string>
+    <string name="guideline_empty_text">Պատկերակ քարշեք մատուցարանից՝ այդ ծրագիրը բացելու համար:</string>
+    <string name="drag_and_drop_content">Տեղափոխել բովանդակություն</string>
+    <string name="switch_window">Փոխարկել պատուհանները</string>
+    <string name="close_application">Փակել ծրագիրը</string>
+    <string name="collapse_window">Կոծկել պատուհանը</string>
+    <string name="change_to_poup_view">Բացել ելնող պատուհանում</string>
+    <string name="select_contents">Տեքստի պարբերություն կամ պատկերի էկրանային պատճեն քաշեք և թողեք մյուս պատուհանի մեջ:</string>
+    <string name="do_not_show_again">Ցույց չտալ այլևս</string>
+    <string name="help">Օգնություն</string>
+    <string name="recent_multi_window">Բացել Բզմպտհան դիտման մեջ</string>
+    <string name="recent_pen_window">Բացել ելնող պատուհանում</string>
+    <string name="recent_delete">Փակել ծրագիրը</string>
+    <string name="disable_multi_window_popup_description">Բազմապատուհանը կանջատվի և ելնող պատուհանի բոլոր ծրագրերը կփակվեն:</string>
+    <string name="disable_multi_window_popup_easymode_description">Անհնար է Բազմակի պատուհան օգտագործել, երբ Հեշտ ռեժիմն ընձեռված է: Կասեցրեք Հեշտ ռեժիմը և նորից փորձեք:</string>
+    <string name="yes">Ընդունել</string>
+    <string name="no">Չեղարկել</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Ձայնի բարձր ուժգնությամբ երկար ժամանակ ունկնդրելը կարող է վնասել Ձեր լսողությունը: Հպեք ԼԱՎ` ձայնն ապահով մակարդակից վեր ձայնը բարձրացնելու համար:</string>
+    <string name="tw_cover_volume_warning_message">Ձայնի բարձր ուժգնությամբ երկար ժամանակ ունկնդրելը կարող է վնասել լսողությունը: Ձայնն ուժեղացնելու համար բացեք շապիկը</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Ընձեռել Թռիչքային ռեժիմը</string>
+    <string name="global_actions_toggle_airplane_mode">Թռիչքի ռեժիմ</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Թռիչքային ռեժիմը թույլ է տալիս կասեցնել զանգի, հաղորդագրման և շարժական կապի ցանցերի գործառույթները:</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Թռիչքային ռեժիմը կկասեցվի:</string>
+    <string name="multi_window_use_popup_title">Ընձեռել Բազմակի պատուհան</string>
+    <string name="multi_window_use_popup_msg">Բազմապատուհանը և TalkBack-ը չեն կարող երկուսը միասին ընձեռվել: TalkBack-ը կկասեցվի</string>
+    <string name="air_gesture_use_popup_title">Ընձեռել օդային ժեստ</string>
+    <string name="air_gesture_use_popup_msg">Օդային ժեստը և TalkBack-ը չեն կարող երկուսը միասին ընձեռվել: TalkBack-ը կկասեցվի</string>
+    <string name="air_view_use_popup_title">Ընձեռել օդային դիտում</string>
+    <string name="air_view_use_popup_msg">Օդային դիտումն ու ներքևի ընտրանքները չեն կարող միասին ընձեռվել: Ներքևի ընտրանքները կկասեցվեն</string>
+    <string name="car_mode_enable_use_popup_title">Ընձեռել Մեքենայի ռեժիմը</string>
+    <string name="car_mode_use_popup_msg">Մեքենայի ռեժիմը և TalkBack-ը չեն կարող միաժամանակ ընձեռվել: TalkBack-ը կկասեցվի:</string>
+    <string name="smart_pause_use_popup_title">Ընձեռել խելացի դադար</string>
+    <string name="smart_pause_use_popup_msg">Խելացի դադարը և TalkBack-ը չեն կարող երկուսը միասին ընձեռվել: TalkBack-ը կկասեցվի:</string>
+    <string name="smart_scroll_use_popup_title">Ընձեռել խելացի ոլորումը</string>
+    <string name="smart_scroll_use_popup_msg">Խելացի ոլորումը և TalkBack-ը չեն կարող երկուսը միասին ընձեռվել: TalkBack-ը կկասեցվի:</string>
+    <string name="smart_stay_use_popup_title">Ընձեռել խելացի հապաղում</string>
+    <string name="smart_stay_use_popup_msg">Խելացի հապաղումը և TalkBack-ը չեն կարող երկուսը միասին ընձեռվել: TalkBack-ը կկասեցվի:</string>
+    <string name="toolbox_use_popup_title">Միացնել Գործիքագոտին</string>
+    <string name="toolbox_use_popup_msg">Գործիքագոտին և TalkBack-ը չեն կարող միաժամանակ միացվել: TalkBack-ը կանջատվի:</string>
+    <string name="sidekey_use_popup_title">Ընձեռել Կողային ստեղների վահանակը</string>
+    <string name="sidekey_use_popup_msg">Կողային ստեղների վահանակը և TalkBack-ը չեն կարող միաժամանակ ընձեռվել: TalkBack-ը կկասեցվի:</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Նշում</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Վերջին օգտագործված ստեղնը</string>
+    <string name="recent_menukey_press_description_vzw">Ընտրացանկի ստեղնը փոխարինվել է վերջին օգտագործված ստեղնով, ինչը Ձեզ թույլ կտա արագորեն փոխել առավել վերջերս օգտագործված ծրագրերը և մեկից անցնել մյուսին: Լրացուցիչ տեղեկությունների համար թակեք Օգնություն:</string>
+    <string name="recent_menukey_press_description_no_help">Ընտրացանկի ստեղնը փոխարինվել է վերջին օգտագործումների ստեղնով, ինչը Ձեզ թույլ կտա արագորեն փոխել առավել վերջերս օգտագործված ծրագրերը և մեկից անցնել մյուսին:</string>
+    <string name="recent_menukey_press_description_att">Ընտրացանկի ստեղնը փոխարինվել է վերջին օգտագործված ստեղնով: Ծրագրում սեղմեք և պահեք վերջին օգտագործված ստեղնը, որպեսզի տեսնեք ընտրացանկի ընտրանքները:</string>
+    <string name="recent_help_dialog_title_for_split_view">Բազմակի պատուհանի նոր գործառական հնարավորություններ</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Տրոհված էկրանի դիտակերպում ծրագրեր բացելու համար ծրագրի պատուհանի անվանագոտում թակեք %s: Այս պատկերակը ցույց է տրվում, երբ ծրագիրն ապահովում է տրոհված էկրանի դիտում:</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Տրոհված էկրանի դիտակերպում ծրագրեր բացելու համար ծրագրի պատուհանի անվանագոտում թակեք տրոհված էկրանի պատկերակը: Այս պատկերակը ցույց է տրվում, երբ ծրագիրն ապահովում է տրոհված էկրանի դիտում:</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Թակեք և պահեք ծրագրի պատուհանը, որպեսզի ծրագիրը բացեք որպես ելնող պատուհան: Ելնող պատուհանի դիտակերպից տրոհված էկրանի դիտակերպին անցնելու համար ծրագրի ելնող պատուհանը քարշեք դեպի էկրանի վերին կամ ստորին մասը:</string>
+    <string name="recent_menukey_help_button">Օգնթն</string>
+    <string name="btn_text_yes">Ընդունել</string>
+    <string name="qs_edit_settings_title">Ծանուցումների վահանակ</string>
+    <string name="qs_edit_settings_available_button">Մատչելի կոճակներ</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Ընտրակայեք, թե որ արագ դրվածքների կոճակները երևան ծանուցումների վահանակի վերևում: Թակեք և պահեք, այնուհետև քարշեք կոճակները՝ դրանք ավելացնելու, թաքցնելու կամ վերադասավորելու համար:</string>
+    <string name="notification_panel_unable_remove_minimum">Անհնար է հեռացնել կոճակը. հասել է կոճակների նվազագույն քանակին (%d):</string>
+    <string name="qs_edit_setting_edit_button">Վերադասավորել</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Թռիչքային ռեժիմը թույլ է տալիս անջատել զանգի, հաղորդագրման և տվյալների հաղորդման ցանցի գործառական հնարավորությունները: Այն նաև անջատում է միացնելիության հնարավորությունները, ինչպիսիք են Wi-Fi-ն ու Bluetooth-ը: Wi-Fi Bluetooth օգտագործելու համար դրանք միացրեք Դրվածքներում կամ ծանուցումների վահանակում:</string>
+    <string name="pickup_tutorial_title">Փորձել խելացի զգուշացում</string>
+    <string name="put_your_phone">Սարքը ցած դնելուց հետո էկրանը կանջատվի:</string>
+    <string name="phone_detect">Դիցուք, Դուք ունեք կորսված զանգեր կամ հաղորդագրություններ: Ցած դրեք Ձեր սարքը, հետո այն նորից բարձրացրեք, երբ էկրանն անջատվի:</string>
+    <string name="pick_up_your_phone">Բարձրացրեք Ձեր սարքը</string>
+    <string name="tutorial_complete">Ուսումնական ձեռնարկն ավարտվեց:</string>
+    <string name="share_via">Համօգտագործել հետևյալի միջոցով՝</string>
+    <string name="airmsg_warning_alert_check">Այլևս ցույց չտալ</string>
+    <string name="airmsg_check_data_title_WLAN">Միանալ WLAN–ին</string>
+    <string name="airmsg_check_data_title_Mobile">Միանալ շարժ. ցանցերի միջոցով</string>
+    <string name="cooling_title">Սարքը գերտաքանում է</string>
+    <string name="cooling_body">"Ձեր սարքը գերտաքանում է: Այն հովացնելու համար քայլեր կձեռնարկվեն:
+
+Կարող եք շարունակել օգտագործել սարքը, բայց հնարավոր է, որ՝
+- էկրանը սկսի աղոտանալ.
+- սարքի աշխատանքը դանդաղի.
+- լիցքավորումն ընդհատվի:
+
+Ընթացիկ ծրագիրը փակելը կնպաստի սարքի հովացմանը:
+
+Սարքը հովացնելուց հետո աշխատանքն ինքնաբերաբար կվերադառնա իր բնականոն վիճակին:"</string>
+    <string name="cooling_noti_text">Տոփեք այստեղ մանրամասները տեսնելու համար:</string>
+    <string name="cooling_popup_name">Ծանուցում</string>
+    <string name="cooling_noti_title">Սարքը գերտաքանում է</string>
+    <string name="btn_text_no">Չեղկլ</string>
+    <string name="device_overheating">Սարքը գերտաքանում է</string>
+    <string name="colling_noti_text_2">Անհնար է ծրագրեր բացել: Կարող եք օգտագործել միայն «Հեռախոս» և «Կոնտակտներ» ծրագրերը:</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Թակեք այստեղ՝ ավելին իմանալու համար:</string>
+    <string name="cooling_popup_name_VZW">Ծանուցում</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">Ընդունել</string>
+    <string name="btn_text_no_VZW">Չեղկլ</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Անջատել Անվտանգ ռեժիմը</string>
+    <string name="safe_mode_popup_body_global">Անվտանգ ռեժիմն անջատելու համար սարքը պետք է վերագործարկվի։ Ձեր բոլոր ծրագրերն մատչելի կլինեն:</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Անվտանգ ռեժիմ</string>
+    <string name="safe_mode_noti_body_global">Հպեք այստեղ՝ Անվտանգ ռեժիմն անջատելու</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Չեղկլ</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Որպեսզի փոխեք ձայնի ռեժիմը, Ընդհատման ռեժիմը դրեք «Առաջնահերթ» կամ «Բոլոր»:</string>
+    <string name="accessibility_driving_mode">Ձեռնազատ կերպը միացնելու համար միացրեք առնվազն մեկ առընչվող գործառույթ:</string>
+    <string name="qs_vibrate_on_in_priority">"Թրթռում
+(Առաջնահերթ)"</string>
+    <string name="qs_sound_on_in_priority">"Ձայն
+(Առաջնահերթ)"</string>
+    <string name="qs_silent_popup_title">Ձայնի ռեժիմ</string>
+    <string name="qs_silent_popup_sound">Ձայն</string>
+    <string name="qs_silent_popup_vibrate">Թրթռալ</string>
+    <string name="qs_rotate_popup_title">Էկրանի պտտում</string>
+    <string name="qs_rotate_popup_all">Բոլոր</string>
+    <string name="qs_torch_popup_title">Լապտեր</string>
+    <string name="qs_torch_popup_brightness">Պայծառություն</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Ոչ մի</string>
+    <string name="disable_multi_window_dialog_title">Կասեցնել Բազմակի պատուհանը</string>
+    <string name="disable_multi_window_dialog_text">Բազմապատուհանը կանջատվի և ելնող պատուհանի բոլոր ծրագրերը կփակվեն:</string>
+    <string name="AirplaneNoti_title">Թռիչք. ռեժիմն ընձեռված է</string>
+    <string name="AirplaneNoti_text">Անջատել</string>
+    <string name="quickpanel_interruption_always_interrupt">"Միշտ
+ընդհատել"</string>
+    <string name="quickpanel_interruption_priority_only">"Միայն
+առաջնահերթ"</string>
+    <string name="tw_sound_priority_desciption">Ձայն հնչեցնել առաջնահերթ ընդհատ. դեպքում</string>
+    <string name="tw_vibrate_priority_desciption">Թրթռալ առաջնահերթ ընդհատումների դեպքում</string>
+    <string name="tw_mute_priority_desciption">Ոչ մի ընդհատում (նույնիսկ՝ տագնապ)</string>
+    <string name="tw_zen_off_interruptions">Կանչեր և ծանուցումներ ստանալիս</string>
+    <string name="tw_interruption_level_priority">Միայն առաջնահերթություն</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Միայն թույլ տալ առաջնահերթ ընդհատումներ</string>
+    <string name="tw_interruption_level_all_vzw">Միշտ ընդհատել</string>
+    <string name="tw_mute_priority_toast_description">"Ոչ մի ընդհատում
+(նույնիսկ՝ տագնապ)"</string>
+    <string name="dnd_noti_title">«Չանհանգստացնել» ռեժիմ ընձեռ.</string>
+    <string name="dnd_noti_message">Տագնապները խլացված են</string>
+    <string name="dnd_noti_action_disable">Անջատել</string>
+    <string name="torch_light_notification_title">Լապտերը միացված է</string>
+    <string name="torch_light_notification_message">Անջատել Լապտերը</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Ցանցի սահմանափակման ռեժիմը կկասեցվի</string>
+    <string name="recent_help_dialog_title_for_popup_view">Բազմապատուհան տեսքի օգտագործում</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Տրոհված էկրանի դիտակերպում ծրագրեր բացելու համար ծրագրի պատուհանի անվանագոտում թակեք %s: Այս պատկերակը ցույց է տրվում, երբ ծրագիրն ապահովում է տրոհված էկրանի դիտում:</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Տրոհված էկրանի դիտակերպում ծրագրեր բացելու համար ծրագրի պատուհանի անվանագոտում թակեք տրոհված էկրանի պատկերակը: Այս պատկերակը ցույց է տրվում, երբ ծրագիրն ապահովում է տրոհված էկրանի դիտում:</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Նաև կարող եք ցանկացած էկրանում սեղմել և պահել Վերջին օգտագործումների ստեղնը՝ ծրագրերը տրոհված էկրանի դիտակերպում բացելու համար:</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Ծրագիր դիտեք ելնող պատուհանի դիտակերպում՝ էկրանի վերևի մասի մեկ կամ մյուս անկյունից մատն անկյունագծորեն ներքև սահեցնելով, երբ ծրագիրը բաց է ու երևում է էկրանի վրա:</string>
+    <string name="wallpaper_crop_button_done">Արված է</string>
+    <string name="accessibility_desc_notification_panel">Ծանուցումների վահանակ</string>
+</resources>

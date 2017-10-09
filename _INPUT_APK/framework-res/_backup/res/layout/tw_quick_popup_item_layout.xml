@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true" android:layout_width="@dimen/tw_quick_popup_item_width" android:layout_height="@dimen/tw_quick_popup_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/quick_popup_item_image_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:ellipsize="marquee" android:layout_gravity="bottom|center" android:id="@id/quick_popup_item_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" android:fontFamily="sec-roboto-light" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+</FrameLayout>

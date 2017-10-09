@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.notification.DummyPreference android:persistent="false" android:title="dummy_preference" android:key="dummy_preference" />
+    <ListPreference android:entries="@array/sound_mode_entries" android:title="@string/sound_mode" android:key="sound_mode" android:entryValues="@array/sound_mode_values" />
+    <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/zen_mode_option_title" android:key="zen_mode" />
+    <ListPreference android:persistent="false" android:title="@string/zen_mode_option_title" android:key="zen_mod_list" />
+    <PreferenceCategory android:title="@string/zen_mode_important_category" android:key="important">
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_events" android:key="events" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_phone_calls" android:key="phone_calls" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/zen_mode_messages" android:key="messages" />
+        <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/allowed_contacts_title" android:key="starred" />
+        <Preference android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:colorForegroundInverse" android:title="" android:selectable="false" android:key="alarm_info" android:summary="@string/zen_mode_alarm_info" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/zen_mode_downtime_category" android:key="downtime">
+        <Preference android:persistent="false" android:title="@string/zen_mode_downtime_days" android:key="days" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/zen_mode_automation_category" android:key="automation">
+        <Preference android:persistent="false" android:title="@string/zen_mode_entry_conditions_title" android:key="entry" />
+        <Preference android:persistent="false" android:title="@string/manage_condition_providers" android:key="manage_condition_providers" android:fragment="com.android.settings.notification.ConditionProviderSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

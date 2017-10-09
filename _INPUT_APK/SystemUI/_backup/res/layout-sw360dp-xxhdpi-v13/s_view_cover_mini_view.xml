@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/s_view_cover_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_height" class="com.sec.android.sviewcover.SViewCoverMiniView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/s_view_cover_background" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin" android:src="@android:drawable/mainbg_pattern_mainarea" />
+    <FrameLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/sview_cover_root" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin">
+        <FrameLayout android:paddingTop="@android:dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_height">
+            <com.sec.android.sviewcover.SViewCoverPager android:layout_gravity="center" android:id="@id/s_view_cover_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.sec.android.sviewcover.SViewCoverPagerNavigation android:gravity="center" android:layout_gravity="bottom" android:id="@id/s_view_cover_page_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" />
+    </FrameLayout>
+    <com.sec.android.sviewcover.SViewCoverColorSelector android:layout_gravity="left" android:id="@id/s_view_cover_color_selector" android:visibility="gone" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height" android:layout_marginLeft="@dimen/sview_cover_margin" />
+</view>

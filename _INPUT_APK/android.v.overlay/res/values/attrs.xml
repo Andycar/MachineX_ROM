@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSize" format="dimension" />
+    <attr name="textStyle">
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+        <flag name="normal" value="0x00000000" />
+    </attr>
+    <attr name="textColor" format="reference|color" />
+    <attr name="textColorHighlight" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <attr name="textColorLink" format="reference|color" />
+    <attr name="fontFamily" format="string" />
+    <attr name="textColorPrimary" format="reference|color" />
+</resources>

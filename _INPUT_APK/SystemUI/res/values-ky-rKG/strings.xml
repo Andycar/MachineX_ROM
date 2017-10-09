@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_battery_level">Батерейка %d пайызга керектелди</string>
+    <string name="ok">ОК</string>
+    <string name="app_name">Баскычтопту бөгөттөгүч</string>
+    <string name="keyguard_password_enter_pin_code">PIN кодду териңиз</string>
+    <string name="keyguard_password_enter_puk_code">SIM-картанын PUK-кодун, анан жаңы PIN-кодун териңиз</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM-картанын PUK-коду</string>
+    <string name="keyguard_password_enter_pin_prompt">SIM-картанын жаңы PIN-коду</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Сырсөздү терүү үчүн тийип коюңуз</font></string>
+    <string name="keyguard_password_enter_password_code">Кулпуну ачуу үчүн сырсөздү териңиз</string>
+    <string name="keyguard_password_enter_pin_password_code">Кулпуну ачуу үчүн PIN кодду териңиз</string>
+    <string name="keyguard_password_wrong_pin_code">PIN-код туура эмес.</string>
+    <string name="faceunlock_multiple_failures">Жүзүнөн таанып ачуу аракеттеринин чегинен аштыңыз</string>
+    <string name="keyguard_charged">Дүрмөттөлдү</string>
+    <string name="keyguard_plugged_in">Кубатталууда</string>
+    <string name="keyguard_low_battery">Дүрмөттөөчү түзмөктү туташтырыңыз.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Бөгөттөн чыгаруу үчүн Менюну басыңыз.</string>
+    <string name="keyguard_network_locked_message">Тармак бөгөттөлгөн</string>
+    <string name="keyguard_missing_sim_message_short">SIM-карта жок</string>
+    <string name="keyguard_missing_sim_message">Телефондо SIM-карта жок.</string>
+    <string name="keyguard_missing_sim_instructions">SIM-карта салыңыз.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM-карта жок же ал окулбай калган. SIM-карта салыңыз.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Жараксыз SIM-карта.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Сиздин SIM-картаңыз жарактан чыгып калды.
+ Башка SIM-карта алыш үчүн операторуңузга кайрылыңыз."</string>
+    <string name="keyguard_sim_locked_message">SIM-карта бөгөттөлгөн.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM-карта PUK-бөгөттө.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM-карта бөгөттөн чыгарылууда…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d ичинен %2$d виджет.</string>
+    <string name="keyguard_accessibility_add_widget">Виджет кошуу.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Бош</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Бөгөттөн чыгаруу аймагы жазылды.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Бөгөттөн чыгаруу аймагы жыйрылды.</string>
+    <string name="keyguard_accessibility_widget">%1$s виджети.</string>
+    <string name="keyguard_accessibility_user_selector">Колдонуучуну тандагыч</string>
+    <string name="keyguard_accessibility_camera">Камера</string>
+    <string name="keygaurd_accessibility_media_controls">Медиа башкаруу</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Виджет иреттөө башталды.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Виджет иреттөө аяктады.</string>
+    <string name="keyguard_accessibility_widget_deleted">%1$s виждети жок кылынды.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Бөгөттөн чыгаруу аймагын кеңейтүү.</string>
+    <string name="keyguard_accessibility_slide_unlock">Жылмыштырып ачуу.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Үлгү менен ачуу.</string>
+    <string name="keyguard_accessibility_face_unlock">Жүзүнөн таануу</string>
+    <string name="keyguard_accessibility_pin_unlock">Пин код менен ачуу.</string>
+    <string name="keyguard_accessibility_password_unlock">Сырсөз менен ачуу.</string>
+    <string name="keyguard_accessibility_pattern_area">Үлгү аймагы.</string>
+    <string name="keyguard_accessibility_slide_area">Жылмыштыруу аймагы.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Мурунку трек баскычы</string>
+    <string name="keyguard_accessibility_transport_next_description">Кийинки трек баскычы</string>
+    <string name="keyguard_accessibility_transport_pause_description">Тыныгуу баскычы</string>
+    <string name="keyguard_accessibility_transport_play_description">Ойнотуу баскычы</string>
+    <string name="keyguard_accessibility_transport_stop_description">Токтотуу баскычы</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Жакты</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Жаккан жок</string>
+    <string name="keyguard_accessibility_transport_heart_description">Жүрөк</string>
+    <string name="keyguard_accessibility_show_bouncer">Улантыш үчүн бөгөттөн чыгарыңыз</string>
+    <string name="keyguard_accessibility_hide_bouncer">Жүргүзүү токтотулду</string>
+    <string name="keyguard_accessibility_delete_widget_start">%1$s жок кылыш үчүн, түшүрүңүз.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s жок кылынбайт.</string>
+    <string name="keyguard_accessibility_next_alarm">Кийинки ойготкуч саат %1$s коюлган</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Айнуу</string>
+    <string name="keyboardview_keycode_delete">Жок кылуу</string>
+    <string name="keyboardview_keycode_done">Даяр</string>
+    <string name="keyboardview_keycode_mode_change">Тартип алмаштыруу</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Кирүү</string>
+    <string name="description_target_unlock">Бөгөттөн чыгаруу</string>
+    <string name="description_target_camera">Камера</string>
+    <string name="description_target_silent">Үнсүз</string>
+    <string name="description_target_soundon">Үн жандырылды</string>
+    <string name="description_target_search">Издөө</string>
+    <string name="description_direction_up">%s үчүн жогору жылмыштырыңыз.</string>
+    <string name="description_direction_down">%s үчүн төмөн жылмыштырыңыз.</string>
+    <string name="description_direction_left">%s үчүн солго жылмыштырыңыз.</string>
+    <string name="description_direction_right">%s үчүн оңго жылмыштырыңыз.</string>
+    <string name="user_switched">Учурдагы колдонуучу %1$s.</string>
+    <string name="kg_emergency_call_label">Куткаруучуларга чалуу</string>
+    <string name="kg_forgot_pattern_button_text">Үлгү унутулду</string>
+    <string name="kg_wrong_pattern">Үлгү туура эмес</string>
+    <string name="kg_wrong_password">Сырсөз туура эмес</string>
+    <string name="kg_wrong_pin">PIN-код туура эмес</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d секундадан кийин кайталаңыз.</string>
+    <string name="kg_pattern_instructions">Бөгөттөн чыгаруу сүрөтүн тартыңыз</string>
+    <string name="kg_sim_pin_instructions">"SIM-картанын PIN'ин киргизиңиз"</string>
+    <string name="kg_pin_instructions">"PIN'ди киргизиңиз"</string>
+    <string name="kg_password_instructions">Сырсөз киргизиңиз</string>
+    <string name="kg_puk_enter_puk_hint">SIM-карта азыр жарактан чыкты. Улантыш үчүн, PUK-кодду киргизиңиз. Көбүрөөк маалымат үчүн операторуңузга кайрылыңыз.</string>
+    <string name="kg_puk_enter_pin_hint">Сиз каалаган PIN-кодду териңиз</string>
+    <string name="kg_enter_confirm_pin_hint">Сиз каалаган PIN-кодду ырастаңыз</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM-карта бөгөттөн чыгарылууда…</string>
+    <string name="kg_invalid_sim_pin_hint">4төн 8 санга чейинки PIN жазыңыз</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-код 8 же андан көп сандан турушу керек.</string>
+    <string name="kg_invalid_puk">Туура PUK-кодду кайрадан териңиз. Кайталанган аракеттер SIM-картаны биротоло жараксыз кылат.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN-коддор туура келбеди</string>
+    <string name="kg_login_too_many_attempts">Өтө көп үлгү киргизүү аракети болду</string>
+    <string name="kg_login_instructions">Бөгөттөн чыгарыш үчүн, Google эсебиңиз менен кириңиз.</string>
+    <string name="kg_login_username_hint">Колдонуучунун аты (эмейл)</string>
+    <string name="kg_login_password_hint">Сырсөз</string>
+    <string name="kg_login_submit_button">Кирүү</string>
+    <string name="kg_login_invalid_input">Колдонуучу атыңыз же сырсөзүңүз туура эмес.</string>
+    <string name="kg_login_account_recovery_hint">"Колдонуучу атыңызды же сырсөзүңүздү унутуп калдыңызбы?
+"<b>google.com/accounts/recovery</b> дарегине кайрылыңыз.</string>
+    <string name="kg_login_checking_password">Эсеп текшерилүүдө…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Сиз PIN-кодуңузду %d жолу туура эмес тердиңиз. 
+
+ %d секундадан кийин кайталаңыз."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Сиз сырсөзүңүздү %d жолу туура эмес тердиңиз. 
+
+ %d секундадан кийин кайталаңыз."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Сиз бөгөттөн чыгаруу үлгүсүн %d жолу туура эмес көрсөттүңүз. 
+
+ %d секундадан кийин кайталаңыз."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Сиз телефонуңузду %d жолу ийгиликсиз бөгөттөн чыгаруу аракетин кылдыңыз. Дагы %d ийгиликсиз аракеттен кийин, телефон баштапкы абалына кайтарылат жана бардык берилиштериңиз жок кылынат.</string>
+    <string name="kg_failed_attempts_now_wiping">Сиз телефонуңузду %d жолу ийгиликсиз бөгөттөн чыгаруу аракетин кылдыңыз. Телефон баштапкы абалына кайтарылат.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Сиз бөгөттөн чыгаруу үлгүсүн %d жолу туура эмес көрсөттүңүз. Дагы %d ийгиликсиз аракеттен кийин, телефонуңузду эмейл эсебиңиз аркылуу бөгөттөн чыгаруу талап кылынат.
+
+ %d секундадан кийин кайра аракеттениңиз."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Алып салуу</string>
+    <string name="kg_password_wrong_pin_code_pukked">SIM-карта PIN-коду туура эмес. Эми түзмөктү бөгөттөн чыгарыш үчүн операторуңузга кайрылышыңыз керек.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM-карта жараксыз. Операторуңузга кайрылыңыз.</string>
+    <string name="kg_password_pin_failed">SIM-картанын PIN-кодун ачуу кыйрады!</string>
+    <string name="kg_password_puk_failed">SIM-картанын PUK-кодун ачуу кыйрады!</string>
+    <string name="kg_pin_accepted">Код кабыл алынды!</string>
+    <string name="keyguard_transport_prev_description">Мурунку трек баскычы</string>
+    <string name="keyguard_transport_next_description">Кийинки трек баскычы</string>
+    <string name="keyguard_transport_pause_description">Тыныгуу баскычы</string>
+    <string name="keyguard_transport_play_description">Ойнотуу баскычы</string>
+    <string name="keyguard_transport_stop_description">Токтотуу баскычы</string>
+    <string name="keyguard_carrier_default">Байланыш жок.</string>
+    <string name="app_label">Система UI</string>
+    <string name="status_bar_clear_all_button">Тазалоо</string>
+    <string name="status_bar_recent_remove_item_title">Тизмеден алып сал</string>
+    <string name="status_bar_recent_inspect_item_title">Колдонмо маалыматы</string>
+    <string name="status_bar_no_recent_apps">Жакынкы сунуучулар жок</string>
+    <string name="status_bar_no_notifications_title">Эскертүүлөр жок</string>
+    <string name="status_bar_ongoing_events_title">Уланып жаткан</string>
+    <string name="status_bar_latest_events_title">Эскертүүлөр</string>
+    <string name="battery_low_title">Батареянын кубаты төмөн</string>
+    <string name="battery_low_percent_format">%d%% калды</string>
+    <string name="invalid_charger">USB заряддоосу колдоого алынбайт. Жабдылган заряддагычты колдонуңуз.</string>
+    <string name="battery_low_why">Settings</string>
+    <string name="status_bar_settings_settings_button">Орнотуулар</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Учуу режими</string>
+    <string name="status_bar_settings_auto_rotation">Экранды авто буруу</string>
+    <string name="status_bar_settings_mute_label">Үнсүз</string>
+    <string name="status_bar_settings_auto_brightness_label">Авто</string>
+    <string name="status_bar_settings_notifications">Эскертүүлөр</string>
+    <string name="bluetooth_tethered">Bluetooth тушатылды</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Жазуу ыкмаларын орнотуу</string>
+    <string name="status_bar_use_physical_keyboard">Физикалык ариптакта</string>
+    <string name="usb_device_permission_prompt">%1$s сунуучуна USB түзмөгүнө жөлөөгө болсунбу?</string>
+    <string name="usb_accessory_permission_prompt">%1$s сунуучуна USB жабдыгына жөлөөгө болсунбу?</string>
+    <string name="usb_device_confirm_prompt">USB түзмөгү туташып турганда %1$s ачуубу?</string>
+    <string name="usb_accessory_confirm_prompt">USB жабдыгы туташып турганда %1$s ачуубу?</string>
+    <string name="usb_accessory_uri_prompt">Бул USB жабдуусу менен эч бир орнотулган сунуучу иштебейт. Бул жабдуу тууралуу кененирээк %s боюнча билиңиз.</string>
+    <string name="title_usb_accessory">USB жабдыгы</string>
+    <string name="label_view">Көрүү</string>
+    <string name="always_use_device">Баштапкы бул USB түзмөк үчүн колдонуу</string>
+    <string name="always_use_accessory">Айласыз бул USB жабдуу үчүн колдонуу</string>
+    <string name="usb_debugging_title">USB ката арытууга уруксатпы?</string>
+    <string name="usb_debugging_message">"The PC's RSA ачкычтын манжа изи бул:
+%1$s"</string>
+    <string name="usb_debugging_always">Бул ПКге дайыма уруксат</string>
+    <string name="compat_mode_on">Экран толтуруу үчүн арымда</string>
+    <string name="compat_mode_off">Экранды толтуруу үчүн чой</string>
+    <string name="screenshot_saving_ticker">Экран сүрөтүн сактоо…</string>
+    <string name="screenshot_saving_title">Экран сүрөтүн сактоо…</string>
+    <string name="screenshot_saving_text">Скриншот сакталууда</string>
+    <string name="screenshot_saved_title">Экран сүрөтү кармалды.</string>
+    <string name="screenshot_saved_text">Сүрөттү көрүүгө басыңыз.</string>
+    <string name="screenshot_failed_title">Экран кесиндисин кармоо мүмкүн эмес</string>
+    <string name="usb_preference_title">USB файл өткөрүү тандоолор</string>
+    <string name="use_mtp_button_title">Медиа ойноткуч катары орнотууу (MTP)</string>
+    <string name="use_ptp_button_title">Камера катары орнотуу (PTP)</string>
+    <string name="installer_cd_button_title">Mac үчүн Android файл өткөрүү сунуучусун орнотуу</string>
+    <string name="accessibility_back">Артка</string>
+    <string name="accessibility_home">Үй</string>
+    <string name="accessibility_menu">Меню</string>
+    <string name="accessibility_search_light">Издөө</string>
+    <string name="accessibility_camera_button">Камера</string>
+    <string name="accessibility_unlock_button">Кулпуну ачуу</string>
+    <string name="accessibility_ime_switch_button">Жазуу ыкмасы баскычын которуу</string>
+    <string name="accessibility_compatibility_zoom_button">Сыйышкычтык арымдоо баскычы</string>
+    <string name="accessibility_compatibility_zoom_example">Чоңураак экранга арымдоо</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth менен туташты</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth ажыратылды</string>
+    <string name="accessibility_no_battery">Батарея жок</string>
+    <string name="accessibility_battery_one_bar">Батерейка кубатынын бир тилкеси</string>
+    <string name="accessibility_battery_two_bars">Батерейка кубатынын эки тилкеси</string>
+    <string name="accessibility_battery_three_bars">Батерейка кубатынын үч тилкеси</string>
+    <string name="accessibility_battery_full">Батарейка толук</string>
+    <string name="accessibility_no_phone">Эч телефон сигналы жок</string>
+    <string name="accessibility_phone_one_bar">Телефон сигналынын бир тилкеси</string>
+    <string name="accessibility_phone_two_bars">Телефон сигналынын эки тилкеси</string>
+    <string name="accessibility_phone_three_bars">Телефон сигналынын үч тилкеси.</string>
+    <string name="accessibility_phone_signal_full">Толук телефон сигналы</string>
+    <string name="accessibility_no_data">Эч маалыматтар жок</string>
+    <string name="accessibility_data_one_bar">Айтымдар сигналынын бир тилкеси</string>
+    <string name="accessibility_data_two_bars">Маалыматтар сигналынын эки тилкеси</string>
+    <string name="accessibility_data_three_bars">Айтымдар сигналынын үч тилкеси.</string>
+    <string name="accessibility_data_signal_full">Толук айтымдар сигналы</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">Эч Wi-Fi сигналы жок</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi сигналынын бир тилкеси</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi сигналынын эки тилкеси</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi сигналынын үч тилкеси.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi сигналы толду</string>
+    <string name="accessibility_no_signal">Сигнал жок</string>
+    <string name="accessibility_not_connected">Туташкан эмес</string>
+    <string name="accessibility_desc_on">Күйүк</string>
+    <string name="accessibility_desc_off">Өчүк</string>
+    <string name="accessibility_desc_connected">Туташты</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Роуминг</string>
+    <string name="accessibility_data_connection_edge">Кыр</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM карта жок</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth таратуусу</string>
+    <string name="accessibility_airplane_mode">Учуу режими</string>
+    <string name="accessibility_settings_button">Система орнотуулары</string>
+    <string name="accessibility_notifications_button">Эскертүүлөр</string>
+    <string name="accessibility_remove_notification">Билдирүүлөрдү тазалоо</string>
+    <string name="accessibility_gps_enabled">GPS күйгүзүлдү</string>
+    <string name="accessibility_gps_acquiring">GPS алууда…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter иштетилген</string>
+    <string name="accessibility_ringer_vibrate">Шыңгыраш дирилдөөсү</string>
+    <string name="accessibility_ringer_silent">Үнсүз шыңгыраш</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Жабуу</string>
+    <string name="accessibility_desc_quick_settings">Тез орнотуулар</string>
+    <string name="accessibility_quick_settings_alarm">Ойготкуч %s үчүн коюлду</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Моб. айтымдар иштен чыгарылды</string>
+    <string name="data_usage_disabled_dialog_enable">Айтымдар байлан. кайра иштет</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Эч Интернет байланыш жок</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi туташты</string>
+    <string name="gps_notification_searching_text">GPS аркылуу издөөдө…</string>
+    <string name="gps_notification_found_text">GPS тарабынан коюлган жердик</string>
+    <string name="accessibility_clear_all">Бардык билдирүүлөрдү тазалоо</string>
+    <string name="status_bar_notification_inspect_item_title">Билдирүү орнотуулары</string>
+    <string name="accessibility_rotation_lock_off">Экран автоматтуу айланат</string>
+    <string name="start_dreams">Экран коймосу</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Мобилдик урунттуу чекит колдоого алынбайт.</string>
+    <string name="it_policy_not_allow_wifi">Коопсуздук саясаты Wi-Fi колдонууну чектейт.</string>
+    <string name="it_policy_not_allow_wifiap">Коопсуздук саясаты Интернет бөлүшүүнү колдонууну чектейт.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Учуу режиминде</string>
+    <string name="edm_policy_not_allow_open_wifiap">Коопсуздук саясаты урунттуу чекит үчүн корголбогон тушатуунун колдонулушун чектейт</string>
+    <string name="wifi_authentication_succeed">Накталыгы аныкталды</string>
+    <string name="wifi_authentication_failed">Накталыкты аныктоосу ишке ашпады</string>
+    <string name="wifi_authentication_invalid_value">Накталыкты аныктоосу ишке ашпады. ID жана сырсөздү текшериңиз.</string>
+    <string name="wifi_setup_title_connected_network">%s Wi-Fi тармагына туташты</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Заряд толтурулду</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth өчүк</string>
+    <string name="quick_settings_brightness_label">Жарыктык</string>
+    <string name="quick_settings_ime_label">Жазуу ыкмасы</string>
+    <string name="quick_settings_location_label">Жайгашуу</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Шашылыш кырдаал чалуулар гана</string>
+    <string name="quick_settings_settings_label">Орнотуулар</string>
+    <string name="quick_settings_time_label">Убакыт</string>
+    <string name="quick_settings_user_label">Мен</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Туташкан эмес</string>
+    <string name="quick_settings_wifi_no_network">Тармак жок</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Жарыктык</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Авто</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Жарык</string>
+    <string name="recents_empty_message">Эч бир акыркы колдонмо жок</string>
+    <string name="zen_no_interruptions">Тоскоолдуктар жок</string>
+    <string name="zen_important_interruptions">Маанилүү тоскоолдуктар гана</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Эч бири</string>
+    <string name="interruption_level_priority">Маанилүү</string>
+    <string name="interruption_level_all">Баары</string>
+    <string name="guest_wipe_session_dontwipe">Yes, continue</string>
+    <string name="notification_hidden_text">Мазмун жашырылган</string>
+    <string name="sanitized_content_text">%s дегенге кирүүгө бул жерди таптаңыз.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Жок, рахмат</string>
+    <string name="hidden_notifications_setup">Орнотуу</string>
+    <string name="quickpanel_airplane_mode_text">"Учуу
+режими"</string>
+    <string name="quickpanel_airplane_mode_content_description">Учуу режими</string>
+    <string name="quickpanel_content_description_led_on">%s иштетилди.</string>
+    <string name="quickpanel_content_description_led_off">%s иштен чыгарылды.</string>
+    <string name="quickpanel_content_description_led_dim">%s иштетүү мүмкүн эмес.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Тез туташуу</string>
+    <string name="accessibility_qconnect_button_tts">Тез туташуу</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Жердик</string>
+    <string name="quickpanel_silent_mode_content_description">Үнсүз режим</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Дабыш</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Дирилдөө</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Үнсүз</string>
+    <string name="quickpanel_rotation_content_description">Экран буруусу</string>
+    <string name="quickpanel_mobile_data_content_description">Мобилдик айтымдар</string>
+    <string name="quickpanel_power_saving_content_description">Кубатты үнөмдөө режими</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Максималдык кубат үнөмдөө</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Көп терезе</string>
+    <string name="quickpanel_car_mode_content_description">Унаа режими</string>
+    <string name="quickpanel_dormant_mode_content_description">Тынчымды албоо</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Mobile hotspot</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Тийүү сезгичтиги</string>
+    <string name="quickpanel_smart_stay_content_description">Эстүү токтоо</string>
+    <string name="quickpanel_smart_scroll_content_description">Смарт жылдыруу</string>
+    <string name="quickpanel_sync_content_description">Синхронизация</string>
+    <string name="quickpanel_vowifi_content_description">Wi-Fi Чалуусу</string>
+    <string name="quickpanel_toolbox_content_description">Куралдар кутусу</string>
+    <string name="quickpanel_adaptive_display_content_description">Ылайыкталуучу дисплей</string>
+    <string name="quickpanel_airgesture_content_description">Учкай жаңсоо</string>
+    <string name="quickpanel_airview_content_description">Тийбей Көрүү</string>
+    <string name="quickpanel_network_booster_content_description">Жүктөмө тездеткич</string>
+    <string name="quickpanel_personal_mode_content_description">Жеке режими</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Каптал баскыч панели</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Жайгашуу</string>
+    <string name="quickpanel_silent_mode_text">"Үнсүз
+режим"</string>
+    <string name="quickpanel_silent_mode_sound">Үн</string>
+    <string name="quickpanel_silent_mode_vibrate">Дирилдөө</string>
+    <string name="quickpanel_silent_mode_mute">Үнсүз</string>
+    <string name="quickpanel_rotation_text">"Экранды
+буруу"</string>
+    <string name="quickpanel_mobile_data_text">"Мобил.
+маалымат"</string>
+    <string name="quickpanel_power_saving_text">"Кубатты
+үнөмдөө"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Макс.кубат
+үнөм"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Көп
+терезе"</string>
+    <string name="quickpanel_car_mode_text">"Унаа
+режими"</string>
+    <string name="quickpanel_driving_mode_text">"Колу бош
+режими"</string>
+    <string name="quickpanel_dormant_mode_text">"Тынчымды
+албоо"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Моб.
+кошулуу чек."</string>
+    <string name="quickpanel_touch_sensitivity_text">"Жогору
+сезгичтик"</string>
+    <string name="quickpanel_smart_stay_text">"Смарт
+токтоо"</string>
+    <string name="quickpanel_smart_scroll_text">"Эстүү
+айландыру"</string>
+    <string name="quickpanel_sync_text">Синхр.</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">Куралдар кутусу</string>
+    <string name="quickpanel_smart_pause_text">"Смарт
+Тынытуу"</string>
+    <string name="quickpanel_adaptive_mode_text">"Экранды
+жөндөө"</string>
+    <string name="quickpanel_airgesture_text">"Air
+Gesture"</string>
+    <string name="quickpanel_airview_text">Airiew</string>
+    <string name="quickpanel_network_booster_text">"Жүктөмө
+тездеткичи"</string>
+    <string name="quickpanel_personal_mode_text">"Жеке
+режими"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Тез
+туташуу"</string>
+    <string name="quickpanel_side_key_text">"Каптал баск.
+панель"</string>
+    <string name="accessibility_power_saving_mode">Кубаттуулукту үнөмдөө режимин иштетүү үчүн, жок дегенде бир иш-милдетти иштетиңиз</string>
+    <string name="accessibility_power_saving_mode_title">Кубат үнөмдөө режими</string>
+    <string name="insert_sim_card">SIM карта салыңыз</string>
+    <string name="insert_sim_card_message">Тармак кызматтарына жөлөө үчүн SIM карта салыңыз</string>
+    <string name="insert_uim_or_sim_card">UIM/SIM карта салуу</string>
+    <string name="status_bar_recent_launch_task_manager_title">Тапш.тейлегич</string>
+    <string name="status_bar_recent_remove_all_button">Баарын жабуу</string>
+    <string name="blocking_mode_enable">Качан бул режим иштетилгенде, тандалган өзгөчөлүктөрдүн билдирүүлөрү иштен чыгарылат. Сиз уруксат берилген тизмеңиздеги адамдардан гана кирген чалуулар билдирүүлөрүн аласыз.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Камоо режими, тандалган өзгөчөлүктөр үчүн билдирүүлөрдү иштен чыгарат. Кирген чакыруулар камалган учурда, сиз уруксат берилген тизмеңиздеги катыштардан гана кирген чакыруулар жөнүндө билдирүүлөрдү аласыз. Камоо режим орнотууларыңызды өзгөртүү үчүн, Орнотуулар > Жекелештирүү > Камоо режимине өтүңүз.</string>
+    <string name="blocking_mode_enable_wifi">Качан бул режим иштетилгенде, тандалган өзгөчөлүктөрдүн билдирүүлөрү иштен чыгарылат.</string>
+    <string name="blocking_mode_title">Камоо режими</string>
+    <string name="magnification_text_for_air_view_button">Чоңойтуу жаңсоолору</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">%1$s иштетилген учурда Жүктөмө тездеткичти колдонуу мүмкүн эмес. %2$s иштен чыгарып, кайра аракет кылып көрүңүз.</string>
+    <string name="quickpanel_air_view_warning">Учкай көрүүнү иштетүү үчүн, жок дегенде бир иш-милдетти иштетиңиз.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Учкай көрүүнү иштетүү үчүн, тандалган Учкай көрүү режиминен жок дегенде бир иш-милдетти иштетиңиз</string>
+    <string name="quickpanel_air_gesture_warning">Учкай жаңсоону колдонуу үчүн, жок дегенде бир тийиштүү иш-милдетти иштетиңиз.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Тийиштүү орнотууларга өтүү үчүн, тез орнотуулар баскычын коё бербей таптаңыз</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Wi-Fi байланышын колдонмоюнча, Интернетти, еmail же айтымдар байланышын талап кылган сунуучуларды колдонуу мүмкүн эмес.
+
+Мобилдик айтымдар иштен чыгарылат."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Туташуу</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Учуу режими иштетилген учурда мобилдик тармактарга туташуу мүмкүн эмес. Учуу режимин иштен чыгарып, кайра аракет кылыңыз.</string>
+    <string name="warning_alert_check">Кайра көрсөтпөө</string>
+    <string name="data_usage_enable_mobile_warning">Пакет айтымдары аркылуу туташуу, кошумча төлөмдөргө алып келиши мүмкүн. Улантуубу?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Учуу режими иштетилгенде, VoLTE колдонууга болбоду. Учуу режимин иштен чыгарып, кайра аракет кылыңыз.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE, учурдагы программанын нускасы тарабынан колдоого алынбайт. Дагы тасмия алууга, кардар тейлеген кызматтарга кайрылыңыз.</string>
+    <string name="smart_pause_toast_text">Эстүү тынытуу пайдаланууга, адегенде Үнсүз/тынуу иштетиңиз.</string>
+    <string name="smart_bonding_popup_msg_roaming">Роуминг учурда Жүктөмө тездеткичин пайдаланууга болбоду. Биз Wi-Fi тармагы аркылуу жүктөөнү сунуштайт элек.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi күйгүзүү</string>
+    <string name="smart_bonding_popup_msg_data_btn">Мобилдик маалыматты күйгүзүү</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi жана Моб. айтымдар күйгүз</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi учурда өчүрүлдү. Жүктөмө тездеткичин иштетүүгө, Wi-Fi жана Мобилдик айтымдары тең күйгүзүлгөн болушу керек. Мобилдик тармактар аркылуу жүктөөсү төлөө планыңызга жараша кошумча өндүрүүлөрдү алып келиши мүмкүн.</string>
+    <string name="smart_bonding_popup_msg_data">Мобилдик айтымдар учурда өчүрүлдү. Жүктөмө тездеткичин иштетүүгө, Wi-Fi жана Мобилдик айтымдары тең күйгүзүлгөн болушу керек. Мобилдик тармактар аркылуу жүктөөсү төлөө планыңызга жараша кошумча өндүрүүлөрдү алып келиши мүмкүн.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi жана Мобилдик айтымдар учурда өчүрүлдү. Жүктөмө тездеткичин иштетүүгө, Wi-Fi жана Мобилдик айтымдары тең күйгүзүлгөн болушу керек. Мобилдик тармактар аркылуу жүктөөсү төлөө планыңызга жараша кошумча өндүрүүлөрдү алып келиши мүмкүн.</string>
+    <string name="smart_bonding_popup_msg">Жүктөмө тездеткич иштетилет. Мобилдик тармактар аркылуу жүктөөсү төлөө планыңызга жараша кошумча өндүрүүлөрдү алып келиши мүмкүн.</string>
+    <string name="smartbonding_dialog_title">Жүктөмө тездеткич</string>
+    <string name="insert_a_sim_card_and_try_again">SIM карта салып, дагы аракет кылыңыз.</string>
+    <string name="unable_to_enable_Download_booster">Жүктөө күчөткүчүн иштетүү мүмкүн эмес</string>
+    <string name="download_booster_dialog_title">Жүктөмө тездеткичти иштетүү</string>
+    <string name="enable">Иштетүү</string>
+    <string name="sd_card">SD карта</string>
+    <string name="sdcard_insert">SD карта салынды</string>
+    <string name="sdcard_unmount">SD картаны орнотуудан чыгаруу</string>
+    <string name="go_to_myfiles">Файлдарыма баруу</string>
+    <string name="charging_interruption_title">Заряддоо мүмкүн эмес</string>
+    <string name="charging_interruption_by_terminal_open_text">Түзмөгүңүздү заряддоо мүмкүн эмес. Туура келген Samsung батареясын жана заряддагычын колдонуп жатканыңызды жана түзмөгүңүз заряддагычка жакшы туташканын текшериңиз.</string>
+    <string name="full_battery_title">Маалымат</string>
+    <string name="full_battery_text">"Батерейка толук заряддалды.
+Заряддагычты сууруңуз."</string>
+    <string name="reading_mode_title">Окуу режими</string>
+    <string name="reading_mode_alert">Окуу режими иштетилди. Экран азыр окуу үчүн ыңгайлаштырылды. Бул режим тандалган сунуучуларда гана иштейт.</string>
+    <string name="reading_mode_settings">Орнотуулар</string>
+    <string name="quickpanel_ebook_text">"Окуу
+режими"</string>
+    <string name="quickpanel_ebook_content_description">Окуу режими</string>
+    <string name="driving_mode_title">Колу бош режими</string>
+    <string name="driving_mode_on_dialog_msg_1">S Voice Колу бошту жапкандан кийин, Орнотуулардагы Колу бош режими өчүрүлүш керек. Эгер Колу бош режими иштей берсе, билдирүүлөр жана кирүүчү чакыруулардын маалыматы автоматтуу түрдө окула берет.</string>
+    <string name="driving_mode_on_dialog_msg_2">Сиз Колу бош режимин S Voice Колу бошто “Бош кол режимин өчүрүү” дегенди айтуу менен же болбосо Орнотуулар же билдирүү панелине өтүп, өчүрө аласыз</string>
+    <string name="quickpanel_driving_mode_content_description">Колу бош режими</string>
+    <string name="critical_low_battery_title">Батарейканын кубаты өтө төмөн</string>
+    <string name="critical_low_battery_text">Алгач түзмөгүңүздү заряддагычка туташтырыңыз. Заряддоо убагында түзмөгүңүздү пайдаланууну улантуусу ойдогудай заряддоого тоскоол кылат.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Дагы батыраак заряддоого, розеткага туташтырыңыз жана %s дегендеги бардык пайдаланылбаган колдонмолорду жабыңыз. Шайманды кубатталып жатканда колдоно берсеңиз, талапка ылайык кубатталбай калышы мүмкүн.</string>
+    <string name="critical_low_battery_text_charged_via_ta">%s дегенде пайдаланыла элек колдонмолорду жабуу. Шайманды кубатталып жатканда колдоно берсеңиз, талапка ылайык кубатталбай калышы мүмкүн.</string>
+    <string name="low_battery_text">Алгач түзмөгүңүздү заряддагычка туташтырыңыз. Заряддоо убагында түзмөгүңүздү пайдаланууну улантуусу ойдогудай заряддоого тоскоол кылат.</string>
+    <string name="low_battery_text_charged_via_usb">Дагы батыраак заряддоого, розеткага туташтырыңыз жана %s дегендеги бардык пайдаланылбаган колдонмолорду жабыңыз. Шайманды кубатталып жатканда колдоно берсеңиз, талапка ылайык кубатталбай калышы мүмкүн.</string>
+    <string name="low_battery_text_charged_via_ta">%s дегенде пайдаланыла элек колдонмолорду жабуу. Шайманды кубатталып жатканда колдоно берсеңиз, талапка ылайык кубатталбай калышы мүмкүн.</string>
+    <string name="low_battery_power_saving_button_text">Кубат үнөмдөө</string>
+    <string name="wireless_charging_title">Зымсыз заряддоо</string>
+    <string name="cable_charging_title">Кабель менен заряддоо</string>
+    <string name="wireless_charging_text">Заряддоо тактасы табылды. Зымсыз заряддоодо…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Зымсыз заряддоодон кабель аркылуу заряддоого өтүү</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Кабель аркылуу заряддоодон, зымсыз заряддоого өтүү</string>
+    <string name="wireless_charging_spen_warning_text">Түзмөгүңүз учурда зымсыз заряддалууда. Зымсыз заряддоо аткарылып жатканда сиздин S Pen дурус иштебеши мүмкүн.</string>
+    <string name="incompatible_charger_title">Заряддалууда эмес</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Түзмөктү өчүрүү</string>
+    <string name="overheat_poweroff_warning_text">Түзмөгүңүздүн ысыгы ашууда. Ал сууй түшүүгө, өчүрүлөт.</string>
+    <string name="overheat_poweroff_warning_button_text">Өчүрбө</string>
+    <string name="overheat_poweroff_notice_title">Түзмөк автоматтуу өчүрүлдү</string>
+    <string name="overheat_poweroff_notice_text">"Түзмөгүңүздүн ысыгы ашты. Зыян келтирүүдөн алыс болууга, ал өчүрүлдү.
+
+Ал төмөнкү себептерден өтө ысып кетиши мүмкүн:
+Узак убакытка, оюндар жана жол өтүү сунуучулар сыяктуу, графикага бай сунуучуларды пайдалануу.
+Чоң файлдарды өткөрүү.
+Түзмөгүңүздү ысык чөйрөдө колдонуу."</string>
+    <string name="power_sharing_warning_title">Кубат бөлүшүү</string>
+    <string name="power_sharing_warning_text">Батерейкаңыздын кубаты кубат бөлүшүү чегинен төмөн. Кубат бөлүшүүнү улантуу үчүн, кубат бөлүшүү чегин учурдагы батарейканын кубатынын деңгээлинен төмөн кылыңыз.</string>
+    <string name="power_sharing_start_toast_text">Кубат бөлүшүү функциясы иштеп баштоодо…</string>
+    <string name="power_sharing_end_notification_text">Кубат бөлүшүү бүттү. Кабельди ажыратыңыз.</string>
+    <string name="power_sharing_unable_notification_text">Бөлүшүү мүмкүн эмес</string>
+    <string name="highvoltage_charger_notice_title">Тез заряддоону пайдалануу</string>
+    <string name="highvoltage_charger_notice_text">Бул батареяңызды тезирээк заряддайт, өзгөчө экран же түзмөк өчүрүлгөн учурда.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Экранды өчүрүү</string>
+    <string name="highvoltage_charger_notification_text">Тез заряддагыч туташтырылды.</string>
+    <string name="face_detection_failure_text">Эстүү токтоо көздөрүңүз ажыр.таба албайт</string>
+    <string name="screenshot_failed_due_to_drm_text">Экранды кармоого болбоду. DRM тарабынан корголгон сүрөт.</string>
+    <string name="no_such_item">Нерсени табуу мүмкүн эмес</string>
+    <string name="one_item_will_be_deleted">1 нерсе жок кылынат</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Макул</string>
+    <string name="disagree">Макул эмес</string>
+    <string name="location_masterswitch_dialogtitle">Жайгашуу уруксаты</string>
+    <string name="gps_donotshow">Кайра көрсөтпөө</string>
+    <string name="tethering_attention_title">Көңүл буруңуз</string>
+    <string name="tethering_wifi_off_warning">Мобилдик урунтуу чекити иштетилгенде, Wi-Fi өчүрүлөт.</string>
+    <string name="wifihotspot_detail">Маалымат</string>
+    <string name="tether_settings_title_wifi">Ташымал урунттуу чекити</string>
+    <string name="guest_launge_warning_toast_text">Конок режиминде %s иштетүү же өчүрүү мүмкүн эмес.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Жеке режиминде нерселерди жылдырууда, Жеке режимди иштетүүгө болбоду.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Жеке режиминде нерселерди жылдырууда, Жеке режимди иштен чыгарууга болбоду.</string>
+    <string name="no_sim_notification_title">SIM карта жок</string>
+    <string name="no_sim_notification_title_tmo">SIM карта салынган жок</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">SIM карта салыңыз</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Роуминг</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Билдирүү панели</string>
+    <string name="guideline_empty_text">Тиркемени ачуу үчүн, сүрөтчөнү текчеден сүйрөңүз.</string>
+    <string name="drag_and_drop_content">Мазмунду жылдыруу</string>
+    <string name="switch_window">Терезелерди которуу</string>
+    <string name="close_application">Сунуучуну жабуу</string>
+    <string name="collapse_window">Терезени жыюу</string>
+    <string name="change_to_poup_view">Калкып чыккан терезеден ачуу</string>
+    <string name="select_contents">Тексттин абзацын же сүрөттүн экран кесүүсүн сүйрөп барып башка терезеге таштаңыз.</string>
+    <string name="do_not_show_again">Кайра көрсөтпөө</string>
+    <string name="help">Жардам</string>
+    <string name="recent_multi_window">Көп терезеде ачуу</string>
+    <string name="recent_pen_window">Калкып чыккан терезеден ачуу</string>
+    <string name="recent_delete">Сунуучуну жабуу</string>
+    <string name="disable_multi_window_popup_description">Multi window иштен чыгарылат жана калкып чыкма терезелериндеги бардык ачык колдонмолор жабылат.</string>
+    <string name="disable_multi_window_popup_easymode_description">Оңой режим иштетилген учурда Multi window колдонуу мүмкүн эмес. Оңой режимин иштен чыгарып, кайра аракет кылыңыз.</string>
+    <string name="yes">ОК</string>
+    <string name="no">Артка</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Узак убакыт бою бийик үн көлөмүндө тыңшоо, угуу жөндөмүңүздү начарлатышы мүмкүн. Үн көлөмү коопсуз деңгээлден жогорулашына уруксат берүү үчүн OK таптаңыз.</string>
+    <string name="tw_cover_volume_warning_message">Үнүн катуу коюп, узак убактын ичинде тыңшоосу угуу жөндөмүңүздү начарлатышы мүмкүн. Үндү чыгаруу үчүн, капкак ачыңыз.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Учуу режимин иштетүү</string>
+    <string name="global_actions_toggle_airplane_mode">Учуу режими</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Учуу режими сизге чалуу, кабарлашуу жана мобилдик тармак иш-милдеттерин иштен чыгарууга мүмкүндүк берет.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Учуу режими өчүрүлөт</string>
+    <string name="multi_window_use_popup_title">Көп терезени иштетүү</string>
+    <string name="multi_window_use_popup_msg">Бир нече терезени жана TalkBack экөөнү тең иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="air_gesture_use_popup_title">Учкай жаңсоо иштетүү</string>
+    <string name="air_gesture_use_popup_msg">Учкай жаңсоо жана TalkBack экөөнү тең иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="air_view_use_popup_title">Учкай көрүүнү иштетүү</string>
+    <string name="air_view_use_popup_msg">Учкай көрүү жана астындагы тандоолорду экөө бир иштетилбейт. Астындагы тандоолор иштен чыгарылат.</string>
+    <string name="car_mode_enable_use_popup_title">Унаа режимин иштетүүсү</string>
+    <string name="car_mode_use_popup_msg">"Унаа режими жана TalkBack'ты тең бир убактын ичинде иштетүүгө болбойт. TalkBack иштен чыгарылат."</string>
+    <string name="smart_pause_use_popup_title">Эстүү тынытууну иштетүү</string>
+    <string name="smart_pause_use_popup_msg">Эстүү тынытуу жана TalkBack экөөнү тең иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="smart_scroll_use_popup_title">Эстүү айландырууну иштетүү</string>
+    <string name="smart_scroll_use_popup_msg">Эстүү айландыруу жана TalkBack экөөнү тең иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="smart_stay_use_popup_title">Эстүү токтоону иштетүү</string>
+    <string name="smart_stay_use_popup_msg">Эстүү токтоо жана TalkBack экөөнү тең иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="toolbox_use_popup_title">Куралдар кутусун иштетүү</string>
+    <string name="toolbox_use_popup_msg">"Куралдар кутусун жана TalkBack'ты тең бир убактын ичинде иштетүүгө болбойт. TalkBack иштен чыгарылат."</string>
+    <string name="sidekey_use_popup_title">Каптал баскыч панелин иштетүү</string>
+    <string name="sidekey_use_popup_msg">Каптал баскыч панели жана TalkBack экөөнү бир эле учурда иштетүүгө болбойт. TalkBack иштен чыгарылат.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Эскертме</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Жакынкылар баскычы</string>
+    <string name="recent_menukey_press_description_vzw">Сиз жакын арада пайдаланган колдонмолордун ортосунда тез которулууңузга жол ачуу үчүн меню баскычы жакынкылар баскычы менен алмаштырылган. Көбүрөөк маалымат үчүн Жардам тапта.</string>
+    <string name="recent_menukey_press_description_no_help">Меню баскычынын эң жакынкы колдонгон колдонмолордун ортосунда ылдам өзгөртүүгө уруксат берүү үчүн жакынкылар баскычы менен орду алмаштырылды.</string>
+    <string name="recent_menukey_press_description_att">Меню баскычы жакынкы баскычы менен алмаштырылат. Сунуучудан, меню тандоолорун көрүүгө, жакынкы баскычты басып, кармаңыз.</string>
+    <string name="recent_help_dialog_title_for_split_view">Жаңы Көп терезе өзгөчөлүктөрү</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Колдонмолорду бөлүнгөн экран көрүнүшүндө ачуу үчүн, колдонмо терезесинин ат тилкесиндеги %s таптаңыз. Бул сүрөтчө, колдонмо бөлүнгөн экран көрүнүшүн колдогон учурда көрүнөт.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Колдонмолорду бөлүнгөн экран көрүнүшүндө ачуу үчүн, колдонмо терезесинин ат тилкесиндеги бөлүнгөн экран сүрөтчөсүн таптаңыз. Бул сүрөтчө, колдонмо бөлүнгөн экран көрүнүшүн колдогон учурда көрүнөт.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Кодонмо терезесин басып жана кармап туруп, колдонмону калкып чыкма катары ачыңыз. Калкып чыкма көрүүсүнөн бөлүнгөн экранга өзгөртүү үчүн колдонмонун калкып чыкмасын экрандын өйдөсүнө же ылдыйына сүйрөңүз.</string>
+    <string name="recent_menukey_help_button">Жардам</string>
+    <string name="btn_text_yes">ОК</string>
+    <string name="qs_edit_settings_title">Билдирүү панели</string>
+    <string name="qs_edit_settings_available_button">Байкалган баскычтар</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Эскертүү панелинин башында тез орнотуу баскычтарынын кайсылары көрүнө тургандыгын жекелештириңиз. Баскычтарды кошуу, жашыруу, же кайра иреттөө үчүн, аларды таптап кармап туруңуз, андан соң сүйрөңүз.</string>
+    <string name="notification_panel_unable_remove_minimum">Баскычты жок кылуу мүмкүн эмес Баскычтардын саны (%d) бери четине жетти.</string>
+    <string name="qs_edit_setting_edit_button">Кайра иреттөө</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Учуу режими сизге чалуу, кабарлашуу жана мобилдик тармак өзгөчөлүктөрүн өчүрүүгө мүмкүндүк берет. Андан тышкары, ал Wi-Fi жана Bluetooth байланышаар өзгөчөлүктөрдү өчүрөт. Wi-Fi жана Bluetooth колдонуу үчүн, аларды Орнотууларда же билдирүү панелинде күйгүзүңүз.</string>
+    <string name="pickup_tutorial_title">Эстүү сигналды көрүңүз</string>
+    <string name="put_your_phone">Сиз түзмөгүңүздү койгондон кийин, экран өчөт.</string>
+    <string name="phone_detect">Сизде алынбаган чалуулар же кабарлар бар деп коёлу. Түзмөктү коюп, анан анын экраны өчкөндөн кийин аны кайра колуңузга алыңыз.</string>
+    <string name="pick_up_your_phone">Түзмөгүңүздү алуу</string>
+    <string name="tutorial_complete">Окуу куралы аягына чыкты.</string>
+    <string name="share_via">Бөлүшүү</string>
+    <string name="airmsg_warning_alert_check">Кайра көрсөтпөө</string>
+    <string name="airmsg_check_data_title_WLAN">WLANга туташуу</string>
+    <string name="airmsg_check_data_title_Mobile">Мобилдик тармактар арк. туташуу</string>
+    <string name="cooling_title">Түзмөк ысып кетти.</string>
+    <string name="cooling_body">"Түзмөк ысып кетти. Муздатыра турган чаралар. 
+
+Сиз түзмөктү колдоно берсеңиз болот, бирок
+- экрандын жарыктыгы төмөндөйт.
+- түзмөк жайлашы мүмкүн.
+- кубаттануу токтошу мүмкүн.
+
+Төмөнкү колдонмолорду токтотуу муздатышы мүмкүн.
+
+Түзмөк муздагандан кийин автоматтуу түрдө кубаттуулугу ордуна келет"</string>
+    <string name="cooling_noti_text">Тасмияны көрүү үчүн бул жерди таптаңыз.</string>
+    <string name="cooling_popup_name">Эскертүүлөр</string>
+    <string name="cooling_noti_title">Түзмөк ысып кетти.</string>
+    <string name="btn_text_no">Артка</string>
+    <string name="device_overheating">Түзмөк ысып кетти.</string>
+    <string name="colling_noti_text_2">Колдонмолорду ачууга болбойт. Сиз Телефон жана Катыштар колдонмолорун гана колдоно аласыз.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Көбүрөөк билүүгө, бул жерди таптаңыз.</string>
+    <string name="cooling_popup_name_VZW">Билдирүү</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">ОК</string>
+    <string name="btn_text_no_VZW">Артка</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Коопсуз режим иштен чыгар</string>
+    <string name="safe_mode_popup_body_global">Коопсуз режимди иштен чыгарууга, түзмөгүңүз кайра күйгүзүлөт. Ошондо бардык сунуучуларыңыз байкалат.</string>
+    <string name="safe_mode_off_btn_global">ОК</string>
+    <string name="safe_mode_noti_on_global">Коопсуз режим иштетилди</string>
+    <string name="safe_mode_noti_body_global">Коопсуз режимди иштен чыгарууга бул жерди таптаңыз.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Артка</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Үн режимин өзгөртүүгө, үзүүлөрүсүз режимин Мааниллүүлүк же Баардыгына отнотуңуз.</string>
+    <string name="accessibility_driving_mode">Колу бошту күйгүзүү үчүн, жок дегенде бир туура келген иш-милдетти иштетиңиз</string>
+    <string name="qs_vibrate_on_in_priority">"Дирилдөө
+(Маанилүү)"</string>
+    <string name="qs_sound_on_in_priority">"Үн
+(Маанилүү)"</string>
+    <string name="qs_silent_popup_title">Добуш режими</string>
+    <string name="qs_silent_popup_sound">Үн</string>
+    <string name="qs_silent_popup_vibrate">Дирилдөө</string>
+    <string name="qs_rotate_popup_title">Экран буруусу</string>
+    <string name="qs_rotate_popup_all">Баары</string>
+    <string name="qs_torch_popup_title">Шамана</string>
+    <string name="qs_torch_popup_brightness">Жарыктык</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Эч бири</string>
+    <string name="disable_multi_window_dialog_title">Көп терезени иштен чыгаруу</string>
+    <string name="disable_multi_window_dialog_text">Multi window иштен чыгарылат жана калкып чыкма терезелериндеги бардык ачык колдонмолор жабылат.</string>
+    <string name="AirplaneNoti_title">Учуу режими иштетилди</string>
+    <string name="AirplaneNoti_text">Иштен чыгаруу</string>
+    <string name="quickpanel_interruption_always_interrupt">"Дайыма
+үзгүлт. учур."</string>
+    <string name="quickpanel_interruption_priority_only">"Маанил.
+гана"</string>
+    <string name="tw_sound_priority_desciption">Үн маанилүү тоскоолдуктар үчүн</string>
+    <string name="tw_vibrate_priority_desciption">Маанилүү тоскоолдуктарда дирилдөө</string>
+    <string name="tw_mute_priority_desciption">Эч бир тоскоолдук жок (ойготкучтар дагы)</string>
+    <string name="tw_zen_off_interruptions">Чалуулар менен эскертмелерди алып жатканда</string>
+    <string name="tw_interruption_level_priority">Маанилүү гана</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Артыкчылыктуу үзгүлтүктөргө гана уруксат берүү</string>
+    <string name="tw_interruption_level_all_vzw">Ар дайым үзүү</string>
+    <string name="tw_mute_priority_toast_description">"Үзүүлөрсүз
+(ойготкучтар дагы)"</string>
+    <string name="dnd_noti_title">Тынчым. албоо режими иштеди</string>
+    <string name="dnd_noti_message">Ойготкучтар үнсүз кылынды</string>
+    <string name="dnd_noti_action_disable">Иштен чыгаруу</string>
+    <string name="torch_light_notification_title">Жарык берүү</string>
+    <string name="torch_light_notification_message">Шамананы өчүрүү</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Тармак чектөө режими иштен чыгарылат</string>
+    <string name="recent_help_dialog_title_for_popup_view">Көп терезелүү көрүүнү колдонуу</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Колдонмолорду бөлүнгөн экран көрүнүшүндө ачууга, %s’ти колдонмо терезесинин наам тилкесин басыңыз. Бул сүрөтчө, колдонмо бөлүнгөн экран көрүнүшүн колдоодо көргөзүлөт.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Колдонмолорду бөлүнгөн экран көрүнүшүндө ачууга, бөлүнгөн экран сүрөтчөсүн колдонуу терезесиниен наам тилкесинде басыңыз. Бул сүрөтчө, колдонмо бөлүнгөн экран көрүнүшүн колдоодо көргөзүлөт.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Колдонмолорду бөлүнгөн экран көрүнүшүндө ачууга, сиз Жакынкылар баскычын басып жана кармап туруңуз.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Толук экран көрүнүшүндө же бөлүнгөн экран көрүнүшүндө болгон учурда, экрандын башындагы эки бурчтун биринен кыйгачынан сыйпоо аркылуу, колдонмолорду калкып чыкма көрүнүштө көрүңүз.</string>
+    <string name="wallpaper_crop_button_done">Бүттү</string>
+    <string name="accessibility_desc_notification_panel">Билдирүү панели</string>
+</resources>

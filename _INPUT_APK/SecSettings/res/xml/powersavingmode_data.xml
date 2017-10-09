@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_saving_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <Preference android:selectable="false" android:summary="@string/powersaving_data_text" />
+    <PreferenceScreen android:icon="@drawable/safety_icon_add" android:title="@string/powersaving_limiting_applications_add" android:key="data_powersaving" android:widgetLayout="@layout/round_more_icon" />
+    <PreferenceCategory android:title="@string/powersaving_limiting_applications_category" android:key="data_apps" />
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:title="@string/finger_air_view_setting_guide" android:key="setting_guide" />
+    <SwitchPreferenceScreen android:title="@string/finger_air_view_information_preview_title" android:key="information_preview" android:summary="@string/finger_air_view_information_preview_summary" android:fragment="com.android.settings.FingerAirViewHelp">
+        <extra android:name="type" android:value="information_preview" />
+    </SwitchPreferenceScreen>
+    <PreferenceScreen android:title="@string/finger_air_view_information_preview_title" android:key="information_preview_2014" android:summary="@string/finger_air_view_information_preview_summary" android:fragment="com.android.settings.FingerAirViewHelp">
+        <extra android:name="type" android:value="information_preview" />
+    </PreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/finger_air_view_progress_bar_preview_title" android:key="progress_bar_preview" android:summary="@string/finger_air_view_progress_bar_preview_summary" android:fragment="com.android.settings.FingerAirViewHelp">
+        <extra android:name="type" android:value="progress_bar_preview" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/finger_air_view_speed_dial_tip_title" android:key="speed_dial_tip" android:summary="@string/finger_air_view_speed_dial_tip_summary" android:fragment="com.android.settings.FingerAirViewHelp">
+        <extra android:name="type" android:value="speed_dial_tip" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:persistent="false" android:title="@string/finger_air_view_magnifier_title" android:key="magnifier" android:summary="@string/finger_air_view_magnifier_summary" android:fragment="com.android.settings.FingerAirViewHelp">
+        <extra android:name="type" android:value="magnifier" />
+    </SwitchPreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/finger_air_view_additional_feedback_title" android:key="category_additional_feedback" />
+    <CheckBoxPreference android:title="@string/finger_air_view_sound_and_haptic_feedback_title" android:key="sound_and_haptic_feedback" android:summary="@string/finger_air_view_sound_and_haptic_feedback_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

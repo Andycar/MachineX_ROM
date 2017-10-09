@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time" settings:keywords="@string/keywords_date_and_time"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/date_time_auto" android:key="auto_time" android:summary="@string/date_time_auto_summaryOn" />
+    <Preference android:title="@string/date_time_set_date" android:key="date" android:summary="03/10/2008" android:widgetLayout="@layout/round_more_icon" />
+    <Preference android:title="@string/date_time_set_time" android:key="time" android:summary="12:00am" android:widgetLayout="@layout/round_more_icon" />
+    <CheckBoxPreference android:title="@string/zone_auto" android:key="auto_zone" android:summary="@string/zone_auto_summaryOn" />
+    <PreferenceScreen android:title="@string/date_time_set_timezone" android:key="timezone" android:summary="GMT-8:00" android:fragment="com.android.settings.ZonePicker" />
+    <CheckBoxPreference android:title="@string/date_time_24hour" android:key="24 hour" />
+    <ListPreference android:title="@string/date_time_date_format" android:key="date_format" android:summary="mm/dd/yyyy" android:widgetLayout="@layout/round_more_icon" />
+    <com.android.settings.SwitchPreferenceScreen android:title="@string/dualclock_settings_title" android:key="dualclock_settings" android:summary="@string/dualclock_settings_summary" android:fragment="com.android.settings.dualclock.DualClockSetting" />
+    <PreferenceCategory android:title="@string/international_roaming_time_settings_title" android:key="category_international_roaming_time_settings">
+        <PreferenceScreen android:persistent="false" android:title="@string/time_zone_recommend" android:key="time_zone_recommend" />
+        <PreferenceScreen android:persistent="false" android:title="@string/time_display_scheme_setting" android:key="time_display_scheme_setting" />
+    </PreferenceCategory>
+</PreferenceScreen>

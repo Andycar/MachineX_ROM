@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/mw_window_iconic_bg" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/mw_window_iconic_bg_effect" android:tint="@color/multiwindow_minimized_icon_press_tint_color" android:tintMode="multiply" />
+    </item>
+</layer-list>

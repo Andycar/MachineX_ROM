@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_settings" android:key="notification_settings" settings:keywords="@string/keywords_sounds_and_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/sound_settings" android:key="sound">
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/tw_ic_audio_ring_notif" android:title="@string/incoming_call_volume_title" android:key="ring_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/tw_ic_audio_vol" android:title="@string/media_category" android:key="media_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_alarm" android:title="@string/volume_alarm_description" android:key="alarm_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/tw_ic_audio_notification" android:title="@string/volume_notification_description" android:key="notification_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/tw_ic_audio_system" android:title="@string/sound_category_feedback_title" android:key="system_volume" />
+        <com.android.settings.notification.VolumeSeekBarPreference android:icon="@android:drawable/tw_ic_audio_ring_notif" android:title="@string/waiting_tone_volume_title" android:key="waiting_tone_volume" />
+        <ListPreference android:entries="@array/sound_mode_entries" android:title="@string/sound_mode" android:key="sound_mode" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/sound_mode_values" />
+        <com.android.settings.VibrationFeedbackPreference android:title="@string/vibration_intensity" android:key="vibration_feedback_intensity" android:summary="" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/vibration_intensity" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" />
+        <PreferenceScreen android:title="@string/phone_profile" android:key="phone_profile" android:summary="@string/normal" android:fragment="com.android.settings.phoneprofile.PhoneProfileSettings" />
+        <PreferenceScreen android:persistent="false" android:title="@string/incoming_call_volume_title" android:key="ds_ring_tone" android:summary="@string/incoming_call_volume_title" />
+        <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="ringtone" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
+        <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="ringtone2" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
+        <PreferenceScreen android:title="@string/tcoloring" android:key="tcoloring" android:summary="" />
+        <PreferenceScreen android:title="@string/ringtoyou" android:key="ringtoyou" android:summary="" />
+        <PreferenceScreen android:title="@string/phone_vibration_title" android:key="phone_vibration" android:summary="@string/phone_vibration_summary" android:widgetLayout="@layout/round_more_icon">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.personalvibration.SelectPatternDialog" />
+        </PreferenceScreen>
+        <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/notification_ringtone_title" android:key="notification_ringtone" android:dialogTitle="@string/notification_ringtone_title" android:ringtoneType="notification" />
+        <Preference android:persistent="false" android:title="@string/other_sound_settings" android:key="other_sounds" android:fragment="com.android.settings.notification.OtherSoundSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_section_header" android:key="notification">
+        <PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_mode" android:fragment="com.android.settings.notification.ZenModeSettings" settings:keywords="@string/keywords_sounds_and_notifications_interruptions" />
+        <PreferenceScreen android:title="@string/dnd_mode_settings_title" android:key="zen_mode_dnd" android:fragment="com.android.settings.notification.ZenModeDNDSettings" />
+        <SwitchPreference android:persistent="false" android:title="@string/notification_pulse_title" android:key="notification_pulse" android:switchTextOn="" android:switchTextOff="" />
+        <ListPreference android:persistent="false" android:entries="@array/lock_screen_notifications_entries" android:title="@string/lock_screen_notifications_title" android:key="lock_screen_notifications" android:widgetLayout="@layout/round_more_icon" />
+        <PreferenceScreen android:title="@string/app_notifications_title" android:key="app_notifications" android:fragment="com.android.settings.notification.NotificationAppList" />
+        <Preference android:persistent="false" android:title="@string/manage_notification_access_title" android:key="manage_notification_access" android:fragment="com.android.settings.notification.NotificationAccessSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hdmi" android:key="hdmi" />
+    <ListPreference android:entries="@array/audio_output_entries" android:title="@string/audio_output" android:key="audio_output" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/audio_output_values" />
+    <PreferenceCategory android:title="@string/more_settings" android:key="category_more_settings" />
+    <PreferenceScreen android:title="@string/my_sound_title" android:key="my_sound" />
+</PreferenceScreen>

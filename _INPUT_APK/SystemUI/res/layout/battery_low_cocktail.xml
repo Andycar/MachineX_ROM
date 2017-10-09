@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/battery_low_cocktail_padding" android:background="#ff8a1f13" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/battery_low_cocktail_image" android:layout_width="40.0dip" android:layout_height="80.0dip" />
+    <LinearLayout android:gravity="center" android:layout_width="40.0dip" android:layout_height="140.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/battery_low_cocktail_level_percent" android:layout_width="140.0dip" android:layout_height="40.0dip" android:singleLine="true" android:rotation="90.0" android:fontFamily="Roboto_Light" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="40.0dip" android:layout_height="260.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center|right" android:id="@id/battery_low_cocktail_power_saving" android:layout_width="260.0dip" android:layout_height="40.0dip" android:singleLine="true" android:rotation="90.0" android:fontFamily="Roboto_Light" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="40.0dip" android:layout_height="100.0dip">
+        <Button android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/battery_low_cocktail_button" android:background="#ffbc311b" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@android:string/ok" android:singleLine="true" android:rotation="90.0" android:fontFamily="Roboto_Light" />
+    </LinearLayout>
+</LinearLayout>

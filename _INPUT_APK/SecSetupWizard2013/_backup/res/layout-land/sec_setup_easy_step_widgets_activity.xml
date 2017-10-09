@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/easy_mode" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/easy_widgets_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_easy_mode" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:id="@id/setup_easy_step_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/easy_step_widgets_message" style="@style/description_area" />"
+</LinearLayout>
+</LinearLayout>

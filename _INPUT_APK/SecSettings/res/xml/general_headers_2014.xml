@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/user_and_backup_section" android:title="@string/users_and_backup_category" />
+    <header android:icon="@drawable/ic_settings_account" android:id="@id/header_general_account_and_backup" android:title="@string/account_settings" android:fragment="com.android.settings.accounts.AccountSettings" />
+    <header android:icon="@drawable/ic_settings_cloud" android:id="@id/scloud_settings" android:title="@string/scloud_settings" android:fragment="com.android.settings.cloud.CloudSettingsMainFragment" />
+    <header android:icon="@drawable/ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.settings.PrivacySettings" />
+    <header android:id="@id/system_section" android:title="@string/header_category_system" />
+    <header android:icon="@drawable/ic_settings_language" android:id="@id/language_settings" android:title="@string/language_settings" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+    <header android:icon="@drawable/ic_settings_date_time" android:id="@id/date_time_settings" android:title="@string/date_and_time_settings_title" android:fragment="com.android.settings.DateTimeSettings" />
+    <header android:icon="@drawable/ic_settings_safety_assuarance" android:id="@id/safety_assurance_settings" android:title="@string/safety_assurance_settings" android:summary="@string/safety_assurance_menu_summary">
+        <intent android:targetPackage="com.sec.android.app.safetyassurance" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.safetyassurance.settings.SafetyAssuranceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_dock" android:id="@id/dock_settings" android:title="@string/accessory" android:fragment="com.android.settings.DockSettings" />
+    <header android:icon="@drawable/ic_settings_battery" android:id="@id/battery_settings" android:title="@string/power_usage_summary_title" android:fragment="com.android.settings.fuelgauge.PowerUsageSummary" />
+    <header android:icon="@drawable/ic_settings_powersaving" android:id="@id/power_saving_mode" android:title="@string/power_saving_mode_title_k" android:fragment="com.android.settings.powersavingmode.MenuPowerSavingModeSettings" />
+    <header android:icon="@drawable/ic_settings_storage" android:id="@id/storage_settings" android:title="@string/storage_settings" android:fragment="com.android.settings.deviceinfo.Memory" />
+    <header android:icon="@drawable/ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.android.settings.SecuritySettings" />
+    <header android:icon="@drawable/ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+    <header android:icon="@drawable/ic_settings_activate_device" android:id="@id/activate_this_device" android:title="@string/activate_this_device">
+        <intent android:mimeType="vnd.sprint.dsa/vnd.sprint.dsa.main" android:action="com.sprint.dsa.DSA_ACTIVITY">
+            <extra android:name="com.sprint.dsa.source" android:value="menu" />
+        </intent>
+    </header>
+    <header android:icon="@drawable/ic_settings_system_update" android:id="@id/system_update" android:title="@string/system_update" />
+    <header android:icon="@drawable/ic_settings_about" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.settings.DeviceInfoSettings" />
+    <header android:icon="@drawable/ic_setting_grid_system_update_vzw" android:id="@id/software_update" android:title="@string/system_update_settings_list_item_title" />
+</preference-headers>

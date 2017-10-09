@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cover_wday_day">E</string>
+    <string name="clear_cover_month_day_no_year">MMM d</string>
+    <string name="clear_cover_day_month_no_year">d MMM</string>
+    <string name="date_time_set">Cilëso</string>
+    <string name="save">Ruaj</string>
+    <string name="cancel">Anulo</string>
+    <string name="clearcover_exit_button">Dil</string>
+    <string name="clearcover_music_widget_unkown">I panjohur</string>
+    <string name="clearcover_no_missed_event">Nuk ke ngjarje që mungojnë.</string>
+    <string name="clearcover_1_missed_call">Ke 1 telefonatë të humbur.</string>
+    <string name="clearcover_1_unread_message">Ke 1 mesazh të palexuar.</string>
+    <string name="clearcover_n_missed_calls">Ke %d telefonata të humbura.</string>
+    <string name="clearcover_n_unread_messages">Ke %1$d mesazhe të palexuara.</string>
+    <string name="clearcover_calls_and_messages">Ke %1$d telefonata të humbura dhe %2$d mesazhe të palexuara.</string>
+    <string name="zzz_tts_temp_celsius">Celsius</string>
+    <string name="zzz_tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="zzz_tts_temperature">Gradë</string>
+    <string name="volumepanel_ringtone">Toni i ziles</string>
+    <string name="volumepanel_media">Media</string>
+    <string name="volumepanel_notification">Njoftim</string>
+    <string name="volumepanel_system">Sistemi</string>
+    <string name="s_view_cover_shortcuts_camera_text">Kamera</string>
+    <string name="s_view_cover_shortcuts_quick_memo_text">Memo vepruese</string>
+    <string name="s_view_cover_shortcuts_music_player_text">Muzika</string>
+    <string name="cmas_presidential_alert">Presidential alert</string>
+    <string name="cmas_extreme_alert">Extreme alerts</string>
+    <string name="cmas_presidential_alerts">Sinjalizime presidenciale</string>
+    <string name="cmas_extreme_alerts">Extreme alerts</string>
+    <string name="cmas_severe_alerts">Severe alerts</string>
+    <string name="cmas_amber_alerts">Sinjalizime AMBER</string>
+    <string name="cmas_emergency_alerts">Sinjalizimet urgjente</string>
+    <string name="sae_presidential_alert">Presidential alert</string>
+    <string name="new_message_title">Mesazh i ri</string>
+    <string name="message_count">%d mesazhe të reja</string>
+    <string name="new_message">Mesazh i ri</string>
+    <string name="cb_msg_header">Mesazhet CB</string>
+    <string name="push_message_sender">Mesazh Push</string>
+    <string name="select_background_color">Letra e murit dritarja S View</string>
+    <string name="s_view_window_theme">Let. murit dritare S View</string>
+    <string name="s_view_info_cover">Artikujt për afishim</string>
+    <string name="s_view_screen_time_out">Skadimi i pamjes</string>
+    <string name="s_view_screen_roaming">Roaming</string>
+    <string name="s_view_screen_home">Shtëpi</string>
+    <string name="missed_call_title">Telefonatë e humbur</string>
+    <string name="missed_calls_count">%d telefonata të humbura</string>
+    <string name="battery_charging_percent">Po ngarkohet: %d%%</string>
+    <string name="battery_wirelessly_charging_percent">Duke ngarkuar pa tel - %d%%</string>
+    <string name="battery_charged">U ngarkua.</string>
+    <string name="unknown">Panjoh.</string>
+    <string name="private_num">Numër privat</string>
+    <string name="payphone">Telefon publik</string>
+    <string name="unknown_address">Adresë e panjohur</string>
+    <string name="s_view_cover_transport_prev_description">Mëparshëm</string>
+    <string name="s_view_cover_transport_next_description">Tjetri</string>
+    <string name="s_view_cover_transport_pause_description">Pauzë</string>
+    <string name="s_view_cover_transport_play_description">Luaj</string>
+    <string name="s_view_cover_transport_stop_description">Ndal</string>
+    <string name="s_view_cover_transport_volume_description">Volumi</string>
+    <string name="s_view_cover_transport_playlist_description">Listat e dëgjimit</string>
+    <string name="s_view_cover_missed_event_secured_popup">Pajisja është bllokuar. Hap mbulesën për të parë hollësi të tjera.</string>
+    <string name="s_view_cover_open_cover_popup">Hap mbulesën për të cilësuar letrën e murit.</string>
+    <string name="s_view_cover_missed_event_button_accessibiliy">Rrëshqit me dy gishta për të shkuar te faqja e ngjarjes së humbur.</string>
+    <string name="s_view_cover_settings_button_accessibiliy">Rrëshqit me dy gishta për të shkuar te Cilësimet.</string>
+    <string name="s_view_cover_camera_button_accessibiliy">Rrëshqit me dy gishta për të hapur Kamerën.</string>
+    <string name="s_view_cover_emergency_timer_hrs">orë</string>
+    <string name="accessibility_battery_level">Bateria është me %d për qind.</string>
+    <string name="unsaved">Paruajtur</string>
+    <string name="clearcover_open_to_view_message">Hap ballinën për të parë hollësitë e mesazhit.</string>
+    <string name="clearcover_open_to_view_call">Hap ballinën për të parë hollësitë e thirrjes.</string>
+    <string name="ok">OK</string>
+    <string name="status_view_wday_month_day_no_year">E, MMMM d</string>
+    <string name="status_view_wday_day_month_no_year">E, d MMMM</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="keyguard_password_enter_pin_code">Shkruaj kodin PIN.</string>
+    <string name="keyguard_password_wrong_pin_code">Kod PIN i pasaktë.</string>
+    <string name="keyguard_label_text">Për të shbllokuar, shtyp Menu pastaj 0.</string>
+    <string name="faceunlock_multiple_failures">U tejkalua numri maksimal i përpjekjeve për zhbllokim me fytyrë.</string>
+    <string name="keyguard_charged">U ngarkua.</string>
+    <string name="keyguard_plugged_in">Po ngarkohet: %d%%</string>
+    <string name="keyguard_low_battery">Lidh ngarkuesin.</string>
+    <string name="keyguard_charging_in_wireless">Duke ngarkuar pa tel: %d%%</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Shtyp Menu për të shbllokuar.</string>
+    <string name="keyguard_network_locked_message">Rrjeti bllokuar.</string>
+    <string name="keyguard_missing_sim_message_short">"S'ka kartë SIM"</string>
+    <string name="keyguard_missing_sim_message">Nuk ka kartë SIM në telefon</string>
+    <string name="keyguard_sim_locked_message">Karta SIM është e bllokuar.</string>
+    <string name="keyguard_sim_puk_locked_message">Karta SIM është e bllokuar me PUK</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Po zhbllokohet karta SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget-i %2$d nga %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Shto mini-aplikacion</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Zbraz</string>
+    <string name="keyguard_accessibility_widget">Widget-i %s</string>
+    <string name="keyguard_accessibility_camera">Kamera</string>
+    <string name="keyguard_accessibility_pattern_unlock">Zhbllokimi me motiv</string>
+    <string name="keyguard_accessibility_face_unlock">Zhbllokimi I pamjes</string>
+    <string name="keyguard_accessibility_transport_pause_description">Butoni pauzë</string>
+    <string name="keyguard_accessibility_transport_play_description">Butoni luaj</string>
+    <string name="keyguard_accessibility_transport_stop_description">Butoni ndal</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Gisht në shenjë miratimi</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Gisht në shenjë mosmiratimi</string>
+    <string name="keyguard_accessibility_transport_heart_description">Zemër</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">ALT</string>
+    <string name="keyboardview_keycode_cancel">Anullo</string>
+    <string name="keyboardview_keycode_delete">HIQ</string>
+    <string name="keyboardview_keycode_done">Kryer</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Fut</string>
+    <string name="description_target_unlock">Zhblloko</string>
+    <string name="description_target_camera">Kamera</string>
+    <string name="description_target_silent">Pa ze</string>
+    <string name="description_target_soundon">Tingulli aktiv</string>
+    <string name="description_target_search">Kërko</string>
+    <string name="kg_emergency_call_label">Thirrje e urgjencës</string>
+    <string name="kg_forgot_pattern_button_text">E harrove imazhin?</string>
+    <string name="kg_wrong_pattern">Motiv i pasaktë</string>
+    <string name="kg_wrong_password">Fjalëkalim jokorrekt</string>
+    <string name="kg_wrong_pin">PIN i pasaktë</string>
+    <string name="kg_too_many_failed_attempts_countdown">Provo sërish për %d sek.</string>
+    <string name="kg_too_many_failed_attempt_countdown">Provo sërish për 1 sekondë.</string>
+    <string name="kg_pattern_instructions">Vizato imazhin tënd shkyçës.</string>
+    <string name="kg_sim_pin_instructions">Fut kodin PIN për të zhbllokuar kartën SIM.</string>
+    <string name="kg_pin_instructions">Fut PIN</string>
+    <string name="kg_password_instructions">Fut fjalëkalimin</string>
+    <string name="kg_puk_enter_puk_hint">Karta jote SIM është bllokuar. Fut kodin PUK për të vazhduar. Lidhu me ofruesin e shërbimit për hollësi.</string>
+    <string name="kg_puk_enter_pin_hint">Fut një PIN të ri.</string>
+    <string name="kg_enter_confirm_pin_hint">Konfirmo PIN-in tënd të ri.</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Po zhbllokohet karta SIM…</string>
+    <string name="kg_invalid_sim_pin_hint">Fut një PIN 4 deri 8-shifror</string>
+    <string name="kg_invalid_sim_puk_hint">Kodi yt PUK duhet të përmbajë 8 shifra ose më shumë.</string>
+    <string name="kg_invalid_confirm_pin_hint">Kodet PIN që ke futur nuk përkojnë mes tyre.</string>
+    <string name="kg_login_instructions">Për të shkyçur, futu me sign-in në llogarinë tënde Google.</string>
+    <string name="kg_login_username_hint">Emri i përdoruesit (PE)</string>
+    <string name="kg_login_password_hint">Fjalëkalimi</string>
+    <string name="kg_login_submit_button">Futu me sign-in</string>
+    <string name="kg_login_invalid_input">Emër përdoruesi ose fjalëkalim i pavlefshëm.</string>
+    <string name="no_network_connection">Nuk ka lidhje me rrjetin</string>
+    <string name="kg_login_checking_password">Duke kontrolluar llogarinë…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"Ke futur një PIN të pasaktë %1$d herë.
+
+Provo sërish pas %2$d sekondash."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">Ke futur një fjalëkalim të pasaktë %1$d herë. Provo sërish pas %2$d sekondash</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Ke bërë %1$d orvatje të pasuksesshme për ta zhbllokuar pajisjen. Provo sërish pas %2$d sekondash.</string>
+    <string name="kg_reordering_delete_drop_target_text">LARGOJE</string>
+    <string name="keyguard_transport_pause_description">Butoni pauzë</string>
+    <string name="keyguard_transport_play_description">Butoni luaj</string>
+    <string name="keyguard_transport_stop_description">Butoni ndal</string>
+    <string name="keyguard_carrier_default">"S'ka sinjal"</string>
+    <string name="tts_temp_celsius">Celsius</string>
+    <string name="tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="tts_temperature">Diploma</string>
+    <string name="keyguard_dualclock_home">Bazë</string>
+    <string name="keyguard_dualclock_roaming">Roaming</string>
+    <string name="keyguard_dualclock_home_Seoul">Seul</string>
+    <string name="keyguard_dualclock_roaming_Korea">Roaming</string>
+    <string name="kg_spass_alternative_password">Fjalëkalimi rezervë</string>
+    <string name="kg_spass_backup_verification">Lloji i verif. rezervimit</string>
+    <string name="kg_spass_swipe">Rrëshqit një gisht mbi tastin bazë për ta zhbllokuar pajisjen.</string>
+    <string name="kg_spass_passed">U njoh.</string>
+    <string name="kg_forgot_spass_button_text">Zhblloko me Google</string>
+    <string name="kg_alternative_password_instructions">Fut fjalëkalimin rezervë.</string>
+    <string name="kg_alternative_password_failed">Fjalëkalim rezervë i pasaktë.</string>
+    <string name="kg_spass_popup_guide_text">Sigurohu që maja e gishtit e mbulon krejt tastin bazë kur e rrëshqet mbi të.</string>
+    <string name="kg_spass_backup_password_button">Fut fjalëkalimin rezervë</string>
+    <string name="kg_spass_backup_password_introductions">Fut fjalëkalimin rezervë.</string>
+    <string name="kg_spass_backup_password_failed">Është futur një fjalëkalim rezervë i pasaktë.</string>
+    <string name="kg_spass_backup_pin_introductions">Fut PIN-in rezervë</string>
+    <string name="kg_spass_backup_pin_failed">PIN i pasaktë rezervë.</string>
+    <string name="kg_spass_backup_pattern_introductions">Vizato motivin rezervë</string>
+    <string name="kg_spass_backup_pattern_failed">Vizatove një motiv të pasaktë. Provo sërish.</string>
+    <string name="keyguard_clock_with_battery">%s fuqi baterie</string>
+    <string name="default_profile_string">Mesazh personal</string>
+    <string name="default_profile_string_life_companion">Shoku i jetës</string>
+    <string name="keyguard_progress_erasing_all">Po fshihen të gjitha të dhënat…</string>
+    <string name="kg_lockscreen_backup_pin_button_text">PIN-i rezervë</string>
+    <string name="fail_attempt_unlock_popup_title">Nuk mund ta zhbllokoj ekranin</string>
+    <string name="kg_failed_attempts_almost_at_pattern">Ke bërë %1$d orvatje të pasuksesshme për ta zhbllokuar pajisjen. Në qoftë se dështon edhe %2$d herë të tjera, do të duhet ta zhbllokosh pajisjen me PIN-in rezervë. Provo sërish pas %3$d sekondash.</string>
+    <string name="kg_1_failed_attempt_almost_at_wipe">You have incorrectly attempted to unlock the phone 1 time. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+    <string name="lockscreen_voiceunlock_failed_to_recognise_voice_text">Dështova të njoh zërin.</string>
+    <string name="lockscreen_unlock_guide_text">Kalo gishtin mbi ekran për ta zhbllokuar.</string>
+    <string name="kg_too_many_failed_spass_attempts_dialog_message">Nuk munda ta verifikoj shenjën e gishtit %1$d herë. Provo sërish pas %2$d sekondash.</string>
+    <string name="keyguard_recovery_instructions">Fut fjalëkalimin e rikuperimit për të zhbllokuar.</string>
+    <string name="device_disabled">Pajisja është paaftësuar. Lidhu me administratorin IT.</string>
+    <string name="keyguard_fmm_phone_locked_title">Telefoni bllokuar.</string>
+    <string name="keyguard_fmm_owner_phone">Numri i pronarit</string>
+    <string name="keyguard_camera_shortcut_tts">Dy-trokit dhe zvarrit për ta hapur Kamerën.</string>
+    <string name="keyguard_signature_guide">Vizatoje me penë nënshkrimin në ekran për të zhbllokuar.</string>
+    <string name="keyguard_signature_failed_guide">Provo sërish. Vizatoje me penë nënshkrimin në ekran për të zhbllokuar</string>
+    <string name="kg_too_many_failed_signature_attempts_dialog_message">E vizatove nënshkrimin zhbllokues gabim %1$d herë. Provo sërish pas %2$d sekondash.</string>
+    <string name="zzz_keyguard_password_attempts_count_pin_code">%d perpjekje te mbetura.</string>
+    <string name="lockscreen_clock_dualclock_popup_title">Ora dyshe</string>
+    <string name="lockscreen_clock_dualclock_popup_message">Përzgjidh qytetin bazë për të afishuar orën duale në ekranin e bllokimit. Të shkoj te Cilësimet?</string>
+    <string name="kg_failed_attempts_almost_at_spass">Nuk munda ta verifikoj shenjën e gishtit %1$d herë. Në qoftë se gabon edhe %2$d herë akoma, mund ta zhbllokosh pajisjen me mënyrën rezervë të zhbllokimit. Provo sërish pas %3$d sekondash.</string>
+    <string name="lockscreen_unlock_guide_text_touch_exploration">Rrëshqit me dy gishta për ta zhbllokuar ekranin.</string>
+    <string name="lockscreen_swipe_voice_unlock_guide_text">Rrëshqit mbi ekran ose thuaj komandën e zgjimit për të zhbllokuar.</string>
+    <string name="zzz_tts_lockscreen_shortcut_swipe">Trokit sërish dhe rrëshqit mbi ekran për të hapur aplikacione.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_pin_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup PIN is now required to unlock the screen.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_password_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup password is now required to unlock the screen.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe">You only have 1 attempt left to unlock your phone before it is reset to factory mode. This will delete all data, including files and downloaded apps.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe_subuser">You only have 1 attempt left to unlock your tablet before your account is removed. This will delete all data on your account, including files, and downloaded apps.</string>
+    <string name="kg_n_attempts_remaining">%d attempts remaining</string>
+    <string name="kg_1_attempt_remaining">1 attempt remaining</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_password_wrong_pin_code_maximum">Karta jote SIM është bllokuar. Fut kodin PUK për të vazhduar. Lidhu me ofruesin e shërbimit për hollësi.</string>
+    <string name="lockscreen_sim_puk_tmo_help_pin_blocked">PIN bllokuar.</string>
+    <string name="lockscreen_sim_puk_tmo_help_contact_service_provider">Lidhu me ofruesin e shërbimit, për të zhbllokuar kartën tënde SIM.</string>
+    <string name="emergency_calls_only">Vetëm thirrje urgjence</string>
+    <string name="kg_spass_help_overlay_guide_text">Rrotulloje pajisjen %d° para se të rrëshqasësh majën e gishtit nga lart poshtë mbi tastin bazë.</string>
+    <string name="checkbox_description">Mos e shfaq më</string>
+    <string name="keyguard_accessibility_change_input_method">Ndrysho mënyrën e futjes</string>
+    <string name="status_bar_date_format_day_month">E, d MMMM</string>
+    <string name="status_bar_date_format_month_day">E, MMMM d</string>
+    <string name="app_label">Ndërf. sist.</string>
+    <string name="status_bar_clear_all_button">Zbraz</string>
+    <string name="status_bar_recent_remove_item_title">Hiq nga lista</string>
+    <string name="status_bar_recent_inspect_item_title">Info për aplikacionin</string>
+    <string name="status_bar_no_recent_apps">Nuk ka aplikacione të përdorura së fundi</string>
+    <string name="status_bar_no_notifications_title">Pa njoftime</string>
+    <string name="status_bar_ongoing_events_title">Në vazhdim</string>
+    <string name="status_bar_latest_events_title">Njoftimet</string>
+    <string name="battery_low_title">Bateria e dobët</string>
+    <string name="battery_low_percent_format">%d%% të mbetura</string>
+    <string name="invalid_charger">Ngarkimi me USB nuk mbështetet. Përdor ngarkuesin që vjen me produktin.</string>
+    <string name="battery_low_why">Percaktimi I opsioneve</string>
+    <string name="status_bar_settings_settings_button">Cilësimet</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Profili Fluturim</string>
+    <string name="status_bar_settings_auto_rotation">Rrotullo ekranin automatikisht</string>
+    <string name="status_bar_settings_mute_label">Heshtim</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Njoftimet</string>
+    <string name="bluetooth_tethered">Bluetooth u lidh</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfiguro mënyrat e shkrimit</string>
+    <string name="status_bar_use_physical_keyboard">Tastierë fizike</string>
+    <string name="usb_device_permission_prompt">"T'i lejohet aplikacionit %1$s të hapë pajisjen USB?"</string>
+    <string name="usb_accessory_permission_prompt">"T'i lejohet aplikacionit %1$s të hapë aksesorin USB?"</string>
+    <string name="usb_device_confirm_prompt">Të hapet %1$s kur është lidhur kjo pajisje USB?</string>
+    <string name="usb_accessory_confirm_prompt">Të hapet %1$s kur është lidhur ky aksesor USB?</string>
+    <string name="usb_accessory_uri_prompt">Nuk ka aplikacione të instaluara që punojnë me këtë aksesor USB. Mëso më shumë rreth këtij aksesori te %s.</string>
+    <string name="title_usb_accessory">Aksesor USB</string>
+    <string name="label_view">Shih</string>
+    <string name="always_use_device">Përdore me parazgjedhje për këtë pajisje USB</string>
+    <string name="always_use_accessory">Përdore me parazgjedhje për këtë aksesor USB</string>
+    <string name="usb_debugging_title">Të lejohet korrigjimi i USB?</string>
+    <string name="usb_debugging_message">"Shenja e gishtit e çelësit RSA është:
+%1$s"</string>
+    <string name="usb_debugging_always">Gjithnjë lejo këtë PC</string>
+    <string name="compat_mode_on">Zm. për të mbushur ekran.</string>
+    <string name="compat_mode_off">Tërh. për të mbushur ekr.</string>
+    <string name="screenshot_saving_ticker">Po ruaj pamjen e çastit…</string>
+    <string name="screenshot_saving_title">Po ruaj pamjen e çastit…</string>
+    <string name="screenshot_saving_text">Pamja e çastit është duke u ruajtur.</string>
+    <string name="screenshot_saved_title">Pamja e çastit u kap</string>
+    <string name="screenshot_saved_text">Shtyp për të parë pamjen e çastit.</string>
+    <string name="screenshot_failed_title">Nuk mund ta kap pamjen e çastit.</string>
+    <string name="usb_preference_title">Opsion. transf. skedar. me USB</string>
+    <string name="use_mtp_button_title">Lidhe si riprodhues mediash (MTP)</string>
+    <string name="use_ptp_button_title">Lidhe si kamera (PTP)</string>
+    <string name="installer_cd_button_title">Instalo aplikacionin e transferimit të skedarëve të Android-it për Mac</string>
+    <string name="accessibility_back">Prapa</string>
+    <string name="accessibility_home">Shtëpi</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_search_light">Kërko</string>
+    <string name="accessibility_camera_button">Kamera</string>
+    <string name="accessibility_unlock_button">Shblloko</string>
+    <string name="accessibility_ime_switch_button">Butoni i ndërrimit të mënyrës së shkrimit.</string>
+    <string name="accessibility_compatibility_zoom_button">Butoni i zmadhimit me përshtatje</string>
+    <string name="accessibility_compatibility_zoom_example">Zmadho për në ekran më të madh</string>
+    <string name="accessibility_bluetooth_connected">Lidhur me Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth i shkëputur.</string>
+    <string name="accessibility_no_battery">"S'ka bateri"</string>
+    <string name="accessibility_battery_one_bar">Edhe një shirit fuqie baterie</string>
+    <string name="accessibility_battery_two_bars">Dy shirita fuqie të baterisë</string>
+    <string name="accessibility_battery_three_bars">Tri shirita fuqie të baterisë</string>
+    <string name="accessibility_battery_full">Bateria plot.</string>
+    <string name="accessibility_no_phone">Nuk ka sinjal telefoni</string>
+    <string name="accessibility_phone_one_bar">Një shirit sinjali të telefonit</string>
+    <string name="accessibility_phone_two_bars">Dy shirita sinjali të telefonit</string>
+    <string name="accessibility_phone_three_bars">Tri shirita sinjali të telefonit</string>
+    <string name="accessibility_phone_signal_full">Sinjal i plotë telefoni</string>
+    <string name="accessibility_no_data">Nuk ka të dhëna</string>
+    <string name="accessibility_data_one_bar">Një shirit sinjali të të dhënave</string>
+    <string name="accessibility_data_two_bars">Dy shirita sinjali të të dhënave</string>
+    <string name="accessibility_data_three_bars">Tri shirita sinjali të të dhënave</string>
+    <string name="accessibility_data_signal_full">Sinjal i plotë i të dhënave</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Nuk ka sinjal Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Një shirit sinjali Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Dy shirita sinjali Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Tri shirita sinjali Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Sinjali Wi-Fi është plot.</string>
+    <string name="accessibility_no_signal">"S'ka sinjal"</string>
+    <string name="accessibility_not_connected">Jo i lidhur.</string>
+    <string name="accessibility_desc_on">Aktiv</string>
+    <string name="accessibility_desc_off">Fikur</string>
+    <string name="accessibility_desc_connected">Lidhur.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Cep</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">S’ka SIM</string>
+    <string name="accessibility_bluetooth_tether">Lidhje Bluetooth</string>
+    <string name="accessibility_airplane_mode">Profili Fluturim</string>
+    <string name="accessibility_settings_button">Cilësimet e sistemit</string>
+    <string name="accessibility_notifications_button">Njoftimet</string>
+    <string name="accessibility_remove_notification">Pastro njoftimet</string>
+    <string name="accessibility_gps_enabled">GPS aktive</string>
+    <string name="accessibility_gps_acquiring">Po merret GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter aktiv</string>
+    <string name="accessibility_ringer_vibrate">Dridhja e ziles</string>
+    <string name="accessibility_ringer_silent">Pa Zile</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Mbyll</string>
+    <string name="accessibility_desc_quick_settings">Cilësimet e shpejta</string>
+    <string name="accessibility_quick_settings_alarm">Alarmi u vendos për %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Të dhënat celulare joaktive</string>
+    <string name="data_usage_disabled_dialog_enable">Riaktiv. lidhjen e të dhëna.</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"S'ka lidhje me internetin"</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi lidhur.</string>
+    <string name="gps_notification_searching_text">Po kërkohet me GPS…</string>
+    <string name="gps_notification_found_text">Vendndodhja caktuar me GPS</string>
+    <string name="accessibility_clear_all">Pastro të gjitha njoftimet</string>
+    <string name="status_bar_notification_inspect_item_title">Vlera të njoftimit</string>
+    <string name="accessibility_rotation_lock_off">Ekrani do të rrotullohet automatikisht.</string>
+    <string name="start_dreams">Ëndërrim</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Shpërndarësja celulare nuk mbështetet.</string>
+    <string name="it_policy_not_allow_wifi">Rregullorja e sigurisë kufizon përdorimin e Wi-Fi.</string>
+    <string name="it_policy_not_allow_wifiap">Rregullorja e sigurisë kufizon përdorimin e ndarjes së internetit.</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Në regjim Fluturim.</string>
+    <string name="edm_policy_not_allow_open_wifiap">Rregullorja e sigurisë nuk e lejon përdorimin e tetherit të pasiguruar për hotspot.</string>
+    <string name="wifi_authentication_succeed">Autentikuar.</string>
+    <string name="wifi_authentication_failed">Autentikimi dështoi.</string>
+    <string name="wifi_authentication_invalid_value">Authentication failed. Check ID and password.</string>
+    <string name="wifi_setup_title_connected_network">Lidhur me rrjetin %s Wi-Fi.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">U ngarkua.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth fikur</string>
+    <string name="quick_settings_brightness_label">Ndriçimi</string>
+    <string name="quick_settings_ime_label">Mënyra e futjes</string>
+    <string name="quick_settings_location_label">Vendndodhja</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Vetëm telefonata urgjence.</string>
+    <string name="quick_settings_settings_label">Cilësimet</string>
+    <string name="quick_settings_time_label">Ora</string>
+    <string name="quick_settings_user_label">Unë</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Jo i lidhur.</string>
+    <string name="quick_settings_wifi_no_network">"S'ka rrjet"</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Ndriçimi</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Elektriku i dorës</string>
+    <string name="recents_empty_message">Nuk ka programe të vona</string>
+    <string name="zen_no_interruptions">Asnjë ndërprerje</string>
+    <string name="zen_important_interruptions">Vetëm ndërprerje me përparësi</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Asnjë</string>
+    <string name="interruption_level_priority">Përpar.</string>
+    <string name="interruption_level_all">Gjithë</string>
+    <string name="guest_wipe_session_dontwipe">Po, vazhdo</string>
+    <string name="notification_hidden_text">Materialet janë fshehur</string>
+    <string name="sanitized_content_text">"Trokit këtu për t'u futur në %s."</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Jo, faleminderit</string>
+    <string name="hidden_notifications_setup">Konfiguro</string>
+    <string name="quickpanel_airplane_mode_text">"Regjimi
+avion"</string>
+    <string name="quickpanel_airplane_mode_content_description">Regjimi avion</string>
+    <string name="quickpanel_content_description_led_on">%s u aktivizua.</string>
+    <string name="quickpanel_content_description_led_off">%s u çaktivizua.</string>
+    <string name="quickpanel_content_description_led_dim">%s nuk mund të aktivizohet.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Lidh. e shpejtë</string>
+    <string name="accessibility_qconnect_button_tts">Lidhje e shpejtë</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Vendi</string>
+    <string name="quickpanel_silent_mode_content_description">Profili Pa zë</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Tingulli</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Dridhja</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Heshto</string>
+    <string name="quickpanel_rotation_content_description">Rrotullimi i ekranit</string>
+    <string name="quickpanel_mobile_data_content_description">Të dhënat celulare</string>
+    <string name="quickpanel_power_saving_content_description">Regjimi Kursim energjie</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Regjimi Kursim energjie ultra</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Multi-window</string>
+    <string name="quickpanel_car_mode_content_description">Regjimi makinë</string>
+    <string name="quickpanel_dormant_mode_content_description">Mos më shqetëso</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Shpërndarëse për celularët</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Ndjeshmëria në prekje</string>
+    <string name="quickpanel_smart_stay_content_description">Ndriçimi inteligjent</string>
+    <string name="quickpanel_smart_scroll_content_description">Lundrimi inteligjent</string>
+    <string name="quickpanel_sync_content_description">Sinkronizo</string>
+    <string name="quickpanel_vowifi_content_description">Thirrjet Wi-Fi</string>
+    <string name="quickpanel_toolbox_content_description">Kutia e veglave</string>
+    <string name="quickpanel_adaptive_display_content_description">Ekrani përshtatës</string>
+    <string name="quickpanel_airgesture_content_description">Air gesture</string>
+    <string name="quickpanel_airview_content_description">Pamja ajrore</string>
+    <string name="quickpanel_network_booster_content_description">Përmirësuesi i shkarkimit</string>
+    <string name="quickpanel_personal_mode_content_description">Regjimi privat</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Paneli anësor</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Vendi</string>
+    <string name="quickpanel_silent_mode_text">"Regj. i
+heshtur"</string>
+    <string name="quickpanel_silent_mode_sound">Tingulli</string>
+    <string name="quickpanel_silent_mode_vibrate">Dridhje</string>
+    <string name="quickpanel_silent_mode_mute">Heshtje</string>
+    <string name="quickpanel_rotation_text">"Rrot.
+i ekranit"</string>
+    <string name="quickpanel_mobile_data_text">"Të dhënat
+cel."</string>
+    <string name="quickpanel_power_saving_text">Kursimnergjie</string>
+    <string name="quickpanel_ultra_power_saving_text">"Kursim
+ener. u."</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Multi-
+window"</string>
+    <string name="quickpanel_car_mode_text">"Regj.
+makin"</string>
+    <string name="quickpanel_driving_mode_text">"Regjimi
+pa duar"</string>
+    <string name="quickpanel_dormant_mode_text">"Mos
+shqetëso"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Shpërnd.
+celulare"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Ndjesh.
+në prekje"</string>
+    <string name="quickpanel_smart_stay_text">"Qëndrim
+smart"</string>
+    <string name="quickpanel_smart_scroll_text">"Lundrim
+intel."</string>
+    <string name="quickpanel_sync_text">Sinkro</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">Kutia e veglave</string>
+    <string name="quickpanel_smart_pause_text">"Pauzë
+intel."</string>
+    <string name="quickpanel_adaptive_mode_text">"Adapt
+display"</string>
+    <string name="quickpanel_airgesture_text">"Gjestet
+ajrore"</string>
+    <string name="quickpanel_airview_text">"Pamja
+ajrore"</string>
+    <string name="quickpanel_network_booster_text">"Përm.
+shkark."</string>
+    <string name="quickpanel_personal_mode_text">"Regjimi
+privat"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Lidhje e
+shpejtë"</string>
+    <string name="quickpanel_side_key_text">"Paneli
+anësor"</string>
+    <string name="accessibility_power_saving_mode">Për të aftësuar Regjimin ruajtje energjie, aftëso së paku një funksion.</string>
+    <string name="accessibility_power_saving_mode_title">Profili kursim energjie</string>
+    <string name="insert_sim_card">Fut kartën SIM</string>
+    <string name="insert_sim_card_message">Fut kartën SIM, për të përdorur shërbime rrjeti.</string>
+    <string name="insert_uim_or_sim_card">Fut kartën UIM/SIM</string>
+    <string name="status_bar_recent_launch_task_manager_title">Men. i detyr.</string>
+    <string name="status_bar_recent_remove_all_button">Mbyll të gjitha</string>
+    <string name="blocking_mode_enable">Kur ky regjim është aftësuar, njoftimet për funksionet e përzgjedhura do të paaftësohen. Ti do të marrësh vetëm njoftime për thirrje hyrëse nga persona në listën tënde të lejimit.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Regjimi bllokim paaftëson njoftimet për funksionalitetet e përzgjedhura. Kur të bllokohen thirrjet hyrëse, do të marrësh njoftime vetëm për thirrjet hyrëse nga personat në kontaktet e lejuara. Për të ndryshuar cilësimet e Regjimit bllokim, shko te Cilësimet > Personalizimi > Regjimi bllokim.</string>
+    <string name="blocking_mode_enable_wifi">Kur aftësohet ky regjim, do të paaftësohen njoftimet për funksionet e përzgjedhura.</string>
+    <string name="blocking_mode_title">Regjimi bllokues</string>
+    <string name="magnification_text_for_air_view_button">Gjestet zmadhuese</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Nuk mund të përdor Përmirësuesin e shkarkimit kur është aftësuar %1$s. Paaftëso %2$s dhe provo sërish.</string>
+    <string name="quickpanel_air_view_warning">Për të aftësuar pamjen ajrore, aftëso së paku një funksion.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Për të aftësuar pamjen ajrore, aftëso së paku një funksion nga regjimi i Pamjes ajrore që është përzgjedhur.</string>
+    <string name="quickpanel_air_gesture_warning">Për të aftësuar air gesture, aftëso së paku një funksion përkatës.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Trokit dhe mbaj një buton të cilësimit të shpejtë, për të shkuar te cilësimet përkatëse.</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Po të mos përdorësh Wi-Fi, nuk do të mund të përdorësh Internetin, e-postën ose aplikacione të tjera që kërkojnë lidhje të dhënash.
+
+Të dhënat celulare do të paaftësohen."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Lidhu</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Nuk mund të lidhem me rrjetet celulare kur është aftësuar regjimi Avion. Çaktivizo regjimin Avion dhe provo sërish.</string>
+    <string name="warning_alert_check">Mos e shfaq më</string>
+    <string name="data_usage_enable_mobile_warning">Lidhja me shkëmbim paketash mund të kushtojë më shumë. Vazhdo?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Nuk mund të përdor VoLTE kur është aftësuar regjimi Avion. Paaftëso regjimin Avion dhe provo sërish.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">VoLTE nuk mbështetet nga versioni yt i tanishëm i softuerit. Lidhu me shërbimet e klientit për hollësi të mëtejshme.</string>
+    <string name="smart_pause_toast_text">Për të përdorur Pauzën inteligjente, më parë aftëso Heshto/vër në pauzë.</string>
+    <string name="smart_bonding_popup_msg_roaming">Nuk mund ta përdor Përmirësuesin e shkarkimit kur jam në bredhje. Rekomandojmë shkarkimin përmes një rrjeti Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Ndiz Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Aktivizo Të dhënat celulare</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Ndiz Wi-Fi &amp; Të dhënat celulare</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi aktualisht është çaktivizuar. Për të aftësuar Përmirësuesin e shkarkimit, duhet të aktivizohen edhe Wi-Fi edhe Të dhënat celulare. Shkarkimi përmes rrjeteve celulare mund të kushtojë më shumë, në varësi të planit tënd të pagesës.</string>
+    <string name="smart_bonding_popup_msg_data">Të dhënat celulare aktualisht janë çaktivizuar. Për të aftësuar Përmirësuesin e shkarkimit, duhet të aktivizohen edhe Wi-Fi edhe Të dhënat celulare. Shkarkimi përmes rrjeteve celulare mund të kushtojë më shumë, në varësi të planit tënd të pagesës.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi dhe Të dhënat celulare aktualisht janë çaktivizuar. Për të aftësuar Përmirësuesin e shkarkimit, duhet të aktivizohen edhe Wi-Fi edhe Të dhënat celulare. Shkarkimi përmes rrjeteve celulare mund të kushtojë më shumë, në varësi të planit tënd të pagesës.</string>
+    <string name="smart_bonding_popup_msg">Përmirësuesi i shkarkimit do të aftësohet. Shkarkimi përmes rrjeteve celulare mund të kushtojë më shumë, në varësi të planit tënd të pagesës.</string>
+    <string name="smartbonding_dialog_title">Përmirësuesi i shkarkimit</string>
+    <string name="insert_a_sim_card_and_try_again">Fut një kartë SIM dhe provo sërish.</string>
+    <string name="unable_to_enable_Download_booster">"S'mund të aftësoj Përmirësuesin e shkarkimit"</string>
+    <string name="download_booster_dialog_title">Aftëso Përmirës. e shkarkimit</string>
+    <string name="enable">Aktivizo</string>
+    <string name="sd_card">Kartë SD</string>
+    <string name="sdcard_insert">Karta SD u fut</string>
+    <string name="sdcard_unmount">Shkëpute kartën SD</string>
+    <string name="go_to_myfiles">Shko te Skedarët e Mi</string>
+    <string name="charging_interruption_title">Nuk mund të ngarkoj</string>
+    <string name="charging_interruption_by_terminal_open_text">Nuk mund ta ngarkoj pajisjen. Sigurohu që je duke përdorur një bateri dhe një ngarkues të pajtueshëm me Samsung-un dhe se pajisja jote është lidhur mirë me ngarkuesin.</string>
+    <string name="full_battery_title">Info</string>
+    <string name="full_battery_text">"Bateria plotësisht e ngarkuar.
+Shkëput ngarkuesin."</string>
+    <string name="reading_mode_title">Regjimi i leximit</string>
+    <string name="reading_mode_alert">Regjimi lexim është aftësuar. Ekrani tani është optimizuar për lexim. Ky regjim mund të përdoret vetëm me disa aplikacione.</string>
+    <string name="reading_mode_settings">Cilësimet</string>
+    <string name="quickpanel_ebook_text">"Regjimi
+lexim"</string>
+    <string name="quickpanel_ebook_content_description">Regjimi i leximit</string>
+    <string name="driving_mode_title">Regjimi pa duar</string>
+    <string name="driving_mode_on_dialog_msg_1">Pasi ta mbyllësh Regjimin pa duar të S Voice, duhet ta paaftësosh Regjimin pa duar në Cilësimet. Në qoftë se Regjimi pa duar mbetet i aftësuar, njoftimet dhe të dhënat për thirrjet hyrëse gjithnjë do të lexohen me zë të lartë automatikisht.</string>
+    <string name="driving_mode_on_dialog_msg_2">Mund ta fikësh Regjimin pa duar duke thënë “Fik Regjimin pa duar” kur je në Regjimin pa duar të S Voice, ose duke shkuar te Cilësimet ose te paneli i njoftimeve.</string>
+    <string name="quickpanel_driving_mode_content_description">Regjimi pa duar</string>
+    <string name="critical_low_battery_title">Bateria tepër e rënë</string>
+    <string name="critical_low_battery_text">Lidh pajisjen me një ngarkues. Po të vazhdosh ta përdorësh pajisjen kur ajo është duke u ngarkuar, pajisja mund të mos ngarkohet si duhet.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Për të ngarkuar më shpejt, lidh me një prizë rrjeti dhe mbyll aplikacionet e papërdorura në %s. Përdorimi gjatë ngarkimit mund të pengojë ngarkimin eficient.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Mbyll aplikacionet e papërdorura në %s. Po të vazhdosh përdorimin gjatë ngarkimit mund të pengojë ngarkimin eficient.</string>
+    <string name="low_battery_text">Lidh pajisjen me një ngarkues. Po të vazhdosh ta përdorësh pajisjen kur ajo është duke u ngarkuar, pajisja mund të mos ngarkohet si duhet.</string>
+    <string name="low_battery_text_charged_via_usb">Për të ngarkuar më shpejt, lidh me një prizë rrjeti dhe mbyll aplikacionet e papërdorura në %s. Përdorimi gjatë ngarkimit mund të pengojë ngarkimin eficient.</string>
+    <string name="low_battery_text_charged_via_ta">Mbyll aplikacionet e papërdorura në %s. Po të vazhdosh përdorimin gjatë ngarkimit mund të pengojë ngarkimin eficient.</string>
+    <string name="low_battery_power_saving_button_text">Kursimi i energjisë</string>
+    <string name="wireless_charging_title">Ngarkimi pa tel.</string>
+    <string name="cable_charging_title">Ngarkim me kabllo</string>
+    <string name="wireless_charging_text">U pikas një panel ngarkimi. Duke ngarkuar pa tel…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Duke u këmbyer nga ngarkimi pa tel në ngarkimin me kabllo</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Duke u këmbyer nga ngarkimi me kabllo në ngarkimin pa tel</string>
+    <string name="wireless_charging_spen_warning_text">Pajisja jote tani është duke u ngarkuar pa tel. S Pen mund të mos punojë mirë, kur është duke u kryer ngarkimi pa tel.</string>
+    <string name="incompatible_charger_title">Nuk karikohet.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Fike pajisjen</string>
+    <string name="overheat_poweroff_warning_text">"Pajisja jote është duke u mbinxehur. Do të fiket, për t'u ftohur."</string>
+    <string name="overheat_poweroff_warning_button_text">Mos e fik</string>
+    <string name="overheat_poweroff_notice_title">Pajisja u fik automatikisht</string>
+    <string name="overheat_poweroff_notice_text">"Pajisja jote ishte mbinxehur. U fik për të parandaluar dëmtimin.
+
+Mbinxehja mund të shkaktohet nga:
+Përdorimi i aplikacioneve grafikisht intensive, të tilla si lojërat dhe aplikacionet e navigimit, për periudha të gjata kohe.
+Transferimi i skedarëve të mëdhenj.
+Përdorimi i pajisjes në një mjedis të nxehtë."</string>
+    <string name="power_sharing_warning_title">Përbashkimi i energjisë</string>
+    <string name="power_sharing_warning_text">Bateria është nën cakun e përbashkimit të energjisë. Për të vazhduar të përbashkosh energji, ule cakun e përbashkimit të energjisë nën nivelin e tanishëm të baterisë.</string>
+    <string name="power_sharing_start_toast_text">Duke filluar Përbashkimin e energjisë…</string>
+    <string name="power_sharing_end_notification_text">Përbashkimi i energjisë përfundoi. Shkëpute kabllon.</string>
+    <string name="power_sharing_unable_notification_text">Nuk mund të ndahet.</string>
+    <string name="highvoltage_charger_notice_title">Përdor Karikimin e shpejtë</string>
+    <string name="highvoltage_charger_notice_text">Kjo do ta ngarkojë baterinë më shpejt, sidomos kur ekrani i pajisjes të jetë i fikur.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Fike ekranin</string>
+    <string name="highvoltage_charger_notification_text">Karikuesi i shpejtë u lidh.</string>
+    <string name="face_detection_failure_text">"Ndriçimi inteligjent s't'i dallon dot sytë."</string>
+    <string name="screenshot_failed_due_to_drm_text">Ekrani nuk mund të shkrepej. Imazh i mbrojtur me DRM.</string>
+    <string name="no_such_item">Artikulli nuk mund të gjendet.</string>
+    <string name="one_item_will_be_deleted">Do të fshihet 1 artikull.</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Pranoj</string>
+    <string name="disagree">Nuk pranoj</string>
+    <string name="location_masterswitch_dialogtitle">Pëlqim për vendndodhjen</string>
+    <string name="gps_donotshow">Mos e shfaq më</string>
+    <string name="tethering_attention_title">Kujdes</string>
+    <string name="tethering_wifi_off_warning">Po të aftësohet shpërndarësja celulare, do të fiket Wi-Fi.</string>
+    <string name="wifihotspot_detail">Hollësi</string>
+    <string name="tether_settings_title_wifi">Pikë port. shpërndarëse</string>
+    <string name="guest_launge_warning_toast_text">Nuk mund të aftësoj ose paaftësoj %s kur jam në Regjimin e mysafirit.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Nuk mund ta aftësoj Regjimin privat kur po çoj sende te Privat.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Nuk mund ta paaftësoj Regjimin privat kur po çoj sende te Privat.</string>
+    <string name="no_sim_notification_title">S’ka SIM</string>
+    <string name="no_sim_notification_title_tmo">Nuk është futur asnjë kartë SIM.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Fut kartën SIM.</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Roaming</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Paneli i njoftimeve</string>
+    <string name="guideline_empty_text">Zvarrit një ikonë nga tabakaja për ta hapur aplikacionin përkatës.</string>
+    <string name="drag_and_drop_content">Zhvendos materiale</string>
+    <string name="switch_window">Këmbej dritaret</string>
+    <string name="close_application">Mbyll aplikacionin</string>
+    <string name="collapse_window">Palos dritaren</string>
+    <string name="change_to_poup_view">Hap në dritare kërcyese</string>
+    <string name="select_contents">Zvarrit dhe lësho një paragraf ose një pamje çasti të një imazhi në dritaren tjetër.</string>
+    <string name="do_not_show_again">Mos e shfaq më</string>
+    <string name="help">Ndihmë</string>
+    <string name="recent_multi_window">Hap në Multi-window</string>
+    <string name="recent_pen_window">Hap në dritare kërcyese</string>
+    <string name="recent_delete">Mbyll aplikacionin</string>
+    <string name="disable_multi_window_popup_description">Multi-window do të paaftësohet dhe të gjitha aplikacionet e hapura në dritare kërcyese do të mbyllen.</string>
+    <string name="disable_multi_window_popup_easymode_description">Nuk mund të përdorësh Multi-window kur është aftësuar Regjimi i lehtë. Paaftëso Regjimin e lehtë dhe provo sërish.</string>
+    <string name="yes">Ok</string>
+    <string name="no">Anullo</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Dëgjimi me volum të lartë për një kohë të gjatë mund të dëmtojë veshët. Trokit mbi OK që ta lejosh volumin të ngrihet mbi nivelet e pranueshme.</string>
+    <string name="tw_cover_volume_warning_message">Dëgjimi me volum të lartë për një periudhë të gjatë kohe mund të dëmtojë veshët. Për ta rritur volumin, hap mbulesën.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Aftëso regjimin Avion</string>
+    <string name="global_actions_toggle_airplane_mode">Profili Fluturim</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Regjimi avion të lejon të paaftësosh thirrjet, mesazhimin dhe funksionet e rrjeteve celulare.</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Regjimi Fluturim do të çaktivizohet.</string>
+    <string name="multi_window_use_popup_title">Aftëso Multi-window</string>
+    <string name="multi_window_use_popup_msg">Multi-window dhe TalkBack nuk mund të aftësohen njëkohësisht. TalkBack do të paaftësohet.</string>
+    <string name="air_gesture_use_popup_title">Aftëso air gesture</string>
+    <string name="air_gesture_use_popup_msg">Gjestet ajrore dhe TalkBack nuk mund të aftësohen të dy njëherësh. TalkBack do të paaftësohet.</string>
+    <string name="air_view_use_popup_title">Aftëso pamjen ajrore</string>
+    <string name="air_view_use_popup_msg">Pamja ajrore dhe opsionet e mëposhtme nuk mund të aftësohen të dyja. Opsionet e mëposhtme do të paaftësohen.</string>
+    <string name="car_mode_enable_use_popup_title">Aftëso Regjimin makinë</string>
+    <string name="car_mode_use_popup_msg">Regjimi makinë dhe TalkBack nuk mund të aftësohen njëkohësisht. TalkBack do të paaftësohet.</string>
+    <string name="smart_pause_use_popup_title">Aftëso pauzën inteligjente</string>
+    <string name="smart_pause_use_popup_msg">Pauza inteligjente dhe TalkBack nuk mund të aftësohen të dy njëherësh. TalkBack do të paaftësohet.</string>
+    <string name="smart_scroll_use_popup_title">Aftëso lundrimin inteligjent</string>
+    <string name="smart_scroll_use_popup_msg">Lundrimi inteligjent dhe TalkBack nuk mund të aftësohen të dy njëherësh. TalkBack do të paaftësohet.</string>
+    <string name="smart_stay_use_popup_title">Aftëso ndriçimin inteligjent</string>
+    <string name="smart_stay_use_popup_msg">Ndriçimi inteligjent dhe TalkBack nuk mund të aftësohen të dy njëherësh. TalkBack do të paaftësohet.</string>
+    <string name="toolbox_use_popup_title">Aftëso Kutinë e veglave</string>
+    <string name="toolbox_use_popup_msg">Kutia e veglave dhe TalkBack nuk mund të aftësohen njëkohësisht. TalkBack do të paaftësohet.</string>
+    <string name="sidekey_use_popup_title">Aftëso Panelin anësor të tasteve</string>
+    <string name="sidekey_use_popup_msg">Paneli anësor i tasteve dhe TalkBack nuk mund të aftësohen njëkohësisht. TalkBack do të paaftësohet.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Lajm</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">Tasti së fundi</string>
+    <string name="recent_menukey_press_description_vzw">Tasti i menysë është zëvendësuar nga tasti së fundi, që ti të mund të këmbehesh lehtë midis aplikacioneve që ke përdorur së fundi. Trokit mbi Ndihmë për më shumë informacion.</string>
+    <string name="recent_menukey_press_description_no_help">Tasti i menysë u zëvendësua nga tasti së fundi që ti të mund të këmbehesh lehtë midis aplikacioneve që ke përdorur së fundi.</string>
+    <string name="recent_menukey_press_description_att">Tasti i menysë u zëvendësua nga tasti së fundi. Kur të jesh në një aplikacion, shtyp dhe mbaj tastin së fundi për të parë opsionet e menysë.</string>
+    <string name="recent_help_dialog_title_for_split_view">Funksionalitete të reja Multi-window</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Për të hapur aplikacione në pamjen me ekran të ndarë, trokit mbi %s në shiritin e titullit të dritares së aplikacionit. Kjo ikonë do të tregohet kur aplikacioni e mbështet pamjen me ekran të ndarë.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Për të hapur aplikacione në pamjen me ekran të ndarë, trokit mbi ikonën e ekranit të ndarë në shiritin e titullit të dritares së aplikacionit. Kjo ikonë do të tregohet kur aplikacioni e mbështet pamjen me ekran të ndarë.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Trokit dhe mbaj dritaren e një aplikacioni për ta hapur aplikacionin si dritare kërcyese. Për të kaluar nga pamja kërcyese në pamjen me ekran të ndarë, zvarrite dritaren kërcyese të aplikacionit në krye ose në fund të ekranit.</string>
+    <string name="recent_menukey_help_button">Ndihm</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="qs_edit_settings_title">Paneli i njoftimeve</string>
+    <string name="qs_edit_settings_available_button">Butonat në dispozicion</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">"Vendos se cilët butona të cilësimit të shpejtë do të shfaqen në krye të panelit të njoftimeve. Trokit dhe mbaj, pastaj zvarrit butonat për t'i shtuar, fshehur ose ri-renditur."</string>
+    <string name="notification_panel_unable_remove_minimum">Nuk mund ta largoj butonin. Është arritur numri minimal i butonave (%d).</string>
+    <string name="qs_edit_setting_edit_button">Radhit përsëri</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Regjimi Avion të lejon të fikësh funksionet e thirrjes, mesazhimit dhe të dhënave të rrjetit. Do të fiken edhe funksione të lidhshmërisë, të tilla si Wi-Fi dhe Bluetooth. Për të përdorur Wi-Fi dhe Bluetooth, ndizi që nga Cilësimet ose në panelin e njoftimeve.</string>
+    <string name="pickup_tutorial_title">Provo sinjalizimin inteligjent</string>
+    <string name="put_your_phone">Pasi ta ulësh pajisjen, ekrani do të fiket.</string>
+    <string name="phone_detect">Ta zëmë se ke thirrje ose mesazhe të humbura. Lëre pajisjen mbi tryezë, pastaj ngrije sërish, kur ekrani të jetë fikur.</string>
+    <string name="pick_up_your_phone">Ngri lart pajisjen</string>
+    <string name="tutorial_complete">Programi udhëzues u krye.</string>
+    <string name="share_via">Ndaj përmes</string>
+    <string name="airmsg_warning_alert_check">Mos e shfaq më</string>
+    <string name="airmsg_check_data_title_WLAN">Lidhu me WLAN</string>
+    <string name="airmsg_check_data_title_Mobile">Lidhu me rrjete celulare</string>
+    <string name="cooling_title">Mbinxehja e pajisjes</string>
+    <string name="cooling_body">"Pajisja jote është duke u mbinxehur. Do të merren disa masa për ta ftohur.
+
+Ende mund ta përdorësh pajisjen, por
+- ekrani mund të errësohet pak.
+- pajisja mund të ngadalësohet.
+- ngarkimi mund të vihet në pauzë.
+
+Po ta mbyllësh aplikacionin e tanishëm, pajisja mund të fillojë të ftohet.
+
+Pasi të jetë ftohur pajisja, rendimenti do të normalizohet automatikisht."</string>
+    <string name="cooling_noti_text">Trokit këtu për të parë hollësi.</string>
+    <string name="cooling_popup_name">Njoftim</string>
+    <string name="cooling_noti_title">Mbinxehja e pajisjes</string>
+    <string name="btn_text_no">Anulo</string>
+    <string name="device_overheating">Mbinxehja e pajisjes</string>
+    <string name="colling_noti_text_2">Nuk mund të hap aplikacione. Mund të përdorësh vetëm aplikacionet Telefoni dhe Kontaktet.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Trokit këtu për të mësuar më shumë.</string>
+    <string name="cooling_popup_name_VZW">Njoftim</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Anulo</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Paaftëso Regj. e sigurt</string>
+    <string name="safe_mode_popup_body_global">Për të paaftësuar Regjimin e sigurt, pajisja jote do të riniset. Pastaj të gjitha aplikacionet e tua do të jenë në dispozicion.</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Regj. i sigurt u aftësua</string>
+    <string name="safe_mode_noti_body_global">Trokit këtu për të paaftësuar Regjimin e sigurt.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Anulo</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Për të ndryshuar regjimin zanor, cilësoje regjimin Ndërprerje si Përparësi ose Të gjitha.</string>
+    <string name="accessibility_driving_mode">Për të aftësuar Regjimin pa duar, aftëso së paku një funksion të ndërlidhur.</string>
+    <string name="qs_vibrate_on_in_priority">"Dridhje
+(Përparësi)"</string>
+    <string name="qs_sound_on_in_priority">"Tingulli
+(Përparësia)"</string>
+    <string name="qs_silent_popup_title">Regjimi i tingullit</string>
+    <string name="qs_silent_popup_sound">Tingulli</string>
+    <string name="qs_silent_popup_vibrate">Me dridhje</string>
+    <string name="qs_rotate_popup_title">Rrotullimi i ekranit</string>
+    <string name="qs_rotate_popup_all">Gjithë</string>
+    <string name="qs_torch_popup_title">Drita</string>
+    <string name="qs_torch_popup_brightness">Ndriçimi</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Asnjë</string>
+    <string name="disable_multi_window_dialog_title">Paaftëso Multi-window</string>
+    <string name="disable_multi_window_dialog_text">Multi-window do të paaftësohet dhe të gjitha aplikacionet e hapura në dritare kërcyese do të mbyllen.</string>
+    <string name="AirplaneNoti_title">Regjimi Avion u aftësua</string>
+    <string name="AirplaneNoti_text">Paaftëso</string>
+    <string name="quickpanel_interruption_always_interrupt">"Gjithnjë
+ndërprit"</string>
+    <string name="quickpanel_interruption_priority_only">"Vetëm
+përparësi"</string>
+    <string name="tw_sound_priority_desciption">Tingulli për ndërprerjet me përparësi</string>
+    <string name="tw_vibrate_priority_desciption">Dridhje për ndërprerjet me përparësi</string>
+    <string name="tw_mute_priority_desciption">Pa ndërprerje (as alarmet)</string>
+    <string name="tw_zen_off_interruptions">Kur të marrësh thirrje dhe njoftime</string>
+    <string name="tw_interruption_level_priority">Vetëm me përparësi</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Lejo vetëm ndërprerjet me përparësi</string>
+    <string name="tw_interruption_level_all_vzw">Gjithnjë ndërprit</string>
+    <string name="tw_mute_priority_toast_description">"Pa ndërprerje
+(as alarmet)"</string>
+    <string name="dnd_noti_title">Regj. Mos shqetëso u aftësua</string>
+    <string name="dnd_noti_message">Alarmet u heshtuan</string>
+    <string name="dnd_noti_action_disable">Paaftëso</string>
+    <string name="torch_light_notification_title">Drita ndezur</string>
+    <string name="torch_light_notification_message">Fik Dritën</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Regjimi kufizues i rrjetit do të Çaktivizohet</string>
+    <string name="recent_help_dialog_title_for_popup_view">Përdorimi i pamjes multi-window</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Për të hapur app-e në pamjen me ekran të ndarë, trokit mbi %s në shiritin e titullit të dritares së app-it. Kjo ikonë do të tregohet kur app-i e mbështet pamjen me ekran të ndarë.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Për të hapur app-e në pamjen me ekran të ndarë, trokit mbi ikonën e ekranit të ndarë në shiritin e titullit të dritares së app-it. Kjo ikonë do të tregohet kur app-i e mbështet pamjen me ekran të ndarë.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Mund edhe të shtypësh dhe të mbash tastin Së fundi nga çdo ekran për të hapur app-e në pamjen me ekran të ndarë.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Shih një app në pamjen kërcyese duke rrëshqitur poshtë diagonalisht nga cilido cep në krye të ekranit kur app-i është i hapur dhe tregohet në ekran.</string>
+    <string name="wallpaper_crop_button_done">Kryer</string>
+    <string name="accessibility_desc_notification_panel">Paneli i njoftimeve</string>
+</resources>

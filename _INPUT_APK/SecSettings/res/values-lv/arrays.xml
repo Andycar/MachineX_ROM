@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>Mazs</item>
+        <item>Parasts</item>
+        <item>Liels</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Nav</item>
+        <item>Pulsācijas efekts</item>
+        <item>Gaismas efekts</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Izslēgt</item>
+        <item>1 stunda</item>
+        <item>2 stundas</item>
+        <item>3 stundas</item>
+        <item>4 stundas</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Āzija</item>
+        <item>Austrālija</item>
+        <item>Klusais okeāns</item>
+        <item>Visas</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>2 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>30 minūtes</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>3 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>15 minūtes</item>
+        <item>30 minūtes</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nekad</item>
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>2 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>30 minūtes</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Uzreiz, izmantojot ieslēgšanas/izslēgšanas taustiņu vai kad iestājas ekrāna taimauts</item>
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>3 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>15 minūtes</item>
+        <item>30 minūtes</item>
+        <item>1 stunda</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Tūlīt</item>
+        <item>5 sekundes</item>
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>2 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>30 minūtes</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Sīks</item>
+        <item>Mazs</item>
+        <item>Parasts</item>
+        <item>Liels</item>
+        <item>Milzīgs</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Ļoti lēns</item>
+        <item>Lēns</item>
+        <item>Parasts</item>
+        <item>Ātrs</item>
+        <item>Nedaudz ātrāks</item>
+        <item>Daudz ātrāks</item>
+        <item>Ļoti ātrs</item>
+        <item>Ārkārtīgi ātrs</item>
+        <item>Ātrākais</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Ļoti zems</item>
+        <item>Zema</item>
+        <item>Parasts</item>
+        <item>Augsta</item>
+        <item>Ļoti augsts</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skenē…</item>
+        <item>Savieno…</item>
+        <item>Autentificē…</item>
+        <item>Iegūst IP adresi…</item>
+        <item>Savienots</item>
+        <item>Apturēts</item>
+        <item>Atvieno…</item>
+        <item>Atvienots</item>
+        <item>Neveiksmīgi</item>
+        <item>Bloķēta</item>
+        <item>Pārbauda jūsu interneta savienojuma kvalitāti…</item>
+        <item>Savienots</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skenē…</item>
+        <item>Veido savienojumu ar %s…</item>
+        <item>Autentificē ar %s…</item>
+        <item>Iegūst IP adresi no %s…</item>
+        <item>Savienojums ar %1$s izveidots.</item>
+        <item>Apturēts</item>
+        <item>Atvieno %s</item>
+        <item>Atvienots</item>
+        <item>Neveiksmīgi</item>
+        <item>Bloķēta</item>
+        <item>Pārbauda jūsu interneta savienojuma kvalitāti…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Atvērt</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Nospiediet pogu.</item>
+        <item>Vienādranga ierīces PIN kods</item>
+        <item>Šīs ierīces PIN kods</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Savienots</item>
+        <item>Esat ielūgts.</item>
+        <item>Savienoj. neizdevās</item>
+        <item>Pieskarieties šeit, lai izveidotu savienojumu.</item>
+        <item>Ārpus robežas.</item>
+        <item>Izveidots savien. ar citu ierīci</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Bez taimauta</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>20 minūtes</item>
+        <item>30 minūtes</item>
+        <item>60 minūtes</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Visas ierīces</item>
+        <item>Tikai atļautās ierīces</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Automātiski</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Standarta</item>
+        <item>Augsta</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 stundas</item>
+        <item>12 stundas</item>
+        <item>24 stundas</item>
+        <item>Bez laika ierobežojuma</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minūtes</item>
+        <item>5 minūtes</item>
+        <item>1 stunda</item>
+        <item>Bez taimauta</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 minūtes</item>
+        <item>5 minūtes</item>
+        <item>1 stunda</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Vājš</item>
+        <item>Vidējs</item>
+        <item>Labs</item>
+        <item>Spēcīgs</item>
+        <item>Ļoti spēcīgs</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Vienmēr</item>
+        <item>Tikai, kad pievienots</item>
+        <item>Nekad</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Vienmēr</item>
+        <item>Tikai, kad pievienots</item>
+        <item>Nekad</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Pēdējās 30 dienas</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Alfabētiskā secībā</item>
+        <item>Signāla stiprums</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automātiski</item>
+        <item>Tikai 5 GHz</item>
+        <item>Tikai 2.4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Automātiski</item>
+        <item>Izmantot 5 GHz joslas platumu</item>
+        <item>Izmant. 2,4 GHz joslas platumu</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Ļoti spēcīgs</item>
+        <item>Spēcīgs</item>
+        <item>Vidējs</item>
+        <item>Visas</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Lietošanas laiks</item>
+        <item>Last time used</item>
+        <item>Programmas nosaukums</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Nav</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nav</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Izslēgt</item>
+        <item>Nospiediet pogu.</item>
+        <item>Piekļuves punkta PIN kods</item>
+        <item>Šīs ierīces PIN kods</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisks</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nav</item>
+        <item>Manuāli</item>
+        <item>Starpniekserv. aut. konf.</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Parasts</item>
+        <item>Centrs</item>
+        <item>Mājas</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>Šis ir vispārīgs Wi-Fi savienojuma iestatījums.</item>
+        <item>Ja atrodaties zonā ar daudz Wi-Fi tīkliem, Wi-Fi bieži atjaunos savienojumu, lai uzlabotu signāla stiprumu.</item>
+        <item>Ja atrodaties zonā ar nedaudz Wi-Fi tīkliem, Wi-Fi savienojums tiek uzturēts pēc iespējas ilgāk.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nav</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP vai CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Nav norādīts</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Nav</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Iekšējā ierīces krātuve</item>
+        <item>Izņemama SD karte</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Atļauts</item>
+        <item>Ignored</item>
+        <item>Jautāt vienmēr</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Atrašanās vieta</item>
+        <item>Privāti</item>
+        <item>Ziņas</item>
+        <item>Multivide</item>
+        <item>Ierīce</item>
+        <item>Automātiska palaišana</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Piekļuve aptuvenai atrašanās vietai</item>
+        <item>Piekļuve precīzai atrašanās vietai</item>
+        <item>GPS</item>
+        <item>Vibrēt</item>
+        <item>Lasīt kontaktus</item>
+        <item>Kontaktu pārvaldība</item>
+        <item>Lasīt zvanu žurnālu</item>
+        <item>Rakstīt zvanu žurnālu</item>
+        <item>Lasīt kalendāru</item>
+        <item>Kalendāra pārvaldība</item>
+        <item>Wi-Fi tīklu meklēšana</item>
+        <item>Paziņojums</item>
+        <item>Meklēt šūnas</item>
+        <item>Tālruņa zvanu veikšana</item>
+        <item>Īsziņu lasīšana</item>
+        <item>Īsziņu rakstīšana</item>
+        <item>Īsziņu saņemšana</item>
+        <item>Ārkārtas situācijas īsziņu saņemšana</item>
+        <item>Multiziņu saņemšana</item>
+        <item>WAP push ziņu saņemšana</item>
+        <item>Īsziņu sūtīšana</item>
+        <item>SIM kartē esošo īsziņu lasīšana</item>
+        <item>Īsziņu rakstīšana SIM kartē</item>
+        <item>Iestatījumu maiņa</item>
+        <item>Programmu interfeisa pārklāšana</item>
+        <item>Piekļuves paziņojumi</item>
+        <item>Kamera</item>
+        <item>Ierakstīt skaņu</item>
+        <item>Audio failu atskaņošana</item>
+        <item>Starpliktuves datu lasīšana</item>
+        <item>Starpliktuves datu pārvaldība</item>
+        <item>Multivides vadīšana</item>
+        <item>Audio fokusa vadīšana</item>
+        <item>Kopējā skaļuma līmeņa pielāgošana</item>
+        <item>Sarunas skaļuma līmeņa regulēšana</item>
+        <item>Pielāgot zvana signāla skaļumu</item>
+        <item>Multivides skaļuma līmeņa pielāgošana</item>
+        <item>Signāla skaļuma līmeņa pielāgošana</item>
+        <item>Pielāgot signāla skaļumu</item>
+        <item>Bluetooth ierīcēs atskaņotās skaņas skaļuma līmeņa regulēšana</item>
+        <item>Ieslēgta ekrāna paturēšana</item>
+        <item>Atrašanās vietas informācijas pārraudzība</item>
+        <item>Precīzas atrašanās vietas informācijas pārraudzība</item>
+        <item>Ierīces lietojuma statistikas lasīšana</item>
+        <item>Mikrofona ieslēgšana un izslēgšana</item>
+        <item>Multivides tveršana</item>
+        <item>Multivides tveršana</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>Sūtīt multivides ziņas</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Automātiska palaišana</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Atrašanās vieta</item>
+        <item>Atrašanās vieta</item>
+        <item>Atrašanās vieta</item>
+        <item>Vibrēt</item>
+        <item>Lasīt kontaktus</item>
+        <item>Kontaktu pārvaldība</item>
+        <item>Lasīt zvanu žurnālu</item>
+        <item>Rakstīt zvanu žurnālu</item>
+        <item>Lasīt kalendāru</item>
+        <item>Kalendāra pārvaldība</item>
+        <item>Atrašanās vieta</item>
+        <item>Paziņojumu rādīšana</item>
+        <item>Atrašanās vieta</item>
+        <item>Tālruņa zvanu veikšana</item>
+        <item>Īsziņu lasīšana</item>
+        <item>Īsziņu rakstīšana</item>
+        <item>Īsziņu saņemšana</item>
+        <item>Ārkārtas situācijas īsziņu saņemšana</item>
+        <item>Multiziņu saņemšana</item>
+        <item>WAP push ziņu saņemšana</item>
+        <item>Īsziņu sūtīšana</item>
+        <item>SIM kartē esošo īsziņu lasīšana</item>
+        <item>Īsziņu rakstīšana SIM kartē</item>
+        <item>Iestatījumu maiņa</item>
+        <item>Programmu interfeisa pārklāšana</item>
+        <item>Piekļuves paziņojumi</item>
+        <item>Kamera</item>
+        <item>Ierakstīt skaņu</item>
+        <item>Audio failu atskaņošana</item>
+        <item>Starpliktuves datu lasīšana</item>
+        <item>Starpliktuves datu pārvaldība</item>
+        <item>Multivides vadīšana</item>
+        <item>Audio fokusa vadīšana</item>
+        <item>Kopējā skaļuma līmeņa pielāgošana</item>
+        <item>Sarunas skaļuma līmeņa regulēšana</item>
+        <item>Pielāgot zvana signāla skaļumu</item>
+        <item>Multivides skaļuma līmeņa pielāgošana</item>
+        <item>Signāla skaļuma līmeņa pielāgošana</item>
+        <item>Pielāgot signāla skaļumu</item>
+        <item>Bluetooth ierīcēs atskaņotās skaņas skaļuma līmeņa regulēšana</item>
+        <item>Ieslēgta ekrāna paturēšana</item>
+        <item>Atrašanās vieta</item>
+        <item>Atrašanās vieta</item>
+        <item>Ierīces lietojuma statistikas lasīšana</item>
+        <item>Mikrofona ieslēgšana un izslēgšana</item>
+        <item>Multivides tveršana</item>
+        <item>Multivides tveršana</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>Sūtīt multivides ziņas</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>Automātiska palaišana</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>Dzēst kontaktus</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Īsi (0.5 sekundes)</item>
+        <item>Vidēji (1 sekunde)</item>
+        <item>Ilgi (1.5 sekundes)</item>
+        <item>Pielāgots</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Īss</item>
+        <item>Vidējs</item>
+        <item>Garš</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Noklusējums</item>
+        <item>Sans Serif</item>
+        <item>Sans Serif sablīvēti</item>
+        <item>Sans serif monospace</item>
+        <item>Serifs</item>
+        <item>Serif monospace</item>
+        <item>Parasts</item>
+        <item>Kursīvs</item>
+        <item>Kapiteļi</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Ļoti mazs</item>
+        <item>Mazs</item>
+        <item>Parasts</item>
+        <item>Liels</item>
+        <item>Ļoti liels</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Noklusējums</item>
+        <item>Nav</item>
+        <item>Kontūra</item>
+        <item>Krītoša ēna</item>
+        <item>Pacelta</item>
+        <item>Pazemināta</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Noklusējums</item>
+        <item>Balts uz melna</item>
+        <item>Melns uz balta</item>
+        <item>Dzelt. uz melna</item>
+        <item>Dzelt. uz zila</item>
+        <item>Pielāgots</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB katram žurnāla buferim</item>
+        <item>256 KB katram žurnāla buferim</item>
+        <item>1 MB katram žurnāla buferim</item>
+        <item>4 MB katram žurnāla buferim</item>
+        <item>16 MB katram žurnāla buferim</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nekad nepārbaudīt</item>
+        <item>Meklēt tikai DRM saturu</item>
+        <item>Pārbaudīt vienmēr</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nekad neizmantot HDCP pārbaudi</item>
+        <item>HDCP pārbaudi izmantot tikai DRM saturam</item>
+        <item>Vienmēr izmantot HDCP pārbaudi</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animācija ir izslēgta.</item>
+        <item>Animācijas mērogs 0.5x</item>
+        <item>Animācijas mērogs 1x</item>
+        <item>Animācijas mērogs 1.5x</item>
+        <item>Animācijas mērogs 2x</item>
+        <item>Animācijas mērogs 5x</item>
+        <item>Animācijas mērogs 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animācija ir izslēgta.</item>
+        <item>Animācijas mērogs 0.5x</item>
+        <item>Animācijas mērogs 1x</item>
+        <item>Animācijas mērogs 1.5x</item>
+        <item>Animācijas mērogs 2x</item>
+        <item>Animācijas mērogs 5x</item>
+        <item>Animācijas mērogs 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animācija ir izslēgta.</item>
+        <item>Animācijas mērogs 0.5x</item>
+        <item>Animācijas mērogs 1x</item>
+        <item>Animācijas mērogs 1.5x</item>
+        <item>Animācijas mērogs 2x</item>
+        <item>Animācijas mērogs 5x</item>
+        <item>Animācijas mērogs 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nav</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nav</item>
+        <item>Logcat</item>
+        <item>Systrace (attēli)</item>
+        <item>glGetError zvanu kopa</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Izslēgt</item>
+        <item>Iezīmēt taisnstūrim neatbilstošu klipu virsmu zilā krāsā</item>
+        <item>Iezīmēt pārbaudītās zīmēšanas komandas zaļā krāsā</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Slēpt</item>
+        <item>Rādīt ekrānā kā joslas</item>
+        <item>Rādīt adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Izslēgt</item>
+        <item>Rādīt pārsnieguma jomas</item>
+        <item>Rādīt laukumus personām ar deiteranomāliju</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standarta ierobežojums</item>
+        <item>Fonā nenotiek neviens process</item>
+        <item>Ne vairāk kā 1 process</item>
+        <item>Ne vairāk kā 2 procesi</item>
+        <item>Ne vairāk kā 3 procesi</item>
+        <item>Ne vairāk kā 4 procesi</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN ar iepriekš kopīgotām atslēgām</item>
+        <item>L2TP/IPSec VPN ar sertifikātiem</item>
+        <item>IPSec VPN ar iepriekš kopīgotām atslēgām un XAuth autentifikāciju</item>
+        <item>IPSec VPN ar sertifikātiem un XAuth autentifikāciju</item>
+        <item>IPSec VPN ar sertifikātiem un hibrīda autentifikāciju</item>
+        <item>IPSec VPN ar IKEv2 un iepriekš kopīgotas atslēgas tipa autentifikāciju</item>
+        <item>IPSec VPN ar IKEv2 un sertifikāta tipa autentifikāciju</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Atvienots</item>
+        <item>Notiek inicializēšana…</item>
+        <item>Savieno…</item>
+        <item>Savienots</item>
+        <item>Taimauts</item>
+        <item>Neveiksmīgi</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Jautāt</item>
+        <item>Nekad neļaut</item>
+        <item>Vienmēr atļaut</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Parasts</item>
+        <item>Vidējs</item>
+        <item>Zems</item>
+        <item>kritiski zems</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Izslēgt</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Parasta</item>
+        <item>Vidējs</item>
+        <item>Zems</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Pastāvīgs</item>
+        <item>Galvenā aktivitāte</item>
+        <item>Svarīgi (priekšplāns)</item>
+        <item>Svarīgi (fons)</item>
+        <item>Backup</item>
+        <item>Liela noslodze</item>
+        <item>Pakalpojums (darbojas)</item>
+        <item>Pakalpojums (restartējas)</item>
+        <item>Uztvērējs</item>
+        <item>Home</item>
+        <item>Pēdējā darbība</item>
+        <item>Kešatmiņā (darbība)</item>
+        <item>Kešatmiņā (darbības klients)</item>
+        <item>Kešatmiņā (tukša)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Ierīce</item>
+        <item>SD karte</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Vienmēr pieņemt</item>
+        <item>Jautāt vienmēr</item>
+        <item>Vienmēr atteikt</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Video</item>
+        <item>Fotoattēli</item>
+        <item>Mūzika</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Automātiski</item>
+        <item>Manuāli</item>
+        <item>Jautāt vienmēr</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Vienmēr izslēgts</item>
+        <item>3 sekundes</item>
+        <item>5 sekundes</item>
+        <item>10 sekundes</item>
+        <item>15 sekundes</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Nav</item>
+        <item>Visi kontakti</item>
+        <item>Izlases</item>
+        <item>Pielāgot</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>Nav</item>
+        <item>Visi kontakti</item>
+        <item>Izlases</item>
+        <item>Grupa</item>
+        <item>Pielāgot</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Augsta</item>
+        <item>Vidējs</item>
+        <item>Zema</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Pašreizējais tīkls</item>
+        <item>Vienmēr jautāt</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mājas</item>
+        <item>Birojs</item>
+        <item>Sirds</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Zvans</item>
+        <item>Īsziņa</item>
+        <item>MMS</item>
+        <item>Internets</item>
+        <item>Mājas</item>
+        <item>Birojs</item>
+        <item>Sirds</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Aizstāt īsceļu</item>
+        <item>Atiestatiet pielāgoto taustiņu</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Skaņa</item>
+        <item>Vibrēt</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>2 minūtes</item>
+        <item>10 minūtes</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Augsts</item>
+        <item>Parasts</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 minūtes</item>
+        <item>5 minūtes</item>
+        <item>10 minūtes</item>
+        <item>30 minūtes</item>
+        <item>1 stunda</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 sekundes</item>
+        <item>30 sekundes</item>
+        <item>1 minūte</item>
+        <item>3 minūtes</item>
+        <item>5 minūtes</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Pieejamība</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Pieejamība</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Viss</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Vienu reizi</item>
+        <item>Ik pēc 10 minūtēm</item>
+        <item>Ik pēc 20 minūtēm</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>Reāllaiks</item>
+        <item>15 minūtes</item>
+        <item>30 minūtes</item>
+        <item>1 stunda</item>
+        <item>2 stundas</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Klasiskais</item>
+        <item>Pustonis</item>
+        <item>Metamorfēšana</item>
+        <item>Daudzkrāsains</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekundes</item>
+        <item>6 sekundes</item>
+        <item>Vienmēr izslēgts</item>
+        <item>Vienmēr ieslēgts</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Augšā</item>
+        <item>Vidū</item>
+        <item>Apakšā</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Jaunumi</item>
+        <item>Akcijas</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Jaunumi</item>
+        <item>Akcijas</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Lēns</item>
+        <item>Parasts</item>
+        <item>Ātrs</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Nav</item>
+        <item>Ik pēc 30 minūtēm</item>
+        <item>Ik pēc 1 stundas</item>
+        <item>Ik pēc 2 stundām</item>
+        <item>Ik pēc 4 stundām</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Austiņas</item>
+        <item>Dators</item>
+        <item>Tālrunis</item>
+        <item>HID (tastatūra, pele utt.)</item>
+        <item>Visas ierīces</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Stereo</item>
+        <item>Ieskaujošā</item>
+    </string-array>
+</resources>

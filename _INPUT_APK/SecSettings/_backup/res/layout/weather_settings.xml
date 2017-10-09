@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_menu_header" android:selectable="false" android:key="infotext" />
+    <Preference android:persistent="false" android:layout="@layout/preference_menu_weather" android:title="@string/use_current_location" android:key="currentlocation" android:fragment="com.android.settings.CurrentLocationFragment" />
+    <ListPreference android:persistent="false" android:layout="@layout/preference_menu_weather" android:title="@string/menu_settings_unit" android:key="unit" />
+    <ListPreference android:persistent="false" android:layout="@layout/preference_menu_weather" android:title="@string/menu_settings_update" android:key="autorefresh" />
+</PreferenceScreen>

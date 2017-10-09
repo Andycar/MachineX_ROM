@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/side_motion_side_mirror_title" android:key="category_side_mirror_motion" />
+    <SwitchPreferenceScreen android:title="@string/side_motion_one_hand_operation_title" android:key="one_hand_operation" android:summary="@string/side_motion_one_hand_operation_summary" />
+    <SwitchPreferenceScreen android:title="@string/side_motion_peek_title" android:key="peek" android:summary="@string/side_motion_peek_summary" />
+</PreferenceScreen>

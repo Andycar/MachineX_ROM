@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/p2p_nodevice" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/p2p_nodevice_padding" android:layout_width="fill_parent" android:layout_height="138.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:textColor="#ff00849d" android:gravity="center" android:id="@id/no_device" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_p2p_no_device_found" />
+</LinearLayout>

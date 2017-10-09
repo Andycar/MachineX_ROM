@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.SecGMSSmartLockCircleView android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/sec_keyguard_camera_circle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/trusted_lock_button" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_lock_icon_default" android:scaleType="center" />
+</com.android.keyguard.sec.SecGMSSmartLockCircleView>

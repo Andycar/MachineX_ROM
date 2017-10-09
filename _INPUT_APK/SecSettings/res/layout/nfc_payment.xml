@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="top" android:id="@id/nfc_payment_summary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="12.0dip" android:text="@string/nfc_payment_no_apps_samsung" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/nfc_payment_summary_image" android:visibility="gone" android:layout_width="288.0dip" android:layout_height="198.0dip" android:layout_marginTop="41.0dip" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/linear_interpolator" android:shareInterpolator="true" android:fillAfter="true" android:detachWallpaper="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate3d android:duration="@integer/anim3d_duration" android:fromDegrees="0.0" android:toDegrees="120.0" android:pivotX="0.0%" android:pivotY="0.0%" android:repeatCount="0" android:fromAlpha="1.0" android:toAlpha="0.25" android:pivotX_Multiplier="width" android:pivotY_Multiplier="width" android:pivotZ="0.0%" android:pivotZ_Multiplier="width" android:axis_x="0.0" android:axis_y="1.0" android:axis_z="0.0" android:isAbsolute="false" />
+    <translate3d android:duration="@integer/anim3d_duration" android:fromXDelta="75.0%" android:fromYDelta="0.0%" android:fromAlpha="1.0" android:toAlpha="0.25" android:isAbsolute="false" android:fromXDelta_Multiplier="width" android:fromYDelta_Multiplier="height" android:fromZDelta="-10.000002%" android:fromZDelta_Multiplier="width" />
+</set>

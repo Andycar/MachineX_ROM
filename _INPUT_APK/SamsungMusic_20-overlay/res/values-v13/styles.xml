@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayerActivity" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:actionBarStyle">@style/PlayerActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarItemBackground">@drawable/unbounded_ripple_light</item>
+    </style>
+</resources>

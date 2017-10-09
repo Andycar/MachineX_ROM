@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pickup_tutorial" android:background="@drawable/motion_pick_up_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/put_your_phone" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/smart_alert_popup_margin" android:layout_marginRight="@dimen/smart_alert_popup_margin" android:layout_marginBottom="48.0dip">
+        <TextView android:background="@drawable/help_popup_picker_bg_w_01" android:text="@string/put_your_phone" style="@style/TutorialPopupStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/phone_detect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/smart_alert_popup_margin" android:layout_marginRight="@dimen/smart_alert_popup_margin">
+        <TextView android:background="@drawable/help_popup_picker_bg_w_01" android:layout_marginTop="11.5dip" android:text="@string/phone_detect" style="@style/TutorialPopupStyle" />
+    </FrameLayout>
+</FrameLayout>

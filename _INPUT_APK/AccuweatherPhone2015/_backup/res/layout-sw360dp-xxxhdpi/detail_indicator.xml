@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/pageindicatorLayout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="19.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pageindicator01" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <View android:id="@id/pageindicator02" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator01" />
+    <View android:id="@id/pageindicator03" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator02" />
+    <View android:id="@id/pageindicator04" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator03" />
+    <View android:id="@id/pageindicator05" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator04" />
+    <View android:id="@id/pageindicator06" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator05" />
+    <View android:id="@id/pageindicator07" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator06" />
+    <View android:id="@id/pageindicator08" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator07" />
+    <View android:id="@id/pageindicator09" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator08" />
+    <View android:id="@id/pageindicator10" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator09" />
+    <ImageView android:id="@id/pageindicator11" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator10" />
+    <View android:id="@id/pageindicator12" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator11" />
+    <View android:id="@id/pageindicator13" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator12" />
+    <View android:id="@id/pageindicator14" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator13" />
+    <View android:id="@id/pageindicator15" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator14" />
+    <View android:id="@id/pageindicator16" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator15" />
+    <View android:id="@id/pageindicator17" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/pageindicator16" />
+</RelativeLayout>

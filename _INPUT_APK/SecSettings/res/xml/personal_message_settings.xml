@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/my_profile_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.UnclickablePreference android:title="@string/lock_screen_myprofile_widget_body" android:key="myprofile_desc" />
+    <PreferenceScreen android:title="@string/my_profile_edit" android:key="my_profile_edit" android:summary="@string/my_profile_summary">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.myprofile.MyProfileActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

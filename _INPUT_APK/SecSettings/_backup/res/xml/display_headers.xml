@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/setting_search">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
+    </header>
+    <header android:id="@id/header_display_screen" android:title="@string/menu_header_screen" />
+    <header android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/notification_settings" android:fragment="com.android.settings.notification.NotificationSettings" />
+    <header android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:title="@string/display_settings" android:fragment="com.android.settings.DisplaySettings" />
+    <header android:icon="@drawable/ic_settings_multi_window" android:id="@id/header_display_multi_window" android:title="@string/multi_window_title" android:summary="@string/menu_summary_multi_window" android:fragment="com.android.settings.MultiWindowSettings" />
+    <header android:icon="@drawable/ic_setting_grid_toolbox" android:id="@id/header_toolbox" android:title="@string/toolbox" android:fragment="com.android.settings.toolbox.ToolboxMenu" />
+    <header android:icon="@drawable/ic_settings_led" android:id="@id/led_indicator_settings" android:title="@string/led_indicator_settings" android:fragment="com.android.settings.LedIndicatorSettings" />
+    <header android:id="@id/header_display_others" android:title="@string/menu_header_others" />
+    <header android:icon="@drawable/ic_settings_lockscreen" android:id="@id/lock_screen_menu_settings" android:title="@string/lockscreen_wallpaper" android:fragment="com.android.settings.LockscreenMenuSettings" />
+    <header android:icon="@drawable/ic_setting_grid_wallpaper" android:id="@id/header_display_wallpaper" android:title="@string/wallpaper" android:fragment="com.android.settings.WallpaperSettings" />
+    <header android:icon="@drawable/ic_settings_screen_font" android:id="@id/header_display_font" android:title="@string/font" android:fragment="com.android.settings.FontMenu" />
+    <header android:icon="@drawable/ic_settings_notification_panel" android:id="@id/header_display_notification_panel" android:title="@string/notification_panel_title" android:fragment="com.android.settings.NotificationPanelMenu" />
+    <header android:icon="@drawable/ic_settings_theme" android:id="@id/theme_settings" android:title="@string/theme_settings">
+        <intent android:action="com.sec.android.intent.action.THEME_CHOOSER" />
+    </header>
+    <header android:icon="@drawable/ic_settings_notification_panel" android:id="@id/festival_effect_settings" android:title="@string/festival_effect_settings_title" android:fragment="com.android.settings.festivaleffect.FestivalEffectSettings" />
+    <header android:icon="@drawable/ic_settings_mode_change" android:id="@id/easy_mode_settings" android:title="@string/easy_mode" android:summary="@string/easy_mode_summary" android:fragment="com.android.settings.easymode.EasyMode" />
+    <header android:icon="@drawable/ic_settings_mode_change" android:id="@id/easy_mode_app_settings" android:title="@string/easy_mode" android:summary="@string/easy_mode_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.EasyModeApp" />
+    </header>
+    <header android:icon="@drawable/ic_settings_mode_change" android:id="@id/home_screen_mode_settings" android:title="@string/mode_change_title">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$EasyModeSettingsActivity" />
+    </header>
+    <header android:icon="@drawable/ic_settings_accessibility" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:summary="@string/accessibility_assurance_menu_summary" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/simcard_management" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.NetworkManagement" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/simcard_management_chn" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.sec.android.app.simcardmgr" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.simcardmgr.NetworkManagement" />
+    </header>
+    <header android:icon="@drawable/ic_settings_call_setting" android:id="@id/call_settings" android:title="@string/call_settings">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_blocking_mode" android:id="@id/dormant_mode" android:title="@string/dormant_mode" android:summary="@string/blocking_mode_menu_summary" android:fragment="com.android.settings.dormantmode.DormantmodeSettings" />
+    <header android:icon="@drawable/ic_settings_block" android:id="@id/block_settings" android:title="@string/block_settings_title" android:fragment="com.android.settings.BlockSettings" />
+</preference-headers>

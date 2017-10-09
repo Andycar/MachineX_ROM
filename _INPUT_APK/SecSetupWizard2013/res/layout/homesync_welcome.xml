@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout_spc" android:background="@drawable/setupwizard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/setup_wizard_logo_spc" android:layout_width="@dimen/homesync_logo_width" android:layout_height="@dimen/homesync_logo_height" android:src="@drawable/APKTOOL_DUMMY_25" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.55">
+            <ImageView android:id="@id/setup_wizard_logo_spc_1" android:layout_width="@dimen/homesync_setup_width" android:layout_height="@dimen/homesync_setup_height" android:src="@drawable/APKTOOL_DUMMY_1e" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            <TextView android:id="@id/language_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginRight="@dimen/edittext_side_margin" android:layout_marginBottom="4.0dip" android:text="@string/select_language" style="@style/small_title_area" />
+            <Spinner android:id="@id/language_spinner" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMY_c8" android:layout_marginLeft="@dimen/edittext_side_margin" android:layout_marginRight="@dimen/edittext_side_margin" style="@style/spinner_style" />
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:id="@id/strat_msg_scroll" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.45">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:gravity="left" android:id="@id/start_msg_spc" android:paddingBottom="@dimen/APKTOOL_DUMMY_cb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_start_msg" style="@style/sub_title_area_spc" />
+                <TextView android:gravity="left" android:paddingBottom="@dimen/APKTOOL_DUMMY_bd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_sync_easy_setup" style="@style/sub_title_area_spc" />
+                <TextView android:gravity="left" android:paddingRight="@dimen/APKTOOL_DUMMY_be" android:paddingBottom="@dimen/APKTOOL_DUMMY_bd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_sync_easy_setup_msg1" style="@style/description_area_spc" />
+                <TextView android:gravity="left" android:paddingRight="@dimen/APKTOOL_DUMMY_be" android:paddingBottom="@dimen/APKTOOL_DUMMY_bd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_sync_wifi_msg" style="@style/description_area_light_spc" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/APKTOOL_DUMMY_3e" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMY_c7">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/bottom_button_area_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/next_btn_area_spc" android:background="@drawable/APKTOOL_DUMMY_a" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/next_btn_text_spc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bottom_button_text_spc" />
+            <ImageView android:gravity="center" android:id="@id/next_btn_arrow_spc" android:paddingLeft="@dimen/next_arrow_paddingLeft" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMY_c7" android:src="@drawable/APKTOOL_DUMMY_b" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

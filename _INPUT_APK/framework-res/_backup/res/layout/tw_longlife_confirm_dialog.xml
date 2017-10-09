@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/textView1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_actions_toggle_longlife_mode_info_header" />
+        <RelativeLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/perm_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_text_dot" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="?textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/global_actions_toggle_longlife_mode_info_1" android:paddingStart="6.0dip" android:layout_toEndOf="@id/perm_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/perm_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_text_dot" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="?textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/global_actions_toggle_longlife_mode_info_2" android:paddingStart="6.0dip" android:layout_toEndOf="@id/perm_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/perm_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_text_dot" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="?textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/global_actions_toggle_longlife_mode_info_3" android:paddingStart="6.0dip" android:layout_toEndOf="@id/perm_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/perm_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_text_dot" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="?textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/global_actions_toggle_longlife_mode_info_4" android:paddingStart="6.0dip" android:layout_toEndOf="@id/perm_icon" />
+        </RelativeLayout>
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/textView1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_actions_toggle_longlife_mode_info_end" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/textView1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_actions_toggle_longlife_mode_info_end_2" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bottom_layout" android:paddingBottom="@dimen/two_factor_setup_btn_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/knox_two_factor_confirm_btn" android:text="@string/two_factor_setup" style="@style/two_factor_setup_btn" />
+    </LinearLayout>
+</LinearLayout>

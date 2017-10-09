@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.KeyguardSignatureView android:id="@id/keyguard_signature_view" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:layout_maxHeight="418.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/keyguard_signature_header_layout_margin" android:layout_marginRight="@dimen/keyguard_signature_header_layout_margin" android:layout_marginBottom="98.0dip">
+        <FrameLayout android:id="@id/keyguard_bouncer_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/signature_signview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="17.0dip" android:textColor="#fffafafa" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/signature_lockscreen_help_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#55000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.android.keyguard.sec.SecKeyguardBottomAreaView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sec_keyguard_bottom_area" />
+    </com.android.keyguard.sec.SecKeyguardBottomAreaView>
+</com.android.keyguard.sec.KeyguardSignatureView>

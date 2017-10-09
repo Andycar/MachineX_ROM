@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.MSimSignalClusterView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/vpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_vpn_ic" android:paddingEnd="6.0dip" />
+    <FrameLayout android:gravity="center" android:id="@id/nwbooster_trio" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/nwbooster_wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/nwbooster_mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/nwbooster_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/wifi_signal_spacer" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="4.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/new_mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sim_icon_chn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" />
+        <FrameLayout android:id="@id/separate_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/separate_mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/separate_mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:id="@id/sim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+            <FrameLayout android:id="@id/mobile_combo_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/mobile_focus_sub3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_dark_bg" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_signal_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_type_sub3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_roaming_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_rssi_type3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </FrameLayout>
+        <View android:id="@id/spacer" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+            <FrameLayout android:id="@id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/mobile_focus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_dark_bg" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_roaming" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_rssi_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/separate_mobile2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/separate_mobile_type2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/separate_mobile_inout2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <View android:id="@id/spacer" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+            <FrameLayout android:id="@id/mobile_combo_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/mobile_focus_sub2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_dark_bg" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_signal_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/mobile_type_sub2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_roaming_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mobile_rssi_type2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.MSimSignalClusterView>

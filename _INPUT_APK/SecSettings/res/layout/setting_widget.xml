@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/center_button" android:background="@drawable/setting_magazine_home_bg" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/app_label" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/settings_label_launcher" android:singleLine="true" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="10.0" />
+    <FrameLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/app_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="18.0dip" android:src="@drawable/mg_setting_w" />
+    </FrameLayout>
+</LinearLayout>

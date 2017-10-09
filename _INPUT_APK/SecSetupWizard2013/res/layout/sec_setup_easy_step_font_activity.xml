@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/easy_mode" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/font_size_easy_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_font_size_easy_gray" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:id="@id/setup_easy_step_font_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/easy_step_font_message" style="@style/description_area" />
+    </LinearLayout>
+    <ListView android:gravity="left" android:id="@id/setup_easy_step_font_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

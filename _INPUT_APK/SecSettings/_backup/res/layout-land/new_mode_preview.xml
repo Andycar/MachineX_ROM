@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/preview_image" android:background="@drawable/previewmode_img_h" android:layout_width="302.0dip" android:layout_height="270.0dip" android:layout_marginLeft="19.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="10.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="292.0dip" android:layout_height="fill_parent">
+            <ListView android:id="@id/mode_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/button_layout" android:visibility="gone" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/button_cancel" android:text="@string/cancel" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/button_ok" android:text="@string/message_Ok" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_fragment_desc_text_size" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?android:listPreferredItemPaddingStart" android:layout_marginTop="@dimen/preference_item_bottom_padding" android:layout_marginRight="?android:listPreferredItemPaddingEnd" android:layout_marginBottom="@dimen/preference_item_top_padding" />
+    </LinearLayout>
+</LinearLayout>

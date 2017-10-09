@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other_sound_settings" android:key="other_sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/sound_feedback_title" android:key="othersound_feedback" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/dial_pad_tones_title" android:key="dial_pad_tones" android:switchTextOn="" android:switchTextOff="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/screen_locking_sounds_title" android:key="screen_locking_sounds" android:switchTextOn="" android:switchTextOff="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/docking_sounds_title" android:key="docking_sounds" android:switchTextOn="" android:switchTextOff="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/touch_sounds_title" android:key="touch_sounds" android:switchTextOn="" android:switchTextOff="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/vibrate_on_touch_title" android:key="vibrate_on_touch" android:switchTextOn="" android:switchTextOff="" />
+    <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/dock_audio_media_title" android:key="dock_audio_media" />
+    <com.android.settings.notification.DropDownPreference android:persistent="false" android:title="@string/emergency_tone_title" android:key="emergency_tone" />
+    <PreferenceCategory android:title="@string/onehand_activate_samsung_keypad_title" android:key="othersound_samsung_keyboard" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/key_tap_sound" android:key="sip_feedback_sound" android:switchTextOn="" android:switchTextOff="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/key_tap_vibration" android:key="sip_feedback_vibration" android:switchTextOn="" android:switchTextOff="" />
+    <PreferenceCategory android:title="@string/samsung_applications" android:key="othersound_samsungapplications" />
+    <PreferenceScreen android:title="@string/call_settings" android:key="sound_call" android:summary="" />
+    <PreferenceScreen android:title="@string/message" android:key="sound_message" android:summary="" />
+    <PreferenceScreen android:title="@string/easy_mode_email" android:key="sound_email" android:summary="" />
+    <PreferenceScreen android:title="@string/finger_air_view_help_information_priview_splanner_title" android:key="sound_splanner" android:summary="" />
+</PreferenceScreen>

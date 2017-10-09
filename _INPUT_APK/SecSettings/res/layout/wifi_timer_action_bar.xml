@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/revert_menu_item" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:attr/actionBarStyle">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textSize="19.0sp" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/revert_menu_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wifi_cancel" style="?android:attr/actionButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/save_menu_item" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:attr/actionBarStyle">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textSize="19.0sp" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/save_menu_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/motion_tutorial_done_btn" style="?android:attr/actionButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

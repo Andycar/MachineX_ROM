@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/setting_search">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
+    </header>
+    <header android:id="@id/account_settings" android:title="@string/header_category_my_accounts" />
+    <header android:icon="@drawable/backup_assistant_icon" android:id="@id/bua_plus" android:title="@string/bua_plus_title">
+        <intent android:action="com.samsung.vmmhux.ACTION_VMMHUX_SETUPWIZARD" />
+    </header>
+    <header android:icon="@drawable/ic_settings_account" android:id="@id/header_general_account_and_backup" android:title="@string/account_settings" android:fragment="com.android.settings.accounts.AccountSettings" />
+    <header android:id="@id/backup_section" android:title="@string/header_category_backup_options" />
+    <header android:icon="@drawable/ic_settings_cloud" android:id="@id/scloud_settings" android:title="@string/scloud_settings" android:fragment="com.android.settings.cloud.CloudSettingsMainFragment" />
+    <header android:icon="@drawable/ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.settings.PrivacySettings" />
+    <header android:icon="@drawable/ic_settings_contents_backup" android:id="@id/homesync_backup_and_restore_settings" android:title="@string/homesync_backup_and_restore_title" android:fragment="com.android.settings.homesync.HomeSyncBackupAndRestoreSettings" />
+</preference-headers>

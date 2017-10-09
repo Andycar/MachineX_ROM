@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name" style="@style/wifi_item_label" />
+    <TextView android:id="@id/value" android:textAlignment="viewStart" style="@style/wifi_item_content" />
+</LinearLayout>

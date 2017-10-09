@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobility_and_cognitive_title" android:key="mother_mobility_and_cognitive_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/mobility_preference_title_K" android:key="mobility_preference_key">
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_assistant_menu" android:key="assistant_menu_preference" android:summary="@string/assistant_menu_summary">
+            <intent android:targetPackage="com.samsung.android.app.assistantmenu" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.app.assistantmenu.settings.AssistantMenu">
+                <extra android:name=":android:show_fragment" android:value="com.samsung.android.app.assistantmenu.settings.AssistantMenuPreferenceFragment" />
+            </intent>
+        </com.android.settings.SwitchPreferenceScreen>
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/motion2014_air_wake_up_title" android:key="air_wake_up" android:fragment="com.android.settings.accessibility.ToggleAirWakeUpPreferenceFragment" />
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/smart_scroll_title" android:key="smartscreen_scroll" android:fragment="com.android.settings.smartscreen.SmartScrollAdvancedSettings" />
+        <ListPreference android:persistent="false" android:entries="@array/long_press_timeout_selector_titles" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="old_select_long_press_timeout_preference" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/long_press_timeout_selector_values" />
+        <ListPreference android:persistent="false" android:entries="@array/long_press_timeout_titles_selector" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="select_long_press_timeout_preference" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/long_press_timeout_selector_items" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Recognition_preference_title_K" android:key="Recognition_preference_key">
+        <com.android.settings.SwitchPreferenceScreen android:title="@string/accessibility_access_control_title" android:key="access_control_key" android:fragment="com.android.settings.accessibility.ToggleAccessControlPreferenceFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

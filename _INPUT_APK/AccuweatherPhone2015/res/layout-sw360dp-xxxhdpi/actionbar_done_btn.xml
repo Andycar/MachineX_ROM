@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/topLayout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/done_tts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?android:attr/actionButtonStyle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/doneBtnImg" android:visibility="gone" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/tw_action_bar_icon_check_holo_dark" android:layout_marginStart="-6.0dip" />
+            <TextView android:textSize="19.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:gravity="center" android:id="@id/doneBtnTxt" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done_button" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="@color/col_75_000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="2.5" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

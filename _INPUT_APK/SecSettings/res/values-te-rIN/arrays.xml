@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_size_key">
+        <item>చిన్నది</item>
+        <item>సాధారణ</item>
+        <item>పెద్దది</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>ఏదీకాదు</item>
+        <item>అలల ప్రభావం</item>
+        <item>కాంతి ప్రభావం</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>ఆఫ్</item>
+        <item>1 గంట</item>
+        <item>2 గంటలు</item>
+        <item>3 గంటలు</item>
+        <item>4 గంటలు</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>అమోరికా</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>ఆసియ</item>
+        <item>ఆస్ట్రేలియా</item>
+        <item>పసిఫిక్</item>
+        <item>అన్ని</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>3 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>15 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>ఎప్పుడూ లేదు</item>
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>పవర్ కీతో తక్షణమే లేదా స్క్రీన్ సమయం ముగిసిన తర్వాత</item>
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>3 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>15 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>1 గంట</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>వెంటనే</item>
+        <item>5 సెకన్లు</item>
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>అత్యంత చిన్నది</item>
+        <item>చిన్నది</item>
+        <item>సాధారణ</item>
+        <item>పెద్దది</item>
+        <item>అత్యంత పెద్దది</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>చాలా నెమ్మది</item>
+        <item>నెమ్మదిగా</item>
+        <item>సాధారణ</item>
+        <item>వేగంగా</item>
+        <item>కొంత వేగంగా</item>
+        <item>మరింత వేగం</item>
+        <item>చాలా వేగం</item>
+        <item>చాలా వేగంగా</item>
+        <item>వేగవంతం</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>చాలా తక్కువ</item>
+        <item>తక్కువ</item>
+        <item>సాధారణ</item>
+        <item>ఎక్కువ</item>
+        <item>చాలా ఎక్కువ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>స్కానింగ్ చేస్తోంది…</item>
+        <item>కనెక్ట్ అవుతోంది…</item>
+        <item>వాస్తవాన్ని నిరూపిస్తూ…</item>
+        <item>IP చిరునామా సంపాదించేందుకు…</item>
+        <item>కనెక్ట్ చేయబడింది</item>
+        <item>ఆపివేయబడింది</item>
+        <item>డిస్కనెక్ట్ అవుతోంది…</item>
+        <item>డిస్కనెక్ట్ చేయబడింది</item>
+        <item>విఫలము</item>
+        <item>నిరోధించబడింది</item>
+        <item>మీ ఇంటర్నెట్ కనెక్షన్ యొక్క నాణ్యతని తనిఖీ చేస్తోంది…</item>
+        <item>కనెక్ట్ చేయబడింది</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>స్కానింగ్ చేస్తోంది…</item>
+        <item>%s కు కనెక్ట్ అవుతోంది…</item>
+        <item>%s తో అథేంటికేట్ అవుతోంది…</item>
+        <item>%s నుండి IP చిరునామా పొందుతోంది…</item>
+        <item>%1$s కు అనుసంధానింపబడింది.</item>
+        <item>ఆపివేయబడింది</item>
+        <item>%s నుండి డిస్కనెక్ట్ చేస్తోంది…</item>
+        <item>డిస్కనెక్ట్ చేయబడింది</item>
+        <item>విఫలము</item>
+        <item>నిరోధించబడింది</item>
+        <item>మీ ఇంటర్నెట్ కనెక్షన్ యొక్క నాణ్యతని తనిఖీ చేస్తోంది…</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>తెరుచు</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>పుష్ బటన్.</item>
+        <item>పీర్ పరికరం నుండి PIN</item>
+        <item>ఈ పరికరం నుండి PIN</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>కనెక్ట్ చేయబడింది</item>
+        <item>ఆహ్వానించారు.</item>
+        <item>కనెక్షన్ విఫలమైంది</item>
+        <item>అనుసంధానించడానికి ఇక్కడ నొక్కండి.</item>
+        <item>పరిధిలో లేదు.</item>
+        <item>మరొక పరికరంతో కనెక్టయింది</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>ఎప్పుడూ గడువు ముగియదు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>20 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>60 నిమిషాలు</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>మొత్తం పరికరాలు</item>
+        <item>అనుమతించబడిన పరికరాలు మాత్రమే</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>స్వీయ</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>స్టాండర్డ్</item>
+        <item>ఎక్కువ</item>
+    </string-array>
+    <string-array name="wifi_share_profile_access_timeout">
+        <item>6 గంటలు</item>
+        <item>12 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>సమయ పరిమితి లేదు</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>1 గంట</item>
+        <item>ఎప్పుడూ గడువు ముగియదు</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>1 గంట</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>బలహీనమైన</item>
+        <item>అందమైన</item>
+        <item>మంచి</item>
+        <item>బలమైన</item>
+        <item>చాలా బలమైన</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్లగ్ఇన్ ఉన్నప్పుడు మాత్రమే</item>
+        <item>ఎప్పుడూ లేదు</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్లగ్ఇన్ ఉన్నప్పుడు మాత్రమే</item>
+        <item>ఎప్పుడూ లేదు</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>గత 30 రోజులు</item>
+        <item>Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>ఆల్ఫాబేటికల్ క్రమం</item>
+        <item>సిగ్నల్ బలము</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>స్వయంచాలకం</item>
+        <item>5 GHz మాత్రమే</item>
+        <item>2.4 GHz మాత్రమే</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>స్వయంచాలకం</item>
+        <item>5 GHz బ్యాండ్‌విడ్త్ ఉపయో.</item>
+        <item>2.4 GHz బ్యాండ్‌విడ్త్ ఉపయో.</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>చాలా బలమైన</item>
+        <item>బలమైన</item>
+        <item>ఫెయిర్</item>
+        <item>అన్ని</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>వాడుక సమయం</item>
+        <item>Last time used</item>
+        <item>అప్లికే. పేరు</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ఏదీకాదు</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ఏదీకాదు</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>ఆఫ్</item>
+        <item>పుష్ బటన్.</item>
+        <item>యాక్సెస్ పాయింట్ నుండి PIN</item>
+        <item>ఈ పరికరం నుండి PIN</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>స్టాటిక్</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ఏదీకాదు</item>
+        <item>మాన్యువల్</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>సాధారణ</item>
+        <item>డౌన్‌టౌన్</item>
+        <item>హోమ్</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>ఇది సర్వసాధారణ Wi-Fi కనెక్షన్ సెట్టింగ్.</item>
+        <item>మీరు పలు Wi-Fi నెట్‌వర్క్‌లు గల ఒక ప్రాంతంలో ఉన్నప్పుడు, ఉత్తమ సిగ్నల్ బలం కోసం తరచూ Wi-Fi మళ్లీ మళ్లీ కనెక్ట్ చేయబడుతుంది.</item>
+        <item>మీరు పలు Wi-Fi నెట్‌వర్క్‌లు గల ఒక ప్రాంతంలో ఉన్నప్పుడు, Wi-Fi కనెక్షన్ సాధ్యమైనంత వరకు కొనసాగించబడుతుంది.</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ఏదీకాదు</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP లేదా CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>పేర్కొనబడలేదు</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ఏదీకాదు</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>అంతర్గత పరికరం నిల్వ</item>
+        <item>తొలగించే SD కార్డ్</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>అనుమతించింది.</item>
+        <item>Ignored</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>స్థానం</item>
+        <item>వ్యక్తిగతం</item>
+        <item>మెసేజింగ్</item>
+        <item>మీడియా</item>
+        <item>పరికరం</item>
+        <item>స్వయంచాలక అమలు</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>సమీప స్థానాన్ని ప్రాప్యత చేయి</item>
+        <item>ఖచ్చితమైన స్థానాన్ని ప్రాప్యత చేయి</item>
+        <item>GPS</item>
+        <item>వైబ్రేట్</item>
+        <item>పరిచయాలను చదవండి</item>
+        <item>పరిచయాలను నిర్వహించు</item>
+        <item>కాల్ లాగ్‌ను చదవండి</item>
+        <item>కాల్ లాగ్‌ను వ్రాయండి</item>
+        <item>క్యాలెండర్‌ని చదువు</item>
+        <item>క్యాలెండర్‌ను నిర్వహించు</item>
+        <item>Wi-Fi నెట్‌వర్క్‌ల కోసం స్కాన్ చేయి</item>
+        <item>నోటిఫికేషన్</item>
+        <item>సెల్‌లను స్కాన్‌ చేయి</item>
+        <item>ఫోన్ కాల్‌లు చేయి</item>
+        <item>టెక్స్ట్ సందేశాలను చదువు</item>
+        <item>టెక్స్ట్ సందేశాలను వ్రాయి</item>
+        <item>టెక్స్ట్ సందేశాలను స్వీకరించు</item>
+        <item>అత్యవసర టెక్స్ట్ సందేశాలను స్వీకరించు</item>
+        <item>మల్టీమీడియా సందేశాలను స్వీకరించు</item>
+        <item>WAP పుష్ సందేశాలను స్వీకరించు</item>
+        <item>టెక్స్ట్ సందేశాలను పంపు</item>
+        <item>SIM కార్డ్‌లో టెక్స్ట్ సందేశాలను చదువు</item>
+        <item>SIM కార్డ్‌కు టెక్స్ట్ సందేశాలను వ్రాయి</item>
+        <item>సెట్టింగ్‌లను సవరించు</item>
+        <item>అప్లికేషన్ ఇంటర్‌ఫేస్‌ను అతివ్యాప్తి చేయి</item>
+        <item>ప్రాప్తి నోటిఫికేషన్‌లు</item>
+        <item>కెమెరా</item>
+        <item>ఆడియో రికార్డ్ చేయి</item>
+        <item>ఆడియో ఫైల్‌లను ప్లే చేయి</item>
+        <item>క్లిప్‌బోర్డ్ డేటాను చదువు</item>
+        <item>క్లిప్‌బోర్డ్ డేటాను నిర్వహించు</item>
+        <item>మీడియాను నియంత్రించు</item>
+        <item>ఆడియో కేంద్రీకరణను నియంత్రించు</item>
+        <item>మాస్టర్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>ఇన్-కాల్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>రింగ్‌టోన్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>మీడియా వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>అలారం వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>హెచ్చరిక వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>బ్లూటూత్ పరికరాల ద్వారా ప్లే చేయబడే ధ్వని యొక్క వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>స్క్రీన్‌ను ఆన్‌లో ఉంచు</item>
+        <item>మానిటర్ స్థాన సమాచారం</item>
+        <item>అత్యంత ఖచ్చితమైన స్థాన సమాచారాన్ని మానిటర్ చేయి</item>
+        <item>పరికర ఉపయోగ గణాంకాలను చదువు</item>
+        <item>మైక్రఫోన్‌ను ఆన్ మరియు ఆఫ్ చేయి</item>
+        <item>మీడియాను సంగ్రహించు</item>
+        <item>మీడియాను సంగ్రహించు</item>
+        <item>activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>bluetooth change</item>
+        <item>మల్టీమీడియా సందేశాలను పంపు</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>స్వయంచాలక అమలు</item>
+        <item>nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>delete contacts</item>
+        <item>delete call log</item>
+        <item>data change</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>స్థానం</item>
+        <item>స్థానం</item>
+        <item>స్థానం</item>
+        <item>వైబ్రేట్</item>
+        <item>పరిచయాలను చదవండి</item>
+        <item>పరిచయాలను నిర్వహించు</item>
+        <item>కాల్ లాగ్‌ను చదవండి</item>
+        <item>కాల్ లాగ్‌ను వ్రాయండి</item>
+        <item>క్యాలెండర్‌ని చదువు</item>
+        <item>క్యాలెండర్‌ను నిర్వహించు</item>
+        <item>స్థానం</item>
+        <item>నోటిఫికేషన్‌లను చూపు</item>
+        <item>స్థానం</item>
+        <item>ఫోన్ కాల్‌లు చేయి</item>
+        <item>టెక్స్ట్ సందేశాలను చదువు</item>
+        <item>టెక్స్ట్ సందేశాలను వ్రాయి</item>
+        <item>టెక్స్ట్ సందేశాలను స్వీకరించు</item>
+        <item>అత్యవసర టెక్స్ట్ సందేశాలను స్వీకరించు</item>
+        <item>మల్టీమీడియా సందేశాలను స్వీకరించు</item>
+        <item>WAP పుష్ సందేశాలను స్వీకరించు</item>
+        <item>టెక్స్ట్ సందేశాలను పంపు</item>
+        <item>SIM కార్డ్‌లో టెక్స్ట్ సందేశాలను చదువు</item>
+        <item>SIM కార్డ్‌కు టెక్స్ట్ సందేశాలను వ్రాయి</item>
+        <item>సెట్టింగ్‌లను సవరించు</item>
+        <item>అప్లికేషన్ ఇంటర్‌ఫేస్‌ను అతివ్యాప్తి చేయి</item>
+        <item>ప్రాప్తి నోటిఫికేషన్‌లు</item>
+        <item>కెమెరా</item>
+        <item>ఆడియో రికార్డ్ చేయి</item>
+        <item>ఆడియో ఫైల్‌లను ప్లే చేయి</item>
+        <item>క్లిప్‌బోర్డ్ డేటాను చదువు</item>
+        <item>క్లిప్‌బోర్డ్ డేటాను నిర్వహించు</item>
+        <item>మీడియాను నియంత్రించు</item>
+        <item>ఆడియో కేంద్రీకరణను నియంత్రించు</item>
+        <item>మాస్టర్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>ఇన్-కాల్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>రింగ్‌టోన్ వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>మీడియా వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>అలారం వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>హెచ్చరిక వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>బ్లూటూత్ పరికరాల ద్వారా ప్లే చేయబడే ధ్వని యొక్క వాల్యూమ్‌ను సర్దుబాటు చేయి</item>
+        <item>స్క్రీన్‌ను ఆన్‌లో ఉంచు</item>
+        <item>స్థానం</item>
+        <item>స్థానం</item>
+        <item>పరికర ఉపయోగ గణాంకాలను చదువు</item>
+        <item>మైక్రఫోన్‌ను ఆన్ మరియు ఆఫ్ చేయి</item>
+        <item>మీడియాను సంగ్రహించు</item>
+        <item>మీడియాను సంగ్రహించు</item>
+        <item>Activate VPN</item>
+        <item>Wi-Fi change</item>
+        <item>Bluetooth change</item>
+        <item>మల్టీమీడియా సందేశాలను పంపు</item>
+        <item>Read multimedia messages</item>
+        <item>Write multimedia messages</item>
+        <item>స్వయంచాలక అమలు</item>
+        <item>Nfc change</item>
+        <item>Delete text messages</item>
+        <item>Delete multimedia messages</item>
+        <item>పరిచయాలను తొలగించు</item>
+        <item>Delete call log</item>
+        <item>Data change</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>తక్కువ (0.5 సెకన్లు)</item>
+        <item>మధ్యస్థం (1.0 సెకన్)</item>
+        <item>ఎక్కువ (1.5 సెకన్లు)</item>
+        <item>అనుకూల</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>తక్కువ</item>
+        <item>మధ్యస్థం</item>
+        <item>ఎక్కువ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>డీఫాల్ట్</item>
+        <item>Sans Serif</item>
+        <item>Sans serif condensed</item>
+        <item>స్యాన్స్ సెరిఫ్ మోనోస్కోప్</item>
+        <item>Serif</item>
+        <item>సెరిఫ్ మోనోస్కోప్</item>
+        <item>తాత్కాలిక</item>
+        <item>కర్సివ్</item>
+        <item>చిన్న క్యాప్స్</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>చాలా చిన్నది</item>
+        <item>చిన్నది</item>
+        <item>సాధారణ</item>
+        <item>పెద్దది</item>
+        <item>చాలా పెద్దది</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>డీఫాల్ట్</item>
+        <item>ఏదీకాదు</item>
+        <item>అవుట్‌లైన్</item>
+        <item>బొట్టు నీడ</item>
+        <item>లేవనెత్తిన</item>
+        <item>అణచబడిన</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>డీఫాల్ట్</item>
+        <item>నలుపులో తెలుపు</item>
+        <item>తెలుపులో నలుపు</item>
+        <item>నలుపులో పసుపు</item>
+        <item>నీలంలో పసుపు</item>
+        <item>అనుకూల</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>లాగ్ బఫర్‌కు 64 KB</item>
+        <item>లాగ్ బఫర్‌కు 256 KB</item>
+        <item>లాగ్ బఫర్‌కు 1 MB</item>
+        <item>లాగ్ బఫర్‌కు 4 MB</item>
+        <item>లాగ్ బఫర్‌కు 16 MB</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ఎప్పడూ తనిఖీ చేయవద్దు</item>
+        <item>DRM కంటెంట్ కొరకు మాత్రమే తనిఖీ చెయ్యి</item>
+        <item>ఎల్లప్పుడూ తనిఖీ చేయండి</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP తనిఖీని ఏప్పుడూ ఉపయోగించవద్దు</item>
+        <item>DRM కంటెంట్ కొరకు HDCP తనిఖీని మాత్రమే ఉపయోగించండి</item>
+        <item>ఎల్లప్పుడూ HDCP తనిఖీని ఉపయోగించండి</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ లో ఉంది.</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ లో ఉంది.</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ లో ఉంది.</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ఏదీకాదు</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ఏదీకాదు</item>
+        <item>Logcat</item>
+        <item>Systrace (గ్రాఫిక్స్)</item>
+        <item>glGetErrorలో కాల్ స్టాక్</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ఆఫ్</item>
+        <item>దీర్ఘ చతురస్రాకారంలేని క్లిప్‌ల ఉపరితలాన్ని నీలి రంగులో హైలైట్ చేయండి</item>
+        <item>పరీక్షించిన డ్రాయింగ్ ఆదేశాలను ఆకుపచ్చ రంగులో హైలైట్ చేయండి</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>దాచు</item>
+        <item>పట్టీలు వలె స్క్రీన్‌లో చూపు</item>
+        <item>adb shell dumpsys gfxinfoలో చూపు</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ఆఫ్</item>
+        <item>అధిక స్థితి ప్రాంతాలను చూపు</item>
+        <item>డ్యూటెరానోమలీతో గల ప్రాంతాలను చూపు</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ప్రామాణిక పరిమితి</item>
+        <item>నేపథ్య ప్రాసెస్‌లు ఏవీ వద్దు</item>
+        <item>గరిష్టంగా 1 ప్రాసెస్</item>
+        <item>గరిష్టంగా 2 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 3 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 4 ప్రాసెస్‌లు</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>ముందే-పంచుకోబడిన కీలతో L2TP/IPSec VPN</item>
+        <item>సర్టిఫికేట్లతో L2TP/IPSec VPN</item>
+        <item>ముందే-పంచుకోబడిన కీలు మరియు XAuth ప్రమాణీకరణ తో IPSec VPN</item>
+        <item>సర్టిఫికేట్లు మరియు XAuth ప్రమాణీకరణ తో IPSec VPN</item>
+        <item>సర్టిఫికేట్లు మరియు సంకరమైన ప్రమాణీకరణ తో IPSec VPN</item>
+        <item>IKEv2 మరియు ముందే భాగస్వామ్యం చేసిన కీ ఆధారిత ప్రమాణీకరణతో IPSec VPN</item>
+        <item>IKEv2 మరియు సర్టిఫికేట్ ఆధారిత ప్రమాణీకరణతో IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>డిస్కనెక్ట్ చేయబడింది</item>
+        <item>ప్రారంభమవుతోంది…</item>
+        <item>కనెక్ట్ అవుతోంది…</item>
+        <item>కనెక్ట్ చేయబడింది</item>
+        <item>సమయం ముగిసింది</item>
+        <item>విఫలము</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>అడుగు</item>
+        <item>ఎప్పుడూ అనుమతివ్వద్దు</item>
+        <item>ఎల్లప్పుడూ అనుమతించు</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>సాధారణ</item>
+        <item>తగిన</item>
+        <item>తక్కువ</item>
+        <item>చాలా తక్కువ</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>ఆఫ్</item>
+        <item>Limited interruptions</item>
+        <item>Zero interruptions</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>సాధారణ</item>
+        <item>తగిన</item>
+        <item>తక్కువ</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>నిరంతరం</item>
+        <item>అగ్ర కార్యాచరణ</item>
+        <item>ముఖ్యమైనది (ముందుభాగం)</item>
+        <item>ముఖ్యమైనది (నేపథ్యం)</item>
+        <item>Backup</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>సేవ (అమలు అవుతోంది)</item>
+        <item>సేవ (పునఃప్రారంభించబడుతోంది)</item>
+        <item>గ్రహీత</item>
+        <item>Home</item>
+        <item>చివరి కార్యాచరణ</item>
+        <item>కాష్ చేయబడింది (కార్యాచరణ)</item>
+        <item>కాష్ చేయబడింది (కార్యాచరణ క్లయింట్)</item>
+        <item>కాష్ చేయబడింది (ఖాళీ)</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>పరికరం</item>
+        <item>SD కార్డ్</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>ఎల్లప్పుడూ ఆమోదించు</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+        <item>ఎల్లప్పుడూ తిరస్కరించు</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>వీడియోలు</item>
+        <item>ఫోటోలు</item>
+        <item>మ్యూజిక్</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>స్వయంచాలకం</item>
+        <item>మాన్యువల్‌గా</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>ఎల్లప్పుడూ ఆఫ్‌లో ఉంచు</item>
+        <item>3 సెకన్లు</item>
+        <item>5 సెకన్లు</item>
+        <item>10 సెకన్లు</item>
+        <item>15 సెకన్లు</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>ఏదీకాదు</item>
+        <item>అన్ని పరిచయాలు</item>
+        <item>ఇష్టమైనవి</item>
+        <item>అనుకూలం</item>
+    </string-array>
+    <string-array name="allow_list_entries_k">
+        <item>ఏదీకాదు</item>
+        <item>అన్ని పరిచయాలు</item>
+        <item>ఇష్టమైనవి</item>
+        <item>సమూహాం</item>
+        <item>అనుకూలం</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>ఎక్కువ</item>
+        <item>మధ్యస్థం</item>
+        <item>తక్కువ</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>ప్రస్తుత నెట్‌వర్క్</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>హోమ్</item>
+        <item>కార్యాలయం</item>
+        <item>హృదయం</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>కాల్</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>ఇంటర్నెట్</item>
+        <item>హోమ్</item>
+        <item>కార్యాలయం</item>
+        <item>హృదయం</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>సత్వరమార్గం భర్తీ చేయి</item>
+        <item>అనుకూలపరచిన కీని రీసెట్ చేయి</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>ధ్వని</item>
+        <item>వైబ్రేట్</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>అధికం</item>
+        <item>సాధారణ</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>1 గంట</item>
+    </string-array>
+    <string-array name="time_interval_entries_selectable">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>3 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>యాక్సెసబిలిటీ</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>యాక్సెసబిలిటీ</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>అన్నీ</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>ఒకసారి</item>
+        <item>ప్రతి 10 నిమిషాలకు</item>
+        <item>ప్రతి 20 నిమిషాలు</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>నిజ-సమయం</item>
+        <item>15 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>1 గంట</item>
+        <item>2 గంటలు</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>క్లాసిక్</item>
+        <item>హాఫ్‌టోన్</item>
+        <item>మార్ఫింగ్</item>
+        <item>మల్టీకలర్</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 సెకన్లు</item>
+        <item>6 సెకన్లు</item>
+        <item>ఎల్లప్పుడూ ఆఫ్‌లో ఉంచు</item>
+        <item>ఎల్లప్పుడూ ఆన్‌లో ఉంచు</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>పైన</item>
+        <item>మధ్యస్థం</item>
+        <item>దిగువ</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>వార్తలు</item>
+        <item>స్టాక్</item>
+        <item>ఫేస్‌బుక్‌</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>వార్తలు</item>
+        <item>స్టాక్</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>నిదానం</item>
+        <item>సాధారణ</item>
+        <item>వేగంగా</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>ఏదీకాదు</item>
+        <item>ప్రతి 30 నిమిషాలకు</item>
+        <item>ప్రతి 1 గంటలో</item>
+        <item>ప్రతి 2 గంటలు</item>
+        <item>ప్రతి 4 గంటలకు</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>హెడ్‌సెట్</item>
+        <item>PC</item>
+        <item>ఫోన్</item>
+        <item>HID (కీబోర్డు, మౌస్, మొదలై.)</item>
+        <item>మొత్తం పరికరాలు</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>స్టీరియో</item>
+        <item>పరిసరాలు</item>
+    </string-array>
+</resources>

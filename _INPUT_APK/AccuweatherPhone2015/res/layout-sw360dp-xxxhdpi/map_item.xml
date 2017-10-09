@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/map_top" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cityLayout" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_centerHorizontal="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip">
+        <View android:layout_gravity="center_vertical" android:id="@id/curLocImg" android:background="@drawable/weather_current_location" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="15.0dip" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="11.0dip" android:textStyle="normal" android:textColor="@color/col_000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/cityname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:layout_below="@id/cityLayout" android:layout_centerHorizontal="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/weatherimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/col_000000" android:layout_gravity="center_vertical" android:id="@id/currenttemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="samsung-neo-num3L" />
+    </LinearLayout>
+</RelativeLayout>

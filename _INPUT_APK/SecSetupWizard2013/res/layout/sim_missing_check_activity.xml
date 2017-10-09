@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="@dimen/main_screen_with_image_left_side_padding" android:paddingRight="@dimen/terms_and_condition_main_screen_side_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/main_screen_with_image_side_padding" android:layout_marginRight="@dimen/main_screen_with_image_side_padding">
+        <ImageView android:id="@id/sim_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/setupwizard_sim" />
+        <TextView android:id="@id/sim_msg" android:paddingLeft="@dimen/sim_missing_description_side_padding" android:paddingRight="@dimen/sim_missing_description_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/sim_missing_text_line_spacing" style="@style/description_area" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:id="@id/guide_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/powersavingmode_help_edit_bubble_margin_bottom">
+        <TextView android:id="@id/help_edit_bubble_summary" android:text="@string/sbeam_settings_help_summary" style="@style/help_bubble_with_button" />
+        <ImageView android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/powersavingmode_help_edit_bubble_close_btn_margin_top" android:layout_marginRight="@dimen/powersavingmode_help_edit_bubble_close_btn_margin_right" android:src="@drawable/help_popup_close_btn" android:layout_alignTop="@id/help_edit_bubble_summary" android:layout_alignRight="@id/help_edit_bubble_summary" android:contentDescription="@string/wifi_ap_close" />
+    </RelativeLayout>
+</LinearLayout>

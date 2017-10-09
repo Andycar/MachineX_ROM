@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/col_F5F5F5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/topLayout" android:background="#ffc9dcdf" android:layout_width="fill_parent" android:layout_height="@dimen/setting_background_city_height">
+        <ImageView android:id="@id/weather_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_bg" android:scaleType="fitXY" />
+        <ImageView android:id="@id/weather_info" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_info" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/middleLayout" android:layout_width="fill_parent" android:layout_height="79.0dip" android:layout_marginTop="5.0dip" android:paddingStart="1.0dip" android:paddingEnd="1.0dip">
+        <TextView android:textSize="15.0dip" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginTop="4.0dip" android:text="@string/transparency_text" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="15.0dip" android:textStyle="normal" android:textColor="@color/col_000000" android:id="@id/transparency_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/title" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/tw_seekbar_progress_bg" android:thumb="@drawable/tw_seekbar_thum" android:layout_below="@id/title" />
+        <TextView android:textSize="14.0dip" android:textStyle="normal" android:textColor="@color/col_000000" android:gravity="start|center|top" android:id="@id/minval" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" android:layout_below="@id/seekbar" android:fontFamily="sans-serif-light" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="14.0dip" android:textStyle="normal" android:textColor="@color/col_000000" android:gravity="end|center|top" android:id="@id/maxval" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100" android:layout_below="@id/seekbar" android:fontFamily="sans-serif-light" android:layout_marginEnd="16.0dip" />
+        <View android:id="@id/bottomDivider" android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

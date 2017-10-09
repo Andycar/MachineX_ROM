@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/tw_sub_action_bar_bg_mtrl" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <RelativeLayout android:id="@id/switchLayout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="19.0dip" android:textStyle="normal" android:textColor="@color/col_def_sub_appbar_text_color" android:id="@id/onoffText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/off_text" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="48.0dip" android:layout_alignParentStart="true" />
+            <Switch android:id="@id/switchView" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/secondary_text_color_light" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" android:text="@string/use_current_location_agree_popup" android:lineSpacingExtra="4.0sp" android:fontFamily="sec-roboto-light" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</RelativeLayout>

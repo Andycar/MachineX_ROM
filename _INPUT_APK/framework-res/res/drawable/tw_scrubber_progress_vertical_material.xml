@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/tw_scrubber_primary_mtrl_alpha_vertical" android:tint="@color/tw_progress_color_control_normal" />
+    </item>
+    <item>
+        <layer-list>
+            <item android:id="@id/background">
+                <nine-patch android:src="@drawable/tw_scrubber_primary_mtrl_alpha_vertical" android:tint="@color/tw_progress_color_control_normal" />
+            </item>
+            <item android:id="@id/secondaryProgress">
+                <scale android:scaleHeight="100%" android:scaleGravity="bottom">
+                    <nine-patch android:src="@drawable/tw_scrubber_primary_mtrl_alpha_vertical" android:tint="@color/tw_progress_color_control_normal" />
+                </scale>
+            </item>
+            <item android:id="@id/progress">
+                <scale android:scaleHeight="100%" android:scaleGravity="bottom">
+                    <nine-patch android:src="@drawable/tw_scrubber_primary_mtrl_alpha_vertical" android:tint="@color/tw_progress_color_control_activated" />
+                </scale>
+            </item>
+        </layer-list>
+    </item>
+</selector>

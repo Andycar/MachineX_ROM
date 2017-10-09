@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.KeyguardSPassUnlockView android:orientation="vertical" android:id="@id/keyguard_spass_unlock_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/kg_spass_swipe"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/com.android.keyguard">
+    <FrameLayout android:id="@id/keyguard_frame_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/keyguard_securityview_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="top" android:layout_gravity="top" android:orientation="vertical" android:id="@id/keyguard_bouncer_frame" android:background="#00ffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0">
+                <FrameLayout android:id="@id/kg_spass_animation_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:background="#00ffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip">
+                        <ImageView android:gravity="center" android:id="@id/kg_spass_status_image" android:layout_width="fill_parent" android:layout_height="78.0dip" />
+                        <TextView android:textSize="18.0dip" android:textColor="@color/keyguard_text_color_white" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/kg_spass_status" android:clickable="true" android:layout_width="332.0dip" android:layout_height="44.0dip" android:maxLines="2" android:shadowColor="#7f000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:fontFamily="sans-serif" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="bottom|center" android:id="@id/kg_spass_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/spass_eca_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/spass_eca_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="222.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emergency_button_area_spass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/spass_lock_line" android:showDividers="middle">
+                    <Button android:textSize="@dimen/keyguard_signature_back_up_font_size" android:textColor="@color/keyguard_text_color_white" android:gravity="center" android:id="@id/forgot_password_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:shadowColor="#7f000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_weight="1.0" android:textAllCaps="@bool/kg_use_all_caps" android:fontFamily="sans-serif" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textSize="@dimen/keyguard_signature_back_up_font_size" android:textColor="@color/keyguard_text_color_white" android:gravity="center" android:id="@id/kg_alternative_password" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kg_spass_backup_password_button" android:shadowColor="#7f000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:drawableLeft="@drawable/icon_lock_backup" android:drawablePadding="7.0dip" android:layout_weight="1.0" android:fontFamily="sans-serif" style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.android.keyguard.sec.SecKeyguardBottomAreaView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/sec_keyguard_bottom_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/sec_keyguard_bottom_area" />
+            </com.android.keyguard.sec.SecKeyguardBottomAreaView>
+        </FrameLayout>
+    </FrameLayout>
+</com.android.keyguard.sec.KeyguardSPassUnlockView>

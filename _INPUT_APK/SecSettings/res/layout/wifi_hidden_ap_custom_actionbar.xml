@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <Button android:textSize="@dimen/fingerprint_manager_listpopupwindow_textsize" android:textColor="#fff5f5f5" android:gravity="center|left" android:id="@id/selection_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="?android:listDividerAlertDialog" android:minWidth="125.0dip" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="31.0dip" android:layout_marginStart="12.0dip" style="?android:attr/actionDropDownStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="end" android:layout_gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/revert_menu_item" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/wifi_ap_menu_delete">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/revert_menu_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wifi_cancel" android:singleLine="true" style="?android:attr/actionButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/save_menu_item" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/wifi_ap_allowed_device_add_button" style="?android:attr/actionButtonStyle">
+            <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:id="@id/save_menu_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/motion_tutorial_done_btn" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/rv_battery_display" android:layout_width="130.0dip" android:layout_height="45.0dip" />
+    <ImageView android:id="@id/rv_standby_image" android:layout_width="150.0dip" android:layout_height="45.0dip" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessory" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/dock_settings" android:key="dock_settings" />
+    <PreferenceScreen android:title="@string/dock_audio_settings_title" android:key="dock_audio" android:summary="@string/dock_settings_summary" />
+    <CheckBoxPreference android:title="@string/dock_sounds_enable_title" android:key="dock_sounds" android:summary="@string/dock_sounds_enable_summary_on" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/desk_cradle_title" android:key="cradle_enable" android:summary="@string/desk_cradle_summary" />
+    <SwitchPreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/desk_home_screen_display" android:key="desk_home_screen_display" android:summary="@string/desk_home_screen_display_summary" />
+    <PreferenceCategory android:title="@string/ultrasonic_category" android:key="ultrasonic_cover" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/ultrasonic_cane_title" android:key="ultrasonic_cane" android:summary="@string/ultrasonic_cane_summary" />
+    <ListPreference android:entries="@array/ultrasonic_range_entries" android:title="@string/ultrasoundlength_title" android:key="ultrasonic_range" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/ultrasonic_range_values" />
+    <PreferenceCategory android:title="@string/cover" android:key="cover" />
+    <PreferenceCategory android:title="@string/montblanc_cover_category" android:key="montblanc_cover_category" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/automatic_unlock" android:key="automatic_unlock" android:summary="@string/automatic_unlock_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/show_in_call" android:key="show_in_call_screen" android:summary="@string/show_in_call_summary" />
+    <PreferenceScreen android:title="@string/sview_style_clock_title" android:key="sview_style_clock">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SViewStyleClock" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sview_color" android:key="sview_color">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SViewColor" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sview_color" android:key="sview_color_2014">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SViewColor2014" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sview_color" android:key="sview_mini_wallpaper">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SViewMiniWallpaper" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/select_info_title" android:key="select_info" android:fragment="com.android.settings.SelectInfoCoverSettings" />
+    <PreferenceScreen android:title="@string/sview_cover_edge_settings" android:key="sview_edge_cover_settings" android:fragment="com.android.settings.SViewCoverEdgeSettings" />
+    <PreferenceScreen android:title="@string/montblanc_download_contents" android:key="montblanc_contents" />
+    <PreferenceCategory android:title="@string/hdmi" android:key="hdmi" />
+    <ListPreference android:entries="@array/audio_output_entries" android:title="@string/audio_output" android:key="audio_output" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/audio_output_values" />
+    <PreferenceCategory android:title="@string/book_cover" android:key="book_cover" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/automatic_unlock" android:key="book_cover_automatic_unlock" android:summary="@string/automatic_unlock_summary" />
+    <CheckBoxPreference android:title="@string/cover_note" android:key="cover_note" android:summary="@string/cover_note_summary" />
+    <ListPreference android:entries="@array/cover_note_weather_unit_entries" android:title="@string/cover_note_weather_unit" android:key="cover_note_weather_unit" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/cover_note_weather_unit_values" />
+    <PreferenceCategory android:title="@string/earset" android:key="earset" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/audio_applications" android:key="audio_applications" android:summary="@string/audio_applications_summary" />
+</PreferenceScreen>

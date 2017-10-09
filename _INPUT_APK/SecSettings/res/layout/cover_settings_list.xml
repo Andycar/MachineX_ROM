@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover_shortcut_bg" android:layout_width="fill_parent" android:layout_height="@dimen/sview_cover_height" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/cover_dim_bg" android:background="@android:drawable/mainbg_pattern_mainarea" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:background="#33000000" android:paddingTop="@dimen/sview_cover_setting_indicator_height" android:layout_width="fill_parent" android:layout_height="81.0dip">
+            <ImageButton android:id="@id/cancel_button" android:background="?android:selectableItemBackground" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_ic_ab_back_mtrl_autorotate" android:contentDescription="@string/profile_exit" android:paddingStart="@dimen/sview_cover_setting_list_margin_left" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/sview_cover_setting_list_text_size" android:textColor="#ffffffff" android:id="@id/cover_settings_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:singleLine="true" android:shadowColor="#33000000" android:shadowDy="1.0" android:layout_toEndOf="@id/cancel_button" style="@style/sview_text_shadow" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/cover_settings_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_open_cover_pedometer_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/s_view_cover_open_cover_pedometer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/walking_mate_popup_msg" style="@style/sview_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_weather_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/s_view_cover_weather_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_network_unavailable" style="@style/sview_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/weather_use_location_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sview_weather_use_current_location_popup" style="@style/sview_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/weather_widget_open_cover_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sview_weather_cover_open_popup" style="@style/sview_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/weather_to_show_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sview_weather_to_show_popup" style="@style/sview_text_shadow" />
+    </LinearLayout>
+</FrameLayout>

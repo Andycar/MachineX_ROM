@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/guide_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.helpdialog.TwTouchPunchView android:id="@id/guide_punch" android:layout_width="@dimen/powersavingmode_help_touchable_switch_width" android:layout_height="@dimen/powersavingmode_help_touchable_switch_height" android:layout_marginTop="@dimen/powersavingmode_help_touchable_switch_margin_top" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/powersavingmode_help_touchable_switch_margin_right" android:layout_alignParentEnd="true" touchwiz:punchshape="rectangle" touchwiz:punchshow="false" />
+    <ImageView android:id="@id/guide_hand_pointer" android:layout_width="@dimen/powersavingmode_help_dialog_tap_img_width" android:layout_height="@dimen/powersavingmode_help_dialog_tap_img_height" android:layout_marginTop="@dimen/powersavingmode_help_touchable_switch_margin_top" android:src="@drawable/help_tap" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/powersavingmode_help_dialog_tap_img_margin_right" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/guide_bubble_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/powersavingmode_help_dialog_tap_bubble_margin_top" android:layout_below="@id/guide_hand_pointer" android:layout_alignEnd="@id/guide_hand_pointer">
+        <TextView android:id="@id/help_tap_bubble_summary" android:layout_marginTop="@dimen/powersavingmode_help_dialog_tap_bubble_body_margin_top" android:text="@string/guide_tap_area" android:layout_marginEnd="@dimen/powersavingmode_help_dialog_tap_bubble_body_margin_right" style="@style/help_bubble" />
+        <ImageView android:layout_gravity="end" android:id="@id/help_tap_bubble_picker" android:layout_width="@dimen/powersavingmode_help_dialog_tap_img_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/powersavingmode_help_dialog_tap_bubble_picker_margin_top" android:src="@drawable/help_popup_picker_t_r" android:scaleType="center" />
+    </FrameLayout>
+</RelativeLayout>

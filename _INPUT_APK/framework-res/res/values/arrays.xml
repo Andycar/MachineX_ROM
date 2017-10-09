@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="config_keySystemUuidMapping" />
+    <array name="preloaded_drawables">
+        <item>@drawable/toast_frame</item>
+        <item>@drawable/btn_check_on_pressed_holo_light</item>
+        <item>@drawable/btn_check_on_pressed_holo_dark</item>
+        <item>@drawable/btn_check_on_holo_light</item>
+        <item>@drawable/btn_check_on_holo_dark</item>
+        <item>@drawable/btn_check_on_focused_holo_light</item>
+        <item>@drawable/btn_check_on_focused_holo_dark</item>
+        <item>@drawable/btn_check_on_disabled_holo_light</item>
+        <item>@drawable/btn_check_on_disabled_holo_dark</item>
+        <item>@drawable/btn_check_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_check_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_check_off_pressed_holo_light</item>
+        <item>@drawable/btn_check_off_pressed_holo_dark</item>
+        <item>@drawable/btn_check_off_holo_light</item>
+        <item>@drawable/btn_check_off_holo_dark</item>
+        <item>@drawable/btn_check_off_focused_holo_light</item>
+        <item>@drawable/btn_check_off_focused_holo_dark</item>
+        <item>@drawable/btn_check_off_disabled_holo_light</item>
+        <item>@drawable/btn_check_off_disabled_holo_dark</item>
+        <item>@drawable/btn_check_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_check_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_check_holo_light</item>
+        <item>@drawable/btn_check_holo_dark</item>
+        <item>@drawable/btn_radio_on_pressed_holo_light</item>
+        <item>@drawable/btn_radio_on_pressed_holo_dark</item>
+        <item>@drawable/btn_radio_on_holo_light</item>
+        <item>@drawable/btn_radio_on_holo_dark</item>
+        <item>@drawable/btn_radio_on_focused_holo_light</item>
+        <item>@drawable/btn_radio_on_focused_holo_dark</item>
+        <item>@drawable/btn_radio_on_disabled_holo_light</item>
+        <item>@drawable/btn_radio_on_disabled_holo_dark</item>
+        <item>@drawable/btn_radio_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_radio_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_radio_off_pressed_holo_light</item>
+        <item>@drawable/btn_radio_off_pressed_holo_dark</item>
+        <item>@drawable/btn_radio_off_holo_light</item>
+        <item>@drawable/btn_radio_off_holo_dark</item>
+        <item>@drawable/btn_radio_off_focused_holo_light</item>
+        <item>@drawable/btn_radio_off_focused_holo_dark</item>
+        <item>@drawable/btn_radio_off_disabled_holo_light</item>
+        <item>@drawable/btn_radio_off_disabled_holo_dark</item>
+        <item>@drawable/btn_radio_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_radio_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_default_pressed_holo_light</item>
+        <item>@drawable/btn_default_pressed_holo_dark</item>
+        <item>@drawable/btn_default_normal_holo_light</item>
+        <item>@drawable/btn_default_normal_holo_dark</item>
+        <item>@drawable/btn_default_focused_holo_light</item>
+        <item>@drawable/btn_default_focused_holo_dark</item>
+        <item>@drawable/btn_default_disabled_holo_light</item>
+        <item>@drawable/btn_default_disabled_holo_dark</item>
+        <item>@drawable/btn_default_disabled_focused_holo_light</item>
+        <item>@drawable/btn_default_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_default_holo_dark</item>
+        <item>@drawable/btn_default_holo_light</item>
+        <item>@drawable/btn_star_off_normal_holo_light</item>
+        <item>@drawable/btn_star_on_normal_holo_light</item>
+        <item>@drawable/btn_star_on_disabled_holo_light</item>
+        <item>@drawable/btn_star_off_disabled_holo_light</item>
+        <item>@drawable/btn_star_on_pressed_holo_light</item>
+        <item>@drawable/btn_star_off_pressed_holo_light</item>
+        <item>@drawable/btn_star_on_focused_holo_light</item>
+        <item>@drawable/btn_star_off_focused_holo_light</item>
+        <item>@drawable/btn_star_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_star_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_star_holo_light</item>
+        <item>@drawable/btn_star_off_normal_holo_dark</item>
+        <item>@drawable/btn_star_on_normal_holo_dark</item>
+        <item>@drawable/btn_star_on_disabled_holo_dark</item>
+        <item>@drawable/btn_star_off_disabled_holo_dark</item>
+        <item>@drawable/btn_star_on_pressed_holo_dark</item>
+        <item>@drawable/btn_star_off_pressed_holo_dark</item>
+        <item>@drawable/btn_star_on_focused_holo_dark</item>
+        <item>@drawable/btn_star_off_focused_holo_dark</item>
+        <item>@drawable/btn_star_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_star_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_star_holo_dark</item>
+        <item>@drawable/btn_toggle_on_pressed_holo_light</item>
+        <item>@drawable/btn_toggle_on_pressed_holo_dark</item>
+        <item>@drawable/btn_toggle_on_normal_holo_light</item>
+        <item>@drawable/btn_toggle_on_normal_holo_dark</item>
+        <item>@drawable/btn_toggle_on_focused_holo_light</item>
+        <item>@drawable/btn_toggle_on_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_on_disabled_holo_light</item>
+        <item>@drawable/btn_toggle_on_disabled_holo_dark</item>
+        <item>@drawable/btn_toggle_on_disabled_focused_holo_light</item>
+        <item>@drawable/btn_toggle_on_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_off_pressed_holo_light</item>
+        <item>@drawable/btn_toggle_off_pressed_holo_dark</item>
+        <item>@drawable/btn_toggle_off_normal_holo_light</item>
+        <item>@drawable/btn_toggle_off_normal_holo_dark</item>
+        <item>@drawable/btn_toggle_off_focused_holo_light</item>
+        <item>@drawable/btn_toggle_off_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_off_disabled_holo_light</item>
+        <item>@drawable/btn_toggle_off_disabled_holo_dark</item>
+        <item>@drawable/btn_toggle_off_disabled_focused_holo_light</item>
+        <item>@drawable/btn_toggle_off_disabled_focused_holo_dark</item>
+        <item>@drawable/btn_toggle_holo_light</item>
+        <item>@drawable/btn_toggle_holo_dark</item>
+        <item>@drawable/edit_text_holo_light</item>
+        <item>@drawable/edit_text_holo_dark</item>
+        <item>@drawable/text_cursor_holo_light</item>
+        <item>@drawable/text_cursor_holo_dark</item>
+        <item>@drawable/text_select_handle_left</item>
+        <item>@drawable/text_select_handle_right</item>
+        <item>@drawable/text_edit_paste_window</item>
+        <item>@drawable/expander_close_holo_dark</item>
+        <item>@drawable/expander_close_holo_light</item>
+        <item>@drawable/expander_group_holo_dark</item>
+        <item>@drawable/expander_group_holo_light</item>
+        <item>@drawable/list_selector_holo_dark</item>
+        <item>@drawable/list_selector_holo_light</item>
+        <item>@drawable/list_section_divider_holo_light</item>
+        <item>@drawable/list_section_divider_holo_dark</item>
+        <item>@drawable/menu_hardkey_panel_holo_dark</item>
+        <item>@drawable/menu_hardkey_panel_holo_light</item>
+        <item>@drawable/menu_submenu_background</item>
+        <item>@drawable/menu_dropdown_panel_holo_light</item>
+        <item>@drawable/menu_dropdown_panel_holo_dark</item>
+        <item>@drawable/menu_popup_panel_holo_light</item>
+        <item>@drawable/menu_popup_panel_holo_dark</item>
+        <item>@drawable/menu_panel_holo_light</item>
+        <item>@drawable/menu_panel_holo_dark</item>
+        <item>@drawable/spinner_16_outer_holo</item>
+        <item>@drawable/spinner_16_inner_holo</item>
+        <item>@drawable/spinner_48_outer_holo</item>
+        <item>@drawable/spinner_48_inner_holo</item>
+        <item>@drawable/spinner_76_outer_holo</item>
+        <item>@drawable/spinner_76_inner_holo</item>
+        <item>@drawable/progress_bg_holo_dark</item>
+        <item>@drawable/progress_bg_holo_light</item>
+        <item>@drawable/progress_horizontal_holo_dark</item>
+        <item>@drawable/progress_horizontal_holo_light</item>
+        <item>@drawable/progress_indeterminate_horizontal_holo</item>
+        <item>@drawable/progress_large_holo</item>
+        <item>@drawable/progress_medium_holo</item>
+        <item>@drawable/progress_primary_holo_dark</item>
+        <item>@drawable/progress_primary_holo_light</item>
+        <item>@drawable/progress_secondary_holo_dark</item>
+        <item>@drawable/progress_secondary_holo_light</item>
+        <item>@drawable/progress_small_holo</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item>@drawable/background_holo_light</item>
+        <item>@drawable/background_holo_dark</item>
+        <item>@drawable/screen_background_dark</item>
+        <item>@drawable/screen_background_dark_transparent</item>
+        <item>@drawable/screen_background_light</item>
+        <item>@drawable/screen_background_light_transparent</item>
+        <item>@drawable/screen_background_selector_dark</item>
+        <item>@drawable/screen_background_selector_light</item>
+        <item>@drawable/scrollbar_handle_holo_dark</item>
+        <item>@drawable/scrollbar_handle_holo_light</item>
+        <item>@drawable/spinner_background_holo_dark</item>
+        <item>@drawable/spinner_background_holo_light</item>
+        <item>@drawable/spinner_ab_default_holo_dark</item>
+        <item>@drawable/spinner_ab_default_holo_light</item>
+        <item>@drawable/spinner_ab_disabled_holo_dark</item>
+        <item>@drawable/spinner_ab_disabled_holo_light</item>
+        <item>@drawable/spinner_ab_focused_holo_dark</item>
+        <item>@drawable/spinner_ab_focused_holo_light</item>
+        <item>@drawable/spinner_ab_pressed_holo_dark</item>
+        <item>@drawable/spinner_ab_pressed_holo_light</item>
+        <item>@drawable/spinner_ab_holo_dark</item>
+        <item>@drawable/spinner_ab_holo_light</item>
+        <item>@drawable/spinner_default_holo_dark</item>
+        <item>@drawable/spinner_default_holo_light</item>
+        <item>@drawable/spinner_disabled_holo_dark</item>
+        <item>@drawable/spinner_disabled_holo_light</item>
+        <item>@drawable/spinner_focused_holo_dark</item>
+        <item>@drawable/spinner_focused_holo_light</item>
+        <item>@drawable/spinner_pressed_holo_dark</item>
+        <item>@drawable/spinner_pressed_holo_light</item>
+        <item>@drawable/cab_background_bottom_holo_dark</item>
+        <item>@drawable/cab_background_top_holo_light</item>
+        <item>@drawable/cab_background_bottom_holo_light</item>
+        <item>@drawable/ic_cab_done_holo_dark</item>
+        <item>@drawable/cab_background_top_holo_dark</item>
+        <item>@drawable/ic_cab_done_holo_light</item>
+        <item>@drawable/btn_cab_done_default_holo_dark</item>
+        <item>@drawable/btn_cab_done_focused_holo_light</item>
+        <item>@drawable/btn_cab_done_default_holo_light</item>
+        <item>@drawable/btn_cab_done_pressed_holo_dark</item>
+        <item>@drawable/btn_cab_done_focused_holo_dark</item>
+        <item>@drawable/btn_cab_done_pressed_holo_light</item>
+        <item>@drawable/btn_cab_done_holo_light</item>
+        <item>@drawable/btn_cab_done_holo_dark</item>
+        <item>@drawable/ic_menu_close_clear_cancel</item>
+        <item>@drawable/ic_menu_copy_holo_dark</item>
+        <item>@drawable/ic_menu_copy_holo_light</item>
+        <item>@drawable/ic_menu_cut_holo_dark</item>
+        <item>@drawable/ic_menu_cut_holo_light</item>
+        <item>@drawable/ic_menu_more</item>
+        <item>@drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item>@drawable/ic_menu_moreoverflow_holo_light</item>
+        <item>@drawable/ic_menu_paste_holo_dark</item>
+        <item>@drawable/ic_menu_paste_holo_light</item>
+        <item>@drawable/ic_menu_selectall_holo_light</item>
+        <item>@drawable/ic_menu_selectall_holo_dark</item>
+        <item>@drawable/ic_clear</item>
+        <item>@drawable/ic_clear_disabled</item>
+        <item>@drawable/ic_clear_normal</item>
+        <item>@drawable/ic_search_api_holo_dark</item>
+        <item>@drawable/ic_search_api_holo_light</item>
+        <item>@drawable/ic_go</item>
+        <item>@drawable/ic_voice_search_api_holo_dark</item>
+        <item>@drawable/ic_voice_search_api_holo_light</item>
+        <item>@drawable/dialog_bottom_holo_dark</item>
+        <item>@drawable/dialog_bottom_holo_light</item>
+        <item>@drawable/dialog_full_holo_dark</item>
+        <item>@drawable/dialog_full_holo_light</item>
+        <item>@drawable/dialog_middle_holo_dark</item>
+        <item>@drawable/dialog_middle_holo_light</item>
+        <item>@drawable/dialog_top_holo_dark</item>
+        <item>@drawable/dialog_top_holo_light</item>
+        <item>@drawable/ic_dialog_alert_holo_dark</item>
+        <item>@drawable/ic_dialog_alert_holo_light</item>
+        <item>@drawable/list_divider_holo_dark</item>
+        <item>@drawable/list_divider_holo_light</item>
+        <item>@drawable/list_divider_holo_light</item>
+        <item>@drawable/ab_transparent_dark_holo</item>
+        <item>@drawable/ab_stacked_transparent_dark_holo</item>
+        <item>@drawable/ab_bottom_transparent_dark_holo</item>
+        <item>@drawable/ab_solid_dark_holo</item>
+        <item>@drawable/ab_stacked_solid_dark_holo</item>
+        <item>@drawable/ab_bottom_solid_dark_holo</item>
+        <item>@drawable/ab_transparent_light_holo</item>
+        <item>@drawable/ab_stacked_transparent_light_holo</item>
+        <item>@drawable/ab_bottom_transparent_light_holo</item>
+        <item>@drawable/ab_solid_light_holo</item>
+        <item>@drawable/ab_stacked_solid_light_holo</item>
+        <item>@drawable/ab_bottom_solid_light_holo</item>
+        <item>@drawable/ab_solid_shadow_holo</item>
+        <item>@drawable/item_background_holo_dark</item>
+        <item>@drawable/item_background_holo_light</item>
+        <item>@drawable/fastscroll_thumb_holo</item>
+        <item>@drawable/fastscroll_thumb_pressed_holo</item>
+        <item>@drawable/fastscroll_thumb_default_holo</item>
+        <item>@drawable/fastscroll_track_holo_dark</item>
+        <item>@drawable/fastscroll_track_pressed_holo_dark</item>
+        <item>@drawable/fastscroll_track_default_holo_dark</item>
+        <item>@drawable/fastscroll_label_left_holo_dark</item>
+        <item>@drawable/fastscroll_label_right_holo_dark</item>
+        <item>@drawable/fastscroll_track_holo_light</item>
+        <item>@drawable/fastscroll_track_pressed_holo_light</item>
+        <item>@drawable/fastscroll_track_default_holo_light</item>
+        <item>@drawable/fastscroll_label_left_holo_light</item>
+        <item>@drawable/fastscroll_label_right_holo_light</item>
+        <item>@drawable/editbox_dropdown_background_dark</item>
+        <item>@drawable/textfield_searchview_holo_dark</item>
+        <item>@drawable/textfield_searchview_right_holo_dark</item>
+        <item>@drawable/textfield_searchview_holo_light</item>
+        <item>@drawable/textfield_searchview_right_holo_light</item>
+        <item>@drawable/textfield_search_selected_holo_dark</item>
+        <item>@drawable/textfield_search_default_holo_dark</item>
+        <item>@drawable/textfield_search_right_selected_holo_dark</item>
+        <item>@drawable/textfield_search_right_default_holo_dark</item>
+        <item>@drawable/textfield_search_selected_holo_light</item>
+        <item>@drawable/textfield_search_default_holo_light</item>
+        <item>@drawable/textfield_search_right_selected_holo_light</item>
+        <item>@drawable/textfield_search_right_default_holo_light</item>
+        <item>@drawable/tab_indicator_holo</item>
+        <item>@drawable/tab_unselected_holo</item>
+        <item>@drawable/tab_selected_holo</item>
+        <item>@drawable/tab_unselected_focused_holo</item>
+        <item>@drawable/tab_selected_focused_holo</item>
+        <item>@drawable/tab_unselected_pressed_holo</item>
+        <item>@drawable/tab_selected_pressed_holo</item>
+        <item>@drawable/quickcontact_badge_overlay_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_normal_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_pressed_dark</item>
+        <item>@drawable/quickcontact_badge_overlay_light</item>
+        <item>@drawable/quickcontact_badge_overlay_normal_light</item>
+        <item>@drawable/quickcontact_badge_overlay_pressed_light</item>
+        <item>@drawable/ab_share_pack_mtrl_alpha</item>
+        <item>@drawable/ab_solid_shadow_mtrl_alpha</item>
+        <item>@drawable/btn_cab_done_mtrl_alpha</item>
+        <item>@drawable/btn_check_to_off_mtrl_000</item>
+        <item>@drawable/btn_check_to_off_mtrl_001</item>
+        <item>@drawable/btn_check_to_off_mtrl_002</item>
+        <item>@drawable/btn_check_to_off_mtrl_003</item>
+        <item>@drawable/btn_check_to_off_mtrl_004</item>
+        <item>@drawable/btn_check_to_off_mtrl_005</item>
+        <item>@drawable/btn_check_to_off_mtrl_006</item>
+        <item>@drawable/btn_check_to_off_mtrl_007</item>
+        <item>@drawable/btn_check_to_off_mtrl_008</item>
+        <item>@drawable/btn_check_to_off_mtrl_009</item>
+        <item>@drawable/btn_check_to_off_mtrl_010</item>
+        <item>@drawable/btn_check_to_off_mtrl_011</item>
+        <item>@drawable/btn_check_to_off_mtrl_012</item>
+        <item>@drawable/btn_check_to_off_mtrl_013</item>
+        <item>@drawable/btn_check_to_off_mtrl_014</item>
+        <item>@drawable/btn_check_to_off_mtrl_015</item>
+        <item>@drawable/btn_check_to_on_mtrl_000</item>
+        <item>@drawable/btn_check_to_on_mtrl_001</item>
+        <item>@drawable/btn_check_to_on_mtrl_002</item>
+        <item>@drawable/btn_check_to_on_mtrl_003</item>
+        <item>@drawable/btn_check_to_on_mtrl_004</item>
+        <item>@drawable/btn_check_to_on_mtrl_005</item>
+        <item>@drawable/btn_check_to_on_mtrl_006</item>
+        <item>@drawable/btn_check_to_on_mtrl_007</item>
+        <item>@drawable/btn_check_to_on_mtrl_008</item>
+        <item>@drawable/btn_check_to_on_mtrl_009</item>
+        <item>@drawable/btn_check_to_on_mtrl_010</item>
+        <item>@drawable/btn_check_to_on_mtrl_011</item>
+        <item>@drawable/btn_check_to_on_mtrl_012</item>
+        <item>@drawable/btn_check_to_on_mtrl_013</item>
+        <item>@drawable/btn_check_to_on_mtrl_014</item>
+        <item>@drawable/btn_check_to_on_mtrl_015</item>
+        <item>@drawable/btn_radio_to_off_mtrl_000</item>
+        <item>@drawable/btn_radio_to_off_mtrl_001</item>
+        <item>@drawable/btn_radio_to_off_mtrl_002</item>
+        <item>@drawable/btn_radio_to_off_mtrl_003</item>
+        <item>@drawable/btn_radio_to_off_mtrl_004</item>
+        <item>@drawable/btn_radio_to_off_mtrl_005</item>
+        <item>@drawable/btn_radio_to_off_mtrl_006</item>
+        <item>@drawable/btn_radio_to_off_mtrl_007</item>
+        <item>@drawable/btn_radio_to_off_mtrl_008</item>
+        <item>@drawable/btn_radio_to_off_mtrl_009</item>
+        <item>@drawable/btn_radio_to_off_mtrl_010</item>
+        <item>@drawable/btn_radio_to_off_mtrl_011</item>
+        <item>@drawable/btn_radio_to_off_mtrl_012</item>
+        <item>@drawable/btn_radio_to_off_mtrl_013</item>
+        <item>@drawable/btn_radio_to_off_mtrl_014</item>
+        <item>@drawable/btn_radio_to_off_mtrl_015</item>
+        <item>@drawable/btn_radio_to_on_mtrl_000</item>
+        <item>@drawable/btn_radio_to_on_mtrl_001</item>
+        <item>@drawable/btn_radio_to_on_mtrl_002</item>
+        <item>@drawable/btn_radio_to_on_mtrl_003</item>
+        <item>@drawable/btn_radio_to_on_mtrl_004</item>
+        <item>@drawable/btn_radio_to_on_mtrl_005</item>
+        <item>@drawable/btn_radio_to_on_mtrl_006</item>
+        <item>@drawable/btn_radio_to_on_mtrl_007</item>
+        <item>@drawable/btn_radio_to_on_mtrl_008</item>
+        <item>@drawable/btn_radio_to_on_mtrl_009</item>
+        <item>@drawable/btn_radio_to_on_mtrl_010</item>
+        <item>@drawable/btn_radio_to_on_mtrl_011</item>
+        <item>@drawable/btn_radio_to_on_mtrl_012</item>
+        <item>@drawable/btn_radio_to_on_mtrl_013</item>
+        <item>@drawable/btn_radio_to_on_mtrl_014</item>
+        <item>@drawable/btn_radio_to_on_mtrl_015</item>
+        <item>@drawable/btn_rating_star_off_mtrl_alpha</item>
+        <item>@drawable/btn_rating_star_on_mtrl_alpha</item>
+        <item>@drawable/btn_star_mtrl_alpha</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00001</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00002</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00003</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00004</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00005</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00006</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00007</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00008</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00009</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00010</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00011</item>
+        <item>@drawable/btn_switch_to_off_mtrl_00012</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00001</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00002</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00003</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00004</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00005</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00006</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00007</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00008</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00009</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00010</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00011</item>
+        <item>@drawable/btn_switch_to_on_mtrl_00012</item>
+        <item>@drawable/btn_toggle_indicator_mtrl_alpha</item>
+        <item>@drawable/expander_close_mtrl_alpha</item>
+        <item>@drawable/expander_open_mtrl_alpha</item>
+        <item>@drawable/fastscroll_thumb_mtrl_alpha</item>
+        <item>@drawable/fastscroll_track_mtrl_alpha</item>
+        <item>@drawable/ic_ab_back_material</item>
+        <item>@drawable/ic_cab_done_mtrl_alpha</item>
+        <item>@drawable/ic_clear_mtrl_alpha</item>
+        <item>@drawable/ic_commit_search_api_mtrl_alpha</item>
+        <item>@drawable/ic_dialog_alert_material</item>
+        <item>@drawable/ic_find_next_mtrl_alpha</item>
+        <item>@drawable/ic_find_previous_mtrl_alpha</item>
+        <item>@drawable/ic_go_search_api_material</item>
+        <item>@drawable/ic_media_route_disabled_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_off_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_0_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_1_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_2_mtrl_alpha</item>
+        <item>@drawable/ic_media_route_on_mtrl_alpha</item>
+        <item>@drawable/ic_menu_copy_material</item>
+        <item>@drawable/ic_menu_cut_material</item>
+        <item>@drawable/ic_menu_find_mtrl_alpha</item>
+        <item>@drawable/ic_menu_moreoverflow_material</item>
+        <item>@drawable/ic_menu_paste_material</item>
+        <item>@drawable/ic_menu_search_mtrl_alpha</item>
+        <item>@drawable/ic_menu_selectall_material</item>
+        <item>@drawable/ic_menu_share_material</item>
+        <item>@drawable/ic_search_api_material</item>
+        <item>@drawable/ic_voice_search_api_material</item>
+        <item>@drawable/list_divider_mtrl_alpha</item>
+        <item>@drawable/list_section_divider_mtrl_alpha</item>
+        <item>@drawable/popup_background_mtrl_mult</item>
+        <item>@drawable/progress_mtrl_alpha</item>
+        <item>@drawable/scrollbar_handle_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_000</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_001</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_002</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_003</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_004</item>
+        <item>@drawable/scrubber_control_from_pressed_mtrl_005</item>
+        <item>@drawable/scrubber_control_off_pressed_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_off_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_on_pressed_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_on_mtrl_alpha</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_000</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_001</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_002</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_003</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_004</item>
+        <item>@drawable/scrubber_control_to_pressed_mtrl_005</item>
+        <item>@drawable/scrubber_primary_mtrl_alpha</item>
+        <item>@drawable/scrubber_track_mtrl_alpha</item>
+        <item>@drawable/spinner_mtrl_am_alpha</item>
+        <item>@drawable/switch_track_mtrl_alpha</item>
+        <item>@drawable/text_cursor_mtrl_alpha</item>
+        <item>@drawable/textfield_activated_mtrl_alpha</item>
+        <item>@drawable/textfield_default_mtrl_alpha</item>
+        <item>@drawable/textfield_search_activated_mtrl_alpha</item>
+        <item>@drawable/textfield_search_default_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_left_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_middle_mtrl_alpha</item>
+        <item>@drawable/text_select_handle_right_mtrl_alpha</item>
+    </array>
+    <array name="preloaded_color_state_lists">
+        <item>@color/primary_text_dark</item>
+        <item>@color/primary_text_dark_disable_only</item>
+        <item>@color/primary_text_dark_nodisable</item>
+        <item>@color/primary_text_disable_only_holo_dark</item>
+        <item>@color/primary_text_disable_only_holo_light</item>
+        <item>@color/primary_text_holo_dark</item>
+        <item>@color/primary_text_holo_light</item>
+        <item>@color/primary_text_light</item>
+        <item>@color/primary_text_light_disable_only</item>
+        <item>@color/primary_text_light_nodisable</item>
+        <item>@color/primary_text_nodisable_holo_dark</item>
+        <item>@color/primary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_dark</item>
+        <item>@color/secondary_text_dark_nodisable</item>
+        <item>@color/secondary_text_holo_dark</item>
+        <item>@color/secondary_text_holo_light</item>
+        <item>@color/secondary_text_light</item>
+        <item>@color/secondary_text_light_nodisable</item>
+        <item>@color/secondary_text_nodisable_holo_dark</item>
+        <item>@color/secondary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_nofocus</item>
+        <item>@color/hint_foreground_dark</item>
+        <item>@color/hint_foreground_holo_dark</item>
+        <item>@color/hint_foreground_holo_light</item>
+        <item>@color/hint_foreground_light</item>
+        <item>@color/bright_foreground_light</item>
+        <item>@color/bright_foreground_dark</item>
+        <item>@color/tab_indicator_text</item>
+        <item>#ff000000</item>
+        <item>#00000000</item>
+        <item>#ffffffff</item>
+        <item>@color/background_cache_hint_selector_material_dark</item>
+        <item>@color/background_cache_hint_selector_material_light</item>
+        <item>@color/btn_default_material_dark</item>
+        <item>@color/btn_default_material_light</item>
+        <item>@color/primary_text_disable_only_material_dark</item>
+        <item>@color/primary_text_disable_only_material_light</item>
+        <item>@color/primary_text_material_dark</item>
+        <item>@color/primary_text_material_light</item>
+        <item>@color/search_url_text_material_dark</item>
+        <item>@color/search_url_text_material_light</item>
+    </array>
+    <string-array name="special_locale_codes">
+        <item>ar_EG</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="config_statusBarIcons">
+        <item>smart_network</item>
+        <item>felica_lock</item>
+        <item>ime</item>
+        <item>popup</item>
+        <item>volte</item>
+        <item>glove</item>
+        <item>gesture</item>
+        <item>smart_scroll</item>
+        <item>face</item>
+        <item>sync_failing</item>
+        <item>sync_active</item>
+        <item>cast</item>
+        <item>location</item>
+        <item>gps</item>
+        <item>lbs</item>
+        <item>wearable_gear</item>
+        <item>bluetooth</item>
+        <item>nfc_on</item>
+        <item>nfc</item>
+        <item>tty</item>
+        <item>speakerphone</item>
+        <item>zen</item>
+        <item>mute</item>
+        <item>volume</item>
+        <item>com.samsung.rcs</item>
+        <item>vowifi</item>
+        <item>wifi_p2p</item>
+        <item>wifi</item>
+        <item>wifi_p2p</item>
+        <item>wifi_ap</item>
+        <item>wifi_oxygen</item>
+        <item>cdma_eri</item>
+        <item>phone_signal_second_sub</item>
+        <item>data_connection</item>
+        <item>phone_evdo_signal</item>
+        <item>phone_signal</item>
+        <item>battery</item>
+        <item>alarm_clock</item>
+        <item>toddler</item>
+        <item>ims_volte</item>
+        <item>keyguard_wakeup</item>
+        <item>safezone</item>
+        <item>secure</item>
+        <item>clock</item>
+        <item>wimax</item>
+        <item>smart_bonding</item>
+        <item>private_mode</item>
+    </string-array>
+    <integer-array name="config_masterVolumeRamp">
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+        <item>7,1</item>
+    </string-array>
+    <integer-array name="config_data_usage_network_types">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+    </integer-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>usb\\d</item>
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+    </string-array>
+    <array name="config_tether_wimax_regexs" />
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+    </string-array>
+    <array name="config_tether_dhcp_range" />
+    <array name="config_mobile_hotspot_provision_app" />
+    <integer-array name="config_tether_upstream_types">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>9</item>
+    </integer-array>
+    <array name="config_cdma_dun_supported_types" />
+    <array name="config_usbHostBlacklist" />
+    <array name="config_serialPorts" />
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>40</item>
+    </integer-array>
+    <integer-array name="config_clockTickVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_calendarDateVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_safeModeDisabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>15</item>
+        <item>150</item>
+        <item>1000</item>
+        <item>5000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>20</item>
+        <item>80</item>
+        <item>130</item>
+        <item>190</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_autoBrightnessButtonBacklightValues" />
+    <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+    <array name="config_testLocationProviders" />
+    <array name="config_twoDigitNumberPattern" />
+    <array name="config_sms_enabled_single_shift_tables" />
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,240000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,-1,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>bluetooth,7,7,0,-1,true</item>
+        <item>mobile_ent1,28,0,2,-1,true</item>
+        <item>mobile_ent2,29,0,2,-1,true</item>
+    </string-array>
+    <integer-array name="config_protectedNetworks">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_oemUsbModeOverride" />
+    <array name="config_mobile_tcp_buffers" />
+    <integer-array name="config_onlySingleDcAllowed">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+    <integer-array name="config_notificationFallbackVibePattern">
+        <item>0</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.android.inputmethod.latin</item>
+    </string-array>
+    <string-array name="config_notificationSignalExtractors">
+        <item>com.android.server.notification.ValidateNotificationPeople</item>
+        <item>com.android.server.notification.PackagePriorityExtractor</item>
+        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
+        <item>com.android.server.notification.PackageVisibilityExtractor</item>
+    </string-array>
+    <array name="config_operatorConsideredNonRoaming" />
+    <string-array name="config_sameNamedOperatorConsideredRoaming">
+        <item>515</item>
+    </string-array>
+    <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_globalActionsList">
+        <item>power</item>
+        <item>datamode</item>
+        <item>airplane</item>
+        <item>restart</item>
+        <item>lockdown</item>
+        <item>bugreport</item>
+        <item>users</item>
+        <item>emergencymode</item>
+        <item>flashlight</item>
+        <item>screenshot</item>
+        <item>screenrec</item>
+    </string-array>
+    <string-array name="config_telephonyHardware">
+        <item>0,modem,0,0,0,1,1,1</item>
+        <item>1,sim,0,modem</item>
+    </string-array>
+    <array name="config_cdma_home_system" />
+    <array name="no_ems_support_sim_operators" />
+    <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>NTP_SERVER=north-america.pool.ntp.org</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+    </string-array>
+    <array name="config_default_vm_number" />
+    <array name="dial_string_replace" />
+    <string-array name="networks_not_clear_data">
+        <item>71203</item>
+        <item>71606</item>
+        <item>71610</item>
+        <item>732101</item>
+    </string-array>
+    <string-array name="config_sms_convert_destination_number_support">
+        <item>false</item>
+    </string-array>
+    <string-array name="origin_carrier_names">
+        <item>"CHINA  MOBILE"</item>
+        <item>CMCC</item>
+        <item>CHN-UNICOM</item>
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+        <item>中國移動</item>
+        <item>中國聯通</item>
+        <item>中國電信</item>
+        <item>Searching for Service</item>
+    </string-array>
+    <string-array name="locale_carrier_names">
+        <item>China_Mobile</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>roamingTextSearching</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Trying to access location</item>
+        <item>Trying to access location</item>
+        <item>Trying to access location</item>
+        <item>Trying to use vibrate</item>
+        <item>Trying to read contacts</item>
+        <item>Trying to write contacts</item>
+        <item>Trying to read call log</item>
+        <item>Trying to write call log</item>
+        <item>Trying to read calendar</item>
+        <item>Trying to modify calendar</item>
+        <item>Trying to access location</item>
+        <item>Trying to post notification</item>
+        <item>Trying to access location</item>
+        <item>Trying to make phone call</item>
+        <item>Trying to read SMS</item>
+        <item>Trying to write SMS</item>
+        <item>Trying to receive SMS</item>
+        <item>Trying to receive emergency SMS</item>
+        <item>Trying to receive MMS</item>
+        <item>Trying to receive WAP push</item>
+        <item>Trying to send SMS</item>
+        <item>Trying to read ICC SMS</item>
+        <item>Trying to write ICC SMS</item>
+        <item>Trying to modify settings</item>
+        <item>Trying to draw on top</item>
+        <item>Trying to access notifications</item>
+        <item>Trying to access Camera</item>
+        <item>Trying to record audio</item>
+        <item>Trying to play audio</item>
+        <item>Trying to read clipboard</item>
+        <item>Trying to modify clipboard</item>
+        <item>Trying to use media buttons</item>
+        <item>Trying to use audio focus</item>
+        <item>Trying to use master volume</item>
+        <item>Trying to use voice volume</item>
+        <item>Trying to use ring volume</item>
+        <item>Trying to use media volume</item>
+        <item>Trying to use alarm volume</item>
+        <item>Trying to use notification volume</item>
+        <item>Trying to use bluetooth volume</item>
+        <item>Trying to Keep device awake</item>
+        <item>Trying to access location</item>
+        <item>Trying to access location</item>
+        <item>Trying to get usage stats</item>
+        <item>Trying to mute microphone</item>
+        <item>Trying to toast window</item>
+        <item>Trying to project media</item>
+        <item>Trying to activate vpn</item>
+        <item>Trying to turn on/off WLAN</item>
+        <item>Trying to trun on/off bluetooth</item>
+        <item>Trying to send MMS</item>
+        <item>Trying to read MMS</item>
+        <item>Trying to write MMS</item>
+        <item>Trying to start at bootup</item>
+        <item>Trying to turn on/off NFC</item>
+        <item>Trying to delete SMS</item>
+        <item>Trying to delete MMS</item>
+        <item>Trying to delete contacts</item>
+        <item>Trying to delete call log</item>
+        <item>Trying to turn on mobile data</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <array name="common_nicknames" />
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="carrier_properties" />
+    <array name="allowedOnDataDisabled" />
+    <array name="captivePortalAllowedNetworkTypes" />
+    <integer-array name="config_minimumExpressiveBrightnessValues">
+        <item>15</item>
+        <item>20</item>
+        <item>27</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevels">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>50</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>9999</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisValues">
+        <item>20</item>
+        <item>50</item>
+        <item>80</item>
+        <item>160</item>
+        <item>250</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLevels">
+        <item>0</item>
+        <item>6</item>
+        <item>50</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>4999</item>
+        <item>5000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessValues">
+        <item>20</item>
+        <item>20</item>
+        <item>80</item>
+        <item>160</item>
+        <item>187</item>
+        <item>250</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevels">
+        <item>0</item>
+        <item>15</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisValues">
+        <item>20</item>
+        <item>20</item>
+        <item>30</item>
+        <item>80</item>
+        <item>160</item>
+        <item>190</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>50</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>9999</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisValuesForEbookOnly">
+        <item>10</item>
+        <item>30</item>
+        <item>40</item>
+        <item>82</item>
+        <item>230</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLevelsForEbookOnly">
+        <item>0</item>
+        <item>6</item>
+        <item>50</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>4999</item>
+        <item>5000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessValuesForEbookOnly">
+        <item>10</item>
+        <item>10</item>
+        <item>40</item>
+        <item>82</item>
+        <item>140</item>
+        <item>260</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>15</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisValuesForEbookOnly">
+        <item>10</item>
+        <item>10</item>
+        <item>12</item>
+        <item>40</item>
+        <item>82</item>
+        <item>200</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <string-array name="hideApnBlackList">
+        <item>ims</item>
+        <item>cbs</item>
+    </string-array>
+    <string-array name="shouldNotWriteMessage">
+        <item>com.android.mms</item>
+        <item>com.tmobile.vvm.application</item>
+        <item>com.metropcs.service.vvm</item>
+        <item>com.android.phone</item>
+        <item>com.android.bluetooth</item>
+        <item>com.samsung.vvm</item>
+        <item>de.telekom.mds.mbp</item>
+        <item>com.isis.mclient.atnt.activity</item>
+        <item>com.isis.mclient.tmobile.activity</item>
+        <item>com.isis.mclient.verizon.activity</item>
+        <item>com.isis.mclient.atnt.isistest</item>
+        <item>com.isis.mclient.tmobile.isistest</item>
+        <item>com.isis.mclient.verizon.isistest</item>
+        <item>com.cequint.ecid</item>
+        <item>com.att.eptt</item>
+        <item>cn.cj.pe</item>
+        <item>cn.emagsoftware.gamehall</item>
+        <item>com.iflytek.cmcc</item>
+        <item>com.autonavi.cmccmap</item>
+        <item>com.aspire.mm</item>
+        <item>com.asiainfo.android</item>
+        <item>pl.tmobile.vpabx</item>
+        <item>com.samsung.android.coreapps</item>
+        <item>com.chinamobile.cmccwifi</item>
+        <item>com.ophone.reader.ui</item>
+        <item>com.wsandroid.suite.vodaemea</item>
+    </string-array>
+    <string-array name="black_listed_apps">
+        <item>@string/city_id</item>
+        <item>@string/nfl</item>
+        <item>@string/nfl_lite</item>
+        <item>@string/vmm</item>
+        <item>@string/vz_tones</item>
+        <item>@string/vvm</item>
+        <item>@string/vznav_i535</item>
+        <item>@string/vznav_i200</item>
+        <item>@string/vznav_i415</item>
+        <item>@string/vznav_i605</item>
+        <item>@string/vznav_i545</item>
+        <item>@string/vznav_tab</item>
+        <item>@string/vznav_generic</item>
+        <item>@string/calendar</item>
+        <item>@string/camera</item>
+        <item>@string/contacts</item>
+        <item>@string/calc</item>
+        <item>@string/maps</item>
+        <item>@string/mms</item>
+        <item>@string/music</item>
+        <item>@string/setupwizard</item>
+        <item>@string/settings</item>
+        <item>@string/videoplayer</item>
+        <item>@string/videoplayernew</item>
+        <item>@string/clock</item>
+        <item>@string/gallery3d</item>
+        <item>@string/myfiles</item>
+        <item>@string/tutorial</item>
+        <item>@string/gmusic</item>
+        <item>@string/dev</item>
+        <item>@string/memo</item>
+        <item>@string/penmemo</item>
+        <item>@string/voicesearch</item>
+        <item>@string/spg</item>
+        <item>@string/peel</item>
+        <item>@string/phone</item>
+        <item>@string/controlpanel</item>
+        <item>@string/hiddenmenu</item>
+        <item>@string/servicemodeapp</item>
+        <item>@string/sftest</item>
+        <item>@string/ftest</item>
+        <item>@string/phoneutil</item>
+        <item>@string/fmode</item>
+        <item>@string/dlna</item>
+        <item>@string/downloads</item>
+        <item>@string/qsearch</item>
+        <item>@string/sapps</item>
+        <item>@string/gtalk</item>
+        <item>@string/ve</item>
+        <item>@string/gloft</item>
+        <item>@string/input</item>
+        <item>@string/easysettings</item>
+        <item>@string/groupcast</item>
+        <item>@string/vzmsgs</item>
+        <item>@string/help</item>
+        <item>@string/vzcloud</item>
+        <item>@string/myverizon</item>
+        <item>@string/carmode</item>
+    </string-array>
+    <integer-array name="config_AdjustmentOfEBookSCRWhite">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="config_TestSCRWhite">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="config_CoefficientValues">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="telephony_provider_3lm">
+        <item>name</item>
+        <item>numeric</item>
+        <item>mcc</item>
+        <item>mnc</item>
+        <item>apn</item>
+        <item>user</item>
+        <item>server</item>
+        <item>password</item>
+        <item>proxy</item>
+        <item>port</item>
+        <item>mmsproxy</item>
+        <item>mmsport</item>
+        <item>mmsc</item>
+        <item>authtype</item>
+        <item>type</item>
+        <item>current</item>
+        <item>protocol</item>
+        <item>roaming_protocol</item>
+        <item>carrier_enabled</item>
+        <item>bearer</item>
+    </string-array>
+    <string-array name="telephony_provider_oem">
+        <item>name</item>
+        <item>numeric</item>
+        <item>mcc</item>
+        <item>mnc</item>
+        <item>apn</item>
+        <item>user</item>
+        <item>server</item>
+        <item>password</item>
+        <item>proxy</item>
+        <item>port</item>
+        <item>mmsproxy</item>
+        <item>mmsport</item>
+        <item>mmsc</item>
+        <item>authtype</item>
+        <item>type</item>
+        <item>current</item>
+        <item>protocol</item>
+        <item>roaming_protocol</item>
+        <item>carrier_enabled</item>
+        <item>bearer</item>
+    </string-array>
+    <integer-array name="config_autoBrightnessHysteresisLevels">
+        <item>7</item>
+        <item>75</item>
+        <item>500</item>
+        <item>1000</item>
+    </integer-array>
+    <array name="skip_mum_packages" />
+    <array name="config_valuesOfVibrationMagnitudeLevel" />
+    <array name="config_cocktailbar_category_filter" />
+    <string-array name="config_multiWindowSupportAppList">
+        <item>com.android.email</item>
+        <item>com.android.mms</item>
+        <item>com.sec.android.mms.kor</item>
+        <item>com.sec.chaton</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.maps</item>
+        <item>com.google.android.gm</item>
+        <item>com.google.android.talk</item>
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.gsf.login</item>
+        <item>com.google.android.music</item>
+        <item>com.google.android.apps.books</item>
+        <item>com.google.android.videos</item>
+        <item>com.android.vending</item>
+        <item>com.facebook.katana</item>
+        <item>com.kakao.talk</item>
+        <item>com.infraware.polarisviewer4</item>
+        <item>com.infraware.polarisoffice4</item>
+        <item>com.infraware.polarisviewer5</item>
+        <item>com.infraware.polarisoffice5</item>
+        <item>com.android.providers.applications</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.instagram.android</item>
+        <item>kik.android</item>
+        <item>com.bbm</item>
+        <item>com.facebook.orca</item>
+        <item>com.twitter.android</item>
+        <item>com.viber.voip</item>
+        <item>com.kakao.story</item>
+        <item>com.baidu.browser.inter</item>
+        <item>com.joeware.android.gpulumera</item>
+        <item>com.qvod.player</item>
+        <item>com.dragon.android.pandaspace</item>
+        <item>com.tencent.news</item>
+        <item>jp.co.nttdocomo.carriermail</item>
+        <item>com.android.dialer</item>
+        <item>com.kddi.android.email</item>
+        <item>jp.ne.kddi.ks.android</item>
+        <item>com.free.mt2</item>
+        <item>jp.co.yahoo.android.yjtop</item>
+        <item>com.kddi.android.cmail</item>
+        <item>jp.r246.twicca</item>
+        <item>com.jb.gosms</item>
+        <item>com.pandora.android</item>
+        <item>com.spotify.music</item>
+        <item>com.yahoo.mobile.client.android.mail</item>
+        <item>com.tumblr</item>
+        <item>com.ebay.mobile</item>
+        <item>com.skype.raider</item>
+        <item>com.sgiggle.production</item>
+        <item>com.joelapenna.foursquared</item>
+        <item>com.venticake.retrica</item>
+        <item>com.news24.ui.core</item>
+        <item>com.opera.mini.android</item>
+        <item>com.vkontakte.android</item>
+        <item>ru.yandex.yandexmaps</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.bsb.hike</item>
+        <item>com.pinterest</item>
+        <item>bb.iplayer.android</item>
+        <item>bbc.iplayer.android</item>
+        <item>air.ITVMobilePlayer</item>
+        <item>com.channel4.ondemand</item>
+        <item>co.vine.android</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.HBO</item>
+        <item>com.amazon.avod</item>
+        <item>fm.last.android</item>
+        <item>com.amazon.mShop.android</item>
+        <item>com.groupon</item>
+        <item>com.ithcity.android.groupon</item>
+        <item>com.imdb.mobile</item>
+        <item>com.melodis.midomiMusicIdentifier.freemium</item>
+        <item>com.soundcloud.android</item>
+        <item>com.shazam.android</item>
+        <item>com.linkedin.android</item>
+        <item>com.dropbox.android</item>
+        <item>com.slovoed.dictionaries</item>
+        <item>bs.app</item>
+        <item>ru.yandex.searchplugin</item>
+        <item>com.crossforward.audiobooks</item>
+        <item>Yandex.Music</item>
+        <item>ru.yandex.weatherplugin</item>
+    </string-array>
+    <string-array name="config_multiInstanceSupportAppList">
+        <item>com.sec.chaton</item>
+        <item>com.sec.android.app.myfiles</item>
+        <item>com.infraware.polarisviewer4</item>
+        <item>com.infraware.polarisoffice4</item>
+    </string-array>
+    <string-array name="config_multiWindowSupportPackageList">
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.maps</item>
+    </string-array>
+    <string-array name="config_multiWindowSupportComponentList">
+        <item>com.google.android.apps.maps.MapsActivity</item>
+        <item>com.google.android.maps.MapsActivity</item>
+    </string-array>
+    <string-array name="config_multiWindowAvoidLaunchStyle">
+        <item>com.vlingo.midas</item>
+        <item>com.skt.skaf.l001mtm091</item>
+        <item>kt.navi</item>
+        <item>com.mnsoft.lgunavi</item>
+        <item>com.sec.android.automotive.drivelink</item>
+    </string-array>
+    <array name="config_multiWindowAvoidInheritStack" />
+    <string-array name="config_multiWindowNotSupportScaleApp">
+        <item>com.sec.android.emeeting.b2c.hancom</item>
+        <item>com.infraware.polarisoffice5tablet</item>
+    </string-array>
+    <string-array name="config_multiWindowHideFlashBarAppList">
+        <item>com.vlingo.midas</item>
+        <item>com.skt.skaf.l001mtm091</item>
+        <item>kt.navi</item>
+        <item>com.mnsoft.lgunavi</item>
+        <item>com.sec.android.automotive.drivelink</item>
+        <item>com.sec.android.sidesync30</item>
+    </string-array>
+    <string-array name="config_pen_window_applist">
+        <item>com.diotek.diodict4.EDictionary</item>
+        <item>com.diotek.diodict3.hc.samsung.p5</item>
+        <item>com.sec.android.app.popupcalculator</item>
+        <item>com.google.android.youtube</item>
+        <item>com.android.contacts</item>
+        <item>com.android.mms</item>
+        <item>com.sec.chaton</item>
+        <item>com.google.android.talk</item>
+        <item>com.kakao.talk</item>
+        <item>com.facebook.katana</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.sec.android.gallery3d</item>
+    </string-array>
+    <string-array name="config_penWindowNoTitleActivityList">
+        <item>com.android.documentsui.DocumentsActivity</item>
+    </string-array>
+    <string-array name="config_maxPenWindowCountIgnoreAppList">
+        <item>com.android.phone</item>
+    </string-array>
+    <string-array name="config_shouldNotBeLaunchedInMultiWindowStyleActivityList">
+        <item>com.google.android.apps.plus/.phone.ProfileActionGatewayActivity</item>
+        <item>com.android.packageinstaller/.PackageInstallerActivity</item>
+        <item>android/com.android.internal.app.ResolverGuideActivity</item>
+        <item>com.samsung.android.sconnect/.central.ui.SconnectDisplay</item>
+        <item>com.samsung.android.sconnect/.periph.ui.AcceptDialog</item>
+        <item>com.samsung.android.sconnect/.central.ui.TutorialActivity</item>
+    </string-array>
+</resources>

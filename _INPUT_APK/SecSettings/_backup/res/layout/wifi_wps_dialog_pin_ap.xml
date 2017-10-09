@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_title_match">
+        <TextView android:id="@id/wps_dialog_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_wps_pin_from_client" style="@style/wifi_wps_dlg" />
+        <EditText android:id="@id/wps_client_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:inputType="text" />
+    </LinearLayout>
+</ScrollView>

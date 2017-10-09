@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/myplace_map" android:key="key_method" android:widgetLayout="@layout/round_more_icon" />
+    <com.android.settings.myplace.MyPlaceGpsPreference android:selectable="false" android:key="key_map" />
+    <CheckBoxPreference android:title="@string/myplace_wifi_auto_connect" android:key="key_auto_connect" android:summary="@string/myplace_wifi_auto_connect_summary" />
+    <PreferenceScreen android:title="@string/myplace_select_method" android:key="key_select_method" android:summary="@string/myplace_select_method_text" android:widgetLayout="@layout/round_more_icon" />
+    <PreferenceCategory android:title="@string/myplace_select_method" android:key="categories_select_method" />
+</PreferenceScreen>

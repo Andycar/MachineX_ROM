@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_fragment_desc_text_size" android:id="@id/toddler_mode_desc_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/accessibility_toddler_mode_activate" />
+    <View android:id="@id/divider1" style="@style/SettingsContentsListDivider" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/toddler_current_state" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/settings_fragment_desc_text_size" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/airplane_mode_status" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/settings_fragment_desc_text_size" android:id="@id/toddler_mode_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/divider2" style="@style/SettingsContentsListDivider" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pen_settings_pen_input" android:key="settings_main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pen_settings_pen_input_input_languages" android:key="input_language">
+        <intent android:action="com.samsung.android.writingbuddyservice.setting.LANGUAGES_SETTINGS" />
+    </Preference>
+    <CheckBoxPreference android:persistent="true" android:title="@string/pen_settings_pen_input_predictive_text" android:key="predictive_text" android:defaultValue="false" />
+</PreferenceScreen>

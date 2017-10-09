@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/lock_screen_shortcut_camera" android:key="shortcut_camera" />
+    <CheckBoxPreference android:title="@string/weather" android:key="weather" />
+    <Preference android:title="@string/weather" android:key="weather_tmr" />
+    <CheckBoxPreference android:title="@string/walking_mate_title" android:key="walking_mate" />
+    <CheckBoxPreference android:title="@string/scover_airmessage_title" android:key="scover_airmessage" android:summary="@string/scover_airmessage_summary" />
+</PreferenceScreen>

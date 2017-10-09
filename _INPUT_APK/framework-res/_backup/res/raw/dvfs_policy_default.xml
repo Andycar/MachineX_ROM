@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DvfsHintList [
+<!ELEMENT DvfsHintList (Hint?,TspHint+)>
+<!ELEMENT Hint EMPTY>
+<!ELEMENT TspHint EMPTY>
+<!ATTLIST TspHint
+          scenario_name CDATA #REQUIRED
+          level CDATA #REQUIRED
+          head CDATA #IMPLIED
+          tail CDATA #IMPLIED>
+]>
+
+<DvfsHintList>
+    <Hint name="BADGE_UPDATE" timeout="2000">
+        <Control type="cpu_min" value="1458000"/>
+        <Control type="core_num_min" value="4"/>
+    </Hint>	
+    <TspHint scenario_name="PowerSavingMode"        level="0" />
+    <TspHint scenario_name="UltraPowerSavingMode"   level="0" />
+    <TspHint scenario_name="EmergencyMode"          level="0" />
+    
+</DvfsHintList>

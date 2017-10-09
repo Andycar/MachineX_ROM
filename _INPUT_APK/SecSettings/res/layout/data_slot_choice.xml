@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/relativeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/settings_fragment_desc_text_size" android:id="@id/mobile_data_help_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/mobile_data_desc" />
+    <LinearLayout android:orientation="vertical" android:id="@id/slot_choice_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textViewSlot1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/slot1_mobile_data" android:singleLine="true" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/radio_slot1_data" android:paddingTop="16.0dip" android:paddingRight="10.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@drawable/data_slot_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textViewSlot2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/slot2_mobile_data" android:singleLine="true" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/radio_slot2_data" android:paddingTop="16.0dip" android:paddingRight="10.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@drawable/data_slot_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

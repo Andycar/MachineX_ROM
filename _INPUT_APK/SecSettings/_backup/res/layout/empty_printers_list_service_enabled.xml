@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/empty_printers_list_service_enabled" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="@dimen/progressbar_height" android:layout_height="@dimen/progressbar_height" android:layout_marginBottom="@dimen/progressbar_margin_bottom" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateDuration="2000" android:indeterminateBehavior="repeat" android:mirrorForRtl="false" />
+        <TextView android:textSize="@dimen/no_device_text" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/print_searching_for_printers" />
+    </LinearLayout>
+</FrameLayout>

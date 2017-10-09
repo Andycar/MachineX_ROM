@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.KeyguardUnlockView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_unlock_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/lockscreen_unlock_guide_text_touch_exploration"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/keyguard_bouncer_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="240.0dip" android:layout_marginBottom="43.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="@color/keyguard_text_color_white" android:ellipsize="marquee" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/keyguard_unlock_bouncer_help_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/lockscreen_unlock_guide_text" android:shadowColor="#a6000000" android:contentDescription="@string/lockscreen_unlock_guide_text_touch_exploration" android:fontFamily="sans-serif" style="@style/keyguard_text_shadow" />
+    </FrameLayout>
+    <com.android.keyguard.sec.SecKeyguardBottomAreaView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/sec_keyguard_bottom_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sec_keyguard_bottom_area" />
+    </com.android.keyguard.sec.SecKeyguardBottomAreaView>
+</com.android.keyguard.sec.KeyguardUnlockView>

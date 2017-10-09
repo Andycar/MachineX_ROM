@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/powersaving_noti_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="#fff5f5f5" android:id="@id/power_saving_text" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/power_saving_mode_title" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff8d9ca3" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/powersavingmode_start" />
+</LinearLayout>

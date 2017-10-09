@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:displayOptions">showHome</item>
+    </style>
+    <style name="AllowedAppsListDefault" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DeviceDefault" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+    <style name="DoneButton">
+        <item name="android:textSize">28.0dip</item>
+        <item name="android:textColor">#fff5f5f5</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+        <item name="android:shadowColor">#75000000</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="EditModeDefault" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="IconBadgeCount">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+    <style name="IconEditSign">
+        <item name="android:layout_width">23.0dip</item>
+        <item name="android:layout_height">23.0dip</item>
+        <item name="android:layout_marginRight">23.0dip</item>
+    </style>
+    <style name="IconImage">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">72.0dip</item>
+        <item name="android:layout_height">72.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginRight">13.0dip</item>
+    </style>
+    <style name="IconTitleDefault">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:layout_width">200.0dip</item>
+        <item name="android:layout_height">54.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">#50000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+    <style name="InfoTextView">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#50000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="InfoTextView_edit">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#50000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="LearnAboutBody">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">10.0dip</item>
+    </style>
+    <style name="LearnAboutMainTitle">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff484848</item>
+        <item name="android:padding">5.0dip</item>
+    </style>
+    <style name="LearnAboutSubTitle">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff7b7b7b</item>
+        <item name="android:paddingLeft">5.0dip</item>
+    </style>
+    <style name="LonglifemodeDefault" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="actionbar_text">
+        <item name="android:textSize">33.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:fontFamily">sec-roboto-light (regular)</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="batteryPercentageAndStandByTime">
+        <item name="android:textSize">33.0dip</item>
+        <item name="android:textColor">#fff5f5f5</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">44.0dip</item>
+        <item name="android:layout_marginTop">33.0dip</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+    <style name="textBatteryAndBatteryTime">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">#ffdceff3</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">22.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+    <style name="upmsTextDescription">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">#ffa3a3a3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">68.0dip</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:minLines">2</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+</resources>

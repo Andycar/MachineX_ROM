@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/nfc_payment_pref" android:background="?android:selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/banner" android:clickable="true" android:layout_width="260.0dip" android:layout_height="96.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentStart="true" />
+    <RadioButton android:id="@android:id/button1" android:focusable="false" android:clickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/trusted" android:visibility="gone" android:layout_width="@dimen/payment_list_trusted_icon_size" android:layout_height="@dimen/payment_list_trusted_icon_size" android:layout_marginTop="@dimen/payment_list_trusted_margin_top" android:src="@drawable/ic_tapandpay_trusted_service" android:scaleType="centerInside" android:layout_marginStart="@dimen/payment_list_trusted_margin_left" />
+</RelativeLayout>

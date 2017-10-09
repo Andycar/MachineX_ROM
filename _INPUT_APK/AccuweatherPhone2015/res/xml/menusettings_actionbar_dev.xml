@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.sec.android.widgetapp.weather.common.view.DropDownPreference android:persistent="false" android:layout="@layout/menu_spinner" android:title="@string/menu_settings_unit" android:key="unit" />
+    <com.sec.android.widgetapp.weather.common.view.DropDownPreference android:persistent="false" android:layout="@layout/menu_spinner" android:title="@string/menu_settings_update" android:key="autorefresh" />
+    <Preference android:persistent="false" android:title="@string/menu_current_city_show" android:key="setcurrentcity" />
+    <PreferenceCategory android:title="@string/menu_settings_subtitle_Show_weather_information" android:key="Category2">
+        <SwitchPreference android:persistent="false" android:title="@string/menu_settings_edge_screen" android:key="edgescreen" />
+        <SwitchPreference android:persistent="false" android:title="@string/menu_settings_lockscreen_and_s_view_cover" android:key="lockscreenandsviewcover" />
+        <SwitchPreference android:persistent="false" android:title="@string/menu_settings_s_planner" android:key="splanner" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Shadow Effect">
+        <CheckBoxPreference android:persistent="false" android:title="Shadow Effect on/off" android:key="longshadow" />
+        <ListPreference android:persistent="false" android:title="Shadow fps" android:key="longshadowfps" />
+    </PreferenceCategory>
+</PreferenceScreen>

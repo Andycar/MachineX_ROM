@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/left_side_view" android:background="@drawable/tw_fullscreen_background_left_light" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ListView android:id="@android:id/list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="8.0" />
+    <View android:id="@id/right_side_view" android:background="@drawable/tw_fullscreen_background_right_light" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

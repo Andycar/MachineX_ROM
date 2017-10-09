@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/default_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/air_gesture_indicator" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/air_browse_popup_msg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/motion2014_air_browse_popup_msg1" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/air_browse_popup_msg2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/motion2014_air_browse_popup_msg2_cm" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/air_browse_popup_msg3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="12.0dip" android:text="@string/motion2014_air_browse_popup_msg3" />
+    </LinearLayout>
+</ScrollView>

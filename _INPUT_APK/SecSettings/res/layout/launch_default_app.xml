@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/default_app_pref" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:scaleType="centerInside" android:minWidth="35.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:layout_gravity="center" android:id="@id/clear" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/align_btn_layoutHeight" android:layout_marginRight="12.0dip" android:text="@string/clear" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

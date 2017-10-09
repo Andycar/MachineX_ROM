@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/allowed_apps_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/list_item_icon" android:focusable="false" android:layout_width="@dimen/list_item_icon_width" android:layout_height="@dimen/list_item_icon_height" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_icon_margin_left" />
+    <TextView android:textSize="@dimen/list_item_text_size" android:textColor="@color/allowed_app_list_item_text_color" android:gravity="start|center" android:id="@id/list_item_text" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_text_height" android:singleLine="true" android:paddingStart="@dimen/list_item_text_padding_left" android:layout_toEndOf="@id/list_item_icon" />
+</RelativeLayout>

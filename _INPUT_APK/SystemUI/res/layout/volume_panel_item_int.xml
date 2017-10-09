@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="top" android:id="@id/tw_volume_title" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:singleLine="true" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/stream_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="0.0dip" android:contentDescription="@null" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/tw_divider_vertical_holo_light" android:scaleType="fitXY" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="203.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="0.0dip" android:layout_weight="1.0" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/tw_expand_volume_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/tw_list_divider_holo_light" android:scaleType="fitXY" />
+</LinearLayout>

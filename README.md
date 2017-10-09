@@ -42,6 +42,7 @@ MachineX ROM Mark 4.1 (5th of Oct 2017) - 3rd First public release version
 - !!!IMPORANT - Do not install TWRP's SuperSU after installation (no need)
 
 ==================================================================
+
 MachineX ROM Mark 3-N3 (2nd Apr 2017) - 3rd cumulative patch
 - Patched SecSettings to accept any FlipFont 
 - Added many fonts (installed to user /data)
@@ -49,9 +50,11 @@ MachineX ROM Mark 3-N3 (2nd Apr 2017) - 3rd cumulative patch
 - 
 
 ==================================================================
+
 MachineX ROM Mark 3 (14th Mar 2017) - First public release version
 
 ==================================================================
+
 MachineX ROM Mark 3-p2 (12th Mar 2017)
 
 Framework Mods
@@ -75,6 +78,7 @@ Additional System APKs
 > added /system/app/GoogleContactsSyncAdapter Version: 4.2.2-573038
 
 ==================================================================
+
 MachineX ROM Mark 2 N1 (3rd Mar 2017)
 SecSettings mods:
 > Added customsettings to SecSettings (thanks Robcore)
@@ -96,6 +100,7 @@ Additional System APKs
 Overlays 
 > Changed battery % text color (systemui overlay)
 ==================================================================
+
 MachineX ROM Mark 2 (28th Feb 2017)
 Framework Mods
 > Patched services.jar (PackageManagerService) by amazing DexPatcher/HayStack by Lanchon(https://github.com/Lanchon/)
@@ -137,6 +142,7 @@ binary files patches:
 > patched libsurfaceflinger.so (No more logcat spam W/SurfaceFlinger(__): Fail to Open /sys/devices/platform/gpusysfs/fps)
 
 ==================================================================
+
 MachineX ROM Mark 1 (22nd Feb 2017)
 Framework Mods
 > 5-ways reboot plus screenshot, torch and screen recording to the power menu

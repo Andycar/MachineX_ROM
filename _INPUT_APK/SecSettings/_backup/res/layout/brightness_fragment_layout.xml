@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0sp" android:layout_gravity="left" android:id="@id/checkBoxBrightness" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="17.0dip" android:text="@string/automatic_brightness" />
+            <TextView android:textSize="18.0sp" android:layout_gravity="left" android:id="@id/checkBoxBrightness_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="17.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/seekbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0sp" android:id="@id/textViewBrightness" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="17.0dip" android:text="@string/brightness_level" />
+            <SeekBar android:id="@id/seekBarBrightness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="255" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/auto_detail_seekbar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/brightness_level_textsize" android:id="@id/seekbar_text" android:focusable="true" android:layout_width="226.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="7.0dip" android:text="@string/auto_detail_title" android:layout_centerVertical="true" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/brightness_adjustment_step_textsize" android:textColor="#ff00b0ea" android:id="@id/seekbar_split_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:textDirection="ltr" android:layout_marginEnd="13.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <SeekBar android:id="@id/auto_detail_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/temperature_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/temperature_warning_msg" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" />
+    </LinearLayout>
+</ScrollView>

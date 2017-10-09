@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/wireless_section" android:title="@string/header_category_network_connections" />
+    <header android:icon="@drawable/ic_setting_grid_wifi" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:fragment="com.android.settings.wifi.WifiSettings" />
+    <header android:icon="@drawable/ic_setting_grid_bluetooth" android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:summary="@string/tap_to_configure" android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+    <header android:icon="@drawable/ic_setting_grid_flightmode" android:id="@id/airplane_mode" android:title="@string/airplane_mode" android:fragment="com.android.settings.AirplaneModeSettings" />
+    <header android:icon="@drawable/ic_setting_grid_more" android:id="@id/mobile_networks" android:title="@string/network_settings_title">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.MobileNetworkSettings" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_locations" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/dualSlot_ctc_settings" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.sec.android.app.simcardmanagement" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.simcardmanagement.dsnetwork" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/dualSlot_cmcc_settings" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.NetworkManagement" />
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_simmanager" android:id="@id/simcard_management_chn" android:title="@string/sim_card_management_ds">
+        <intent android:targetPackage="com.sec.android.app.simcardmgr" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.simcardmgr.NetworkManagement" />
+    </header>
+    <header android:id="@id/safetycare_sound_and_display_section" android:title="@string/safetycare_sound_and_display" android:key="sound_and_display" />
+    <header android:icon="@drawable/ic_setting_grid_sound" android:id="@id/sound_settings" android:title="@string/sound_settings" android:fragment="com.android.settings.notification.NotificationSettings" />
+    <header android:icon="@drawable/ic_setting_grid_display" android:id="@id/header_display_brightness" android:title="@string/display_settings" android:fragment="com.android.settings.DisplaySettings" />
+    <header android:id="@id/system_section" android:title="@string/header_category_system" />
+    <header android:icon="@drawable/ic_setting_grid_storage" android:id="@id/storage_settings" android:title="@string/storage_settings" android:fragment="com.android.settings.deviceinfo.Memory" />
+</preference-headers>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/camera_quick_access_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:background="@drawable/grip_camera_quick_access" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/easy_value_between_items" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/easy_contents_text_size" android:ellipsize="marquee" android:id="@id/help_instruction" android:paddingLeft="@dimen/easy_contents_side_padding" android:paddingRight="@dimen/easy_contents_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_quick_access_help" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

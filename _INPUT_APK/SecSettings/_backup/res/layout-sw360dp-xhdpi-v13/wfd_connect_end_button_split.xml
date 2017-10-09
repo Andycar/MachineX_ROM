@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/footer_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:layout_alignParentBottom="true" android:showDividers="beginning">
+        <TextView android:textSize="17.0sp" android:textColor="#ffd7d7d7" android:gravity="left" android:id="@id/multi_connect_footer" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/wifi_p2p_multi_connect_footer" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ListLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="9.0" android:layout_above="@id/footer_layout" android:layout_alignParentTop="true">
+            <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="10.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/wfd_btn_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+            <Button android:textSize="17.0dip" android:textColor="@drawable/wfd_scan_button_color" android:gravity="center" android:id="@id/btn_scanstop" android:background="@drawable/wfd_scan_button_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/wifi_p2p_scan_title" android:shadowColor="#7f000000" android:shadowDy="1.0" android:shadowRadius="0.3" android:fontFamily="sec-roboto-light" />
+            <Button android:textSize="17.0dip" android:textColor="@drawable/wfd_scan_button_color" android:gravity="center" android:id="@id/btn_endConnect" android:background="@drawable/wfd_scan_button_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/wifi_p2p_end_connection" android:shadowColor="#7f000000" android:shadowDy="1.0" android:shadowRadius="0.3" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/wfd_nodevicelayout_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="128.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:textColor="#ff000000" android:gravity="left" android:layout_gravity="center" android:id="@id/no_device" android:paddingLeft="16.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_p2p_no_device_found" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/wfd_nodevice_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffd7d7d7" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_weight="10.0" />
+    </LinearLayout>
+</RelativeLayout>

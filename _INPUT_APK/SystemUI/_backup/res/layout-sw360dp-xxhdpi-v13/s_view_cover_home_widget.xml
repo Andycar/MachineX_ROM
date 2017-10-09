@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/sview_cover_pager_width" android:layout_height="@dimen/sview_cover_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/default_home_widget" android:paddingLeft="30.0dip" android:paddingTop="47.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <view android:orientation="vertical" android:id="@id/clock_time_and_date" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" class="com.sec.android.sviewcover.SViewCoverWidget$Clock">
+            <LinearLayout android:id="@id/clock_root" android:layout_width="wrap_content" android:layout_height="69.0dip">
+                <LinearLayout android:gravity="left" android:paddingTop="0.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="70.0dip" android:textColor="#ffffffff" android:gravity="bottom|center|left" android:id="@id/digital_clock_time" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/sview_text_shadow" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="bottom" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/digital_clock_ampm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" style="@style/sview_text_shadow" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="right" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:gravity="bottom" android:id="@id/festival_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/digital_month_day" android:paddingLeft="0.0dip" android:paddingBottom="-3.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="3.0dip" android:fontFamily="sec-roboto-light" style="@style/sview_text_shadow" />
+        </view>
+        <view android:id="@id/dual_clock_time_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.sec.android.sviewcover.SViewCoverWidget$DualClock">
+            <LinearLayout android:orientation="horizontal" android:id="@id/dual_clock_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/roaming_clock_root" android:layout_width="139.0dip" android:layout_height="100.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/region_roaming" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/s_view_screen_roaming" style="@style/sview_text_shadow" />
+                    <LinearLayout android:id="@id/roaming_clock" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="42.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/roaming_digital_clock_time" android:paddingRight="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="50.0dip" style="@style/sview_text_shadow" />
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/roaming_digital_clock_ampm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" style="@style/sview_text_shadow" />
+                    </LinearLayout>
+                    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/roaming_digital_month_day" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="3.0dip" android:fontFamily="sec-roboto-light" style="@style/sview_text_shadow" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/home_clock_root" android:layout_width="139.0dip" android:layout_height="100.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/home_region_layout" android:layout_width="fill_parent" android:layout_height="22.0dip">
+                        <ImageView android:id="@id/home_region_icon" android:background="@drawable/lock_ic_roaming_home" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" />
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/region_home" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/s_view_screen_home" style="@style/sview_text_shadow" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/home_clock" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="42.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/home_digital_clock_time" android:paddingRight="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="50.0dip" style="@style/sview_text_shadow" />
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/home_digital_clock_ampm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" style="@style/sview_text_shadow" />
+                    </LinearLayout>
+                    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/home_digital_month_day" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="3.0dip" android:fontFamily="sec-roboto-light" style="@style/sview_text_shadow" />
+                </LinearLayout>
+            </LinearLayout>
+        </view>
+        <LinearLayout android:orientation="horizontal" android:id="@id/s_view_cover_weather_health_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <view android:id="@id/s_view_cover_contextual_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" class="com.sec.android.sviewcover.SViewCoverWidget$Weather">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/weather_icon" android:layout_width="43.0dip" android:layout_height="48.0dip" android:layout_marginRight="3.0dip" />
+                    <LinearLayout android:id="@id/temporature" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="48.0dip">
+                        <TextView android:textSize="33.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/clear_weather_temp" android:paddingTop="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:fontFamily="samsung-neo-num3L" style="@style/sview_text_shadow" />
+                        <ImageView android:id="@id/clear_weather_unit" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/temporature_high_low" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip">
+                        <TextView android:textSize="26.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/clear_weather_temp_high" android:paddingTop="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:fontFamily="samsung-neo-num3L" style="@style/sview_text_shadow" />
+                        <ImageView android:id="@id/clear_weather_unit_high" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                        <ImageView android:id="@id/clear_weather_divider" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+                        <TextView android:textSize="26.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/clear_weather_temp_low" android:paddingTop="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:fontFamily="samsung-neo-num3L" />
+                        <ImageView android:id="@id/clear_weather_unit_low" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </view>
+            <FrameLayout android:id="@id/clear_shealth_contatiner" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/disaster_alert" android:paddingLeft="0.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/alert_ic" android:drawablePadding="2.0dip" android:fontFamily="SamsungSans-Num3L" style="@style/sview_text_shadow" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/battery_charging" android:paddingLeft="0.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="SamsungSans-Num3L" style="@style/sview_text_shadow" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/s_view_cover_emergency_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <com.sec.android.sviewcover.BatteryMeterView android:id="@id/s_view_cover_icon_emergency_battery" android:layout_width="24.0dip" android:layout_height="35.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="3.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+                <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/s_view_cover_text_emergency_battery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip" style="@style/sview_text_shadow" />
+            </LinearLayout>
+            <View android:id="@id/s_view_cover_emergency_devider" android:background="#d9ffffff" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="40.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/s_view_cover_icon_emergency_timer" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/s_view_cover_text_emergency_timer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:singleLine="true" style="@style/sview_text_shadow" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/clear_battery_contatiner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <view android:gravity="center" android:id="@id/missed_event_view" android:paddingTop="17.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" class="com.sec.android.sviewcover.SViewCoverWidget$MissedEvent">
+                <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/missed_event_msg_cnt" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="33.0dip" android:drawableLeft="@drawable/clear_notification_ic_message" android:drawablePadding="5.0dip" style="@style/sview_text_shadow" />
+                <ImageView android:id="@id/missed_event_call_divider" android:background="@drawable/clear_notification_ic_divider" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+                <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/missed_event_call_cnt" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="33.0dip" android:drawableLeft="@drawable/clear_notification_ic_missed_call" android:drawablePadding="5.0dip" style="@style/sview_text_shadow" />
+            </view>
+        </FrameLayout>
+    </LinearLayout>
+    <view android:orientation="vertical" android:id="@id/music_home_widget" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.sec.android.sviewcover.SViewCoverWidget$MusicWidget">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/music_album_cover_bg" android:paddingTop="36.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/info_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_playlist" android:background="@drawable/music_playlist_btn" android:visibility="invisible" android:layout_width="52.0dip" android:layout_height="47.0dip" android:layout_marginLeft="22.0dip" android:layout_marginRight="8.0dip" android:contentDescription="@string/s_view_cover_transport_playlist_description" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/metadata_container" android:layout_width="174.0dip" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="roboto-regular" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/sview_text_shadow" />
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/artist_album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="roboto-regular" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/sview_text_shadow" />
+                    </LinearLayout>
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_volume" android:background="@drawable/music_volume_btn" android:layout_width="52.0dip" android:layout_height="47.0dip" android:layout_marginLeft="8.0dip" android:contentDescription="@string/s_view_cover_transport_volume_description" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layoutDirection="ltr">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_prev" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_control_btn_prev" android:minWidth="70.0dip" android:minHeight="70.0dip" android:contentDescription="@string/s_view_cover_transport_prev_description" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_play" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_control_btn_play" android:minWidth="86.0dip" android:minHeight="70.0dip" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_next" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_control_btn_next" android:minWidth="70.0dip" android:minHeight="70.0dip" android:contentDescription="@string/s_view_cover_transport_next_description" />
+                </FrameLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/transient_seek" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <SeekBar android:id="@id/transient_seek_bar" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/transient_seek_time_elapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_below="@id/transient_seek_bar" android:fontFamily="roboto-regular" android:layout_alignParentStart="true" style="@style/sview_text_shadow" />
+                <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/transient_seek_time_remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:layout_below="@id/transient_seek_bar" android:fontFamily="roboto-regular" android:layout_alignParentEnd="true" style="@style/sview_text_shadow" />
+            </RelativeLayout>
+        </LinearLayout>
+    </view>
+</LinearLayout>

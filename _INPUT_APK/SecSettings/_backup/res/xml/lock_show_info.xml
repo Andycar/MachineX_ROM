@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/show_clock" android:key="lock_screen_show_clock" />
+    <PreferenceScreen android:title="@string/dualclock_settings_title" android:key="dualclock_settings" android:summary="@string/dualclock_settings_summary" android:fragment="com.android.settings.dualclock.DualClockSetting" />
+    <ListPreference android:persistent="false" android:entries="@array/clock_size_key" android:title="@string/clock_size" android:key="clock_size" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/clock_size_value" />
+    <PreferenceScreen android:persistent="false" android:title="@string/clock_size" android:key="clock_size_with_preview" android:fragment="com.android.settings.PreviewFragment">
+        <extra android:name="MenuName" android:value="ClockSize" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/additional_information" android:key="lock_screen_additional_information_category" />
+    <PreferenceScreen android:title="@string/weather" android:key="lock_info_weather" />
+    <CheckBoxPreference android:title="@string/walking_mate_title" android:key="steps" android:summary="@string/additional_information_pedometer_summary" />
+    <PreferenceScreen android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+    <CheckBoxPreference android:title="@string/help_text_title" android:key="help_text" android:summary="@string/help_text_summary" />
+</PreferenceScreen>

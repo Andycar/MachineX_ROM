@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/surfacewidgetmainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/frame_mask_shadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sec.android.widgetapp.weather.libs.common.view.CustMaskView android:id="@id/frame_masking" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/frame_shadow" android:background="@drawable/widget_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/currentBGLayout" layout="@layout/widget_surfacewidget_common_bg_view" />
+        <include android:id="@id/nextBGLayout" layout="@layout/widget_surfacewidget_common_bg_view" />
+        <include android:id="@id/currentCityInfoLayout" layout="@layout/widget_surfacewidget_weatherinfo_view_4x2" />
+        <include android:id="@id/nextCityInfoLayout" layout="@layout/widget_surfacewidget_weatherinfo_view_4x2" />
+        <include android:id="@id/currentCityInfoLayout_4x1" layout="@layout/widget_surfacewidget_weatherinfo_view_4x1" />
+        <include android:id="@id/nextCityInfoLayout_4x1" layout="@layout/widget_surfacewidget_weatherinfo_view_4x1" />
+    </RelativeLayout>
+</RelativeLayout>

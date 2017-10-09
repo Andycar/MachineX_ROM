@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_Add" android:title="@string/menu_add_title" android:showAsAction="always" />
+    <item android:id="@id/menu_Edit" android:title="@string/menu_edit_title" />
+    <item android:id="@id/menu_Map" android:title="@string/weather_map" />
+    <item android:id="@id/menu_Settings" android:title="@string/menu_settings_title" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:title="@string/mouse_over_setting_guide" android:key="setting_guide" />
+    <CheckBoxPreference android:title="@string/finger_air_view_information_preview_title" android:key="information_preview" android:summary="@string/mouse_over_information_preview_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:title="@string/finger_air_view_icon_labels_title" android:key="icon_labels" android:summary="@string/mouse_over_icon_labels_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:title="@string/hovering_list_scroll" android:key="list_scrolling" android:summary="@string/mouse_over_list_scrolling_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:title="@string/finger_air_view_progress_bar_preview_title" android:key="progress_bar_preview" android:summary="@string/mouse_over_progress_bar_preview_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <CheckBoxPreference android:title="@string/mouse_over_magnetic_pointer_title" android:key="magnetic_ui" android:summary="@string/mouse_over_magnetic_pointer_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

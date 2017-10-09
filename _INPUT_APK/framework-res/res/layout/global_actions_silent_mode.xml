@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/tw_global_actions_silentmode_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/globalactions_silent_mode_mute">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/option1" android:background="@drawable/tw_quick_setting_bg_mtrl" android:focusable="true" android:layout_width="56.0dip" android:layout_height="56.0dip">
+            <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/tw_device_options_mute_selector" android:scaleType="center" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:text="@string/global_action_sound_mode_mute" style="?android:attr/twGlobalActionsSilentModeTextStyle" />
+        <View android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/globalactions_silent_mode_vibrate">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/option2" android:background="@drawable/tw_quick_setting_bg_mtrl" android:focusable="true" android:layout_width="56.0dip" android:layout_height="56.0dip">
+            <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/tw_device_options_vibrate_selector" android:scaleType="center" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:text="@string/global_action_sound_mode_vibrate" style="?android:attr/twGlobalActionsSilentModeTextStyle" />
+        <View android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/globalactions_silent_mode_sound">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/option3" android:background="@drawable/tw_quick_setting_bg_mtrl" android:focusable="true" android:layout_width="56.0dip" android:layout_height="56.0dip">
+            <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/tw_device_options_sound_selector" android:scaleType="center" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:text="@string/global_action_sound_mode_sound" style="?android:attr/twGlobalActionsSilentModeTextStyle" />
+        <View android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

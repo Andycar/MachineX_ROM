@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qs_secondary_torch_tile_layout" android:layout_width="fill_parent" android:layout_height="@dimen/qs_detailview_panel_torch_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:id="@id/title" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qs_torch_popup_title" />
+    <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/brightness_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/qs_torch_popup_brightness" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:layout_gravity="center" android:id="@id/brightness_progress" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:max="9" />
+    </LinearLayout>
+    <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/auto_turnoff_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/qs_torch_popup_auto_turnoff" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/secondary_radio_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qs_torch_popup_auto_turnoff_none" />
+            <RadioButton android:id="@id/secondary_radio_5min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qs_torch_popup_auto_turnoff_5min" />
+            <RadioButton android:id="@id/secondary_radio_10min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qs_torch_popup_auto_turnoff_10min" />
+        </RadioGroup>
+    </LinearLayout>
+    <view android:gravity="right" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/buttonPanel" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" class="com.android.internal.app.AlertController$ButtonBarLayout" style="?android:attr/buttonBarStyle">
+        <Button android:textColor="#ffffffff" android:id="@id/secondary_btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" style="?android:attr/buttonBarNegativeButtonStyle" />
+        <Button android:textColor="#ffffffff" android:id="@id/secondary_btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" style="?android:attr/buttonBarPositiveButtonStyle" />
+    </view>
+</LinearLayout>

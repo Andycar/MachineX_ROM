@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/no_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_item" />
+        <ViewStub android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ListView android:layout_gravity="start" android:id="@id/left_drawer" android:background="@drawable/tw_drawer_bottom_bg_holo_dark" android:layout_width="290.0dip" android:layout_height="fill_parent" android:divider="@drawable/tw_drawer_list_line_holo_dark" android:dividerHeight="0.5dip" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

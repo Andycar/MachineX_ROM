@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/path_catgory" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@id/menuDivider" android:background="@color/section_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/section_divider_height" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/grid_settings_expandable_category_text_size" android:textColor="@color/search_focus_color" android:gravity="center_vertical" android:id="@id/path_category_text_view" android:paddingLeft="@dimen/grid_settings_expandable_category_text_left_padding" android:paddingRight="@dimen/grid_settings_expandable_category_text_left_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/grid_settings_expandable_category_min_height" android:fontFamily="roboto-regular" />
+</LinearLayout>

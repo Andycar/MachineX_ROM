@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/language_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/v3_indicator_margin" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/title_text" android:paddingTop="@dimen/v3_title_padding_top" android:paddingBottom="@dimen/v3_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v3_title" style="@style/title_area" />
+        <ScrollView android:orientation="vertical" android:id="@id/terms_scroll" android:padding="@dimen/v3_description_scroll_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="left" android:id="@id/v3_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/v3_description_padding_left" android:layout_marginRight="@dimen/v3_description_padding_right" android:text="@string/v3_info" style="@style/description_area" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

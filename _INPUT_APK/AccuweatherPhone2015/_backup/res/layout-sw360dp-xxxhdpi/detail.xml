@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/current_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.widgetapp.ap.weather.detail.DetailBGViView android:id="@id/weather_vi_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="bottom" android:id="@id/sliding_layout" android:paddingBottom="29.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/mainContentLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/view_pager_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.sec.android.widgetapp.weather.libs.common.view.DetailViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_horizontal" android:id="@id/cube_pager_layout" android:background="@drawable/detail_selector" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cube_page1" android:focusable="false" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:splitMotionEvents="false" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cube_page2" android:focusable="false" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:splitMotionEvents="false" />
+            </RelativeLayout>
+            <include layout="@layout/detail_indicator" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/detailBottomLayout" android:background="@color/col_000000" android:layout_width="fill_parent" android:layout_height="29.0dip" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <RelativeLayout android:id="@id/detail_logo" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="99.0dip" android:layout_height="15.0dip" android:layout_centerVertical="true" android:contentDescription="@string/accu_logo" android:nextFocusForward="@id/detailupdatebtn" android:layout_marginStart="13.0dip" android:layout_alignParentStart="true">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_list_accuweather_logo" />
+        </RelativeLayout>
+        <ImageView android:id="@id/detailupdatebtn" android:background="@drawable/refresh_selector" android:focusable="true" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/weather_ic_list_update" android:layout_centerVertical="true" android:contentDescription="@string/refresh_button" android:nextFocusForward="@id/menugolist" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true">
+            <ProgressBar android:id="@id/detailupdateflipper" android:visibility="gone" android:drawingCacheQuality="high" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateBehavior="repeat" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:autoStart="true" style="?android:attr/progressBarStyleSmall" />
+        </RelativeLayout>
+        <TextView android:textSize="11.0dip" android:textStyle="normal" android:textColor="@color/col_FAFAFA" android:gravity="end" android:id="@id/detailupdatetext" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/last_updated_text" android:fontFamily="sans-serif" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/detailupdatebtn" />
+    </RelativeLayout>
+    <View android:id="@id/undoPopupPlaceHolder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

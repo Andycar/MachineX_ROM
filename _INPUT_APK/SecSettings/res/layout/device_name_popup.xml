@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText android:gravity="center_vertical" android:id="@id/device_name_edit_text_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="@dimen/device_name_popup_padding_top" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:layout_marginBottom="@dimen/device_name_popup_padding_bottom" android:lines="1" android:singleLine="true" android:inputType="textCapSentences" android:privateImeOptions="disableEmoticonInput=true" />
+        <TextView android:textSize="@dimen/settings_fragment_desc_text_size" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/device_name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/alert_dialog_padding_left_right" android:layout_marginTop="@dimen/device_name_popup_padding_top" android:layout_marginRight="@dimen/alert_dialog_padding_left_right" android:text="@string/allshare_rename_device_popup_1" />
+    </LinearLayout>
+</ScrollView>

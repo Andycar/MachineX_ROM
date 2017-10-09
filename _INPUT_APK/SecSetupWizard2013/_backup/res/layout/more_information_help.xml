@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="21.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="21.0dip">
+        <ImageView android:id="@id/more_infomation_image" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setupwizard_easy_mode_popup_img" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:gravity="start" android:id="@id/more_infomation_popup_text" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/easy_mode_help" style="@style/small_title_area" />
+    </LinearLayout>
+</ScrollView>

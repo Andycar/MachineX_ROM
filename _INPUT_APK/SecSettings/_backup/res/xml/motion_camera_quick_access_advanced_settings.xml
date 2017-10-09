@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_camera_short_cut_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:persistent="false" android:title="@string/motion_camera_short_cut_sound_feedback" android:key="camera_quick_access_sound_feedback" android:summary="@string/motion_camera_short_cut_sound_feedback_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+</PreferenceScreen>

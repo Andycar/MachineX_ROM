@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/application_section" android:title="@string/quick_applications_category" />
+    <header android:icon="@drawable/ic_settings_docomoservice" android:id="@id/docomoservice_settings" android:title="@string/docomoservice_settings">
+        <intent android:targetPackage="com.nttdocomo.android.docomoset" android:action="android.intent.action.MAIN" android:targetClass="com.nttdocomo.android.docomoset.DocomoServiceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_home" android:id="@id/home_settings" android:title="@string/home_settings_header" android:fragment="com.android.settings.HomeSettings" />
+    <header android:icon="@drawable/ic_settings_applications" android:id="@id/application_settings" android:title="@string/applications_settings" android:fragment="com.android.settings.applications.ManageApplications" />
+    <header android:icon="@drawable/ic_setting_launch_apps" android:id="@id/launch_application_settings" android:title="@string/launch_application_settings" android:fragment="com.android.settings.LaunchApplication" />
+    <header android:icon="@drawable/share_with_contacts_setting_icon" android:id="@id/share_with_contacts" android:title="@string/share_with_contacts">
+        <intent android:targetPackage="com.samsung.android.coreapps" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.coreapps.easysignup.ui.SettingPreferences" />
+    </header>
+    <header android:icon="@drawable/ic_settings_call_setting" android:id="@id/call_settings" android:title="@string/call_settings">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </header>
+    <header android:icon="@drawable/ic_setting_contacts" android:id="@id/contact_settings" android:title="@string/sync_contacts">
+        <intent android:targetPackage="com.android.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.android.contacts.preference.ContactsPreferenceActivity" />
+    </header>
+    <header android:icon="@drawable/ic_setting_contacts" android:id="@id/contact_settings_jpn" android:title="@string/sync_contacts">
+        <intent android:targetPackage="com.samsung.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.contacts.preference.ContactsPreferenceActivity" />
+    </header>
+    <header android:icon="@drawable/ic_setting_email" android:id="@id/email_settings" android:title="@string/easy_mode_email">
+        <intent android:action="com.android.email.activity.setup.GENERAL_SETTINGS" />
+    </header>
+    <header android:icon="@drawable/ic_setting_gallery" android:id="@id/gallery_settings" android:title="@string/finger_air_view_help_information_priview_gallery_title">
+        <intent android:targetPackage="com.sec.android.gallery3d" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.gallery3d.settings.AccountSettingActivity" />
+    </header>
+    <header android:icon="@drawable/ic_setting_internet" android:id="@id/browser_settings" android:title="@string/smart_scroll_app_web">
+        <intent android:targetPackage="com.sec.android.app.sbrowser" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.sbrowser.preferences.Settings" />
+    </header>
+    <header android:icon="@drawable/ic_setting_message" android:id="@id/message_settings" android:title="@string/message">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.settings.MessagingSplitPreferenceActivity" />
+    </header>
+    <header android:icon="@drawable/ic_setting_splanner" android:id="@id/calendar_settings" android:title="@string/finger_air_view_help_information_priview_splanner_title_calendar">
+        <intent android:action="com.sec.android.intent.calendar.setting" />
+    </header>
+    <header android:icon="@drawable/ic_setting_splanner" android:id="@id/splanner_settings" android:title="@string/finger_air_view_help_information_priview_splanner_title">
+        <intent android:action="com.sec.android.intent.calendar.setting" />
+    </header>
+    <header android:icon="@drawable/ic_setting_svoice" android:id="@id/svoice_settings" android:title="@string/apps_svoice_settings">
+        <intent android:targetPackage="com.vlingo.midas" android:action="android.intent.action.MAIN" android:targetClass="com.vlingo.midas.settings.twopane.SettingsScreenTwoPane" />
+    </header>
+    <header android:icon="@drawable/ic_settings_applications" android:id="@id/application_settings_vzw" android:title="@string/quick_applications" android:fragment="com.android.settings.ApplicationsSettingsVZW" />
+</preference-headers>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_deviceinfo" style="@style/wifi_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="22.0dip">
+        <TextView android:id="@id/device_name_title" style="@style/wifi_item_info_label" />
+        <TextView android:textStyle="bold" android:id="@id/device_name" style="@style/wifi_item_info_content" />
+        <TextView android:id="@id/mac_address_title" android:layout_marginTop="21.0dip" style="@style/wifi_item_info_label" />
+        <TextView android:textStyle="bold" android:id="@id/mac_address" style="@style/wifi_item_info_content" />
+    </LinearLayout>
+</LinearLayout>

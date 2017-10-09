@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_cover_wday_day">E</string>
+    <string name="clear_cover_month_day_no_year">MMM d</string>
+    <string name="clear_cover_day_month_no_year">d MMM</string>
+    <string name="date_time_set">Socraigh</string>
+    <string name="save">Sábháil</string>
+    <string name="cancel">Cuir ar ceal</string>
+    <string name="clearcover_exit_button">Scoir</string>
+    <string name="clearcover_music_widget_unkown">Anaithnid</string>
+    <string name="clearcover_no_missed_event">Níl imeachtaí caillte agat</string>
+    <string name="clearcover_1_missed_call">Tá 1 ghlao caillte agat</string>
+    <string name="clearcover_1_unread_message">Tá 1 teachtaireacht neamhléite agat</string>
+    <string name="clearcover_n_missed_calls">Tá %d glao caillte agat</string>
+    <string name="clearcover_n_unread_messages">Tá %1$d teachtaireacht neamhléite agat</string>
+    <string name="clearcover_calls_and_messages">Tá %1$d glao caillte agus %2$d teachtaireacht neamhléite agat</string>
+    <string name="zzz_tts_temp_celsius">Celsius</string>
+    <string name="zzz_tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="zzz_tts_temperature">Céim</string>
+    <string name="volumepanel_ringtone">Clingthon</string>
+    <string name="volumepanel_media">Meáin</string>
+    <string name="volumepanel_notification">Fógra</string>
+    <string name="volumepanel_system">Córas</string>
+    <string name="s_view_cover_shortcuts_camera_text">Ceamara</string>
+    <string name="s_view_cover_shortcuts_quick_memo_text">Meabhrán Gníomhaíochta</string>
+    <string name="s_view_cover_shortcuts_music_player_text">Ceol</string>
+    <string name="cmas_presidential_alert">Presidential alert</string>
+    <string name="cmas_extreme_alert">Extreme alerts</string>
+    <string name="cmas_presidential_alerts">Foláirimh ón Uachtarán</string>
+    <string name="cmas_extreme_alerts">Extreme alerts</string>
+    <string name="cmas_severe_alerts">Severe alerts</string>
+    <string name="cmas_amber_alerts">Foláirimh Fhuadach Leanaí</string>
+    <string name="cmas_emergency_alerts">Foláirimh éigeandála</string>
+    <string name="sae_presidential_alert">Presidential alert</string>
+    <string name="new_message_title">Teachtaireacht nua</string>
+    <string name="message_count">%d teachtaireacht nua</string>
+    <string name="new_message">Teachtaireacht nua</string>
+    <string name="cb_msg_header">Teachtaireachtaí CB</string>
+    <string name="push_message_sender">Brútheachtaireacht</string>
+    <string name="select_background_color">Socraigh cúlbhrat S View</string>
+    <string name="s_view_window_theme">Cúlbhrat fuinneoige S View</string>
+    <string name="s_view_info_cover">Rogh. míreanna le taisp.</string>
+    <string name="s_view_screen_time_out">Am istigh scáileáin</string>
+    <string name="s_view_screen_roaming">Ag fánaíocht</string>
+    <string name="s_view_screen_home">Baile</string>
+    <string name="missed_call_title">Glao caillte</string>
+    <string name="missed_calls_count">%d glaonna a cailleadh</string>
+    <string name="battery_charging_percent">Ag luchtú: %d%%</string>
+    <string name="battery_wirelessly_charging_percent">Luchtú gan sreang - %d%%</string>
+    <string name="battery_charged">Luchtaithe.</string>
+    <string name="unknown">Anaithnid</string>
+    <string name="private_num">Uimhir phríobháideach</string>
+    <string name="payphone">Íocfón</string>
+    <string name="unknown_address">Seoladh anaithnid</string>
+    <string name="s_view_cover_transport_prev_description">Roimhe</string>
+    <string name="s_view_cover_transport_next_description">Ar aghaidh</string>
+    <string name="s_view_cover_transport_pause_description">Cuir ar sos</string>
+    <string name="s_view_cover_transport_play_description">Seinn</string>
+    <string name="s_view_cover_transport_stop_description">Stop</string>
+    <string name="s_view_cover_transport_volume_description">Airde</string>
+    <string name="s_view_cover_transport_playlist_description">Seinnliostaí</string>
+    <string name="s_view_cover_missed_event_secured_popup">Tá an gléas faoi ghlas. Oscail an clúdach le hamharc ar thuilleadh sonraí.</string>
+    <string name="s_view_cover_open_cover_popup">Oscail an clúdach chun cúlbhrat a shocrú.</string>
+    <string name="s_view_cover_missed_event_button_accessibiliy">Svaidhpeáil le dhá mhéar chun dul chuig leathanach na n-imeachtaí caillte.</string>
+    <string name="s_view_cover_settings_button_accessibiliy">Svaidhpeáil le dhá mhéar le dul chuig Socruithe.</string>
+    <string name="s_view_cover_camera_button_accessibiliy">Svaidhpeáil le dhá mhéar le Ceamara a oscailt.</string>
+    <string name="s_view_cover_emergency_timer_hrs">uair</string>
+    <string name="accessibility_battery_level">Tá an ceallra ag %d faoin gcéad</string>
+    <string name="unsaved">Gan sábháil</string>
+    <string name="clearcover_open_to_view_message">Oscail an clúdach le hamharc ar shonraí na teachtaireachta</string>
+    <string name="clearcover_open_to_view_call">Oscail an clúdach le hamharc ar shonraí an ghlao.</string>
+    <string name="ok">OK</string>
+    <string name="status_view_wday_month_day_no_year">E, MMMM d</string>
+    <string name="status_view_wday_day_month_no_year">E, d MMMM</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="keyguard_password_enter_pin_code">Scríobh cód PIN</string>
+    <string name="keyguard_password_wrong_pin_code">Cód PIN mícheart.</string>
+    <string name="keyguard_label_text">Le díghlasáil, brúigh Roghchlár agus ansin 0</string>
+    <string name="faceunlock_multiple_failures">Sáraíodh uaslíon na n-iarrachtaí le díghlasáil aghaidh.</string>
+    <string name="keyguard_charged">Luchtaithe.</string>
+    <string name="keyguard_plugged_in">Ag luchtú: %d%%</string>
+    <string name="keyguard_low_battery">Ceangail do luchtaire</string>
+    <string name="keyguard_charging_in_wireless">Luchtú gan sreang: %d%%</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Brúigh Roghchlár le díghlasáil</string>
+    <string name="keyguard_network_locked_message">Líonra glasáilte.</string>
+    <string name="keyguard_missing_sim_message_short">Níl cárta SIM ann</string>
+    <string name="keyguard_missing_sim_message">Níl cárta SIM san fhón</string>
+    <string name="keyguard_sim_locked_message">Tá cárta SIM glasáilte</string>
+    <string name="keyguard_sim_puk_locked_message">Tá an cárta SIM glasáilte le PUK</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Cárta SIM á dhíghlasáil…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Giuirléid %2$d den %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Cuir giuirléid leis</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Folamh</string>
+    <string name="keyguard_accessibility_widget">Giuirléid %s</string>
+    <string name="keyguard_accessibility_camera">Ceamara</string>
+    <string name="keyguard_accessibility_pattern_unlock">Díghlasáil patrúin</string>
+    <string name="keyguard_accessibility_face_unlock">Díghlasáil aghaidhe</string>
+    <string name="keyguard_accessibility_transport_pause_description">An cnaipe Cuir ar sos</string>
+    <string name="keyguard_accessibility_transport_play_description">An cnaipe Seinn</string>
+    <string name="keyguard_accessibility_transport_stop_description">An cnaipe Stop</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Ordóga thuas</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Ordóga thíos</string>
+    <string name="keyguard_accessibility_transport_heart_description">Croí</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">ALT</string>
+    <string name="keyboardview_keycode_cancel">Cuir ar ceal</string>
+    <string name="keyboardview_keycode_delete">SCRIOS</string>
+    <string name="keyboardview_keycode_done">Déanta</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Iontráil</string>
+    <string name="description_target_unlock">Díghlasáil</string>
+    <string name="description_target_camera">Ceamara</string>
+    <string name="description_target_silent">Tostach</string>
+    <string name="description_target_soundon">Fuaim air</string>
+    <string name="description_target_search">Cuardaigh</string>
+    <string name="kg_emergency_call_label">Glao éigeandála</string>
+    <string name="kg_forgot_pattern_button_text">Dearmad déanta ar phatrún?</string>
+    <string name="kg_wrong_pattern">Patrún mícheart</string>
+    <string name="kg_wrong_password">Pasfhocal mícheart</string>
+    <string name="kg_wrong_pin">PIN mícheart</string>
+    <string name="kg_too_many_failed_attempts_countdown">Triail arís i gceann %d soicind</string>
+    <string name="kg_too_many_failed_attempt_countdown">Triail arís i gceann 1 soicind</string>
+    <string name="kg_pattern_instructions">Tarraing do phatrún díghlasála</string>
+    <string name="kg_sim_pin_instructions">Iontráil PIN le an cárta SIM a dhíghlasáil</string>
+    <string name="kg_pin_instructions">Iontráil PIN</string>
+    <string name="kg_password_instructions">Iontráil pasfhocal</string>
+    <string name="kg_puk_enter_puk_hint">Tá do chárta SIM glasáilte. Cuir isteach do PUK le leanúint ar aghaidh. Déan teagmháil le do sholáthraí seirbhíse le sonraí a fháil.</string>
+    <string name="kg_puk_enter_pin_hint">Iontráil PIN nua</string>
+    <string name="kg_enter_confirm_pin_hint">Deimhnigh do PIN nua</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Cárta SIM á dhíghlasáil…</string>
+    <string name="kg_invalid_sim_pin_hint">Clóscríobh PIN a bhfuil idir 4 agus 8 n-uimhir ann</string>
+    <string name="kg_invalid_sim_puk_hint">Ba cheart go mbeadh 8 ndigit nó níos mó i do PUK</string>
+    <string name="kg_invalid_confirm_pin_hint">Ní mheaitseálann na PIN a d’iontráil tú</string>
+    <string name="kg_login_instructions">Le díghlasáil, sínigh isteach le do chuntas Google</string>
+    <string name="kg_login_username_hint">Ainm úsáideora (r-phost)</string>
+    <string name="kg_login_password_hint">Pasfhocal</string>
+    <string name="kg_login_submit_button">Síniú isteach</string>
+    <string name="kg_login_invalid_input">Ainm úsáideora nó pasfhocal neamhbhailí.</string>
+    <string name="no_network_connection">Níl nasc líonra ann</string>
+    <string name="kg_login_checking_password">An cuntas á sheiceáil…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"D'iontráil tú PIN mícheart %1$d uair.
+
+Triail arís i gceann %2$d soicind."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"D'iontráil tú pasfhocal mícheart %1$d uair. Triail arís i gceann %2$d soicind"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Rinne tú %1$d iarracht nár éirigh leo le do ghléas a dhíghlasáil. Triail arís i gceann %2$d soicind.</string>
+    <string name="kg_reordering_delete_drop_target_text">BAIN</string>
+    <string name="keyguard_transport_pause_description">An cnaipe Cuir ar sos</string>
+    <string name="keyguard_transport_play_description">An cnaipe Seinn</string>
+    <string name="keyguard_transport_stop_description">An cnaipe Stop</string>
+    <string name="keyguard_carrier_default">Gan seirbhís</string>
+    <string name="tts_temp_celsius">Celsius</string>
+    <string name="tts_temp_fahrenheit">Fahrenheit</string>
+    <string name="tts_temperature">Céim</string>
+    <string name="keyguard_dualclock_home">Baile</string>
+    <string name="keyguard_dualclock_roaming">Ag fánaíocht</string>
+    <string name="keyguard_dualclock_home_Seoul">Am Shúl</string>
+    <string name="keyguard_dualclock_roaming_Korea">Ag fánaíocht</string>
+    <string name="kg_spass_alternative_password">Pasfhocal eile</string>
+    <string name="kg_spass_backup_verification">Cineál fíoraithe cúltaca</string>
+    <string name="kg_spass_swipe">Svaidhpeáil méar thar an eochair bhaile le do ghléas a dhíghlasáil</string>
+    <string name="kg_spass_passed">Aitheanta.</string>
+    <string name="kg_forgot_spass_button_text">Díghlas. le Google</string>
+    <string name="kg_alternative_password_instructions">Iontráil pasfhocal malartach.</string>
+    <string name="kg_alternative_password_failed">Pasfhocal malartach mícheart.</string>
+    <string name="kg_spass_popup_guide_text">Cinntigh go bhfuil an eochair bhaile ar fad clúdaithe ag do mhéar mar a svaidhpeálann tú.</string>
+    <string name="kg_spass_backup_password_button">Iontráil p.fhocal cúltaca</string>
+    <string name="kg_spass_backup_password_introductions">Iontráil do phasfhocal cúltaca.</string>
+    <string name="kg_spass_backup_password_failed">Pasfhocal cúltaca mícheart iontráilte.</string>
+    <string name="kg_spass_backup_pin_introductions">Iontráil PIN cúltaca</string>
+    <string name="kg_spass_backup_pin_failed">PIN cúltaca mícheart.</string>
+    <string name="kg_spass_backup_pattern_introductions">Tarraing patrún cúltaca</string>
+    <string name="kg_spass_backup_pattern_failed">Tharraing tú patrún mícheart. Triail arís.</string>
+    <string name="keyguard_clock_with_battery">%s cumhacht ceallra</string>
+    <string name="default_profile_string">Teachtaireacht phearsanta</string>
+    <string name="default_profile_string_life_companion">Anamchara</string>
+    <string name="keyguard_progress_erasing_all">Gach sonra á scriosadh…</string>
+    <string name="kg_lockscreen_backup_pin_button_text">PIN cúltaca</string>
+    <string name="fail_attempt_unlock_popup_title">Díghlasáil scáil. dodhéanta.</string>
+    <string name="kg_failed_attempts_almost_at_pattern">Rinne tú %1$d iarracht nár éirigh leo le do ghléas a dhíghlasáil. Mura n-éiríonn leat sna %2$d iarracht eile, is féidir leat do ghléas a dhíghlasáil le do PIN malartach. Triail arís i gceann %3$d soicind.</string>
+    <string name="kg_1_failed_attempt_almost_at_wipe">You have incorrectly attempted to unlock the phone 1 time. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+    <string name="lockscreen_voiceunlock_failed_to_recognise_voice_text">Theip ar aithint gutha.</string>
+    <string name="lockscreen_unlock_guide_text">Svaidhpeáil an scáileán le díghlasáil</string>
+    <string name="kg_too_many_failed_spass_attempts_dialog_message">Níorbh fhéidir do mhéarlorg a fhíorú %1$d uaire. Triail arís i gceann %2$d soicind.</string>
+    <string name="keyguard_recovery_instructions">Iontráil an pasfhocal athshlánaithe le dhíghlasáil</string>
+    <string name="device_disabled">Gléas díchumasaithe. Déan teagmháil le riarthóir TF.</string>
+    <string name="keyguard_fmm_phone_locked_title">Fón glasáilte.</string>
+    <string name="keyguard_fmm_owner_phone">Uimhir an úinéara</string>
+    <string name="keyguard_camera_shortcut_tts">Déthapáil agus tarraing le Ceamara a oscailt.</string>
+    <string name="keyguard_signature_guide">Tarraing do shíniú ar an scáileán leis an bpeann lena dhíghlasáil</string>
+    <string name="keyguard_signature_failed_guide">Triail arís. Tarraing do shíniú ar an scáileán leis an bpeann lena dhíghlasáil</string>
+    <string name="kg_too_many_failed_signature_attempts_dialog_message">Tá do shíniú díghlasála tarraingthe mícheart agat %1$d uair. Triail arís i gceann %2$d soicind.</string>
+    <string name="zzz_keyguard_password_attempts_count_pin_code">%d iarracht fágtha.</string>
+    <string name="lockscreen_clock_dualclock_popup_title">Déchlog</string>
+    <string name="lockscreen_clock_dualclock_popup_message">Roghnaigh cathair baile le déchlog a thaispeáint ar an scáileán glasála. Téigh chuig Socruithe?</string>
+    <string name="kg_failed_attempts_almost_at_spass">Níorbh fhéidir do mhéarlorg a fhíorú %1$d uaire. Mura n-éiríonn leat sna %2$d iarracht eile, is féidir leat an gléas a dhíghlasáil le do mhodh díghlasála cúltaca. Triail arís i gceann %3$d soicind.</string>
+    <string name="lockscreen_unlock_guide_text_touch_exploration">Svaidhpeáil le dhá mhéar leis an scáileán a dhíghlasáil</string>
+    <string name="lockscreen_swipe_voice_unlock_guide_text">Svaidhpeáil an scáileán nó abair ordú múscailte le díghlasáil</string>
+    <string name="zzz_tts_lockscreen_shortcut_swipe">Tapáil arís agus svaidhpeáil an scáileán le feidhmchláir a oscailt</string>
+    <string name="kg_failed_5_attempts_to_show_backup_pin_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup PIN is now required to unlock the screen.</string>
+    <string name="kg_failed_5_attempts_to_show_backup_password_with_auto_wipe">You have incorrectly attempted to unlock the screen %d times. Your backup password is now required to unlock the screen.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe">You only have 1 attempt left to unlock your phone before it is reset to factory mode. This will delete all data, including files and downloaded apps.</string>
+    <string name="kg_remained_1_attempts_with_auto_wipe_subuser">You only have 1 attempt left to unlock your tablet before your account is removed. This will delete all data on your account, including files, and downloaded apps.</string>
+    <string name="kg_n_attempts_remaining">%d attempts remaining</string>
+    <string name="kg_1_attempt_remaining">1 attempt remaining</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_pin_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup PIN %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_too_many_failed_backup_password_attempts_dialog_message_with_auto_wipe">"You have incorrectly typed your backup password %1$d times. (%2$d attempts remaining)
+
+Try again in %3$d seconds."</string>
+    <string name="kg_password_wrong_pin_code_maximum">Tá do chárta SIM glasáilte. Cuir isteach do PUK le leanúint ar aghaidh. Déan teagmháil le do sholáthraí seirbhíse le sonraí a fháil.</string>
+    <string name="lockscreen_sim_puk_tmo_help_pin_blocked">Cuireadh bac ar PIN.</string>
+    <string name="lockscreen_sim_puk_tmo_help_contact_service_provider">Déan teagmháil le do sholáthraí seirbhíse le do chárta SIM a dhíghlasáil</string>
+    <string name="emergency_calls_only">Glaonna éigeandála amháin</string>
+    <string name="kg_spass_help_overlay_guide_text">Rothlaigh do ghléas %d° roimh duit barr do mhéire a svaidhpeáil síos thar an eochair bhaile.</string>
+    <string name="checkbox_description">Ná taispeáin arís</string>
+    <string name="keyguard_accessibility_change_input_method">Athraigh an modh ionchuir</string>
+    <string name="status_bar_date_format_day_month">E, d MMMM</string>
+    <string name="status_bar_date_format_month_day">E, MMMM d</string>
+    <string name="app_label">Córas UI</string>
+    <string name="status_bar_clear_all_button">Glan</string>
+    <string name="status_bar_recent_remove_item_title">Bain ón liosta</string>
+    <string name="status_bar_recent_inspect_item_title">Faisnéis an fheidhmchláir</string>
+    <string name="status_bar_no_recent_apps">Níl feidhmchláir le déanaí ann</string>
+    <string name="status_bar_no_notifications_title">Níl fógraí ann</string>
+    <string name="status_bar_ongoing_events_title">Leanúnach</string>
+    <string name="status_bar_latest_events_title">Fógraí</string>
+    <string name="battery_low_title">Cumhacht cheallra lag</string>
+    <string name="battery_low_percent_format">%d%% fágtha</string>
+    <string name="invalid_charger">Níl tacú ann do luchtú USB. Úsáid an luchtaire a soláthraíodh.</string>
+    <string name="battery_low_why">Socruithe</string>
+    <string name="status_bar_settings_settings_button">Socruithe</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mód eitilte</string>
+    <string name="status_bar_settings_auto_rotation">Uath-rothlaigh an scáileán</string>
+    <string name="status_bar_settings_mute_label">Balbh</string>
+    <string name="status_bar_settings_auto_brightness_label">Uath-</string>
+    <string name="status_bar_settings_notifications">Fógraí</string>
+    <string name="bluetooth_tethered">Nascaireacht ar Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Socraigh modhanna ionchuir</string>
+    <string name="status_bar_use_physical_keyboard">Eochairchlár fisiciúil</string>
+    <string name="usb_device_permission_prompt">"Ceadaigh d'fheidhmchlár %1$s gléas USB a rochtain?"</string>
+    <string name="usb_accessory_permission_prompt">"Ceadaigh d'fheidhmchlár %1$s oiriúint USB a rochtain?"</string>
+    <string name="usb_device_confirm_prompt">Oscail %1$s ar nascadh an gléis USB seo?</string>
+    <string name="usb_accessory_confirm_prompt">Oscail %1$s ar nascadh na hoiriúna USB seo?</string>
+    <string name="usb_accessory_uri_prompt">Ní fheidhmíonn feidhmchláir suiteáilte leis an oiriúint USB seo. Foghlaim tuilleadh faoin oiriúint seo ag %s.</string>
+    <string name="title_usb_accessory">Oiriúint USB</string>
+    <string name="label_view">Amharc air</string>
+    <string name="always_use_device">Úsáid mar réamhshocrú don ghléas USB seo</string>
+    <string name="always_use_accessory">Úsáid mar réamhshocrú don oiriúint USB seo</string>
+    <string name="usb_debugging_title">Ceadaigh dífhabhtú USB?</string>
+    <string name="usb_debugging_message">"Méarlorg eochrach RSA an ríomhaire:
+%1$s"</string>
+    <string name="usb_debugging_always">Ceadaigh an ríomhaire seo i gcónaí</string>
+    <string name="compat_mode_on">Zúmáil le scáileán a líonadh</string>
+    <string name="compat_mode_off">Sín le scáileán a líonadh</string>
+    <string name="screenshot_saving_ticker">Seat den scáileán á shábháil…</string>
+    <string name="screenshot_saving_title">Seat den scáileán á shábháil…</string>
+    <string name="screenshot_saving_text">Seat den scáileán á shábháil</string>
+    <string name="screenshot_saved_title">Seat scáileáin gafa</string>
+    <string name="screenshot_saved_text">Tapáil le hamharc ar sheat den scáileáin</string>
+    <string name="screenshot_failed_title">Ní féidir seat den scáileán a ghabháil.</string>
+    <string name="usb_preference_title">Roghanna aistrithe comhad USB</string>
+    <string name="use_mtp_button_title">Gléas mar sheinnteoir meán (MTP)</string>
+    <string name="use_ptp_button_title">Gléas mar cheamara (PTP)</string>
+    <string name="installer_cd_button_title">Suiteáil feidhmchlár aistrithe comhad Android do Mac</string>
+    <string name="accessibility_back">Siar</string>
+    <string name="accessibility_home">Baile</string>
+    <string name="accessibility_menu">Roghchlár</string>
+    <string name="accessibility_search_light">Cuardaigh</string>
+    <string name="accessibility_camera_button">Ceamara</string>
+    <string name="accessibility_unlock_button">Díghlasáil</string>
+    <string name="accessibility_ime_switch_button">Aistrigh an cnaipe don mhodh ionchuir</string>
+    <string name="accessibility_compatibility_zoom_button">Cnaipe zúmála comhoiriúnachta</string>
+    <string name="accessibility_compatibility_zoom_example">Zúmáil chuig scáileán níos mó</string>
+    <string name="accessibility_bluetooth_connected">Nasctha le Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth dícheangailte.</string>
+    <string name="accessibility_no_battery">Níl ceallra ann</string>
+    <string name="accessibility_battery_one_bar">Barra amháin de chumhacht ceallra</string>
+    <string name="accessibility_battery_two_bars">Dhá bharra de chumhacht ceallra</string>
+    <string name="accessibility_battery_three_bars">Trí bharra de chumhacht ceallra</string>
+    <string name="accessibility_battery_full">Ceallra lán.</string>
+    <string name="accessibility_no_phone">Níl comhartha fóin ann</string>
+    <string name="accessibility_phone_one_bar">Barra amháin de chomhartha fóin</string>
+    <string name="accessibility_phone_two_bars">Dhá bharra de chomhartha fóin</string>
+    <string name="accessibility_phone_three_bars">Trí bharra de chomhartha fóin</string>
+    <string name="accessibility_phone_signal_full">Comhartha iomlán fóin</string>
+    <string name="accessibility_no_data">Níl sonraí ann</string>
+    <string name="accessibility_data_one_bar">Barra amháin de chomhartha sonraí</string>
+    <string name="accessibility_data_two_bars">Dhá bharra de chomhartha sonraí</string>
+    <string name="accessibility_data_three_bars">Trí bharra de chomhartha sonraí</string>
+    <string name="accessibility_data_signal_full">Comhartha iomlán sonraí</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Níl comhartha Wi-Fi ann</string>
+    <string name="accessibility_wifi_one_bar">Barra amháin de chomhartha Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Dhá bharra de chomhartha Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Trí bharra de chomhartha Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Comhartha Wi-Fi lán</string>
+    <string name="accessibility_no_signal">Níl comhartha ann</string>
+    <string name="accessibility_not_connected">Gan nascadh.</string>
+    <string name="accessibility_desc_on">Air</string>
+    <string name="accessibility_desc_off">As</string>
+    <string name="accessibility_desc_connected">Nasctha.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Ag fánaíocht</string>
+    <string name="accessibility_data_connection_edge">Ciumhais</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Níl SIM ann</string>
+    <string name="accessibility_bluetooth_tether">Nascaireacht Bluetooth</string>
+    <string name="accessibility_airplane_mode">Mód eitilte</string>
+    <string name="accessibility_settings_button">Socruithe an chórais</string>
+    <string name="accessibility_notifications_button">Fógraí</string>
+    <string name="accessibility_remove_notification">Glan fógraí</string>
+    <string name="accessibility_gps_enabled">GPS casta air</string>
+    <string name="accessibility_gps_acquiring">GPS á fháil…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter cumasaithe</string>
+    <string name="accessibility_ringer_vibrate">Crith clingthoin</string>
+    <string name="accessibility_ringer_silent">Balbhaigh clingthon</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Dún</string>
+    <string name="accessibility_desc_quick_settings">Mearshocruithe</string>
+    <string name="accessibility_quick_settings_alarm">Aláram socraithe i gcomhair %s.</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Sonraí móibíleacha díchumasaithe</string>
+    <string name="data_usage_disabled_dialog_enable">Cumasaigh nasc sonraí arís</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Níl nasc Idirlín ann</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi nasctha.</string>
+    <string name="gps_notification_searching_text">Ag cuardach le GPS…</string>
+    <string name="gps_notification_found_text">Suíomh socraithe ag GPS</string>
+    <string name="accessibility_clear_all">Glan gach fógra</string>
+    <string name="status_bar_notification_inspect_item_title">Socruithe fógartha</string>
+    <string name="accessibility_rotation_lock_off">Rothlófar an scáileán go huathoibríoch</string>
+    <string name="start_dreams">Aisling</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="wifi_ap_not_supported">Ball te móibíleach gan tacú.</string>
+    <string name="it_policy_not_allow_wifi">Cuireann an beartas slándála srian ar úsáid Wi-Fi</string>
+    <string name="it_policy_not_allow_wifiap">Cuireann an beartas slándála srian ar úsáid comhroinnt Idirlín</string>
+    <string name="egn_during_usb_tethering">Easy group network has not been turned on. USB Tethering is still active.</string>
+    <string name="wifi_in_airplane_mode">Sa Mhód eitilte.</string>
+    <string name="edm_policy_not_allow_open_wifiap">Cuireann an beartas slándála srian ar nascaireacht neamhshlán a úsáid le haghaidh ball te</string>
+    <string name="wifi_authentication_succeed">Fíordheimhnithe.</string>
+    <string name="wifi_authentication_failed">Theip ar fhíordheimhniú.</string>
+    <string name="wifi_authentication_invalid_value">Theip ar an bhfíordheimhniú. Seiceáil ID agus pasfhocal.</string>
+    <string name="wifi_setup_title_connected_network">Nasctha le líonra Wi-Fi %s.</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charged_label">Luchtaithe.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth as</string>
+    <string name="quick_settings_brightness_label">Gile</string>
+    <string name="quick_settings_ime_label">Modh ionchuir</string>
+    <string name="quick_settings_location_label">Suíomh</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Glaonna éigeandála amháin.</string>
+    <string name="quick_settings_settings_label">Socruithe</string>
+    <string name="quick_settings_time_label">Am</string>
+    <string name="quick_settings_user_label">Mise</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Gan nascadh.</string>
+    <string name="quick_settings_wifi_no_network">Níl líonra ann</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_brightness_dialog_title">Gile</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Uath-</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_torch_label">Tóirse</string>
+    <string name="recents_empty_message">Níl feidhmchláir dheireanacha ann</string>
+    <string name="zen_no_interruptions">Gan cur isteach</string>
+    <string name="zen_important_interruptions">Cur isteach tosaíochta amháin</string>
+    <string name="speed_bump_explanation">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="interruption_level_none">Dada</string>
+    <string name="interruption_level_priority">"Tos
+aíocht"</string>
+    <string name="interruption_level_all">Gach</string>
+    <string name="guest_wipe_session_dontwipe">Lean ar aghaidh</string>
+    <string name="notification_hidden_text">Inneachar folaithe</string>
+    <string name="sanitized_content_text">Tapáil anseo le dul isteach in %s.</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="hidden_notifications_cancel">Ná déan, grma</string>
+    <string name="hidden_notifications_setup">Socrú</string>
+    <string name="quickpanel_airplane_mode_text">"Mód
+eitilte"</string>
+    <string name="quickpanel_airplane_mode_content_description">Mód eitilte</string>
+    <string name="quickpanel_content_description_led_on">Tá %s cumasaithe.</string>
+    <string name="quickpanel_content_description_led_off">Tá %s díchumasaithe.</string>
+    <string name="quickpanel_content_description_led_dim">Ní féidir %s a chumasú.</string>
+    <string name="accessibility_sfinder_button">Aimsitheoir S</string>
+    <string name="accessibility_qconnect_button">Mearnascadh</string>
+    <string name="accessibility_qconnect_button_tts">Mearnascadh</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Suíomh</string>
+    <string name="quickpanel_silent_mode_content_description">Mód tostach</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Fuaim</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Crith</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Balbhaigh</string>
+    <string name="quickpanel_rotation_content_description">Rothlú scáileáin</string>
+    <string name="quickpanel_mobile_data_content_description">Sonraí móibíleacha</string>
+    <string name="quickpanel_power_saving_content_description">Mód coigilte cumhachta</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ultramhód coigilte cumhachta</string>
+    <string name="quickpanel_wifi_display_content_description">Screen Mirroring</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_multiwindow_content_description">Ilfhuinneog</string>
+    <string name="quickpanel_car_mode_content_description">Mód cairr</string>
+    <string name="quickpanel_dormant_mode_content_description">Ná cuir isteach orm</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Ball te inaistrithe</string>
+    <string name="quickpanel_touch_sensitivity_content_description">Íogaireacht tadhaill</string>
+    <string name="quickpanel_smart_stay_content_description">Fanacht cliste</string>
+    <string name="quickpanel_smart_scroll_content_description">Scrollú cliste</string>
+    <string name="quickpanel_sync_content_description">Sionc</string>
+    <string name="quickpanel_vowifi_content_description">Glaoch Wi-Fi</string>
+    <string name="quickpanel_toolbox_content_description">Bosca uirlisí</string>
+    <string name="quickpanel_adaptive_display_content_description">Taispeáint oiriúnaitheach</string>
+    <string name="quickpanel_airgesture_content_description">Air gesture</string>
+    <string name="quickpanel_airview_content_description">Aeramharc</string>
+    <string name="quickpanel_network_booster_content_description">Treiseoir íoslódála</string>
+    <string name="quickpanel_personal_mode_content_description">Mód príobháideach</string>
+    <string name="quickpanel_s_beam_content_description">S Beam</string>
+    <string name="quickpanel_side_key_content_description">Painéal Taobheochair</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Suíomh</string>
+    <string name="quickpanel_silent_mode_text">"Mód
+tostach"</string>
+    <string name="quickpanel_silent_mode_sound">Fuaim</string>
+    <string name="quickpanel_silent_mode_vibrate">Crith</string>
+    <string name="quickpanel_silent_mode_mute">Balbh</string>
+    <string name="quickpanel_rotation_text">Rothlú scáileáin</string>
+    <string name="quickpanel_mobile_data_text">"Sonraí
+móibíl."</string>
+    <string name="quickpanel_power_saving_text">"Coigilt
+chumh."</string>
+    <string name="quickpanel_ultra_power_saving_text">"U.coigilt
+cumhachta"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_multiwindow_text">"Il
+fhuinneog"</string>
+    <string name="quickpanel_car_mode_text">"Mód
+cairr"</string>
+    <string name="quickpanel_driving_mode_text">"Mód
+lámhshaor"</string>
+    <string name="quickpanel_dormant_mode_text">"Ná cuir
+isteach orm"</string>
+    <string name="quickpanel_wifi_hotspot_text">"Ball te
+móibíl."</string>
+    <string name="quickpanel_touch_sensitivity_text">"Íogair.
+tadhaill"</string>
+    <string name="quickpanel_smart_stay_text">"Fanacht
+cliste"</string>
+    <string name="quickpanel_smart_scroll_text">"Scrollú
+cliste"</string>
+    <string name="quickpanel_sync_text">Sionc</string>
+    <string name="quickpanel_vowifi_text">"Wi-Fi
+Calling"</string>
+    <string name="quickpanel_toolbox_text">Bosca uirlisí</string>
+    <string name="quickpanel_smart_pause_text">"Sos
+cliste"</string>
+    <string name="quickpanel_adaptive_mode_text">"Taispnt
+oiriúnaith."</string>
+    <string name="quickpanel_airgesture_text">Aerchomhartha</string>
+    <string name="quickpanel_airview_text">Aeramharc</string>
+    <string name="quickpanel_network_booster_text">"Treiseoir
+íoslódála"</string>
+    <string name="quickpanel_personal_mode_text">"Mód
+príobh."</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_quick_connect_text">"Mear
+nascadh"</string>
+    <string name="quickpanel_side_key_text">"Painéal
+Taobheoch."</string>
+    <string name="accessibility_power_saving_mode">Cumasaigh feidhm amháin ar a laghad le Mód coigilte cumhachta a chumasú</string>
+    <string name="accessibility_power_saving_mode_title">Mód coigilte cumhachta</string>
+    <string name="insert_sim_card">Ionsáigh cárta SIM</string>
+    <string name="insert_sim_card_message">Ionsáigh cárta SIM le seirbhísí líonra a rochtain</string>
+    <string name="insert_uim_or_sim_card">Ionsáigh cárta UIM/SIM</string>
+    <string name="status_bar_recent_launch_task_manager_title">Bainis. tasc.</string>
+    <string name="status_bar_recent_remove_all_button">Dún gach</string>
+    <string name="blocking_mode_enable">Nuair a chumasaítear an mód seo, díchumasófar fógraí do ghnéithe roghnaithe. Ní bhfaighidh tú fógraí maidir le glaonna isteach ach ó dhaoine ar do liosta ceadaithe.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Díchumasaítear fógraí faoi ghnéithe roghnaithe i Mód bactha. Ní bhfaighidh tú fógraí faoi ghlaonna isteach ach ó dhaoine ar do Theagmhálaithe ceadaithe nuair a chuirtear bac ar ghlaonna isteach. Le do shocruithe Mód bactha a athrú, gabh chuig Socruithe > Pearsantú > Mód bactha.</string>
+    <string name="blocking_mode_enable_wifi">Agus an mód seo cumasaithe, díchumasófar fógraí do na gnéithe roghnaithe</string>
+    <string name="blocking_mode_title">Mód bactha</string>
+    <string name="magnification_text_for_air_view_button">Comharthaí formhéadaithe</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="smart_bonding_turn_off_text">Ní féidir Treiseoir íoslódála a úsáid agus %1$s cumasaithe. Díchumasaigh %2$s agus triail arís.</string>
+    <string name="quickpanel_air_view_warning">Cumasaigh feidhm amháin ar a laghad le aeramharc a chumasú</string>
+    <string name="quickpanel_air_view_warning_pen_support">Le haeramharc a chumasú, cumasaigh feidhm amháin ar a laghad ón Mód aeramhairc roghnaithe</string>
+    <string name="quickpanel_air_gesture_warning">Le Air gesture a chumasú, cumasaigh feidhm ábhartha amháin ar a laghad</string>
+    <string name="quickpanel_air_gesture_warning_continue">Tapáil agus coinnigh cnaipe mearshocraithe le gabháil chuig na socruithe ábhartha</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Mura n-úsáideann tú Wi-Fi, ní bheidh tú in ann an tIdirlíon, R-phost, ná feidhmchláir eile lena bhfuil nasc sonraí de dhíth.
+
+Díchumasófar sonraí móibíleacha."</string>
+    <string name="data_usage_disable_mobile_vzw_volte">Video calls will not work when mobile data is off. Also, you will not be able to use Internet, Email or other apps that need a data connection unless you connect to a Wi-Fi network. Turn off the mobile data connection?</string>
+    <string name="mobile_data_disable_during_volte">Unable to turn off mobile data during VoLTE call.</string>
+    <string name="mobile_data_connect">Nasc</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Ní féidir nascadh le líonraí móibíleacha agus mód Eitilte cumasaithe. Díchumasaigh mód Eitilte agus triail arís.</string>
+    <string name="warning_alert_check">Ná taispeáin arís</string>
+    <string name="data_usage_enable_mobile_warning">Is féidir go ngearrfar táillí breise ar nascadh le sonraí pacáiste. Ar aghaidh?</string>
+    <string name="volte_enable_toast_text_when_airplane_mode">Ní féidir VoLTE a úsáid agus Mód eitilte cumasaithe. Díchumasaigh Mód eitilte agus triail arís.</string>
+    <string name="volte_enable_toast_text_about_no_support_sim">Níl tacú i leagan reatha do bhogearraí do VoLTE. Déan teagmháil le seirbhísí do chustaiméirí le tuilleadh sonraí a fháil.</string>
+    <string name="smart_pause_toast_text">Le sos Cliste a úsáid, cumasaigh Balbhaigh/cuir ar sos i dtús báire.</string>
+    <string name="smart_bonding_popup_msg_roaming">Ní féidir Treiseoir íoslódála a úsáid le linn fánaíocht. Molaimid íoslódáil a dhéanamh trí líonra Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Cas Wi-Fi air</string>
+    <string name="smart_bonding_popup_msg_data_btn">Cas air Sonraí móibíleacha</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Cas Wi-Fi agus Sonraí móib. air</string>
+    <string name="smart_bonding_popup_msg_wifi">Tá Wi-Fi casta as faoi láthair. Chun Treiseoir íoslódála a chumasú, ní mór Wi-Fi agus sonraí móibíleacha araon a chasadh air. Is féidir go ngearrfar táillí breise ar íoslódáil trí líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
+    <string name="smart_bonding_popup_msg_data">Tá sonraí móibíleacha casta as faoi láthair. Chun Treiseoir íoslódála a chumasú, ní mór Wi-Fi agus sonraí móibíleacha araon a chasadh air. Is féidir go ngearrfar táillí breise ar íoslódáil trí líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Tá Wi-Fi agus sonraí móibíleacha casta as faoi láthair. Chun Treiseoir íoslódála a chumasú, ní mór Wi-Fi agus sonraí móibíleacha araon a chasadh air. Is féidir go ngearrfar táillí breise ar íoslódáil trí líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
+    <string name="smart_bonding_popup_msg">Cumasófar Treiseoir íoslódála. Is féidir go ngearrfar táillí breise ar íoslódáil trí líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
+    <string name="smartbonding_dialog_title">Treiseoir íoslódála</string>
+    <string name="insert_a_sim_card_and_try_again">Cuir isteach cárta SIM agus triail arís é.</string>
+    <string name="unable_to_enable_Download_booster">Ní féidir Treiseoir íoslódála a chumasú</string>
+    <string name="download_booster_dialog_title">Cumasaigh Treiseoir íoslódála</string>
+    <string name="enable">Cumasaigh</string>
+    <string name="sd_card">Cárta SD</string>
+    <string name="sdcard_insert">Cárta SD ionsáite</string>
+    <string name="sdcard_unmount">Díghléas cárta SD</string>
+    <string name="go_to_myfiles">Téigh chuig Mo Chomhaid</string>
+    <string name="charging_interruption_title">Luchtú dodhéanta</string>
+    <string name="charging_interruption_by_terminal_open_text">Ní féidir do ghléas a athrú. Cinntigh go bhfuil ceallra agus luchtaire a oireann le Samsung in úsáid agat agus go bhfuil do ghléas nasctha i gceart leis an luchtaire.</string>
+    <string name="full_battery_title">Faisnéis</string>
+    <string name="full_battery_text">"Ceallra lánluchtaithe.
+Díphlugáil luchtaire."</string>
+    <string name="reading_mode_title">Mód léitheoireachta</string>
+    <string name="reading_mode_alert">Mód léitheoireachta cumasaithe. Tá an scáileán optamaithe i gcomhair léitheoireachta. Níl an mód seo ar fáil ach i bhfeidhmchláir roghnaithe amháin.</string>
+    <string name="reading_mode_settings">Socruithe</string>
+    <string name="quickpanel_ebook_text">"Mód
+léitheoireachta"</string>
+    <string name="quickpanel_ebook_content_description">Mód léitheoireachta</string>
+    <string name="driving_mode_title">Mód lámhshaor</string>
+    <string name="driving_mode_on_dialog_msg_1">Ní mór Mód lámhshaor a chasadh as i Socruithe tar éis duit S Voice Lámhshaor a dhúnadh. Má tá Mód lámhshaor fós casta air, léifear amach go huathoibríoch i gcónaí fógraí agus faisnéis faoi ghlaonna isteach.</string>
+    <string name="driving_mode_on_dialog_msg_2">Is féidir leat Mód lámhshaor a chasadh as trí “Cas Mód lámhshaor as” a rá in S Voice Lámhshaor, nó trí ghabháil chuig Socruithe ar an bpainéal fógraí</string>
+    <string name="quickpanel_driving_mode_content_description">Mód lámhshaor</string>
+    <string name="critical_low_battery_title">Ceallra an-lag</string>
+    <string name="critical_low_battery_text">Ceangail do ghléas le luchtaire. Is féidir nach ndéanfar luchtú éifeachtach má leantar le húsáid do ghléis agus é á luchtú.</string>
+    <string name="critical_low_battery_text_charged_via_usb">Chun luchtú níos tapa, ceangail le soicéad plocóide é agus dún feidhmchláir nach bhfuil in úsáid in %s. Is féidir nach ndéanfar luchtú éifeachtach má leantar lena úsáid agus é á luchtú.</string>
+    <string name="critical_low_battery_text_charged_via_ta">Dún feidhmchláir nach bhfuil in úsáid in %s. Is féidir nach ndéanfar luchtú éifeachtach má leantar lena úsáid agus é á luchtú.</string>
+    <string name="low_battery_text">Ceangail do ghléas le luchtaire. Is féidir nach ndéanfar luchtú éifeachtach má leantar le húsáid do ghléis agus é á luchtú.</string>
+    <string name="low_battery_text_charged_via_usb">Chun luchtú níos tapa, ceangail le soicéad plocóide é agus dún feidhmchláir nach bhfuil in úsáid in %s. Is féidir nach ndéanfar luchtú éifeachtach má leantar lena úsáid agus é á luchtú.</string>
+    <string name="low_battery_text_charged_via_ta">Dún feidhmchláir nach bhfuil in úsáid in %s. Is féidir nach ndéanfar luchtú éifeachtach má leantar lena úsáid agus é á luchtú.</string>
+    <string name="low_battery_power_saving_button_text">Coigilt chumhachta</string>
+    <string name="wireless_charging_title">Luchtú gan sreang.</string>
+    <string name="cable_charging_title">Luchtú cábla</string>
+    <string name="wireless_charging_text">Ceap luchtaithe braite. Luchtú gan sreang…</string>
+    <string name="wireless_charging_text_for_us">Now charging wirelessly…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Ag athrú ó luchtú gan sreang go luchtú cábla</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Ag athrú ó luchtú cábla go luchtú gan sreang</string>
+    <string name="wireless_charging_spen_warning_text">Tá do ghléas á luchtú gan sreang anois. Is féidir nach n-oibreoidh do S Pen i gceart agus an luchtú gan sreang ar bun.</string>
+    <string name="incompatible_charger_title">Níl sé ag luchtú.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Cas as an gléas</string>
+    <string name="overheat_poweroff_warning_text">Tá do ghléas róthe. Casfar as é le fuarú.</string>
+    <string name="overheat_poweroff_warning_button_text">Ná cas as</string>
+    <string name="overheat_poweroff_notice_title">Gléas casta as go huathoibríoch</string>
+    <string name="overheat_poweroff_notice_text">"D'éirigh do ghléas róthe. Casadh as é ionas nach ndéanfaí aon damáiste dó.
+
+Éiríonn sé róthe mar gheall ar:
+Fheidhmchláir atá dian ar ghrafaicí a úsáid, amhail cluichí agus feidhmchláir nascleanúna, ar feadh tréimhsí ama fada.
+Chomhaid mhóra a aistriú.
+Do ghléas a úsáid i dtimpeallacht the."</string>
+    <string name="power_sharing_warning_title">Comhroinnt cumhachta</string>
+    <string name="power_sharing_warning_text">Tá cumhacht do cheallra níos ísle ná an teorainn ar chomhroinnt cumhachta. Chun leanúint ar aghaidh le comhroinnt cumhachta, ceartaigh an teorainn faoi bhun leibhéal reatha an cheallra.</string>
+    <string name="power_sharing_start_toast_text">Tosú ar Chomhroinnt Cumhachta…</string>
+    <string name="power_sharing_end_notification_text">Comhroinnt cumhachta críochnaithe. Dícheangail an cábla.</string>
+    <string name="power_sharing_unable_notification_text">Ní féidir comhroinnt.</string>
+    <string name="highvoltage_charger_notice_title">Úsáid Mearluchtú</string>
+    <string name="highvoltage_charger_notice_text">Déanfaidh sé seo do cheallra a luchtú níos sciobtha, go háirithe nuair a bhíonn an scáileán nó an gléas casta as.</string>
+    <string name="highvoltage_charger_notice_positivebutton_text">Cas an scáileán as</string>
+    <string name="highvoltage_charger_notification_text">Mearluchtaire ceangailte.</string>
+    <string name="face_detection_failure_text">Ní féidir le faire cliste do chuid súl a bhrath</string>
+    <string name="screenshot_failed_due_to_drm_text">Ní féidir an scáileán a ghabháil. Íomhá chosanta ag DRM.</string>
+    <string name="no_such_item">Ní féidir an mhír a aimsiú.</string>
+    <string name="one_item_will_be_deleted">Scriosfar 1 mhír</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Aontaim</string>
+    <string name="disagree">Ní aontaím</string>
+    <string name="location_masterswitch_dialogtitle">Cead suímh</string>
+    <string name="gps_donotshow">Ná taispeáin arís</string>
+    <string name="tethering_attention_title">Aire</string>
+    <string name="tethering_wifi_off_warning">Casfar as Wi-Fi má chumasaítear Ball te móibíleach.</string>
+    <string name="wifihotspot_detail">Sonraí</string>
+    <string name="tether_settings_title_wifi">Ball te inaistrithe</string>
+    <string name="guest_launge_warning_toast_text">Ní féidir %s a chumasú nó a dhíchumasú agus tú in Aoi-mhód.</string>
+    <string name="personal_page_popup_msg_while_moving_item">Ní féidir an Mód príobháideach a chumasú agus míreanna á mbogadh chuig Príobháideach.</string>
+    <string name="personal_page_popup_diable_msg_while_moving_item">Ní féidir an Mód príobháideach a dhíchumasú agus míreanna á mbogadh go Príobháideach.</string>
+    <string name="no_sim_notification_title">Níl SIM ann</string>
+    <string name="no_sim_notification_title_tmo">Níl cárta SIM ionsáite.</string>
+    <string name="no_sim_notification_title_vzw">No SIM found</string>
+    <string name="no_sim_notification_text">Ionsáigh cárta SIM</string>
+    <string name="no_sim_notification_text_vzw">Tap for more information.</string>
+    <string name="roaming_title">Ag fánaíocht</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="quickpanel_edit_current">Painéal fógraí</string>
+    <string name="guideline_empty_text">Tarraing íocón ón tráidire leis an bhfeidhmchlár sin a oscailt.</string>
+    <string name="drag_and_drop_content">Bog an t-inneachar</string>
+    <string name="switch_window">Aistrigh fuinneoga</string>
+    <string name="close_application">Dún an feidhmchlár</string>
+    <string name="collapse_window">Leacaigh an fhuinneog</string>
+    <string name="change_to_poup_view">Oscail i bhfuinneog aníos</string>
+    <string name="select_contents">"Tarraing agus scaoil alt téacs nó seat scáileáin d'íomhá isteach san fhuinneog eile"</string>
+    <string name="do_not_show_again">Ná taispeáin arís</string>
+    <string name="help">Cuidiú</string>
+    <string name="recent_multi_window">Oscail in amh. Ilfhuin.</string>
+    <string name="recent_pen_window">Oscail i bhfuinneog aníos</string>
+    <string name="recent_delete">Dún feidhmchlár</string>
+    <string name="disable_multi_window_popup_description">Díchumasófar Ilfhuinneog agus dúnfar gach feidhmchlár atá ar oscailt i bhfuinneoga aníos.</string>
+    <string name="disable_multi_window_popup_easymode_description">Ní féidir Ilfhuinneoga a úsáid agus an Mód éasca cumasaithe. Díchumasaigh an Mód éasca agus triail arís.</string>
+    <string name="yes">OK</string>
+    <string name="no">Cuir ar ceal</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tw_safe_media_volume_warning">Má bhíonn tú ag éisteacht leis an airde ard ar feadh tamaill fhada is féidir go ndéanfar dochar do do chluasa. Tapáil OK le ceadú an airde a mhéadú os cionn leibhéil sábháilte.</string>
+    <string name="tw_cover_volume_warning_message">Is féidir go ndéanfar dochar ar do chluasa trí éisteacht tamall fada ag airde ard. Le hairde a ardú, oscail an clúdach.</string>
+    <string name="global_actions_toggle_airplane_mode_enable">Cumasaigh Mód eitilte</string>
+    <string name="global_actions_toggle_airplane_mode">Mód eitilte</string>
+    <string name="global_actions_airplane_mode_on_status_confirm_body">Cuireann mód eitilte ar do chumas feidhmeanna glaoigh, teachtaireachta, agus líonraí móibíleacha a dhíchumasú</string>
+    <string name="global_actions_airplane_mode_off_status_confirm">Díchumasófar mód eitilte</string>
+    <string name="multi_window_use_popup_title">Cumasaigh Ilfhuinneoga</string>
+    <string name="multi_window_use_popup_msg">Ní féidir ilfhuinneog agus TalkBack araon a chumasú. Díchumasófar TalkBack.</string>
+    <string name="air_gesture_use_popup_title">Cumasaigh Air gesture</string>
+    <string name="air_gesture_use_popup_msg">Ní féidir Aerchomhartha agus TalkBack araon a chumasú. Díchumasófar TalkBack.</string>
+    <string name="air_view_use_popup_title">Cumasaigh aeramharc</string>
+    <string name="air_view_use_popup_msg">Ní féidir Aer-amharc agus na roghanna thíos araon a chumasú. Díchumasófar na roghanna thíos.</string>
+    <string name="car_mode_enable_use_popup_title">Cumasaigh Mód cairr</string>
+    <string name="car_mode_use_popup_msg">Ní féidir Mód cairr agus TalkBack a chumasú ag an am céanna. Díchumasófar TalkBack.</string>
+    <string name="smart_pause_use_popup_title">Cumasaigh sos cliste</string>
+    <string name="smart_pause_use_popup_msg">Ní féidir sos cliste agus TalkBack araon a chumasú. Díchumasófar TalkBack.</string>
+    <string name="smart_scroll_use_popup_title">Cumasaigh scrollú cliste</string>
+    <string name="smart_scroll_use_popup_msg">Ní féidir scrollú cliste agus TalkBack araon a chumasú. Díchumasófar TalkBack.</string>
+    <string name="smart_stay_use_popup_title">Cumasaigh faire cliste</string>
+    <string name="smart_stay_use_popup_msg">Ní féidir faire cliste agus TalkBack araon a chumasú. Díchumasófar TalkBack.</string>
+    <string name="toolbox_use_popup_title">Cumasaigh Bosca uirlisí</string>
+    <string name="toolbox_use_popup_msg">Ní féidir Bosca uirlisí agus TalkBack a chumasú ag an am céanna. Díchumasófar TalkBack.</string>
+    <string name="sidekey_use_popup_title">Cumasaigh Painéal Taobheochair</string>
+    <string name="sidekey_use_popup_msg">Ní féidir Painéal Taobheochair agus TalkBack a chumasú ag an am céanna. Díchumasófar TalkBack.</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Fógra</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="recent_help_dialog_title">An eochair Le déanaí</string>
+    <string name="recent_menukey_press_description_vzw">"Cuireadh an eochair Le déanaí in ionad na heochrach Roghchlár le cur ar do chumas athrú go tapa idir na feidhmchláir is déanaí a d'úsáid tú. Tapáil Cabhair le tuilleadh faisnéise a fháil."</string>
+    <string name="recent_menukey_press_description_no_help">"Cuireadh an eochair Le déanaí in ionad na heochrach Roghchlár le cur ar do chumas mearaistriú idir na feidhmchláir is déanaí a d'úsáid tú."</string>
+    <string name="recent_menukey_press_description_att">Cuireadh an eochair Le déanaí in ionad Roghchlár. Agus feidhmchlár ar oscailt, brúigh agus coinnigh an eochair Le déanaí le roghanna roghchláir a fheiceáil.</string>
+    <string name="recent_help_dialog_title_for_split_view">Gnéithe nua Ilfhuinneog</string>
+    <string name="recent_menukey_press_description_for_split_view_1">Le feidhmchláir a oscailt san amharc scáileáin scoilte, tapáil %s ar bharra teidil na fuinneoige feidhmchláir. Taispeántar an t-íocón seo nuair atá tacú ann san fheidhmchlár don amharc scáileáin scoilte.</string>
+    <string name="recent_menukey_press_description_for_split_view_1_talk">Le feidhmchláir a oscailt san amharc scáileáin scoilte, tapáil an t-íocón Scoilt scáileán ar bharra teidil na fuinneoige feidhmchláir. Taispeántar an t-íocón seo nuair atá tacú ann san fheidhmchlár don amharc scáileáin scoilte.</string>
+    <string name="recent_menukey_press_description_for_split_view_2">Tapáil agus coinnigh fuinneog feidhmchláir leis an bhfeidhmchlár a oscailt mar mhír aníos. Le hathrú ón amharc aníos chuig an amharc scáileáin scoilte, tarraing mír aníos an fheidhmchláir chuig barr nó chuig bun an scáileáin.</string>
+    <string name="recent_menukey_help_button">Cabhair</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="qs_edit_settings_title">Painéal fógraí</string>
+    <string name="qs_edit_settings_available_button">Cnaipí atá ar fáil</string>
+    <string name="qs_edit_setting_button_summary_vzw">Customize which quick setting buttons appear at the top of the notification panel. Touch and hold, then drag the buttons to add, hide, or re-order them.</string>
+    <string name="qs_edit_setting_button_summary">Saincheap na cnaipí mearshocruithe a dhéanfar infheicthe ar bharr an phainéil fógraí. Tapáil agus coinnigh iad, ansin tarraing na cnaipí le cur leis, le folú nó le cur in ord nua.</string>
+    <string name="notification_panel_unable_remove_minimum">Ní féidir an cnaipe a bhaint. Íoslíon na gcnaipí (%d) bainte amach.</string>
+    <string name="qs_edit_setting_edit_button">Déan athordú</string>
+    <string name="global_actions_airplane_mode_on_status_confirm">Cuireann Mód eitilte ar do chumas glaonna, teachtaireachtaí agus gnéithe líonra sonraí a chasadh as. Castar as gnéithe nascachta freisin amhail Wi-Fi agus Bluetooth. Chun Wi-Fi agus Bluetooth a úsáid, cas air iad faoi Shocruithe nó ar an bpainéal fógraí.</string>
+    <string name="pickup_tutorial_title">Triail rabhadh cliste</string>
+    <string name="put_your_phone">Tar éis duit do ghléas a chur síos, casfar an scáileán as.</string>
+    <string name="phone_detect">Cuir i gcás gur chaill tú glaonna nó teachtaireachtaí. Cuir síos do ghléas, tÓg arís é tar éis don scáileán a chasadh as.</string>
+    <string name="pick_up_your_phone">Tóg do ghléas</string>
+    <string name="tutorial_complete">Ceacht teagaisc curtha i gcrích.</string>
+    <string name="share_via">Comhroinn le</string>
+    <string name="airmsg_warning_alert_check">Ná taispeáin arís</string>
+    <string name="airmsg_check_data_title_WLAN">Nasc le WLAN</string>
+    <string name="airmsg_check_data_title_Mobile">Nasc le líonraí móibíleacha</string>
+    <string name="cooling_title">Tá an gléas ag éirí róthe</string>
+    <string name="cooling_body">"Tá do ghléas ag éirí róthe. Déanfar gníomhartha lena fhuarú.
+
+Is féidir leat do ghléas a úsáid, ach
+- is féidir go n-éireoidh solas an scáileáin níos doiléire.
+- is féidir go mbeidh moill ar an ngléas.
+- is féidir go gcuirfear luchtú ar sos.
+
+Má dhúntar an feidhmchlár reatha cabhróidh sin chun do ghléas a fhuarú.
+
+Tar éis don ghléas fuarú, fillfidh sé ar ghnáthfheidhmíocht go huathoibríoch."</string>
+    <string name="cooling_noti_text">Tapáil anseo le sonraí a fheiceáil</string>
+    <string name="cooling_popup_name">Fógra</string>
+    <string name="cooling_noti_title">Tá an gléas ag éirí róthe</string>
+    <string name="btn_text_no">Ar Ceal</string>
+    <string name="device_overheating">Tá an gléas ag éirí róthe</string>
+    <string name="colling_noti_text_2">Ní féidir feidhmchláir a oscailt. Ní féidir leat ach na feidhmchláir Fóin agus Teagmhálaithe a úsáid.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Tapáil anseo le tuilleadh faisnéise a fháil.</string>
+    <string name="cooling_popup_name_VZW">Fógra</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Ar Ceal</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance willAutomatically go back to normal."</string>
+    <string name="safe_mode_title_global">Díchumasaigh mód slán</string>
+    <string name="safe_mode_popup_body_global">"Le Mód slán a dhíchumasú, atosófar do ghléas. Beidh d'fheidhmchláir go léir ar fáil ansin."</string>
+    <string name="safe_mode_off_btn_global">OK</string>
+    <string name="safe_mode_noti_on_global">Mód sábháilte cumasaithe</string>
+    <string name="safe_mode_noti_body_global">Tapáil anseo le Mód slán a dhíchumasú.</string>
+    <string name="safe_mode_title_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_popup_body_vzw">Do you want to restart your phone to turn off Safe Mode? All of your apps will be restored.</string>
+    <string name="safe_mode_btn_cancel_vzw">Ar Ceal</string>
+    <string name="safe_mode_off_btn_vzw">Turn Off Safe Mode</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">Tap to turn off Safe Mode.</string>
+    <string name="qs_silent_on_to_change_interruption_mode">Leis an mód fuaime a athrú, socraigh an Mód curtha isteach chuig Tosaíocht nó Gach.</string>
+    <string name="accessibility_driving_mode">Cumasaigh feidhm ábhartha amháin ar a laghad chun an Mód lámhshaor a chasadh air</string>
+    <string name="qs_vibrate_on_in_priority">"Crith
+(Tosaíocht)"</string>
+    <string name="qs_sound_on_in_priority">"Fuaim
+(Tosaíocht)"</string>
+    <string name="qs_silent_popup_title">Mód fuaime</string>
+    <string name="qs_silent_popup_sound">Fuaim</string>
+    <string name="qs_silent_popup_vibrate">Crith</string>
+    <string name="qs_rotate_popup_title">Rothlú scáileáin</string>
+    <string name="qs_rotate_popup_all">Gach</string>
+    <string name="qs_torch_popup_title">Tóirse</string>
+    <string name="qs_torch_popup_brightness">Gile</string>
+    <string name="qs_torch_popup_auto_turnoff_none">Dada</string>
+    <string name="disable_multi_window_dialog_title">Díchumasaigh Ilfhuinneoga</string>
+    <string name="disable_multi_window_dialog_text">Díchumasófar Ilfhuinneog agus dúnfar gach feidhmchlár atá ar oscailt i bhfuinneoga aníos.</string>
+    <string name="AirplaneNoti_title">Mód eitilte cumasaithe</string>
+    <string name="AirplaneNoti_text">Díchumasaigh</string>
+    <string name="quickpanel_interruption_always_interrupt">"Cuir ist.
+i gcónaí"</string>
+    <string name="quickpanel_interruption_priority_only">"Tosaíocht
+amháin"</string>
+    <string name="tw_sound_priority_desciption">Fuaim do chur isteach tosaíochta</string>
+    <string name="tw_vibrate_priority_desciption">Crith le haghaidh cur isteach tosaíochta</string>
+    <string name="tw_mute_priority_desciption">Gan cur isteach (aláraim san áireamh)</string>
+    <string name="tw_zen_off_interruptions">Ar ghlaonna agus fógraí a fháil</string>
+    <string name="tw_interruption_level_priority">Tosaíocht amháin</string>
+    <string name="tw_zen_off_interruptions_vzw">When calls and notifications arrive</string>
+    <string name="tw_interruption_level_priority_vzw">Ná ceadaigh ach cur isteach tosaíochta</string>
+    <string name="tw_interruption_level_all_vzw">Cuir isteach i gcónaí</string>
+    <string name="tw_mute_priority_toast_description">"Gan cur isteach
+(aláraim san áireamh)"</string>
+    <string name="dnd_noti_title">Ná cuir isteach cumasaithe</string>
+    <string name="dnd_noti_message">Aláraim balbhaithe</string>
+    <string name="dnd_noti_action_disable">Díchumasaigh</string>
+    <string name="torch_light_notification_title">Tóirse casta air</string>
+    <string name="torch_light_notification_message">Cas Tóirse as</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Díchumasófar an Mód srianta líonra</string>
+    <string name="recent_help_dialog_title_for_popup_view">Amharc ilfhuinneoige a úsáid</string>
+    <string name="recent_menukey_press_description_for_popup_view_1">Le feidhmchláir a oscailt san amharc scáileáin scoilte, tapáil %s ar bharra teidil na fuinneoige feidhmchláir. Taispeántar an t-íocón seo nuair atá tacú ann san fheidhmchlár don amharc scáileáin scoilte.</string>
+    <string name="recent_menukey_press_description_for_popup_view_1_talk">Le feidhmchláir a oscailt san amharc scáileáin scoilte, tapáil an t-íocón Scoilt Scáileán ar bharra teidil na fuinneoige feidhmchláir. Taispeántar an t-íocón seo nuair atá tacú ann san fheidhmchlár don amharc scáileáin scoilte.</string>
+    <string name="recent_menukey_press_description_for_popup_view_2">Is féidir leat an eochair Le Déanaí a bhrú agus a choinneáil ar aon scáileán freisin le feidhmchláir a oscailt san amharc scáileáin scoilte.</string>
+    <string name="recent_menukey_press_description_for_popup_view_3">Amharc ar fheidhmchlár san amharc aníos ach svaidhpeáil síos go trasnánach ó cheachtar den dá chúinne ag barr an scáileáin agus an feidhmchlár ar oscailt agus ar taispeáint ar an scáileán.</string>
+    <string name="wallpaper_crop_button_done">Déanta</string>
+    <string name="accessibility_desc_notification_panel">Painéal fógraí</string>
+</resources>

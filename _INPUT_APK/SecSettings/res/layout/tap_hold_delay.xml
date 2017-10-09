@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/perform_longpress" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="?android:scrollbarSize" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/perform_long_press_text" />
+    <LinearLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:contentDescription="@string/perform_long_press_description" android:importantForAccessibility="yes">
+        <com.android.settings.accessibility.touchsensibility.TapAndHoldView android:id="@id/tapandholdview" android:background="@drawable/tap_hold_box_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:attr/borderlessButtonStyle">
+        <Button android:enabled="true" android:id="@id/longpress_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/longpress_cancel_text" android:layout_weight="1.0" style="@android:attr/buttonBarButtonStyle" />
+        <Button android:enabled="false" android:id="@id/longpress_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/longpress_save_text" android:layout_weight="1.0" style="@android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/keyguard_mass_tension_unlock_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_center_dot" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_center_dot" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_finger" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_finger" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_line" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_line" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_in_press" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_outer" />
+    <RelativeLayout android:id="@id/keyguard_tension_effect_tension_in_press_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_in_press_after" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_outer" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/keyguard_tension_effect_tension_finger_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_finger_after" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_finger_after" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/keyguard_tension_effect_tension_center_dot_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_center_dot_after" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_center_dot_after" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/keyguard_tension_effect_tension_line_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_tension_effect_tension_line_after" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyguard_tension_line" />
+    </RelativeLayout>
+</FrameLayout>

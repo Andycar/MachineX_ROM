@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/custom_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings.custom">
+    <PreferenceCategory android:title="@string/system_settings" android:key="system_settings" />
+    <ListPreference android:persistent="false" android:entries="@array/volume_panel_timeout_entries" android:title="@string/volume_panel_timeout_title" android:key="volume_panel_timeout" android:summary="@string/volume_panel_timeout_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/volume_panel_timeout_values" />
+    <PreferenceScreen android:title="@string/torchlight_settings" android:key="torchlight" android:fragment="com.android.settings.torchlight.TorchlightSettings" />
+    <PreferenceCategory android:title="@string/status_bar_settings" android:key="status_bar_settings" />
+    <CheckBoxPreference android:title="@string/tweaks_speed_title" android:key="tweaks_speed_view" android:summaryOn="@string/show_icon_on" android:summaryOff="@string/show_icon_off" />
+    <CheckBoxPreference android:title="@string/display_battery_percentage_title" android:key="display_battery_percentage" android:summaryOn="@string/show_icon_on" android:summaryOff="@string/show_icon_off" />
+</PreferenceScreen>

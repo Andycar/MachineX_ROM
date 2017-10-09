@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_show_message_access"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bluetooth_message_access" android:key="accounts" />
+    <Preference android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:colorForegroundInverse" android:title="" android:selectable="false" android:key="notice" android:summary="@string/bluetooth_message_access_notice" />
+</PreferenceScreen>

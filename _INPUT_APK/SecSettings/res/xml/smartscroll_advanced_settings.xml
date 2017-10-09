@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_scroll_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/scroll_mode_title" android:key="scroll_mode_category" />
+    <com.android.settings.RadioPreference android:title="@string/scroll_mode_face_tracking" android:key="radio_scroll_mode_0" />
+    <com.android.settings.RadioPreference android:title="@string/scroll_mode_wrist_angle" android:key="radio_scroll_mode_1" />
+    <PreferenceCategory android:title="@string/sound_category_sound_title" android:key="smart_scroll_general_category" />
+    <Preference android:title="@string/smart_scroll_type_title" android:key="smart_scroll_type" android:summary="@string/smart_scroll_type_summary">
+        <extra android:name="type" android:value="smart_scroll_type" />
+    </Preference>
+    <Preference android:title="@string/smart_scroll_sensitivity_title" android:key="smart_scroll_sensitivity" android:summary="@string/smart_scroll_sensitivity_summary">
+        <extra android:name="type" android:value="smart_scroll_sensitivity" />
+    </Preference>
+    <Preference android:title="@string/smart_scroll_unit_title" android:key="smart_scroll_unit" android:summary="@string/smart_scroll_unit_summary">
+        <extra android:name="type" android:value="smart_scroll_unit" />
+    </Preference>
+    <Preference android:title="@string/smart_scroll_acceleration_title" android:key="smart_scroll_acceleration" android:summary="@string/smart_scroll_acceleration_summary">
+        <extra android:name="type" android:value="smart_scroll_acceleration" />
+    </Preference>
+    <CheckBoxPreference android:title="@string/smart_scroll_visual_feedback_icon_title" android:key="smart_scroll_visual_feedback_icon" android:summary="@string/smart_scroll_visual_feedback_icon_summary" />
+    <PreferenceCategory android:title="@string/smartscreen_advanced_setting_title" android:key="smartscreen_advanced_setting_category" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_web" android:key="smart_scroll_adv_web" android:summary="@string/smart_scroll_app_web_summary" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_chrome" android:key="smart_scroll_adv_chrome" android:summary="@string/smart_scroll_app_chrome_summary" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_email_list" android:key="smart_scroll_adv_email_list" android:summary="@string/smart_scroll_app_email_list_summary" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_email_body" android:key="smart_scroll_adv_email_body" android:summary="@string/smart_scroll_app_email_body_summary" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_gmail_body" android:key="smart_scroll_adv_gmail_body" android:summary="@string/smart_scroll_app_gmail_body_summary" />
+    <CheckBoxPreference android:title="@string/smart_scroll_app_readers_hub" android:key="smart_scroll_adv_readers_hub" android:summary="@string/smart_scroll_app_readers_hub_summary" />
+</PreferenceScreen>

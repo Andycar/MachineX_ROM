@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lock_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/lock_screen_shortcut_camera_screen" android:key="lock_screen_short_or_camera_category" />
+    <SwitchPreferenceScreen android:title="@string/lock_screen_shortcut_camera_widget" android:key="lock_screen_short_or_camera_widget" android:summary="@string/lock_screen_shortcut_widget_title" />
+    <PreferenceScreen android:title="@string/lock_screen_clock_myprofile_widget" android:key="lock_screen_clock_or_myprofile" android:summary="@string/clock" />
+    <PreferenceCategory android:title="@string/lock_screen_clock_widget_options" android:key="lock_screen_widget_options_category" />
+    <PreferenceScreen android:title="@string/my_profile_edit" android:key="lock_screen_profile" android:summary="@string/my_profile_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.myprofile.MyProfileActivity" />
+    </PreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/dualclock_settings_title" android:key="dualclock_settings" android:summary="@string/dualclock_settings_summary" android:fragment="com.android.settings.dualclock.DualClockSetting" />
+    <ListPreference android:persistent="false" android:entries="@array/clock_size_key" android:title="@string/clock_size" android:key="clock_size" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/clock_size_value" />
+    <CheckBoxPreference android:title="@string/lock_screen_show_date_title" android:key="lock_screen_date_and_year" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <PreferenceScreen android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+    <CheckBoxPreference android:title="@string/help_text_title" android:key="help_text" android:summary="@string/help_text_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <PreferenceCategory android:title="@string/features_category_title" android:key="feature_category" />
+    <CheckBoxPreference android:title="@string/samsung_unlock_option_say_your_wakeup_command_to_unlock_screen" android:key="say_your_wakeup" android:summary="@string/wakeup_in_lockscreen_summary" android:widgetLayout="@layout/preference_widget_checkbox" />
+    <PreferenceScreen android:title="@string/samsung_unlock_option_set_wakeup_command" android:key="set_wakeup_command">
+        <intent android:action="android.intent.action.VOICE_SETTING_SET_WAKEUP_COMMAND" />
+    </PreferenceScreen>
+</PreferenceScreen>

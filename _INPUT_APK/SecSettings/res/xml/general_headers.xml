@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/setting_search">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
+    </header>
+    <header android:icon="@drawable/ic_settings_docomoservice" android:id="@id/docomoservice_settings" android:title="@string/docomoservice_settings">
+        <intent android:targetPackage="com.nttdocomo.android.docomoset" android:action="android.intent.action.MAIN" android:targetClass="com.nttdocomo.android.docomoset.DocomoServiceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_home" android:id="@id/home_settings_dcm" android:title="@string/home_settings_header" android:fragment="com.android.settings.DCMHomeSettings" />
+    <header android:id="@id/backup_section" android:title="@string/menu_header_category_accounts_and_backup" />
+    <header android:icon="@drawable/ic_settings_account" android:id="@id/header_general_account_and_backup" android:title="@string/account_settings" android:fragment="com.android.settings.accounts.AccountSettings" />
+    <header android:icon="@drawable/ic_settings_cloud" android:id="@id/scloud_settings" android:title="@string/scloud_settings" android:fragment="com.android.settings.cloud.CloudSettingsMainFragment" />
+    <header android:icon="@drawable/ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.settings.PrivacySettings" />
+    <header android:id="@id/header_general_device_manager" android:title="@string/menu_header_device_manager" />
+    <header android:icon="@drawable/share_with_contacts_setting_icon" android:id="@id/share_with_contacts" android:title="@string/share_with_contacts">
+        <intent android:targetPackage="com.samsung.android.coreapps" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.coreapps.easysignup.ui.SettingPreferences" />
+    </header>
+    <header android:icon="@drawable/ic_settings_date_time" android:id="@id/date_time_settings" android:title="@string/date_and_time_settings_title" android:fragment="com.android.settings.DateTimeSettings" />
+    <header android:icon="@drawable/ic_setting_grid_personal_page" android:id="@id/header_personal_page" android:title="@string/personal_page" android:summary="@string/personal_page_secretbox_summary" android:fragment="com.android.settings.personalpage.PersonalPageSettings" />
+    <header android:icon="@drawable/ic_settings_safety_assuarance" android:id="@id/safety_assurance_settings" android:title="@string/safety_assurance_settings" android:summary="@string/safety_assurance_menu_summary">
+        <intent android:targetPackage="com.sec.android.app.safetyassurance" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.safetyassurance.settings.SafetyAssuranceSetting" />
+    </header>
+    <header android:icon="@drawable/ic_settings_safety_assuarance" android:id="@id/safetycare_settings" android:title="@string/safetycare_settings" android:fragment="com.android.settings.safetycare.SafetyCareSettings" />
+    <header android:icon="@drawable/ic_settings_dock" android:id="@id/dock_settings" android:title="@string/accessory" android:fragment="com.android.settings.DockSettings" />
+    <header android:icon="@drawable/ic_settings_toolbar" android:id="@id/toolbar_settings" android:title="@string/toolbar_settings_title">
+        <intent android:launchMode="singleInstance" android:action="com.skyfire.browser.toolbar.intent.action.VIEW_SETTINGS">
+            <extra android:name="fragment" android:value="settings_fragment" />
+            <extra android:name="disable_tutorial" android:value="true" />
+        </intent>
+    </header>
+    <header android:icon="@drawable/ic_settings_applications" android:id="@id/application_settings" android:title="@string/applications_settings" android:fragment="com.android.settings.applications.ManageApplications" />
+    <header android:icon="@drawable/ic_settings_default_apps" android:id="@id/launch_application_settings" android:title="@string/launch_application_settings" android:fragment="com.android.settings.LaunchApplication" />
+    <header android:icon="@drawable/ic_setting_grid_guestlounge" android:id="@id/user_settings" android:title="@string/user_settings_title" android:fragment="com.android.settings.users.UserSettings" />
+    <header android:icon="@drawable/ic_settings_battery" android:id="@id/battery_settings" android:title="@string/power_usage_summary_title">
+        <intent android:targetPackage="com.samsung.android.sm" android:action="com.samsung.android.sm.ACTION_BATTERY" />
+    </header>
+    <header android:icon="@drawable/ic_settings_powersaving" android:id="@id/power_saving_mode" android:title="@string/power_saving_mode_title" android:fragment="com.android.settings.powersavingmode.MenuPowerSavingModeSettings" />
+    <header android:icon="@drawable/ic_settings_power" android:id="@id/power_settings" android:title="@string/power_title" android:fragment="com.android.settings.PowerSettings" />
+    <header android:icon="@drawable/ic_settings_storage" android:id="@id/storage_settings" android:title="@string/storage_settings" android:fragment="com.android.settings.deviceinfo.Memory" />
+    <header android:icon="@drawable/ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.android.settings.SecuritySettings" />
+    <header android:icon="@drawable/ic_settings_developeroption" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+    <header android:icon="@drawable/ic_setting_grid_activate_this_device_sprint" android:id="@id/activate_this_device" android:title="@string/activate_this_device">
+        <intent android:mimeType="vnd.sprint.dsa/vnd.sprint.dsa.main" android:action="com.sprint.dsa.DSA_ACTIVITY">
+            <extra android:name="com.sprint.dsa.source" android:value="menu" />
+        </intent>
+    </header>
+    <header android:icon="@drawable/ic_setting_grid_system_update_sprint" android:id="@id/system_update" android:title="@string/system_update" />
+    <header android:icon="@drawable/ic_settings_about" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.settings.DeviceInfoSettings" />
+    <header android:icon="@drawable/ic_setting_grid_system_update_vzw" android:id="@id/software_update" android:title="@string/system_update_settings_list_item_title" />
+</preference-headers>

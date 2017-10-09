@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/security_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/sim_lock_settings_title" android:key="sim_lock">
+        <Preference android:persistent="false" android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.IccLockSettings" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/security_passwords_title">
+        <CheckBoxPreference android:persistent="false" android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/device_admin_title" android:key="device_admin_category">
+        <Preference android:persistent="false" android:title="@string/manage_device_admin" android:key="manage_device_admin" android:summary="@string/manage_device_admin_summary" android:fragment="com.android.settings.DeviceAdminSettings" />
+        <Preference android:persistent="false" android:title="@string/application_function_control" android:key="app_ops" android:summary="@string/app_ops_settings_summary" android:fragment="com.android.settings.applications.AppOpsSummary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/install_applications" android:key="toggle_install_applications" android:summaryOn="@string/install_unknown_applications" android:summaryOff="@string/install_unknown_applications" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/security_update_service_category" android:key="new_security_update_service">
+        <Preference android:persistent="false" android:title="@string/auto_policy_dpdate_title_us" android:key="security_policy_updates" android:summary="@string/security_policy_updates_summary" android:fragment="com.android.settings.SecurityPolicySettings" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/security_reports_title" android:key="security_reports" android:summary="@string/security_reports_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/security_update_service_category" android:key="msa_security_update_service">
+        <Preference android:persistent="false" android:title="@string/msa_title_security_update" android:key="msa_security_update" android:summary="@string/msa_summary_security_updates" android:fragment="com.android.settings.MsaSecurityUpdateSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/credentials_title" android:key="credentials_management">
+        <Preference android:persistent="false" android:title="@string/credential_storage_type" android:key="credential_storage_type" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:persistent="false" android:title="@string/trusted_credentials" android:key="trusted_credentials" android:summary="@string/trusted_credentials_summary" android:fragment="com.android.settings.TrustedCredentialsSettings" />
+        <Preference android:persistent="false" android:title="@string/credentials_install" android:key="credentials_install" android:summary="@string/credentials_install_summary">
+            <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL" android:targetClass="com.android.certinstaller.CertInstallerMain" />
+        </Preference>
+        <Preference android:persistent="false" android:title="@string/credentials_reset" android:key="credentials_reset" android:summary="@string/credentials_reset_summary">
+            <intent android:targetPackage="com.android.settings" android:action="com.android.credentials.RESET" android:targetClass="com.android.settings.CredentialStorage" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/knox_security_mode_title" android:key="knox_security_mode">
+        <Preference android:title="@string/kap_title" android:key="knox_active_protection" android:summary="@string/kap_disabled" android:fragment="com.android.settings.KnoxActiveProtectionSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/advanced_security_title" android:key="advanced_security">
+        <Preference android:persistent="false" android:title="@string/manage_trust_agents" android:key="manage_trust_agents" android:summary="@string/manage_trust_agents_summary" android:fragment="com.android.settings.TrustAgentSettings" />
+        <PreferenceScreen android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:summary="@string/switch_off_text" android:fragment="com.android.settings.ScreenPinningSettings" />
+        <Preference android:title="@string/usage_access_title" android:key="usage_access" android:summary="@string/usage_access_summary" android:fragment="com.android.settings.UsageAccessSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/smartcard_credential" android:key="smartcard_credential_category">
+        <Preference android:persistent="false" android:title="@string/smartcard_configuration" android:key="smartCardConfig" android:summary="@string/smartcard_configuration_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

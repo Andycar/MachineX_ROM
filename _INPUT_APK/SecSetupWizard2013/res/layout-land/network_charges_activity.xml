@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/charge_title" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/charge_msg" android:paddingTop="@dimen/location_msg_marginTop" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/description_area" />
+        <LinearLayout android:orientation="vertical" android:id="@id/mobile_data" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/data_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mobile_data_title" style="@style/small_title_area" />
+            <CheckBox android:id="@id/mobile_data_checkbox" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_data_msg" style="@style/description_area" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

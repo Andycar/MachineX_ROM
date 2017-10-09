@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_button" android:background="@drawable/easy_widget_background" android:focusable="true" android:layout_width="@dimen/easy_widget_width" android:layout_height="@dimen/easy_widget_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:id="@id/center_icon" android:layout_width="@dimen/easy_widget_icon_size" android:layout_height="@dimen/easy_widget_icon_size" android:layout_marginLeft="@dimen/easy_widget_icon_margin_left" android:layout_marginTop="0.0dip" android:src="@drawable/accessibility_light_easy_off" />
+    <TextView android:textSize="20.0dip" android:typeface="normal" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center|top" android:id="@id/IconTitleFavorite" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="@dimen/accessibility_easywidget_text_margintop" android:text="@string/accessibility_widget_assistive_light" android:maxLines="2" android:singleLine="false" android:shadowColor="#dd000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:alpha="1.0" />
+</FrameLayout>

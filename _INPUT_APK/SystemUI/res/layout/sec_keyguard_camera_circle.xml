@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.sec.SecKeyguardCircleCameraView android:orientation="vertical" android:id="@id/sec_keyguard_camera_circle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/circle_arrow_camera" android:background="@anim/keyguard_arrow_animation" android:paddingBottom="@dimen/keyguard_bottom_area_arrow_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <ImageView android:id="@id/camera_button" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_default" android:scaleType="center" />
+</com.android.keyguard.sec.SecKeyguardCircleCameraView>
