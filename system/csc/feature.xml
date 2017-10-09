@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- It can be added for each operators like below form
+<ABC>                       -> sales code
+<sapient>TRUE</sapient>         -> feature1
+<burton>FALSE</burton>          -> feature2
+<libtech>TRUE</libtech>         -> feature3
+.
+.
+</ABC>
+
+each name of tags are will be environment variable with "ro.csc."
+ex) "ro.csc.sapient", "ro.csc.burton", "ro.csc.libtech" <== you could use them at any section.
+also, should be added between <FeatureSet>
+ and </FeatureSet> .
+jhwan.kim@hdlnc.com
+ -->
+<SamsungMobileFeature>
+
+<!--
+<Country></Country>
+<CountryISO></CountryISO>
+<SalesCode></SalesCode> -->
+
+<FeatureSet>
+<!-- Calendar -->
+<CscFeature_Calendar_EnableLunar>TRUE</CscFeature_Calendar_EnableLunar>
+<CscFeature_Calendar_EnableMsgReminder>TRUE</CscFeature_Calendar_EnableMsgReminder>
+<CscFeature_Calendar_SupportSMemo>TRUE</CscFeature_Calendar_SupportSMemo>
+<CscFeature_Calendar_SetColorOfDays>XXXXXBR</CscFeature_Calendar_SetColorOfDays>
+<!-- Common -->
+<CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+<CscFeature_Common_EnableUiDisplayMirroring>TRUE</CscFeature_Common_EnableUiDisplayMirroring>
+<!-- Camera -->
+<CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+<CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
+<CscFeature_Camera_EnableSmsNotiPopup>TRUE</CscFeature_Camera_EnableSmsNotiPopup>
+<CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+<CscFeature_Camera_DefaultQuality>superfine</CscFeature_Camera_DefaultQuality>
+<CscFeature_Camcorder_DefaultQuality>superfine</CscFeature_Camcorder_DefaultQuality>
+<CscFeature_Camera_CamcorderDoNotPauseMusic>TRUE</CscFeature_Camera_CamcorderDoNotPauseMusic>
+<!-- Message -->
+<CscFeature_Message_RecipientLimit>1000</CscFeature_Message_RecipientLimit>
+<CscFeature_Message_SmsToMmsTextThreshold>1000</CscFeature_Message_SmsToMmsTextThreshold>
+<CscFeature_Message_MaxSlideCount>1000</CscFeature_Message_MaxSlideCount>
+<CscFeature_Message_DisplaySmsTimeAs>phone,server</CscFeature_Message_DisplaySmsTimeAs>
+<CscFeature_Message_DisplayMmsTimeAs>phone,server</CscFeature_Message_DisplayMmsTimeAs>
+<CscFeature_Message_ReplaceCRToNewLine>TRUE</CscFeature_Message_ReplaceCRToNewLine>
+<CscFeature_Message_GalleryView4SingleImageMms>TRUE</CscFeature_Message_GalleryView4SingleImageMms>
+<CscFeature_Message_DisableConvertingEffectBetweenSMSMMS>TRUE</CscFeature_Message_DisableConvertingEffectBetweenSMSMMS>
+<CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+<CscFeature_Message_DisableBackgroundStyleWithImage>TRUE</CscFeature_Message_DisableBackgroundStyleWithImage>
+<CscFeature_Message_EnableRegisterToCalender>TRUE</CscFeature_Message_EnableRegisterToCalender>
+<CscFeature_Message_EnableNetworkWarningDialog>TRUE</CscFeature_Message_EnableNetworkWarningDialog>
+<CscFeature_Message_EnableFolderView>TRUE</CscFeature_Message_EnableFolderView>
+<CscFeature_Message_EnableMenuRemindAlert>TRUE</CscFeature_Message_EnableMenuRemindAlert>
+<CscFeature_Message_ReplaceLabel4RetreivedMsg>TRUE</CscFeature_Message_ReplaceLabel4RetreivedMsg>
+<CscFeature_Message_EnableVCard>TRUE</CscFeature_Message_EnableVCard>
+<CscFeature_Message_EnableSlideshowAutoPlay>TRUE</CscFeature_Message_EnableSlideshowAutoPlay>
+<CscFeature_Message_EnableMessagePriorityDuringComposing>TRUE</CscFeature_Message_EnableMessagePriorityDuringComposing>
+<CscFeature_Message_EnableFontSize>TRUE</CscFeature_Message_EnableFontSize>
+<CscFeature_Message_EnableTextFieldColor>TRUE</CscFeature_Message_EnableTextFieldColor>
+<CscFeature_Message_EnableFontSizeByVolumeKey>TRUE</CscFeature_Message_EnableFontSizeByVolumeKey>
+<CscFeature_Message_EnableScheduledMessage>TRUE</CscFeature_Message_EnableScheduledMessage>
+<CscFeature_Message_EnableScheduledMsgBox>TRUE</CscFeature_Message_EnableScheduledMsgBox>
+<CscFeature_Message_EnableReplyAll>TRUE</CscFeature_Message_EnableReplyAll>
+<CscFeature_Message_EnableSendingEmptySms>TRUE</CscFeature_Message_EnableSendingEmptySms>
+<CscFeature_Message_EnableSaveVMessage>TRUE</CscFeature_Message_EnableSaveVMessage>
+<CscFeature_Message_EnableMsgTypeIndicationDuringComposing>TRUE</CscFeature_Message_EnableMsgTypeIndicationDuringComposing>
+<CscFeature_Message_AddSendOptionInComposer>TRUE</CscFeature_Message_AddSendOptionInComposer>
+<CscFeature_Message_EnableMultiLockMenu>TRUE</CscFeature_Message_EnableMultiLockMenu>
+<CscFeature_Message_DisableOptionAttachVCard>FALSE</CscFeature_Message_DisableOptionAttachVCard>
+<CscFeature_Message_DisableOptionAttachVMemo>FALSE</CscFeature_Message_DisableOptionAttachVMemo>
+<CscFeature_Message_DisableOptionAttachVCalendar>FALSE</CscFeature_Message_DisableOptionAttachVCalendar>
+<CscFeature_Message_DisableOptionAttachLocation>FALSE</CscFeature_Message_DisableOptionAttachLocation>
+<CscFeature_Message_DisableOptionRecordAudio>FALSE</CscFeature_Message_DisableOptionRecordAudio>
+<CscFeature_Message_DisableMenuCBMessage>FALSE</CscFeature_Message_DisableMenuCBMessage>
+<CscFeature_Message_DisableMenuSmsInputMode>FALSE</CscFeature_Message_DisableMenuSmsInputMode>
+<CscFeature_Message_DisableMenuSMSC>FALSE</CscFeature_Message_DisableMenuSMSC>
+<CscFeature_Message_DisableSmscEditable>FALSE</CscFeature_Message_DisableSmscEditable>
+<CscFeature_Message_DisableMenuMmsCreationMode>FALSE</CscFeature_Message_DisableMenuMmsCreationMode>
+<CscFeature_Message_DisableMmsSubject>FALSE</CscFeature_Message_DisableMmsSubject>
+<CscFeature_Message_DisableMenuSIMMessages>FALSE</CscFeature_Message_DisableMenuSIMMessages>
+<CscFeature_Message_DisableCopyToSim>FALSE</CscFeature_Message_DisableCopyToSim>
+<CscFeature_Message_DisableMenuCBChannel>FALSE</CscFeature_Message_DisableMenuCBChannel>
+<CscFeature_Message_DisableSaveClassZeroMessage>FALSE</CscFeature_Message_DisableSaveClassZeroMessage>
+<CscFeature_Message_DisableCBNotifications>FALSE</CscFeature_Message_DisableCBNotifications>
+<CscFeature_Message_EnableMenuInsertSenderInfoWhenFwdMsg>TRUE</CscFeature_Message_EnableMenuInsertSenderInfoWhenFwdMsg>
+<CscFeature_Message_DisableLogs>TRUE</CscFeature_Message_DisableLogs>
+<CscFeature_Message_EnableMenuSendMmsDeliveryReport>TRUE</CscFeature_Message_EnableMenuSendMmsDeliveryReport>
+<CscFeature_Message_EnableSmsCallbackNumber>TRUE</CscFeature_Message_EnableSmsCallbackNumber>
+<CscFeature_Message_EnableSearchByInitialConsonant>TRUE</CscFeature_Message_EnableSearchByInitialConsonant>
+<CscFeature_Message_EnableSpeedDial>TRUE</CscFeature_Message_EnableSpeedDial>
+<CscFeature_Message_EnableMultiCopyToSim>TRUE</CscFeature_Message_EnableMultiCopyToSim>
+<CscFeature_Message_EnableDisplayTotalCount4SimMsg>TRUE</CscFeature_Message_EnableDisplayTotalCount4SimMsg>
+<CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
+<CscFeature_Message_EnableMenuMmsExpiryDate>TRUE</CscFeature_Message_EnableMenuMmsExpiryDate>
+<CscFeature_Message_EnableMenuMmsPriority>TRUE</CscFeature_Message_EnableMenuMmsPriority>
+<CscFeature_Message_EnableMenuMmsDeliveryTime>TRUE</CscFeature_Message_EnableMenuMmsDeliveryTime>
+<CscFeature_Message_EnableSmsForwardPrefix>TRUE</CscFeature_Message_EnableSmsForwardPrefix>
+<CscFeature_Message_EnableMenuSmsExpiryDate>FALSE</CscFeature_Message_EnableMenuSmsExpiryDate>
+<CscFeature_Message_EnableSMSPcheckWhenSendSMS>TRUE</CscFeature_Message_EnableSMSPcheckWhenSendSMS>
+<CscFeature_Message_EnableAllContextMenuInMsgViewer>TRUE</CscFeature_Message_EnableAllContextMenuInMsgViewer>
+<CscFeature_Message_EnableDbBackupKeystring>TRUE</CscFeature_Message_EnableDbBackupKeystring>
+<CscFeature_Message_EnableNotificationBroadcastReceivedMessage>TRUE</CscFeature_Message_EnableNotificationBroadcastReceivedMessage>
+<CscFeature_Message_EnableMessageSentTimeInSimList>TRUE</CscFeature_Message_EnableMessageSentTimeInSimList>
+<CscFeature_Message_EnableAlias>TRUE</CscFeature_Message_EnableAlias>
+<CscFeature_Message_EnableAnonymousThread>TRUE</CscFeature_Message_EnableAnonymousThread>
+<CscFeature_Message_DisableDeleteButtonOnActionBar>FALSE</CscFeature_Message_DisableDeleteButtonOnActionBar>
+<CscFeature_Message_ConfigEmojiComposing>TRUE</CscFeature_Message_ConfigEmojiComposing>
+<CscFeature_Message_EnableCombineAndForwardMessage>TRUE</CscFeature_Message_EnableCombineAndForwardMessage>
+<CscFeature_Message_DisableSaveRingtoneMenu>FALSE</CscFeature_Message_DisableSaveRingtoneMenu>
+<CscFeature_Message_EnableMultiDraftBox>TRUE</CscFeature_Message_EnableMultiDraftBox>
+<CscFeature_Message_EnableFlickThreadView>TRUE</CscFeature_Message_EnableFlickThreadView>
+<CscFeature_Message_ConfigSpamReport>TRUE</CscFeature_Message_ConfigSpamReport>
+<CscFeature_Message_ConfigThreadForMultipleDest>TRUE</CscFeature_Message_ConfigThreadForMultipleDest>
+<CscFeature_Message_EnableViewByMessageType>TRUE</CscFeature_Message_EnableViewByMessageType>
+	
+<!-- KIES -->
+
+<!-- Contacts -->
+<CscFeature_Contact_SetLinkCountMaxAs>999</CscFeature_Contact_SetLinkCountMaxAs>
+
+<!-- Clock -->
+<CscFeature_Clock_EnableAutoPowerOnOffMenu>TRUE</CscFeature_Clock_EnableAutoPowerOnOffMenu>
+<CscFeature_Clock_EnableMenuAlarmAlertDuringSilentMode/>
+<!-- Mini Diary -->
+<CscFeature_MiniDiary_DisableChinaSns>TRUE</CscFeature_MiniDiary_DisableChinaSns>
+<!-- Dialer -->
+<CscFeature_Dialer_PhonebookNdigitsMatching>TRUE</CscFeature_Dialer_PhonebookNdigitsMatching>
+<CscFeature_RIL_CallerIdMatchingDigit>7</CscFeature_RIL_CallerIdMatchingDigit>
+<CscFeature_Contact_ExtendSpeedDialTo100>TRUE</CscFeature_Contact_ExtendSpeedDialTo100>
+<CscFeature_Contact_LimitNameLength>255</CscFeature_Contact_LimitNameLength>
+<CscFeature_Contact_EnableCallButtonInList>TRUE</CscFeature_Contact_EnableCallButtonInList>
+<CscFeature_Contact_EnableCopyToDialer>TRUE</CscFeature_Contact_EnableCopyToDialer>
+<CscFeature_Contact_DisableAccountIconsInContactList>FALSE</CscFeature_Contact_DisableAccountIconsInContactList>
+<CscFeature_Contact_RemoveLog4DeletedMsg>TRUE</CscFeature_Contact_RemoveLog4DeletedMsg>
+<CscFeature_Contact_DisableMessageLog>TRUE</CscFeature_Contact_DisableMessageLog>
+<CscFeature_Contact_EnableMenuDeleteHistory>TRUE</CscFeature_Contact_EnableMenuDeleteHistory>
+<CscFeature_Contact_EnableSelectAllAsMsgRecipient>TRUE</CscFeature_Contact_EnableSelectAllAsMsgRecipient>
+<!-- Call -->
+<CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+<!-- RIL -->
+<CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+<CscFeature_RIL_SupportUssdWithSharpChar>TRUE</CscFeature_RIL_SupportUssdWithSharpChar>
+<CscFeature_RIL_EnableTotalCallTime>TRUE</CscFeature_RIL_EnableTotalCallTime>
+<CscFeature_Setting_EnableRoamingMenu>TRUE</CscFeature_Setting_EnableRoamingMenu>
+<CscFeature_LockScreen_DisplayPlmn>TRUE</CscFeature_LockScreen_DisplayPlmn>
+<CscFeature_Setting_EnableHwVersionDisplay>TRUE</CscFeature_Setting_EnableHwVersionDisplay>
+<CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+<CscFeature_Settings_FOTA>FALSE</CscFeature_Settings_FOTA>
+<CscFeature_RIL_HandleUnsupportedDns64DuringDownBooster>TRUE</CscFeature_RIL_HandleUnsupportedDns64DuringDownBooster>
+
+<CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+<CscFeature_Web_AddOptionToTerminate>TRUE</CscFeature_Web_AddOptionToTerminate>
+<CscFeature_Web_TerminateAppOnCloseAllAction>TRUE</CscFeature_Web_TerminateAppOnCloseAllAction>
+<CscFeature_Web_ShowVersionInSetting>TRUE</CscFeature_Web_ShowVersionInSetting>
+<CscFeature_Web_bool_EnablePriorityUserBookmark>FALSE</CscFeature_Web_bool_EnablePriorityUserBookmark>
+<CscFeature_Web_SetHomepageURL>http://google.com</CscFeature_Web_SetHomepageURL>
+
+<!-- AppFW -->
+<CscFeature_Framework_EnableScrCaptureSoundOnlyInCamera>TRUE</CscFeature_Framework_EnableScrCaptureSoundOnlyInCamera>
+<CscFeature_Sip_DisableMultiInputLanuage>FALSE</CscFeature_Sip_DisableMultiInputLanuage>
+<CscFeature_Sip_UseSymbolInCMKey>TRUE</CscFeature_Sip_UseSymbolInCMKey>
+<CscFeature_Sip_EnableSymbolInSecondary>en_GB;en_US;az;ca;cs;da;de;et;es;eu;el;fr;ga;gl;ka;hr;it;is;kk;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;uk;ko;hy;bg;ar;fa;ur;iw;ja;th;vi;zh;uz;in;mk;ms</CscFeature_Sip_EnableSymbolInSecondary>
+<CscFeature_SIP_EnablePreferredEnglishTypeAsUS>TRUE</CscFeature_SIP_EnablePreferredEnglishTypeAsUS>
+<CscFeature_Sip_SupportShortcutPhrase>TRUE</CscFeature_Sip_SupportShortcutPhrase>
+<CscFeature_Sip_EnableLocalExtraKeyboard>TRUE</CscFeature_Sip_EnableLocalExtraKeyboard>
+<CscFeature_Sip_ReplaceSymbolLayout4>TRUE</CscFeature_Sip_ReplaceSymbolLayout4>
+<CscFeature_Sip_NextButtonColorAs>Red</CscFeature_Sip_NextButtonColorAs>
+<CscFeature_Sip_SymbolPopupInput>TRUE</CscFeature_Sip_SymbolPopupInput>
+<CscFeature_Sip_EnableLanguageToggleButton>TRUE</CscFeature_Sip_EnableLanguageToggleButton>
+<CscFeature_Sip_AddCommaKeyAsDefault>TRUE</CscFeature_Sip_AddCommaKeyAsDefault>
+
+<CscFeature_Launcher_EnableViewByAlphabetAsDefault>TRUE</CscFeature_Launcher_EnableViewByAlphabetAsDefault>
+<Cscfeature_Launcher_DisabledPageRotation>FALSE</Cscfeature_Launcher_DisabledPageRotation>
+<CscFeature_Briefing_CPConfig>weather:cma,stock:sina,news:sina,social:qzone,visit:daodao</CscFeature_Briefing_CPConfig>
+<!-- SEC LiveWallpaper -->
+<CscFeature_LiveWallpaper_WeatherWallCPName>AccuWeather</CscFeature_LiveWallpaper_WeatherWallCPName>
+
+<!-- GMS -->
+<CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>
+
+<!-- Wifi -->
+<CscFeature_Wifi_MaxClient4MobileAp>10</CscFeature_Wifi_MaxClient4MobileAp>
+
+<!-- Settings -->
+<CscFeature_Setting_DefNotificationPanelOrder>Wifi;Bluetooth;Location;MobileData;AirplaneMode;SilentMode;DownloadBooster;PowerSaving;WiFiHotspot;MultiWindow;Toolbox;CarMode;UltraPowerSaving;TorchLight;Flashlight;SBeam;Nfc;AirView;AirGesture;SmartNetwork;AutoRotate;DormantMode;Ebook;SmartStay;SmartScroll;SmartPause;SFinder;QuickConnect;AllShareCast;Sync;DrivingMode;ToddlerMode;NetworkBooster;</CscFeature_Setting_DefNotificationPanelOrder>
+<CscFeature_Setting_DefQuickPanelOrder>Wifi;Bluetooth;Location;MobileData;AirplaneMode;SilentMode;DownloadBooster;PowerSaving;WiFiHotspot;MultiWindow;Toolbox;CarMode;UltraPowerSaving;TorchLight;Flashlight;SBeam;Nfc;AirView;AirGesture;SmartNetwork;AutoRotate;DormantMode;Ebook;SmartStay;SmartScroll;SmartPause;SFinder;QuickConnect;AllShareCast;Sync;DrivingMode;ToddlerMode;NetworkBooster;</CscFeature_Setting_DefQuickPanelOrder>
+<CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+<CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+<CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+<CscFeature_Wifi_EnableMenuConnPriorityMode>TRUE</CscFeature_Wifi_EnableMenuConnPriorityMode>
+<CscFeature_Settings_GMS_Disable>FALSE</CscFeature_Settings_GMS_Disable>
+    
+</FeatureSet>
+</SamsungMobileFeature>

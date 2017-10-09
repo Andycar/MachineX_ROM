@@ -1,0 +1,56 @@
+#!/system/bin/sh
+
+bootimg="/system/framework/arm/boot.oat"
+
+list="/system/framework/core-libart.jar /system/framework/conscrypt.jar /system/framework/okhttp.jar /system/framework/core-junit.jar /system/framework/bouncycastle.jar /system/framework/ext.jar /system/framework/framework.jar /system/framework/telephony-common.jar /system/framework/voip-common.jar /system/framework/ims-common.jar /system/framework/mms-common.jar /system/framework/android.policy.jar /system/framework/apache-xml.jar /system/framework/sec_edm.jar /system/framework/seccamera.jar /system/framework/scrollpause.jar /system/framework/stayrotation.jar /system/framework/smartfaceservice.jar /system/framework/smartbondingservice.jar /system/framework/commonimsinterface.jar /system/framework/imsmanager.jar /system/framework/secocsp.jar /system/framework/secEmailBC.jar /system/framework/knoxvpnuidtag.jar";
+
+mount -o remount,rw /system > /dev/null;
+
+mkdir -p /system/framework/arm
+chmod -R 755 /system/framework/arm 
+
+/system/bin/dex2oat --runtime-arg -Xms64m --runtime-arg -Xmx64m  --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/sec_edm.jar --dex-file=/system/framework/seccamera.jar --dex-file=/system/framework/scrollpause.jar --dex-file=/system/framework/stayrotation.jar --dex-file=/system/framework/smartfaceservice.jar --dex-file=/system/framework/smartbondingservice.jar --dex-file=/system/framework/commonimsinterface.jar --dex-file=/system/framework/imsmanager.jar --dex-file=/system/framework/secocsp.jar --dex-file=/system/framework/secEmailBC.jar --dex-file=/system/framework/knoxvpnuidtag.jar --oat-symbols=/system/framework/arm/boot.oat --oat-file=/system/framework/arm/boot.oat --oat-location=/system/framework/arm/boot.oat  --image=/system/framework/arm/boot.art --base=0x70000000 --instruction-set=arm --instruction-set-features=div --android-root=/system --runtime-arg -Xnorelocate --include-patch-information --no-include-debug-symbols --compile-pic
+
+if [ -f "$bootimg" ]
+then
+	echo "$bootimg creation succeeded!"
+	for file in $list; do
+	echo "deleting classes.dex from $file";
+	zip -d $file classes.dex > /dev/null;
+	done;
+
+	zip -d /system/framework/framework.jar classes2.dex > /dev/null;
+
+else
+	echo "$bootimg creation failed, trying again"
+fi
+
+# next is for odexing 'stop zygote" or offlince/chargong mode.
+# They are different.
+#In the 1st one, we are getting this error: "Relocating image '/system/framework/boot.art' - only the zygote can create the global boot image." 
+#To get around this issue, we can  create soft links in /data beforehand 
+#This way, dex2oat process could proceed with boot.art image loading.
+#After this, we can odex the rest of the /system/framework/*.jar files
+#(non-bootclasspath files) before zygote even starts.
+#(i.e., when device is charging with adbd up and running.)
+
+# suggested by Jasonrr in case if /data/dalvik-cache/arm/system@framework@boot.art
+# when not present may cause problems after wiping ART cache
+
+ART_FILE=/data/dalvik-cache/arm/system@framework@boot.art
+OAT_FILE=/data/dalvik-cache/arm/system@framework@boot.oat
+
+if [ -e $ART_FILE ]; then
+else
+	mkdir -p /data/dalvik-cache/arm
+	chmod -R 777 /data/dalvik-cache
+	chmod -R 777 /data/dalvik-cache/arm
+	chown 1000.1000 /data/dalvik-cache
+	chown 1000.1000 /data/dalvik-cache/arm
+	ln -sf /system/framework/arm/boot.art /data/dalvik-cache/arm/system@framework@boot.art
+fi;
+
+if [ -e $OAT_FILE ]; then
+else
+	ln -sf /system/framework/arm/boot.oat /data/dalvik-cache/arm/system@framework@boot.oat
+fi

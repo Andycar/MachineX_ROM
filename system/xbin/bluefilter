@@ -1,0 +1,43 @@
+#!/system/bin/sh 
+VALUE=0 
+# BLUEFILTER_FILE=/data/bluelight/filtersettings
+
+# if [ -f $BLUEFILTER_FILE ]; then 
+	# echo $BLUEFILTER_FILE file exists
+# else
+	# mkdir -p /data/bluelight
+	# more /sys/devices/virtual/graphics/fb0/rgb > $BLUEFILTER_FILE
+# fi;
+
+for PCC in `cat /sys/devices/virtual/graphics/fb0/rgb` ; do
+		VALUE=$(($VALUE+1))
+			 case $VALUE in
+			 3)
+				echo $PCC
+				#if $PCC < 32768; then
+				if [ $PCC \< 32768 ]; then
+					echo "Bluelight filter is on"
+					echo 32768 32768 32768 > /sys/devices/virtual/graphics/fb0/rgb
+				else
+					echo "Bluelight filter is off"
+					echo 32768 32768 25112 > /sys/devices/virtual/graphics/fb0/rgb
+				fi;
+			 esac;
+done
+
+#answer=$(msg -a title=BlueLight Filter button1=OFF button2=Medium button3=MAX)
+
+#case "$answer" in
+#button1) 
+#echo 32768 32768 32768 > /sys/devices/virtual/graphics/fb0/rgb
+#msg -t BlueLight Filter is OFF! #
+#;;
+#button2) 
+#echo 32768 32768 25612 > /sys/devices/virtual/graphics/fb0/rgb
+#msg -n title=Example№3 sound=true wait=true BlueLight Filter Medium! && #Выводим всплывающее уведомление с текстом 
+#;;
+#button3) 
+#echo 32768 32768 21534 > /sys/devices/virtual/graphics/fb0/rgb
+#msg -n title=Example№3 sound=true wait=true BlueLight Filter Maximum! && #Выводим всплывающее уведомление с текстом 
+#;;
+#esac

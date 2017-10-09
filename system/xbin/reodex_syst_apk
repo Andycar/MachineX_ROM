@@ -1,0 +1,5 @@
+#!/system/bin/sh
+# after reodexing boot.oat(art), reodex two critical system Samsung APK
+
+odex /system/app/SecurityProviderSEC/SecurityProviderSEC.apk
+odex /system/priv-app/SecSettingsProvider/SecSettingsProvider.apk

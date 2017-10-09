@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# Init.d test
+busybox mount -o remount,rw -t auto /system
+busybox mount -o remount,rw -t auto /data
+echo "Init.d is working !!!" > /data/initd_test.log
+echo "excecuted on $(date +"%d-%m-%Y %r")" >> /data/initd_test.log

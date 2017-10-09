@@ -1,0 +1,26 @@
+#!/system/bin/sh 
+
+# Log file location
+LOG_FILE=/data/machinex_initd.log
+
+# WiFi 801.11ac enabler
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='US' WHERE name='wifi_country_code';";
+# WiFi off with screen after a period (default 15 minutes)
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='0' WHERE name='wifi_sleep_policy';";
+
+# ScreenFlickerFix
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='0' WHERE name='dim_screen';";
+# ScreenFlickerFix:
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='0' WHERE name='intelligent_screen_mode';";
+# ChargingTweak
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='0' WHERE name='adaptive_fast_charging';";
+# No 'swipe to unlock' at the bottom of lock screen
+	sqlite3 /data/data/com.android.providers.settings/databases/settings.db "UPDATE system SET value='0' WHERE name='unlock_text';";
+
+echo "SQLite operations on settings.db finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;
+
+pm disable com.android.settings/com.android.settings.wifi.hs20.Hs20UtilityService
+pm disable com.android.settings/com.android.settings.wifi.WifiCredService
+pm disable ru.machinex.andycar.bluefilter/net.dinglisch.android.tasker.MonitorService
+
+echo "pm disable services operations  finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;

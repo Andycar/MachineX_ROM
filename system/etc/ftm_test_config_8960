@@ -1,0 +1,56 @@
+tc 50
+#FM Play
+!FM
+Rxdevice:5
+Txdevice:6
+
+enable
+SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX:1
+RX1 MIX1 INP1:RX1
+RX2 MIX1 INP1:RX2
+HPHL DAC Switch:1
+HPHL Volume:100
+HPHR Volume:100
+RX1 Digital Volume:70
+RX2 Digital Volume:70
+SLIM_0_RX Channels:Two
+SLIMBUS_DL_HL Switch:1
+
+disable
+SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX:0
+RX1 MIX1 INP1:ZERO
+RX2 MIX1 INP1:ZERO
+HPHL Volume:0
+HPHR Volume:0
+SLIMBUS_DL_HL Switch:0
+
+tc 51
+#FM Speaker
+!FM
+Rxdevice:5
+Txdevice:6
+
+enable
+SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX:1
+SLIM_0_RX Channels:Two
+RX3 MIX1 INP1:RX1
+RX4 DSM MUX:DSM_INV
+RX5 MIX1 INP1:RX2
+RX6 DSM MUX:DSM_INV
+LINEOUT1 Volume:100
+LINEOUT2 Volume:100
+LINEOUT3 Volume:100
+LINEOUT4 Volume:100
+RX1 Digital Volume:70
+RX2 Digital Volume:70
+SLIMBUS_DL_HL Switch:1
+
+disable
+SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX:0
+RX3 MIX1 INP1:ZERO
+RX5 MIX1 INP1:ZERO
+RX4 DSM MUX:CIC_OUT
+RX6 DSM MUX:CIC_OUT
+RX1 Digital Volume:0
+RX2 Digital Volume:0
+SLIMBUS_DL_HL Switch:0

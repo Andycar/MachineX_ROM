@@ -1,0 +1,88 @@
+#!/system/bin/sh
+# odex: automate odexing specific files, or core system framework
+# osm0sis @ xda-developers
+# latest modification: by Andycar, Feb 2017 for Lollipop 5.0.1
+
+TMPDIR=/data/local/tmp
+
+if ! [ -d $TMPDIR ] ; then
+	busybox mkdir -p $TMPDIR
+fi
+
+case $PATH in
+  */system/xbin*) ;;
+  *) export PATH=$PATH:/system/xbin:/system/bin;;
+esac; 
+
+if [ -z "$BOOTCLASSPATH" ]; then
+	echo "no $BOOTCLASSPATH"
+	export BOOTCLASSPATH=/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/mms-common.jar:/system/framework/android.policy.jar:/system/framework/apache-xml.jar:/system/framework/sec_edm.jar:/system/framework/seccamera.jar:/system/framework/scrollpause.jar:/system/framework/stayrotation.jar:/system/framework/smartfaceservice.jar:/system/framework/smartbondingservice.jar:/system/framework/commonimsinterface.jar:/system/framework/imsmanager.jar:/system/framework/secocsp.jar:/system/framework/secEmailBC.jar:/system/framework/knoxvpnuidtag.jar;
+fi; 
+
+case $1 in
+  --help|"")
+    echo "Usage: odex [-c] FILE1 [FILE2 ...]";
+    echo "odexes supplied files and/or system frameworks.\n";
+    echo "  -c, --core  odex core system framework files";
+    echo "      --help  Display this help and exit";
+    return;;
+  --core|-c)
+  
+    echo "odex: odexing core system framework files...";
+	mkboot
+				 
+    list="/system/framework/core-libart.jar /system/framework/conscrypt.jar /system/framework/okhttp.jar /system/framework/core-junit.jar /system/framework/bouncycastle.jar /system/framework/ext.jar /system/framework/framework.jar /system/framework/telephony-common.jar /system/framework/voip-common.jar /system/framework/ims-common.jar /system/framework/mms-common.jar /system/framework/android.policy.jar /system/framework/apache-xml.jar /system/framework/sec_edm.jar /system/framework/seccamera.jar /system/framework/scrollpause.jar /system/framework/stayrotation.jar /system/framework/smartfaceservice.jar /system/framework/smartbondingservice.jar /system/framework/commonimsinterface.jar /system/framework/imsmanager.jar /system/framework/secocsp.jar /system/framework/secEmailBC.jar /system/framework/knoxvpnuidtag.jar";
+    core=1;;
+  *)
+    echo "odex: odexing supplied files...";
+    list="$*";;
+esac;
+
+mount -o remount,rw /system > /dev/null;
+
+
+for file in $list; do
+  if [ -f $file ]; then
+	dirName=`dirname $file`;
+    noPath=`basename $file`;
+	odexFile=`echo $dirName/\arm/\${noPath%\.*}.odex`;
+	dalvikFile=`echo ${file//\//@} | cut -c 2-`@classes.dex;
+
+    case $noPath in
+      *.jar|*.apk)
+        if [ ! $core ]; then
+          case $noPath in
+            core-libart.jar|conscrypt.jar|okhttp.jar|core-junit.jar|bouncycastle.jar|ext.jar|framework.jar|telephony-common.jar|voip-common.jar|ims-common.jar|mms-common.jar|android.policy.jar|apache-xml.jar|sec_edm.jar|seccamera.jar|scrollpause.jar|stayrotation.jar|smartfaceservice.jar|smartbondingservice.jar|commonimsinterface.jar|imsmanager.jar|secocsp.jar|secEmailBC.jar|knoxvpnuidtag.jar)
+              echo "$noPath is a core framework file, skipping";
+              continue;;
+		  case $noPath in
+			cneapiclient.jar|com.quicinc.cne.jar)
+			echo "$noPath is a framework file w/o classes.dex, skipping";
+            continue;;
+          esac;
+        fi;
+        if [ -f $odexFile ]; then
+          echo "$file is already odexed";
+          echo "$file";
+        else
+		  mkdir -p `echo /\$dirName/arm`;
+		  chmod -R 755 `echo /\$dirName/arm`;
+		  #echo $file $odexFile
+		  dex2oat --dex-file=$file --oat-file=$odexFile --runtime-arg -Xms64m --runtime-arg -Xmx512m --boot-image=/system/framework/boot.art --android-root=/system --instruction-set=arm --instruction-set-features=div --include-patch-information --runtime-arg -Xnorelocate --no-include-debug-symbols --compile-pic
+		  
+		  zip -d $file classes.dex > /dev/null;
+		  # Zipalign apks
+			zipalign -f -v 4 $file $TMPDIR/$noPath  > /dev/null;
+            cp -f -p $TMPDIR/$noPath $file
+            rm $TMPDIR/$noPath;
+          rm -f /data/dalvik-cache/arm/$dalvikFile;
+          chmod 644 $odexFile;
+        fi;;
+      *)
+        echo "$file is not valid";;
+    esac;
+  else
+    echo "$file does not exist";
+  fi;
+done;
+mount -o remount,ro /system 2> /dev/null;

@@ -1,0 +1,10 @@
+#!/system/bin/sh 
+# piece taken from osm0sis @ xda-developers # Busybox Installer Script: Recovery Flashable Zip
+
+mount -o rw,remount /system;
+target=/system/xbin;
+cd $target;
+
+for applet in `$target/busybox --list`; do
+    $target/busybox ln -sf busybox $applet;
+done;
