@@ -268,15 +268,15 @@
 .end method
 
 .method static synthetic access$1800(Lcom/android/server/dreams/DreamManagerService;Landroid/os/IBinder;II)V
-    .registers 4
-    .param p0, "x0"    # Lcom/android/server/dreams/DreamManagerService;
-    .param p1, "x1"    # Landroid/os/IBinder;
-    .param p2, "x2"    # I
-    .param p3, "x3"    # I
+    # .registers 4
+    # .param p0, "x0"    # Lcom/android/server/dreams/DreamManagerService;
+    # .param p1, "x1"    # Landroid/os/IBinder;
+    # .param p2, "x2"    # I
+    # .param p3, "x3"    # I
 
-    .prologue
-    .line 65
-    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/dreams/DreamManagerService;->startDozingInternal(Landroid/os/IBinder;II)V
+    # .prologue
+    # .line 65
+    # invoke-direct {p0, p1, p2, p3}, Lcom/android/server/dreams/DreamManagerService;->startDozingInternal(Landroid/os/IBinder;II)V
 
     return-void
 .end method
