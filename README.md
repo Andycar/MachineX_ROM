@@ -34,7 +34,10 @@ MachineX ROM Mark 4.1 (5th of Oct 2017) - 3rd First public release version
 - Updated dark overlays for Sec MMS app (no more low contrast colors)
 - Added Google Play Store black overlay
 - Updated some more dark and black global overlays for Android/Touchwiz frameworks
+- Added automatic brightness adjustment with zero delay
+- Removed startDozingInternal call from services.jar (no more wakelocks from DreamManagerService)
 - Removed Google voice input app from the ROM
+- Removed settings.db (com.android.system.providers) and supersu data (depricated)
 - Fixed SGUSBMassStorageEnabler (by mohammadag) ExtSdCard export ability ("/dev/block/vold/179:33")
 - Added shutdown for Bluetooth Gatt service (temporary fix for BlueBorne, requires machinex kernel)
 - Added some cleanup and integration in ROM-specific init.d scripts
