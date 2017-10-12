@@ -2106,7 +2106,7 @@
 
     .line 598
     :cond_62
-    const-wide/16 v10, 0xc8
+    const-wide/16 v10, 0x0 #was 0xc8
 
     add-long v6, p1, v10
 
@@ -2187,7 +2187,7 @@
     :cond_2f
     iget-wide v2, p0, Lcom/android/server/display/AutomaticBrightnessController;->mDebounceLuxTime:J
 
-    const-wide/16 v4, 0x7d0
+    const-wide/16 v4, 0x0 #was 0x7d0
 
     add-long v0, v2, v4
 
@@ -2243,7 +2243,7 @@
     :cond_58
     iget-wide v2, p0, Lcom/android/server/display/AutomaticBrightnessController;->mDebounceLuxTime:J
 
-    const-wide/16 v4, 0xbb8
+    const-wide/16 v4, 0x0 #0xbb8
 
     add-long v0, v2, v4
 
