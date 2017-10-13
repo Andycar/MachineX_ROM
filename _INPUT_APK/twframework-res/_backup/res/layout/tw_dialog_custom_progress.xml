@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+        <TextView android:textSize="17.0dip" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" style="?android:attr/textAppearance" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip">
+            <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="15.0dip" android:id="@id/progresslabel1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/progress" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15.0dip" android:id="@id/progresslabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/progress" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

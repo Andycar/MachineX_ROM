@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/APKTOOL_DUMMY_8d" />
+    <item android:state_focused="false" android:drawable="@drawable/APKTOOL_DUMMY_90" />
+    <item android:state_focused="true" android:drawable="@drawable/APKTOOL_DUMMY_84" />
+</selector>

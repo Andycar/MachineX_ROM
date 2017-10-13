@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/quickpanel_music" android:background="@drawable/APKTOOL_DUMMY_99" android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.299988dip">
+        <View android:visibility="invisible" android:layout_width="13.299988dip" android:layout_height="fill_parent" />
+        <Button android:id="@id/quickpanel_music_launch" android:background="@drawable/quickpanel_btn_music_sound" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/quickpanel_music_rew" android:background="@drawable/quickpanel_btn_rew" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/quickpanel_music_play" android:background="@drawable/quickpanel_btn_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/quickpanel_music_pause" android:background="@drawable/quickpanel_btn_pause" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <Button android:id="@id/quickpanel_music_ff" android:background="@drawable/quickpanel_btn_ff" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:typeface="sans" android:textStyle="normal" android:textColor="@color/tw_color001" android:ellipsize="marquee" android:gravity="center" android:id="@id/quickpanel_music_description" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.599976dip" android:layout_marginTop="63.299988dip" android:layout_marginRight="16.599976dip" android:singleLine="true" />
+</RelativeLayout>

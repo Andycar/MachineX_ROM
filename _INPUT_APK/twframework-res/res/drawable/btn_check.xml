@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_f0" />
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_c7" />
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/APKTOOL_DUMMY_de" />
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/APKTOOL_DUMMY_cf" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_e4" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_d5" />
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_c7" />
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_d6" />
+    <item android:state_window_focused="false" android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_d7" />
+    <item android:state_window_focused="false" android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_c8" />
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_d8" />
+    <item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_c9" />
+    <item android:state_checked="false" android:drawable="@drawable/APKTOOL_DUMMY_c8" />
+    <item android:state_checked="true" android:drawable="@drawable/APKTOOL_DUMMY_d7" />
+</selector>

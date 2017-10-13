@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.server.status.TrackingView android:orientation="vertical" android:paddingLeft="0.0px" android:paddingRight="0.0px" android:paddingBottom="0.0px" android:focusable="true" android:visibility="gone" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.server.status.TrackingPatternView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.android.server.status.CloseDragHandle android:orientation="vertical" android:id="@id/close" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_4c" android:scaleType="fitXY" />
+    </com.android.server.status.CloseDragHandle>
+</com.android.server.status.TrackingView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.server.status.ExpandedView android:orientation="vertical" android:background="@drawable/APKTOOL_DUMMY_4b" android:focusable="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/quickpanel_container" android:background="@drawable/APKTOOL_DUMMY_4d" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.32999dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.659973dip" android:typeface="sans" android:textStyle="normal" android:textColor="@color/tw_color001" android:gravity="center" android:id="@id/quickpanel_wifi_btn" android:background="@null" android:paddingTop="12.0dip" android:paddingBottom="9.599976dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/indicator_wifi" android:drawableTop="@drawable/APKTOOL_DUMMY_5f" android:layout_weight="1.0" />
+            <TextView android:textSize="14.659973dip" android:typeface="sans" android:textStyle="normal" android:textColor="@color/tw_color001" android:gravity="center" android:id="@id/quickpanel_bt_btn" android:background="@null" android:paddingTop="12.0dip" android:paddingBottom="9.599976dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/indicator_bt" android:drawableTop="@drawable/APKTOOL_DUMMY_5c" android:layout_weight="1.0" />
+            <TextView android:textSize="14.659973dip" android:typeface="sans" android:textStyle="normal" android:textColor="@color/tw_color001" android:gravity="center" android:id="@id/quickpanel_sound_btn" android:background="@null" android:paddingTop="12.0dip" android:paddingBottom="9.599976dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/indicator_sound" android:drawableTop="@drawable/APKTOOL_DUMMY_b2" android:layout_weight="1.0" />
+            <TextView android:textSize="14.659973dip" android:typeface="sans" android:textStyle="normal" android:textColor="@color/tw_color001" android:gravity="center" android:id="@id/quickpanel_vibration_btn" android:background="@null" android:paddingTop="12.0dip" android:paddingBottom="9.599976dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/indicator_vibration" android:drawableTop="@drawable/APKTOOL_DUMMY_b4" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.android.server.status.NotificationLinearLayout android:orientation="vertical" android:id="@id/notificationLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/quickpanel_mini_container" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/quickpanel_call" android:visibility="gone" android:layout_width="fill_parent" layout="@layout/quick_panel_call" />
+                    <include android:id="@id/quickpanel_music" android:visibility="gone" android:layout_width="fill_parent" layout="@layout/quick_panel_music" />
+                    <include android:id="@id/quickpanel_record" android:visibility="gone" android:layout_width="fill_parent" layout="@layout/quick_panel_voicerecord" />
+                    <include android:id="@id/quickpanel_radio" android:visibility="gone" android:layout_width="fill_parent" layout="@layout/quick_panel_radio" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/plmnLabel" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/spnLabel" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <Button android:textSize="14.0sp" android:id="@id/clear_all_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:text="@string/status_bar_clear_all_button" android:layout_weight="2.0" style="?android:attr/buttonStyleSmall" />
+                </LinearLayout>
+                <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/noNotificationsTitle" android:background="@null" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_no_notifications_title" />
+                <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/ongoingTitle" android:background="@null" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_ongoing_events_title" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ongoingItems" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/latestTitle" android:background="@null" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/status_bar_latest_events_title" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.android.server.status.NotificationLinearLayout>
+        </ScrollView>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_4e" android:scaleType="fitXY" />
+    </FrameLayout>
+</com.android.server.status.ExpandedView>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TwTabWidget" />
+    <style name="TwAlertDialog">
+        <item name="fullDark">@drawable/APKTOOL_DUMMY_2d</item>
+        <item name="topDark">@drawable/APKTOOL_DUMMY_2f</item>
+        <item name="centerDark">@drawable/APKTOOL_DUMMY_2a</item>
+        <item name="bottomDark">@drawable/APKTOOL_DUMMY_27</item>
+        <item name="fullBright">@drawable/APKTOOL_DUMMY_2c</item>
+        <item name="topBright">@drawable/APKTOOL_DUMMY_2e</item>
+        <item name="centerBright">@drawable/APKTOOL_DUMMY_29</item>
+        <item name="bottomBright">@drawable/APKTOOL_DUMMY_26</item>
+        <item name="bottomMedium">@drawable/APKTOOL_DUMMY_28</item>
+        <item name="centerMedium">@drawable/APKTOOL_DUMMY_2b</item>
+        <item name="topBrightWhite">@drawable/APKTOOL_DUMMY_73</item>
+    </style>
+    <style name="TwProgressBar">
+        <item name="theme">dark</item>
+    </style>
+    <style name="TwTextAppearanceEditTitle">
+        <item name="android:textSize">17.329987sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TwAbstractRadioCheckButton">
+        <item name="android:textAppearance">@style/TwTextAppearanceListOneLine</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="buttonDrawable">@android:drawable/btn_radio</item>
+        <item name="buttonDrawablePaddingLeft">10.0dip</item>
+        <item name="buttonDrawablePaddingTop">5.0dip</item>
+        <item name="buttonDrawablePaddingRight">10.0dip</item>
+        <item name="buttonDrawablePaddingBottom">5.0dip</item>
+        <item name="buttonDrawableGravity">right|center</item>
+    </style>
+    <style name="TwAbstractRadioCheckButton.TwRadioButton" parent="@style/TwAbstractRadioCheckButton" />
+    <style name="TwLeftRadioButtonStyle" parent="@style/TwAbstractRadioCheckButton.TwRadioButton">
+        <item name="android:paddingLeft">60.0dip</item>
+        <item name="buttonDrawable">?android:listChoiceIndicatorSingle</item>
+        <item name="buttonDrawableGravity">left|center</item>
+    </style>
+    <style name="TwRightRadioButtonStyle" parent="@style/TwAbstractRadioCheckButton.TwRadioButton">
+        <item name="android:paddingRight">60.0dip</item>
+        <item name="buttonDrawable">?android:listChoiceIndicatorSingle</item>
+        <item name="buttonDrawableGravity">right|center</item>
+    </style>
+    <style name="TwSoftkeyItemStyle">
+        <item name="android:textAppearance">@style/TwTextAppearanceSoftkey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="TwTextAppearanceTitle">
+        <item name="android:textSize">13.329987sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tw_textappearance_title</item>
+    </style>
+    <style name="TwTextAppearanceTab">
+        <item name="android:textSize">13.329987sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_tab</item>
+    </style>
+    <style name="TwTextAppearanceMenuSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_menusmall</item>
+    </style>
+    <style name="TwTextAppearanceSoftkey">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_softkey</item>
+    </style>
+    <style name="TwTextAppearanceListOneLine">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listoneline</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLinePrimary">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolineprimary</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondary">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_textappearance_listtwolinesecondary</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondaryOrange">
+        <item name="android:textSize">13.329987sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff006aaa</item>
+    </style>
+    <style name="TwTextAppearanceListTwoLineSecondaryGrey">
+        <item name="android:textSize">13.329987sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tw_color047</item>
+    </style>
+    <style name="TwTextAppearanceGroupTitle">
+        <item name="android:textSize">13.329987sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tw_textappearance_grouptitle</item>
+    </style>
+    <style name="TwAbsSeekBar" parent="@style/TwProgressBar" />
+    <style name="TwSeekBar" parent="@style/TwAbsSeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">@dimen/tw_seekbarSplit_height_size</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/tw_progress_horizontal</item>
+        <item name="android:minHeight">@dimen/tw_seekbarSplit_height_size</item>
+        <item name="android:thumb">@drawable/tw_seek_thumb</item>
+        <item name="android:thumbOffset">0.0px</item>
+        <item name="twMinHeight">@dimen/tw_seekbarSplit_height_size</item>
+        <item name="twMaxHeight">@dimen/tw_seekbarSplit_height_size</item>
+        <item name="twIndicatorThickness">14.0dip</item>
+        <item name="twSeekThumbFontColor">@color/tw_color140</item>
+        <item name="twSeekThumbFontSize">15.0sp</item>
+        <item name="twSeekThumbFontEnable">false</item>
+        <item name="twSeekThumbFontBoldStyle">true</item>
+    </style>
+    <style name="TwTheme" parent="@android:style/Theme.Light">
+        <item name="twTabWidgetStyle">@style/TwTabWidget</item>
+        <item name="twRadioButtonStyle">@style/TwRightRadioButtonStyle</item>
+        <item name="twSoftkeyItemStyle">@style/TwSoftkeyItemStyle</item>
+        <item name="twProgressBarStyle">@style/TwProgressBar</item>
+        <item name="twSeekBarStyle">@style/TwSeekBar</item>
+        <item name="TwCircleButtonPlusStyle">@style/TwCircleButtonPlus</item>
+        <item name="TwCircleButtonMinusStyle">@style/TwCircleButtonMinus</item>
+        <item name="TwCircleButtonPopUpPlusStyle">@style/TwCircleButtonPopUpPlus</item>
+        <item name="TwCircleButtonPopUpMinusStyle">@style/TwCircleButtonMinus</item>
+        <item name="twWhiteStyleList">@style/TwWhiteStyleList</item>
+        <item name="TwIndepthButtonStyle">@style/TwIndepthButton</item>
+        <item name="listChoiceIndicatorMultiple">@drawable/btn_check</item>
+        <item name="listChoiceIndicatorSingle">@drawable/btn_radio</item>
+    </style>
+    <style name="WhiteStyleList" parent="@android:style/Theme.Light">
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+    </style>
+    <style name="TwWhiteStyleList" parent="@android:style/Theme.Light">
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+    </style>
+    <style name="TwTextAppearanceEditText">
+        <item name="android:textSize">18.659973sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="TwCircleButtonPlus" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/tw_btn_circle</item>
+        <item name="android:src">@drawable/tw_btn_circle_plus_ss</item>
+    </style>
+    <style name="TwCircleButtonMinus" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/tw_btn_circle</item>
+        <item name="android:src">@drawable/tw_btn_circle_minus_ss</item>
+    </style>
+    <style name="TwCircleButtonPopUpPlus" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/tw_btn_circle_popup</item>
+        <item name="android:src">@drawable/tw_btn_circle_plus_ss</item>
+    </style>
+    <style name="TwCircleButtonPopUpMinus" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/tw_btn_circle_popup</item>
+        <item name="android:src">@drawable/tw_btn_circle_minus_ss</item>
+    </style>
+    <style name="TwIndepthButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/tw_btn_circle</item>
+        <item name="android:src">@drawable/tw_btn_indepth</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/tw_tab_indicator_bg_selector" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="-3.0dip" android:layout_marginRight="-3.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tw_icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/tw_title" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/tw_icon" android:layout_centerHorizontal="true" style="@style/TwTabWidget" />
+</RelativeLayout>

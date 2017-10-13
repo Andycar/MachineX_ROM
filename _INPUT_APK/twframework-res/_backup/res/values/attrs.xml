@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="twTabWidgetStyle" format="reference" />
+    <attr name="twRadioButtonStyle" format="reference" />
+    <attr name="twAlertDialogStyle" format="reference" />
+    <attr name="twSoftkeyItemStyle" format="reference" />
+    <attr name="twColorPickerStyle" format="reference" />
+    <attr name="twProgressBarStyle" format="reference" />
+    <attr name="twSeekBarStyle" format="reference" />
+    <attr name="fullDark" format="reference|color" />
+    <attr name="topDark" format="reference|color" />
+    <attr name="centerDark" format="reference|color" />
+    <attr name="bottomDark" format="reference|color" />
+    <attr name="fullBright" format="reference|color" />
+    <attr name="topBright" format="reference|color" />
+    <attr name="centerBright" format="reference|color" />
+    <attr name="bottomBright" format="reference|color" />
+    <attr name="bottomMedium" format="reference|color" />
+    <attr name="centerMedium" format="reference|color" />
+    <attr name="twMinWidth" format="dimension" />
+    <attr name="twMaxWidth" format="dimension" />
+    <attr name="twMinHeight" format="dimension" />
+    <attr name="twMaxHeight" format="dimension" />
+    <attr name="twMax" format="integer" />
+    <attr name="progress" format="integer" />
+    <attr name="secondaryProgress" format="integer" />
+    <attr name="twBackgroundDrawable" format="reference" />
+    <attr name="twProgressDrawable" format="reference" />
+    <attr name="twSecondaryDrawable" format="reference" />
+    <attr name="twBackgroundColor" format="reference" />
+    <attr name="twProgressColor" format="reference" />
+    <attr name="twSecondaryColor" format="reference" />
+    <attr name="twIndicatorThickness" format="dimension" />
+    <attr name="twProgressOrientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="twTextAppearanceLarge" format="reference" />
+    <attr name="twTextAppearanceMedium" format="reference" />
+    <attr name="twTextAppearanceSmall" format="reference" />
+    <attr name="checked" format="boolean" />
+    <attr name="buttonDrawable" format="reference" />
+    <attr name="buttonDrawablePaddingLeft" format="dimension" />
+    <attr name="buttonDrawablePaddingTop" format="dimension" />
+    <attr name="buttonDrawablePaddingRight" format="dimension" />
+    <attr name="buttonDrawablePaddingBottom" format="dimension" />
+    <attr name="buttonDrawableGravity">
+        <flag name="top" value="0x00000030" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="center" value="0x00000011" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="clip_horizontal" value="0x00000008" />
+    </attr>
+    <attr name="checkedButton" format="integer" />
+    <attr name="twIndexViewHandlePosition">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="twSoftkeyItemType">
+        <enum name="text" value="0" />
+        <enum name="image" value="1" />
+        <enum name="text_and_image" value="2" />
+        <enum name="space" value="3" />
+    </attr>
+    <attr name="twSoftkeyItemText" format="reference" />
+    <attr name="twSoftkeyItemImage" format="reference" />
+    <attr name="twSeekBarThumb" format="reference" />
+    <attr name="twSeekBarThumbOffset" format="dimension" />
+    <attr name="twSeekBarIncrement" format="integer" />
+    <attr name="twSeekBarDisableAlpha" format="float" />
+    <attr name="twSeekBarSeekable" format="boolean" />
+    <attr name="topBrightWhite" format="reference|color" />
+    <attr name="twSeekThumbFontColor" format="reference" />
+    <attr name="twSeekThumbFontSize" format="dimension" />
+    <attr name="twSeekThumbFontEnable" format="boolean" />
+    <attr name="twTabIndicatorType">
+        <enum name="text" value="0" />
+        <enum name="text_and_image" value="1" />
+    </attr>
+    <attr name="TwCircleButtonPlusStyle" format="reference" />
+    <attr name="TwCircleButtonMinusStyle" format="reference" />
+    <attr name="TwCircleButtonPopUpPlusStyle" format="reference" />
+    <attr name="TwCircleButtonPopUpMinusStyle" format="reference" />
+    <attr name="twWhiteStyleList" format="reference" />
+    <attr name="twIndexViewHandleColor" format="color" />
+    <attr name="twIndexViewHandleFirstHandleGap" format="integer" />
+    <attr name="twIndexViewHandleFirstHandleGapLand" format="integer" />
+    <attr name="twIndexViewHandleTopPadding" format="integer" />
+    <attr name="twIndexViewHandleTopPaddingLand" format="integer" />
+    <attr name="TwIndepthButtonStyle" format="reference" />
+    <attr name="listChoiceIndicatorMultiple" format="reference" />
+    <attr name="listChoiceIndicatorSingle" format="reference" />
+    <attr name="theme">
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+    </attr>
+    <attr name="twDualColorProgressDrawable" format="reference" />
+    <attr name="twDualColorProgressColor" format="reference" />
+    <attr name="dualcolorProgress" format="integer" />
+    <attr name="twIndexViewIndexInterval" format="integer" />
+    <attr name="twSeekThumbFontBoldStyle" format="boolean" />
+</resources>
