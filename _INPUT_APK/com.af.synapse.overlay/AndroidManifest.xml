@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.af.synapse.overlay" platformBuildVersionCode="21" platformBuildVersionName="5.0.1">
+    <overlay android:priority="100" android:targetPackage="com.af.synapse"/>
+    <meta-data android:name="rom" android:value="MachineX ROM"/>
+    <meta-data android:name="infoShort" android:value="Black theme"/>
+    <meta-data android:name="infoLong" android:value="This will change theme synapse app to a Black'n'Blue theme"/>
+    <meta-data android:name="author" android:value="Robcore and Andycar"/>
+</manifest>
