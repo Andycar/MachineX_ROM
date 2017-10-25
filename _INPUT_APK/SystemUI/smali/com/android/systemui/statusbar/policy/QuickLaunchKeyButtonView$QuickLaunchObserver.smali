@@ -68,6 +68,7 @@
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView$QuickLaunchObserver;->this$0:Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;
 
+    # getter for: Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mQuickLaunchMode:I
     invoke-static {v1}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->access$000(Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;)I
 
     move-result v1
@@ -76,16 +77,19 @@
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView$QuickLaunchObserver;->this$0:Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;
 
+    # setter for: Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mQuickLaunchMode:I
     invoke-static {v1, v0}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->access$002(Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;I)I
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView$QuickLaunchObserver;->this$0:Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView$QuickLaunchObserver;->this$0:Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;
 
+    # getter for: Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mQuickLaunchMode:I
     invoke-static {v2}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->access$000(Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;)I
 
     move-result v2
 
+    # invokes: Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->updateQuickLaunchKeyButton(I)V
     invoke-static {v1, v2}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->access$100(Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;I)V
 
     :cond_0

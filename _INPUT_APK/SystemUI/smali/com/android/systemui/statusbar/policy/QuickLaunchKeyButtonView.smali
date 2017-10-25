@@ -331,6 +331,10 @@
 
     invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
+
+    # invokes: Lcom/android/internal/policy/impl/PhoneWindowManager;->takeScreenshot()V
+    #invoke-static {v0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->access$1300(Lcom/android/internal/policy/impl/PhoneWindowManager;)V
+
     goto :goto_0
 .end method
 
@@ -381,9 +385,9 @@
     :cond_0
     new-instance v2, Landroid/content/ComponentName;
 
-    const-string v3, "com.google.android.googlequicksearchbox"
+    const-string v3, "com.devhomc.search"
 
-    const-string v4, "com.google.android.googlequicksearchbox.SearchActivity"
+    const-string v4, "com.devhomc.search.MainActivity"
 
     invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -446,8 +450,8 @@
     .end packed-switch
 .end method
 
-.method private onLongClickScreenCaptureButton()V
-    .locals 4
+.method private onLongClickScreenCaptureButton()V #For now, just launch ROM manager app from here
+   .locals 5
 
     const-string v2, "StatusBar.QuickLaunchKeyButtonView"
 
@@ -455,44 +459,41 @@
 
     invoke-static {v2, v3}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    iget-boolean v2, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mScreenCaptureOn:Z
-
-    if-nez v2, :cond_0
-
-    :goto_0
-    return-void
-
-    :cond_0
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
+    const-string v2, "android.intent.action.MAIN"
 
-    const/high16 v2, 0x10000000
+    invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const-string v2, "android.intent.category.LAUNCHER"
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+
+    const/high16 v2, 0x10200000
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    const-string v2, "com.sec.spen.flashannotatesvc"
+    new-instance v2, Landroid/content/ComponentName;
 
-    const-string v3, "com.sec.spen.flashannotatesvc.flashannotateservice"
+    const-string v3, "com.ficeto.customsettings"
 
-    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    const-string v4, "com.ficeto.customsettings.SettingsActivity"
 
-    const-string v2, "longpress"
+    invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    const/4 v3, 0x1
-
-    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_0
+    :goto_0
+    return-void
 
     :catch_0
     move-exception v0
@@ -562,7 +563,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f02061b
+    const v1, 0x7f02061b  #tw_ic_sysbar_capture
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -579,7 +580,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f02061c
+    const v1, 0x7f02061c   #tw_ic_sysbar_app
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -596,7 +597,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f02061d
+    const v1, 0x7f02061d	#tw_ic_sysbar_search
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -613,7 +614,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f02061e
+    const v1, 0x7f02061e	#0x7f02061e
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
