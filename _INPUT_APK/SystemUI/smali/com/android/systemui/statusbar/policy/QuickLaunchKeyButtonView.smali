@@ -305,35 +305,54 @@
 .end method
 
 .method private onClickScreenCaptureButton()V
-    .locals 3
+  .locals 5
 
-    const-string v1, "StatusBar.QuickLaunchKeyButtonView"
+    const-string v2, "StatusBar.QuickLaunchKeyButtonView"
 
-    const-string v2, "onClickScreenCaptureButton"
+    const-string v3, "onLongClickScreenCaptureButton"
 
-    invoke-static {v1, v2}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    iget-boolean v1, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mScreenCaptureOn:Z
+    :try_start_0
+    new-instance v1, Landroid/content/Intent;
 
-    if-nez v1, :cond_0
+    const-string v2, "android.intent.action.MAIN"
+
+    invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const-string v2, "android.intent.category.LAUNCHER"
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+
+    const/high16 v2, 0x10200000
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+
+    new-instance v2, Landroid/content/ComponentName;
+
+    const-string v3, "com.machinex.romcontrol"
+
+    const-string v4, "com.machinex.romcontrol.ScreenshotActivity"
+
+    invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :goto_0
     return-void
 
-    :cond_0
-    new-instance v0, Landroid/content/Intent;
+    :catch_0
+    move-exception v0
 
-    const-string v1, "android.intent.action.TOUCH_CAPTURE_BTN"
-
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/QuickLaunchKeyButtonView;->mContext:Landroid/content/Context;
-
-    invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
-
-
-    # invokes: Lcom/android/internal/policy/impl/PhoneWindowManager;->takeScreenshot()V
-    #invoke-static {v0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->access$1300(Lcom/android/internal/policy/impl/PhoneWindowManager;)V
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
 .end method

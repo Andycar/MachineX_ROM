@@ -452,9 +452,9 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v1, "ru.machinex.andycar.bluefilter"
-
-    const-string v2, "net.dinglisch.android.tasker.Kid"
+    const-string v1, "com.machinex.romcontrol"
+	
+    const-string v2, "com.machinex.romcontrol.BlueFilterActivity"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
