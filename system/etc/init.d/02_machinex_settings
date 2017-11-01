@@ -21,6 +21,6 @@ echo "SQLite operations on settings.db finished at $( date +"%m-%d-%Y %H:%M:%S" 
 
 pm disable com.android.settings/com.android.settings.wifi.hs20.Hs20UtilityService
 pm disable com.android.settings/com.android.settings.wifi.WifiCredService
-pm disable ru.machinex.andycar.bluefilter/net.dinglisch.android.tasker.MonitorService
+# pm disable ru.machinex.andycar.bluefilter/net.dinglisch.android.tasker.MonitorService
 
 echo "pm disable services operations  finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;

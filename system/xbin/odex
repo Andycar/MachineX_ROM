@@ -55,10 +55,6 @@ for file in $list; do
             core-libart.jar|conscrypt.jar|okhttp.jar|core-junit.jar|bouncycastle.jar|ext.jar|framework.jar|telephony-common.jar|voip-common.jar|ims-common.jar|mms-common.jar|android.policy.jar|apache-xml.jar|sec_edm.jar|seccamera.jar|scrollpause.jar|stayrotation.jar|smartfaceservice.jar|smartbondingservice.jar|commonimsinterface.jar|imsmanager.jar|secocsp.jar|secEmailBC.jar|knoxvpnuidtag.jar)
               echo "$noPath is a core framework file, skipping";
               continue;;
-		  case $noPath in
-			cneapiclient.jar|com.quicinc.cne.jar)
-			echo "$noPath is a framework file w/o classes.dex, skipping";
-            continue;;
           esac;
         fi;
         if [ -f $odexFile ]; then
