@@ -1,9 +1,9 @@
 # MachineX_ROM
 
-MachineX ROM Mark 4.1 (5th of Oct 2017) - 3rd First public release version
+MachineX ROM Mark 4.1 (31st of Oct 2017) - 3rd public release version
 
 - Patched SecSettings SysScope Status to show status "official" always
-- Added Blue Light Filter in Quick Settings (togglable, only work with machinex kernel ;-)
+- Added Blue Light Filter in Quick Settings (togglable, only work with machinex kernel 
 - Added UPSM by patching SecSettings and serives.jar (also 3 Emergency* system apps were added)
 - Fixed Torchlight dialog in SecSettings (torchlight_settings xml)
 - Patched SecSettings to accept any FlipFont (duh... again as in QA1)
@@ -24,7 +24,8 @@ MachineX ROM Mark 4.1 (5th of Oct 2017) - 3rd First public release version
 - Updated WebViewGoogle to the latest version (61.0.3163.98)
 - Updated Google Play Store to the version 8.2.38.T-all [0] [FP] 169346653
 - Updated Google Play services for instant apps (FAKE) to v.9999999 (no more "updating..." msg)
-- Added the latest official Samsung Internet Browser (v.  6.0.01.10) with night mode
+- Updated Samsung Music app to version 16.2.06.11
+- Added the latest official Samsung Internet Browser (v. 6.0.01.10) with night mode
 - Added Adguard Content Blocker(Version: 1.7.0) for Samsung Internet Browser
 - Added and corrected black layer for Samsung Internet Browser
 - Added SPenSdk3 3.0.224 (fixed drawing on pictures bug)
@@ -33,14 +34,15 @@ MachineX ROM Mark 4.1 (5th of Oct 2017) - 3rd First public release version
 - Updated Black_n_Blue layer theme with the latest overlays package
 - Updated dark overlays for Sec MMS app (no more low contrast colors)
 - Added Google Play Store black overlay
+- Added widget (Google Search round corners)
+- Added Machinex ROM control app (initial version)
 - Updated some more dark and black global overlays for Android/Touchwiz frameworks
-- Added automatic brightness adjustment with zero delay
-- Removed startDozingInternal call from services.jar (no more wakelocks from DreamManagerService)
 - Removed Google voice input app from the ROM
-- Removed settings.db (com.android.system.providers) and supersu data (depricated)
 - Fixed SGUSBMassStorageEnabler (by mohammadag) ExtSdCard export ability ("/dev/block/vold/179:33")
 - Added shutdown for Bluetooth Gatt service (temporary fix for BlueBorne, requires machinex kernel)
+- Adde the latest machinex kernel Mark One Hundred
 - Added some cleanup and integration in ROM-specific init.d scripts
+
 - !!!IMPORANT Changed supersu (system-based) to magisk (systemless)
 - !!!IMPORANT - Do not install TWRP's SuperSU after installation (no need)
 
