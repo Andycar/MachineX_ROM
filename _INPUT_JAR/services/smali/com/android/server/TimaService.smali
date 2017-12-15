@@ -3355,124 +3355,21 @@
     goto :goto_8d
 .end method
 
-.method public declared-synchronized checkEvent(II)Ljava/lang/String;
-    .registers 7
-    .param p1, "operation"    # I
-    .param p2, "subject"    # I
+.method public checkEvent(II)Ljava/lang/String;
+    .registers 4
+    .param p1, "n"    # I
+    .param p2, "n2"    # I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
 
     .prologue
-    .line 327
-    monitor-enter p0
-
-    :try_start_1
-    const-string v1, "TimaService"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "TIMA: checkEvent, operation: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " subject: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 330
-    iget-object v1, p0, Lcom/android/server/TimaService;->mContext:Landroid/content/Context;
-
-    const-string/jumbo v2, "power"
-
-    invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/os/PowerManager;
-
-    iput-object v1, p0, Lcom/android/server/TimaService;->mPowerManager:Landroid/os/PowerManager;
-
-    .line 331
-    iget-object v1, p0, Lcom/android/server/TimaService;->mPowerManager:Landroid/os/PowerManager;
-
-    const/4 v2, 0x1
-
-    const-string v3, "TimaService"
-
-    invoke-virtual {v1, v2, v3}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lcom/android/server/TimaService;->mWakeLock:Landroid/os/PowerManager$WakeLock;
-
-    .line 333
-    invoke-direct {p0, p1, p2}, Lcom/android/server/TimaService;->validateRequest(II)Z
-    :try_end_3e
-    .catchall {:try_start_1 .. :try_end_3e} :catchall_56
-
-    move-result v1
-
-    if-nez v1, :cond_44
-
+    .line 300
     const/4 v0, 0x0
 
-    .line 341
-    :goto_42
-    monitor-exit p0
-
     return-object v0
-
-    .line 335
-    :cond_44
-    :try_start_44
-    iget-object v1, p0, Lcom/android/server/TimaService;->mWakeLock:Landroid/os/PowerManager$WakeLock;
-
-    invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->acquire()V
-
-    .line 336
-    invoke-static {p1, p2}, Lcom/android/server/TimaService;->timaCheckEvent(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 337
-    .local v0, "timaResult":Ljava/lang/String;
-    iget-object v1, p0, Lcom/android/server/TimaService;->mWakeLock:Landroid/os/PowerManager$WakeLock;
-
-    invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->release()V
-
-    .line 339
-    invoke-virtual {p0, v0}, Lcom/android/server/TimaService;->displayEvent(Ljava/lang/String;)V
-    :try_end_55
-    .catchall {:try_start_44 .. :try_end_55} :catchall_56
-
-    goto :goto_42
-
-    .line 327
-    .end local v0    # "timaResult":Ljava/lang/String;
-    :catchall_56
-    move-exception v1
-
-    monitor-exit p0
-
-    throw v1
 .end method
 
 .method public declared-synchronized checkHistory(II)Ljava/lang/String;
