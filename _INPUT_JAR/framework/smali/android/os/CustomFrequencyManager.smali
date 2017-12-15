@@ -1488,50 +1488,17 @@
 .end method
 
 .method public newFrequencyRequest(IIJLjava/lang/String;Landroid/content/Context;)Landroid/os/CustomFrequencyManager$FrequencyRequest;
-    .registers 10
-    .param p1, "type"    # I
-    .param p2, "frequency"    # I
-    .param p3, "timeout"    # J
-    .param p5, "pkgName"    # Ljava/lang/String;
-    .param p6, "context"    # Landroid/content/Context;
+    .registers 8
+    .param p1, "n"    # I
+    .param p2, "n2"    # I
+    .param p3, "n3"    # J
+    .param p5, "s"    # Ljava/lang/String;
+    .param p6, "mContext"    # Landroid/content/Context;
 
     .prologue
-    .line 643
-    sget-object v2, Landroid/os/CustomFrequencyManager;->lock:Ljava/lang/Object;
-
-    monitor-enter v2
-
-    .line 644
-    :try_start_3
-    sput-object p6, Landroid/os/CustomFrequencyManager;->mContext:Landroid/content/Context;
-
-    .line 645
-    invoke-direct/range {p0 .. p5}, Landroid/os/CustomFrequencyManager;->newFrequencyRequest(IIJLjava/lang/String;)Landroid/os/CustomFrequencyManager$FrequencyRequest;
-
-    move-result-object v0
-
-    .line 646
-    .local v0, "req":Landroid/os/CustomFrequencyManager$FrequencyRequest;
-    const/4 v1, 0x0
-
-    sput-object v1, Landroid/os/CustomFrequencyManager;->mContext:Landroid/content/Context;
-
-    .line 647
-    monitor-exit v2
-
-    .line 648
-    return-object v0
-
-    .line 647
-    .end local v0    # "req":Landroid/os/CustomFrequencyManager$FrequencyRequest;
-    :catchall_e
-    move-exception v1
-
-    monitor-exit v2
-    :try_end_10
-    .catchall {:try_start_3 .. :try_end_10} :catchall_e
-
-    throw v1
+    const/4 v0, 0x0
+	
+	return-object v0
 .end method
 
 .method public notifyWmAniationState(JZ)V
