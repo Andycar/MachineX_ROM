@@ -6535,17 +6535,9 @@
     .registers 6
     .param p1, "powerSharing"    # Z
 
-    .prologue
-    .line 1285
-    const-string v0, "/sys/class/power_supply/ps/status"
+    const/4 v0, 0x0
 
-    const-wide/16 v2, 0x0
-
-    invoke-virtual {p0, v0, v2, v3, p1}, Lcom/android/server/BatteryService;->writeToFile(Ljava/lang/String;JZ)Z
-
-    move-result v0
-
-    return v0
+    return-object v0
 .end method
 
 .method writeToFile(Ljava/lang/String;JZ)Z
