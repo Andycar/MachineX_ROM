@@ -1,9 +1,22 @@
 # MachineX_ROM
 
+MachineX ROM Mark 4.2 (Jan 2018)
+- Improved visibility of text and icons in status bar (without transparency)
+- Disabled Power Sharing enable from framework
+- Disabled TIMA (force com.android.server.TimaService.checkEvent to  return null)
+- Added SysScope.apk (hacked) always returing official status
+- Updated Google Play Store to the version 8.5.39.W-all [0] [PR] 178322352
+- Updated Google Play services to 11.9.51 (238-177350961)
+- Updated WebViewGoogle to the latest version 63.0.3239.111
+- Addons: Updated microG Services Core to version 0.2.4-107-g0596d2c
+- Recompiled the whole ROM with new ART / odex cache because of changes in framework
+- Updated  Magisk to v15.2
+
+ 
 MachineX ROM Mark 4.1 (31st of Oct 2017) - 3rd public release version
 
 - Patched SecSettings SysScope Status to show status "official" always
-- Added Blue Light Filter in Quick Settings (togglable, only work with machinex kernel 
+- Added Blue Light Filter in Quick Settings (togglable, only work with machinex kernel) 
 - Added UPSM by patching SecSettings and serives.jar (also 3 Emergency* system apps were added)
 - Fixed Torchlight dialog in SecSettings (torchlight_settings xml)
 - Patched SecSettings to accept any FlipFont (duh... again as in QA1)
