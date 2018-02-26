@@ -1,18 +1,29 @@
 # MachineX_ROM
 
-MachineX ROM Mark 4.2 (Jan 2018)
-- Improved visibility of text and icons in status bar (without transparency)
-- Disabled Power Sharing enable from framework
-- Disabled TIMA (force com.android.server.TimaService.checkEvent to  return null)
-- Added SysScope.apk (hacked) always returing official status
-- Updated Google Play Store to the version 8.5.39.W-all [0] [PR] 178322352
-- Updated Google Play services to 11.9.51 (238-177350961)
-- Updated WebViewGoogle to the latest version 63.0.3239.111
-- Addons: Updated microG Services Core to version 0.2.4-107-g0596d2c
-- Recompiled the whole ROM with new ART / odex cache because of changes in framework
-- Updated  Magisk to v15.2
+MachineX ROM Mark 4.3 (Feb 2018) - 4th public release version
 
- 
+- Updated ROM base to the latest I9505XXUHQK1 base (Samsung Nov 2017 build) with all previous tweaks
+- Updated some colors, icons, animations and layouts in framework-res.apk (Thanks to Lenny Bard)
+- Updated icons in AccuWeather widget (Thanks to Lenny Bard)
+- Updated Google Play Store to the version 9.0.15-all [0] [PR] 186388994
+- Updated Google Play services to version 12.2.17 (238-186052348)
+- Updated WebViewGoogle to the latest version 64.0.3282.137
+- Updated Samsung Internet Browser to version 7.0.10.46
+- Updated Samsung Music app to version 16.2.08.22
+- Updated AdGuard Content Blocker to version 2.0.2
+- Improved visibility of text and icons in status bar (without transparency)
+- Disabled Samsung Battery Power Sharing service and wakelocks in the framework
+- Disabled Samsung Dynamic Frequency manager service (DVFS) and wakelocks in the framework
+- Disabled Samsung checks in TIMA (force com.android.server.TimaService.checkEvent to  return null)
+- Disabled Compare Signatures method in services.jar
+- Added SysScope.apk (hacked) - always returning official status
+- Addons: Updated microG Services Core to version 0.2.4-108
+- Rebuilt the ART cache for the whole ROM (reodexed) because of changes in framework
+- Optimized internal reodexing process and scripts
+- Reverted to white UI theme by default (Black'n'Blue theme can be applied via Layers app)
+- Updated  Magisk to v16.0
+
+
 MachineX ROM Mark 4.1 (31st of Oct 2017) - 3rd public release version
 
 - Patched SecSettings SysScope Status to show status "official" always
