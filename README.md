@@ -1,5 +1,6 @@
 # MachineX_ROM
 
+MachineX ROM Mark 4.3 (Feb 2018) - 4th public release version
 
 - Updated ROM base to the latest I9505XXUHQK1 base (Samsung Nov 2017 build) with all previous tweaks
 - Updated some colors, icons, animations and layouts in framework-res.apk (Thanks to Lenny Bard)
