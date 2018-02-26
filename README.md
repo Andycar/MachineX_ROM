@@ -1,6 +1,5 @@
 # MachineX_ROM
 
-MachineX ROM Mark 4.3 (Feb 2018) - 4th public release version
 
 - Updated ROM base to the latest I9505XXUHQK1 base (Samsung Nov 2017 build) with all previous tweaks
 - Updated some colors, icons, animations and layouts in framework-res.apk (Thanks to Lenny Bard)
@@ -10,19 +9,20 @@ MachineX ROM Mark 4.3 (Feb 2018) - 4th public release version
 - Updated WebViewGoogle to the latest version 64.0.3282.137
 - Updated Samsung Internet Browser to version 7.0.10.46
 - Updated Samsung Music app to version 16.2.08.22
-- Updated AdGuard Content Blocker to version 2.0.2
+- Updated AdGuard Content Blocker to version 2.1.2
 - Improved visibility of text and icons in status bar (without transparency)
 - Disabled Samsung Battery Power Sharing service and wakelocks in the framework
 - Disabled Samsung Dynamic Frequency manager service (DVFS) and wakelocks in the framework
 - Disabled Samsung checks in TIMA (force com.android.server.TimaService.checkEvent to  return null)
 - Disabled Compare Signatures method in services.jar
 - Added SysScope.apk (hacked) - always returning official status
+- Fixed SGUSBMassStorageEnabler (again) ExtSdCard export ability ("/dev/block/vold/179:33")
 - Addons: Updated microG Services Core to version 0.2.4-108
 - Rebuilt the ART cache for the whole ROM (reodexed) because of changes in framework
 - Optimized internal reodexing process and scripts
-- Reverted to white UI theme by default (Black'n'Blue theme can be applied via Layers app)
+- Added my own MachineX ROM control app (Work in Progress)
+- Removed init.d scripts; the system will now be able to create ART cache by its own, always!
 - Updated  Magisk to v16.0
-
 
 MachineX ROM Mark 4.1 (31st of Oct 2017) - 3rd public release version
 
